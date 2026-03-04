@@ -16,8 +16,8 @@
 
         {{-- Sidebar --}}
         <div class="nav-header">
-            <a href="{{ route('admin.dashboard') }}" class="brand-logo">
-                <span class="brand-title">AZUBI Admin</span>
+            <a href="{{ route('backoffice.dashboard') }}" class="brand-logo">
+                <span class="brand-title">AZUBI Backoffice</span>
             </a>
         </div>
 

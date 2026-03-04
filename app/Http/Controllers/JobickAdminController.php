@@ -12,14 +12,14 @@ class JobickAdminController extends Controller
     public function dashboard(){
         $page_title = 'Dashboard';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.index', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.index', compact('page_title', 'page_description'));
     }
 	
 	// Dashboard 2
 	public function dashboard_2(){
         $page_title = 'Dashboard';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.index_2', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.index_2', compact('page_title', 'page_description'));
     }
 	
 	// order-list 
@@ -27,7 +27,7 @@ class JobickAdminController extends Controller
 	public function jobs_page(){
         $page_title = 'Search Jobs';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.jobs_page', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.jobs_page', compact('page_title', 'page_description'));
     }
 	
 	// order-details 
@@ -35,64 +35,64 @@ class JobickAdminController extends Controller
 	public function application_page(){
         $page_title = 'Applications';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.application_page', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.application_page', compact('page_title', 'page_description'));
     }
 	// customer list
 	
 	public function my_profile(){
         $page_title = 'My Profile';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.my_profile', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.my_profile', compact('page_title', 'page_description'));
     }
 
     // statistics Page
 	public function job_list(){
         $page_title = 'Job List';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.job_list', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.job_list', compact('page_title', 'page_description'));
     }
 
     // Job view
 	public function job_view(){
         $page_title = 'Job View';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.job_view', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.job_view', compact('page_title', 'page_description'));
     }
     // new  job
 	public function new_job(){
         $page_title = 'New Job';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.new_job', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.new_job', compact('page_title', 'page_description'));
     }
     // statistics_page 
 	public function statistics_page (){
         $page_title = 'Statistics';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.statistics_page ', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.statistics_page ', compact('page_title', 'page_description'));
     }
     // compaines 
 	public function companies(){
         $page_title = 'Companies';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.companies ', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.companies ', compact('page_title', 'page_description'));
     }
     // compaines 
 	public function job_application(){
         $page_title = 'Job Application';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.job_application', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.job_application', compact('page_title', 'page_description'));
     }
     // apply_job 
 	public function apply_job(){
         $page_title = 'Apply Job';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.apply_job', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.apply_job', compact('page_title', 'page_description'));
     }
     // apply_job 
 	public function user_profile(){
         $page_title = 'User Profile';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.user_profile', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.user_profile', compact('page_title', 'page_description'));
     }
 	
 	// analytics 
@@ -100,13 +100,13 @@ class JobickAdminController extends Controller
 	public function celandar(){
         $page_title = 'Celandar';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.celandar', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.celandar', compact('page_title', 'page_description'));
     }
 
     public function chat(){
         $page_title = 'Chat';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.chat', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.chat', compact('page_title', 'page_description'));
     }
 	
 	// Reviews 
@@ -114,14 +114,14 @@ class JobickAdminController extends Controller
 	public function activity(){
         $page_title = 'Activity';
         $page_description = $this->page_description();
-        return view('jobick.dashboard.activity', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.dashboard.activity', compact('page_title', 'page_description'));
     }
 	// app-calender 
 	
 	public function app_calender(){
         $page_title = 'Calender';
         $page_description = $this->page_description();
-        return view('jobick.app.calender', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.app.calender', compact('page_title', 'page_description'));
     }
 	
 	// app-profile-1
@@ -129,12 +129,12 @@ class JobickAdminController extends Controller
 	public function app_profile(){
         $page_title = 'App Profile';
         $page_description = $this->page_description();
-        return view('jobick.app.profile', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.app.profile', compact('page_title', 'page_description'));
     }
 	public function edit_profile(){
         $page_title = 'Edit Profile';
         $page_description = $this->page_description();
-        return view('jobick.app.edit_profile', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.app.edit_profile', compact('page_title', 'page_description'));
     }
 	
 	// blog
@@ -142,7 +142,7 @@ class JobickAdminController extends Controller
 	public function blog(){
         $page_title = 'Blog';
         $page_description = $this->page_description();
-        return view('jobick.cms.blog', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.blog', compact('page_title', 'page_description'));
     }
 	
 	// add catagery
@@ -150,7 +150,7 @@ class JobickAdminController extends Controller
 	public function blog_category(){
         $page_title = 'Blog Category';
         $page_description = $this->page_description();
-        return view('jobick.cms.blog_category', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.blog_category', compact('page_title', 'page_description'));
     }
 	
 	// chart-chartist
@@ -158,7 +158,7 @@ class JobickAdminController extends Controller
 	public function chart_chartist(){
         $page_title = 'Chart Chartlist';
         $page_description = $this->page_description();
-        return view('jobick.chart.chartist', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.chart.chartist', compact('page_title', 'page_description'));
     }
 	
 	// chart-chartjs
@@ -166,7 +166,7 @@ class JobickAdminController extends Controller
 	public function chart_chartjs(){
         $page_title = 'Chart Chartjs';
         $page_description = $this->page_description();
-        return view('jobick.chart.chartjs', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.chart.chartjs', compact('page_title', 'page_description'));
     }
 	
 	// chart-flot
@@ -174,7 +174,7 @@ class JobickAdminController extends Controller
 	public function chart_flot(){
         $page_title = 'Chart Flot';
         $page_description = $this->page_description();
-        return view('jobick.chart.flot', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.chart.flot', compact('page_title', 'page_description'));
     }
 	
 	// chart-morris
@@ -182,7 +182,7 @@ class JobickAdminController extends Controller
 	public function chart_morris(){
         $page_title = 'Chart Morris';
         $page_description = $this->page_description();
-        return view('jobick.chart.morris', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.chart.morris', compact('page_title', 'page_description'));
     }
 	
 	// chart-sparkline
@@ -190,7 +190,7 @@ class JobickAdminController extends Controller
 	public function chart_sparkline(){
         $page_title = 'Chart Sparkline';
         $page_description = $this->page_description();
-        return view('jobick.chart.sparkline', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.chart.sparkline', compact('page_title', 'page_description'));
     }
 	
 	
@@ -199,7 +199,7 @@ class JobickAdminController extends Controller
 	public function chart_peity(){
         $page_title = 'Chart Peity';
         $page_description = $this->page_description();
-        return view('jobick.chart.peity', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.chart.peity', compact('page_title', 'page_description'));
     }
 	
 	// Contant
@@ -207,7 +207,7 @@ class JobickAdminController extends Controller
 	public function content(){
         $page_title = 'Content';
         $page_description = $this->page_description();
-        return view('jobick.cms.content', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.content', compact('page_title', 'page_description'));
     }
 	
 	// Add content
@@ -215,7 +215,7 @@ class JobickAdminController extends Controller
 	public function content_add(){
         $page_title = 'Add Content';
         $page_description = $this->page_description();
-        return view('jobick.cms.content_add', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.content_add', compact('page_title', 'page_description'));
     }
 
 	// add_email
@@ -223,14 +223,14 @@ class JobickAdminController extends Controller
 	public function add_email(){
         $page_title = 'Add Email';
         $page_description = $this->page_description();
-        return view('jobick.cms.add_email', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.add_email', compact('page_title', 'page_description'));
     }
 	// add_email
 	
 	public function add_blog(){
         $page_title = 'Add Blog';
         $page_description = $this->page_description();
-        return view('jobick.cms.add_blog ', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.add_blog ', compact('page_title', 'page_description'));
     }
 	
 	// ecom-checkout
@@ -238,7 +238,7 @@ class JobickAdminController extends Controller
 	public function ecom_checkout(){
         $page_title = 'Ecom Checkout';
         $page_description = $this->page_description();
-        return view('jobick.ecom.checkout', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ecom.checkout', compact('page_title', 'page_description'));
     }
 	
 	// ecom-customers
@@ -246,7 +246,7 @@ class JobickAdminController extends Controller
 	public function ecom_customers(){
         $page_title = 'Customers';
         $page_description = $this->page_description();
-        return view('jobick.ecom.customers', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ecom.customers', compact('page_title', 'page_description'));
     }
 	
 	// ecom-invoice
@@ -254,7 +254,7 @@ class JobickAdminController extends Controller
 	public function ecom_invoice(){
         $page_title = 'Invoice';
         $page_description = $this->page_description();
-        return view('jobick.ecom.invoice', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ecom.invoice', compact('page_title', 'page_description'));
     }
 	
 	// ecom-product-detail
@@ -262,7 +262,7 @@ class JobickAdminController extends Controller
 	public function ecom_product_detail(){
         $page_title = 'Product Detai';
         $page_description = $this->page_description();
-        return view('jobick.ecom.product_detail', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ecom.product_detail', compact('page_title', 'page_description'));
     }
 	
 	// ecom-product-grid
@@ -270,7 +270,7 @@ class JobickAdminController extends Controller
 	public function ecom_product_grid(){
         $page_title = 'Product Grid';
         $page_description = $this->page_description();
-        return view('jobick.ecom.product_grid', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ecom.product_grid', compact('page_title', 'page_description'));
     }
 	
 	// ecom-product-list
@@ -278,7 +278,7 @@ class JobickAdminController extends Controller
 	public function ecom_product_list(){
         $page_title = 'Product List';
         $page_description = $this->page_description();
-        return view('jobick.ecom.product_list', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ecom.product_list', compact('page_title', 'page_description'));
     }
 	
 	// ecom-product-order
@@ -286,7 +286,7 @@ class JobickAdminController extends Controller
 	public function ecom_product_order(){
         $page_title = 'Product Order';
         $page_description = $this->page_description();
-        return view('jobick.ecom.product_order', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ecom.product_order', compact('page_title', 'page_description'));
     }
 
 	
@@ -295,7 +295,7 @@ class JobickAdminController extends Controller
 	public function email_compose(){
         $page_title = 'Email Compose';
         $page_description = $this->page_description();
-        return view('jobick.message.compose', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.message.compose', compact('page_title', 'page_description'));
     }
 	
 	//email-inbox
@@ -303,7 +303,7 @@ class JobickAdminController extends Controller
 	public function email_inbox(){
         $page_title = 'Email Inbox';
         $page_description = $this->page_description();
-        return view('jobick.message.inbox', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.message.inbox', compact('page_title', 'page_description'));
     }
 	
 	//email-read
@@ -311,7 +311,7 @@ class JobickAdminController extends Controller
 	public function email_read(){
         $page_title = 'Email Read';
         $page_description = $this->page_description();
-        return view('jobick.message.read', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.message.read', compact('page_title', 'page_description'));
     }
 	
 	//email-template
@@ -319,7 +319,7 @@ class JobickAdminController extends Controller
 	public function email_template(){
         $page_title = 'Email Template';
         $page_description = $this->page_description();
-        return view('jobick.cms.email_template', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.email_template', compact('page_title', 'page_description'));
     }
 	
 	//empty-page
@@ -327,7 +327,7 @@ class JobickAdminController extends Controller
 	public function empty_page(){
         $page_title = 'Empty Page';
         $page_description = $this->page_description();
-        return view('jobick.page.empty_page', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.empty_page', compact('page_title', 'page_description'));
     }
 	
 	//Flat icon
@@ -335,14 +335,14 @@ class JobickAdminController extends Controller
 	public function flat_icons(){
         $page_title = 'Flaticon Icons';
         $page_description = $this->page_description();
-        return view('jobick.icon.flat_icons', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.icon.flat_icons', compact('page_title', 'page_description'));
     }
 
     //feather icon
     public function feather(){
         $page_title = 'Feather Icons';
         $page_description = $this->page_description();
-        return view('jobick.icon.feather', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.icon.feather', compact('page_title', 'page_description'));
     }
 	
 	//form-ckeditor
@@ -350,7 +350,7 @@ class JobickAdminController extends Controller
 	public function form_ckeditor(){
         $page_title = 'Form Ckeditor';
         $page_description = $this->page_description();
-        return view('jobick.form.ckeditor', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.form.ckeditor', compact('page_title', 'page_description'));
     }
 	
 	//form-summernote
@@ -358,7 +358,7 @@ class JobickAdminController extends Controller
 	public function form_editor_summernote(){
         $page_title = 'Ckeditor';
         $page_description = $this->page_description();
-        return view('jobick.form.editor_summernote', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.form.editor_summernote', compact('page_title', 'page_description'));
     }
 	
 	//form-element
@@ -366,7 +366,7 @@ class JobickAdminController extends Controller
 	public function form_element(){
         $page_title = 'Form Element';
         $page_description = $this->page_description();
-        return view('jobick.form.element', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.form.element', compact('page_title', 'page_description'));
     }
 	
 	//form-pickers
@@ -374,7 +374,7 @@ class JobickAdminController extends Controller
 	public function form_pickers(){
         $page_title = 'Form Pickers';
         $page_description = $this->page_description();
-        return view('jobick.form.pickers', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.form.pickers', compact('page_title', 'page_description'));
     }
 	
 	//form-validation
@@ -382,7 +382,7 @@ class JobickAdminController extends Controller
 	public function form_validation(){
         $page_title = 'Form validation';
         $page_description = $this->page_description();
-        return view('jobick.form.validation', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.form.validation', compact('page_title', 'page_description'));
     }
 	
 	//form-wizard
@@ -390,7 +390,7 @@ class JobickAdminController extends Controller
 	public function login(){
         $page_title = 'Login';
         $page_description = $this->page_description();
-        return view('jobick.page.login', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.login', compact('page_title', 'page_description'));
     }
 	
 	//login
@@ -398,7 +398,7 @@ class JobickAdminController extends Controller
 	public function form_wizard(){
         $page_title = 'Form wizard';
         $page_description = $this->page_description();
-        return view('jobick.form.wizard', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.form.wizard', compact('page_title', 'page_description'));
     }
 	
 	//menu
@@ -406,7 +406,7 @@ class JobickAdminController extends Controller
 	public function menu(){
         $page_title = 'Menu';
         $page_description = $this->page_description();
-        return view('jobick.cms.menu', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.cms.menu', compact('page_title', 'page_description'));
     }
 	
 	//ap-jqvmap
@@ -414,7 +414,7 @@ class JobickAdminController extends Controller
 	public function map_jqvmap(){
         $page_title = 'Jqvmap';
         $page_description = $this->page_description();
-        return view('jobick.map.jqvmap', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.map.jqvmap', compact('page_title', 'page_description'));
     }
 	
 	
@@ -423,7 +423,7 @@ class JobickAdminController extends Controller
 	public function page_error_400(){
         $page_title = 'Page Error 400';
         $page_description = $this->page_description();
-        return view('jobick.page.error_400', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.error_400', compact('page_title', 'page_description'));
     }
 	
 	//page-error-403
@@ -431,7 +431,7 @@ class JobickAdminController extends Controller
 	public function page_error_403(){
         $page_title = 'Page Error 403';
         $page_description = $this->page_description();
-        return view('jobick.page.error_403', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.error_403', compact('page_title', 'page_description'));
     }
 	
 	//page-error-404
@@ -439,7 +439,7 @@ class JobickAdminController extends Controller
 	public function page_error_404(){
         $page_title = 'Page Error 404';
         $page_description = $this->page_description();
-        return view('jobick.page.error_404', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.error_404', compact('page_title', 'page_description'));
     }
 	
 	//page-error-500
@@ -447,7 +447,7 @@ class JobickAdminController extends Controller
 	public function page_error_500(){
         $page_title = 'Page Error 500';
         $page_description = $this->page_description();
-        return view('jobick.page.error_500', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.error_500', compact('page_title', 'page_description'));
     }
 	
 	//page-error-503
@@ -455,7 +455,7 @@ class JobickAdminController extends Controller
 	public function page_error_503(){
         $page_title = 'Page Error 503';
         $page_description = $this->page_description();
-        return view('jobick.page.error_503', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.error_503', compact('page_title', 'page_description'));
     }
 	
 	//page-forgot-password
@@ -463,7 +463,7 @@ class JobickAdminController extends Controller
 	public function page_forgot_password(){
         $page_title = 'Page Forgot Password';
         $page_description = $this->page_description();
-        return view('jobick.page.forgot_password', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.forgot_password', compact('page_title', 'page_description'));
     }
 	
 	//page-lock-screen
@@ -471,7 +471,7 @@ class JobickAdminController extends Controller
 	public function page_lock_screen(){
         $page_title = 'Page Lock Screen';
         $page_description = $this->page_description();
-        return view('jobick.page.lock_screen', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.lock_screen', compact('page_title', 'page_description'));
     }
 	
 	//page-login
@@ -479,7 +479,7 @@ class JobickAdminController extends Controller
 	public function page_login(){
         $page_title = 'Page Login';
         $page_description = $this->page_description();
-        return view('jobick.page.login', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.login', compact('page_title', 'page_description'));
     }
 	
 	//page-register
@@ -487,7 +487,7 @@ class JobickAdminController extends Controller
 	public function page_register(){
         $page_title = 'Page Register';
         $page_description = $this->page_description();
-        return view('jobick.page.register', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.page.register', compact('page_title', 'page_description'));
     }
 	
 	//svg
@@ -495,7 +495,7 @@ class JobickAdminController extends Controller
 	public function svg_icons(){
         $page_title = 'Svg Icons';
         $page_description = $this->page_description();
-        return view('jobick.icon.svg_icons', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.icon.svg_icons', compact('page_title', 'page_description'));
     }
 	
 	//svg icon
@@ -503,14 +503,14 @@ class JobickAdminController extends Controller
 	public function post_details(){
         $page_title = 'Post Details';
         $page_description = $this->page_description();
-        return view('jobick.app.post_details', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.app.post_details', compact('page_title', 'page_description'));
     }
 	
 	//table-bootstrap-basic
 	public function table_bootstrap_basic(){
         $page_title = 'Bootstrap Basic';
         $page_description = $this->page_description();
-        return view('jobick.table.bootstrap_basic', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.table.bootstrap_basic', compact('page_title', 'page_description'));
     }
 	
 	//table-datatable-basic
@@ -518,7 +518,7 @@ class JobickAdminController extends Controller
 	public function table_datatable_basic(){
         $page_title = 'Datatable Basic';
         $page_description = $this->page_description();
-        return view('jobick.table.datatable_basic', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.table.datatable_basic', compact('page_title', 'page_description'));
     }
 	
 	//uc-lightgallery
@@ -526,7 +526,7 @@ class JobickAdminController extends Controller
 	public function uc_lightgallery(){
         $page_title = 'Light Gallery';
         $page_description = $this->page_description();
-        return view('jobick.uc.lightgallery', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.uc.lightgallery', compact('page_title', 'page_description'));
     }
 	
 	//uc-nestable
@@ -534,7 +534,7 @@ class JobickAdminController extends Controller
 	public function uc_nestable(){
         $page_title = 'Nestable';
         $page_description = $this->page_description();
-        return view('jobick.uc.nestable', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.uc.nestable', compact('page_title', 'page_description'));
     }
 	
 	//uc-noui-slider
@@ -542,7 +542,7 @@ class JobickAdminController extends Controller
 	public function uc_noui_slider(){
         $page_title = 'Noui Slider';
         $page_description = $this->page_description();
-        return view('jobick.uc.noui_slider', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.uc.noui_slider', compact('page_title', 'page_description'));
     }
 	
 	//uc-select2
@@ -550,7 +550,7 @@ class JobickAdminController extends Controller
 	public function uc_select2(){
         $page_title = 'Select2';
         $page_description = $this->page_description();
-        return view('jobick.uc.select2', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.uc.select2', compact('page_title', 'page_description'));
     }
 	
 	//uc-sweetalert
@@ -558,7 +558,7 @@ class JobickAdminController extends Controller
 	public function uc_sweetalert(){
         $page_title = 'Sweet Alert';
         $page_description = $this->page_description();
-        return view('jobick.uc.sweetalert', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.uc.sweetalert', compact('page_title', 'page_description'));
     }
 	
 	//uc-toastr
@@ -566,7 +566,7 @@ class JobickAdminController extends Controller
 	public function uc_toastr(){
         $page_title = 'Toastr';
         $page_description = $this->page_description();
-        return view('jobick.uc.toastr', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.uc.toastr', compact('page_title', 'page_description'));
     }
 	
 	//ui-accordion
@@ -574,7 +574,7 @@ class JobickAdminController extends Controller
 	public function ui_accordion(){
         $page_title = 'Accordion';
         $page_description = $this->page_description();
-        return view('jobick.ui.accordion', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.accordion', compact('page_title', 'page_description'));
     }
 	
 	//ui-alert
@@ -582,7 +582,7 @@ class JobickAdminController extends Controller
 	public function ui_alert(){
         $page_title = 'Alert';
         $page_description = $this->page_description();
-        return view('jobick.ui.alert', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.alert', compact('page_title', 'page_description'));
     }
 	
 	//ui-badge
@@ -590,7 +590,7 @@ class JobickAdminController extends Controller
 	public function ui_badge(){
         $page_title = 'Badge';
         $page_description = $this->page_description();
-        return view('jobick.ui.badge', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.badge', compact('page_title', 'page_description'));
     }
 	
 	//ui-button
@@ -598,7 +598,7 @@ class JobickAdminController extends Controller
 	public function ui_button(){
         $page_title = 'Button';
         $page_description = $this->page_description();
-        return view('jobick.ui.button', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.button', compact('page_title', 'page_description'));
     }
 	
 	//ui-button-group
@@ -606,7 +606,7 @@ class JobickAdminController extends Controller
 	public function ui_button_group(){
         $page_title = 'Button';
         $page_description = $this->page_description();
-        return view('jobick.ui.button_group', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.button_group', compact('page_title', 'page_description'));
     }
 	
 	//ui-button-group
@@ -614,7 +614,7 @@ class JobickAdminController extends Controller
 	public function ui_card(){
         $page_title = 'Card';
         $page_description = $this->page_description();
-        return view('jobick.ui.card', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.card', compact('page_title', 'page_description'));
     }
 	
 	//ui-carousel
@@ -622,7 +622,7 @@ class JobickAdminController extends Controller
 	public function ui_carousel(){
         $page_title = 'Carousel';
         $page_description = $this->page_description();
-        return view('jobick.ui.carousel', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.carousel', compact('page_title', 'page_description'));
     }
 	
 	//ui-dropdown
@@ -630,7 +630,7 @@ class JobickAdminController extends Controller
 	public function ui_dropdown(){
         $page_title = 'Dropdown';
         $page_description = $this->page_description();
-        return view('jobick.ui.dropdown', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.dropdown', compact('page_title', 'page_description'));
     }
 	
 	//ui-grid
@@ -638,7 +638,7 @@ class JobickAdminController extends Controller
 	public function ui_grid(){
         $page_title = 'Grid';
         $page_description = $this->page_description();
-        return view('jobick.ui.grid', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.grid', compact('page_title', 'page_description'));
     }
 	
 	//media object
@@ -646,7 +646,7 @@ class JobickAdminController extends Controller
 	public function ui_media_object(){
         $page_title = 'Media Object';
         $page_description = $this->page_description();
-        return view('jobick.ui.media_object', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.media_object', compact('page_title', 'page_description'));
     }
 	
 	//ui-list-group
@@ -654,7 +654,7 @@ class JobickAdminController extends Controller
 	public function ui_list_group(){
         $page_title = 'List Group';
         $page_description = $this->page_description();
-        return view('jobick.ui.list_group', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.list_group', compact('page_title', 'page_description'));
     }
 	
 	//ui-modal
@@ -662,7 +662,7 @@ class JobickAdminController extends Controller
 	public function ui_modal(){
         $page_title = 'Modal';
         $page_description = $this->page_description();
-        return view('jobick.ui.modal', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.modal', compact('page_title', 'page_description'));
     }
 	
 	//ui-pagination
@@ -670,7 +670,7 @@ class JobickAdminController extends Controller
 	public function ui_pagination(){
         $page_title = 'Pagination';
         $page_description = $this->page_description();
-        return view('jobick.ui.pagination', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.pagination', compact('page_title', 'page_description'));
     }
 	
 	//ui-popover
@@ -678,7 +678,7 @@ class JobickAdminController extends Controller
 	public function ui_popover(){
         $page_title = 'Popover';
         $page_description = $this->page_description();
-        return view('jobick.ui.popover', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.popover', compact('page_title', 'page_description'));
     }
 	
 	//ui-progressbar
@@ -686,7 +686,7 @@ class JobickAdminController extends Controller
 	public function ui_progressbar(){
         $page_title = 'Progressbar';
         $page_description = $this->page_description();
-        return view('jobick.ui.progressbar', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.progressbar', compact('page_title', 'page_description'));
     }
 	
 	//ui-tab
@@ -694,7 +694,7 @@ class JobickAdminController extends Controller
 	public function ui_tab(){
         $page_title = 'Tab';
         $page_description = $this->page_description();
-        return view('jobick.ui.tab', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.tab', compact('page_title', 'page_description'));
     }
 	
 	//ui-typography
@@ -702,23 +702,23 @@ class JobickAdminController extends Controller
 	public function ui_typography(){
         $page_title = 'Tab';
         $page_description = $this->page_description();
-        return view('jobick.ui.typography', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.ui.typography', compact('page_title', 'page_description'));
     }
 	
 	//widget-basic
 	public function widget_basic(){
         $page_title = 'Widget';
         $page_description = $this->page_description();
-        return view('jobick.widget.widget_basic', compact('page_title', 'page_description'));
+        return view('backoffice.jobick.widget.widget_basic', compact('page_title', 'page_description'));
     }
     //ajax_featuredcompanies
 	public function ajax_featuredcompanies(){
-        return view('jobick.ajax.featuredcompanies');
+        return view('backoffice.jobick.ajax.featuredcompanies');
     }
 
     //seller_menus
 	public function ajax_recentactivity(){
-        return view('jobick.ajax.recentactivity');
+        return view('backoffice.jobick.ajax.recentactivity');
     }
 
     

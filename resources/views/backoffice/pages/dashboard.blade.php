@@ -6,7 +6,7 @@
 <div class="row page-titles">
     <ol class="breadcrumb">
         <li class="breadcrumb-item active">
-            <a href="{{ route('admin.dashboard') }}">Dashboard</a>
+            <a href="{{ route('backoffice.dashboard') }}">Dashboard</a>
         </li>
         <li class="breadcrumb-item">Accueil</li>
     </ol>

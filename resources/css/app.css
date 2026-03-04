@@ -1,3 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Only scan Frontoffice views and JS files */
+@source "../../resources/views/frontoffice/**/*.blade.php";
+@source "../../resources/js/**/*.js";
