@@ -1,0 +1,7 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vertical rectangle - thicker with rounded edges -->
+  <rect x="230" y="205" width="230" height="614" rx="38" fill="#ffffff"/>
+
+  <!-- Half circle on top right with gap - thicker with soft edges -->
+  <path d="M 537 205 A 230 230 0 0 1 537 665 L 537 205 Z" fill="#FF6500"/>
+</svg>

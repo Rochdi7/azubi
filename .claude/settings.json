@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i 's|href=\"\"images/favicon.ico\"\"|href=\"\"{{ asset\\('\"''\"'assets/favicon.ico'\"''\"'\\) }}\"\"|g' resources/views/frontoffice/pages/contact.blade.php)",
+      "Bash(sed -i 's|href=\"\"css/base.css\"\"|href=\"\"{{ asset\\('\"''\"'assets/css/base.css'\"''\"'\\) }}\"\"|g' resources/views/frontoffice/pages/contact.blade.php)",
+      "Bash(sed -i 's|href=\"\"css/footer.css\"\"|href=\"\"{{ asset\\('\"''\"'assets/css/footer.css'\"''\"'\\) }}\"\"|g' resources/views/frontoffice/pages/contact.blade.php)",
+      "Bash(sed -i 's|href=\"\"css/081a0afca5a9bd20.css\"\"|href=\"\"{{ asset\\('\"''\"'assets/_next/static/css/081a0afca5a9bd20.css'\"''\"'\\) }}\"\"|g' resources/views/frontoffice/pages/contact.blade.php)",
+      "Bash(sed -i 's|href=\"\"css/d9109d77acd75b7b.css\"\"|href=\"\"{{ asset\\('\"''\"'assets/_next/static/css/d9109d77acd75b7b.css'\"''\"'\\) }}\"\"|g' resources/views/frontoffice/pages/contact.blade.php)",
+      "Bash(sed -i 's|href=\"\"css/e2c84361ea1dce8b.css\"\"|href=\"\"{{ asset\\('\"''\"'assets/_next/static/css/e2c84361ea1dce8b.css'\"''\"'\\) }}\"\"|g' resources/views/frontoffice/pages/contact.blade.php)",
+      "Bash(sed -i 's|src=\"\"js/script.js\"\"|src=\"\"{{ asset\\('\"''\"'assets/js/script.js'\"''\"'\\) }}\"\"|g' resources/views/frontoffice/pages/contact.blade.php)",
+      "Read(//tmp/**)",
+      "Read(//c/Users/ASUS/.claude/projects/c--Users-ASUS-Desktop-Projects-azubi/b50e7004-fcaf-422f-add5-15ba3a3e4e5a/subagents/**)",
+      "Bash(php transform.php)",
+      "Bash(php fix_header_links.php)",
+      "Bash(rm fix_header_links.php)",
+      "Bash(php fix_images.php)",
+      "Bash(rm fix_images.php)",
+      "Bash(php fix_ab.php)",
+      "Bash(rm fix_ab.php)",
+      "Bash(php fix_header2.php)",
+      "Bash(rm fix_header2.php)",
+      "Bash(php fix_header3.php)",
+      "Bash(rm fix_header3.php)",
+      "Bash(php artisan:*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/ASUS/Desktop/Projects/azubi/resources/views/frontoffice/pages/**)",
+      "Bash(cd \"c:/Users/ASUS/Desktop/Projects/azubi/resources/views/frontoffice/pages\" for f in faq after-ausbildung application ausbildung-timeline cultural-integration daily-life housing requirements ausbildung-germany consultation index)",
+      "Read(//c/Users/ASUS/Desktop/Projects/azubi/**)",
+      "Bash(do)",
+      "Bash(echo \"=== $f ===\")",
+      "Bash(cd \"c:/Users/ASUS/Desktop/Projects/azubi/resources/views/frontoffice/pages\" grep -n '</header>\\\\|<footer\\\\|@include' index.blade.php)",
+      "Bash(php fix_header_final.php)",
+      "Bash(rm fix_header_final.php)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\ASUS\\Desktop\\Projects\\azubi\\resources\\views\\frontoffice\\partials",
+      "\\tmp"
+    ]
+  }
+}

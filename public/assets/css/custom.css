@@ -1,0 +1,197 @@
+/* ============================================
+   GoAusbildung - Custom CSS (non-Tailwind)
+   Keyframes, complex states, animations
+   ============================================ */
+
+/* ---------- CSS Variables (shared with header.css) ---------- */
+:root {
+  --green: #344F1F;
+  --orange: #F4991A;
+  --orange-hover: #E5890F;
+  --cream: #F2EAD3;
+  --warm: #F9F5F0;
+  --white: #ffffff;
+  --black: #000000;
+  --text: #344F1F;
+  --text-light: rgba(52, 79, 31, 0.7);
+  --text-muted: rgba(52, 79, 31, 0.5);
+  --green-70: rgba(52, 79, 31, 0.7);
+  --border: rgba(52, 79, 31, 0.1);
+  --border-orange: rgba(244, 153, 26, 0.3);
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1);
+  --transition: all 0.3s ease;
+}
+
+/* ---------- Reset ---------- */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+img { max-width: 100%; height: auto; display: block; }
+a { text-decoration: none; color: inherit; }
+button { border: none; background: none; cursor: pointer; font-family: inherit; font-size: inherit; color: inherit; }
+ul { list-style: none; }
+
+/* ---------- Body scroll lock for mobile menu ---------- */
+body.menu-open { overflow: hidden; }
+
+/* ---------- Visibility (header depends on these) ---------- */
+.desktop-only { display: none; }
+.mobile-only { display: block; }
+@media (min-width: 640px) {
+  .desktop-only { display: block; }
+  .mobile-only { display: none; }
+}
+.desktop-xl { display: none; }
+@media (min-width: 1280px) { .desktop-xl { display: flex; } }
+@media (min-width: 1280px) { .desktop-below-xl { display: none !important; } }
+@media (max-width: 1279px) { .desktop-xl { display: none !important; } }
+@media (max-width: 639px) {
+  .nav-spacer.desktop-only { display: none; }
+  .navbar.desktop-only { display: none; }
+}
+@media (min-width: 640px) {
+  .nav-spacer.mobile-only { display: none; }
+  .navbar-mobile.mobile-only { display: none; }
+  .mobile-menu-overlay { display: none; }
+}
+
+/* ---------- Hero Gradient Overlays ---------- */
+.hero-gradient {
+  position: absolute; inset: 0; z-index: 1;
+  background:
+    radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
+    linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 30%),
+    linear-gradient(to right, rgba(0,0,0,0.3) 0%, transparent 15%),
+    linear-gradient(to left, rgba(0,0,0,0.3) 0%, transparent 15%);
+}
+
+/* ---------- Avatar Stack ---------- */
+.avatar-stack .avatar + .avatar,
+.avatar-stack .avatar-count { margin-left: -1rem; }
+
+/* ---------- Comparison overlay gradients ---------- */
+.comparison-overlay.good {
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.9), rgba(255,255,255,0.88), rgba(244,153,26,0.1));
+}
+.portal-good {
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.8), rgba(244,153,26,0.05));
+}
+
+/* ---------- Tool card hover child ---------- */
+.tool-card:hover .tool-action { opacity: 1; }
+
+/* ---------- Step card hover ---------- */
+.step-card:hover .step-icon { background: rgba(244, 153, 26, 0.15); }
+.step-card:hover .step-content { border-color: rgba(244, 153, 26, 0.2); box-shadow: var(--shadow-lg); }
+
+/* ---------- Sector card hover ---------- */
+.sector-card a:hover { transform: translateY(-8px); }
+.sector-card a:hover .sector-image img { transform: scale(1.05); }
+.sector-card a:hover .sector-link { color: var(--orange-hover); }
+
+/* ---------- Sectors scrollbar ---------- */
+.sectors-scroll { scrollbar-width: thin; scrollbar-color: rgba(52, 79, 31, 0.2) transparent; }
+.sectors-scroll::-webkit-scrollbar { height: 6px; }
+.sectors-scroll::-webkit-scrollbar-track { background: transparent; }
+.sectors-scroll::-webkit-scrollbar-thumb { background: rgba(52, 79, 31, 0.2); border-radius: 3px; }
+
+/* ---------- Video play hover ---------- */
+.video-play-btn:hover { background: rgba(0, 0, 0, 0.3); }
+.video-play-btn:hover .play-icon { transform: scale(1.1); }
+
+/* ---------- Marquee Keyframes ---------- */
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+[data-direction="left"] .stories-marquee-track {
+  animation: marquee-left 80s linear infinite;
+}
+[data-direction="right"] .stories-marquee-track {
+  animation: marquee-right 80s linear infinite;
+}
+.stories-marquee-wrap:hover .stories-marquee-track {
+  animation-play-state: paused;
+}
+
+/* ---------- FAQ Accordion ---------- */
+.faq-answer {
+  max-height: 0; opacity: 0; overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+.faq-item.active .faq-answer { max-height: 24rem; opacity: 1; }
+.faq-item.active .faq-chevron { transform: rotate(180deg); }
+.faq-question:hover h3 { color: var(--orange); }
+
+/* ---------- CTA Gradient ---------- */
+.cta-gradient {
+  position: absolute; inset: 0; z-index: 1; border-radius: inherit;
+  background:
+    radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
+    linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 30%),
+    linear-gradient(to right, rgba(0,0,0,0.3) 0%, transparent 15%),
+    linear-gradient(to left, rgba(0,0,0,0.3) 0%, transparent 15%);
+}
+
+/* ---------- Scroll Animations ---------- */
+.animate-on-scroll {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.animate-on-scroll.fade-in-up { transform: translateY(20px); }
+.animate-on-scroll.fade-in-left { transform: translateX(-20px); }
+.animate-on-scroll.fade-in-right { transform: translateX(20px); }
+.animate-on-scroll.scale-in { transform: scale(0.95); }
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+.delay-6 { transition-delay: 0.6s; }
+
+/* ---------- Stat card hover ---------- */
+.stat-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: var(--shadow-lg);
+  transform: scale(1.05);
+}
+
+/* ---------- Feature card hover ---------- */
+.feature-card:hover {
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(244, 153, 26, 0.2);
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* ---------- Story card line clamp ---------- */
+.story-prog {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---------- Job description line clamp ---------- */
+.job-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
