@@ -1,11 +1,11 @@
-@extends('frontoffice.layouts.app')
+﻿@extends('frontoffice.layouts.app')
 
-@section('title', 'Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing | GoAusbildung')
+@section('title', 'Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing | GoAusbildung')
 
 @section('meta')
     <meta
     name="description"
-    content="Complete Ausbildung visa guide: €75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside."
+    content="Complete Ausbildung visa guide: â‚¬75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside."
     />
     <meta
     name="keywords"
@@ -23,11 +23,11 @@
     <link rel="canonical" href="visa.html" />
     <meta
     property="og:title"
-    content="Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing"
+    content="Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing"
     />
     <meta
     property="og:description"
-    content="Complete Ausbildung visa guide: €75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside."
+    content="Complete Ausbildung visa guide: â‚¬75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside."
     />
     <meta property="og:url" content="https://goausbildung.com/visa" />
     <meta property="og:site_name" content="GoAusbildung" />
@@ -40,7 +40,7 @@
     <meta property="og:image:height" content="630" />
     <meta
     property="og:image:alt"
-    content="Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing"
+    content="Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing"
     />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -48,11 +48,11 @@
     <meta name="twitter:creator" content="@goausbildung" />
     <meta
     name="twitter:title"
-    content="Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing"
+    content="Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing"
     />
     <meta
     name="twitter:description"
-    content="Complete Ausbildung visa guide: €75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside."
+    content="Complete Ausbildung visa guide: â‚¬75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside."
     />
     <meta
     name="twitter:image"
@@ -377,7 +377,7 @@
                           <path d="m9 11 3 3L22 4"></path></svg
                         ><span
                           >Applied for at the local Foreigners&#x27; Office
-                          (Ausländerbehörde)</span
+                          (AuslÃ¤nderbehÃ¶rde)</span
                         >
                       </li>
                       <li class="flex items-start gap-2">
@@ -536,7 +536,7 @@
                       <p class="text-muted-foreground">
                         Upon arrival, register your address (Anmeldung) and
                         apply for your residence permit at the local
-                        Foreigners&#x27; Office (Ausländerbehörde) within 90
+                        Foreigners&#x27; Office (AuslÃ¤nderbehÃ¶rde) within 90
                         days.
                       </p>
                     </div>
@@ -807,9 +807,9 @@
                           <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                           <path d="m9 11 3 3L22 4"></path></svg
                         ><span
-                          >Proof of blocked account (Sperrkonto) with €11,904
+                          >Proof of blocked account (Sperrkonto) with â‚¬11,904
                           (only if your Ausbildung stipend is less than
-                          €992/month)</span
+                          â‚¬992/month)</span
                         >
                       </li>
                       <li class="flex items-start gap-2">
@@ -829,7 +829,7 @@
                           <path d="m9 11 3 3L22 4"></path></svg
                         ><span
                           >Proof of visa application fee payment (approximately
-                          €75)</span
+                          â‚¬75)</span
                         >
                       </li>
                       <li class="flex items-start gap-2">
@@ -951,7 +951,7 @@
                     class="bg-secondary border border-primary/10 rounded-lg p-4"
                   >
                     <h3
-                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-foreground"
+                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-white"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -971,18 +971,18 @@
                         <path d="M3 10h18"></path></svg
                       >Address Registration (Anmeldung)
                     </h3>
-                    <p class="text-sm text-foreground">
+                    <p class="text-sm text-white/90">
                       Within 2 weeks of arrival, register your address at the
                       local Residents&#x27; Registration Office
                       (Einwohnermeldeamt). You&#x27;ll need your passport, visa,
-                      and a landlord confirmation (Wohnungsgeberbestätigung).
+                      and a landlord confirmation (WohnungsgeberbestÃ¤tigung).
                     </p>
                   </div>
                   <div
                     class="bg-secondary border border-primary/10 rounded-lg p-4"
                   >
                     <h3
-                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-foreground"
+                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-white"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1005,9 +1005,9 @@
                         <path d="M16 17H8"></path></svg
                       >Residence Permit Application
                     </h3>
-                    <p class="text-sm text-foreground">
+                    <p class="text-sm text-white/90">
                       Within 90 days, visit the local Foreigners&#x27; Office
-                      (Ausländerbehörde) to convert your visa into a residence
+                      (AuslÃ¤nderbehÃ¶rde) to convert your visa into a residence
                       permit. Bring your passport, visa, address registration,
                       Ausbildung contract, biometric photos, and proof of health
                       insurance.
@@ -1017,7 +1017,7 @@
                     class="bg-secondary border border-primary/10 rounded-lg p-4"
                   >
                     <h3
-                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-foreground"
+                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-white"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1036,7 +1036,7 @@
                         <path d="M12 17h.01"></path></svg
                       >Health Insurance Registration
                     </h3>
-                    <p class="text-sm text-foreground">
+                    <p class="text-sm text-white/90">
                       Register with a German health insurance provider
                       (Krankenkasse). As an Ausbildung trainee, you&#x27;ll be
                       eligible for the public health insurance system, with
@@ -1047,7 +1047,7 @@
                     class="bg-secondary border border-primary/10 rounded-lg p-4"
                   >
                     <h3
-                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-foreground"
+                      class="tracking-tight font-semibold text-base sm:text-lg mb-2 flex items-center text-white"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1066,7 +1066,7 @@
                         <line x1="12" x2="12.01" y1="16" y2="16"></line></svg
                       >Tax ID (Steueridentifikationsnummer)
                     </h3>
-                    <p class="text-sm text-foreground">
+                    <p class="text-sm text-white/90">
                       You&#x27;ll automatically receive a tax ID by mail after
                       registering your address. This is required for your
                       employer to process your salary payments correctly.
@@ -1099,11 +1099,11 @@
                   >
                     <button
                       type="button"
-                      aria-controls="radix-«R2duslb»"
+                      aria-controls="radix-Â«R2duslbÂ»"
                       aria-expanded="false"
                       data-state="closed"
                       data-orientation="vertical"
-                      id="radix-«Rduslb»"
+                      id="radix-Â«RduslbÂ»"
                       class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                       data-radix-collection-item=""
                     >
@@ -1125,10 +1125,10 @@
                   </h3>
                   <div
                     data-state="closed"
-                    id="radix-«R2duslb»"
+                    id="radix-Â«R2duslbÂ»"
                     hidden=""
                     role="region"
-                    aria-labelledby="radix-«Rduslb»"
+                    aria-labelledby="radix-Â«RduslbÂ»"
                     data-orientation="vertical"
                     class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                     style="
@@ -1139,7 +1139,18 @@
                         --radix-collapsible-content-width
                       );
                     "
-                  ></div>
+                  >
+                    <div class="pt-1 pb-4 leading-relaxed text-sm text-muted-foreground space-y-2">
+                      <p>
+                        In most countries, Ausbildung visa processing takes around <strong>8 to 12 weeks</strong>
+                        after your embassy appointment.
+                      </p>
+                      <p>
+                        During peak months, it can take longer. Apply early and keep all documents complete to
+                        avoid delays.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div
                   data-state="closed"
@@ -1153,11 +1164,11 @@
                   >
                     <button
                       type="button"
-                      aria-controls="radix-«R2luslb»"
+                      aria-controls="radix-Â«R2luslbÂ»"
                       aria-expanded="false"
                       data-state="closed"
                       data-orientation="vertical"
-                      id="radix-«Rluslb»"
+                      id="radix-Â«RluslbÂ»"
                       class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                       data-radix-collection-item=""
                     >
@@ -1179,10 +1190,10 @@
                   </h3>
                   <div
                     data-state="closed"
-                    id="radix-«R2luslb»"
+                    id="radix-Â«R2luslbÂ»"
                     hidden=""
                     role="region"
-                    aria-labelledby="radix-«Rluslb»"
+                    aria-labelledby="radix-Â«RluslbÂ»"
                     data-orientation="vertical"
                     class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                     style="
@@ -1193,7 +1204,18 @@
                         --radix-collapsible-content-width
                       );
                     "
-                  ></div>
+                  >
+                    <div class="pt-1 pb-4 leading-relaxed text-sm text-muted-foreground space-y-2">
+                      <p>
+                        Many embassies accept applications in English or the local language, but basic German is
+                        strongly recommended.
+                      </p>
+                      <p>
+                        Showing at least beginner-level German and clear motivation for vocational training improves
+                        interview confidence and visa credibility.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div
                   data-state="closed"
@@ -1207,11 +1229,11 @@
                   >
                     <button
                       type="button"
-                      aria-controls="radix-«R2tuslb»"
+                      aria-controls="radix-Â«R2tuslbÂ»"
                       aria-expanded="false"
                       data-state="closed"
                       data-orientation="vertical"
-                      id="radix-«Rtuslb»"
+                      id="radix-Â«RtuslbÂ»"
                       class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                       data-radix-collection-item=""
                     >
@@ -1234,10 +1256,10 @@
                   </h3>
                   <div
                     data-state="closed"
-                    id="radix-«R2tuslb»"
+                    id="radix-Â«R2tuslbÂ»"
                     hidden=""
                     role="region"
-                    aria-labelledby="radix-«Rtuslb»"
+                    aria-labelledby="radix-Â«RtuslbÂ»"
                     data-orientation="vertical"
                     class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                     style="
@@ -1248,7 +1270,18 @@
                         --radix-collapsible-content-width
                       );
                     "
-                  ></div>
+                  >
+                    <div class="pt-1 pb-4 leading-relaxed text-sm text-muted-foreground space-y-2">
+                      <p>
+                        A blocked account (<strong>Sperrkonto</strong>) is proof that you have enough money to
+                        support yourself in Germany.
+                      </p>
+                      <p>
+                        The balance is released monthly up to a limit, so authorities know your living expenses are
+                        covered during training.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div
                   data-state="closed"
@@ -1262,11 +1295,11 @@
                   >
                     <button
                       type="button"
-                      aria-controls="radix-«R35uslb»"
+                      aria-controls="radix-Â«R35uslbÂ»"
                       aria-expanded="false"
                       data-state="closed"
                       data-orientation="vertical"
-                      id="radix-«R15uslb»"
+                      id="radix-Â«R15uslbÂ»"
                       class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                       data-radix-collection-item=""
                     >
@@ -1288,10 +1321,10 @@
                   </h3>
                   <div
                     data-state="closed"
-                    id="radix-«R35uslb»"
+                    id="radix-Â«R35uslbÂ»"
                     hidden=""
                     role="region"
-                    aria-labelledby="radix-«R15uslb»"
+                    aria-labelledby="radix-Â«R15uslbÂ»"
                     data-orientation="vertical"
                     class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                     style="
@@ -1302,7 +1335,17 @@
                         --radix-collapsible-content-width
                       );
                     "
-                  ></div>
+                  >
+                    <div class="pt-1 pb-4 leading-relaxed text-sm text-muted-foreground space-y-2">
+                      <p>
+                        Yes. Common reasons include incomplete documents, unclear financial proof, weak interview
+                        answers, or inconsistencies in your training plan.
+                      </p>
+                      <p>
+                        You can usually reapply after fixing the issues and submitting a stronger, complete file.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div
                   data-state="closed"
@@ -1316,11 +1359,11 @@
                   >
                     <button
                       type="button"
-                      aria-controls="radix-«R3duslb»"
+                      aria-controls="radix-Â«R3duslbÂ»"
                       aria-expanded="false"
                       data-state="closed"
                       data-orientation="vertical"
-                      id="radix-«R1duslb»"
+                      id="radix-Â«R1duslbÂ»"
                       class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                       data-radix-collection-item=""
                     >
@@ -1342,10 +1385,10 @@
                   </h3>
                   <div
                     data-state="closed"
-                    id="radix-«R3duslb»"
+                    id="radix-Â«R3duslbÂ»"
                     hidden=""
                     role="region"
-                    aria-labelledby="radix-«R1duslb»"
+                    aria-labelledby="radix-Â«R1duslbÂ»"
                     data-orientation="vertical"
                     class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                     style="
@@ -1356,7 +1399,18 @@
                         --radix-collapsible-content-width
                       );
                     "
-                  ></div>
+                  >
+                    <div class="pt-1 pb-4 leading-relaxed text-sm text-muted-foreground space-y-2">
+                      <p>
+                        Usually not at the initial stage. The Ausbildung visa is typically issued for the trainee
+                        first.
+                      </p>
+                      <p>
+                        Family reunion may be possible later after you secure residence status, sufficient income,
+                        and suitable housing under current immigration rules.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1366,10 +1420,7 @@
               <section class="relative py-12 overflow-hidden bg-[#F9F5F0]">
                 <div class="container relative z-10 mx-auto px-4">
                   <div class="max-w-7xl mx-auto">
-                    <div
-                      class="relative"
-                      style="opacity: 0; transform: translateY(20px)"
-                    >
+                    <div class="relative">
                       <div
                         class="text-card-foreground shadow relative bg-[#F4991A] border-2 border-[#F4991A] overflow-hidden rounded-[24px]"
                       >
@@ -1416,7 +1467,7 @@
                               </h3>
                               <p class="text-sm text-white/90 mb-4 font-medium">
                                 EXCLUSIVE: How Germany systematically recruits
-                                international talent - €47B crisis revealed!
+                                international talent - â‚¬47B crisis revealed!
                               </p>
                               <div
                                 class="flex items-center justify-center gap-4 text-xs mb-4"
@@ -1586,147 +1637,47 @@
                                     value=""
                                   />
                                   <div class="grid grid-cols-1 gap-3">
-                                    <button
-                                      type="button"
-                                      role="combobox"
-                                      aria-controls="radix-«R5qd4uslb»"
-                                      aria-expanded="false"
-                                      aria-required="true"
-                                      aria-autocomplete="none"
-                                      dir="ltr"
-                                      data-state="closed"
-                                      data-placeholder=""
-                                      class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px]"
+                                    <select
+                                      name="german_level"
+                                      required
+                                      class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
                                     >
-                                      <span style="pointer-events: none"
-                                        >German Level *</span
-                                      ><svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                                        aria-hidden="true"
-                                      >
-                                        <path d="m6 9 6 6 6-6"></path>
-                                      </svg></button
-                                    ><select
-                                      aria-hidden="true"
-                                      required=""
-                                      tabindex="-1"
-                                      style="
-                                        position: absolute;
-                                        border: 0;
-                                        width: 1px;
-                                        height: 1px;
-                                        padding: 0;
-                                        margin: -1px;
-                                        overflow: hidden;
-                                        clip: rect(0, 0, 0, 0);
-                                        white-space: nowrap;
-                                        word-wrap: normal;
-                                      "
+                                      <option value="">German Level *</option>
+                                      <option value="none">No German yet</option>
+                                      <option value="a1">A1</option>
+                                      <option value="a2">A2</option>
+                                      <option value="b1">B1</option>
+                                      <option value="b2_or_higher">B2 or higher</option>
+                                    </select>
+                                    <select
+                                      name="field_of_interest"
+                                      required
+                                      class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
                                     >
-                                      <option value=""></option></select
-                                    ><button
-                                      type="button"
-                                      role="combobox"
-                                      aria-controls="radix-«R9qd4uslb»"
-                                      aria-expanded="false"
-                                      aria-required="true"
-                                      aria-autocomplete="none"
-                                      dir="ltr"
-                                      data-state="closed"
-                                      data-placeholder=""
-                                      class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px]"
+                                      <option value="">Field of Interest *</option>
+                                      <option value="healthcare_nursing">Healthcare &amp; Nursing</option>
+                                      <option value="it_technology">IT &amp; Technology</option>
+                                      <option value="engineering">Engineering</option>
+                                      <option value="retail_sales">Retail &amp; Sales</option>
+                                      <option value="hospitality">Hospitality</option>
+                                      <option value="logistics">Logistics</option>
+                                    </select>
+                                    <select
+                                      name="current_country"
+                                      required
+                                      class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
                                     >
-                                      <span style="pointer-events: none"
-                                        >Field of Interest *</span
-                                      ><svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                                        aria-hidden="true"
-                                      >
-                                        <path d="m6 9 6 6 6-6"></path>
-                                      </svg></button
-                                    ><select
-                                      aria-hidden="true"
-                                      required=""
-                                      tabindex="-1"
-                                      style="
-                                        position: absolute;
-                                        border: 0;
-                                        width: 1px;
-                                        height: 1px;
-                                        padding: 0;
-                                        margin: -1px;
-                                        overflow: hidden;
-                                        clip: rect(0, 0, 0, 0);
-                                        white-space: nowrap;
-                                        word-wrap: normal;
-                                      "
-                                    >
-                                      <option value=""></option></select
-                                    ><button
-                                      type="button"
-                                      role="combobox"
-                                      aria-controls="radix-«Rdqd4uslb»"
-                                      aria-expanded="false"
-                                      aria-required="true"
-                                      aria-autocomplete="none"
-                                      dir="ltr"
-                                      data-state="closed"
-                                      data-placeholder=""
-                                      class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px]"
-                                    >
-                                      <span style="pointer-events: none"
-                                        >Current Country *</span
-                                      ><svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                                        aria-hidden="true"
-                                      >
-                                        <path d="m6 9 6 6 6-6"></path>
-                                      </svg></button
-                                    ><select
-                                      aria-hidden="true"
-                                      required=""
-                                      tabindex="-1"
-                                      style="
-                                        position: absolute;
-                                        border: 0;
-                                        width: 1px;
-                                        height: 1px;
-                                        padding: 0;
-                                        margin: -1px;
-                                        overflow: hidden;
-                                        clip: rect(0, 0, 0, 0);
-                                        white-space: nowrap;
-                                        word-wrap: normal;
-                                      "
-                                    >
-                                      <option value=""></option>
+                                      <option value="">Current Country *</option>
+                                      <option value="india">India</option>
+                                      <option value="pakistan">Pakistan</option>
+                                      <option value="bangladesh">Bangladesh</option>
+                                      <option value="nepal">Nepal</option>
+                                      <option value="sri_lanka">Sri Lanka</option>
+                                      <option value="uae">UAE</option>
+                                      <option value="nigeria">Nigeria</option>
+                                      <option value="kenya">Kenya</option>
+                                      <option value="morocco">Morocco</option>
+                                      <option value="other">Other</option>
                                     </select>
                                   </div>
                                   <button
@@ -1873,7 +1824,7 @@
                                 </h3>
                                 <p class="text-sm text-white/90 font-medium">
                                   EXCLUSIVE: How Germany systematically recruits
-                                  international talent - €47B crisis revealed!
+                                  international talent - â‚¬47B crisis revealed!
                                 </p>
                                 <div class="flex items-center gap-4 text-xs">
                                   <div class="flex items-center gap-1">
@@ -2041,147 +1992,41 @@
                                       value=""
                                     />
                                     <div class="grid grid-cols-3 gap-2">
-                                      <button
-                                        type="button"
-                                        role="combobox"
-                                        aria-controls="radix-«R5rl4uslb»"
-                                        aria-expanded="false"
-                                        aria-required="true"
-                                        aria-autocomplete="none"
-                                        dir="ltr"
-                                        data-state="closed"
-                                        data-placeholder=""
-                                        class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px]"
+                                      <select
+                                        name="german_level"
+                                        required
+                                        class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
                                       >
-                                        <span style="pointer-events: none"
-                                          >German Level *</span
-                                        ><svg
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="24"
-                                          height="24"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          stroke-width="2"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round"
-                                          class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                                          aria-hidden="true"
-                                        >
-                                          <path d="m6 9 6 6 6-6"></path>
-                                        </svg></button
-                                      ><select
-                                        aria-hidden="true"
-                                        required=""
-                                        tabindex="-1"
-                                        style="
-                                          position: absolute;
-                                          border: 0;
-                                          width: 1px;
-                                          height: 1px;
-                                          padding: 0;
-                                          margin: -1px;
-                                          overflow: hidden;
-                                          clip: rect(0, 0, 0, 0);
-                                          white-space: nowrap;
-                                          word-wrap: normal;
-                                        "
+                                        <option value="">German Level *</option>
+                                        <option value="a1">A1</option>
+                                        <option value="a2">A2</option>
+                                        <option value="b1">B1</option>
+                                        <option value="b2_or_higher">B2+</option>
+                                      </select>
+                                      <select
+                                        name="field"
+                                        required
+                                        class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
                                       >
-                                        <option value=""></option></select
-                                      ><button
-                                        type="button"
-                                        role="combobox"
-                                        aria-controls="radix-«R9rl4uslb»"
-                                        aria-expanded="false"
-                                        aria-required="true"
-                                        aria-autocomplete="none"
-                                        dir="ltr"
-                                        data-state="closed"
-                                        data-placeholder=""
-                                        class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px]"
+                                        <option value="">Field *</option>
+                                        <option value="healthcare">Healthcare</option>
+                                        <option value="it">IT</option>
+                                        <option value="engineering">Engineering</option>
+                                        <option value="sales">Sales</option>
+                                        <option value="hospitality">Hospitality</option>
+                                      </select>
+                                      <select
+                                        name="country"
+                                        required
+                                        class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
                                       >
-                                        <span style="pointer-events: none"
-                                          >Field *</span
-                                        ><svg
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="24"
-                                          height="24"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          stroke-width="2"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round"
-                                          class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                                          aria-hidden="true"
-                                        >
-                                          <path d="m6 9 6 6 6-6"></path>
-                                        </svg></button
-                                      ><select
-                                        aria-hidden="true"
-                                        required=""
-                                        tabindex="-1"
-                                        style="
-                                          position: absolute;
-                                          border: 0;
-                                          width: 1px;
-                                          height: 1px;
-                                          padding: 0;
-                                          margin: -1px;
-                                          overflow: hidden;
-                                          clip: rect(0, 0, 0, 0);
-                                          white-space: nowrap;
-                                          word-wrap: normal;
-                                        "
-                                      >
-                                        <option value=""></option></select
-                                      ><button
-                                        type="button"
-                                        role="combobox"
-                                        aria-controls="radix-«Rdrl4uslb»"
-                                        aria-expanded="false"
-                                        aria-required="true"
-                                        aria-autocomplete="none"
-                                        dir="ltr"
-                                        data-state="closed"
-                                        data-placeholder=""
-                                        class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px]"
-                                      >
-                                        <span style="pointer-events: none"
-                                          >Country *</span
-                                        ><svg
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="24"
-                                          height="24"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          stroke-width="2"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round"
-                                          class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                                          aria-hidden="true"
-                                        >
-                                          <path d="m6 9 6 6 6-6"></path>
-                                        </svg></button
-                                      ><select
-                                        aria-hidden="true"
-                                        required=""
-                                        tabindex="-1"
-                                        style="
-                                          position: absolute;
-                                          border: 0;
-                                          width: 1px;
-                                          height: 1px;
-                                          padding: 0;
-                                          margin: -1px;
-                                          overflow: hidden;
-                                          clip: rect(0, 0, 0, 0);
-                                          white-space: nowrap;
-                                          word-wrap: normal;
-                                        "
-                                      >
-                                        <option value=""></option>
+                                        <option value="">Country *</option>
+                                        <option value="india">India</option>
+                                        <option value="pakistan">Pakistan</option>
+                                        <option value="bangladesh">Bangladesh</option>
+                                        <option value="nepal">Nepal</option>
+                                        <option value="sri_lanka">Sri Lanka</option>
+                                        <option value="other">Other</option>
                                       </select>
                                     </div>
                                     <button

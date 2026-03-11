@@ -13,7 +13,7 @@ class HomeController extends Controller
 
     public function faq()
     {
-        return view('frontoffice.pages.faq');
+        return view('frontoffice.pages.Learn.faq');
     }
 
     public function contact()
@@ -23,77 +23,77 @@ class HomeController extends Controller
 
     public function ausbildungBasics()
     {
-        return view('frontoffice.pages.ausbildung-basics');
+        return view('frontoffice.pages.Learn.ausbildung-basics');
     }
 
     public function language()
     {
-        return view('frontoffice.pages.language');
+        return view('frontoffice.pages.Learn.language');
     }
 
     public function costs()
     {
-        return view('frontoffice.pages.costs');
+        return view('frontoffice.pages.Learn.costs');
     }
 
     public function visa()
     {
-        return view('frontoffice.pages.visa');
+        return view('frontoffice.pages.Learn.visa');
     }
 
     public function whyAusbildung()
     {
-        return view('frontoffice.pages.why-ausbildung');
+        return view('frontoffice.pages.Learn.why-ausbildung');
     }
 
     public function afterAusbildung()
     {
-        return view('frontoffice.pages.after-ausbildung');
+        return view('frontoffice.pages.Learn.after-ausbildung');
     }
 
     public function application()
     {
-        return view('frontoffice.pages.application');
+        return view('frontoffice.pages.Learn.application');
     }
 
     public function ausbildungTimeline()
     {
-        return view('frontoffice.pages.ausbildung-timeline');
+        return view('frontoffice.pages.Learn.ausbildung-timeline');
     }
 
     public function culturalIntegration()
     {
-        return view('frontoffice.pages.cultural-integration');
+        return view('frontoffice.pages.Learn.cultural-integration');
     }
 
     public function dailyLife()
     {
-        return view('frontoffice.pages.daily-life');
+        return view('frontoffice.pages.Learn.daily-life');
     }
 
     public function housing()
     {
-        return view('frontoffice.pages.housing');
+        return view('frontoffice.pages.Learn.housing');
     }
 
     public function requirements()
     {
-        return view('frontoffice.pages.requirements');
+        return view('frontoffice.pages.Learn.requirements');
     }
 
     public function ausbildungGermany()
     {
-        return view('frontoffice.pages.ausbildung-germany');
+        return view('frontoffice.pages.Learn.ausbildung-germany');
     }
 
     public function programs()
     {
-        return view('frontoffice.pages.programs');
+        return view('frontoffice.pages.Learn.programs');
     }
 
     public function traineeRights()
     {
-        return view('frontoffice.pages.trainee-rights');
+        return view('frontoffice.pages.Learn.trainee-rights');
     }
 
     public function partnerWithUs()
