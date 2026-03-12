@@ -1,4 +1,4 @@
-@extends('frontoffice.layouts.app')
+﻿@extends('frontoffice.layouts.app')
 
 @section('title', 'After Ausbildung: €2,400-3,800 Salary + Permanent Residency Path | GoAusbildung')
 
@@ -21,7 +21,7 @@
               alt="Hamburg harbor in autumn - Germany&#x27;s business hub representing career opportunities"
               loading="eager"
               decoding="async"
-              data-nimg="fill"
+             
               class="object-cover object-center"
               style="
                 position: absolute;
@@ -33,16 +33,8 @@
                 bottom: 0;
                 color: transparent;
               "
-              sizes="100vw"
-              srcset="
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fhamburg-harbor-hero-autumn.webp&amp;w=640&amp;q=85   640w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fhamburg-harbor-hero-autumn.webp&amp;w=750&amp;q=85   750w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fhamburg-harbor-hero-autumn.webp&amp;w=828&amp;q=85   828w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fhamburg-harbor-hero-autumn.webp&amp;w=1080&amp;q=85 1080w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fhamburg-harbor-hero-autumn.webp&amp;w=1200&amp;q=85 1200w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fhamburg-harbor-hero-autumn.webp&amp;w=1920&amp;q=85 1920w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fhamburg-harbor-hero-autumn.webp&amp;w=2048&amp;q=85 2048w
-              "
+             
+             
               src="{{ asset('assets/_next/hamburg-harbor-hero-autumn9127.jpeg') }}"
             />
             <div class="absolute inset-0 bg-black/30 z-0"></div>
@@ -209,7 +201,7 @@
                     alt="Career growth after completing Ausbildung"
                     loading="lazy"
                     decoding="async"
-                    data-nimg="fill"
+                   
                     class="object-cover"
                     style="
                       position: absolute;
@@ -221,16 +213,8 @@
                       bottom: 0;
                       color: transparent;
                     "
-                    sizes="100vw"
-                    srcset="
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fcareer-growth.jpg&amp;w=640&amp;q=75   640w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fcareer-growth.jpg&amp;w=750&amp;q=75   750w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fcareer-growth.jpg&amp;w=828&amp;q=75   828w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fcareer-growth.jpg&amp;w=1080&amp;q=75 1080w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fcareer-growth.jpg&amp;w=1200&amp;q=75 1200w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fcareer-growth.jpg&amp;w=1920&amp;q=75 1920w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fcareer-growth.jpg&amp;w=2048&amp;q=75 2048w
-                    "
+                   
+                   
                     src="{{ asset('assets/_next/career-growthcf96.jpeg') }}"
                   />
                   <div class="absolute inset-0 bg-black/60 flex items-end">
@@ -926,7 +910,7 @@
                     alt="Further education opportunities after Ausbildung"
                     loading="lazy"
                     decoding="async"
-                    data-nimg="fill"
+                   
                     class="object-cover"
                     style="
                       position: absolute;
@@ -938,16 +922,8 @@
                       bottom: 0;
                       color: transparent;
                     "
-                    sizes="100vw"
-                    srcset="
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Ffurther-education.jpg&amp;w=640&amp;q=75   640w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Ffurther-education.jpg&amp;w=750&amp;q=75   750w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Ffurther-education.jpg&amp;w=828&amp;q=75   828w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Ffurther-education.jpg&amp;w=1080&amp;q=75 1080w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Ffurther-education.jpg&amp;w=1200&amp;q=75 1200w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Ffurther-education.jpg&amp;w=1920&amp;q=75 1920w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Ffurther-education.jpg&amp;w=2048&amp;q=75 2048w
-                    "
+                   
+                   
                     src="{{ asset('assets/_next/further-educationae61.jpeg') }}"
                   />
                   <div class="absolute inset-0 bg-black/60 flex items-end">
@@ -1406,7 +1382,7 @@
                     alt="Salary progression after completing Ausbildung"
                     loading="lazy"
                     decoding="async"
-                    data-nimg="fill"
+                   
                     class="object-cover"
                     style="
                       position: absolute;
@@ -1418,16 +1394,8 @@
                       bottom: 0;
                       color: transparent;
                     "
-                    sizes="100vw"
-                    srcset="
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fsalary-growth.jpg&amp;w=640&amp;q=75   640w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fsalary-growth.jpg&amp;w=750&amp;q=75   750w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fsalary-growth.jpg&amp;w=828&amp;q=75   828w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fsalary-growth.jpg&amp;w=1080&amp;q=75 1080w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fsalary-growth.jpg&amp;w=1200&amp;q=75 1200w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fsalary-growth.jpg&amp;w=1920&amp;q=75 1920w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fsalary-growth.jpg&amp;w=2048&amp;q=75 2048w
-                    "
+                   
+                   
                     src="{{ asset('assets/_next/salary-growthe008.jpeg') }}"
                   />
                   <div class="absolute inset-0 bg-black/60 flex items-end">
@@ -2039,7 +2007,7 @@
                     alt="Residency and citizenship opportunities in Germany"
                     loading="lazy"
                     decoding="async"
-                    data-nimg="fill"
+                   
                     class="object-cover"
                     style="
                       position: absolute;
@@ -2051,16 +2019,8 @@
                       bottom: 0;
                       color: transparent;
                     "
-                    sizes="100vw"
-                    srcset="
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fresidency.jpg&amp;w=640&amp;q=75   640w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fresidency.jpg&amp;w=750&amp;q=75   750w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fresidency.jpg&amp;w=828&amp;q=75   828w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fresidency.jpg&amp;w=1080&amp;q=75 1080w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fresidency.jpg&amp;w=1200&amp;q=75 1200w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fresidency.jpg&amp;w=1920&amp;q=75 1920w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fresidency.jpg&amp;w=2048&amp;q=75 2048w
-                    "
+                   
+                   
                     src="{{ asset('assets/_next/residency377a.jpeg') }}"
                   />
                   <div class="absolute inset-0 bg-black/60 flex items-end">
@@ -2486,7 +2446,7 @@
                     alt="Entrepreneurship opportunities after Ausbildung"
                     loading="lazy"
                     decoding="async"
-                    data-nimg="fill"
+                   
                     class="object-cover"
                     style="
                       position: absolute;
@@ -2498,16 +2458,8 @@
                       bottom: 0;
                       color: transparent;
                     "
-                    sizes="100vw"
-                    srcset="
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fentrepreneurship.jpg&amp;w=640&amp;q=75   640w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fentrepreneurship.jpg&amp;w=750&amp;q=75   750w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fentrepreneurship.jpg&amp;w=828&amp;q=75   828w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fentrepreneurship.jpg&amp;w=1080&amp;q=75 1080w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fentrepreneurship.jpg&amp;w=1200&amp;q=75 1200w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fentrepreneurship.jpg&amp;w=1920&amp;q=75 1920w,
-                      /_next/image?url=%2Fimages%2Fafter-ausbildung%2Fentrepreneurship.jpg&amp;w=2048&amp;q=75 2048w
-                    "
+                   
+                   
                     src="{{ asset('assets/_next/entrepreneurshipd865.jpeg') }}"
                   />
                   <div class="absolute inset-0 bg-black/60 flex items-end">
@@ -3946,7 +3898,7 @@
                 alt="Background"
                 loading="lazy"
                 decoding="async"
-                data-nimg="fill"
+               
                 class="object-cover object-center rounded-2xl"
                 style="
                   position: absolute;
@@ -3958,16 +3910,8 @@
                   bottom: 0;
                   color: transparent;
                 "
-                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                srcset="
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=640&amp;q=85   640w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=750&amp;q=85   750w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=828&amp;q=85   828w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1080&amp;q=85 1080w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1200&amp;q=85 1200w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1920&amp;q=85 1920w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85 2048w
-                "
+               
+               
                 src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}"
               />
               <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
@@ -4129,3 +4073,4 @@
           </section>
         </div>
 @endsection
+

@@ -105,23 +105,41 @@
                     <input type="text" placeholder="City or state" class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(52,79,31,0.12)] bg-[#F9F5F0] px-4 text-sm text-[#344F1F] focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A]" />
                   </div>
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
-                    <select class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(52,79,31,0.12)] bg-[#F9F5F0] px-4 text-sm text-[#344F1F] focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A]">
-                      <option>All sectors</option>
-                      <option>Healthcare</option>
-                      <option>IT &amp; Technology</option>
-                      <option>Engineering</option>
-                    </select>
-                    <select class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(52,79,31,0.12)] bg-[#F9F5F0] px-4 text-sm text-[#344F1F] focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A]">
-                      <option>Any language level</option>
-                      <option>A2</option>
-                      <option>B1</option>
-                      <option>B2+</option>
-                    </select>
-                    <select class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(52,79,31,0.12)] bg-[#F9F5F0] px-4 text-sm text-[#344F1F] focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A]">
-                      <option>Salary range</option>
-                      <option>€850 - €1,000</option>
-                      <option>€1,001 - €1,300</option>
-                    </select>
+                    <div class="relative">
+                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 pr-10 text-sm font-medium text-[#344F1F] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A] hover:border-[#344F1F]/35 appearance-none cursor-pointer">
+                        <option>All sectors</option>
+                        <option>Healthcare</option>
+                        <option>IT &amp; Technology</option>
+                        <option>Engineering</option>
+                      </select>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#344F1F]/70 pointer-events-none">
+                        <path d="m6 9 6 6 6-6">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="relative">
+                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 pr-10 text-sm font-medium text-[#344F1F] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A] hover:border-[#344F1F]/35 appearance-none cursor-pointer">
+                        <option>Any language level</option>
+                        <option>A2</option>
+                        <option>B1</option>
+                        <option>B2+</option>
+                      </select>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#344F1F]/70 pointer-events-none">
+                        <path d="m6 9 6 6 6-6">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="relative">
+                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 pr-10 text-sm font-medium text-[#344F1F] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A] hover:border-[#344F1F]/35 appearance-none cursor-pointer">
+                        <option>Salary range</option>
+                        <option>€850 - €1,000</option>
+                        <option>€1,001 - €1,300</option>
+                      </select>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#344F1F]/70 pointer-events-none">
+                        <path d="m6 9 6 6 6-6">
+                        </path>
+                      </svg>
+                    </div>
                   </div>
                 </div>
                 
@@ -179,9 +197,9 @@
                       <div class="flex items-center gap-2">
                         <span class="text-sm text-[rgba(52,79,31,0.7)] whitespace-nowrap">                        Show:
 </span>
-                        <button type="button" role="combobox" aria-controls="radix-R2ce8uslb" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="flex items-center justify-between px-4 py-3 text-sm font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 w-[80px] h-10 rounded-full border-2 border-[rgba(52,79,31,0.1)] bg-white hover:border-[rgba(52,79,31,0.2)] focus:ring-2 focus:ring-[#F4991A] focus:ring-offset-0">
-                          <span style="pointer-events:none"></span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground" aria-hidden="true">
+                        <button type="button" role="combobox" aria-controls="radix-R2ce8uslb" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="flex items-center justify-between px-3 py-2 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] w-[90px]">
+                          <span style="pointer-events:none">12</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 text-[#344F1F]/70" aria-hidden="true">
                             <path d="m6 9 6 6 6-6">
                             </path>
                           </svg>
@@ -190,9 +208,9 @@
                         </select>
                       </div>
                     </div>
-                    <button type="button" role="combobox" aria-controls="radix-Rke8uslb" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="flex h-12 items-center justify-between ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white border-2 border-[rgba(52,79,31,0.15)] rounded-full text-[#344F1F] focus:border-[#F4991A] focus:ring-2 focus:ring-[rgba(244,153,26,0.1)] px-4 py-2 w-[160px] text-sm font-medium">
-                      <span style="pointer-events:none"></span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground" aria-hidden="true">
+                    <button type="button" role="combobox" aria-controls="radix-Rke8uslb" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="flex items-center justify-between px-4 py-2 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] w-[170px]">
+                      <span style="pointer-events:none">Latest</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 text-[#344F1F]/70" aria-hidden="true">
                         <path d="m6 9 6 6 6-6">
                         </path>
                       </svg>
@@ -528,7 +546,7 @@
                           <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
                           </path>
                         </svg>
-                        <span>                        â‚¬1,241-1,344/EUR
+                        <span>                        €1,241-1,344/EUR
 </span>
                       </div>
                     </div>
@@ -642,7 +660,7 @@
                           <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
                           </path>
                         </svg>
-                        <span>                        â‚¬1,241-1,344/EUR
+                        <span>                        €1,241-1,344/EUR
 </span>
                       </div>
                     </div>
@@ -756,7 +774,7 @@
                           <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
                           </path>
                         </svg>
-                        <span>                        â‚¬1,241-1,344/EUR
+                        <span>                        €1,241-1,344/EUR
 </span>
                       </div>
                     </div>
@@ -861,7 +879,7 @@
                           <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
                           </path>
                         </svg>
-                        <span>                        â‚¬1,241-1,344/EUR
+                        <span>                        €1,241-1,344/EUR
 </span>
                       </div>
                     </div>
@@ -1768,7 +1786,7 @@
                 </div>
               </div>
 </a>
-              <div class="group block opacity-50 pointer-events-none">
+              <div class="group block">
                 <div class="rounded-xl text-card-foreground shadow relative h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-0 bg-white">
                   <div class="inline-flex items-center rounded-full border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 absolute -top-2 right-6 text-xs px-3 py-1 font-medium bg-secondary text-white border-secondary">
                     New
@@ -1805,7 +1823,7 @@
                   </div>
                 </div>
               </div>
-              <div class="group block opacity-50 pointer-events-none">
+              <div class="group block">
                 <div class="rounded-xl text-card-foreground shadow relative h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-0 bg-white">
                   <div class="inline-flex items-center rounded-full border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 absolute -top-2 right-6 text-xs px-3 py-1 font-medium bg-secondary text-white border-secondary">
                     Most Popular
@@ -2198,4 +2216,3 @@
         </section>
       </div>
 @endsection
-

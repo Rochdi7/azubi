@@ -1,4 +1,4 @@
-@extends('frontoffice.layouts.app')
+﻿@extends('frontoffice.layouts.app')
 
 @section('title', 'Ausbildung Sector Comparison Tool 2026 | Compare IT, Healthcare, Engineering & More | GoAusbildung')
 
