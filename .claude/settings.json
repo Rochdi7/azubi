@@ -31,11 +31,27 @@
       "Bash(echo \"=== $f ===\")",
       "Bash(cd \"c:/Users/ASUS/Desktop/Projects/azubi/resources/views/frontoffice/pages\" grep -n '</header>\\\\|<footer\\\\|@include' index.blade.php)",
       "Bash(php fix_header_final.php)",
-      "Bash(rm fix_header_final.php)"
+      "Bash(rm fix_header_final.php)",
+      "Bash(for file:*)",
+      "Bash(python \"c:/tmp/convert_tools.py\")",
+      "Bash(xxd)",
+      "Bash(php --version)",
+      "Bash(php -r \":*)",
+      "Bash(php \"c:/tmp/convert_tools.php\")",
+      "Bash(ls -la \"c:/Users/ASUS/Desktop/Projects/azubi/resources/views/frontoffice/pages/tools/\"*.blade.php)",
+      "Bash(php \"c:/tmp/fix_image_paths.php\")",
+      "Bash(php \"c:/tmp/fix_srcset.php\")",
+      "Bash(php \"c:/tmp/convert_construction.php\")",
+      "Bash(php -r \"echo ''PHP works'';\")",
+      "Bash(php resources/views/frontoffice/pages/sectors/convert.php)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ASUS\\Desktop\\Projects\\azubi\\resources\\views\\frontoffice\\partials",
-      "\\tmp"
+      "\\tmp",
+      "C:\\Users\\ASUS\\Desktop\\Projects\\azubi",
+      "C:\\Users\\ASUS\\Desktop\\Projects\\azubi\\s\\asset(\\\"assets\\asset('assets\\g; s\\\")\\')",
+      "C:\\Users\\ASUS\\Desktop\\Projects\\azubi\\s\\'\\'",
+      "c:\\Users\\ASUS\\Desktop\\Projects\\azubi\\resources\\views\\frontoffice\\pages\\tools"
     ]
   }
 }

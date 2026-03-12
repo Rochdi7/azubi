@@ -3,64 +3,408 @@
 @section('title', 'German for Ausbildung: A1 to B1 in 6 Months (2026 Guide) | GoAusbildung')
 
 @section('meta')
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    class="lucide lucide-languages h-4 w-4 mr-2"
-    aria-hidden="true"
-    >
-    <path d="m5 8 6 6"></path>
-    <path d="m4 14 6-6 2-3"></path>
-    <path d="M2 5h12"></path>
-    <path d="M7 2h1"></path>
-    <path d="m22 22-5-10-5 10"></path>
-    <path d="M14 18h6"></path></svg
-    >Language Guide
-    </div>
-    </div>
-    <h1
-    class="tracking-tight font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-2xl animate-fade-in-up animation-delay-200"
-    >
-    German Language Requirements
-    </h1>
-    <p
-    class="text-lg leading-relaxed text-white/90 drop-shadow-lg animate-fade-in-up animation-delay-300"
-    >
-    Everything you need to know about German language proficiency
-    levels, certification, and preparation for your vocational
-    training in Germany.
-    </p>
-    <nav
-    class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
-    aria-label="Primary navigation"
-    >
-    <a
-    class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
-    aria-label="Start Learning"
-    href="dashboard/german.html"
-    ><span aria-hidden="true"
-    ><svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    class="lucide lucide-graduation-cap w-5 h-5 mr-2"
-    >
-    <path
-    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
-    ></path>
-    <path d="M22 10v6"></path>
-    <path
-    d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"
-    ></path></svg></span
+    <meta name="description"
+        content="B1 German is required for Ausbildung. See exact timelines (A1→B2), accepted certifications (Goethe, telc), costs, and free learning resources. Start today.">
+    <meta name="keywords"
+        content="german language ausbildung, B1 german requirement, german for vocational training, goethe certificate ausbildung, telc german exam, learn german for ausbildung">
+    <meta property="og:title" content="German for Ausbildung: A1 to B1 in 6 Months (2026 Guide)">
+    <meta property="og:description"
+        content="B1 German is required for Ausbildung. See exact timelines (A1→B2), accepted certifications (Goethe, telc), costs, and free learning resources. Start today.">
 @endsection
 
 @section('content')
+        <div class="flex flex-col">
+          <section
+            class="relative text-foreground py-16 sm:py-20 md:py-24 lg:py-28 min-h-[600px] sm:min-h-[650px] lg:min-h-[700px] overflow-hidden w-full flex items-center justify-center -mt-24 pt-36 sm:pt-40 md:pt-44"
+          >
+            <img
+              alt="Rhine Valley in autumn - scenic German river landscape with vineyards"
+              loading="eager"
+              decoding="async"
+              data-nimg="fill"
+              class="object-cover object-center"
+              style="
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                color: transparent;
+              "
+              sizes="100vw"
+              srcset="
+                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=640&amp;q=85   640w,
+                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=750&amp;q=85   750w,
+                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=828&amp;q=85   828w,
+                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=1080&amp;q=85 1080w,
+                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=1200&amp;q=85 1200w,
+                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=1920&amp;q=85 1920w,
+                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=2048&amp;q=85 2048w
+              "
+              src="{{ asset('assets/_next/rhine-valley-hero-autumn77a4.jpeg') }}"
+            />
+            <div class="absolute inset-0 bg-black/30 z-0"></div>
+            <div
+              class="absolute inset-0 z-0"
+              style="
+                background:
+                  radial-gradient(
+                    ellipse at center,
+                    transparent 0%,
+                    transparent 40%,
+                    rgba(0, 0, 0, 0.4) 100%
+                  ),
+                  linear-gradient(
+                    to top,
+                    rgba(0, 0, 0, 0.5) 0%,
+                    transparent 30%
+                  ),
+                  linear-gradient(
+                    to right,
+                    rgba(0, 0, 0, 0.3) 0%,
+                    transparent 15%
+                  ),
+                  linear-gradient(
+                    to left,
+                    rgba(0, 0, 0, 0.3) 0%,
+                    transparent 15%
+                  );
+              "
+            ></div>
+            <div
+              class="container mx-auto px-4 sm:px-6 md:px-8 relative z-10 flex flex-col gap-4 sm:gap-5 items-center text-center max-w-4xl"
+            >
+              <div class="flex flex-col gap-4 sm:gap-5">
+                <div class="animate-fade-in-up animation-delay-100">
+                  <div
+                    class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-2 border-white/80 text-white backdrop-blur-sm bg-white/10 hover:bg-white/20 px-3 py-1.5 text-sm font-semibold"
+                    aria-label="Language Guide"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-languages h-4 w-4 mr-2"
+                      aria-hidden="true"
+                    >
+                      <path d="m5 8 6 6"></path>
+                      <path d="m4 14 6-6 2-3"></path>
+                      <path d="M2 5h12"></path>
+                      <path d="M7 2h1"></path>
+                      <path d="m22 22-5-10-5 10"></path>
+                      <path d="M14 18h6"></path></svg
+                    >Language Guide
+                  </div>
+                </div>
+                <h1
+                  class="tracking-tight font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-2xl animate-fade-in-up animation-delay-200"
+                >
+                  German Language Requirements
+                </h1>
+                <p
+                  class="text-lg leading-relaxed text-white/90 drop-shadow-lg animate-fade-in-up animation-delay-300"
+                >
+                  Everything you need to know about German language proficiency
+                  levels, certification, and preparation for your vocational
+                  training in Germany.
+                </p>
+                <nav
+                  class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
+                  aria-label="Primary navigation"
+                >
+                  <a
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                    aria-label="Start Learning"
+                    href="dashboard/german.html"
+                    ><span aria-hidden="true"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-graduation-cap w-5 h-5 mr-2"
+                      >
+                        <path
+                          d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+                        ></path>
+                        <path d="M22 10v6"></path>
+                        <path
+                          d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"
+                        ></path></svg></span
+                    ><span>Start Learning</span></a
+                  ><a
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center"
+                    aria-label="View Requirements"
+                    href="#language-levels"
+                    ><span aria-hidden="true"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-book-open w-5 h-5 mr-2"
+                      >
+                        <path d="M12 7v14"></path>
+                        <path
+                          d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
+                        ></path></svg></span
+                    ><span>View Requirements</span></a
+                  >
+                </nav>
+              </div>
+            </div>
+            <div class="hidden md:block absolute bottom-4 right-4 z-10">
+              <p
+                class="text-xs text-white/70 bg-black/20 backdrop-blur-sm px-3 py-1.5 rounded-full"
+              >
+                Rhine Valley, Rhineland-Palatinate
+              </p>
+            </div>
+          </section>
+          <section id="language-levels" class="py-16">
+            <div class="container px-4 md:px-6">
+              <div class="grid md:grid-cols-3 gap-8 lg:gap-16 mb-16">
+                <div class="md:col-span-2 space-y-8">
+                  <div>
+                    <h2
+                      class="tracking-tight font-bold text-2xl sm:text-3xl text-secondary mb-4"
+                    >
+                      German for Ausbildung
+                    </h2>
+                    <p class="mb-4">
+                      German language proficiency is a fundamental requirement
+                      for Ausbildung programs. Since vocational training
+                      combines workplace learning with vocational school
+                      education, both components are conducted entirely in
+                      German.
+                    </p>
+                    <p class="mb-4">
+                      The minimum requirement for most Ausbildung programs is B1
+                      level proficiency according to the Common European
+                      Framework of Reference for Languages (CEFR). However, some
+                      sectors like healthcare and nursing often prefer or
+                      require B2 level.
+                    </p>
+                    <p>
+                      At GoAusbildung, we&#x27;ve developed specialized German
+                      language courses designed specifically for Ausbildung
+                      applicants. Our curriculum focuses on vocational
+                      vocabulary and practical communication relevant to your
+                      chosen sector.
+                    </p>
+                  </div>
+                  <div>
+                    <h2
+                      class="tracking-tight font-bold text-2xl sm:text-3xl text-secondary mb-4"
+                    >
+                      Understanding Language Levels
+                    </h2>
+                    <div class="space-y-4">
+                      <div
+                        class="p-4 rounded-lg border relative bg-red-100 text-red-600"
+                      >
+                        <div class="flex items-start gap-4">
+                          <div
+                            class="bg-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold flex-shrink-0"
+                          >
+                            A1
+                          </div>
+                          <div>
+                            <h3
+                              class="tracking-tight font-semibold sm:text-lg text-secondary text-lg"
+                            >
+                              A1<!-- -->
+                              -
+                              <!-- -->Beginner
+                            </h3>
+                            <p class="text-sm mb-1">
+                              Basic introduction to German with simple phrases
+                              and vocabulary.
+                            </p>
+                            <p class="text-xs">
+                              Typical duration:
+                              <!-- -->6-8 weeks
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="p-4 rounded-lg border relative bg-orange-100 text-orange-600"
+                      >
+                        <div class="flex items-start gap-4">
+                          <div
+                            class="bg-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold flex-shrink-0"
+                          >
+                            A2
+                          </div>
+                          <div>
+                            <h3
+                              class="tracking-tight font-semibold sm:text-lg text-secondary text-lg"
+                            >
+                              A2<!-- -->
+                              -
+                              <!-- -->Elementary
+                            </h3>
+                            <p class="text-sm mb-1">
+                              Simple communication about familiar topics with
+                              basic grammar.
+                            </p>
+                            <p class="text-xs">
+                              Typical duration:
+                              <!-- -->6-8 weeks after A1
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="p-4 rounded-lg border relative bg-green-100 text-green-600"
+                      >
+                        <div class="flex items-start gap-4">
+                          <div
+                            class="bg-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold flex-shrink-0"
+                          >
+                            B1
+                          </div>
+                          <div>
+                            <h3
+                              class="tracking-tight font-semibold sm:text-lg text-secondary text-lg"
+                            >
+                              B1<!-- -->
+                              -
+                              <!-- -->Intermediate
+                              <div
+                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 ml-2 bg-secondary/10 border-secondary/20"
+                              >
+                                <span class="text-secondary font-medium text-xs"
+                                  >Ausbildung Ready</span
+                                >
+                              </div>
+                            </h3>
+                            <p class="text-sm mb-1">
+                              Functional German for work and training
+                              environments.
+                            </p>
+                            <p class="text-xs">
+                              Typical duration:
+                              <!-- -->8-10 weeks after A2
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="p-4 rounded-lg border relative bg-beige text-secondary"
+                      >
+                        <div
+                          class="absolute -top-3 -right-3 bg-primary px-3 py-1 text-primary-foreground text-xs rounded-full"
+                        >
+                          Recommended
+                        </div>
+                        <div class="flex items-start gap-4">
+                          <div
+                            class="bg-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold flex-shrink-0"
+                          >
+                            B2
+                          </div>
+                          <div>
+                            <h3
+                              class="tracking-tight font-semibold sm:text-lg text-secondary text-lg"
+                            >
+                              B2<!-- -->
+                              -
+                              <!-- -->Upper Intermediate
+                              <div
+                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 ml-2 bg-secondary/10 border-secondary/20"
+                              >
+                                <span class="text-secondary font-medium text-xs"
+                                  >Preferred</span
+                                >
+                              </div>
+                            </h3>
+                            <p class="text-sm mb-1">
+                              More fluent communication required for healthcare
+                              and specialized fields.
+                            </p>
+                            <p class="text-xs">
+                              Typical duration:
+                              <!-- -->8-10 weeks after B1
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bg-card border border-primary/10 rounded-xl p-6">
+                    <div class="flex items-start gap-4">
+                      <div class="bg-primary text-white p-2 rounded-lg">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-languages h-5 w-5"
+                        >
+                          <path d="m5 8 6 6"></path>
+                          <path d="m4 14 6-6 2-3"></path>
+                          <path d="M2 5h12"></path>
+                          <path d="M7 2h1"></path>
+                          <path d="m22 22-5-10-5 10"></path>
+                          <path d="M14 18h6"></path>
+                        </svg>
+                      </div>
+                      <div class="flex-1">
+                        <h3
+                          class="tracking-tight font-semibold sm:text-lg text-secondary text-base mb-1"
+                        >
+                          Practice German Interactively
+                        </h3>
+                        <p class="text-sm text-muted-foreground mb-3">
+                          Complement your learning with our free interactive
+                          German conversation tool. Practice real-world
+                          scenarios and get instant feedback on your
+                          pronunciation and grammar.
+                        </p>
+                        <div class="flex items-center gap-4">
+                          <div
+                            class="text-sm font-medium text-primary hover:underline inline-flex items-center gap-1 opacity-50 pointer-events-none"
+                          >
+                            Try Interactive German Training<svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-arrow-right h-3 w-3"
+                            >
+                              <path d="M5 12h14"></path>
+                              <path d="m12 5 7 7-7 7"></path>
+                            </svg>
                           </div>
                           <span class="text-xs text-muted-foreground"
                             >15,000+ learners</span
@@ -1305,7 +1649,7 @@
                     </svg></div></a
                 ><a
                   class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                  href="{{ route('front.visa') }}"
+                  href="visa.html"
                   ><div class="flex items-start gap-4">
                     <div
                       class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -1358,7 +1702,7 @@
                     </svg></div></a
                 ><a
                   class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                  href="{{ route('front.sectors') }}"
+                  href="sectors.html"
                   ><div class="flex items-start gap-4">
                     <div
                       class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -1531,6 +1875,15 @@
                   color: transparent;
                 "
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
+                srcset="
+                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=640&amp;q=85   640w,
+                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=750&amp;q=85   750w,
+                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=828&amp;q=85   828w,
+                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1080&amp;q=85 1080w,
+                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1200&amp;q=85 1200w,
+                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1920&amp;q=85 1920w,
+                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85 2048w
+                "
                 src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}"
               />
               <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
@@ -1593,5 +1946,4 @@
             </section>
           </div>
         </div>
-@endsection
 @endsection

@@ -28,42 +28,49 @@
                     <span>Tools</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down ml-1 h-4 w-4"><path d="m6 9 6 6 6-6"></path></svg>
                   </button>
-                  <div class="nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[280px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-3 opacity-0 invisible transition-all duration-200" style="display:none;">
-                    <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="#">
-                      <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M21 10.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.5"></path><path d="m9 11 3 3L22 4"></path></svg>
-                      </div>
-                      <span class="text-sm font-semibold">Eligibility Checker</span>
-                    </a>
-                    <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="tools/cover-letter.html">
-                      <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
-                      </div>
-                      <span class="text-sm font-semibold">Cover Letter Generator</span>
-                    </a>
-                    <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="tools/living-cost-calculator.html">
-                      <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
-                      </div>
-                      <span class="text-sm font-semibold">Living Cost Calculator</span>
-                    </a>
-                    <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="tools/roi-calculator.html">
-                      <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
-                      </div>
-                      <span class="text-sm font-semibold">ROI Calculator</span>
-                    </a>
-                    <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="tools/document-checklist.html">
-                      <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg>
-                      </div>
-                      <span class="text-sm font-semibold">Document Checklist</span>
-                    </a>
-                    <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="tools/career-pathway-decision.html">
-                      <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><circle cx="6" cy="19" r="3"></circle><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"></path><circle cx="18" cy="5" r="3"></circle></svg>
-                      </div>
-                      <span class="text-sm font-semibold">Career Pathway</span>
+                  <div class="nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[520px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-4 opacity-0 invisible transition-all duration-200" style="display:none;">
+                    <p class="px-3 py-2 text-xs font-medium text-muted-foreground uppercase tracking-wider">Tools</p>
+                    <div class="grid grid-cols-2 gap-1">
+                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="{{ route('front.tools.eligibility-checker') }}">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M21 10.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.5"></path><path d="m9 11 3 3L22 4"></path></svg>
+                        </div>
+                        <span class="text-sm font-semibold">Eligibility Checker</span>
+                      </a>
+                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="{{ route('front.tools.living-cost-calculator') }}">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
+                        </div>
+                        <span class="text-sm font-semibold">Living Cost Calculator</span>
+                      </a>
+                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="{{ route('front.tools.roi-calculator') }}">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+                        </div>
+                        <span class="text-sm font-semibold">ROI Calculator</span>
+                      </a>
+                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="{{ route('front.tools.document-checklist') }}">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg>
+                        </div>
+                        <span class="text-sm font-semibold">Document Checklist</span>
+                      </a>
+                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="{{ route('front.tools.career-pathway-decision') }}">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><circle cx="6" cy="19" r="3"></circle><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"></path><circle cx="18" cy="5" r="3"></circle></svg>
+                        </div>
+                        <span class="text-sm font-semibold">Career Pathway</span>
+                      </a>
+                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="{{ route('front.tools.cover-letter') }}">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                        </div>
+                        <span class="text-sm font-semibold">Cover Letter Generator</span>
+                      </a>
+                    </div>
+                    <a class="flex items-center justify-center gap-2 mt-3 w-full py-3 rounded-xl bg-[#F4991A] hover:bg-[#E5890F] text-white text-sm font-semibold transition-all duration-200" href="{{ route('front.tools') }}">
+                      <span>View All 13 Tools</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                     </a>
                   </div>
                 </div>
@@ -210,7 +217,7 @@
                         </div>
                         <span class="text-sm font-semibold">Trainee Rights</span>
                       </a>
-                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="#">
+                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5" href="{{ route('front.change-career') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path></svg>
                         </div>
@@ -236,11 +243,11 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis-vertical h-4 w-4"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
                   </button>
                 </div>
-                <a class="flex items-center justify-center gap-2 bg-primary hover:bg-primary/95 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors text-primary-foreground border border-primary/20 ml-2 md:ml-3" href="dashboard.html">
+                <a class="flex items-center justify-center gap-2 bg-primary hover:bg-primary/95 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors text-primary-foreground border border-primary/20 ml-2 md:ml-3" href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard w-4 h-4"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>
                   <span class="hidden sm:inline">Dashboard</span>
                 </a>
-                <a class="flex items-center justify-center gap-2 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors bg-[#F4991A] hover:bg-[#E5890F] text-white ml-1 md:ml-2" href="consultation.html">
+                <a class="flex items-center justify-center gap-2 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors bg-[#F4991A] hover:bg-[#E5890F] text-white ml-1 md:ml-2" href="{{ route('front.consultation') }}">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>
                   <span>Apply For Me</span>
                 </a>
@@ -297,37 +304,37 @@
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right ml-1 h-4 w-4 transition-transform duration-200"><path d="m9 18 6-6-6-6"></path></svg>
                     </button>
                     <div class="mobile-accordion-content mt-2 flex-col gap-1 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner max-h-[340px] overflow-y-auto" style="display:none;">
-                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="tools/eligibility-checker.html">
+                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="{{ route('front.tools.eligibility-checker') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M21 10.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.5"></path><path d="m9 11 3 3L22 4"></path></svg>
                         </div>
                         <span class="text-sm font-semibold">Eligibility Checker</span>
                       </a>
-                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="tools/living-cost-calculator.html">
+                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="{{ route('front.tools.living-cost-calculator') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
                         </div>
                         <span class="text-sm font-semibold">Living Cost Calculator</span>
                       </a>
-                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="tools/roi-calculator.html">
+                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="{{ route('front.tools.roi-calculator') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
                         </div>
                         <span class="text-sm font-semibold">ROI Calculator</span>
                       </a>
-                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="tools/document-checklist.html">
+                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="{{ route('front.tools.document-checklist') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg>
                         </div>
                         <span class="text-sm font-semibold">Document Checklist</span>
                       </a>
-                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="tools/career-pathway-decision.html">
+                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="{{ route('front.tools.career-pathway-decision') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><circle cx="6" cy="19" r="3"></circle><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"></path><circle cx="18" cy="5" r="3"></circle></svg>
                         </div>
                         <span class="text-sm font-semibold">Career Pathway</span>
                       </a>
-                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="tools/cover-letter.html">
+                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="{{ route('front.tools.cover-letter') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
                         </div>
@@ -483,7 +490,7 @@
                         </div>
                         <span class="text-sm font-semibold">Trainee Rights</span>
                       </a>
-                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="#">
+                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white" href="{{ route('front.change-career') }}">
                         <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0" style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path></svg>
                         </div>
@@ -505,7 +512,7 @@
                   </div>
                 </nav>
                 <div class="mt-4 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner backdrop-blur-sm">
-                  <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90" href="dashboard.html">
+                  <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard mr-2 h-4 w-4"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>Go to Dashboard
                   </a>
                 </div>

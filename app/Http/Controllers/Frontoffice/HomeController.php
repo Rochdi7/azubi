@@ -66,6 +66,11 @@ class HomeController extends Controller
         return view('frontoffice.pages.Learn.cultural-integration');
     }
 
+    public function changeCareer()
+    {
+        return view('frontoffice.pages.Learn.change-career');
+    }
+
     public function dailyLife()
     {
         return view('frontoffice.pages.Learn.daily-life');
@@ -83,7 +88,7 @@ class HomeController extends Controller
 
     public function ausbildungGermany()
     {
-        return view('frontoffice.pages.Learn.ausbildung-germany');
+        return view('frontoffice.pages.Learn.ausbildung-basics');
     }
 
     public function programs()
@@ -135,6 +140,71 @@ class HomeController extends Controller
     public function tools()
     {
         return view('frontoffice.pages.tools');
+    }
+
+    public function toolEligibilityChecker()
+    {
+        return view('frontoffice.pages.tools.eligibility-checker');
+    }
+
+    public function toolCoverLetter()
+    {
+        return view('frontoffice.pages.tools.cover-letter');
+    }
+
+    public function toolLivingCostCalculator()
+    {
+        return view('frontoffice.pages.tools.living-cost-calculator');
+    }
+
+    public function toolRoiCalculator()
+    {
+        return view('frontoffice.pages.tools.roi-calculator');
+    }
+
+    public function toolDocumentChecklist()
+    {
+        return view('frontoffice.pages.tools.document-checklist');
+    }
+
+    public function toolCareerPathwayDecision()
+    {
+        return view('frontoffice.pages.tools.career-pathway-decision');
+    }
+
+    public function toolApplicationTimeline()
+    {
+        return view('frontoffice.pages.tools.application-timeline');
+    }
+
+    public function toolAusbildungSectorComparison()
+    {
+        return view('frontoffice.pages.tools.ausbildung-sector-comparison');
+    }
+
+    public function toolAusbildungVsUniversity()
+    {
+        return view('frontoffice.pages.tools.ausbildung-vs-university-comparison');
+    }
+
+    public function toolBlockedAccountCalculator()
+    {
+        return view('frontoffice.pages.tools.blocked-account-calculator');
+    }
+
+    public function toolCvComparison()
+    {
+        return view('frontoffice.pages.tools.cv-comparison');
+    }
+
+    public function toolLanguageProficiencyCalculator()
+    {
+        return view('frontoffice.pages.tools.language-proficiency-calculator');
+    }
+
+    public function toolPreDepartureChecklist()
+    {
+        return view('frontoffice.pages.tools.pre-departure-checklist');
     }
 
     public function privacy()

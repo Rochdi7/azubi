@@ -24,6 +24,7 @@ Route::get('/after-ausbildung', [HomeController::class, 'afterAusbildung'])->nam
 Route::get('/application', [HomeController::class, 'application'])->name('front.application');
 Route::get('/ausbildung-timeline', [HomeController::class, 'ausbildungTimeline'])->name('front.ausbildung-timeline');
 Route::get('/cultural-integration', [HomeController::class, 'culturalIntegration'])->name('front.cultural-integration');
+Route::get('/ausbildung/change-career', [HomeController::class, 'changeCareer'])->name('front.change-career');
 Route::get('/daily-life', [HomeController::class, 'dailyLife'])->name('front.daily-life');
 Route::get('/housing', [HomeController::class, 'housing'])->name('front.housing');
 Route::get('/requirements', [HomeController::class, 'requirements'])->name('front.requirements');
@@ -37,6 +38,19 @@ Route::get('/sectors/{slug}', [HomeController::class, 'sector'])->name('front.se
 Route::get('/about', [HomeController::class, 'about'])->name('front.about');
 Route::get('/jobs', [HomeController::class, 'jobs'])->name('front.jobs');
 Route::get('/tools', [HomeController::class, 'tools'])->name('front.tools');
+Route::get('/tools/eligibility-checker', [HomeController::class, 'toolEligibilityChecker'])->name('front.tools.eligibility-checker');
+Route::get('/tools/cover-letter', [HomeController::class, 'toolCoverLetter'])->name('front.tools.cover-letter');
+Route::get('/tools/living-cost-calculator', [HomeController::class, 'toolLivingCostCalculator'])->name('front.tools.living-cost-calculator');
+Route::get('/tools/roi-calculator', [HomeController::class, 'toolRoiCalculator'])->name('front.tools.roi-calculator');
+Route::get('/tools/document-checklist', [HomeController::class, 'toolDocumentChecklist'])->name('front.tools.document-checklist');
+Route::get('/tools/career-pathway-decision', [HomeController::class, 'toolCareerPathwayDecision'])->name('front.tools.career-pathway-decision');
+Route::get('/tools/application-timeline', [HomeController::class, 'toolApplicationTimeline'])->name('front.tools.application-timeline');
+Route::get('/tools/ausbildung-sector-comparison', [HomeController::class, 'toolAusbildungSectorComparison'])->name('front.tools.ausbildung-sector-comparison');
+Route::get('/tools/ausbildung-vs-university-comparison', [HomeController::class, 'toolAusbildungVsUniversity'])->name('front.tools.ausbildung-vs-university-comparison');
+Route::get('/tools/blocked-account-calculator', [HomeController::class, 'toolBlockedAccountCalculator'])->name('front.tools.blocked-account-calculator');
+Route::get('/tools/cv-comparison', [HomeController::class, 'toolCvComparison'])->name('front.tools.cv-comparison');
+Route::get('/tools/language-proficiency-calculator', [HomeController::class, 'toolLanguageProficiencyCalculator'])->name('front.tools.language-proficiency-calculator');
+Route::get('/tools/pre-departure-checklist', [HomeController::class, 'toolPreDepartureChecklist'])->name('front.tools.pre-departure-checklist');
 Route::get('/privacy', [HomeController::class, 'privacy'])->name('front.privacy');
 Route::get('/imprint', [HomeController::class, 'imprint'])->name('front.imprint');
 Route::get('/cookies', [HomeController::class, 'cookies'])->name('front.cookies');
