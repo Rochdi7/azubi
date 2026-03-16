@@ -80,7 +80,7 @@
                 <h2>3. Contact Information</h2>
                 <p>
                   <strong>Website:</strong>
-                  <a href="index.html" target="_blank" rel="noopener noreferrer"
+                  <a href="{{ route('front.index') }}" target="_blank" rel="noopener noreferrer"
                     >goausbildung.com</a
                   ><br /><strong>General Inquiries:</strong>
                   <a
@@ -188,7 +188,7 @@
                 </ul>
                 <p>
                   Full details of service features and pricing are available at
-                  <a href="consultation.html">goausbildung.com/consultation</a>.
+                  <a href="{{ route('front.consultation') }}">goausbildung.com/consultation</a>.
                 </p>
                 <h2>7. Regulatory Information</h2>
                 <h3>7.1 Governing Law</h3>
@@ -339,7 +339,7 @@
                 <p>
                   For detailed information about how we collect, use, and
                   protect your personal data, please refer to our
-                  <a href="privacy.html">Privacy Policy</a>.
+                  <a href="{{ route('front.privacy') }}">Privacy Policy</a>.
                 </p>
                 <p>
                   We take data protection seriously and have implemented
@@ -439,7 +439,7 @@
                   We reserve the right to update this imprint at any time to
                   reflect changes in our business, legal requirements, or
                   operations. The current version is always available at
-                  <a href="imprint.html">goausbildung.com/imprint</a>.
+                  <a href="{{ route('front.imprint') }}">goausbildung.com/imprint</a>.
                 </p>
                 <p><strong>Last Updated:</strong> January 1, 2026</p>
                 <h2>16. Questions and Contact</h2>

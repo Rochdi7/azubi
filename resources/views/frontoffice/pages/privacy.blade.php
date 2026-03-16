@@ -171,7 +171,7 @@
                   We use cookies, web beacons, and similar tracking technologies
                   to enhance your experience, analyze usage patterns, and
                   deliver personalized content. For detailed information, please
-                  refer to our <a href="cookies.html">Cookie Policy</a>.
+                  refer to our <a href="{{ route('front.cookies') }}">Cookie Policy</a>.
                 </p>
                 <h3>2.5 Third-Party Information</h3>
                 <p>

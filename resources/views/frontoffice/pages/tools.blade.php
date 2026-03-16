@@ -212,7 +212,7 @@
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <a
                   class="block group"
-                  href="tools/blocked-account-calculator.html"
+                  href="{{ route('front.tools.blocked-account-calculator') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -276,7 +276,7 @@
                         </svg>
                       </div>
                     </div></div></a
-                ><a class="block group" href="tools/living-cost-calculator.html"
+                ><a class="block group" href="{{ route('front.tools.living-cost-calculator') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -339,7 +339,7 @@
                         </svg>
                       </div>
                     </div></div></a
-                ><a class="block group" href="tools/document-checklist.html"
+                ><a class="block group" href="{{ route('front.tools.document-checklist') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -403,7 +403,7 @@
                         </svg>
                       </div>
                     </div></div></a
-                ><a class="block group" href="tools/application-timeline.html"
+                ><a class="block group" href="{{ route('front.tools.application-timeline') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -472,7 +472,7 @@
                         </svg>
                       </div>
                     </div></div></a
-                ><a class="block group" href="tools/cv-comparison.html"
+                ><a class="block group" href="{{ route('front.tools.cv-comparison') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -539,7 +539,7 @@
                     </div></div></a
                 ><a
                   class="block group"
-                  href="tools/pre-departure-checklist.html"
+                  href="{{ route('front.tools.pre-departure-checklist') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -609,7 +609,7 @@
                     </div></div></a
                 ><a
                   class="block group"
-                  href="tools/career-pathway-decision.html"
+                  href="{{ route('front.tools.career-pathway-decision') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -673,7 +673,7 @@
                     </div></div></a
                 ><a
                   class="block group"
-                  href="tools/ausbildung-vs-university-comparison.html"
+                  href="{{ route('front.tools.ausbildung-vs-university-comparison') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -738,7 +738,7 @@
                     </div></div></a
                 ><a
                   class="block group"
-                  href="tools/ausbildung-sector-comparison.html"
+                  href="{{ route('front.tools.ausbildung-sector-comparison') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -809,7 +809,7 @@
                         </svg>
                       </div>
                     </div></div></a
-                ><a class="block group" href="tools/eligibility-checker.html"
+                ><a class="block group" href="{{ route('front.tools.eligibility-checker') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -871,7 +871,7 @@
                         </svg>
                       </div>
                     </div></div></a
-                ><a class="block group" href="tools/cover-letter.html"
+                ><a class="block group" href="{{ route('front.tools.cover-letter') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -936,7 +936,7 @@
                         </svg>
                       </div>
                     </div></div></a
-                ><a class="block group" href="tools/roi-calculator.html"
+                ><a class="block group" href="{{ route('front.tools.roi-calculator') }}"
                   ><div
                     class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2"
                   >
@@ -1404,7 +1404,7 @@
             <div class="container max-w-7xl mx-auto px-6 text-center">
               <a
                 class="text-sm text-green/60 hover:text-green underline decoration-green/30 hover:decoration-green/60 transition-colors"
-                href="consultation.html"
+                href="{{ route('front.consultation') }}"
                 >Need expert help with your applications? Learn about Apply For
                 Me →</a
               >

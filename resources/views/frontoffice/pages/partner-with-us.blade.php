@@ -10,7 +10,7 @@
     <meta name="pinterest:pinnable" content="true" />
     <meta name="pinterest:image" content="https://images.goausbildung.com/og-images/default-og.png" />
     <meta name="linkedin:image" content="https://images.goausbildung.com/og-images/default-og.png" />
-    <link rel="canonical" href="partner-with-us.html" />
+    <link rel="canonical" href="{{ route('front.partner-with-us') }}" />
     <meta property="og:title" content="Partner with GoAusbildung | B2B Partnerships for Student Placement" />
     <meta property="og:description"
         content="Join GoAusbildung as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
@@ -126,7 +126,7 @@
                                     <path d="m12 5 7 7-7 7"></path>
                                 </svg></span><span>Get Started</span></a><a
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center"
-                            aria-label="Contact Us" href="contact.html"><span aria-hidden="true"><svg
+                            aria-label="Contact Us" href="{{ route('front.contact') }}"><span aria-hidden="true"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-mail w-5 h-5 mr-2">
@@ -659,7 +659,7 @@
                         <div class="flex flex-col sm:flex-row items-center gap-3">
                             <a href="#partner-form"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Start
-                                Partnership Application</a><a href="contact.html"
+                                Partnership Application</a><a href="{{ route('front.contact') }}"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Contact
                                 Us</a>
                         </div>

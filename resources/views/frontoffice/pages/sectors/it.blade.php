@@ -442,7 +442,7 @@
                         >€<!-- -->1330<!-- -->-€<!-- -->1538<!-- -->/mo</span
                       >
                     </div>
-                    <a href="../jobs/it.html"
+                    <a href="{{ route('front.jobs') }}"
                       ><button
                         class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2"
                       >
@@ -1167,7 +1167,7 @@
                     </div>
                   </div>
                   <div class="mt-5">
-                    <a href="../jobs/it.html"
+                    <a href="{{ route('front.jobs') }}"
                       ><button
                         class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-white rounded-full h-11"
                       >
@@ -2839,11 +2839,11 @@
                   </p>
                   <div class="flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href="../jobs/it.html"
+                      href="{{ route('front.jobs') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >View Available Positions</a
                     ><a
-                      href="../tools/eligibility-checker.html"
+                      href="{{ route('front.tools.eligibility-checker') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Check Eligibility</a
                     >

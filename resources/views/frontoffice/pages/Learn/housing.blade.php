@@ -3059,7 +3059,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <a
                     class="p-3 bg-background hover:bg-muted rounded-lg border border-border flex items-center gap-2 transition-colors"
-                    href="daily-life.html"
+                    href="{{ route('front.daily-life') }}"
                     ><svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -3079,7 +3079,7 @@
                     ></a
                   ><a
                     class="p-3 bg-background hover:bg-muted rounded-lg border border-border flex items-center gap-2 transition-colors"
-                    href="visa.html"
+                    href="{{ route('front.visa') }}"
                     ><svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -3099,7 +3099,7 @@
                     ></a
                   ><a
                     class="p-3 bg-background hover:bg-muted rounded-lg border border-border flex items-center gap-2 transition-colors"
-                    href="costs.html"
+                    href="{{ route('front.costs') }}"
                     ><svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -3191,11 +3191,11 @@
                   </p>
                   <div class="flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href="dashboard/jobs.html"
+                      href="{{ route('front.jobs') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Browse Live Positions</a
                     ><a
-                      href="contact.html"
+                      href="{{ route('front.contact') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Get Relocation Support</a
                     >

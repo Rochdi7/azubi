@@ -342,35 +342,35 @@
                 <li>
                   <a
                     class="text-muted-foreground hover:text-foreground transition-colors"
-                    href="tools/eligibility-checker.html"
+                    href="{{ route('front.tools.eligibility-checker') }}"
                     >Eligibility Checker</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-muted-foreground hover:text-foreground transition-colors"
-                    href="tools/cover-letter.html"
+                    href="{{ route('front.tools.cover-letter') }}"
                     >Cover Letter Generator</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-muted-foreground hover:text-foreground transition-colors"
-                    href="tools/living-cost-calculator.html"
+                    href="{{ route('front.tools.living-cost-calculator') }}"
                     >Living Cost Calculator</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-muted-foreground hover:text-foreground transition-colors"
-                    href="tools/roi-calculator.html"
+                    href="{{ route('front.tools.roi-calculator') }}"
                     >ROI Calculator</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-muted-foreground hover:text-foreground transition-colors"
-                    href="tools/document-checklist.html"
+                    href="{{ route('front.tools.document-checklist') }}"
                     >Document Checklist</a
                   >
                 </li>

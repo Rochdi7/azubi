@@ -20,7 +20,7 @@
     name="linkedin:image"
     content="https://images.goausbildung.com/og-images/default-og.png"
     />
-    <link rel="canonical" href="costs.html" />
+    <link rel="canonical" href="{{ route('front.costs') }}" />
     <meta
     property="og:title"
     content="Ausbildung Costs 2026: €800-1,300/Month Stipend vs €700 Expenses"
@@ -162,7 +162,7 @@
                   <a
                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                     aria-label="Calculate Costs"
-                    href="tools/living-cost-calculator.html"
+                    href="{{ route('front.tools.living-cost-calculator') }}"
                     ><span aria-hidden="true"
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -2179,7 +2179,7 @@
                     other factors.
                   </p>
                   <a
-                    href="tools/roi-calculator.html"
+                    href="{{ route('front.tools.roi-calculator') }}"
                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base group"
                     >Try Our ROI Calculator<svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2721,7 +2721,7 @@
                   >
                     <a
                       class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                      href="tools/living-cost-calculator.html"
+                      href="{{ route('front.tools.living-cost-calculator') }}"
                       ><div class="flex items-start gap-4">
                         <div
                           class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -2784,7 +2784,7 @@
                         </svg></div></a
                     ><a
                       class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                      href="tools/roi-calculator.html"
+                      href="{{ route('front.tools.roi-calculator') }}"
                       ><div class="flex items-start gap-4">
                         <div
                           class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -2894,7 +2894,7 @@
                         </svg></div></a
                     ><a
                       class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                      href="housing.html"
+                      href="{{ route('front.housing') }}"
                       ><div class="flex items-start gap-4">
                         <div
                           class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -3013,7 +3013,7 @@
                         </svg></div></a
                     ><a
                       class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                      href="dashboard/jobs.html"
+                      href="{{ route('front.jobs') }}"
                       ><div class="flex items-start gap-4">
                         <div
                           class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -3138,11 +3138,11 @@
                   </p>
                   <div class="flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href="dashboard/jobs.html"
+                      href="{{ route('front.jobs') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Browse Live Positions</a
                     ><a
-                      href="tools/roi-calculator.html"
+                      href="{{ route('front.tools.roi-calculator') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Calculate Your ROI</a
                     >

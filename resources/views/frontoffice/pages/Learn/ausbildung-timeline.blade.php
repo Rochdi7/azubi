@@ -131,7 +131,7 @@
                   ><a
                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center"
                     aria-label="Plan Your Journey"
-                    href="tools/application-timeline.html"
+                    href="{{ route('front.tools.application-timeline') }}"
                     ><span aria-hidden="true"
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -4049,7 +4049,7 @@
                   </p>
                   <div class="flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href="dashboard/jobs.html"
+                      href="{{ route('front.jobs') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Explore Training Positions</a
                     >
@@ -4071,7 +4071,7 @@
                 >
                   <a
                     class="p-3 sm:p-4 rounded-xl bg-background/50 hover:bg-background border border-border flex flex-col items-center text-center gap-2 transition-colors"
-                    href="tools/document-checklist.html"
+                    href="{{ route('front.tools.document-checklist') }}"
                     ><div
                       class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-primary/10 flex items-center justify-center"
                     >
@@ -4101,7 +4101,7 @@
                     ></a
                   ><a
                     class="p-3 sm:p-4 rounded-xl bg-background/50 hover:bg-background border border-border flex flex-col items-center text-center gap-2 transition-colors"
-                    href="language.html"
+                    href="{{ route('front.language') }}"
                     ><div
                       class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-primary/10 flex items-center justify-center"
                     >
@@ -4129,7 +4129,7 @@
                     ></a
                   ><a
                     class="p-3 sm:p-4 rounded-xl bg-background/50 hover:bg-background border border-border flex flex-col items-center text-center gap-2 transition-colors"
-                    href="visa.html"
+                    href="{{ route('front.visa') }}"
                     ><div
                       class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-primary/10 flex items-center justify-center"
                     >

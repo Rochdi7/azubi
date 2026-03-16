@@ -9,7 +9,7 @@
     <meta name="pinterest:pinnable" content="true" />
     <meta name="pinterest:image" content="https://images.goausbildung.com/og-images/default-og.png" />
     <meta name="linkedin:image" content="https://images.goausbildung.com/og-images/default-og.png" />
-    <link rel="canonical" href="terms.html" />
+    <link rel="canonical" href="{{ route('front.imprint') }}" />
     <meta property="og:title" content="Terms of Service | GoAusbildung" />
     <meta property="og:description"
         content="Read our terms of service and understand your rights and responsibilities when using GoAusbildung." />
@@ -1096,7 +1096,7 @@
                     </ul>
                     <p>
                         Your privacy matters: Read our
-                        <a href="privacy.html">Privacy Policy</a> to understand how we
+                        <a href="{{ route('front.privacy') }}">Privacy Policy</a> to understand how we
                         protect your data.
                     </p>
                     <h3>7.6 Support Fellow Students</h3>
@@ -1512,7 +1512,7 @@
                         comprehensive done-for-you application service where our
                         experts apply to German Ausbildung positions on your behalf.
                         Current pricing is available on our
-                        <a href="consultation.html">consultation page</a>.
+                        <a href="{{ route('front.consultation') }}">consultation page</a>.
                     </p>
                     <h4>11.3.1 Consultation Service Overview</h4>
                     <p>The Consultation Package includes:</p>
@@ -1727,7 +1727,7 @@
                     <h2>12. Refund Policy</h2>
                     <p>
                         For detailed refund terms, please see our
-                        <a href="refund-policy.html">Refund Policy</a>. Key points:
+                        <a href="{{ route('front.refund-policy') }}">Refund Policy</a>. Key points:
                     </p>
                     <h3>12.1 Free Platform (No Refunds Applicable)</h3>
                     <p>

@@ -1524,7 +1524,7 @@
                     change. Always review the current version before purchasing
                     paid services. The most recent version is available at
                     <a
-                      href="refund-policy.html"
+                      href="{{ route('front.refund-policy') }}"
                       style="color: #344f1f; text-decoration: underline"
                       >goausbildung.com/refund-policy</a
                     >.

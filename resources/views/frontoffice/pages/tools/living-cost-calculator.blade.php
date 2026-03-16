@@ -12,7 +12,7 @@
 @section('content')
     <header class="bg-card border-b border-border py-8 md:py-12">
         <div class="container px-4 md:px-6 max-w-7xl mx-auto">
-            <a class="inline-flex items-center mb-6 group" href="/tools">
+            <a class="inline-flex items-center mb-6 group" href="{{ route('front.tools') }}">
                 <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-green-light/5 hover:text-foreground h-10 px-6 text-sm gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-4 w-4 transition-transform group-hover:-translate-x-1" aria-hidden="true">
                         <path d="m12 19-7-7 7-7"></path>
@@ -379,8 +379,8 @@
                     <h3 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-3">Ready to Apply? Browse Live Positions</h3>
                     <p class="text-muted-foreground mb-6">Explore verified job openings from German employers seeking international talent. Start your Ausbildung journey today.</p>
                     <div class="flex flex-col sm:flex-row gap-3 justify-center">
-                        <a href="/jobs" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8">Browse Jobs</a>
-                        <a href="/consultation" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8">Book Consultation</a>
+                        <a href="{{ route('front.jobs') }}" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8">Browse Jobs</a>
+                        <a href="{{ route('front.consultation') }}" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8">Book Consultation</a>
                     </div>
                 </div>
             </div>

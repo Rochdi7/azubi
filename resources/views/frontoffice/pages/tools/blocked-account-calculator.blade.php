@@ -1496,7 +1496,7 @@
                   help you prepare for your German visa application.
                 </p>
                 <a
-                  href="../auth7d2a.html?signup"
+                  href="{{ route('front.consultation') }}"
                   class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base bg-orange hover:bg-orange-hover rounded-full"
                   >Create Free Account</a
                 >

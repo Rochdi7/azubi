@@ -779,7 +779,7 @@
                           </li>
                         </ul>
                         <a
-                          href="contactcee9.html?program=zero-to-b1"
+                          href="{{ route('front.contact') }}?program=zero-to-b1"
                           class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full"
                           >Learn More</a
                         >
@@ -859,7 +859,7 @@
                           </li>
                         </ul>
                         <a
-                          href="contact4e70.html?program=b1-to-b2"
+                          href="{{ route('front.contact') }}?program=b1-to-b2"
                           class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full"
                           >Learn More</a
                         >
@@ -875,7 +875,7 @@
                           and prepare you specifically for the test format.
                         </p>
                         <a
-                          href="contact3849.html?inquiry=exam-registration"
+                          href="{{ route('front.contact') }}?inquiry=exam-registration"
                           class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full"
                           >Exam Information</a
                         >
@@ -1582,7 +1582,7 @@
                     </svg></div></a
                 ><a
                   class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                  href="tools/language-proficiency-calculator.html"
+                  href="{{ route('front.tools.language-proficiency-calculator') }}"
                   ><div class="flex items-start gap-4">
                     <div
                       class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -1639,7 +1639,7 @@
                     </svg></div></a
                 ><a
                   class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                  href="visa.html"
+                  href="{{ route('front.visa') }}"
                   ><div class="flex items-start gap-4">
                     <div
                       class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -1692,7 +1692,7 @@
                     </svg></div></a
                 ><a
                   class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                  href="sectors.html"
+                  href="{{ route('front.sectors') }}"
                   ><div class="flex items-start gap-4">
                     <div
                       class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -1792,7 +1792,7 @@
                     </svg></div></a
                 ><a
                   class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                  href="application.html"
+                  href="{{ route('front.application') }}"
                   ><div class="flex items-start gap-4">
                     <div
                       class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
@@ -1912,7 +1912,7 @@
                   </p>
                   <div class="flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href="jobs.html"
+                      href="{{ route('front.jobs') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Browse 60K+ Jobs</a
                     ><a

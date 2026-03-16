@@ -20,7 +20,7 @@
     name="linkedin:image"
     content="https://images.goausbildung.com/og-images/default-og.png"
     />
-    <link rel="canonical" href="why-ausbildung.html" />
+    <link rel="canonical" href="{{ route('front.why-ausbildung') }}" />
     <meta
     property="og:title"
     content="Why Choose Ausbildung? Earn €1,300/Month + 98% Job Placement"
@@ -2486,7 +2486,7 @@
                 <div class="mt-4 text-right">
                   <a
                     class="text-sm font-medium text-primary flex items-center justify-end gap-1 hover:underline"
-                    href="success-stories.html"
+                    href="{{ route('front.success-stories') }}"
                     >View more success stories<svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -2575,11 +2575,11 @@
                   </p>
                   <div class="flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href="jobs.html"
+                      href="{{ route('front.jobs') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Browse 60K+ Jobs</a
                     ><a
-                      href="tools/eligibility-checker.html"
+                      href="{{ route('front.tools.eligibility-checker') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Check Eligibility</a
                     >

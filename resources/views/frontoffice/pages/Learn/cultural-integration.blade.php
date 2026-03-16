@@ -110,7 +110,7 @@
                   <a
                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                     aria-label="Start Video Course"
-                    href="dashboard/culture.html"
+                    href="{{ route('front.cultural-integration') }}"
                     ><span aria-hidden="true"
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -3869,7 +3869,7 @@
                 <div class="grid md:grid-cols-3 gap-6 mb-10">
                   <a
                     class="group block p-5 bg-card border border-primary/10 rounded-xl hover:border-primary/20 hover:shadow-md transition-all"
-                    href="trainee-rights.html"
+                    href="{{ route('front.trainee-rights') }}"
                     ><div class="flex items-center mb-3">
                       <div
                         class="bg-primary/10 w-10 h-10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-all"
@@ -3908,7 +3908,7 @@
                     </p></a
                   ><a
                     class="group block p-5 bg-card border border-primary/10 rounded-xl hover:border-primary/20 hover:shadow-md transition-all"
-                    href="daily-life.html"
+                    href="{{ route('front.daily-life') }}"
                     ><div class="flex items-center mb-3">
                       <div
                         class="bg-green-500/10 w-10 h-10 rounded-lg flex items-center justify-center group-hover:bg-green-500/20 transition-all"
@@ -3941,7 +3941,7 @@
                     </p></a
                   ><a
                     class="group block p-5 bg-card border border-primary/10 rounded-xl hover:border-primary/20 hover:shadow-md transition-all"
-                    href="language.html"
+                    href="{{ route('front.language') }}"
                     ><div class="flex items-center mb-3">
                       <div
                         class="bg-beige/10 w-10 h-10 rounded-lg flex items-center justify-center group-hover:bg-beige/20 transition-all"
@@ -3981,7 +3981,7 @@
             <div class="flex justify-center mt-10">
               <a
                 class="group block p-5 bg-card border border-primary/10 rounded-xl hover:border-primary/20 hover:shadow-md transition-all max-w-sm"
-                href="ausbildung/change-career.html"
+                href="{{ route('front.change-career') }}"
                 ><div class="flex items-center mb-3">
                   <div
                     class="bg-orange-500/10 w-10 h-10 rounded-lg flex items-center justify-center group-hover:bg-orange-500/20 transition-all"
@@ -4089,7 +4089,7 @@
                   </p>
                   <div class="flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href="dashboard/jobs.html"
+                      href="{{ route('front.jobs') }}"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                       >Browse Training Jobs</a
                     >

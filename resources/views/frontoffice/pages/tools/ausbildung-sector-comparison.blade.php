@@ -915,7 +915,7 @@
                       </p>
                       <div class="flex flex-col sm:flex-row items-center gap-3">
                         <a
-                          href="../dashboard/jobs.html"
+                          href="{{ route('front.jobs') }}"
                           class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
                           >Browse Jobs</a
                         ><a

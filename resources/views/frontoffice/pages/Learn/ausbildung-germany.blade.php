@@ -268,7 +268,7 @@
                 >
                   <a
                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-5 sm:px-8 py-4 sm:py-6 text-sm sm:text-base font-semibold w-full sm:w-auto hover:-translate-y-1 min-h-[48px] inline-flex items-center justify-center"
-                    href="jobs.html"
+                    href="{{ route('front.jobs') }}"
                     >Start Applying</a
                   ><a
                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-5 sm:px-8 py-4 sm:py-6 text-sm sm:text-base font-semibold w-full sm:w-auto min-h-[48px] shadow-lg inline-flex items-center justify-center"
@@ -1113,7 +1113,7 @@
                     </p>
                     <a
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 shadow-sm hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full rounded-full group-hover:scale-105 transition-transform duration-200 border-[#F4991A]/30 bg-[#F4991A]/5 text-[#F4991A] hover:bg-[#F4991A]/10 hover:text-[#F4991A] flex items-center justify-center gap-2"
-                      href="jobs.html"
+                      href="{{ route('front.jobs') }}"
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -1171,7 +1171,7 @@
                     </p>
                     <a
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 shadow-sm hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full rounded-full group-hover:scale-105 transition-transform duration-200 border-[#F4991A]/30 bg-[#F4991A]/5 text-[#F4991A] hover:bg-[#F4991A]/10 hover:text-[#F4991A] flex items-center justify-center gap-2"
-                      href="tools/eligibility-checker.html"
+                      href="{{ route('front.tools.eligibility-checker') }}"
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -2322,7 +2322,7 @@
                   >
                     <a
                       class="block group text-center"
-                      href="sectors/healthcare.html"
+                      href="{{ route('front.sector', ['slug' => 'healthcare']) }}"
                       ><div
                         class="flex flex-col items-center py-8 px-4 transition-transform duration-300 group-hover:-translate-y-2"
                       >
@@ -2374,7 +2374,7 @@
                     class="flex-shrink-0 w-72 md:w-80"
                     style="opacity: 0; transform: translateY(20px)"
                   >
-                    <a class="block group text-center" href="sectors/it.html"
+                    <a class="block group text-center" href="{{ route('front.sector', ['slug' => 'it']) }}"
                       ><div
                         class="flex flex-col items-center py-8 px-4 transition-transform duration-300 group-hover:-translate-y-2"
                       >
@@ -2429,7 +2429,7 @@
                   >
                     <a
                       class="block group text-center"
-                      href="sectors/engineering.html"
+                      href="{{ route('front.sector', ['slug' => 'engineering']) }}"
                       ><div
                         class="flex flex-col items-center py-8 px-4 transition-transform duration-300 group-hover:-translate-y-2"
                       >
@@ -2483,7 +2483,7 @@
                   >
                     <a
                       class="block group text-center"
-                      href="sectors/hospitality.html"
+                      href="{{ route('front.sector', ['slug' => 'hospitality']) }}"
                       ><div
                         class="flex flex-col items-center py-8 px-4 transition-transform duration-300 group-hover:-translate-y-2"
                       >
@@ -2537,7 +2537,7 @@
                   >
                     <a
                       class="block group text-center"
-                      href="sectors/logistics.html"
+                      href="{{ route('front.sector', ['slug' => 'logistics']) }}"
                       ><div
                         class="flex flex-col items-center py-8 px-4 transition-transform duration-300 group-hover:-translate-y-2"
                       >
@@ -2590,7 +2590,7 @@
                     class="flex-shrink-0 w-72 md:w-80"
                     style="opacity: 0; transform: translateY(20px)"
                   >
-                    <a class="block group text-center" href="sectors/sales.html"
+                    <a class="block group text-center" href="{{ route('front.sector', ['slug' => 'sales']) }}"
                       ><div
                         class="flex flex-col items-center py-8 px-4 transition-transform duration-300 group-hover:-translate-y-2"
                       >
@@ -3216,7 +3216,7 @@
                       <line x1="22" x2="16" y1="11" y2="11"></line></svg
                     >Get Started Free</a
                   ><a
-                    href="ausbildung-faq.html"
+                    href="{{ route('front.faq') }}"
                     class="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 rounded-full border-2 border-[#F4991A]/30 bg-[#F4991A]/5 text-[#F4991A] text-sm sm:text-base font-semibold hover:bg-[#F4991A]/10 transition-all duration-300"
                     >View All FAQs</a
                   >
@@ -3305,7 +3305,7 @@
                             82.4287px -3.28125px,
                           rgba(0, 0, 0, 0.024) 0px 150px 150px -3.75px;
                       "
-                      href="jobs.html"
+                      href="{{ route('front.jobs') }}"
                       ><div
                         class="absolute inset-[3px] rounded-[114px] bg-white z-0"
                       ></div>
@@ -3334,7 +3334,7 @@
                       ></a
                     ><a
                       class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full border-2 border-white/80 hover:border-white text-white hover:bg-white/10 transition-all duration-300"
-                      href="tools/eligibility-checker.html"
+                      href="{{ route('front.tools.eligibility-checker') }}"
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -3375,7 +3375,7 @@
                         Expert service</span
                       ><a
                         class="text-xs text-white/70 hover:text-white underline decoration-white/40 hover:decoration-white/80 transition-colors ml-1"
-                        href="consultation.html"
+                        href="{{ route('front.consultation') }}"
                         >Learn More</a
                       >
                     </div>

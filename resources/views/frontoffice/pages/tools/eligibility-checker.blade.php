@@ -31,7 +31,7 @@
         <div class="min-h-screen bg-background">
           <header class="bg-card border-b border-border py-8 md:py-12">
             <div class="container px-4 md:px-6 max-w-7xl mx-auto">
-              <a class="inline-flex items-center mb-6 group" href="/tools">              <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-green-light/5 hover:text-foreground h-10 px-6 text-sm gap-2">
+              <a class="inline-flex items-center mb-6 group" href="{{ route('front.tools') }}">              <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-green-light/5 hover:text-foreground h-10 px-6 text-sm gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-4 w-4 transition-transform group-hover:-translate-x-1" aria-hidden="true">
                   <path d="m12 19-7-7 7-7">
                   </path>
@@ -533,7 +533,7 @@
                         Browse verified Ausbildung positions from German employers on our platform. Find roles that align with your eligibility profile and career aspirations.
                       </p>
                       <div class="flex flex-col sm:flex-row items-center gap-3">
-                        <a href="/dashboard/jobs" class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">                        Browse Jobs
+                        <a href="{{ route('front.jobs') }}" class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">                        Browse Jobs
 </a>
                         <a href="#top" class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">                        Check Eligibility
 </a>
@@ -712,7 +712,7 @@
                   </p>
                 </div>
                 <div class="grid md:grid-cols-3 gap-6 mb-6">
-                  <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1" href="/tools/language-proficiency-calculator">                  <div class="mb-4">
+                  <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1" href="{{ route('front.tools.language-proficiency-calculator') }}">                  <div class="mb-4">
                     <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-languages w-6 h-6 text-orange group-hover:text-white transition-colors">
                         <path d="m5 8 6 6">
@@ -751,7 +751,7 @@
 </span>
                   </div>
 </a>
-                  <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1" href="/tools/roi-calculator">                  <div class="mb-4">
+                  <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1" href="{{ route('front.tools.roi-calculator') }}">                  <div class="mb-4">
                     <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up w-6 h-6 text-orange group-hover:text-white transition-colors">
                         <polyline points="22 7 13.5 15.5 8.5 10.5 2 17">
@@ -782,7 +782,7 @@
 </span>
                   </div>
 </a>
-                  <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1" href="/tools/document-checklist">                  <div class="mb-4">
+                  <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1" href="{{ route('front.tools.document-checklist') }}">                  <div class="mb-4">
                     <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-check w-6 h-6 text-orange group-hover:text-white transition-colors">
                         <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z">
@@ -817,7 +817,7 @@
 </a>
                 </div>
                 <div class="text-center">
-                  <a class="inline-flex items-center gap-2 px-6 py-3 bg-orange hover:bg-orange-hover text-white rounded-full font-semibold transition-colors" href="/tools">                  Browse All Tools
+                  <a class="inline-flex items-center gap-2 px-6 py-3 bg-orange hover:bg-orange-hover text-white rounded-full font-semibold transition-colors" href="{{ route('front.tools') }}">                  Browse All Tools
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
                     <path d="M5 12h14">
                     </path>
