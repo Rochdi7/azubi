@@ -15929,3 +15929,21 @@ h6:hover .heading-anchor {
   opacity: 0.45;
   cursor: not-allowed;
 }
+.ga-custom-select--lg .ga-custom-select-trigger {
+  height: 3rem;
+}
+.ga-custom-select-group-label {
+  padding: 10px 16px 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: rgba(52, 79, 31, 0.5);
+  pointer-events: none;
+  border-top: 1px solid rgba(52, 79, 31, 0.08);
+  margin-top: 4px;
+}
+.ga-custom-select-group-label:first-child {
+  border-top: 0;
+  margin-top: 0;
+}

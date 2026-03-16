@@ -1313,7 +1313,7 @@
                           >
                             <div class="relative">
                               <img
-                                src="mascot/mascot_pointing_male.webp"
+                                src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
                                 alt="GoAusbildung Mascot"
                                 class="w-56 h-auto object-contain"
                               />
@@ -1932,7 +1932,38 @@
                   id="radix-«R2guslb»-content-commerce"
                   tabindex="0"
                   class="ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 p-6 bg-card border rounded-lg mt-6"
-                ></div>
+                >
+                  <h3
+                    class="tracking-tight font-semibold text-base sm:text-lg text-secondary mb-4"
+                  >
+                    Business/Commerce Background
+                  </h3>
+                  <p class="mb-4">
+                    Students with a business or commerce background are well-suited for a variety of commercial and administrative Ausbildung programs.
+                  </p>
+                  <h4
+                    class="tracking-tight font-semibold text-sm sm:text-base text-secondary mb-2"
+                  >
+                    Recommended Sectors:
+                  </h4>
+                  <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-6">
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Banking &amp; Finance (Bankkaufmann/-frau)</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Office Management (Kaufmann/-frau f&uuml;r B&uuml;romanagement)</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Retail &amp; Wholesale (Kaufmann/-frau im Handel)</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Insurance &amp; Tax Consulting</span>
+                    </li>
+                  </ul>
+                  <p class="text-sm text-muted-foreground">
+                    Note: Strong mathematics skills are beneficial for banking and finance sectors. Accounting knowledge gives you an advantage in tax consulting roles.
+                  </p>
+                </div>
                 <div
                   data-state="inactive"
                   data-orientation="horizontal"
@@ -1942,7 +1973,38 @@
                   id="radix-«R2guslb»-content-arts"
                   tabindex="0"
                   class="ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 p-6 bg-card border rounded-lg mt-6"
-                ></div>
+                >
+                  <h3
+                    class="tracking-tight font-semibold text-base sm:text-lg text-secondary mb-4"
+                  >
+                    Arts/Humanities Background
+                  </h3>
+                  <p class="mb-4">
+                    Students with an arts or humanities background can pursue creative and communication-focused Ausbildung programs.
+                  </p>
+                  <h4
+                    class="tracking-tight font-semibold text-sm sm:text-base text-secondary mb-2"
+                  >
+                    Recommended Sectors:
+                  </h4>
+                  <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-6">
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Media &amp; Design (Mediengestalter/in)</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Event Management (Veranstaltungskaufmann/-frau)</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Hotel &amp; Tourism (Hotelfachmann/-frau)</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-4 w-4 text-secondary"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Social Work &amp; Education (Erzieher/in)</span>
+                    </li>
+                  </ul>
+                  <p class="text-sm text-muted-foreground">
+                    Note: Language skills are highly valued in tourism and hotel sectors. A creative portfolio can strengthen applications for media and design programs.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -2029,4 +2091,45 @@
             </section>
           </div>
         </div>
+
+@push('scripts')
+<script>
+(function() {
+  var tabs = document.querySelectorAll('[role="tab"]');
+  var panels = document.querySelectorAll('[role="tabpanel"]');
+  if (!tabs.length || !panels.length) return;
+
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      var targetId = tab.getAttribute('aria-controls');
+
+      // Deactivate all tabs
+      tabs.forEach(function(t) {
+        t.setAttribute('aria-selected', 'false');
+        t.setAttribute('data-state', 'inactive');
+        t.setAttribute('tabindex', '-1');
+      });
+
+      // Hide all panels
+      panels.forEach(function(p) {
+        p.setAttribute('data-state', 'inactive');
+        p.setAttribute('hidden', '');
+      });
+
+      // Activate clicked tab
+      tab.setAttribute('aria-selected', 'true');
+      tab.setAttribute('data-state', 'active');
+      tab.setAttribute('tabindex', '0');
+
+      // Show target panel
+      var panel = document.getElementById(targetId);
+      if (panel) {
+        panel.setAttribute('data-state', 'active');
+        panel.removeAttribute('hidden');
+      }
+    });
+  });
+})();
+</script>
+@endpush
 @endsection

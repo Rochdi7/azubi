@@ -3,12 +3,15 @@
   var faqButtons = Array.prototype.filter.call(
     document.querySelectorAll('main button[aria-expanded]'),
     function(button) {
+      // Skip buttons inside [data-faq-container] — handled by faq-interactive.js
+      if (button.closest('[data-faq-container]')) return false;
+
       var content = button.nextElementSibling;
       if (!content || content.tagName !== 'DIV') return false;
 
       var className = content.className || '';
       return className.indexOf('transition-all') !== -1 &&
-        (className.indexOf('max-h-0') !== -1 || className.indexOf('max-h-96') !== -1);
+        (className.indexOf('max-h-0') !== -1 || className.indexOf('max-h-96') !== -1 || className.indexOf('max-h-[1000px]') !== -1);
     }
   );
 

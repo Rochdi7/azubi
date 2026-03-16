@@ -258,245 +258,67 @@
             <div class="container px-4 md:px-6">
               <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-6">
-                  <h2
-                    class="tracking-tight font-bold text-2xl sm:text-3xl text-secondary mb-2"
-                  >
-                    Smart Application Tools
-                  </h2>
-                  <p class="text-sm text-muted-foreground">
-                    Generate cover letters, build your CV, and get personalized
-                    checklists in seconds
-                  </p>
+                  <h2 class="tracking-tight font-bold text-2xl sm:text-3xl text-secondary mb-2">Smart Application Tools</h2>
+                  <p class="text-sm text-muted-foreground">Generate cover letters, build your CV, and get personalized checklists in seconds</p>
                 </div>
                 <div class="grid md:grid-cols-3 gap-4">
-                  <div class="group opacity-50 pointer-events-none">
-                    <div
-                      class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10"
-                    >
+                  <a class="group" href="/dashboard/tools/eligibility">
+                    <div class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10">
                       <div class="p-4">
                         <div class="flex items-start gap-3">
                           <div class="bg-primary text-white p-2 rounded-lg">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-clipboard-check h-4 w-4"
-                            >
-                              <rect
-                                width="8"
-                                height="4"
-                                x="8"
-                                y="2"
-                                rx="1"
-                                ry="1"
-                              ></rect>
-                              <path
-                                d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
-                              ></path>
-                              <path d="m9 14 2 2 4-4"></path>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check h-4 w-4"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="m9 14 2 2 4-4"></path></svg>
                           </div>
                           <div>
-                            <h3
-                              class="tracking-tight font-semibold sm:text-lg text-secondary text-sm mb-1"
-                            >
-                              Check Eligibility
-                            </h3>
-                            <p class="text-xs text-muted-foreground">
-                              2-minute assessment
-                            </p>
-                            <span
-                              class="text-xs text-primary group-hover:underline inline-flex items-center gap-1 mt-2"
-                              >Start now
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="lucide lucide-arrow-right h-3 w-3"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path></svg
-                            ></span>
+                            <h3 class="tracking-tight font-semibold sm:text-lg text-secondary text-sm mb-1">Check Eligibility</h3>
+                            <p class="text-xs text-muted-foreground">2-minute assessment</p>
+                            <span class="text-xs text-primary group-hover:underline inline-flex items-center gap-1 mt-2">Start now <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-3 w-3"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="group opacity-50 pointer-events-none">
-                    <div
-                      class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10"
-                    >
+                  </a>
+                  <a class="group" href="/dashboard/tools/timeline">
+                    <div class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10">
                       <div class="p-4">
                         <div class="flex items-start gap-3">
                           <div class="bg-primary text-white p-2 rounded-lg">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-calendar h-4 w-4"
-                            >
-                              <path d="M8 2v4"></path>
-                              <path d="M16 2v4"></path>
-                              <rect
-                                width="18"
-                                height="18"
-                                x="3"
-                                y="4"
-                                rx="2"
-                              ></rect>
-                              <path d="M3 10h18"></path>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-4 w-4"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
                           </div>
                           <div>
-                            <h3
-                              class="tracking-tight font-semibold sm:text-lg text-secondary text-sm mb-1"
-                            >
-                              Plan Timeline
-                            </h3>
-                            <p class="text-xs text-muted-foreground">
-                              Personalized roadmap
-                            </p>
-                            <span
-                              class="text-xs text-primary group-hover:underline inline-flex items-center gap-1 mt-2"
-                              >Create plan
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="lucide lucide-arrow-right h-3 w-3"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path></svg
-                            ></span>
+                            <h3 class="tracking-tight font-semibold sm:text-lg text-secondary text-sm mb-1">Plan Timeline</h3>
+                            <p class="text-xs text-muted-foreground">Personalized roadmap</p>
+                            <span class="text-xs text-primary group-hover:underline inline-flex items-center gap-1 mt-2">Create plan <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-3 w-3"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="group opacity-50 pointer-events-none">
-                    <div
-                      class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10"
-                    >
+                  </a>
+                  <a class="group" href="/dashboard/tools/cover-letter">
+                    <div class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10">
                       <div class="p-4">
                         <div class="flex items-start gap-3">
                           <div class="bg-primary text-white p-2 rounded-lg">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-pen-tool h-4 w-4"
-                            >
-                              <path
-                                d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"
-                              ></path>
-                              <path
-                                d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"
-                              ></path>
-                              <path d="m2.3 2.3 7.286 7.286"></path>
-                              <circle cx="11" cy="11" r="2"></circle>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-tool h-4 w-4"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"></path><path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"></path><path d="m2.3 2.3 7.286 7.286"></path><circle cx="11" cy="11" r="2"></circle></svg>
                           </div>
                           <div>
-                            <h3
-                              class="tracking-tight font-semibold sm:text-lg text-secondary text-sm mb-1"
-                            >
-                              Cover Letters
-                            </h3>
-                            <p class="text-xs text-muted-foreground">
-                              Smart generator
-                            </p>
-                            <span
-                              class="text-xs text-primary group-hover:underline inline-flex items-center gap-1 mt-2"
-                              >Generate
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="lucide lucide-arrow-right h-3 w-3"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path></svg
-                            ></span>
+                            <h3 class="tracking-tight font-semibold sm:text-lg text-secondary text-sm mb-1">Cover Letters</h3>
+                            <p class="text-xs text-muted-foreground">Smart generator</p>
+                            <span class="text-xs text-primary group-hover:underline inline-flex items-center gap-1 mt-2">Generate <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-3 w-3"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <div class="mt-6 text-center">
-                  <div class="opacity-50 pointer-events-none">
-                    <button
-                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 text-base rounded-full min-h-[48px] px-6"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-video mr-2 h-5 w-5"
-                      >
-                        <path
-                          d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"
-                        ></path>
-                        <rect
-                          x="2"
-                          y="6"
-                          width="14"
-                          height="12"
-                          rx="2"
-                        ></rect></svg
-                      >Create Video Introduction
-                      <div
-                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-primary/80 ml-2 bg-secondary text-xs"
-                      >
-                        New
-                      </div>
+                  <a href="/dashboard/video-studio">
+                    <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 text-base rounded-full min-h-[48px] px-6">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video mr-2 h-5 w-5"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg>Create Video Introduction
+                      <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-primary/80 ml-2 bg-secondary text-xs">New</div>
                     </button>
-                  </div>
-                  <p class="text-xs text-muted-foreground mt-2">
-                    Stand out with a professional video profile
-                  </p>
+                  </a>
+                  <p class="text-xs text-muted-foreground mt-2">Stand out with a professional video profile</p>
                 </div>
               </div>
             </div>
@@ -1483,7 +1305,7 @@
                           >
                             <div class="relative">
                               <img
-                                src="mascot/mascot_pointing_male.webp"
+                                src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
                                 alt="GoAusbildung Mascot"
                                 class="w-56 h-auto object-contain"
                               />

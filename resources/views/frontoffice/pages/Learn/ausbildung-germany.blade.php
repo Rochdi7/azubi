@@ -156,19 +156,7 @@
             <img
               alt="Beautiful autumn landscape in Germany"
               decoding="async"
-              data-nimg="fill"
-              class="object-cover object-center"
-              style="
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                color: transparent;
-              "
-              sizes="100vw"
+              class="absolute inset-0 w-full h-full object-cover object-center"
               src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}"
             />
             <div class="absolute inset-0 bg-black/30 z-0"></div>
@@ -246,84 +234,19 @@
                     class="z-10 flex -space-x-4 rtl:space-x-reverse justify-center"
                   >
                     <div class="relative h-10 w-10">
-                      <picture
-                        ><source
-                          type="image/webp" />
-                        <img
-                          alt="Avatar 1"
-                          loading="eager"
-                          width="40"
-                          height="40"
-                          decoding="async"
-                          data-nimg="1"
-                          class="rounded-full border-2 border-white"
-                          style="color: transparent"
-                          src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}"
-                      /></picture>
+                      <img alt="Avatar 1" loading="eager" width="40" height="40" decoding="async" class="rounded-full border-2 border-white" src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}" />
                     </div>
                     <div class="relative h-10 w-10">
-                      <picture
-                        ><source
-                          type="image/webp" />
-                        <img
-                          alt="Avatar 2"
-                          loading="eager"
-                          width="40"
-                          height="40"
-                          decoding="async"
-                          data-nimg="1"
-                          class="rounded-full border-2 border-white"
-                          style="color: transparent"
-                          src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}"
-                      /></picture>
+                      <img alt="Avatar 2" loading="eager" width="40" height="40" decoding="async" class="rounded-full border-2 border-white" src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}" />
                     </div>
                     <div class="relative h-10 w-10">
-                      <picture
-                        ><source
-                          type="image/webp" />
-                        <img
-                          alt="Avatar 3"
-                          loading="lazy"
-                          width="40"
-                          height="40"
-                          decoding="async"
-                          data-nimg="1"
-                          class="rounded-full border-2 border-white"
-                          style="color: transparent"
-                          src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}"
-                      /></picture>
+                      <img alt="Avatar 3" loading="lazy" width="40" height="40" decoding="async" class="rounded-full border-2 border-white" src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
                     </div>
                     <div class="relative h-10 w-10">
-                      <picture
-                        ><source
-                          type="image/webp" />
-                        <img
-                          alt="Avatar 4"
-                          loading="lazy"
-                          width="40"
-                          height="40"
-                          decoding="async"
-                          data-nimg="1"
-                          class="rounded-full border-2 border-white"
-                          style="color: transparent"
-                          src="{{ asset('assets/_next/hero-avatar-4ec14.jpeg') }}"
-                      /></picture>
+                      <img alt="Avatar 4" loading="lazy" width="40" height="40" decoding="async" class="rounded-full border-2 border-white" src="{{ asset('assets/_next/hero-avatar-4ec14.jpeg') }}" />
                     </div>
                     <div class="relative h-10 w-10">
-                      <picture
-                        ><source
-                          type="image/webp" />
-                        <img
-                          alt="Avatar 5"
-                          loading="lazy"
-                          width="40"
-                          height="40"
-                          decoding="async"
-                          data-nimg="1"
-                          class="rounded-full border-2 border-white"
-                          style="color: transparent"
-                          src="{{ asset('assets/_next/hero-avatar-58f5b.jpeg') }}"
-                      /></picture>
+                      <img alt="Avatar 5" loading="lazy" width="40" height="40" decoding="async" class="rounded-full border-2 border-white" src="{{ asset('assets/_next/hero-avatar-58f5b.jpeg') }}" />
                     </div>
                     <div
                       class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-green text-center text-xs font-medium text-white z-20"
@@ -504,19 +427,7 @@
                       alt="Traditional university education"
                       loading="lazy"
                       decoding="async"
-                      data-nimg="fill"
-                      class="object-cover object-center rounded-2xl"
-                      style="
-                        position: absolute;
-                        height: 100%;
-                        width: 100%;
-                        left: 0;
-                        top: 0;
-                        right: 0;
-                        bottom: 0;
-                        color: transparent;
-                      "
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+                      class="absolute inset-0 w-full h-full object-cover object-center rounded-2xl"
                       src="{{ asset('assets/_next/university-card-background-winter-v2d699.jpeg') }}"
                     />
                     <div
@@ -623,19 +534,7 @@
                       alt="German Ausbildung vocational training"
                       loading="lazy"
                       decoding="async"
-                      data-nimg="fill"
-                      class="object-cover object-center rounded-2xl"
-                      style="
-                        position: absolute;
-                        height: 100%;
-                        width: 100%;
-                        left: 0;
-                        top: 0;
-                        right: 0;
-                        bottom: 0;
-                        color: transparent;
-                      "
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+                      class="absolute inset-0 w-full h-full object-cover object-center rounded-2xl"
                       src="{{ asset('assets/_next/ausbildung-card-background004b.jpeg') }}"
                     />
                     <div
@@ -2337,19 +2236,7 @@
                       alt="Ausbildung Video Guide Cover"
                       loading="lazy"
                       decoding="async"
-                      data-nimg="fill"
-                      class="object-cover"
-                      style="
-                        position: absolute;
-                        height: 100%;
-                        width: 100%;
-                        left: 0;
-                        top: 0;
-                        right: 0;
-                        bottom: 0;
-                        color: transparent;
-                      "
-                      sizes="100vw"
+                      class="absolute inset-0 w-full h-full object-cover"
                       src="{{ asset('assets/_next/ausbildung-video-cover-v2a712.jpeg') }}"
                     /><button
                       class="absolute inset-0 flex items-center justify-center group cursor-pointer bg-black/20 hover:bg-black/30 transition-all duration-300"
@@ -2446,9 +2333,7 @@
                             width="224"
                             height="224"
                             decoding="async"
-                            data-nimg="1"
                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(52,79,31,0.15)] transition-transform duration-300 group-hover:scale-105"
-                            style="color: transparent"
                             src="{{ asset('assets/_next/mascot_healthcaredcc0.jpeg') }}"
                           />
                         </div>
@@ -2500,9 +2385,7 @@
                             width="224"
                             height="224"
                             decoding="async"
-                            data-nimg="1"
                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(52,79,31,0.15)] transition-transform duration-300 group-hover:scale-105"
-                            style="color: transparent"
                             src="{{ asset('assets/_next/mascot_itc3c5.jpeg') }}"
                           />
                         </div>
@@ -2557,9 +2440,7 @@
                             width="224"
                             height="224"
                             decoding="async"
-                            data-nimg="1"
                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(52,79,31,0.15)] transition-transform duration-300 group-hover:scale-105"
-                            style="color: transparent"
                             src="{{ asset('assets/_next/mascot_engineering75c1.jpeg') }}"
                           />
                         </div>
@@ -2613,9 +2494,7 @@
                             width="224"
                             height="224"
                             decoding="async"
-                            data-nimg="1"
                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(52,79,31,0.15)] transition-transform duration-300 group-hover:scale-105"
-                            style="color: transparent"
                             src="{{ asset('assets/_next/mascot_hospitality08bf.jpeg') }}"
                           />
                         </div>
@@ -2669,9 +2548,7 @@
                             width="224"
                             height="224"
                             decoding="async"
-                            data-nimg="1"
                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(52,79,31,0.15)] transition-transform duration-300 group-hover:scale-105"
-                            style="color: transparent"
                             src="{{ asset('assets/_next/mascot_logistics757f.jpeg') }}"
                           />
                         </div>
@@ -2724,9 +2601,7 @@
                             width="224"
                             height="224"
                             decoding="async"
-                            data-nimg="1"
                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(52,79,31,0.15)] transition-transform duration-300 group-hover:scale-105"
-                            style="color: transparent"
                             src="{{ asset('assets/_next/mascot_sales9644.jpeg') }}"
                           />
                         </div>
@@ -3361,19 +3236,7 @@
                   alt="Professional German workplace environment"
                   loading="lazy"
                   decoding="async"
-                  data-nimg="fill"
-                  class="object-cover object-center rounded-[24px] md:rounded-[32px]"
-                  style="
-                    position: absolute;
-                    height: 100%;
-                    width: 100%;
-                    left: 0;
-                    top: 0;
-                    right: 0;
-                    bottom: 0;
-                    color: transparent;
-                  "
-                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-[24px] md:rounded-[32px]"
                   src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}"
                 />
                 <div

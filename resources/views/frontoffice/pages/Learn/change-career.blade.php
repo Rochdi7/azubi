@@ -15,13 +15,12 @@
 @endsection
 
 @section('content')
-
         <script type="application/ld+json">
-          {&#34;@context&#34;:&#34;https://schema.org&#34;,&#34;@graph&#34;:[{&#34;@type&#34;:&#34;FAQPage&#34;,&#34;mainEntity&#34;:[{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I change my Ausbildung after the probation period?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, absolutely. Under Berufsbildungsgesetz (BBiG) Ã‚Â§22, you can terminate your training contract after the probation period with proper notice and an important reason. Our team ensures you follow the correct legal procedure, coordinates with IHK/HWK mediators if needed, and helps you secure a new contract before termination to avoid any gaps.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Will I lose the months I already completed in my current Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No, your completed training months are not lost. Keep your Ausbildungsnachweis (training record) and Berufsschule reports updated. New employers typically credit your completed modules, allowing you to continue from where you left off. We help document and transfer your credits to ensure you stay with your original exam cohort.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What happens to my residence permit when switching Ausbildung companies?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Your residence permit remains valid if you handle the transition correctly. You must notify the AuslÃƒÂ¤nderbehÃƒÂ¶rde within 2 weeks, present your new contract, and provide confirmation from your Berufsschule. We prepare all necessary paperwork, guide you through the process, and can accompany you to appointments if needed.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Do I need to repay financial aid (BAB/BAfÃƒÂ¶G) if I switch?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No repayment is required if you continue in an eligible Ausbildung and submit change notifications within 14 days. Our team coordinates directly with Agentur fÃƒÂ¼r Arbeit to ensure your financial support continues uninterrupted. Only unplanned dropouts without follow-up plans trigger repayment obligations.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;How quickly can I find a new Ausbildung position?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;With our support, most trainees secure a new contract within 4-8 weeks. We maintain a network of 320+ verified partner companies across various sectors. Our fast-track process includes immediate job matching, interview preparation, and aligned start dates to prevent any gaps in your training.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What if my current company refuses to let me go?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;If your employer refuses termination, we activate mediation through IHK/HWK chambers. These official bodies provide free mediation services for trainees. In cases of serious issues (missing training plan, safety concerns, discrimination), we help document everything for extraordinary termination under BBiG Ã‚Â§22.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I switch to a completely different field (e.g., from retail to IT)?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, career pivots are possible and often successful. We assess which of your completed modules can transfer, arrange bridging courses if needed, and match you with employers who value your existing skills and language abilities. Many of our success stories involve complete field changes.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What documents do I need to prepare for switching?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Essential documents include: current training contract, Ausbildungsnachweis (training log), Berufsschule transcripts, residence permit, financial aid documentation, and employment references. We provide a complete checklist and help you compile everything during our initial consultation.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Is there a best time to switch my Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;The easiest time is during the 4-month probation period when termination is simplified. However, switches are possible at any stage. We recommend avoiding exam periods and considering semester breaks at Berufsschule for smoother transitions. Our advisors help you time your switch optimally.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What support do you provide after I start my new Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Our support continues for 90 days after you start your new position. This includes: probation period guidance, conflict resolution support, Berufsschule integration assistance, and regular check-ins. We ensure your transition is successful and sustainable.&#34;}}]},{&#34;@type&#34;:&#34;HowTo&#34;,&#34;name&#34;:&#34;How to Switch Your Ausbildung in Germany&#34;,&#34;description&#34;:&#34;Complete guide for changing your Ausbildung training program in Germany while protecting your visa and financial aid.&#34;,&#34;step&#34;:[{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:1,&#34;name&#34;:&#34;Assess &amp; Document&#34;,&#34;text&#34;:&#34;Comprehensive evaluation of your current situation and documentation preparation.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Free consultation with our advisors&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Review of training log and contracts&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Chamber advisory session booking&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Risk assessment and timeline planning&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:2,&#34;name&#34;:&#34;Notify &amp; Negotiate&#34;,&#34;text&#34;:&#34;Formal termination process and negotiations with all stakeholders.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Draft resignation or release agreement&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Notify Berufsschule and chambers&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Secure employer signatures&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Coordinate with AuslÃƒÂ¤nderbehÃƒÂ¶rde&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:3,&#34;name&#34;:&#34;Secure New Contract&#34;,&#34;text&#34;:&#34;Fast-track placement with verified employers and smooth onboarding.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Interview preparation and coaching&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Employer matching from our network&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Contract review and negotiation&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Berufsschule registration&#34;}]}]},{&#34;@type&#34;:&#34;Service&#34;,&#34;serviceType&#34;:&#34;Ausbildung Career Switching Consultation&#34;,&#34;provider&#34;:{&#34;@type&#34;:&#34;Organization&#34;,&#34;name&#34;:&#34;GoAusbildung&#34;,&#34;url&#34;:&#34;https://goausbildung.com&#34;},&#34;areaServed&#34;:&#34;Germany&#34;,&#34;availableLanguage&#34;:[&#34;en&#34;,&#34;de&#34;],&#34;hasOfferCatalog&#34;:{&#34;@type&#34;:&#34;OfferCatalog&#34;,&#34;name&#34;:&#34;Ausbildung Switching Services&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Legal Guidance&#34;,&#34;description&#34;:&#34;BBiG Ã‚Â§22 compliance and chamber coordination&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Visa Protection&#34;,&#34;description&#34;:&#34;Maintain residence permit throughout transition&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Employer Matching&#34;,&#34;description&#34;:&#34;Access to 320+ verified partner companies&#34;}}]}},{&#34;@type&#34;:&#34;BreadcrumbList&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:1,&#34;item&#34;:{&#34;@id&#34;:&#34;https://goausbildung.com&#34;,&#34;name&#34;:&#34;Home&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:2,&#34;item&#34;:{&#34;@id&#34;:&#34;https://goausbildung.com/ausbildung-in-germany&#34;,&#34;name&#34;:&#34;Ausbildung in Germany&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:3,&#34;item&#34;:{&#34;@id&#34;:&#34;https://goausbildung.com/ausbildung/change-career&#34;,&#34;name&#34;:&#34;Change Career&#34;}}]}]}
+          {&#34;@context&#34;:&#34;https://schema.org&#34;,&#34;@graph&#34;:[{&#34;@type&#34;:&#34;FAQPage&#34;,&#34;mainEntity&#34;:[{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I change my Ausbildung after the probation period?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, absolutely. Under Berufsbildungsgesetz (BBiG) §22, you can terminate your training contract after the probation period with proper notice and an important reason. Our team ensures you follow the correct legal procedure, coordinates with IHK/HWK mediators if needed, and helps you secure a new contract before termination to avoid any gaps.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Will I lose the months I already completed in my current Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No, your completed training months are not lost. Keep your Ausbildungsnachweis (training record) and Berufsschule reports updated. New employers typically credit your completed modules, allowing you to continue from where you left off. We help document and transfer your credits to ensure you stay with your original exam cohort.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What happens to my residence permit when switching Ausbildung companies?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Your residence permit remains valid if you handle the transition correctly. You must notify the Ausländerbehörde within 2 weeks, present your new contract, and provide confirmation from your Berufsschule. We prepare all necessary paperwork, guide you through the process, and can accompany you to appointments if needed.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Do I need to repay financial aid (BAB/BAföG) if I switch?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No repayment is required if you continue in an eligible Ausbildung and submit change notifications within 14 days. Our team coordinates directly with Agentur für Arbeit to ensure your financial support continues uninterrupted. Only unplanned dropouts without follow-up plans trigger repayment obligations.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;How quickly can I find a new Ausbildung position?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;With our support, most trainees secure a new contract within 4-8 weeks. We maintain a network of 320+ verified partner companies across various sectors. Our fast-track process includes immediate job matching, interview preparation, and aligned start dates to prevent any gaps in your training.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What if my current company refuses to let me go?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;If your employer refuses termination, we activate mediation through IHK/HWK chambers. These official bodies provide free mediation services for trainees. In cases of serious issues (missing training plan, safety concerns, discrimination), we help document everything for extraordinary termination under BBiG §22.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I switch to a completely different field (e.g., from retail to IT)?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, career pivots are possible and often successful. We assess which of your completed modules can transfer, arrange bridging courses if needed, and match you with employers who value your existing skills and language abilities. Many of our success stories involve complete field changes.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What documents do I need to prepare for switching?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Essential documents include: current training contract, Ausbildungsnachweis (training log), Berufsschule transcripts, residence permit, financial aid documentation, and employment references. We provide a complete checklist and help you compile everything during our initial consultation.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Is there a best time to switch my Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;The easiest time is during the 4-month probation period when termination is simplified. However, switches are possible at any stage. We recommend avoiding exam periods and considering semester breaks at Berufsschule for smoother transitions. Our advisors help you time your switch optimally.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What support do you provide after I start my new Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Our support continues for 90 days after you start your new position. This includes: probation period guidance, conflict resolution support, Berufsschule integration assistance, and regular check-ins. We ensure your transition is successful and sustainable.&#34;}}]},{&#34;@type&#34;:&#34;HowTo&#34;,&#34;name&#34;:&#34;How to Switch Your Ausbildung in Germany&#34;,&#34;description&#34;:&#34;Complete guide for changing your Ausbildung training program in Germany while protecting your visa and financial aid.&#34;,&#34;step&#34;:[{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:1,&#34;name&#34;:&#34;Assess &amp; Document&#34;,&#34;text&#34;:&#34;Comprehensive evaluation of your current situation and documentation preparation.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Free consultation with our advisors&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Review of training log and contracts&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Chamber advisory session booking&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Risk assessment and timeline planning&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:2,&#34;name&#34;:&#34;Notify &amp; Negotiate&#34;,&#34;text&#34;:&#34;Formal termination process and negotiations with all stakeholders.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Draft resignation or release agreement&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Notify Berufsschule and chambers&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Secure employer signatures&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Coordinate with Ausländerbehörde&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:3,&#34;name&#34;:&#34;Secure New Contract&#34;,&#34;text&#34;:&#34;Fast-track placement with verified employers and smooth onboarding.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Interview preparation and coaching&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Employer matching from our network&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Contract review and negotiation&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Berufsschule registration&#34;}]}]},{&#34;@type&#34;:&#34;Service&#34;,&#34;serviceType&#34;:&#34;Ausbildung Career Switching Consultation&#34;,&#34;provider&#34;:{&#34;@type&#34;:&#34;Organization&#34;,&#34;name&#34;:&#34;GoAusbildung&#34;,&#34;url&#34;:&#34;https://goausbildung.com&#34;},&#34;areaServed&#34;:&#34;Germany&#34;,&#34;availableLanguage&#34;:[&#34;en&#34;,&#34;de&#34;],&#34;hasOfferCatalog&#34;:{&#34;@type&#34;:&#34;OfferCatalog&#34;,&#34;name&#34;:&#34;Ausbildung Switching Services&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Legal Guidance&#34;,&#34;description&#34;:&#34;BBiG §22 compliance and chamber coordination&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Visa Protection&#34;,&#34;description&#34;:&#34;Maintain residence permit throughout transition&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Employer Matching&#34;,&#34;description&#34;:&#34;Access to 320+ verified partner companies&#34;}}]}},{&#34;@type&#34;:&#34;BreadcrumbList&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:1,&#34;item&#34;:{&#34;@id&#34;:&#34;https://goausbildung.com&#34;,&#34;name&#34;:&#34;Home&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:2,&#34;item&#34;:{&#34;@id&#34;:&#34;https://goausbildung.com/ausbildung-in-germany&#34;,&#34;name&#34;:&#34;Ausbildung in Germany&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:3,&#34;item&#34;:{&#34;@id&#34;:&#34;https://goausbildung.com/ausbildung/change-career&#34;,&#34;name&#34;:&#34;Change Career&#34;}}]}]}
         </script>
         <div class="flex flex-col">
           <section class="relative text-foreground py-16 sm:py-20 md:py-24 lg:py-28 min-h-[600px] sm:min-h-[650px] lg:min-h-[700px] overflow-hidden w-full flex items-center justify-center -mt-24 pt-36 sm:pt-40 md:pt-44">
-            <img alt="Bavarian Alps in autumn - representing new heights and career changes" loading="eager" decoding="async" data-nimg="fill" class="object-cover object-center" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" src="{{ asset('assets/_next/bavarian-alps-hero-autumn9804.jpeg') }}" />
+            <img alt="Bavarian Alps in autumn - representing new heights and career changes" loading="eager" decoding="async" class="object-cover object-center" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="{{ asset('assets/_next/bavarian-alps-hero-autumn9804.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0">
             </div>
             <div class="absolute inset-0 z-0" style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -50,7 +49,7 @@
                   Switch Your Ausbildung Without Losing Momentum
                 </h1>
                 <p class="text-lg leading-relaxed text-white/90 drop-shadow-lg animate-fade-in-up animation-delay-300">
-                  Already in Germany and need to change your Ausbildung? Get expert legal guidance, visa protection, and fast employer matching Ã¢â‚¬â€œ all while keeping your financial aid intact.
+                  Already in Germany and need to change your Ausbildung? Get expert legal guidance, visa protection, and fast employer matching – all while keeping your financial aid intact.
                 </p>
                 <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center" aria-label="Primary navigation">
                   <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center" aria-label="Explore Options" href="#why-change">                  <span aria-hidden="true">                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass w-5 h-5 mr-2">
@@ -63,7 +62,7 @@
                   <span>                  Explore Options
 </span>
 </a>
-                  <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center" aria-label="Get Guidance" href="{{ route('front.contact') }}">                  <span aria-hidden="true">                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-5 h-5 mr-2">
+                  <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center" aria-label="Get Guidance" href="/contact">                  <span aria-hidden="true">                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-5 h-5 mr-2">
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
                     </path>
                     <circle cx="9" cy="7" r="4">
@@ -440,7 +439,7 @@
                             <path d="m9 11 3 3L22 4">
                             </path>
                           </svg>
-                          <span>                          Coordinate with AuslÃƒÂ¤nderbehÃƒÂ¶rde
+                          <span>                          Coordinate with Ausländerbehörde
 </span>
                         </li>
                       </ul>
@@ -622,7 +621,7 @@
                       </svg>
                     </div>
                     <h3 class="font-semibold text-lg">
-                      BAB/BAfÃƒÂ¶G Continuity
+                      BAB/BAföG Continuity
                     </h3>
                   </div>
                   <ul class="space-y-3">
@@ -643,7 +642,7 @@
                         <path d="m9 11 3 3L22 4">
                         </path>
                       </svg>
-                      <span>                      Maintain continuous Ausbildung status for uninterrupted support (BAB up to Ã¢â€šÂ¬822/month as of July 2026)
+                      <span>                      Maintain continuous Ausbildung status for uninterrupted support (BAB up to €822/month as of July 2026)
 </span>
                     </li>
                     <li class="flex items-start gap-2 text-sm text-muted-foreground">
@@ -680,7 +679,7 @@
                         <path d="m9 11 3 3L22 4">
                         </path>
                       </svg>
-                      <span>                      Notify AuslÃƒÂ¤nderbehÃƒÂ¶rde within 2 weeks with new contract
+                      <span>                      Notify Ausländerbehörde within 2 weeks with new contract
 </span>
                     </li>
                     <li class="flex items-start gap-2 text-sm text-muted-foreground">
@@ -690,7 +689,7 @@
                         <path d="m9 11 3 3L22 4">
                         </path>
                       </svg>
-                      <span>                      Maintain Ausbildung residence permit throughout transition (min. Ã¢â€šÂ¬1,048 gross or Ã¢â€šÂ¬822 net/month from Sept 2026)
+                      <span>                      Maintain Ausbildung residence permit throughout transition (min. €1,048 gross or €822 net/month from Sept 2026)
 </span>
                     </li>
                     <li class="flex items-start gap-2 text-sm text-muted-foreground">
@@ -770,7 +769,7 @@
                       Legal Framework
                     </h3>
                     <p class="text-sm text-muted-foreground mb-4">
-                      All transitions follow Berufsbildungsgesetz (BBiG) Ã‚Â§22 guidelines with full chamber support.
+                      All transitions follow Berufsbildungsgesetz (BBiG) §22 guidelines with full chamber support.
                     </p>
                     <ul class="space-y-2 text-sm text-muted-foreground">
                       <li class="flex items-center gap-2">
@@ -808,13 +807,13 @@
                     </h4>
                     <div class="space-y-3 text-sm">
                       <div class="flex justify-between py-2 border-b">
-                        <span class="text-muted-foreground">                        BAB/BAfÃƒÂ¶G notification
+                        <span class="text-muted-foreground">                        BAB/BAföG notification
 </span>
                         <span class="font-medium">                        Within 14 days
 </span>
                       </div>
                       <div class="flex justify-between py-2 border-b">
-                        <span class="text-muted-foreground">                        AuslÃƒÂ¤nderbehÃƒÂ¶rde update
+                        <span class="text-muted-foreground">                        Ausländerbehörde update
 </span>
                         <span class="font-medium">                        Within 2 weeks
 </span>
@@ -860,14 +859,14 @@
                       From Retail to IT Specialist
                     </h3>
                     <p class="text-sm text-muted-foreground italic mb-4">
-                      Ã¢â‚¬Å“
+                      “
                       <!-- -->
                       I was stuck in retail but dreamed of IT. GoAusbildung helped me switch to Fachinformatiker in just 8 weeks!
                       <!-- -->
-                      Ã¢â‚¬Â
+                      ”
                     </p>
                     <p class="text-sm font-medium mb-3">
-                      Ã¢â‚¬â€
+                      —
                       <!-- -->
                       Priya M., India
                     </p>
@@ -885,7 +884,7 @@
                         <!-- -->
                         :
 </span>
-                        <span class="font-medium">                        +Ã¢â€šÂ¬400/month
+                        <span class="font-medium">                        +€400/month
 </span>
                       </div>
                       <div class="flex justify-between text-xs">
@@ -911,14 +910,14 @@
                       Hotel to Healthcare
                     </h3>
                     <p class="text-sm text-muted-foreground italic mb-4">
-                      Ã¢â‚¬Å“
+                      “
                       <!-- -->
                       The team handled everything - from IHK mediation to visa paperwork. I didn&#39;t lose a single day of BAB support.
                       <!-- -->
-                      Ã¢â‚¬Â
+                      ”
                     </p>
                     <p class="text-sm font-medium mb-3">
-                      Ã¢â‚¬â€
+                      —
                       <!-- -->
                       Ahmed K., Egypt
                     </p>
@@ -962,14 +961,14 @@
                       Metal Work to Mechatronics
                     </h3>
                     <p class="text-sm text-muted-foreground italic mb-4">
-                      Ã¢â‚¬Å“
+                      “
                       <!-- -->
                       Safety issues at my old company were resolved through HWK mediation. Now I&#39;m in a modern automation plant.
                       <!-- -->
-                      Ã¢â‚¬Â
+                      ”
                     </p>
                     <p class="text-sm font-medium mb-3">
-                      Ã¢â‚¬â€
+                      —
                       <!-- -->
                       Carlos R., Brazil
                     </p>
@@ -987,7 +986,7 @@
                         <!-- -->
                         :
 </span>
-                        <span class="font-medium">                        +Ã¢â€šÂ¬280/month
+                        <span class="font-medium">                        +€280/month
 </span>
                       </div>
                       <div class="flex justify-between text-xs">
@@ -1013,14 +1012,14 @@
                       Logistics to Green Energy
                     </h3>
                     <p class="text-sm text-muted-foreground italic mb-4">
-                      Ã¢â‚¬Å“
+                      “
                       <!-- -->
                       I wanted a future in sustainability. They found me a position in wind energy technology within weeks.
                       <!-- -->
-                      Ã¢â‚¬Â
+                      ”
                     </p>
                     <p class="text-sm font-medium mb-3">
-                      Ã¢â‚¬â€
+                      —
                       <!-- -->
                       Fatima H., Morocco
                     </p>
@@ -1231,7 +1230,7 @@
                       <div class="flex justify-between">
                         <span class="text-muted-foreground">                        Financial:
 </span>
-                        <span class="font-medium">                        Funded by Agentur fÃƒÂ¼r Arbeit
+                        <span class="font-medium">                        Funded by Agentur für Arbeit
 </span>
                       </div>
                       <div class="flex justify-between">
@@ -1348,7 +1347,7 @@
                     </div>
                   </div>
                   <h3 class="font-bold text-lg mb-2">
-                    Agentur fÃƒÂ¼r Arbeit
+                    Agentur für Arbeit
                   </h3>
                   <p class="text-sm text-muted-foreground mb-4">
                     Financial aid continuity, job listings, and emergency support services.
@@ -1361,7 +1360,7 @@
                         <path d="m9 11 3 3L22 4">
                         </path>
                       </svg>
-                      <span>                      BAB/BAfÃƒÂ¶G processing
+                      <span>                      BAB/BAföG processing
 </span>
                     </div>
                     <div class="flex items-center gap-2 text-xs text-muted-foreground">
@@ -1503,13 +1502,13 @@
                   </p>
                   <div class="flex flex-wrap justify-center gap-4">
                     <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2">
-                      IHK LehrstellenbÃƒÂ¶rse
+                      IHK Lehrstellenbörse
                     </div>
                     <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2">
                       Handwerkskammer
                     </div>
                     <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2">
-                      Agentur fÃƒÂ¼r Arbeit
+                      Agentur für Arbeit
                     </div>
                     <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2">
                       Youth Migration Services
@@ -1526,177 +1525,174 @@
             <div class="container px-4 md:px-6">
               <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                  <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-primary/80 mb-4 px-3 py-1 text-primary bg-primary/10">
-                    FAQs
-                  </div>
-                  <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-                    Frequently Asked Questions
-                  </h2>
-                  <p class="text-lg text-muted-foreground">
-                    Everything you need to know about switching your Ausbildung in Germany.
-                  </p>
+                  <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-primary/80 mb-4 px-3 py-1 text-primary bg-primary/10">FAQs</div>
+                  <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Frequently Asked Questions</h2>
+                  <p class="text-lg text-muted-foreground">Everything you need to know about switching your Ausbildung in Germany.</p>
                 </div>
-                <div class="w-full space-y-4" data-orientation="vertical">
-                  <div data-state="open" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="open" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«R8q4feslbÃ‚Â»" aria-expanded="true" data-state="open" data-orientation="vertical" id="radix-Ã‚Â«Rq4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        Can I change my Ausbildung after the probation period?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+                <div class="w-full space-y-4" id="changeCareerFaq">
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">Can I change my Ausbildung after the probation period?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="open" id="radix-Ã‚Â«R8q4feslbÃ‚Â»" role="region" aria-labelledby="radix-Ã‚Â«Rq4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
-                      <div class="pb-4 pt-0">
-                        Yes, absolutely. Under Berufsbildungsgesetz (BBiG) Ã‚Â§22, you can terminate your training contract after the probation period with proper notice and an important reason. Our team ensures you follow the correct legal procedure, coordinates with IHK/HWK mediators if needed, and helps you secure a new contract before termination to avoid any gaps.
-                      </div>
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">Yes, absolutely. Under Berufsbildungsgesetz (BBiG) &sect;22, you can terminate your training contract after the probation period with proper notice and an important reason. Our team ensures you follow the correct legal procedure, coordinates with IHK/HWK mediators if needed, and helps you secure a new contract before termination to avoid any gaps.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«R9a4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R1a4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        Will I lose the months I already completed in my current Ausbildung?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">Will I lose the months I already completed in my current Ausbildung?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«R9a4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R1a4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">No, your completed training months are not lost. Keep your Ausbildungsnachweis (training record) and Berufsschule reports updated. New employers typically credit your completed modules, allowing you to continue from where you left off. We help document and transfer your credits to ensure you stay with your original exam cohort.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«R9q4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R1q4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        What happens to my residence permit when switching Ausbildung companies?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">What happens to my residence permit when switching Ausbildung companies?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«R9q4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R1q4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">Your residence permit remains valid if you handle the transition correctly. You must notify the Ausl&auml;nderbeh&ouml;rde within 2 weeks, present your new contract, and provide confirmation from your Berufsschule. We prepare all necessary paperwork, guide you through the process, and can accompany you to appointments if needed.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«Raa4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R2a4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        Do I need to repay financial aid (BAB/BAfÃƒÂ¶G) if I switch?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">Do I need to repay financial aid (BAB/BAf&ouml;G) if I switch?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«Raa4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R2a4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">No repayment is required if you continue in an eligible Ausbildung and submit change notifications within 14 days. Our team coordinates directly with Agentur f&uuml;r Arbeit to ensure your financial support continues uninterrupted. Only unplanned dropouts without follow-up plans trigger repayment obligations.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«Raq4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R2q4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        How quickly can I find a new Ausbildung position?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">How quickly can I find a new Ausbildung position?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«Raq4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R2q4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">With our support, most trainees secure a new contract within 4-8 weeks. We maintain a network of 320+ verified partner companies across various sectors. Our fast-track process includes immediate job matching, interview preparation, and aligned start dates to prevent any gaps in your training.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«Rba4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R3a4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        What if my current company refuses to let me go?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">What if my current company refuses to let me go?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«Rba4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R3a4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">If your employer refuses termination, we activate mediation through IHK/HWK chambers. These official bodies provide free mediation services for trainees. In cases of serious issues (missing training plan, safety concerns, discrimination), we help document everything for extraordinary termination under BBiG &sect;22.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«Rbq4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R3q4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        Can I switch to a completely different field (e.g., from retail to IT)?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">Can I switch to a completely different field (e.g., from retail to IT)?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«Rbq4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R3q4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">Yes, career pivots are possible and often successful. We assess which of your completed modules can transfer, arrange bridging courses if needed, and match you with employers who value your existing skills and language abilities. Many of our success stories involve complete field changes.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«Rca4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R4a4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        What documents do I need to prepare for switching?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">What documents do I need to prepare for switching?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«Rca4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R4a4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">Essential documents include: current training contract, Ausbildungsnachweis (training log), Berufsschule transcripts, residence permit, financial aid documentation, and employment references. We provide a complete checklist and help you compile everything during our initial consultation.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«Rcq4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R4q4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        Is there a best time to switch my Ausbildung?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">Is there a best time to switch my Ausbildung?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«Rcq4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R4q4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">The easiest time is during the 4-month probation period when termination is simplified. However, switches are possible at any stage. We recommend avoiding exam periods and considering semester breaks at Berufsschule for smoother transitions. Our advisors help you time your switch optimally.</div>
                     </div>
                   </div>
-                  <div data-state="closed" data-orientation="vertical" class="border-beige border rounded-lg px-6 data-[state=open]:bg-muted/30">
-                    <h3 data-orientation="vertical" data-state="closed" class="flex">
-                      <button type="button" aria-controls="radix-Ã‚Â«Rda4feslbÃ‚Â»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-Ã‚Â«R5a4feslbÃ‚Â»" class="flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary text-left hover:no-underline py-4" data-radix-collection-item="">
-                        <span class="font-medium pr-4">                        What support do you provide after I start my new Ausbildung?
-</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200">
-                          <path d="m6 9 6 6 6-6">
-                          </path>
-                        </svg>
+
+                  <div class="faq-item border-beige border rounded-lg px-6">
+                    <h3 class="flex">
+                      <button type="button" class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4" aria-expanded="false">
+                        <span class="font-medium pr-4">What support do you provide after I start my new Ausbildung?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                       </button>
                     </h3>
-                    <div data-state="closed" id="radix-Ã‚Â«Rda4feslbÃ‚Â»" hidden="" role="region" aria-labelledby="radix-Ã‚Â«R5a4feslbÃ‚Â»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down pb-4 pt-2 text-muted-foreground" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    <div class="faq-content overflow-hidden text-sm text-muted-foreground" style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
+                      <div class="pb-4 pt-2">Our support continues for 90 days after you start your new position. This includes: probation period guidance, conflict resolution support, Berufsschule integration assistance, and regular check-ins. We ensure your transition is successful and sustainable.</div>
                     </div>
                   </div>
+
                 </div>
                 <div class="mt-10 p-6 bg-primary/5 rounded-xl text-center">
-                  <h3 class="font-semibold mb-2">
-                    Still have questions?
-                  </h3>
-                  <p class="text-sm text-muted-foreground mb-4">
-                    Our advisors are ready to answer your specific concerns.
-                  </p>
-                  <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2" href="#switch-form">                  Get Personal Consultation
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle h-4 w-4">
-                    <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z">
-                    </path>
-                  </svg>
-</a>
+                  <h3 class="font-semibold mb-2">Still have questions?</h3>
+                  <p class="text-sm text-muted-foreground mb-4">Our advisors are ready to answer your specific concerns.</p>
+                  <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2" href="#switch-form">
+                    Get Personal Consultation
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle h-4 w-4"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+                  </a>
                 </div>
               </div>
             </div>
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var faqContainer = document.getElementById('changeCareerFaq');
+              if (!faqContainer) return;
+
+              faqContainer.querySelectorAll('.faq-trigger').forEach(function(trigger) {
+                trigger.addEventListener('click', function() {
+                  var item = trigger.closest('.faq-item');
+                  var content = item.querySelector('.faq-content');
+                  var isOpen = trigger.getAttribute('aria-expanded') === 'true';
+                  var chevron = trigger.querySelector('svg');
+
+                  if (isOpen) {
+                    content.style.maxHeight = '0';
+                    content.style.paddingBottom = '0';
+                    trigger.setAttribute('aria-expanded', 'false');
+                    trigger.classList.remove('text-primary');
+                    item.classList.remove('bg-muted/30');
+                    if (chevron) chevron.style.transform = 'rotate(0deg)';
+                  } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    content.style.paddingBottom = '16px';
+                    trigger.setAttribute('aria-expanded', 'true');
+                    trigger.classList.add('text-primary');
+                    item.classList.add('bg-muted/30');
+                    if (chevron) chevron.style.transform = 'rotate(180deg)';
+                  }
+                });
+              });
+            });
+            </script>
           </section>
           <section id="switch-form" class="py-24 bg-gradient-to-b from-background via-primary/5 to-background">
             <div class="container px-4 md:px-6">
@@ -1713,201 +1709,338 @@
               </div>
               <div class="max-w-5xl mx-auto">
                 <div class="max-w-3xl mx-auto">
+                  <!-- Wizard Steps Indicator -->
                   <div class="mb-8 overflow-x-auto">
                     <div class="flex items-center justify-start sm:justify-center gap-2 sm:gap-4 min-w-max sm:min-w-0 px-4 sm:px-0">
-                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1">
+                      <!-- Step 1 -->
+                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1" data-wizard-indicator="0">
                         <div class="relative">
-                          <div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-5 h-5">
-                              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2">
-                              </path>
-                              <circle cx="12" cy="7" r="4">
-                              </circle>
-                            </svg>
+                          <div class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-5 h-5"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                           </div>
-                          <div class="absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige">
-                          </div>
+                          <div class="wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige"></div>
                         </div>
                         <div class="text-center">
-                          <div class="font-medium text-xs sm:text-sm whitespace-nowrap text-primary">
-                            Personal Info
-                          </div>
-                          <div class="text-xs text-muted-foreground hidden lg:block">
-                            Contact details
-                          </div>
+                          <div class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary">Personal Info</div>
+                          <div class="text-xs text-muted-foreground hidden lg:block">Contact details</div>
                         </div>
                       </div>
-                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1">
+                      <!-- Step 2 -->
+                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1" data-wizard-indicator="1">
                         <div class="relative">
-                          <div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase w-5 h-5">
-                              <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16">
-                              </path>
-                              <rect width="20" height="14" x="2" y="6" rx="2">
-                              </rect>
-                            </svg>
+                          <div class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase w-5 h-5"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
                           </div>
-                          <div class="absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige">
-                          </div>
+                          <div class="wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige"></div>
                         </div>
                         <div class="text-center">
-                          <div class="font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
-                            Current Situation
-                          </div>
-                          <div class="text-xs text-muted-foreground hidden lg:block">
-                            Your Ausbildung
-                          </div>
+                          <div class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">Current Situation</div>
+                          <div class="text-xs text-muted-foreground hidden lg:block">Your Ausbildung</div>
                         </div>
                       </div>
-                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1">
+                      <!-- Step 3 -->
+                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1" data-wizard-indicator="2">
                         <div class="relative">
-                          <div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-5 h-5">
-                              <circle cx="12" cy="12" r="10">
-                              </circle>
-                              <circle cx="12" cy="12" r="6">
-                              </circle>
-                              <circle cx="12" cy="12" r="2">
-                              </circle>
-                            </svg>
+                          <div class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-5 h-5"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
                           </div>
-                          <div class="absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige">
-                          </div>
+                          <div class="wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige"></div>
                         </div>
                         <div class="text-center">
-                          <div class="font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
-                            Target Goals
-                          </div>
-                          <div class="text-xs text-muted-foreground hidden lg:block">
-                            Where you want to go
-                          </div>
+                          <div class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">Target Goals</div>
+                          <div class="text-xs text-muted-foreground hidden lg:block">Where you want to go</div>
                         </div>
                       </div>
-                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1">
+                      <!-- Step 4 -->
+                      <div class="flex flex-col items-center flex-shrink-0 w-20 sm:flex-1" data-wizard-indicator="3">
                         <div class="relative">
-                          <div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square w-5 h-5">
-                              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z">
-                              </path>
-                            </svg>
+                          <div class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square w-5 h-5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                           </div>
                         </div>
                         <div class="text-center">
-                          <div class="font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
-                            Additional Info
-                          </div>
-                          <div class="text-xs text-muted-foreground hidden lg:block">
-                            Tell us more
-                          </div>
+                          <div class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">Additional Info</div>
+                          <div class="text-xs text-muted-foreground hidden lg:block">Tell us more</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-xl text-card-foreground overflow-hidden bg-gradient-to-br from-card via-card to-primary/5 shadow-2xl border border-border/50 backdrop-blur-xl">
-                    <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/5 opacity-30">
-                    </div>
+
+                  <!-- Form Card -->
+                  <div class="rounded-xl text-card-foreground overflow-hidden bg-gradient-to-br from-card via-card to-primary/5 shadow-2xl border border-border/50 backdrop-blur-xl relative">
+                    <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/5 opacity-30"></div>
                     <div class="relative p-8 sm:p-10">
-                      <form class="space-y-8">
+                      <form id="switchWizardForm" class="space-y-8">
+                        <input type="hidden" name="form_type" value="change-career" />
                         <div class="min-h-[450px]">
-                          <div class="h-full" style="opacity:0;transform:translateX(20px)">
+
+                          <!-- Step 1: Personal Info -->
+                          <div class="wizard-step h-full" data-wizard-step="0" style="opacity: 1; transform: none;">
                             <div class="space-y-6">
                               <div class="text-center mb-6">
                                 <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-3">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-6 h-6 text-primary">
-                                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2">
-                                    </path>
-                                    <circle cx="12" cy="7" r="4">
-                                    </circle>
-                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-6 h-6 text-primary"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                                 </div>
-                                <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                                  Personal Information
-                                </h3>
-                                <p class="text-sm text-muted-foreground">
-                                  How can we reach you?
-                                </p>
+                                <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">Personal Information</h3>
+                                <p class="text-sm text-muted-foreground">How can we reach you?</p>
                               </div>
                               <div class="grid gap-6 sm:grid-cols-2">
                                 <div class="group">
-                                  <label class="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-sm font-medium transition-colors" for="firstName">
-                                    First Name
-                                    <span class="text-destructive">                                    *
-</span>
-                                  </label>
+                                  <label class="text-sm font-medium transition-colors" for="firstName">First Name <span class="text-destructive">*</span></label>
                                   <div class="relative mt-2">
-                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30" id="firstName" placeholder="Enter your first name" name="firstName" />
+                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30" id="firstName" placeholder="Enter your first name" name="firstName" required />
                                   </div>
                                 </div>
                                 <div class="group">
-                                  <label class="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-sm font-medium" for="lastName">
-                                    Last Name
-                                  </label>
+                                  <label class="text-sm font-medium" for="lastName">Last Name</label>
                                   <div class="relative mt-2">
-                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all" id="lastName" placeholder="Enter your last name" name="lastName" />
+                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all" id="lastName" placeholder="Enter your last name" name="lastName" />
                                   </div>
                                 </div>
                                 <div class="group">
-                                  <label class="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-sm font-medium transition-colors" for="email">
-                                    Email
-                                    <span class="text-destructive">                                    *
-</span>
-                                  </label>
+                                  <label class="text-sm font-medium transition-colors" for="email">Email <span class="text-destructive">*</span></label>
                                   <div class="relative mt-2">
-                                    <input type="email" class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30" id="email" placeholder="your.email@example.com" name="email" />
+                                    <input type="email" class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30" id="email" placeholder="your.email@example.com" name="email" required />
                                   </div>
                                 </div>
                                 <div class="group">
-                                  <label class="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-sm font-medium transition-colors" for="phone">
-                                    Phone/WhatsApp
-                                    <span class="text-destructive">                                    *
-</span>
-                                  </label>
+                                  <label class="text-sm font-medium transition-colors" for="phone">Phone/WhatsApp <span class="text-destructive">*</span></label>
                                   <div class="relative mt-2">
-                                    <div class="flex relative bg-background/50 backdrop-blur-sm [&amp;&gt;div]:hover:border-primary/30">
-                                      <div class="flex h-12 w-full rounded-lg border border-input bg-white text-sm ring-offset-background transition-all duration-200 focus-within:ring-2 focus-within:ring-primary focus-within:border-primary">
-                                        <button type="button" class="flex h-full items-center gap-1 rounded-l-lg border-0 bg-transparent px-3 py-2 text-sm font-medium transition-colors duration-200 focus:outline-none focus:ring-0 hover:bg-beige/50" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-Ã‚Â«R1d5dlacfeslbÃ‚Â»" data-state="closed">
-                                          <span class="flex items-center gap-1">                                          <span class="text-base">                                          Ã°Å¸â€¡Â©Ã°Å¸â€¡Âª
-</span>
-                                          <span class="hidden sm:inline">                                          +
-                                          <!-- -->
-                                          49
-</span>
-                                          <span class="inline sm:hidden">                                          +
-                                          <!-- -->
-                                          49
-</span>
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 opacity-50">
-                                            <path d="m6 9 6 6 6-6">
-                                            </path>
-                                          </svg>
-</span>
-                                        </button>
-                                        <div class="h-full w-px bg-beige">
-                                        </div>
-                                        <input type="tel" placeholder="Phone number" autocomplete="tel" class="flex-1 border-0 bg-transparent px-3 py-2 text-sm outline-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-muted-foreground" value="" />
-                                      </div>
+                                    <div class="flex h-12 w-full rounded-lg border border-input bg-background/50 text-sm ring-offset-background transition-all duration-200 focus-within:ring-2 focus-within:ring-primary focus-within:border-primary hover:border-primary/30">
+                                      <select name="phoneCountry" class="h-full rounded-l-lg border-0 bg-transparent pl-3 pr-1 text-sm font-medium focus:outline-none focus:ring-0 cursor-pointer appearance-none" style="min-width: 90px;">
+                                        <option value="+49">DE +49</option>
+                                        <option value="+212">MA +212</option>
+                                        <option value="+90">TR +90</option>
+                                        <option value="+91">IN +91</option>
+                                        <option value="+92">PK +92</option>
+                                        <option value="+20">EG +20</option>
+                                        <option value="+216">TN +216</option>
+                                        <option value="+213">DZ +213</option>
+                                        <option value="+234">NG +234</option>
+                                        <option value="+254">KE +254</option>
+                                        <option value="+255">TZ +255</option>
+                                        <option value="+233">GH +233</option>
+                                        <option value="+237">CM +237</option>
+                                        <option value="+880">BD +880</option>
+                                        <option value="+84">VN +84</option>
+                                        <option value="+62">ID +62</option>
+                                        <option value="+63">PH +63</option>
+                                        <option value="+1">US +1</option>
+                                        <option value="+44">UK +44</option>
+                                        <option value="+33">FR +33</option>
+                                        <option value="+34">ES +34</option>
+                                        <option value="+39">IT +39</option>
+                                        <option value="+48">PL +48</option>
+                                        <option value="+380">UA +380</option>
+                                        <option value="+7">RU +7</option>
+                                      </select>
+                                      <div class="h-full w-px bg-border"></div>
+                                      <input type="tel" id="phone" name="phone" placeholder="Phone number" autocomplete="tel" class="flex-1 border-0 bg-transparent px-3 py-2 text-sm outline-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-muted-foreground" required />
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="hidden" aria-hidden="true">
-                          <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="website">
-                            Website
-                          </label>
-                          <input type="text" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50" id="website" tabindex="-1" autocomplete="off" name="website" />
-                        </div>
-                        <div class="flex flex-col sm:flex-row justify-between gap-4 pt-6 border-t">
-                          <div class="order-2 sm:order-1">
+
+                          <!-- Step 2: Current Situation -->
+                          <div class="wizard-step h-full hidden" data-wizard-step="1" style="opacity: 0; transform: translateX(20px);">
+                            <div class="space-y-6">
+                              <div class="text-center mb-6">
+                                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-3">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase w-6 h-6 text-primary"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">Current Situation</h3>
+                                <p class="text-sm text-muted-foreground">Tell us about your current Ausbildung</p>
+                              </div>
+                              <div class="grid gap-6 sm:grid-cols-2">
+                                <div class="group">
+                                  <label class="text-sm font-medium transition-colors" for="currentAusbildung">Current Ausbildung <span class="text-destructive">*</span></label>
+                                  <div class="relative mt-2">
+                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30" id="currentAusbildung" placeholder="e.g., Kaufmann im Einzelhandel" name="currentAusbildung" />
+                                  </div>
+                                </div>
+                                <div class="group">
+                                  <label class="text-sm font-medium" for="currentCompany">Current Company</label>
+                                  <div class="relative mt-2">
+                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all" id="currentCompany" placeholder="Company name" name="currentCompany" />
+                                  </div>
+                                </div>
+                                <div class="group">
+                                  <label class="text-sm font-medium transition-colors" for="currentCity">City <span class="text-destructive">*</span></label>
+                                  <div class="relative mt-2">
+                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30" id="currentCity" placeholder="e.g., Berlin, Munich" name="currentCity" />
+                                  </div>
+                                </div>
+                                <div class="group">
+                                  <label class="text-sm font-medium" for="trainingYear">Training Year <span class="text-destructive">*</span></label>
+                                  <div class="relative mt-2">
+                                    <select id="trainingYear" name="trainingYear" class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all cursor-pointer">
+                                      <option value="" disabled selected>Select year...</option>
+                                      <option value="probation">Probation Period</option>
+                                      <option value="1">1st Year</option>
+                                      <option value="2">2nd Year</option>
+                                      <option value="3">3rd Year</option>
+                                      <option value="3.5">3.5th Year</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="group">
+                                <label class="text-sm font-medium" for="germanLevel">German Level</label>
+                                <div class="relative mt-2">
+                                  <select id="germanLevel" name="germanLevel" class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all cursor-pointer">
+                                    <option value="" disabled selected>Select level...</option>
+                                    <option value="A1">A1 - Beginner</option>
+                                    <option value="A2">A2 - Elementary</option>
+                                    <option value="B1">B1 - Intermediate</option>
+                                    <option value="B2">B2 - Upper Intermediate</option>
+                                    <option value="C1">C1 - Advanced</option>
+                                    <option value="C2">C2 - Proficient</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                          <button class="whitespace-nowrap rounded-full text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground hover:bg-orange-hover hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:shadow-primary/30 order-1 sm:order-2" type="button">
-                            Continue
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right w-5 h-5">
-                              <path d="m9 18 6-6-6-6">
-                              </path>
-                            </svg>
+
+                          <!-- Step 3: Target Goals -->
+                          <div class="wizard-step h-full hidden" data-wizard-step="2" style="opacity: 0; transform: translateX(20px);">
+                            <div class="space-y-6">
+                              <div class="text-center mb-6">
+                                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-3">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-6 h-6 text-primary"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">Target Goals</h3>
+                                <p class="text-sm text-muted-foreground">Where do you want to go?</p>
+                              </div>
+                              <div class="grid gap-6 sm:grid-cols-2">
+                                <div class="group">
+                                  <label class="text-sm font-medium transition-colors" for="desiredAusbildung">Desired Ausbildung <span class="text-destructive">*</span></label>
+                                  <div class="relative mt-2">
+                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30" id="desiredAusbildung" placeholder="e.g., Fachinformatiker, Mechatroniker" name="desiredAusbildung" />
+                                  </div>
+                                </div>
+                                <div class="group">
+                                  <label class="text-sm font-medium" for="preferredCity">Preferred City</label>
+                                  <div class="relative mt-2">
+                                    <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all" id="preferredCity" placeholder="Open to relocation?" name="preferredCity" />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="group">
+                                <label class="text-sm font-medium" for="switchType">Type of Switch <span class="text-destructive">*</span></label>
+                                <div class="relative mt-2">
+                                  <select id="switchType" name="switchType" class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all cursor-pointer">
+                                    <option value="" disabled selected>Select type...</option>
+                                    <option value="same-field">Same field, different company</option>
+                                    <option value="different-field">Different field entirely</option>
+                                    <option value="unsure">Not sure yet</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="group">
+                                <label class="text-sm font-medium" for="startPreference">Preferred Start Date</label>
+                                <div class="relative mt-2">
+                                  <select id="startPreference" name="startPreference" class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all cursor-pointer">
+                                    <option value="" disabled selected>Select preference...</option>
+                                    <option value="asap">As soon as possible</option>
+                                    <option value="next-semester">Next semester</option>
+                                    <option value="specific-date">Specific date</option>
+                                    <option value="flexible">Flexible</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Step 4: Additional Info -->
+                          <div class="wizard-step h-full hidden" data-wizard-step="3" style="opacity: 0; transform: translateX(20px);">
+                            <div class="space-y-6">
+                              <div class="text-center mb-6">
+                                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-3">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square w-6 h-6 text-primary"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">Additional Information</h3>
+                                <p class="text-sm text-muted-foreground">Help us understand your situation better</p>
+                              </div>
+                              <div class="space-y-6">
+                                <div class="group">
+                                  <label class="text-sm font-medium transition-colors" for="reasonForSwitch">Reason for Switching <span class="text-destructive">*</span></label>
+                                  <div class="relative mt-2">
+                                    <textarea class="flex min-h-[80px] w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm resize-none transition-all hover:border-primary/30" id="reasonForSwitch" placeholder="Please briefly explain why you want to switch your Ausbildung..." rows="3" name="reasonForSwitch"></textarea>
+                                  </div>
+                                  <div class="flex flex-wrap gap-2 mt-3">
+                                    <p class="text-xs text-muted-foreground w-full">Quick suggestions:</p>
+                                    <button type="button" class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Company Issues</button>
+                                    <button type="button" class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Career Change</button>
+                                    <button type="button" class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Financial Reasons</button>
+                                    <button type="button" class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Location Change</button>
+                                  </div>
+                                </div>
+                                <div class="grid gap-6 sm:grid-cols-2">
+                                  <div class="group">
+                                    <label class="text-sm font-medium transition-colors">Urgency Level <span class="text-destructive">*</span></label>
+                                    <div class="relative mt-2">
+                                      <select name="urgencyLevel" class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all cursor-pointer">
+                                        <option value="" disabled selected>How urgent?</option>
+                                        <option value="immediate">Immediate (Critical Situation)</option>
+                                        <option value="within-month">Within 1 Month</option>
+                                        <option value="within-3months">Within 3 Months</option>
+                                        <option value="flexible">Flexible Timing</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="group">
+                                    <label class="text-sm font-medium" for="visaStatus">Visa Status</label>
+                                    <div class="relative mt-2">
+                                      <input class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 transition-all" id="visaStatus" placeholder="e.g., Ausbildung visa valid until..." name="visaStatus" />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="group">
+                                  <label class="text-sm font-medium" for="additionalContext">Additional Context</label>
+                                  <div class="relative mt-2">
+                                    <textarea class="flex min-h-[80px] w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm hover:border-primary/30 resize-none transition-all" id="additionalContext" placeholder="Any other information that might help us assist you better..." rows="2" name="additionalContext"></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Success Step -->
+                          <div class="wizard-step h-full hidden" data-wizard-step="success" style="opacity: 0; transform: translateX(20px);">
+                            <div class="flex flex-col items-center justify-center py-12 text-center space-y-6">
+                              <div class="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-600"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                              </div>
+                              <h3 class="text-2xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">Application Submitted!</h3>
+                              <p class="text-muted-foreground max-w-md">Thank you! Our Ausbildungswechsel specialists will review your situation and contact you within 24 hours with a personalized switch plan.</p>
+                              <a href="{{ route('front.jobs') }}" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold h-12 px-8 py-3 bg-primary text-primary-foreground hover:bg-orange-hover transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 shadow-lg">
+                                Browse Available Jobs
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                              </a>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <!-- Honeypot -->
+                        <div class="hidden" aria-hidden="true">
+                          <label class="text-sm font-medium leading-none" for="website">Website</label>
+                          <input type="text" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm" id="website" tabindex="-1" autocomplete="off" name="website" />
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div class="flex flex-col sm:flex-row justify-between gap-4 pt-6 border-t" id="wizardNav">
+                          <div class="order-2 sm:order-1">
+                            <button class="wizard-back-btn hidden whitespace-nowrap rounded-full text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 items-center justify-center gap-2 transition-all" type="button">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="m15 18-6-6 6-6"></path></svg>
+                              Back
+                            </button>
+                          </div>
+                          <button class="wizard-next-btn whitespace-nowrap rounded-full text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-orange-hover hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:shadow-primary/30 order-1 sm:order-2" type="button">
+                            <span class="wizard-next-text">Continue</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="m9 18 6-6-6-6"></path></svg>
                           </button>
                         </div>
                       </form>
@@ -1916,10 +2049,158 @@
                 </div>
               </div>
             </div>
+
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              const form = document.getElementById('switchWizardForm');
+              const steps = form.querySelectorAll('.wizard-step[data-wizard-step]');
+              const indicators = document.querySelectorAll('[data-wizard-indicator]');
+              const backBtn = form.querySelector('.wizard-back-btn');
+              const nextBtn = form.querySelector('.wizard-next-btn');
+              const nextText = form.querySelector('.wizard-next-text');
+              const wizardNav = document.getElementById('wizardNav');
+              let currentStep = 0;
+              const totalSteps = 4;
+
+              const checkSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>';
+
+              const stepIcons = [
+                '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>'
+              ];
+
+              function showStep(index) {
+                steps.forEach(function(step) {
+                  var stepIndex = step.getAttribute('data-wizard-step');
+                  if (stepIndex === String(index) || stepIndex === index) {
+                    step.classList.remove('hidden');
+                    setTimeout(function() {
+                      step.style.opacity = '1';
+                      step.style.transform = 'none';
+                    }, 50);
+                  } else {
+                    step.style.opacity = '0';
+                    step.style.transform = 'translateX(20px)';
+                    setTimeout(function() { step.classList.add('hidden'); }, 300);
+                  }
+                });
+
+                // Update indicators
+                indicators.forEach(function(ind) {
+                  var i = parseInt(ind.getAttribute('data-wizard-indicator'));
+                  var circle = ind.querySelector('.wizard-step-circle');
+                  var label = ind.querySelector('.wizard-step-label');
+                  var line = ind.querySelector('.wizard-step-line');
+
+                  if (i < index) {
+                    circle.className = 'wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground';
+                    circle.innerHTML = checkSvg;
+                    label.className = 'wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary';
+                    if (line) line.className = 'wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-primary';
+                  } else if (i === index) {
+                    circle.className = 'wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground';
+                    circle.innerHTML = stepIcons[i];
+                    label.className = 'wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary';
+                    if (line) line.className = 'wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige';
+                  } else {
+                    circle.className = 'wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground';
+                    circle.innerHTML = stepIcons[i];
+                    label.className = 'wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground';
+                    if (line) line.className = 'wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige';
+                  }
+                });
+
+                // Update buttons
+                if (index === 0) {
+                  backBtn.classList.add('hidden');
+                  backBtn.classList.remove('flex');
+                } else {
+                  backBtn.classList.remove('hidden');
+                  backBtn.classList.add('flex');
+                }
+
+                if (index === totalSteps - 1) {
+                  nextText.textContent = 'Submit Application';
+                  nextBtn.classList.remove('bg-gradient-to-r', 'from-primary', 'to-primary/80', 'hover:from-primary/90', 'hover:to-primary/70', 'shadow-primary/20', 'hover:shadow-primary/30');
+                  nextBtn.classList.add('bg-gradient-to-r', 'from-emerald-500', 'to-green-500', 'hover:from-emerald-600', 'hover:to-green-600', 'shadow-emerald-500/20', 'hover:shadow-emerald-500/30');
+                } else {
+                  nextText.textContent = 'Continue';
+                  nextBtn.classList.remove('from-emerald-500', 'to-green-500', 'hover:from-emerald-600', 'hover:to-green-600', 'shadow-emerald-500/20', 'hover:shadow-emerald-500/30');
+                  nextBtn.classList.add('from-primary', 'to-primary/80', 'hover:from-primary/90', 'hover:to-primary/70', 'shadow-primary/20', 'hover:shadow-primary/30');
+                }
+
+                currentStep = index;
+              }
+
+              function validateStep(index) {
+                var stepEl = form.querySelector('[data-wizard-step="' + index + '"]');
+                var inputs = stepEl.querySelectorAll('input[required], select[required], textarea[required]');
+                var valid = true;
+                inputs.forEach(function(input) {
+                  if (!input.value.trim()) {
+                    input.classList.add('border-destructive');
+                    valid = false;
+                    input.addEventListener('input', function() {
+                      input.classList.remove('border-destructive');
+                    }, { once: true });
+                    input.addEventListener('change', function() {
+                      input.classList.remove('border-destructive');
+                    }, { once: true });
+                  }
+                });
+                return valid;
+              }
+
+              nextBtn.addEventListener('click', function() {
+                if (!validateStep(currentStep)) return;
+
+                if (currentStep < totalSteps - 1) {
+                  showStep(currentStep + 1);
+                } else {
+                  // Submit
+                  var honeypot = form.querySelector('#website');
+                  if (honeypot && honeypot.value) return;
+
+                  nextBtn.disabled = true;
+                  nextText.textContent = 'Submitting...';
+
+                  // Simulate submission (replace with real API call when backend is ready)
+                  setTimeout(function() {
+                    wizardNav.classList.add('hidden');
+                    showStep('success');
+                  }, 1000);
+                }
+              });
+
+              backBtn.addEventListener('click', function() {
+                if (currentStep > 0) {
+                  showStep(currentStep - 1);
+                }
+              });
+
+              // Quick suggestion pills
+              form.querySelectorAll('.wizard-suggestion').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                  var textarea = form.querySelector('#reasonForSwitch');
+                  var text = btn.textContent.trim();
+                  if (textarea.value && !textarea.value.endsWith(' ')) {
+                    textarea.value += ', ';
+                  }
+                  textarea.value += text;
+                  btn.classList.add('bg-primary/10', 'border-primary/50');
+                });
+              });
+
+              // Initialize step 0
+              showStep(0);
+            });
+            </script>
           </section>
           <div class="container mx-auto px-4 lg:px-6 my-16">
             <section class="relative py-16 md:py-20 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-b from-primary/5 to-background">
-              <img alt="Background" loading="lazy" decoding="async" data-nimg="fill" class="object-cover object-center rounded-2xl" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px" src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+              <img alt="Background" loading="lazy" decoding="async" class="object-cover object-center rounded-2xl" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
               <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl">
               </div>
               <div class="absolute inset-0 z-[1] rounded-2xl" style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -1950,5 +2231,5 @@
             </section>
           </div>
         </div>
-      
+
 @endsection

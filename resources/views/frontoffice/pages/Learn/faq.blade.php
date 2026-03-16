@@ -222,14 +222,15 @@
                       <circle cx="11" cy="11" r="8"></circle>
                       <path d="m21 21-4.3-4.3"></path></svg
                     ><input
+                      id="faq-search"
                       type="text"
                       class="flex border px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 w-full pl-10 sm:pl-12 pr-14 sm:pr-20 h-12 sm:h-14 text-sm sm:text-base rounded-xl sm:rounded-2xl transition-all duration-300 border-primary/20 bg-card focus:border-primary focus:ring-2 focus:ring-primary/20 placeholder:text-muted-foreground placeholder:text-xs sm:placeholder:text-sm"
                       placeholder="Search questions, answers, or topics..."
                       value=""
                     /><button
+                      id="faq-filter-btn"
                       class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground text-sm absolute right-2 h-9 sm:h-10 px-2 sm:px-3 rounded-lg sm:rounded-xl transition-all duration-300 hover:bg-primary/10"
                       type="button"
-                      id="radix-«R1p8uslb»"
                       aria-haspopup="menu"
                       aria-expanded="false"
                       data-state="closed"
@@ -265,13 +266,14 @@
           <section class="py-12 bg-background">
             <div class="container mx-auto px-4 max-w-4xl">
               <div class="mb-8">
-                <p class="text-muted-foreground">
+                <p id="faq-count" class="text-muted-foreground">
                   34 frequently asked questions
                 </p>
               </div>
-              <div class="space-y-4">
+              <div id="faq-items" class="space-y-4" data-faq-container>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="daily-life"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -438,6 +440,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="basics"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -494,6 +497,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="career"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -666,6 +670,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="basics"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -835,6 +840,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="finances"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -886,6 +892,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="visa"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -939,6 +946,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="language"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -994,6 +1002,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="application"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1053,6 +1062,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="visa"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1128,6 +1138,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="requirements"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1203,6 +1214,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="daily-life"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1320,6 +1332,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="daily-life"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1371,6 +1384,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="application"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1539,6 +1553,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="language"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1594,6 +1609,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="career"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1651,6 +1667,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="visa"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1804,6 +1821,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="requirements"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -1911,6 +1929,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="finances"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2013,6 +2032,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="requirements"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2123,6 +2143,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="basics"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2176,6 +2197,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="visa"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2313,6 +2335,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="basics"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2377,6 +2400,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="finances"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2511,6 +2535,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="language"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2639,6 +2664,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="application"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2809,6 +2835,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="daily-life"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -2983,6 +3010,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="career"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -3163,6 +3191,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="visa"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -3346,6 +3375,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="requirements"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -3552,6 +3582,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="career"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -3780,6 +3811,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="basics"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -3971,6 +4003,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="finances"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -4189,6 +4222,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="career"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -4457,6 +4491,7 @@
                 </div>
                 <div
                   class="border border-primary/10 rounded-lg bg-card overflow-hidden"
+                  data-category="application"
                 >
                   <button
                     class="w-full text-left p-6 flex items-center justify-between hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-inset"
@@ -4806,4 +4841,8 @@
         </div>
         <!--$--><!--$-->
       </main>
+
+@push('scripts')
+<script src="{{ asset('assets/js/frontoffice/faq-interactive.js') }}"></script>
+@endpush
 @endsection

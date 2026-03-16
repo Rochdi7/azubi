@@ -33,16 +33,6 @@
                 bottom: 0;
                 color: transparent;
               "
-              sizes="100vw"
-              srcset="
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=640&amp;q=85   640w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=750&amp;q=85   750w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=828&amp;q=85   828w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=1080&amp;q=85 1080w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=1200&amp;q=85 1200w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=1920&amp;q=85 1920w,
-                /_next/image?url=%2Fimages%2Fhero-backgrounds%2Frhine-valley-hero-autumn.webp&amp;w=2048&amp;q=85 2048w
-              "
               src="{{ asset('assets/_next/rhine-valley-hero-autumn77a4.jpeg') }}"
             />
             <div class="absolute inset-0 bg-black/30 z-0"></div>
@@ -1873,16 +1863,6 @@
                   right: 0;
                   bottom: 0;
                   color: transparent;
-                "
-                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                srcset="
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=640&amp;q=85   640w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=750&amp;q=85   750w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=828&amp;q=85   828w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1080&amp;q=85 1080w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1200&amp;q=85 1200w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1920&amp;q=85 1920w,
-                  /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85 2048w
                 "
                 src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}"
               />

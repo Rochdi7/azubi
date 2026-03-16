@@ -105,40 +105,28 @@
                     <input type="text" placeholder="City or state" class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(52,79,31,0.12)] bg-[#F9F5F0] px-4 text-sm text-[#344F1F] focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A]" />
                   </div>
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
-                    <div class="relative">
-                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 pr-10 text-sm font-medium text-[#344F1F] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A] hover:border-[#344F1F]/35 appearance-none cursor-pointer">
+                    <div>
+                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 text-sm font-medium text-[#344F1F]">
                         <option>All sectors</option>
                         <option>Healthcare</option>
                         <option>IT &amp; Technology</option>
                         <option>Engineering</option>
                       </select>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#344F1F]/70 pointer-events-none">
-                        <path d="m6 9 6 6 6-6">
-                        </path>
-                      </svg>
                     </div>
-                    <div class="relative">
-                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 pr-10 text-sm font-medium text-[#344F1F] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A] hover:border-[#344F1F]/35 appearance-none cursor-pointer">
+                    <div>
+                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 text-sm font-medium text-[#344F1F]">
                         <option>Any language level</option>
                         <option>A2</option>
                         <option>B1</option>
                         <option>B2+</option>
                       </select>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#344F1F]/70 pointer-events-none">
-                        <path d="m6 9 6 6 6-6">
-                        </path>
-                      </svg>
                     </div>
-                    <div class="relative">
-                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 pr-10 text-sm font-medium text-[#344F1F] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A] hover:border-[#344F1F]/35 appearance-none cursor-pointer">
+                    <div>
+                      <select class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 text-sm font-medium text-[#344F1F]">
                         <option>Salary range</option>
                         <option>€850 - €1,000</option>
                         <option>€1,001 - €1,300</option>
                       </select>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#344F1F]/70 pointer-events-none">
-                        <path d="m6 9 6 6 6-6">
-                        </path>
-                      </svg>
                     </div>
                   </div>
                 </div>

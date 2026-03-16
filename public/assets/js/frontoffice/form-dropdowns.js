@@ -110,7 +110,7 @@
   });
 })();
 
-// Custom dropdown UI for lead-form selects (global)
+// Custom dropdown UI for all selects (global)
 (function() {
   function runWhenReady(fn) {
     if (document.readyState === 'loading') {
@@ -120,38 +120,44 @@
     fn();
   }
 
+  function isLeadSelect(select) {
+    var name = (select.getAttribute('name') || '').toLowerCase();
+    var knownNames = ['german_level', 'field_of_interest', 'field', 'current_country', 'country'];
+    return knownNames.indexOf(name) !== -1;
+  }
+
   function getSelectTargets() {
-    function isLeadDropdownSelect(select) {
+    function isCustomizableSelect(select) {
       if (!select || select.tagName !== 'SELECT') return false;
       if (select.multiple || select.hasAttribute('multiple')) return false;
 
       var size = parseInt(select.getAttribute('size') || '1', 10);
       if (!isNaN(size) && size > 1) return false;
 
+      // Skip hidden selects (Radix combobox fallbacks)
+      if (select.getAttribute('aria-hidden') === 'true') return false;
+      if (select.tabIndex === -1) return false;
+
+      // Skip phone country selects (inline within input groups)
       var name = (select.getAttribute('name') || '').toLowerCase();
+      if (name === 'phonecountry' || name === 'phone_country') return false;
+
+      // Skip selects styled as inline parts of other components
       var className = (select.className || '').toLowerCase();
+      if (className.indexOf('rounded-l-lg') !== -1) return false;
 
-      var knownNames = ['german_level', 'field_of_interest', 'field', 'current_country', 'country'];
-      var isKnownLeadName = knownNames.indexOf(name) !== -1;
-      var hasLeadStyles = className.indexOf('rounded-[12px]') !== -1 && className.indexOf('border-2') !== -1;
+      // Must have at least one option
+      if (!select.options || !select.options.length) return false;
 
-      var firstOptionText = '';
-      if (select.options && select.options.length) {
-        firstOptionText = (select.options[0].textContent || '').trim().toLowerCase();
-      }
-      var hasLeadPlaceholder = firstOptionText.indexOf('german level') !== -1 ||
-        firstOptionText.indexOf('field') !== -1 ||
-        firstOptionText.indexOf('country') !== -1;
-
-      return isKnownLeadName || hasLeadStyles || hasLeadPlaceholder;
+      return true;
     }
 
     return Array.prototype.filter.call(
-      document.querySelectorAll('main form select'),
+      document.querySelectorAll('main select'),
       function(select) {
         if (select.dataset.gaCustomIgnore === '1') return false;
         if (select.dataset.gaCustomSelect === '1') return false;
-        return isLeadDropdownSelect(select);
+        return isCustomizableSelect(select);
       }
     );
   }
@@ -170,6 +176,15 @@
   function hasSmallHeight(select) {
     var className = select.className || '';
     return className.indexOf('h-9') !== -1;
+  }
+
+  function hasTallHeight(select) {
+    var className = select.className || '';
+    return className.indexOf('h-12') !== -1 || className.indexOf('h-11') !== -1;
+  }
+
+  function hasOptgroups(select) {
+    return select.querySelectorAll('optgroup').length > 0;
   }
 
   function setOptions(select, list) {
@@ -253,11 +268,15 @@
     if (select.multiple) return;
     if (!select.options || !select.options.length) return;
 
-    normalizeLeadSelect(select);
+    // Only normalize options for lead form selects
+    if (isLeadSelect(select)) {
+      normalizeLeadSelect(select);
+    }
 
     var wrapper = document.createElement('div');
     wrapper.className = 'ga-custom-select';
     if (hasSmallHeight(select)) wrapper.classList.add('ga-custom-select--sm');
+    if (hasTallHeight(select)) wrapper.classList.add('ga-custom-select--lg');
     var selectName = (select.getAttribute('name') || '').toLowerCase();
     var isWideSelect = selectName === 'field' || selectName === 'field_of_interest';
     if (isWideSelect) wrapper.classList.add('ga-custom-select--wide');
@@ -333,43 +352,71 @@
       });
     }
 
+    function buildOptionButton(option, index) {
+      var item = document.createElement('button');
+      item.type = 'button';
+      item.className = 'ga-custom-select-option';
+      item.setAttribute('role', 'option');
+      item.setAttribute('data-value', option.value);
+      item.textContent = option.textContent.trim();
+
+      if (option.disabled) {
+        item.disabled = true;
+        item.classList.add('is-disabled');
+      }
+
+      if (index === select.selectedIndex) {
+        item.classList.add('is-selected');
+        item.setAttribute('aria-selected', 'true');
+      } else {
+        item.setAttribute('aria-selected', 'false');
+      }
+
+      item.addEventListener('click', function() {
+        if (option.disabled) return;
+
+        select.value = option.value;
+        select.dispatchEvent(new Event('change', { bubbles: true }));
+        select.dispatchEvent(new Event('input', { bubbles: true }));
+
+        refreshLabel();
+        refreshSelectedState();
+        closeAllDropdowns();
+      });
+
+      return item;
+    }
+
     function rebuildMenu() {
       menu.innerHTML = '';
 
-      Array.prototype.slice.call(select.options).forEach(function(option, index) {
-        var item = document.createElement('button');
-        item.type = 'button';
-        item.className = 'ga-custom-select-option';
-        item.setAttribute('role', 'option');
-        item.setAttribute('data-value', option.value);
-        item.textContent = option.textContent.trim();
+      if (hasOptgroups(select)) {
+        // Handle selects with optgroups
+        var children = select.children;
+        for (var c = 0; c < children.length; c++) {
+          var child = children[c];
+          if (child.tagName === 'OPTGROUP') {
+            var groupHeader = document.createElement('div');
+            groupHeader.className = 'ga-custom-select-group-label';
+            groupHeader.textContent = child.label || '';
+            menu.appendChild(groupHeader);
 
-        if (option.disabled) {
-          item.disabled = true;
-          item.classList.add('is-disabled');
+            var groupOptions = child.querySelectorAll('option');
+            for (var g = 0; g < groupOptions.length; g++) {
+              var optIndex = Array.prototype.indexOf.call(select.options, groupOptions[g]);
+              menu.appendChild(buildOptionButton(groupOptions[g], optIndex));
+            }
+          } else if (child.tagName === 'OPTION') {
+            var optIdx = Array.prototype.indexOf.call(select.options, child);
+            menu.appendChild(buildOptionButton(child, optIdx));
+          }
         }
-
-        if (index === select.selectedIndex) {
-          item.classList.add('is-selected');
-          item.setAttribute('aria-selected', 'true');
-        } else {
-          item.setAttribute('aria-selected', 'false');
-        }
-
-        item.addEventListener('click', function() {
-          if (option.disabled) return;
-
-          select.value = option.value;
-          select.dispatchEvent(new Event('change', { bubbles: true }));
-          select.dispatchEvent(new Event('input', { bubbles: true }));
-
-          refreshLabel();
-          refreshSelectedState();
-          closeAllDropdowns();
+      } else {
+        // Simple flat options
+        Array.prototype.slice.call(select.options).forEach(function(option, index) {
+          menu.appendChild(buildOptionButton(option, index));
         });
-
-        menu.appendChild(item);
-      });
+      }
     }
 
     function positionFloatingMenu() {

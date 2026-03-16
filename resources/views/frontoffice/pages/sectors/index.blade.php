@@ -81,15 +81,54 @@
               </p>
             </div>
           </section>
+          @php
+            $sectorCards = [
+              ['slug' => 'agriculture', 'title' => 'Agriculture & Environment', 'description' => 'Agriculture, farming, forestry, and environmental careers', 'image' => 'assets/_next/mascot_welcomingfad6.jpeg'],
+              ['slug' => 'automotive', 'title' => 'Automotive & Transportation', 'description' => 'Automotive manufacturing, repair, and transportation careers', 'image' => 'assets/_next/mascot_engineering75c1.jpeg'],
+              ['slug' => 'construction', 'title' => 'Construction & Trades', 'description' => 'Construction, skilled trades, and craftsmanship careers', 'image' => 'assets/_next/mascot_pointing_malee75a.jpeg'],
+              ['slug' => 'education', 'title' => 'Education & Training', 'description' => 'Teaching, training, and educational services careers', 'image' => 'assets/_next/mascot_graduate_female94ff.jpeg'],
+              ['slug' => 'energy', 'title' => 'Energy & Utilities', 'description' => 'Energy production, utilities, and renewable energy careers', 'image' => 'assets/_next/mascot_studying_malec9f9.jpeg'],
+              ['slug' => 'engineering', 'title' => 'Engineering & Technical', 'description' => "Build your career in Germany's world-renowned engineering and manufacturing industries.", 'image' => 'assets/_next/mascot_engineering75c1.jpeg'],
+              ['slug' => 'finance', 'title' => 'Finance & Banking', 'description' => 'Banking, accounting, insurance, and financial services careers', 'image' => 'assets/_next/mascot_documents_maleebd2.jpeg'],
+              ['slug' => 'healthcare', 'title' => 'Healthcare & Nursing', 'description' => "Train in one of Germany's most in-demand sectors with excellent career prospects and earning potential.", 'image' => 'assets/_next/mascot_healthcaredcc0.jpeg'],
+              ['slug' => 'hospitality', 'title' => 'Hospitality & Tourism', 'description' => "Launch your career in Germany's vibrant hospitality industry with international experience.", 'image' => 'assets/_next/mascot_hospitality08bf.jpeg'],
+              ['slug' => 'it', 'title' => 'IT & Software', 'description' => "Start your tech career in Germany with practical training in programming, systems administration, and digital solutions.", 'image' => 'assets/_next/mascot_itc3c5.jpeg'],
+              ['slug' => 'logistics', 'title' => 'Logistics & Transportation', 'description' => "Train in Germany's sophisticated logistics sector, managing the flow of goods in Europe's largest economy.", 'image' => 'assets/_next/mascot_logistics757f.jpeg'],
+              ['slug' => 'media', 'title' => 'Media & Communications', 'description' => 'Media, communications, marketing, and creative careers', 'image' => 'assets/_next/mascot_excited_female2395.jpeg'],
+              ['slug' => 'other', 'title' => 'Other Services', 'description' => 'Other professional services and miscellaneous careers', 'image' => 'assets/_next/mascot_thinking_femalee589.jpeg'],
+              ['slug' => 'public-service', 'title' => 'Public Service & Administration', 'description' => 'Government, public administration, and civil service careers', 'image' => 'assets/_next/mascot_documents_malef502.jpeg'],
+              ['slug' => 'sales', 'title' => 'Sales & Retail', 'description' => "Develop professional sales and customer service skills in Germany's diverse retail landscape.", 'image' => 'assets/_next/mascot_sales9644.jpeg'],
+            ];
+          @endphp
           <section id="sectors-grid" class="py-16">
             <div class="container px-4 md:px-6">
-              <div class="flex justify-center items-center py-20">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-loader-circle h-8 w-8 animate-spin text-primary">
-                  <path d="M21 12a9 9 0 1 1-6.219-8.56">
-                  </path>
-                </svg>
-                <span class="ml-2 text-lg">                Loading sectors...
-</span>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+                @foreach ($sectorCards as $sector)
+                  <a class="block group text-center" href="{{ url('/sectors/' . $sector['slug']) }}">
+                    <div class="flex flex-col items-center py-8 px-4 transition-transform duration-300 group-hover:-translate-y-2">
+                      <div class="relative w-56 h-56 mb-6">
+                        <img
+                          alt="{{ $sector['title'] }} mascot"
+                          loading="lazy"
+                          width="224"
+                          height="224"
+                          decoding="async"
+                          class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(52,79,31,0.15)] transition-transform duration-300 group-hover:scale-105"
+                          src="{{ asset($sector['image']) }}"
+                        />
+                      </div>
+                      <h3 class="text-xl font-semibold text-[#344F1F] mb-3 leading-tight">{{ $sector['title'] }}</h3>
+                      <p class="text-sm text-[#344F1F]/70 mb-6 leading-relaxed max-w-xs">{{ $sector['description'] }}</p>
+                      <div class="flex items-center justify-center text-[#F4991A] text-sm font-medium transition-colors duration-300 group-hover:text-[#E5890F]">
+                        <span>Explore Opportunities</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1">
+                          <path d="M5 12h14"></path>
+                          <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                @endforeach
               </div>
             </div>
           </section>

@@ -818,32 +818,37 @@
               <div
                 class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-start"
               >
+                {{-- Left side: card visuals that swap per step --}}
                 <div
                   class="relative h-[500px] sm:h-[550px] lg:h-[600px] flex items-center justify-center lg:justify-start"
                 >
                   <div class="w-full" style="opacity: 0; transform: scale(0.9)">
                     <div class="relative w-full max-w-md mx-auto">
                       <div class="relative" style="height: 520px">
+                        {{-- Background shadow card --}}
                         <div
                           class="absolute top-1/2 left-1/2 bg-white rounded-2xl lg:rounded-3xl border-2 border-gray-200 shadow-lg"
                           style="
                             width: 320px;
                             height: 440px;
                             padding: 32px;
-                            transform: translateX(-50%) translateY(-50%);
+                            transform: translateX(-65%) translateY(-45%) scale(0.95) rotate(-6deg);
                           "
                         >
                           <div class="flex items-center gap-3 mb-6">
                             <div class="w-10 h-10 bg-gray-200 rounded-xl"></div>
                           </div>
                         </div>
+
+                        {{-- Card 1: Apply For Me (Step 1) --}}
                         <div
-                          class="absolute top-1/2 left-1/2 bg-gradient-to-br from-[#F4991A] to-[#E5890F] rounded-2xl lg:rounded-3xl shadow-2xl"
+                          data-hiw-card="1"
+                          class="hiw-card absolute top-1/2 left-1/2 bg-gradient-to-br from-[#F4991A] to-[#E5890F] rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
                           style="
                             width: 320px;
                             height: 440px;
                             padding: 32px;
-                            transform: translateX(-50%) translateY(-50%);
+                            transform: translateX(-38%) translateY(-52%) rotate(4deg);
                           "
                         >
                           <div class="text-center mb-6">
@@ -905,89 +910,41 @@
                               <div
                                 class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0"
                               >
-                                <svg
-                                  class="w-2.5 h-2.5 text-[#F4991A]"
-                                  viewBox="0 0 16 16"
-                                  fill="none"
-                                >
-                                  <path
-                                    d="M3 8L6 11L13 4"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  ></path>
+                                <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16" fill="none">
+                                  <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                               </div>
-                              <span class="text-white/90 font-medium"
-                                >Expert applications</span
-                              >
+                              <span class="text-white/90 font-medium">Expert applications</span>
                             </div>
                             <div class="flex items-center gap-2">
                               <div
                                 class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0"
                               >
-                                <svg
-                                  class="w-2.5 h-2.5 text-[#F4991A]"
-                                  viewBox="0 0 16 16"
-                                  fill="none"
-                                >
-                                  <path
-                                    d="M3 8L6 11L13 4"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  ></path>
+                                <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16" fill="none">
+                                  <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                               </div>
-                              <span class="text-white/90 font-medium"
-                                >Native German cover letters</span
-                              >
+                              <span class="text-white/90 font-medium">Native German cover letters</span>
                             </div>
                             <div class="flex items-center gap-2">
                               <div
                                 class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0"
                               >
-                                <svg
-                                  class="w-2.5 h-2.5 text-[#F4991A]"
-                                  viewBox="0 0 16 16"
-                                  fill="none"
-                                >
-                                  <path
-                                    d="M3 8L6 11L13 4"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  ></path>
+                                <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16" fill="none">
+                                  <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                               </div>
-                              <span class="text-white/90 font-medium"
-                                >Interview preparation</span
-                              >
+                              <span class="text-white/90 font-medium">Interview preparation</span>
                             </div>
                             <div class="flex items-center gap-2">
                               <div
                                 class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0"
                               >
-                                <svg
-                                  class="w-2.5 h-2.5 text-[#F4991A]"
-                                  viewBox="0 0 16 16"
-                                  fill="none"
-                                >
-                                  <path
-                                    d="M3 8L6 11L13 4"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  ></path>
+                                <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16" fill="none">
+                                  <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                               </div>
-                              <span class="text-white/90 font-medium"
-                                >Visa &amp; relocation support</span
-                              >
+                              <span class="text-white/90 font-medium">Visa &amp; relocation support</span>
                             </div>
                           </div>
                           <button
@@ -996,28 +953,132 @@
                             Get Started
                           </button>
                         </div>
+
+                        {{-- Card 2: Applications Sent (Step 2) --}}
+                        <div
+                          data-hiw-card="2"
+                          class="hiw-card absolute top-1/2 left-1/2 bg-white rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
+                          style="
+                            width: 320px;
+                            height: 440px;
+                            padding: 32px;
+                            transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(0);
+                            opacity: 0;
+                          "
+                        >
+                          <div class="flex items-center gap-3 mb-5">
+                            <div class="w-10 h-10 bg-[#344F1F]/10 rounded-xl flex items-center justify-center">
+                              <svg class="w-5 h-5 text-[#344F1F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                              </svg>
+                            </div>
+                            <div>
+                              <h3 class="font-bold text-[#344F1F] text-lg">Applications Sent</h3>
+                              <p class="text-sm text-[#344F1F]/50">12 of 30 complete</p>
+                            </div>
+                          </div>
+                          <div class="space-y-3 mb-6">
+                            <div class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
+                              <span class="font-medium text-[#344F1F] text-sm">Siemens AG</span>
+                              <span class="text-xs font-semibold bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded-full">Sent</span>
+                            </div>
+                            <div class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
+                              <span class="font-medium text-[#344F1F] text-sm">BMW Group</span>
+                              <span class="text-xs font-semibold bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded-full">Sent</span>
+                            </div>
+                            <div class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
+                              <span class="font-medium text-[#344F1F] text-sm">Bosch</span>
+                              <span class="text-xs font-semibold bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded-full">Sent</span>
+                            </div>
+                            <div class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
+                              <span class="font-medium text-[#344F1F] text-sm">Deutsche Bahn</span>
+                              <span class="text-xs font-semibold bg-amber-100 text-amber-700 px-2.5 py-1 rounded-full">Pending</span>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="flex items-center justify-between mb-2">
+                              <span class="text-xs text-[#344F1F]/50">Progress</span>
+                              <span class="text-xs font-semibold text-[#344F1F]">12/30 apps</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                              <div class="bg-[#344F1F] h-2.5 rounded-full" style="width: 40%"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        {{-- Card 3: Offer Received (Step 3) - Dark theme --}}
+                        <div
+                          data-hiw-card="3"
+                          class="hiw-card absolute top-1/2 left-1/2 bg-[#1a1a1a] rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
+                          style="
+                            width: 320px;
+                            height: 440px;
+                            padding: 24px;
+                            transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(0);
+                            opacity: 0;
+                          "
+                        >
+                          {{-- Green header banner --}}
+                          <div class="bg-emerald-500 rounded-xl p-4 mb-4 text-center">
+                            <svg class="w-8 h-8 text-white mx-auto mb-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <h3 class="font-bold text-white text-lg">Offer Received!</h3>
+                            <p class="text-white/70 text-sm">Time to prepare for Germany</p>
+                          </div>
+
+                          {{-- Siemens offer --}}
+                          <div class="bg-white/10 rounded-xl px-4 py-3 mb-3">
+                            <div class="flex items-center justify-between mb-1">
+                              <span class="font-bold text-white text-sm">Siemens AG</span>
+                              <span class="text-xs font-semibold bg-emerald-500 text-white px-2.5 py-0.5 rounded-full">Offer</span>
+                            </div>
+                            <p class="text-xs text-white/50">IT Specialist - Munich</p>
+                            <p class="text-xs text-white/40">Start: August 2026</p>
+                          </div>
+
+                          {{-- BMW interview --}}
+                          <div class="bg-white/10 rounded-xl px-4 py-3 mb-3">
+                            <div class="flex items-center justify-between mb-1">
+                              <span class="font-bold text-white text-sm">BMW Group</span>
+                              <span class="text-xs font-semibold bg-[#F4991A] text-white px-2.5 py-0.5 rounded-full">Interview</span>
+                            </div>
+                            <p class="text-xs text-white/50">Mechatronics - Berlin</p>
+                            <p class="text-xs text-white/40">Dec 20, 2026 &bull; 10:00 AM</p>
+                          </div>
+
+                          {{-- Next steps --}}
+                          <div class="bg-white/5 rounded-xl px-4 py-3">
+                            <p class="text-xs text-white/50 mb-1">Next Steps</p>
+                            <p class="text-sm text-white/80">Accept offer &rarr; Pay success fee &rarr; Visa support</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="space-y-3 sm:space-y-4">
+
+                {{-- Right side: step cards --}}
+                <div class="space-y-3 sm:space-y-4" id="how-it-works-steps">
                   <div
-                    class="relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300 bg-white shadow-lg scale-[1.02]"
+                    data-step="1"
+                    class="hiw-step hiw-step--active relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
                     style="opacity: 0; transform: translateY(20px)"
                   >
                     <div class="space-y-2 sm:space-y-2.5">
                       <div
-                        class="inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300 bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20"
+                        class="hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300"
                       >
                         Step 1
                       </div>
                       <h3
-                        class="text-lg sm:text-xl font-semibold transition-colors duration-300 text-[#344F1F]"
+                        class="hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300"
                       >
                         Enroll &amp; Complete Profile
                       </h3>
                       <p
-                        class="text-sm sm:text-base leading-relaxed transition-colors duration-300 text-[#344F1F]/70"
+                        class="hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300"
                       >
                         Pay $300 advance and complete your profile in 15
                         minutes. Education, experience, German level, and job
@@ -1025,57 +1086,64 @@
                       </p>
                     </div>
                     <div
-                      class="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#F4991A] rounded-r-full"
-                      style="opacity: 0"
+                      class="hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#F4991A] rounded-r-full transition-opacity duration-300"
                     ></div>
                   </div>
                   <div
-                    class="relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300 bg-white/60 hover:bg-white hover:shadow-md"
+                    data-step="2"
+                    class="hiw-step relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
                     style="opacity: 0; transform: translateY(20px)"
                   >
                     <div class="space-y-2 sm:space-y-2.5">
                       <div
-                        class="inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300 bg-gray-200 text-gray-600"
+                        class="hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300"
                       >
                         Step 2
                       </div>
                       <h3
-                        class="text-lg sm:text-xl font-semibold transition-colors duration-300 text-gray-700"
+                        class="hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300"
                       >
                         We Apply For You
                       </h3>
                       <p
-                        class="text-sm sm:text-base leading-relaxed transition-colors duration-300 text-gray-500"
+                        class="hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300"
                       >
                         Our expert team writes native German applications and
                         submits to companies that hire internationals. Track
                         everything in your dashboard.
                       </p>
                     </div>
+                    <div
+                      class="hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#F4991A] rounded-r-full transition-opacity duration-300"
+                    ></div>
                   </div>
                   <div
-                    class="relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300 bg-white/60 hover:bg-white hover:shadow-md"
+                    data-step="3"
+                    class="hiw-step relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
                     style="opacity: 0; transform: translateY(20px)"
                   >
                     <div class="space-y-2 sm:space-y-2.5">
                       <div
-                        class="inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300 bg-gray-200 text-gray-600"
+                        class="hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300"
                       >
                         Step 3
                       </div>
                       <h3
-                        class="text-lg sm:text-xl font-semibold transition-colors duration-300 text-gray-700"
+                        class="hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300"
                       >
                         Get Your Offer
                       </h3>
                       <p
-                        class="text-sm sm:text-base leading-relaxed transition-colors duration-300 text-gray-500"
+                        class="hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300"
                       >
                         Receive interview calls, get 1-on-1 coaching, accept
                         your offer, pay success fee. We help with visa and
                         relocation.
                       </p>
                     </div>
+                    <div
+                      class="hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#F4991A] rounded-r-full transition-opacity duration-300"
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -2326,7 +2394,7 @@
               </div>
             </div>
           </section>
-          <section class="py-12 sm:py-16 md:py-24 bg-white overflow-hidden">
+          <section class="py-12 sm:py-16 md:py-24 bg-white overflow-hidden" data-dash-section>
             <div class="container mx-auto px-4">
               <div
                 class="text-center mb-10 sm:mb-14 lg:mb-16"
@@ -2370,25 +2438,15 @@
               >
                 <div class="space-y-3 sm:space-y-4 order-2 lg:order-1">
                   <div
-                    class="relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300 bg-[#F9F5F0] shadow-lg scale-[1.02] border-2 border-[#344F1F]/20"
+                    data-dash="1"
+                    class="dash-card dash-card--active relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
                     style="opacity: 0; transform: translateX(-20px)"
                   >
                     <div class="flex items-start gap-4">
                       <div
-                        class="flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#344F1F] rounded-xl flex items-center justify-center transition-transform duration-300 scale-110"
+                        class="dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#344F1F] rounded-xl flex items-center justify-center transition-transform duration-300"
                       >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-chart-column w-6 h-6 lg:w-7 lg:h-7 text-white"
-                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-column w-6 h-6 lg:w-7 lg:h-7 text-white">
                           <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
                           <path d="M18 17V9"></path>
                           <path d="M13 17V5"></path>
@@ -2396,48 +2454,21 @@
                         </svg>
                       </div>
                       <div class="flex-1">
-                        <h3
-                          class="text-lg sm:text-xl font-bold mb-2 transition-colors duration-300 text-[#344F1F]"
-                        >
-                          Full Dashboard Overview
-                        </h3>
-                        <p
-                          class="text-sm sm:text-base leading-relaxed transition-colors duration-300 text-[#344F1F]/70"
-                        >
-                          Your personal command center with live stats, recent
-                          activity, upcoming interviews, and quick actions - all
-                          at a glance.
-                        </p>
+                        <h3 class="dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">Full Dashboard Overview</h3>
+                        <p class="dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">Your personal command center with live stats, recent activity, upcoming interviews, and quick actions - all at a glance.</p>
                       </div>
                     </div>
-                    <div
-                      class="absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#F4991A] rounded-r-full"
-                      style="opacity: 0"
-                    ></div>
+                    <div class="dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#F4991A] rounded-r-full" style="opacity: 0"></div>
                   </div>
                   <div
-                    class="relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300 bg-white border-2 border-[#F2EAD3] hover:bg-[#F9F5F0] hover:shadow-md"
+                    data-dash="2"
+                    class="dash-card relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
                     style="opacity: 0; transform: translateX(-20px)"
                   >
                     <div class="flex items-start gap-4">
-                      <div
-                        class="flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#F4991A] rounded-xl flex items-center justify-center transition-transform duration-300"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-file-text w-6 h-6 lg:w-7 lg:h-7 text-white"
-                        >
-                          <path
-                            d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
-                          ></path>
+                      <div class="dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#F4991A] rounded-xl flex items-center justify-center transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-6 h-6 lg:w-7 lg:h-7 text-white">
+                          <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
                           <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
                           <path d="M10 9H8"></path>
                           <path d="M16 13H8"></path>
@@ -2445,28 +2476,19 @@
                         </svg>
                       </div>
                       <div class="flex-1">
-                        <h3
-                          class="text-lg sm:text-xl font-bold mb-2 transition-colors duration-300 text-gray-700"
-                        >
-                          Documents &amp; Cover Letters
-                        </h3>
-                        <p
-                          class="text-sm sm:text-base leading-relaxed transition-colors duration-300 text-gray-500"
-                        >
-                          Access every CV and cover letter we create. Download
-                          anytime, review before we send, keep for future use.
-                        </p>
+                        <h3 class="dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">Documents &amp; Cover Letters</h3>
+                        <p class="dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">Access every CV and cover letter we create. Download anytime, review before we send, keep for future use.</p>
                       </div>
                     </div>
+                    <div class="dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#F4991A] rounded-r-full" style="opacity: 0"></div>
                   </div>
                   <div
-                    class="relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300 bg-white border-2 border-[#F2EAD3] hover:bg-[#F9F5F0] hover:shadow-md"
+                    data-dash="3"
+                    class="dash-card relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
                     style="opacity: 0; transform: translateX(-20px)"
                   >
                     <div class="flex items-start gap-4">
-                      <div
-                        class="flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-black rounded-xl flex items-center justify-center transition-transform duration-300"
-                      >
+                      <div class="dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-black rounded-xl flex items-center justify-center transition-transform duration-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -2483,20 +2505,11 @@
                         </svg>
                       </div>
                       <div class="flex-1">
-                        <h3
-                          class="text-lg sm:text-xl font-bold mb-2 transition-colors duration-300 text-gray-700"
-                        >
-                          Direct Counselor Chat
-                        </h3>
-                        <p
-                          class="text-sm sm:text-base leading-relaxed transition-colors duration-300 text-gray-500"
-                        >
-                          Message your dedicated counselor anytime. Get
-                          interview tips, request changes, ask questions. Avg
-                          response: 4 hours.
-                        </p>
+                        <h3 class="dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">Direct Counselor Chat</h3>
+                        <p class="dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">Message your dedicated counselor anytime. Get interview tips, request changes, ask questions. Avg response: 4 hours.</p>
                       </div>
                     </div>
+                    <div class="dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#F4991A] rounded-r-full" style="opacity: 0"></div>
                   </div>
                   <div
                     class="pt-4"
@@ -2525,12 +2538,14 @@
                 </div>
                 <div
                   class="relative min-h-[450px] sm:min-h-[500px] lg:min-h-[580px] flex items-center justify-center order-1 lg:order-2"
+                  id="dash-visuals-container"
                 >
                   <div
                     class="absolute inset-0 bg-gradient-to-br from-[#F9F5F0] to-[#F2EAD3]/50 rounded-3xl -z-10"
                   ></div>
                   <div
-                    class="w-full flex justify-center p-4 lg:p-6"
+                    data-dash-visual="1"
+                    class="dash-visual dash-visual--visible w-full flex justify-center p-4 lg:p-6"
                     style="opacity: 0; transform: translateY(30px) scale(0.95)"
                   >
                     <div
@@ -2822,6 +2837,148 @@
                             </div>
                           </div>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {{-- Visual 2: Documents & Cover Letters --}}
+                  <div data-dash-visual="2" class="dash-visual dash-visual--hidden w-full flex justify-center p-4 lg:p-6">
+                    <div class="bg-white rounded-2xl lg:rounded-3xl shadow-2xl border border-gray-200 overflow-hidden w-full max-w-[500px]">
+                      <div class="bg-[#F4991A] px-4 lg:px-6 py-4 lg:py-5 flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-5 h-5 lg:w-6 lg:h-6 text-white"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                          <div>
+                            <h3 class="text-white font-bold text-base lg:text-lg">Your Documents</h3>
+                            <p class="text-white/70 text-xs">8 files ready</p>
+                          </div>
+                        </div>
+                        <button class="bg-white/20 text-white text-xs px-3 py-1.5 rounded-full font-medium">Download All</button>
+                      </div>
+                      <div class="p-4 lg:p-5 space-y-3">
+                        <div>
+                          <p class="text-xs font-semibold text-[#344F1F]/60 mb-2">YOUR CV</p>
+                          <div class="flex items-center justify-between p-3 lg:p-4 bg-blue-50 rounded-xl border border-blue-100">
+                            <div class="flex items-center gap-3 lg:gap-4">
+                              <div class="w-12 h-14 lg:w-14 lg:h-16 bg-blue-100 rounded-lg flex items-center justify-center border border-blue-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-6 h-6 lg:w-7 lg:h-7 text-blue-600"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                              </div>
+                              <div>
+                                <p class="font-semibold text-[#344F1F] text-sm lg:text-base">German CV - Final</p>
+                                <p class="text-xs text-[#344F1F]/60">Updated Dec 15, 2025</p>
+                                <div class="flex items-center gap-1 mt-1">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-3 h-3 text-[#F4991A] fill-[#F4991A]"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                                  <span class="text-[10px] text-[#344F1F]/60">Expert reviewed</span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="w-10 h-10 lg:w-12 lg:h-12 bg-[#344F1F] rounded-full flex items-center justify-center hover:bg-[#2d4219] transition-colors">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download w-4 h-4 lg:w-5 lg:h-5 text-white"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>
+                            </button>
+                          </div>
+                        </div>
+                        <div>
+                          <p class="text-xs font-semibold text-[#344F1F]/60 mb-2">COVER LETTERS (5)</p>
+                          <div class="space-y-2">
+                            <div class="flex items-center justify-between p-3 bg-[#F9F5F0] rounded-xl border border-[#F2EAD3]">
+                              <div class="flex items-center gap-3">
+                                <div class="w-10 h-12 bg-emerald-100 rounded-lg flex items-center justify-center border border-emerald-200">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-5 h-5 text-emerald-600"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                                </div>
+                                <div>
+                                  <p class="font-semibold text-[#344F1F] text-sm">Siemens AG</p>
+                                  <p class="text-xs text-[#344F1F]/60">IT Specialist &bull; Munich</p>
+                                </div>
+                              </div>
+                              <button class="w-8 h-8 bg-[#344F1F] rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download w-4 h-4 text-white"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>
+                              </button>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-[#F9F5F0] rounded-xl border border-[#F2EAD3]">
+                              <div class="flex items-center gap-3">
+                                <div class="w-10 h-12 bg-emerald-100 rounded-lg flex items-center justify-center border border-emerald-200">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-5 h-5 text-emerald-600"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                                </div>
+                                <div>
+                                  <p class="font-semibold text-[#344F1F] text-sm">BMW Group</p>
+                                  <p class="text-xs text-[#344F1F]/60">Mechatronics &bull; Berlin</p>
+                                </div>
+                              </div>
+                              <button class="w-8 h-8 bg-[#344F1F] rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download w-4 h-4 text-white"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>
+                              </button>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-[#F9F5F0] rounded-xl border border-[#F2EAD3]">
+                              <div class="flex items-center gap-3">
+                                <div class="w-10 h-12 bg-emerald-100 rounded-lg flex items-center justify-center border border-emerald-200">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-5 h-5 text-emerald-600"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                                </div>
+                                <div>
+                                  <p class="font-semibold text-[#344F1F] text-sm">Bosch</p>
+                                  <p class="text-xs text-[#344F1F]/60">Electronics &bull; Stuttgart</p>
+                                </div>
+                              </div>
+                              <button class="w-8 h-8 bg-[#344F1F] rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download w-4 h-4 text-white"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {{-- Visual 3: Counselor Chat --}}
+                  <div data-dash-visual="3" class="dash-visual dash-visual--hidden w-full flex justify-center p-4 lg:p-6">
+                    <div class="bg-white rounded-2xl lg:rounded-3xl shadow-2xl border border-gray-200 overflow-hidden w-full max-w-[500px]">
+                      <div class="bg-black px-4 lg:px-6 py-4 lg:py-5 flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                          <div class="w-10 h-10 bg-[#F4991A] rounded-full flex items-center justify-center text-white font-bold text-sm">AS</div>
+                          <div>
+                            <h3 class="text-white font-bold text-base lg:text-lg">Anna Schmidt</h3>
+                            <div class="flex items-center gap-1.5">
+                              <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                              <p class="text-white/70 text-xs">Your Counselor &bull; Online</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="bg-white/20 text-white text-xs px-3 py-1.5 rounded-full font-medium flex items-center gap-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                          Call
+                        </button>
+                      </div>
+                      <div class="p-4 lg:p-5 space-y-4 bg-[#F9F5F0] min-h-[320px]">
+                        <div class="flex gap-3">
+                          <div class="w-8 h-8 bg-[#F4991A] rounded-full flex items-center justify-center text-white font-bold text-[10px] flex-shrink-0">AS</div>
+                          <div class="bg-white rounded-2xl rounded-tl-sm p-3 shadow-sm max-w-[80%]">
+                            <p class="text-sm text-[#344F1F]">Great news! Siemens confirmed your interview for Dec 20th. I've prepared some tips for you.</p>
+                            <p class="text-[10px] text-[#344F1F]/40 mt-1">10:30 AM</p>
+                          </div>
+                        </div>
+                        <div class="flex gap-3 justify-end">
+                          <div class="bg-[#344F1F] rounded-2xl rounded-tr-sm p-3 shadow-sm max-w-[80%]">
+                            <p class="text-sm text-white">That's amazing! What should I prepare?</p>
+                            <p class="text-[10px] text-white/40 mt-1">10:32 AM</p>
+                          </div>
+                        </div>
+                        <div class="flex gap-3">
+                          <div class="w-8 h-8 bg-[#F4991A] rounded-full flex items-center justify-center text-white font-bold text-[10px] flex-shrink-0">AS</div>
+                          <div class="bg-white rounded-2xl rounded-tl-sm p-3 shadow-sm max-w-[80%]">
+                            <p class="text-sm text-[#344F1F]">I've uploaded an interview prep guide to your Documents section. Focus on: 1) Why Siemens 2) Your technical skills 3) German work culture questions.</p>
+                            <p class="text-[10px] text-[#344F1F]/40 mt-1">10:35 AM</p>
+                          </div>
+                        </div>
+                        <div class="flex gap-3 justify-end">
+                          <div class="bg-[#344F1F] rounded-2xl rounded-tr-sm p-3 shadow-sm max-w-[80%]">
+                            <p class="text-sm text-white">Thank you so much! I'll review it today.</p>
+                            <p class="text-[10px] text-white/40 mt-1">10:36 AM</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="p-3 border-t border-gray-200 bg-white flex items-center gap-2">
+                        <input type="text" placeholder="Type a message..." class="flex-1 bg-[#F9F5F0] rounded-full px-4 py-2.5 text-sm outline-none border border-[#F2EAD3]" disabled>
+                        <button class="w-10 h-10 bg-[#344F1F] rounded-full flex items-center justify-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send w-4 h-4 text-white"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -4146,7 +4303,7 @@
               </div>
             </div>
           </section>
-          <section class="py-16 md:py-24 bg-[#F9F5F0]">
+          <section class="py-16 md:py-24 bg-[#F9F5F0]" id="testimonials-section">
             <div class="container mx-auto px-4">
               <div
                 class="text-center mb-12"
@@ -4182,11 +4339,13 @@
                   journey
                 </p>
               </div>
-              <div class="max-w-6xl mx-auto">
+              <div class="max-w-6xl mx-auto overflow-hidden" id="testimonials-carousel">
                 <div
-                  class="grid md:grid-cols-3 gap-6"
-                  style="opacity: 0; transform: translateX(20px)"
+                  class="flex transition-transform duration-500 ease-in-out carousel-track"
+                  style="opacity: 0; transform: translateX(0)"
                 >
+                  {{-- Page 1 --}}
+                  <div class="w-full flex-shrink-0 grid md:grid-cols-3 gap-6 px-1">
                   <div
                     class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col"
                     style="opacity: 0; transform: translateY(20px)"
@@ -4839,6 +4998,59 @@
                       <p class="text-xs text-[#344F1F]/60 mt-1">Logistics</p>
                     </div>
                   </div>
+                  </div>{{-- Close Page 1 --}}
+
+                  {{-- Page 2 --}}
+                  <div class="w-full flex-shrink-0 grid md:grid-cols-3 gap-6 px-1">
+                    <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
+                      <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">"I was skeptical at first, but they delivered beyond my expectations. 4 interviews in 2 months and I chose the best offer. The counselor was available on WhatsApp whenever I needed help."</p>
+                      <div class="flex gap-1 mb-4">
+                        @for($i=0;$i<5;$i++)<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>@endfor
+                      </div>
+                      <div class="bg-emerald-50 rounded-lg p-3 mb-4">
+                        <div class="flex items-center gap-2 text-emerald-700 text-xs font-medium"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-3 h-3"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span>Applied: Nov 2025 &rarr; Offer: Jan 2026</span></div>
+                        <p class="text-emerald-600 text-sm font-semibold mt-1">Offer in 2 months</p>
+                      </div>
+                      <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                        <div class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">AK</div>
+                        <div class="flex-1"><h4 class="font-semibold text-[#344F1F]">Amir Khan</h4><div class="flex items-center gap-1 text-xs text-[#344F1F]/60"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Pakistan</span></div></div>
+                      </div>
+                      <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg><div><span class="text-sm font-semibold text-[#344F1F]">Mercedes-Benz</span><span class="text-xs text-[#344F1F]/60"> &bull; Stuttgart</span></div></div><p class="text-xs text-[#344F1F]/60 mt-1">Automotive Engineering</p></div>
+                    </div>
+                    <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
+                      <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">"As a nurse looking to switch to healthcare administration, their team found the perfect Ausbildung program for me. They understood the German healthcare system and matched me perfectly."</p>
+                      <div class="flex gap-1 mb-4">
+                        @for($i=0;$i<5;$i++)<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>@endfor
+                      </div>
+                      <div class="bg-emerald-50 rounded-lg p-3 mb-4">
+                        <div class="flex items-center gap-2 text-emerald-700 text-xs font-medium"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-3 h-3"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span>Applied: Jun 2025 &rarr; Offer: Sep 2025</span></div>
+                        <p class="text-emerald-600 text-sm font-semibold mt-1">Offer in 3 months</p>
+                      </div>
+                      <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                        <div class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">LN</div>
+                        <div class="flex-1"><h4 class="font-semibold text-[#344F1F]">Linh Nguyen</h4><div class="flex items-center gap-1 text-xs text-[#344F1F]/60"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Vietnam</span></div></div>
+                      </div>
+                      <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg><div><span class="text-sm font-semibold text-[#344F1F]">Charit&eacute;</span><span class="text-xs text-[#344F1F]/60"> &bull; Berlin</span></div></div><p class="text-xs text-[#344F1F]/60 mt-1">Healthcare</p></div>
+                    </div>
+                    <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
+                      <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">"From Morocco to Munich in 4 months! The team handled everything - applications, interview prep, visa guidance. I couldn't have done it without their German language expertise in the cover letters."</p>
+                      <div class="flex gap-1 mb-4">
+                        @for($i=0;$i<5;$i++)<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>@endfor
+                      </div>
+                      <div class="bg-emerald-50 rounded-lg p-3 mb-4">
+                        <div class="flex items-center gap-2 text-emerald-700 text-xs font-medium"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-3 h-3"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span>Applied: Aug 2025 &rarr; Offer: Dec 2025</span></div>
+                        <p class="text-emerald-600 text-sm font-semibold mt-1">Offer in 4 months</p>
+                      </div>
+                      <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                        <div class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">YB</div>
+                        <div class="flex-1"><h4 class="font-semibold text-[#344F1F]">Youssef Benali</h4><div class="flex items-center gap-1 text-xs text-[#344F1F]/60"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Morocco</span></div></div>
+                      </div>
+                      <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg><div><span class="text-sm font-semibold text-[#344F1F]">Siemens</span><span class="text-xs text-[#344F1F]/60"> &bull; Munich</span></div></div><p class="text-xs text-[#344F1F]/60 mt-1">IT Systems</p></div>
+                    </div>
+                  </div>{{-- Close Page 2 --}}
                 </div>
                 <div class="flex items-center justify-center gap-4 mt-8">
                   <button
@@ -4861,14 +5073,8 @@
                     </svg>
                   </button>
                   <div class="flex gap-2">
-                    <button
-                      class="w-2 h-2 rounded-full transition-all w-6 bg-[#F4991A]"
-                      aria-label="Go to page 1"
-                    ></button
-                    ><button
-                      class="w-2 h-2 rounded-full transition-all bg-[#F2EAD3]"
-                      aria-label="Go to page 2"
-                    ></button>
+                    <button class="carousel-dot h-2 rounded-full transition-all w-6 bg-[#F4991A]" aria-label="Go to page 1"></button>
+                    <button class="carousel-dot h-2 rounded-full transition-all w-2 bg-[#F2EAD3]" aria-label="Go to page 2"></button>
                   </div>
                   <button
                     class="w-10 h-10 rounded-full bg-white border-2 border-[#F2EAD3] flex items-center justify-center hover:bg-[#F9F5F0] transition-colors"
@@ -4928,7 +5134,7 @@
               </div>
             </div>
           </section>
-          <section class="py-16 md:py-24 bg-white">
+          <section class="py-16 md:py-24 bg-white" id="consultation-faq">
             <div class="container mx-auto px-4">
               <div
                 class="text-center mb-12"
@@ -4980,7 +5186,7 @@
                       What if I don&#x27;t get any offers?
                     </h3>
                     <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F4991A] rotate-180"
+                      class="faq-chevron flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F4991A] rotate-180"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -4998,7 +5204,7 @@
                       </svg>
                     </div>
                   </button>
-                  <div class="overflow-hidden" style="height: 0px; opacity: 0">
+                  <div class="faq-content overflow-hidden" style="height: 0px; opacity: 0">
                     <div class="px-5 md:px-6 pb-5 md:pb-6">
                       <p class="text-[#344F1F]/70 leading-relaxed">
                         We extend your validity by 1 intake (6 months) at no
@@ -5010,270 +5216,35 @@
                     </div>
                   </div>
                 </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      How do you apply on my behalf?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
+                @php
+                $faqs = [
+                  ['q' => 'How do you apply on my behalf?', 'a' => 'After you complete your profile, our German HR experts craft native-level CVs and cover letters (Anschreiben) tailored to each employer. We submit directly to companies in our network that actively hire international Ausbildung candidates.'],
+                  ['q' => 'What\'s the process timeline?', 'a' => 'Typical timeline: Week 1 - Profile setup and document creation. Weeks 2-8 - Applications submitted to 30+ companies. Weeks 6-12 - Interview invitations start arriving. Month 3-4 - Offer received. Most students get their first interview within 6 weeks.'],
+                  ['q' => 'Do I need to know German?', 'a' => 'A minimum of A2 level German is recommended, though B1 significantly increases your chances. We help you present your language skills in the best light and can recommend language courses to boost your level while we handle applications.'],
+                  ['q' => 'What happens after I get an offer?', 'a' => 'We guide you through the entire post-offer process: accepting the offer, opening a blocked bank account, gathering visa documents, booking your visa appointment, and preparing for your move to Germany. Full support until you arrive.'],
+                  ['q' => 'Can I choose which companies you apply to?', 'a' => 'Yes! You set your preferences for sector, city, and company size during onboarding. We match you with suitable positions and you can review and approve applications before we send them. You have full visibility in your dashboard.'],
+                  ['q' => 'What\'s included in the advance payment?', 'a' => 'The $300 advance covers: professional CV creation in German format, profile assessment, access to our member dashboard, initial batch of applications, and dedicated counselor assignment. The success fee is only paid when you receive and accept an offer.'],
+                  ['q' => 'When do I pay the success fee?', 'a' => 'The success fee is due only after you receive a confirmed Ausbildung offer from a German employer. No offer means no success fee - we share the risk with you. Payment plans are available for the success fee.'],
+                  ['q' => 'Can I cancel after enrolling?', 'a' => 'You can cancel within 14 days of enrollment for a full refund if no applications have been submitted yet. After applications begin, the advance is non-refundable as work has been completed on your behalf.'],
+                ];
+                @endphp
+                @foreach($faqs as $faq)
+                <article class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30" style="opacity: 0; transform: translateY(20px)">
+                  <button class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left" aria-expanded="false">
+                    <h3 class="text-base md:text-lg font-semibold text-[#344F1F] pr-4">{{ $faq['q'] }}</h3>
+                    <div class="faq-chevron flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]">
                         <path d="m6 9 6 6 6-6"></path>
                       </svg>
                     </div>
                   </button>
-                </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      What&#x27;s the process timeline?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
+                  <div class="faq-content overflow-hidden" style="height: 0px; opacity: 0">
+                    <div class="px-5 md:px-6 pb-5 md:pb-6">
+                      <p class="text-[#344F1F]/70 leading-relaxed">{{ $faq['a'] }}</p>
                     </div>
-                  </button>
+                  </div>
                 </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      Do I need to know German?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </div>
-                  </button>
-                </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      What happens after I get an offer?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </div>
-                  </button>
-                </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      Can I choose which companies you apply to?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </div>
-                  </button>
-                </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      What&#x27;s included in the advance payment?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </div>
-                  </button>
-                </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      When do I pay the success fee?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </div>
-                  </button>
-                </article>
-                <article
-                  class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
-                  style="opacity: 0; transform: translateY(20px)"
-                >
-                  <button
-                    class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
-                    aria-expanded="false"
-                  >
-                    <h3
-                      class="text-base md:text-lg font-semibold text-[#344F1F] pr-4"
-                    >
-                      Can I cancel after enrolling?
-                    </h3>
-                    <div
-                      class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]"
-                      >
-                        <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </div>
-                  </button>
-                </article>
+                @endforeach
               </div>
               <div
                 class="mt-12 text-center"
@@ -5556,4 +5527,173 @@
             </div>
           </section>
         </main>
+
+@push('styles')
+<style>
+  /* === How It Works: Step cards === */
+  .hiw-step { transition: background 300ms ease, box-shadow 300ms ease, transform 300ms ease; }
+  .hiw-step--active { background: #fff !important; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1) !important; transform: scale(1.02) !important; }
+  .hiw-step:not(.hiw-step--active) { background: rgba(255,255,255,0.6) !important; box-shadow: none !important; transform: scale(1) !important; }
+  .hiw-step--active .hiw-badge { background: rgba(244,153,26,0.1) !important; color: #F4991A !important; border: 1px solid rgba(244,153,26,0.2) !important; }
+  .hiw-step:not(.hiw-step--active) .hiw-badge { background: #e5e7eb !important; color: #4b5563 !important; border: none !important; }
+  .hiw-step--active .hiw-title { color: #344F1F !important; }
+  .hiw-step:not(.hiw-step--active) .hiw-title { color: #374151 !important; }
+  .hiw-step--active .hiw-desc { color: rgba(52,79,31,0.7) !important; }
+  .hiw-step:not(.hiw-step--active) .hiw-desc { color: #6b7280 !important; }
+  .hiw-step--active .hiw-indicator { opacity: 1 !important; }
+  .hiw-step:not(.hiw-step--active) .hiw-indicator { opacity: 0 !important; }
+  .hiw-card { transition: opacity 500ms ease, transform 500ms ease; }
+  .hiw-card--visible { opacity: 1 !important; transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(1) !important; }
+  .hiw-card--hidden { opacity: 0 !important; transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(0.85) !important; pointer-events: none; }
+
+  /* === Dashboard: Card hover === */
+  .dash-card { transition: background 300ms ease, box-shadow 300ms ease, transform 300ms ease, border-color 300ms ease; border: 2px solid transparent; }
+  .dash-card--active { background: #F9F5F0 !important; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1) !important; transform: scale(1.02) !important; border-color: rgba(52,79,31,0.2) !important; }
+  .dash-card:not(.dash-card--active) { background: #fff !important; box-shadow: none !important; transform: scale(1) !important; border-color: #F2EAD3 !important; }
+  .dash-card:not(.dash-card--active):hover { background: #F9F5F0 !important; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1) !important; }
+  .dash-card--active .dash-icon { transform: scale(1.1) !important; }
+  .dash-card:not(.dash-card--active) .dash-icon { transform: scale(1) !important; }
+  .dash-card--active .dash-title { color: #344F1F !important; }
+  .dash-card:not(.dash-card--active) .dash-title { color: #374151 !important; }
+  .dash-card--active .dash-desc { color: rgba(52,79,31,0.7) !important; }
+  .dash-card:not(.dash-card--active) .dash-desc { color: #6b7280 !important; }
+  .dash-card--active .dash-indicator { opacity: 1 !important; }
+  .dash-card:not(.dash-card--active) .dash-indicator { opacity: 0 !important; }
+
+  /* Dashboard visual swap */
+  #dash-visuals-container { position: relative; }
+  .dash-visual { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; transition: opacity 400ms ease, transform 400ms ease; padding: 1rem; }
+  .dash-visual--visible { opacity: 1 !important; transform: none !important; z-index: 1; }
+  .dash-visual--hidden { opacity: 0 !important; transform: translateY(10px) !important; pointer-events: none; z-index: 0; }
+
+  /* === FAQ accordion === */
+  .faq-content { transition: height 300ms ease, opacity 300ms ease; }
+</style>
+@endpush
+
+@push('scripts')
+<script>
+(function() {
+  function ready(fn) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
+    else fn();
+  }
+
+  /* === How It Works hover === */
+  ready(function() {
+    var stepsContainer = document.getElementById('how-it-works-steps');
+    if (!stepsContainer) return;
+    var steps = stepsContainer.querySelectorAll('.hiw-step');
+    var cards = document.querySelectorAll('.hiw-card');
+    if (!steps.length) return;
+
+    function setHIW(n) {
+      steps.forEach(function(c) { c.classList.toggle('hiw-step--active', c.getAttribute('data-step') === String(n)); });
+      cards.forEach(function(c) {
+        var match = c.getAttribute('data-hiw-card') === String(n);
+        c.classList.toggle('hiw-card--visible', match);
+        c.classList.toggle('hiw-card--hidden', !match);
+      });
+    }
+    cards.forEach(function(c) { c.classList.add(c.getAttribute('data-hiw-card') === '1' ? 'hiw-card--visible' : 'hiw-card--hidden'); });
+    steps.forEach(function(c) { c.addEventListener('mouseenter', function() { setHIW(c.getAttribute('data-step')); }); });
+  });
+
+  /* === Dashboard hover === */
+  ready(function() {
+    var section = document.querySelector('[data-dash-section]');
+    if (!section) return;
+    var cards = section.querySelectorAll('.dash-card');
+    var visuals = section.querySelectorAll('.dash-visual');
+
+    function setDash(n) {
+      cards.forEach(function(c) { c.classList.toggle('dash-card--active', c.getAttribute('data-dash') === String(n)); });
+      visuals.forEach(function(v) {
+        var match = v.getAttribute('data-dash-visual') === String(n);
+        v.classList.toggle('dash-visual--visible', match);
+        v.classList.toggle('dash-visual--hidden', !match);
+      });
+    }
+    setDash(1);
+    cards.forEach(function(c) { c.addEventListener('mouseenter', function() { setDash(c.getAttribute('data-dash')); }); });
+  });
+
+  /* === FAQ accordion === */
+  ready(function() {
+    var faqSection = document.getElementById('consultation-faq');
+    if (!faqSection) return;
+    var articles = faqSection.querySelectorAll('article');
+
+    articles.forEach(function(article) {
+      var btn = article.querySelector('button');
+      var content = article.querySelector('.faq-content');
+      if (!btn || !content) return;
+
+      btn.addEventListener('click', function() {
+        var isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+        // Close all
+        articles.forEach(function(a) {
+          var b = a.querySelector('button');
+          var c = a.querySelector('.faq-content');
+          var chevron = a.querySelector('.faq-chevron');
+          if (b) b.setAttribute('aria-expanded', 'false');
+          if (c) { c.style.height = '0px'; c.style.opacity = '0'; }
+          a.classList.remove('border-[#F4991A]/50', 'bg-[#F4991A]/5');
+          a.classList.add('border-[#F2EAD3]', 'bg-white');
+          if (chevron) {
+            chevron.classList.remove('rotate-180', 'bg-[#F4991A]');
+            chevron.classList.add('bg-[#F9F5F0]');
+            var svg = chevron.querySelector('svg');
+            if (svg) { svg.classList.remove('text-white'); svg.classList.add('text-[#344F1F]'); }
+          }
+        });
+
+        // Open clicked if was closed
+        if (!isOpen) {
+          btn.setAttribute('aria-expanded', 'true');
+          content.style.height = content.scrollHeight + 'px';
+          content.style.opacity = '1';
+          article.classList.add('border-[#F4991A]/50', 'bg-[#F4991A]/5');
+          article.classList.remove('border-[#F2EAD3]', 'bg-white');
+          var chevron = article.querySelector('.faq-chevron');
+          if (chevron) {
+            chevron.classList.add('rotate-180', 'bg-[#F4991A]');
+            chevron.classList.remove('bg-[#F9F5F0]');
+            var svg = chevron.querySelector('svg');
+            if (svg) { svg.classList.add('text-white'); svg.classList.remove('text-[#344F1F]'); }
+          }
+        }
+      });
+    });
+  });
+
+  /* === Testimonials carousel === */
+  ready(function() {
+    var container = document.getElementById('testimonials-carousel');
+    if (!container) return;
+    var track = container.querySelector('.carousel-track');
+    var prevBtn = container.closest('section').querySelector('[aria-label="Previous testimonials"]');
+    var nextBtn = container.closest('section').querySelector('[aria-label="Next testimonials"]');
+    var dots = container.closest('section').querySelectorAll('.carousel-dot');
+    var currentPage = 0;
+    var totalPages = 2;
+
+    function goToPage(page) {
+      currentPage = page;
+      track.style.transform = 'translateX(-' + (page * 100) + '%)';
+      dots.forEach(function(d, i) {
+        if (i === page) { d.classList.add('w-6', 'bg-[#F4991A]'); d.classList.remove('w-2', 'bg-[#F2EAD3]'); }
+        else { d.classList.remove('w-6', 'bg-[#F4991A]'); d.classList.add('w-2', 'bg-[#F2EAD3]'); }
+      });
+    }
+
+    if (prevBtn) prevBtn.addEventListener('click', function() { goToPage(currentPage > 0 ? currentPage - 1 : totalPages - 1); });
+    if (nextBtn) nextBtn.addEventListener('click', function() { goToPage(currentPage < totalPages - 1 ? currentPage + 1 : 0); });
+    dots.forEach(function(d, i) { d.addEventListener('click', function() { goToPage(i); }); });
+    goToPage(0);
+  });
+})();
+</script>
+@endpush
 @endsection

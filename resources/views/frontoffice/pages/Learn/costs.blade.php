@@ -1283,7 +1283,7 @@
                           >
                             <div class="relative">
                               <img
-                                src="{{ asset('assets/mascot/mascot_pointing_male.webp') }}"
+                                src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
                                 alt="GoAusbildung Mascot"
                                 class="w-56 h-auto object-contain"
                               />

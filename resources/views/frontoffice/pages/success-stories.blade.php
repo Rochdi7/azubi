@@ -1015,7 +1015,7 @@
                                     <div class="grid lg:grid-cols-12 gap-6 items-center">
                                         <div class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                             <div class="relative">
-                                                <img src="mascot/mascot_pointing_male.webp" alt="GoAusbildung Mascot"
+                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}" alt="GoAusbildung Mascot"
                                                     class="w-56 h-auto object-contain" />
                                             </div>
                                         </div>
