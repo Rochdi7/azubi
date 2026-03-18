@@ -1,33 +1,33 @@
 @extends('frontoffice.layouts.app')
 
-@section('title', 'Terms of Service | GoAusbildung')
+@section('title', 'Terms of Service | Azubi')
 
 @section('meta')
     <meta name="description"
-        content="Read our terms of service and understand your rights and responsibilities when using GoAusbildung." />
-    <meta name="keywords" content="GoAusbildung terms,terms of service,user agreement,legal terms" />
+        content="Read our terms of service and understand your rights and responsibilities when using Azubi." />
+    <meta name="keywords" content="Azubi terms,terms of service,user agreement,legal terms" />
     <meta name="pinterest:pinnable" content="true" />
-    <meta name="pinterest:image" content="https://images.goausbildung.com/og-images/default-og.png" />
-    <meta name="linkedin:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+    <meta name="pinterest:image" content="https://images.azubi.ma/og-images/default-og.png" />
+    <meta name="linkedin:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <link rel="canonical" href="{{ route('front.imprint') }}" />
-    <meta property="og:title" content="Terms of Service | GoAusbildung" />
+    <meta property="og:title" content="Terms of Service | Azubi" />
     <meta property="og:description"
-        content="Read our terms of service and understand your rights and responsibilities when using GoAusbildung." />
-    <meta property="og:url" content="https://goausbildung.com/terms" />
-    <meta property="og:site_name" content="GoAusbildung" />
+        content="Read our terms of service and understand your rights and responsibilities when using Azubi." />
+    <meta property="og:url" content="https://azubi.ma/terms" />
+    <meta property="og:site_name" content="Azubi" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+    <meta property="og:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Terms of Service | GoAusbildung" />
+    <meta property="og:image:alt" content="Terms of Service | Azubi" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@goausbildung" />
-    <meta name="twitter:creator" content="@goausbildung" />
-    <meta name="twitter:title" content="Terms of Service | GoAusbildung" />
+    <meta name="twitter:site" content="@Azubi" />
+    <meta name="twitter:creator" content="@Azubi" />
+    <meta name="twitter:title" content="Terms of Service | Azubi" />
     <meta name="twitter:description"
-        content="Read our terms of service and understand your rights and responsibilities when using GoAusbildung." />
-    <meta name="twitter:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+        content="Read our terms of service and understand your rights and responsibilities when using Azubi." />
+    <meta name="twitter:image" content="https://images.azubi.ma/og-images/default-og.png" />
 @endsection
 
 
@@ -57,20 +57,20 @@
                     </p>
                     <h2>1. Agreement to Terms</h2>
                     <p>
-                        By accessing or using GoAusbildung&#x27;s website
-                        (goausbildung.com) and marketplace platform
+                        By accessing or using Azubi&#x27;s website
+                        (azubi.ma) and marketplace platform
                         (&quot;Platform&quot;), you agree to be bound by these Terms
                         of Service (&quot;Terms&quot;). If you disagree with any part
                         of these terms, you may not access our services.
                     </p>
                     <p>
                         These Terms constitute a legally binding agreement between you
-                        and Qogent Global (&quot;we,&quot; &quot;us,&quot;
-                        &quot;our&quot;), the operator of GoAusbildung.
+                        and Azubi (&quot;we,&quot; &quot;us,&quot;
+                        &quot;our&quot;), the operator of Azubi.
                     </p>
                     <h2>2. Platform Description and Purpose</h2>
                     <p>
-                        GoAusbildung operates as a
+                        Azubi operates as a
                         <strong>two-sided marketplace platform</strong> that connects
                         international students with German employers offering
                         Ausbildung (vocational training) opportunities. We provide:
@@ -146,7 +146,7 @@
                     </p>
                     <h3>3.1 What We Do</h3>
                     <p>
-                        GoAusbildung is an <strong>intermediary platform</strong> that
+                        Azubi is an <strong>intermediary platform</strong> that
                         facilitates connections between students and employers. We
                         provide technology and tools to enable job discovery,
                         applications, and communications.
@@ -289,11 +289,11 @@
                     <h2>6. Acceptable Use and Prohibited Activities</h2>
                     <p>
                         This section defines acceptable and unacceptable use of the
-                        GoAusbildung marketplace platform. This Policy is designed to:
+                        Azubi marketplace platform. This Policy is designed to:
                     </p>
                     <ul>
                         <li>
-                            Protect the integrity and security of the GoAusbildung
+                            Protect the integrity and security of the Azubi
                             marketplace
                         </li>
                         <li>Ensure a safe, trustworthy environment for all users</li>
@@ -545,7 +545,7 @@
                     <h4>Impersonation and Deception</h4>
                     <ul>
                         <li>
-                            <strong>Impersonating GoAusbildung staff</strong> or
+                            <strong>Impersonating Azubi staff</strong> or
                             administrators in communications
                         </li>
                         <li>
@@ -554,11 +554,11 @@
                         </li>
                         <li>
                             <strong>Falsely claiming official endorsement</strong> or
-                            partnership with GoAusbildung
+                            partnership with Azubi
                         </li>
                         <li>
                             <strong>Using fake email addresses</strong> that appear to
-                            be from GoAusbildung or employers
+                            be from Azubi or employers
                         </li>
                     </ul>
                     <h3>6.4 Prohibited Data Activities</h3>
@@ -676,7 +676,7 @@
                         </li>
                         <li>
                             <strong>Conducting surveys or research</strong> without
-                            explicit permission from GoAusbildung
+                            explicit permission from Azubi
                         </li>
                     </ul>
                     <h4>Competitive Intelligence</h4>
@@ -896,7 +896,7 @@
                     <p>
                         These Community Guidelines help us maintain a positive,
                         respectful, and productive environment for everyone. By using
-                        GoAusbildung, you&#x27;re joining a community that values
+                        Azubi, you&#x27;re joining a community that values
                         honesty, respect, professionalism, and inclusivity.
                     </p>
                     <h3>7.1 Be Authentic and Honest</h3>
@@ -1173,7 +1173,7 @@
                     </ul>
                     <p>
                         Remember: Building good relationships with employers benefits
-                        you, future applicants, and the entire GoAusbildung community.
+                        you, future applicants, and the entire Azubi community.
                     </p>
                     <h3>7.8 Use Platform Features Properly</h3>
                     <p>
@@ -1433,7 +1433,7 @@
                     <h2>11. Service Fees, Subscriptions, and Payment</h2>
                     <h3>11.1 Free Tier</h3>
                     <p>
-                        GoAusbildung offers a <strong>Free tier</strong> that
+                        Azubi offers a <strong>Free tier</strong> that
                         includes:
                     </p>
                     <ul>
@@ -1459,7 +1459,7 @@
                     </ul>
                     <h3>11.2 Free Platform (All Users)</h3>
                     <p>
-                        All GoAusbildung AI-powered tools and marketplace features are
+                        All Azubi AI-powered tools and marketplace features are
                         <strong>completely free</strong> with no limits. This
                         includes:
                     </p>
@@ -1506,9 +1506,9 @@
                         Violation of fair usage limits may result in temporary feature
                         restrictions or account suspension.
                     </p>
-                    <h3>11.3 GoAusbildung Consultation Package</h3>
+                    <h3>11.3 Azubi Consultation Package</h3>
                     <p>
-                        GoAusbildung offers a <strong>Consultation Package</strong>, a
+                        Azubi offers a <strong>Consultation Package</strong>, a
                         comprehensive done-for-you application service where our
                         experts apply to German Ausbildung positions on your behalf.
                         Current pricing is available on our
@@ -1603,7 +1603,7 @@
                     </ul>
                     <h3>11.4 AI-Generated Content Disclaimers</h3>
                     <p>
-                        GoAusbildung uses artificial intelligence to generate
+                        Azubi uses artificial intelligence to generate
                         application materials, including cover letters, CV
                         enhancements, interview questions, and job recommendations.
                         <strong>By using these features, you acknowledge and agree:</strong>
@@ -1637,7 +1637,7 @@
                     </ul>
                     <h3>11.5 Intelligence Platform Disclaimers</h3>
                     <p>
-                        GoAusbildung provides data-driven intelligence features
+                        Azubi provides data-driven intelligence features
                         including job match scores, response time predictions, sector
                         intelligence, and city market data.
                         <strong>By using these features, you acknowledge:</strong>
@@ -1796,7 +1796,7 @@
                     <p>
                         <strong>IMPORTANT:</strong> No refunds are provided based on
                         job application outcomes, interview results, or employment
-                        decisions. GoAusbildung provides tools and services to support
+                        decisions. Azubi provides tools and services to support
                         your job search, but does not guarantee employment success.
                     </p>
                     <h3>12.6 EU/German Consumer Rights (Widerrufsrecht)</h3>
@@ -1864,7 +1864,7 @@
                     margin-top: 0.5rem;
                   ">
                         <p style="margin-bottom: 0.5rem">
-                            <em>To: GoAusbildung (Qogent Global),
+                            <em>To: Azubi (Azubi),
                                 <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
                                     data-cfemail="82e0ebeeeeebece5c2e5ede3f7f1e0ebeee6f7ece5ace1edef">[email&#160;protected]</a><br />I
                                 hereby give notice that I withdraw from my
@@ -1883,14 +1883,14 @@
                     </p>
                     <ul>
                         <li>Website design, layout, and user interface</li>
-                        <li>GoAusbildung logo, branding, and trademarks</li>
+                        <li>Azubi logo, branding, and trademarks</li>
                         <li>Software, algorithms, and technology</li>
                         <li>Educational content and resources</li>
                         <li>Blog posts, articles, and guides</li>
                         <li>Graphics, images, and multimedia</li>
                     </ul>
                     <p>
-                        are the property of Qogent Global or its licensors and are
+                        are the property of Azubi or its licensors and are
                         protected by copyright, trademark, and other intellectual
                         property laws.
                     </p>
@@ -1978,7 +1978,7 @@
                     <p><strong>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</strong></p>
                     <h3>15.1 No Liability For</h3>
                     <p>
-                        GoAusbildung and its affiliates, directors, officers,
+                        Azubi and its affiliates, directors, officers,
                         employees, and agents shall NOT be liable for:
                     </p>
                     <ul>
@@ -2099,7 +2099,7 @@
                     <h2>17. Indemnification</h2>
                     <p>
                         You agree to indemnify, defend, and hold harmless
-                        GoAusbildung, Qogent Global, and our affiliates, directors,
+                        Azubi, Azubi, and our affiliates, directors,
                         officers, employees, and agents from and against any claims,
                         liabilities, damages, losses, costs, or expenses (including
                         reasonable attorneys&#x27; fees) arising from or related to:
@@ -2184,15 +2184,14 @@
                     <p>
                         These Terms shall be governed by and construed in accordance
                         with the laws of the
-                        <strong>United Arab Emirates (Dubai)</strong>, without regard
+                        <strong>Kingdom of Morocco</strong>, without regard
                         to its conflict of law provisions.
                     </p>
                     <h3>19.2 Jurisdiction</h3>
                     <p>For users outside the European Union:</p>
                     <ul>
                         <li>
-                            Exclusive jurisdiction: Courts of Dubai, United Arab
-                            Emirates
+                            Exclusive jurisdiction: Courts of Morocco
                         </li>
                     </ul>
                     <p>For users within the European Union:</p>
@@ -2205,7 +2204,7 @@
                             Consumer protection disputes: Your local jurisdiction may
                             apply
                         </li>
-                        <li>Other disputes: Courts of Dubai, United Arab Emirates</li>
+                        <li>Other disputes: Courts of Morocco</li>
                     </ul>
                     <h3>19.3 Informal Resolution</h3>
                     <p>
@@ -2253,7 +2252,7 @@
                     <p>
                         These Terms, together with our Privacy Policy, Cookie Policy,
                         Refund Policy, and any other policies referenced herein,
-                        constitute the entire agreement between you and GoAusbildung
+                        constitute the entire agreement between you and Azubi
                         regarding your use of the Platform.
                     </p>
                     <h2>23. No Waiver</h2>
@@ -2317,9 +2316,7 @@
                                 data-cfemail="dcacaeb5aabdbfa59cbbb3bda9afbeb5b0b8a9b2bbf2bfb3b1">[email&#160;protected]</span></a>
                     </p>
                     <p>
-                        <strong>Mailing Address:</strong><br />Qogent Global<br />Onyx
-                        Building, Unit 101-228<br />Al Khabeesi, Dubai 239532<br />United
-                        Arab Emirates
+                        <strong>Mailing Address:</strong><br />Azubi<br />Marrakech<br />Morocco
                     </p>
                     <p>
                         <strong>Response Time:</strong> We aim to respond to all
@@ -2327,14 +2324,14 @@
                     </p>
                     <h2>27. Acknowledgment</h2>
                     <p>
-                        BY USING THE GOAUSBILDUNG PLATFORM, YOU ACKNOWLEDGE THAT YOU
+                        BY USING THE Azubi PLATFORM, YOU ACKNOWLEDGE THAT YOU
                         HAVE READ THESE TERMS OF SERVICE, UNDERSTAND THEM, AND AGREE
                         TO BE BOUND BY THEM.
                     </p>
                     <p>You specifically acknowledge and agree that:</p>
                     <ul>
                         <li>
-                            GoAusbildung is a marketplace platform, not an employer or
+                            Azubi is a marketplace platform, not an employer or
                             recruitment agency
                         </li>
                         <li>

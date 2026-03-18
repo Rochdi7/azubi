@@ -1,19 +1,19 @@
 @extends('frontoffice.layouts.app')
 
-@section('title', 'Success Stories - GoAusbildung | GoAusbildung')
+@section('title', 'Success Stories - Azubi | Azubi')
 
 @section('meta')
     <meta name="description"
         content="Meet our students who turned their dreams into reality. From application to successful Ausbildung placements in Germany." />
-    <meta property="og:title" content="Success Stories - GoAusbildung" />
+    <meta property="og:title" content="Success Stories - Azubi" />
     <meta property="og:description"
         content="Meet our students who turned their dreams into reality. From application to successful Ausbildung placements in Germany." />
-    <meta property="og:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+    <meta property="og:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Success Stories - GoAusbildung" />
+    <meta name="twitter:title" content="Success Stories - Azubi" />
     <meta name="twitter:description"
         content="Meet our students who turned their dreams into reality. From application to successful Ausbildung placements in Germany." />
-    <meta name="twitter:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+    <meta name="twitter:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <link rel="canonical" href="{{ url('/success-stories') }}" />
 @endsection
 
@@ -82,7 +82,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Geevarghese&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Youssef&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Geevarghese
+                                        Youssef
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Deggendorf Institute of Technology (TH Deggendorf)
@@ -138,7 +138,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Daneshwaran&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Amine&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -158,7 +158,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Daneshwaran
+                                        Amine
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Deggendorf Institute of Technology (TH Deggendorf)
@@ -194,7 +194,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Vamshi&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Rachid&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -214,7 +214,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Vamshi
+                                        Rachid
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Deggendorf Institute of Technology (TH Deggendorf)
@@ -251,7 +251,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Deepthi&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Salma&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -271,7 +271,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Deepthi
+                                        Salma
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         RPTU Kaiserslautern
@@ -307,7 +307,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Srinidhi&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Imane&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -327,7 +327,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Srinidhi
+                                        Imane
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Anhalt University of Applied Sciences (Hochschule
@@ -364,7 +364,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Trishul&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Hamza&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -384,7 +384,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Trishul
+                                        Hamza
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Furtwangen University (HS Furtwangen)
@@ -420,7 +420,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Thushar&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Khalid&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -440,7 +440,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Thushar
+                                        Khalid
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         University of Rostock
@@ -476,7 +476,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Divili&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Zineb&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -496,7 +496,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Divili
+                                        Zineb
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         University of Erlangen
@@ -533,7 +533,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Nandhagopal&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Abdellah&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -553,7 +553,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Nandhagopal
+                                        Abdellah
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         University of Rostock
@@ -589,7 +589,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Reminiscere&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Sanae&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -609,7 +609,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Reminiscere
+                                        Sanae
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Osnabruck University
@@ -645,7 +645,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Pavin&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Mouad&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -665,7 +665,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Pavin
+                                        Mouad
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Deggendorf Institute of Technology (TH Deggendorf)
@@ -701,7 +701,7 @@
                                     <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shadow-md">
                                         <div class="absolute inset-0 rounded-full bg-primary p-[3px]">
                                             <div class="w-full h-full bg-background rounded-full p-1">
-                                                <img alt="Dhinesh&#x27;s profile" loading="lazy" decoding="async"
+                                                <img alt="Ayoub&#x27;s profile" loading="lazy" decoding="async"
                                                     data-nimg="fill" class="object-cover rounded-full"
                                                     style="
                                   position: absolute;
@@ -721,7 +721,7 @@
                                 </div>
                                 <div class="p-6 pt-6 pb-6 px-6">
                                     <h3 class="tracking-tight font-semibold text-secondary text-base sm:text-lg">
-                                        Dhinesh
+                                        Ayoub
                                     </h3>
                                     <p class="text-sm leading-relaxed font-medium mt-1">
                                         Deggendorf Institute of Technology (TH Deggendorf)
@@ -1015,8 +1015,8 @@
                                     <div class="grid lg:grid-cols-12 gap-6 items-center">
                                         <div class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                             <div class="relative">
-                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}" alt="GoAusbildung Mascot"
-                                                    class="w-56 h-auto object-contain" />
+                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                                                    alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                             </div>
                                         </div>
                                         <div class="lg:col-span-4 space-y-3">

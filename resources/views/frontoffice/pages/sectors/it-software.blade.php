@@ -1,17 +1,20 @@
 @extends('frontoffice.layouts.app')
 
-@section('title', 'IT & Software Sector | GoAusbildung')
+@section('title', 'IT & Software Sector | Azubi')
 
 @section('meta')
-    <meta name="description" content="Explore IT & Software Ausbildung opportunities in Germany: requirements, salary ranges, and career paths." />
+    <meta name="description"
+        content="Explore IT & Software Ausbildung opportunities in Germany: requirements, salary ranges, and career paths." />
     <link rel="canonical" href="{{ url('/sectors/it-software') }}" />
 @endsection
 
 @section('content')
     <section class="min-h-[70vh] flex items-center justify-center pt-24 pb-16 bg-background">
         <div class="mx-auto w-full max-w-2xl px-4 sm:px-6 lg:px-8 text-center space-y-6">
-            <div class="mx-auto h-20 w-20 rounded-3xl bg-primary/10 border border-primary/20 flex items-center justify-center overflow-hidden">
-                <img src="{{ asset('assets/_next/mascot_itc3c5.jpeg') }}" alt="IT & Software mascot" class="h-16 w-16 object-contain" width="64" height="64" loading="lazy" />
+            <div
+                class="mx-auto h-20 w-20 rounded-3xl bg-primary/10 border border-primary/20 flex items-center justify-center overflow-hidden">
+                <img src="{{ asset('assets/_next/mascot_itc3c5.jpeg') }}" alt="IT & Software mascot"
+                    class="h-16 w-16 object-contain" width="64" height="64" loading="lazy" />
             </div>
             <h1 class="text-3xl md:text-4xl font-bold text-secondary tracking-tight">IT &amp; Software</h1>
             <p class="text-muted-foreground text-lg leading-relaxed">
@@ -30,4 +33,3 @@
         </div>
     </section>
 @endsection
-

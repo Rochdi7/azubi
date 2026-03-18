@@ -43,24 +43,24 @@ $content = preg_replace(
 // Build the Blade template
 $blade = '@extends(\'frontoffice.layouts.app\')
 
-@section(\'title\', \'Ausbildung Housing Germany: €250-450/Month (2026 Guide) | GoAusbildung\')
+@section(\'title\', \'Ausbildung Housing Germany: €250-450/Month (2026 Guide) | Azubi\')
 
 @section(\'meta\')
     <meta name="description" content="Find affordable housing in Germany: WG shared flats (€250-450), student dorms (€200-350), company housing options. City-by-city costs, deposit tips, and how to find rooms." />
     <meta name="keywords" content="ausbildung housing germany,student accommodation germany,wg shared flat germany,student dorm germany,rent germany ausbildung,housing costs germany" />
     <meta property="og:title" content="Ausbildung Housing Germany: €250-450/Month (2026 Guide)" />
     <meta property="og:description" content="Find affordable housing in Germany: WG shared flats (€250-450), student dorms (€200-350), company housing options. City-by-city costs, deposit tips, and how to find rooms." />
-    <meta property="og:url" content="https://goausbildung.com/housing" />
-    <meta property="og:image" content="https://images.goausbildung.com/og-images/housing.png" />
+    <meta property="og:url" content="https://azubi.ma/housing" />
+    <meta property="og:image" content="https://images.azubi.ma/og-images/housing.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Ausbildung Housing Germany: €250-450/Month (2026 Guide)" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@goausbildung" />
-    <meta name="twitter:creator" content="@goausbildung" />
+    <meta name="twitter:site" content="@Azubi" />
+    <meta name="twitter:creator" content="@Azubi" />
     <meta name="twitter:title" content="Ausbildung Housing Germany: €250-450/Month (2026 Guide)" />
     <meta name="twitter:description" content="Find affordable housing in Germany: WG shared flats (€250-450), student dorms (€200-350), company housing options. City-by-city costs, deposit tips, and how to find rooms." />
-    <meta name="twitter:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+    <meta name="twitter:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <link rel="canonical" href="{{ url(\'/housing\') }}" />
 @endsection
 

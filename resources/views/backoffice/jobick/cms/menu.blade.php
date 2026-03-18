@@ -28,7 +28,7 @@
                             <div class="col-xl-6 col-xxl-5 col-lg-4 mb-lg-0 mb-3">
                                 <select class="form-control default-select wide">
                                     <option value="AL">Select Menu</option>
-                                    <option value="WY">India</option>
+                                    <option value="MA">Morocco</option>
                                     <option value="WY">Information</option>
                                     <option value="WY">New Menu</option>
                                     <option value="WY">Page Menu</option>

@@ -220,7 +220,7 @@
                                 <label class="form-label">User</label>
                                 <select class="form-control default-select h-auto wide">
                                     <option value="AL">admin@gmail.com</option>
-                                    <option value="WY">India</option>
+                                    <option value="MA">Morocco</option>
                                     <option value="WY">Information</option>
                                     <option value="WY">New Menu</option>
                                     <option value="WY">Page Menu</option>

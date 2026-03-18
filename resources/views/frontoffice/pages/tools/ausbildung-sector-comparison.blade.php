@@ -1,859 +1,563 @@
 ﻿@extends('frontoffice.layouts.app')
 
-@section('title', 'Ausbildung Sector Comparison Tool 2026 | Compare IT, Healthcare, Engineering & More | GoAusbildung')
+@section('title', 'Ausbildung Sector Comparison Tool 2026 | Compare IT, Healthcare, Engineering & More | Azubi')
 
 @section('meta')
-    <meta name="description" content="Compare 6 Ausbildung sectors in Germany with detailed analysis of salary, job demand, requirements, and career growth.">
-    <meta property="og:title" content="Ausbildung Sector Comparison Tool 2026 | Compare IT, Healthcare, Engineering & More | GoAusbildung">
-    <meta property="og:description" content="Compare 6 Ausbildung sectors in Germany with detailed analysis of salary, job demand, requirements, and career growth.">
+    <meta name="description"
+        content="Compare 6 Ausbildung sectors in Germany with detailed analysis of salary, job demand, requirements, and career growth.">
+    <meta property="og:title"
+        content="Ausbildung Sector Comparison Tool 2026 | Compare IT, Healthcare, Engineering & More | Azubi">
+    <meta property="og:description"
+        content="Compare 6 Ausbildung sectors in Germany with detailed analysis of salary, job demand, requirements, and career growth.">
 @endsection
 
 @section('content')
-                  <div class="space-y-4">
-                    <div>
-                      <label
-                        class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                        for="age"
-                        >Age</label
-                      ><input
-                        type="number"
-                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
-                        id="age"
-                        min="16"
-                        max="45"
-                        value="20"
-                      />
-                    </div>
-                    <div>
-                      <label
-                        class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                        >Education Level</label
-                      >
-                      <div
-                        role="radiogroup"
-                        aria-required="false"
-                        dir="ltr"
-                        class="grid gap-2"
-                        tabindex="-1"
-                        style="outline: none"
-                      >
-                        <div class="flex items-center space-x-2">
-                          <button
-                            type="button"
-                            role="radio"
-                            aria-checked="true"
-                            data-state="checked"
-                            value="high-school"
-                            class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
-                            id="high-school"
-                            tabindex="-1"
-                            data-radix-collection-item=""
-                          >
-                            <span
-                              data-state="checked"
-                              class="flex items-center justify-center"
-                              ><svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="lucide lucide-circle h-2.5 w-2.5 fill-primary text-primary"
-                              >
-                                <circle cx="12" cy="12" r="10"></circle></svg
-                            ></span></button
-                          ><input
-                            type="radio"
-                            aria-hidden="true"
-                            style="
-                              transform: translateX(-100%);
-                              position: absolute;
-                              pointer-events: none;
-                              opacity: 0;
-                              margin: 0;
-                            "
-                            tabindex="-1"
-                            checked=""
-                            value="high-school"
-                          /><label
-                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            for="high-school"
-                            >High School</label
-                          >
-                        </div>
-                        <div class="flex items-center space-x-2">
-                          <button
-                            type="button"
-                            role="radio"
-                            aria-checked="false"
-                            data-state="unchecked"
-                            value="diploma"
-                            class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
-                            id="diploma"
-                            tabindex="-1"
-                            data-radix-collection-item=""
-                          ></button
-                          ><input
-                            type="radio"
-                            aria-hidden="true"
-                            style="
-                              transform: translateX(-100%);
-                              position: absolute;
-                              pointer-events: none;
-                              opacity: 0;
-                              margin: 0;
-                            "
-                            tabindex="-1"
-                            value="diploma"
-                          /><label
-                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            for="diploma"
-                            >Diploma</label
-                          >
-                        </div>
-                        <div class="flex items-center space-x-2">
-                          <button
-                            type="button"
-                            role="radio"
-                            aria-checked="false"
-                            data-state="unchecked"
-                            value="bachelors"
-                            class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
-                            id="bachelors"
-                            tabindex="-1"
-                            data-radix-collection-item=""
-                          ></button
-                          ><input
-                            type="radio"
-                            aria-hidden="true"
-                            style="
-                              transform: translateX(-100%);
-                              position: absolute;
-                              pointer-events: none;
-                              opacity: 0;
-                              margin: 0;
-                            "
-                            tabindex="-1"
-                            value="bachelors"
-                          /><label
-                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            for="bachelors"
-                            >Bachelor&#x27;s Degree</label
-                          >
-                        </div>
-                        <div class="flex items-center space-x-2">
-                          <button
-                            type="button"
-                            role="radio"
-                            aria-checked="false"
-                            data-state="unchecked"
-                            value="working-professional"
-                            class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
-                            id="working-professional"
-                            tabindex="-1"
-                            data-radix-collection-item=""
-                          ></button
-                          ><input
-                            type="radio"
-                            aria-hidden="true"
-                            style="
-                              transform: translateX(-100%);
-                              position: absolute;
-                              pointer-events: none;
-                              opacity: 0;
-                              margin: 0;
-                            "
-                            tabindex="-1"
-                            value="working-professional"
-                          /><label
-                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            for="working-professional"
-                            >Working Professional</label
-                          >
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <label
-                        class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                        >German Language Level</label
-                      ><button
-                        type="button"
-                        role="combobox"
-                        aria-controls="radix-«Rjj33peslb»"
-                        aria-expanded="false"
-                        aria-autocomplete="none"
-                        dir="ltr"
-                        data-state="closed"
-                        class="flex h-12 w-full items-center justify-between rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1"
-                      >
-                        <span style="pointer-events: none"></span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                          aria-hidden="true"
-                        >
-                          <path d="m6 9 6 6 6-6"></path>
-                        </svg></button
-                      ><select
-                        aria-hidden="true"
-                        tabindex="-1"
+    <div class="space-y-4">
+        <div>
+            <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="age">Age</label><input type="number"
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+                id="age" min="16" max="45" value="20" />
+        </div>
+        <div>
+            <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Education
+                Level</label>
+            <div role="radiogroup" aria-required="false" dir="ltr" class="grid gap-2" tabindex="-1"
+                style="outline: none">
+                <div class="flex items-center space-x-2">
+                    <button type="button" role="radio" aria-checked="true" data-state="checked" value="high-school"
+                        class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
+                        id="high-school" tabindex="-1" data-radix-collection-item="">
+                        <span data-state="checked" class="flex items-center justify-center"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-circle h-2.5 w-2.5 fill-primary text-primary">
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </svg></span></button><input type="radio" aria-hidden="true"
                         style="
-                          position: absolute;
-                          border: 0;
-                          width: 1px;
-                          height: 1px;
-                          padding: 0;
-                          margin: -1px;
-                          overflow: hidden;
-                          clip: rect(0, 0, 0, 0);
-                          white-space: nowrap;
-                          word-wrap: normal;
-                        "
-                      ></select>
-                    </div>
-                    <div>
-                      <label
+                              transform: translateX(-100%);
+                              position: absolute;
+                              pointer-events: none;
+                              opacity: 0;
+                              margin: 0;
+                            "
+                        tabindex="-1" checked="" value="high-school" /><label
                         class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                        >Work Experience</label
-                      ><button
-                        type="button"
-                        role="combobox"
-                        aria-controls="radix-«Rkj33peslb»"
-                        aria-expanded="false"
-                        aria-autocomplete="none"
-                        dir="ltr"
-                        data-state="closed"
-                        class="flex h-12 w-full items-center justify-between rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1"
-                      >
-                        <span style="pointer-events: none"></span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground"
-                          aria-hidden="true"
-                        >
-                          <path d="m6 9 6 6 6-6"></path>
-                        </svg></button
-                      ><select
-                        aria-hidden="true"
-                        tabindex="-1"
-                        style="
-                          position: absolute;
-                          border: 0;
-                          width: 1px;
-                          height: 1px;
-                          padding: 0;
-                          margin: -1px;
-                          overflow: hidden;
-                          clip: rect(0, 0, 0, 0);
-                          white-space: nowrap;
-                          word-wrap: normal;
-                        "
-                      ></select>
-                    </div>
-                  </div>
-                  <div class="mt-6 flex justify-end">
-                    <button
-                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3"
-                    >
-                      Next
-                    </button>
-                  </div>
+                        for="high-school">High School</label>
                 </div>
-              </section>
-              <div class="mt-8 mb-8 space-y-6">
-                <div class="bg-beige border-2 border-border rounded-2xl p-6">
-                  <div class="flex items-start gap-4">
-                    <div class="p-3 bg-orange rounded-xl flex-shrink-0">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-info h-6 w-6 text-white"
-                      >
+                <div class="flex items-center space-x-2">
+                    <button type="button" role="radio" aria-checked="false" data-state="unchecked" value="diploma"
+                        class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
+                        id="diploma" tabindex="-1" data-radix-collection-item=""></button><input type="radio"
+                        aria-hidden="true"
+                        style="
+                              transform: translateX(-100%);
+                              position: absolute;
+                              pointer-events: none;
+                              opacity: 0;
+                              margin: 0;
+                            "
+                        tabindex="-1" value="diploma" /><label
+                        class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        for="diploma">Diploma</label>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button type="button" role="radio" aria-checked="false" data-state="unchecked" value="bachelors"
+                        class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
+                        id="bachelors" tabindex="-1" data-radix-collection-item=""></button><input type="radio"
+                        aria-hidden="true"
+                        style="
+                              transform: translateX(-100%);
+                              position: absolute;
+                              pointer-events: none;
+                              opacity: 0;
+                              margin: 0;
+                            "
+                        tabindex="-1" value="bachelors" /><label
+                        class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        for="bachelors">Bachelor&#x27;s Degree</label>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button type="button" role="radio" aria-checked="false" data-state="unchecked"
+                        value="working-professional"
+                        class="aspect-square h-5 w-5 rounded-full border-2 border-primary text-primary ring-offset-background transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary hover:bg-orange-light/20"
+                        id="working-professional" tabindex="-1" data-radix-collection-item=""></button><input
+                        type="radio" aria-hidden="true"
+                        style="
+                              transform: translateX(-100%);
+                              position: absolute;
+                              pointer-events: none;
+                              opacity: 0;
+                              margin: 0;
+                            "
+                        tabindex="-1" value="working-professional" /><label
+                        class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        for="working-professional">Working Professional</label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">German
+                Language Level</label><button type="button" role="combobox" aria-controls="radix-«Rjj33peslb»"
+                aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed"
+                class="flex h-12 w-full items-center justify-between rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1">
+                <span style="pointer-events: none"></span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground" aria-hidden="true">
+                    <path d="m6 9 6 6 6-6"></path>
+                </svg></button><select aria-hidden="true" tabindex="-1"
+                style="
+                          position: absolute;
+                          border: 0;
+                          width: 1px;
+                          height: 1px;
+                          padding: 0;
+                          margin: -1px;
+                          overflow: hidden;
+                          clip: rect(0, 0, 0, 0);
+                          white-space: nowrap;
+                          word-wrap: normal;
+                        "></select>
+        </div>
+        <div>
+            <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Work
+                Experience</label><button type="button" role="combobox" aria-controls="radix-«Rkj33peslb»"
+                aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed"
+                class="flex h-12 w-full items-center justify-between rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1">
+                <span style="pointer-events: none"></span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-chevron-down h-4 w-4 text-muted-foreground" aria-hidden="true">
+                    <path d="m6 9 6 6 6-6"></path>
+                </svg></button><select aria-hidden="true" tabindex="-1"
+                style="
+                          position: absolute;
+                          border: 0;
+                          width: 1px;
+                          height: 1px;
+                          padding: 0;
+                          margin: -1px;
+                          overflow: hidden;
+                          clip: rect(0, 0, 0, 0);
+                          white-space: nowrap;
+                          word-wrap: normal;
+                        "></select>
+        </div>
+    </div>
+    <div class="mt-6 flex justify-end">
+        <button
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3">
+            Next
+        </button>
+    </div>
+    </div>
+    </section>
+    <div class="mt-8 mb-8 space-y-6">
+        <div class="bg-beige border-2 border-border rounded-2xl p-6">
+            <div class="flex items-start gap-4">
+                <div class="p-3 bg-orange rounded-xl flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-info h-6 w-6 text-white">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M12 16v-4"></path>
                         <path d="M12 8h.01"></path>
-                      </svg>
-                    </div>
-                    <div class="flex-1">
-                      <h2 class="text-2xl font-bold text-green mb-2">
+                    </svg>
+                </div>
+                <div class="flex-1">
+                    <h2 class="text-2xl font-bold text-green mb-2">
                         How to Use the Sector Comparison Tool
-                      </h2>
-                      <p class="text-green/70">
+                    </h2>
+                    <p class="text-green/70">
                         Find the best Ausbildung sector match based on your
                         skills, interests, and career goals. Get personalized
                         recommendations.
-                      </p>
-                    </div>
-                  </div>
+                    </p>
                 </div>
-                <div class="bg-cream border-2 border-beige rounded-2xl p-6">
-                  <h3 class="text-xl font-bold text-green mb-6">
-                    How It Works
-                  </h3>
-                  <div class="grid gap-4">
-                    <div
-                      class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200"
-                    >
-                      <div class="flex items-start gap-4">
+            </div>
+        </div>
+        <div class="bg-cream border-2 border-beige rounded-2xl p-6">
+            <h3 class="text-xl font-bold text-green mb-6">
+                How It Works
+            </h3>
+            <div class="grid gap-4">
+                <div
+                    class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200">
+                    <div class="flex items-start gap-4">
                         <div
-                          class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0"
-                        >
-                          1
+                            class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
+                            1
                         </div>
                         <div class="flex-1">
-                          <h4 class="font-bold text-green text-lg mb-2">
-                            Answer Profile Questions
-                          </h4>
-                          <p class="text-green/70 leading-relaxed">
-                            Provide your educational background, language level,
-                            work experience, and personal preferences across
-                            three simple steps.
-                          </p>
+                            <h4 class="font-bold text-green text-lg mb-2">
+                                Answer Profile Questions
+                            </h4>
+                            <p class="text-green/70 leading-relaxed">
+                                Provide your educational background, language level,
+                                work experience, and personal preferences across
+                                three simple steps.
+                            </p>
                         </div>
                         <div class="hidden lg:flex items-center">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="lucide lucide-arrow-right w-5 h-5 text-orange/50"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="m12 5 7 7-7 7"></path>
-                          </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-orange/50">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
                         </div>
-                      </div>
                     </div>
-                    <div
-                      class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200"
-                    >
-                      <div class="flex items-start gap-4">
-                        <div
-                          class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0"
-                        >
-                          2
-                        </div>
-                        <div class="flex-1">
-                          <h4 class="font-bold text-green text-lg mb-2">
-                            Review Sector Matches
-                          </h4>
-                          <p class="text-green/70 leading-relaxed">
-                            Get ranked sector recommendations with detailed
-                            match scores based on your profile and German labor
-                            market demand.
-                          </p>
-                        </div>
-                        <div class="hidden lg:flex items-center">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="lucide lucide-arrow-right w-5 h-5 text-orange/50"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="m12 5 7 7-7 7"></path>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200"
-                    >
-                      <div class="flex items-start gap-4">
-                        <div
-                          class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0"
-                        >
-                          3
-                        </div>
-                        <div class="flex-1">
-                          <h4 class="font-bold text-green text-lg mb-2">
-                            Get Career Insights
-                          </h4>
-                          <p class="text-green/70 leading-relaxed">
-                            Explore salary expectations, career growth
-                            potential, and personalized career guidance for your
-                            top matches.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid lg:grid-cols-2 gap-6">
-                  <div class="bg-cream border-2 border-beige rounded-2xl p-6">
-                    <div class="flex items-center gap-3 mb-6">
-                      <div class="p-2 bg-orange rounded-lg">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-info w-5 h-5 text-white"
-                        >
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 16v-4"></path>
-                          <path d="M12 8h.01"></path>
-                        </svg>
-                      </div>
-                      <h3 class="text-xl font-bold text-green">
-                        What You Provide
-                      </h3>
-                    </div>
-                    <div class="space-y-4">
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-graduation-cap w-5 h-5 text-orange"
-                            >
-                              <path
-                                d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
-                              ></path>
-                              <path d="M22 10v6"></path>
-                              <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Education Level
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              High School, Diploma, Bachelor&#x27;s, or Working
-                              Professional
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-briefcase w-5 h-5 text-orange"
-                            >
-                              <path
-                                d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
-                              ></path>
-                              <rect
-                                width="20"
-                                height="14"
-                                x="2"
-                                y="6"
-                                rx="2"
-                              ></rect>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Work Experience
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              None to 5+ years of relevant experience
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-award w-5 h-5 text-orange"
-                            >
-                              <path
-                                d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
-                              ></path>
-                              <circle cx="12" cy="8" r="6"></circle>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Technical Skills
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Low, Medium, or High technical aptitude and
-                              interest
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-users w-5 h-5 text-orange"
-                            >
-                              <path
-                                d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
-                              ></path>
-                              <circle cx="9" cy="7" r="4"></circle>
-                              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              People Interaction
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Preference for working independently vs. with
-                              people
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-target w-5 h-5 text-orange"
-                            >
-                              <circle cx="12" cy="12" r="10"></circle>
-                              <circle cx="12" cy="12" r="6"></circle>
-                              <circle cx="12" cy="12" r="2"></circle>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Career Goals
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Priorities for salary, job security, work-life
-                              balance, and growth
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="bg-cream border-2 border-beige rounded-2xl p-6">
-                    <div class="flex items-center gap-3 mb-6">
-                      <div class="p-2 bg-green rounded-lg">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-info w-5 h-5 text-white"
-                        >
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <path d="M12 16v-4"></path>
-                          <path d="M12 8h.01"></path>
-                        </svg>
-                      </div>
-                      <h3 class="text-xl font-bold text-green">What You Get</h3>
-                    </div>
-                    <div class="space-y-4">
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-target w-5 h-5 text-green"
-                            >
-                              <circle cx="12" cy="12" r="10"></circle>
-                              <circle cx="12" cy="12" r="6"></circle>
-                              <circle cx="12" cy="12" r="2"></circle>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Top Sector Matches
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Ranked list of best-fit Ausbildung sectors for
-                              your profile
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-chart-no-axes-column-increasing w-5 h-5 text-green"
-                            >
-                              <line x1="12" x2="12" y1="20" y2="10"></line>
-                              <line x1="18" x2="18" y1="20" y2="4"></line>
-                              <line x1="6" x2="6" y1="20" y2="16"></line>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Match Scores
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Detailed scoring across demand, salary, growth,
-                              and work-life balance
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-euro w-5 h-5 text-green"
-                            >
-                              <path d="M4 10h12"></path>
-                              <path d="M4 14h9"></path>
-                              <path
-                                d="M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"
-                              ></path>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Salary Expectations
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Expected salary ranges for each recommended sector
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-trending-up w-5 h-5 text-green"
-                            >
-                              <polyline
-                                points="22 7 13.5 15.5 8.5 10.5 2 17"
-                              ></polyline>
-                              <polyline points="16 7 22 7 22 13"></polyline>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Career Growth
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Long-term career advancement potential in each
-                              sector
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200"
-                      >
-                        <div class="flex items-start gap-3">
-                          <div class="p-2 bg-beige rounded-lg flex-shrink-0">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-circle-check-big w-5 h-5 text-green"
-                            >
-                              <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
-                              <path d="m9 11 3 3L22 4"></path>
-                            </svg>
-                          </div>
-                          <div class="flex-1">
-                            <h4 class="font-bold text-green mb-1">
-                              Action Steps
-                            </h4>
-                            <p class="text-sm text-green/70">
-                              Personalized next steps to pursue your top sector
-                              matches
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div
-                  class="bg-orange/10 border-2 border-orange/20 rounded-2xl p-5"
-                >
-                  <div class="flex items-start gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-info w-5 h-5 text-orange flex-shrink-0 mt-0.5"
-                    >
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <path d="M12 16v-4"></path>
-                      <path d="M12 8h.01"></path>
-                    </svg>
-                    <p class="text-green/80 leading-relaxed">
-                      Sector matching uses a weighted algorithm considering your
-                      profile, German labor market demand, and sector-specific
-                      requirements for 2026.
-                    </p>
-                  </div>
+                    class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
+                            2
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-green text-lg mb-2">
+                                Review Sector Matches
+                            </h4>
+                            <p class="text-green/70 leading-relaxed">
+                                Get ranked sector recommendations with detailed
+                                match scores based on your profile and German labor
+                                market demand.
+                            </p>
+                        </div>
+                        <div class="hidden lg:flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-orange/50">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="container mx-auto px-4 lg:px-6 my-16">
-                <section
-                  class="relative py-16 md:py-20 rounded-2xl overflow-hidden shadow-lg"
-                >
-                  <img
-                    alt="Background"
-                    loading="lazy"
-                    decoding="async"
-                    data-nimg="fill"
-                    class="object-cover object-center rounded-2xl"
-                    style="
+                <div
+                    class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
+                            3
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-green text-lg mb-2">
+                                Get Career Insights
+                            </h4>
+                            <p class="text-green/70 leading-relaxed">
+                                Explore salary expectations, career growth
+                                potential, and personalized career guidance for your
+                                top matches.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-6">
+            <div class="bg-cream border-2 border-beige rounded-2xl p-6">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="p-2 bg-orange rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="lucide lucide-info w-5 h-5 text-white">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 16v-4"></path>
+                            <path d="M12 8h.01"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-green">
+                        What You Provide
+                    </h3>
+                </div>
+                <div class="space-y-4">
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-graduation-cap w-5 h-5 text-orange">
+                                    <path
+                                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                                    </path>
+                                    <path d="M22 10v6"></path>
+                                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Education Level
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    High School, Diploma, Bachelor&#x27;s, or Working
+                                    Professional
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-briefcase w-5 h-5 text-orange">
+                                    <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Work Experience
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    None to 5+ years of relevant experience
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-award w-5 h-5 text-orange">
+                                    <path
+                                        d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                    </path>
+                                    <circle cx="12" cy="8" r="6"></circle>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Technical Skills
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Low, Medium, or High technical aptitude and
+                                    interest
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-users w-5 h-5 text-orange">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    People Interaction
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Preference for working independently vs. with
+                                    people
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-target w-5 h-5 text-orange">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <circle cx="12" cy="12" r="6"></circle>
+                                    <circle cx="12" cy="12" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Career Goals
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Priorities for salary, job security, work-life
+                                    balance, and growth
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-cream border-2 border-beige rounded-2xl p-6">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="p-2 bg-green rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="lucide lucide-info w-5 h-5 text-white">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 16v-4"></path>
+                            <path d="M12 8h.01"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-green">What You Get</h3>
+                </div>
+                <div class="space-y-4">
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-target w-5 h-5 text-green">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <circle cx="12" cy="12" r="6"></circle>
+                                    <circle cx="12" cy="12" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Top Sector Matches
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Ranked list of best-fit Ausbildung sectors for
+                                    your profile
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-chart-no-axes-column-increasing w-5 h-5 text-green">
+                                    <line x1="12" x2="12" y1="20" y2="10"></line>
+                                    <line x1="18" x2="18" y1="20" y2="4"></line>
+                                    <line x1="6" x2="6" y1="20" y2="16"></line>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Match Scores
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Detailed scoring across demand, salary, growth,
+                                    and work-life balance
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-euro w-5 h-5 text-green">
+                                    <path d="M4 10h12"></path>
+                                    <path d="M4 14h9"></path>
+                                    <path
+                                        d="M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Salary Expectations
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Expected salary ranges for each recommended sector
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-trending-up w-5 h-5 text-green">
+                                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                                    <polyline points="16 7 22 7 22 13"></polyline>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Career Growth
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Long-term career advancement potential in each
+                                    sector
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-circle-check-big w-5 h-5 text-green">
+                                    <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                    <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-green mb-1">
+                                    Action Steps
+                                </h4>
+                                <p class="text-sm text-green/70">
+                                    Personalized next steps to pursue your top sector
+                                    matches
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-orange/10 border-2 border-orange/20 rounded-2xl p-5">
+            <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="lucide lucide-info w-5 h-5 text-orange flex-shrink-0 mt-0.5">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 16v-4"></path>
+                    <path d="M12 8h.01"></path>
+                </svg>
+                <p class="text-green/80 leading-relaxed">
+                    Sector matching uses a weighted algorithm considering your
+                    profile, German labor market demand, and sector-specific
+                    requirements for 2026.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto px-4 lg:px-6 my-16">
+        <section class="relative py-16 md:py-20 rounded-2xl overflow-hidden shadow-lg">
+            <img alt="Background" loading="lazy" decoding="async" data-nimg="fill"
+                class="object-cover object-center rounded-2xl"
+                style="
                       position: absolute;
                       height: 100%;
                       width: 100%;
@@ -863,16 +567,11 @@
                       bottom: 0;
                       color: transparent;
                     "
-                    sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    
-                    src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}"
-                  />
-                  <div
-                    class="absolute inset-0 bg-black/30 z-0 rounded-2xl"
-                  ></div>
-                  <div
-                    class="absolute inset-0 z-[1] rounded-2xl"
-                    style="
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
+                src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
+            <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
+            <div class="absolute inset-0 z-[1] rounded-2xl"
+                style="
                       background:
                         radial-gradient(
                           ellipse at center,
@@ -895,79 +594,49 @@
                           rgba(0, 0, 0, 0.3) 0%,
                           transparent 15%
                         );
-                    "
-                  ></div>
-                  <div
-                    class="relative z-10 mx-auto flex max-w-container gap-8 px-6 sm:gap-10 md:px-12 flex-col items-center text-center"
-                  >
-                    <div class="flex flex-col gap-8 items-center text-center">
-                      <h2
-                        class="tracking-tight font-bold text-2xl sm:text-3xl text-white text-center"
-                      >
+                    ">
+            </div>
+            <div
+                class="relative z-10 mx-auto flex max-w-container gap-8 px-6 sm:gap-10 md:px-12 flex-col items-center text-center">
+                <div class="flex flex-col gap-8 items-center text-center">
+                    <h2 class="tracking-tight font-bold text-2xl sm:text-3xl text-white text-center">
                         Find Your Perfect Sector Match
-                      </h2>
-                      <p
-                        class="text-base text-white/90 leading-relaxed max-w-2xl text-center"
-                      >
+                    </h2>
+                    <p class="text-base text-white/90 leading-relaxed max-w-2xl text-center">
                         Discover live Ausbildung positions in sectors that align
                         with your skills and interests. Browse opportunities
                         from verified German employers.
-                      </p>
-                      <div class="flex flex-col sm:flex-row items-center gap-3">
-                        <a
-                          href="{{ route('front.jobs') }}"
-                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
-                          >Browse Jobs</a
-                        ><a
-                          href="#top"
-                          class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300"
-                          >Compare Sectors</a
-                        >
-                      </div>
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center gap-3">
+                        <a href="{{ route('front.jobs') }}"
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
+                            Jobs</a><a href="#top"
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Compare
+                            Sectors</a>
                     </div>
-                  </div>
-                </section>
-              </div>
-              <section
-                class="bg-card border border-border rounded-lg p-6 md:p-8"
-              >
-                <h3
-                  class="tracking-tight font-semibold text-base sm:text-lg text-secondary mb-6"
-                >
-                  Frequently Asked Questions
-                </h3>
-                <div class="space-y-4">
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >What is the difference between Ausbildung sectors in
-                        Germany?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="bg-card border border-border rounded-lg p-6 md:p-8">
+        <h3 class="tracking-tight font-semibold text-base sm:text-lg text-secondary mb-6">
+            Frequently Asked Questions
+        </h3>
+        <div class="space-y-4">
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">What is the difference between Ausbildung sectors in
+                        Germany?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Ausbildung sectors in Germany represent different
                         vocational training pathways, each with unique
                         characteristics, requirements, and career outcomes. The
@@ -1003,40 +672,23 @@
                         annual openings. These roles offer moderate salaries
                         (€2,400-2,900) and complete geographic flexibility
                         across Germany.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Which Ausbildung sector has the highest salary
-                        potential?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Which Ausbildung sector has the highest salary
+                        potential?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         IT &amp; Software Development offers the highest
                         long-term salary potential among all Ausbildung sectors
                         in Germany. Here&#x27;s the comprehensive breakdown:
@@ -1070,40 +722,23 @@
                         score) make it financially competitive when considering
                         lifetime career stability. Engineering offers the best
                         balance of immediate high earnings and job security.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Which sectors are most in-demand in Germany for
-                        2026?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Which sectors are most in-demand in Germany for
+                        2026?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Based on 2026 labor market projections, demand varies
                         significantly across Ausbildung sectors: **Highest
                         Demand - Healthcare &amp; Nursing (98% demand score,
@@ -1149,40 +784,23 @@
                         stability. For long-term career growth, IT provides the
                         best combination of demand, salary potential, and
                         future-proofing.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Can I switch between Ausbildung sectors after starting
-                        training?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Can I switch between Ausbildung sectors after starting
+                        training?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Yes, sector switching is possible but involves
                         significant considerations and proper planning: **Within
                         First 6 Months (Probation Period):** Most Ausbildung
@@ -1228,40 +846,23 @@
                         understand credit transfer options and ensure a smooth
                         transition. Speak with your current employer first -
                         some may accommodate internal sector transfers.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Do I need perfect German for all Ausbildung
-                        sectors?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Do I need perfect German for all Ausbildung
+                        sectors?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         No, German language requirements vary significantly by
                         sector, and &quot;perfect&quot; German (C2 level) is
                         never required for Ausbildung. Here&#x27;s the detailed
@@ -1326,40 +927,23 @@
                         to also research sectors and companies. By application
                         time, you&#x27;ll have both required language skills and
                         clear career direction.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Which Ausbildung sector is best for international
-                        students?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Which Ausbildung sector is best for international
+                        students?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         The &quot;best&quot; sector depends on your profile, but
                         IT &amp; Software Development and Healthcare &amp;
                         Nursing are generally most favorable for international
@@ -1429,40 +1013,23 @@
                         most international students. If you&#x27;re passionate
                         about helping others and don&#x27;t mind physical work,
                         Healthcare offers unmatched security and fulfillment.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >What if I&#x27;m not sure about my skills or
-                        interests?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">What if I&#x27;m not sure about my skills or
+                        interests?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Uncertainty about skills and interests is completely
                         normal - most applicants share this concern. Here&#x27;s
                         a structured approach to gain clarity: **Immediate
@@ -1568,40 +1135,23 @@
                         months for structured exploration, then commit to a
                         choice and give it genuine effort. You can always pivot
                         later with new knowledge.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >How long does Ausbildung training take in each
-                        sector?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">How long does Ausbildung training take in each
+                        sector?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Ausbildung duration varies by sector, with training
                         ranging from 3 to 3.5 years. Here&#x27;s the complete
                         breakdown including what happens during each phase:
@@ -1712,40 +1262,23 @@
                         experience, and receiving job offers before graduation -
                         advantages that offset the longer duration
                         significantly.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Which Ausbildung sectors have the best work-life
-                        balance?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Which Ausbildung sectors have the best work-life
+                        balance?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Work-life balance varies dramatically across Ausbildung
                         sectors, with scores ranging from 50/100 to 85/100.
                         Here&#x27;s the comprehensive ranking with realistic
@@ -1880,40 +1413,23 @@
                         schedules, prepare mentally and build a support system.
                         Engineering and Logistics offer middle ground - some
                         schedule challenges but manageable with planning.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Are some Ausbildung sectors more future-proof than
-                        others?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Are some Ausbildung sectors more future-proof than
+                        others?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Yes, future-proofing varies dramatically across sectors,
                         ranging from 60/100 to 99/100. This assessment considers
                         automation risk, long-term demand trends, and adaptation
@@ -2061,40 +1577,23 @@
                         Hospitality workers should aim for unique expertise or
                         entrepreneurship (own restaurant/hotel) for long-term
                         security.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Can I do Ausbildung if I&#x27;m over 25 years
-                        old?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Can I do Ausbildung if I&#x27;m over 25 years
+                        old?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Yes, absolutely! There&#x27;s no legal age limit for
                         Ausbildung in Germany, and 25+ applicants are
                         increasingly common. However, practical considerations
@@ -2243,39 +1742,23 @@
                         completion rates and better job placement than average
                         18-year-olds, so companies should see your age as asset,
                         not liability.
-                      </div>
                     </div>
-                  </div>
-                  <div
-                    class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200"
-                  >
-                    <button
-                      class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
-                      aria-expanded="false"
-                    >
-                      <span class="font-semibold text-foreground pr-4"
-                        >Which sector has the most job openings right now?</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200"
-                      >
+                </div>
+            </div>
+            <div class="border border-border rounded-lg overflow-hidden bg-background transition-all duration-200">
+                <button
+                    class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
+                    aria-expanded="false">
+                    <span class="font-semibold text-foreground pr-4">Which sector has the most job openings right
+                        now?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
-                      </svg>
-                    </button>
-                    <div
-                      class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0"
-                    >
-                      <div
-                        class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed"
-                      >
+                    </svg>
+                </button>
+                <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                    <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         As of 2026, job openings vary dramatically by sector,
                         with Healthcare dominating at 50,000 annual openings -
                         more than double any other sector. Here&#x27;s the
@@ -2448,240 +1931,140 @@
                         2026:** Ausbildung start Apply to multiple sectors
                         simultaneously - having options allows choosing best fit
                         rather than accepting only available offer.
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </section>
-              <section class="mb-8">
-                <div class="mb-6">
-                  <h2 class="text-2xl font-bold text-green mb-2">
-                    Related Tools You Might Need
-                  </h2>
-                  <p class="text-green/70">
-                    Continue planning your Ausbildung journey with these helpful
-                    tools
-                  </p>
-                </div>
-                <div class="grid md:grid-cols-3 gap-6 mb-6">
-                  <a
-                    class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                    href="{{ route('front.tools.ausbildung-vs-university-comparison') }}"
-                    ><div class="mb-4">
-                      <div
-                        class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-graduation-cap w-6 h-6 text-orange group-hover:text-white transition-colors"
-                        >
-                          <path
-                            d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
-                          ></path>
-                          <path d="M22 10v6"></path>
-                          <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <h3
-                      class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors"
-                    >
-                      Ausbildung vs University
-                    </h3>
-                    <p class="text-sm text-green/70 leading-relaxed mb-4">
-                      Compare Ausbildung and university pathways to find your
-                      best fit
-                    </p>
-                    <div
-                      class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all"
-                    >
-                      <span>Try it free</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-arrow-right w-4 h-4"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="m12 5 7 7-7 7"></path>
-                      </svg>
-                    </div>
-                    <div class="absolute top-4 right-4">
-                      <span
-                        class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize"
-                        >comparison</span
-                      >
-                    </div></a
-                  ><a
-                    class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                    href="{{ route('front.tools.career-pathway-decision') }}"
-                    ><div class="mb-4">
-                      <div
-                        class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-briefcase w-6 h-6 text-orange group-hover:text-white transition-colors"
-                        >
-                          <path
-                            d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
-                          ></path>
-                          <rect
-                            width="20"
-                            height="14"
-                            x="2"
-                            y="6"
-                            rx="2"
-                          ></rect>
-                        </svg>
-                      </div>
-                    </div>
-                    <h3
-                      class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors"
-                    >
-                      Career Pathway Decision
-                    </h3>
-                    <p class="text-sm text-green/70 leading-relaxed mb-4">
-                      Get personalized career pathway recommendations based on
-                      your goals
-                    </p>
-                    <div
-                      class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all"
-                    >
-                      <span>Try it free</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-arrow-right w-4 h-4"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="m12 5 7 7-7 7"></path>
-                      </svg>
-                    </div>
-                    <div class="absolute top-4 right-4">
-                      <span
-                        class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize"
-                        >comparison</span
-                      >
-                    </div></a
-                  ><a
-                    class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                    href="{{ route('front.tools.cv-comparison') }}"
-                    ><div class="mb-4">
-                      <div
-                        class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-file-text w-6 h-6 text-orange group-hover:text-white transition-colors"
-                        >
-                          <path
-                            d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
-                          ></path>
-                          <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
-                          <path d="M10 9H8"></path>
-                          <path d="M16 13H8"></path>
-                          <path d="M16 17H8"></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <h3
-                      class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors"
-                    >
-                      CV Comparison
-                    </h3>
-                    <p class="text-sm text-green/70 leading-relaxed mb-4">
-                      Compare your CV to German standards and get improvement
-                      recommendations
-                    </p>
-                    <div
-                      class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all"
-                    >
-                      <span>Try it free</span
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-arrow-right w-4 h-4"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="m12 5 7 7-7 7"></path>
-                      </svg>
-                    </div>
-                    <div class="absolute top-4 right-4">
-                      <span
-                        class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize"
-                        >comparison</span
-                      >
-                    </div></a
-                  >
-                </div>
-                <div class="text-center">
-                  <a
-                    class="inline-flex items-center gap-2 px-6 py-3 bg-orange hover:bg-orange-hover text-white rounded-full font-semibold transition-colors"
-                    href="{{ route('front.tools') }}"
-                    >Browse All Tools<svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-arrow-right w-4 h-4"
-                    >
-                      <path d="M5 12h14"></path>
-                      <path d="m12 5 7 7-7 7"></path></svg
-                  ></a>
-                </div>
-              </section>
             </div>
-          </main>
         </div>
-      </main>
+    </section>
+    <section class="mb-8">
+        <div class="mb-6">
+            <h2 class="text-2xl font-bold text-green mb-2">
+                Related Tools You Might Need
+            </h2>
+            <p class="text-green/70">
+                Continue planning your Ausbildung journey with these helpful
+                tools
+            </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                href="{{ route('front.tools.ausbildung-vs-university-comparison') }}">
+                <div class="mb-4">
+                    <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-graduation-cap w-6 h-6 text-orange group-hover:text-white transition-colors">
+                            <path
+                                d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                            </path>
+                            <path d="M22 10v6"></path>
+                            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors">
+                    Ausbildung vs University
+                </h3>
+                <p class="text-sm text-green/70 leading-relaxed mb-4">
+                    Compare Ausbildung and university pathways to find your
+                    best fit
+                </p>
+                <div class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all">
+                    <span>Try it free</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </div>
+                <div class="absolute top-4 right-4">
+                    <span
+                        class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize">comparison</span>
+                </div>
+            </a><a
+                class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                href="{{ route('front.tools.career-pathway-decision') }}">
+                <div class="mb-4">
+                    <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-briefcase w-6 h-6 text-orange group-hover:text-white transition-colors">
+                            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors">
+                    Career Pathway Decision
+                </h3>
+                <p class="text-sm text-green/70 leading-relaxed mb-4">
+                    Get personalized career pathway recommendations based on
+                    your goals
+                </p>
+                <div class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all">
+                    <span>Try it free</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </div>
+                <div class="absolute top-4 right-4">
+                    <span
+                        class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize">comparison</span>
+                </div>
+            </a><a
+                class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                href="{{ route('front.tools.cv-comparison') }}">
+                <div class="mb-4">
+                    <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-file-text w-6 h-6 text-orange group-hover:text-white transition-colors">
+                            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+                            <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                            <path d="M10 9H8"></path>
+                            <path d="M16 13H8"></path>
+                            <path d="M16 17H8"></path>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors">
+                    CV Comparison
+                </h3>
+                <p class="text-sm text-green/70 leading-relaxed mb-4">
+                    Compare your CV to German standards and get improvement
+                    recommendations
+                </p>
+                <div class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all">
+                    <span>Try it free</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </div>
+                <div class="absolute top-4 right-4">
+                    <span
+                        class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize">comparison</span>
+                </div>
+            </a>
+        </div>
+        <div class="text-center">
+            <a class="inline-flex items-center gap-2 px-6 py-3 bg-orange hover:bg-orange-hover text-white rounded-full font-semibold transition-colors"
+                href="{{ route('front.tools') }}">Browse All Tools<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                </svg></a>
+        </div>
+    </section>
+    </div>
+    </main>
+    </div>
+    </main>
 @endsection

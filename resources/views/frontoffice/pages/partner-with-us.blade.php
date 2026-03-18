@@ -1,34 +1,34 @@
 @extends('frontoffice.layouts.app')
 
-@section('title', 'Partner with GoAusbildung | B2B Partnerships for Student Placement | GoAusbildung')
+@section('title', 'Partner with Azubi | B2B Partnerships for Student Placement | Azubi')
 
 @section('meta')
     <meta name="description"
-        content="Join GoAusbildung as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
+        content="Join Azubi as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
     <meta name="keywords"
-        content="GoAusbildung partnership,B2B education partnership,Ausbildung student placement,German vocational training,B1 B2 German students,education agency partnership,student recruitment partner,Germany Ausbildung placement,vocational training partnership,international student services" />
+        content="Azubi partnership,B2B education partnership,Ausbildung student placement,German vocational training,B1 B2 German students,education agency partnership,student recruitment partner,Germany Ausbildung placement,vocational training partnership,international student services" />
     <meta name="pinterest:pinnable" content="true" />
-    <meta name="pinterest:image" content="https://images.goausbildung.com/og-images/default-og.png" />
-    <meta name="linkedin:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+    <meta name="pinterest:image" content="https://images.azubi.ma/og-images/default-og.png" />
+    <meta name="linkedin:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <link rel="canonical" href="{{ route('front.partner-with-us') }}" />
-    <meta property="og:title" content="Partner with GoAusbildung | B2B Partnerships for Student Placement" />
+    <meta property="og:title" content="Partner with Azubi | B2B Partnerships for Student Placement" />
     <meta property="og:description"
-        content="Join GoAusbildung as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
-    <meta property="og:url" content="https://goausbildung.com/partner-with-us" />
-    <meta property="og:site_name" content="GoAusbildung" />
+        content="Join Azubi as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
+    <meta property="og:url" content="https://azubi.ma/partner-with-us" />
+    <meta property="og:site_name" content="Azubi" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+    <meta property="og:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Partner with GoAusbildung | B2B Partnerships for Student Placement" />
+    <meta property="og:image:alt" content="Partner with Azubi | B2B Partnerships for Student Placement" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@goausbildung" />
-    <meta name="twitter:creator" content="@goausbildung" />
-    <meta name="twitter:title" content="Partner with GoAusbildung | B2B Partnerships for Student Placement" />
+    <meta name="twitter:site" content="@Azubi" />
+    <meta name="twitter:creator" content="@Azubi" />
+    <meta name="twitter:title" content="Partner with Azubi | B2B Partnerships for Student Placement" />
     <meta name="twitter:description"
-        content="Join GoAusbildung as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
-    <meta name="twitter:image" content="https://images.goausbildung.com/og-images/default-og.png" />
+        content="Join Azubi as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
+    <meta name="twitter:image" content="https://images.azubi.ma/og-images/default-og.png" />
 @endsection
 
 
@@ -108,7 +108,7 @@
                     </div>
                     <h1
                         class="tracking-tight font-bold text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-2xl animate-fade-in-up animation-delay-200">
-                        Partner with GoAusbildung
+                        Partner with Azubi
                     </h1>
                     <p class="text-lg leading-relaxed text-white/90 drop-shadow-lg animate-fade-in-up animation-delay-300">
                         Join our network of successful education partners helping
@@ -146,7 +146,7 @@
             <div class="container px-4 md:px-6">
                 <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
                     <h2 class="font-bold tracking-tight text-[#344F1F] text-2xl sm:text-3xl md:text-4xl">
-                        Why Partner with GoAusbildung?
+                        Why Partner with Azubi?
                     </h2>
                     <p class="text-base sm:text-lg text-[#344F1F]/70 font-medium leading-relaxed max-w-3xl">
                         Join our network of successful education partners helping
@@ -233,7 +233,7 @@
                             Partner Certification
                         </h3>
                         <p class="text-muted-foreground text-sm leading-relaxed">
-                            Become a certified GoAusbildung partner with official
+                            Become a certified Azubi partner with official
                             recognition and enhanced credibility.
                         </p>
                     </div>
@@ -654,7 +654,7 @@
                         <p class="text-base text-white/90 leading-relaxed max-w-2xl text-center">
                             Help your B1/B2 German students achieve their Ausbildung
                             dreams while building a profitable partnership with
-                            GoAusbildung.
+                            Azubi.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
                             <a href="#partner-form"

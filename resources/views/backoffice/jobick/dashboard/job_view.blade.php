@@ -99,7 +99,7 @@
 									<ul class="list-style-1">
 										<li><label class="form-label mb-0 custom-label">Job Experience:</label><p class="mb-0"> 2yrs+</p></li>
 										<li><label class="form-label mb-0 custom-label">Launges:</label><p class="mb-0"> Hindi, English</p></li>
-										<li><label class="form-label mb-0 custom-label">Locality:</label><p class="mb-0"> USA, UK, India</p></li>
+										<li><label class="form-label mb-0 custom-label">Locality:</label><p class="mb-0"> Morocco, Spain, France</p></li>
 										<li><label class="form-label mb-0 custom-label">Eligibility:</label><p class="mb-0"> B.tech ,Any Graduate</p></li>
 										<li><label class="form-label mb-0 custom-label">Company :</label><p class="mb-0"> Abcd corporation pvt ltd</p></li>
 									</ul>

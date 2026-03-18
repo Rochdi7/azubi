@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cat EOF COMPREHENSIVE LINK PATTERNS FOUND IN BLADE FILES EOF grep -rho href=\"\"[^\"\"]*.html\"\" c:UsersASUSDesktopProjectsazubiresourcesviewsfrontoffice)"
+      "Bash(cat EOF COMPREHENSIVE LINK PATTERNS FOUND IN BLADE FILES EOF grep -rho href=\"\"[^\"\"]*.html\"\" c:UsersASUSDesktopProjectsazubiresourcesviewsfrontoffice)",
+      "Bash(echo '    <script src=\"\"{{ asset\\(''''assets/js/document-checklist.js''''\\) }}\"\"></script>')",
+      "Bash(/tmp/cpd_temp.blade.php:*)",
+      "Bash(grep -r \"country\\\\|Country\" c:/Users/ASUS/Desktop/Projects/azubi/app --include=*.php)",
+      "Bash(grep -v \"^--$\")"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
     ]
   }
 }

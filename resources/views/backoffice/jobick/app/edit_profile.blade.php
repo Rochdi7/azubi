@@ -98,10 +98,14 @@
                             <div class="col-sm-6 m-b30">
                                 <label class="form-label ">Country</label>
                                 <select class="selectpicker nice-select default-select form-control wide mh-auto">
-                                    <option>Russia</option>
-                                    <option>Canada</option>
-                                    <option>China</option>
-                                    <option>India</option>
+                                    <option>Morocco</option>
+                                    <option>Spain</option>
+                                    <option>Italy</option>
+                                    <option>Germany</option>
+                                    <option>France</option>
+                                    <option>Egypt</option>
+                                    <option>Algeria</option>
+                                    <option>Other</option>
                                 </select>
                             </div>
                             <div class="col-sm-6 m-b30">

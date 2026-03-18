@@ -5,17 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', 'GoAusbildung')</title>
+    <title>@yield('title', 'Azubi')</title>
     @yield('meta')
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="GoAusbildung">
+    <meta property="og:site_name" content="Azubi">
     <link rel="icon" href="{{ asset('favicon.ico') }}">
     <link rel="stylesheet" href="{{ asset('assets/_next/static/css/081a0afca5a9bd20.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/_next/static/css/d9109d77acd75b7b.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/_next/static/css/e2c84361ea1dce8b.css') }}">
     @stack('styles')
     <style>
-        :root { --font-inter: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif; }
+        :root {
+            --font-inter: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+        }
     </style>
 </head>
 
@@ -38,7 +40,7 @@
     <script src="{{ asset('assets/js/frontoffice/accordion-fixes.js') }}"></script>
     <script src="{{ asset('assets/js/frontoffice/visibility-fixes.js') }}"></script>
     <script src="{{ asset('assets/js/frontoffice/form-dropdowns.js') }}"></script>
-  
+
 </body>
 
 </html>
