@@ -878,7 +878,7 @@
                                                           e.target.value,
                                                       }),
                                                     placeholder:
-                                                      "e.g., Mumbai, India",
+                                                      "e.g., Casablanca, Morocco",
                                                     className:
                                                       "w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none",
                                                   }),

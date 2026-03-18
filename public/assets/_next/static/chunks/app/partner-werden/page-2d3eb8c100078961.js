@@ -45,7 +45,7 @@
             icon: o.A,
             title: "Partner-Zertifizierung",
             description:
-              "Werden Sie ein zertifizierter GoAusbildung-Partner mit offizieller Anerkennung und erh\xf6hter Glaubw\xfcrdigkeit.",
+              "Werden Sie ein zertifizierter Azubi-Partner mit offizieller Anerkennung und erh\xf6hter Glaubw\xfcrdigkeit.",
             color: "text-orange-500 bg-orange-500/10",
           },
           {
@@ -100,7 +100,7 @@
                   (0, n.jsx)("h2", {
                     className:
                       "text-3xl md:text-4xl font-bold tracking-tight mb-4",
-                    children: "Warum Partner werden bei GoAusbildung?",
+                    children: "Warum Partner werden bei Azubi?",
                   }),
                   (0, n.jsx)("p", {
                     className: "text-lg text-muted-foreground",
@@ -176,7 +176,7 @@
                         "pb-2",
                         "drop-shadow-sm[0_0_15px_rgba(255,255,255,0.1)]",
                       ),
-                      children: "Partner werden bei GoAusbildung",
+                      children: "Partner werden bei Azubi",
                     }),
                     (0, n.jsx)("p", {
                       className:
@@ -579,7 +579,7 @@
                       className:
                         "text-lg text-muted-foreground mb-8 max-w-md mx-auto",
                       children:
-                        "Vielen Dank f\xfcr Ihr Interesse an einer Partnerschaft mit GoAusbildung! Unser Partnerschaftsteam wird Ihren Antrag pr\xfcfen und sich innerhalb von 48 Stunden bei Ihnen melden.",
+                        "Vielen Dank f\xfcr Ihr Interesse an einer Partnerschaft mit Azubi! Unser Partnerschaftsteam wird Ihren Antrag pr\xfcfen und sich innerhalb von 48 Stunden bei Ihnen melden.",
                     }),
                     (0, n.jsxs)("div", {
                       className: "bg-beige rounded-lg p-6 mb-8",

@@ -90,7 +90,7 @@
                 )),
                   (document.cookie = "".concat(
                     e,
-                    "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.goausbildung.com;",
+                    "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.azubi.ma;",
                   )));
               }),
                 window.gtag &&
@@ -136,7 +136,7 @@
               id: "datafast-analytics",
               src: "https://datafa.st/js/script.js",
               "data-website-id": "67ff61886ee3717bf87bc569",
-              "data-domain": "goausbildung.com",
+              "data-domain": "azubi.ma",
               defer: !0,
             })
           : null;
@@ -160,7 +160,7 @@
                 )),
                   (document.cookie = "".concat(
                     e,
-                    "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.goausbildung.com;",
+                    "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.azubi.ma;",
                   )));
               }),
                 window.clarity && delete window.clarity);
@@ -441,7 +441,7 @@
                         className: "flex flex-col gap-3 mt-4",
                         children: [
                           (0, n.jsxs)(z(), {
-                            href: "https://pikassostudio.com",
+                            href: "https://codesommet.com",
                             target: "_blank",
                             rel: "dofollow noopener noreferrer",
                             className:
@@ -451,8 +451,8 @@
                                 className:
                                   "relative w-4 h-4 flex-shrink-0 mr-1.5",
                                 children: (0, n.jsx)(G.default, {
-                                  src: "/pikasso-logo-dark-1024x1024.svg",
-                                  alt: "Pikasso",
+                                  src: "/codesommet-logo-dark-1024x1024.svg",
+                                  alt: "codesommet",
                                   width: 16,
                                   height: 16,
                                 }),
@@ -465,7 +465,7 @@
                               (0, n.jsxs)("span", {
                                 className: "text-xs font-medium text-white",
                                 children: [
-                                  "Pikasso",
+                                  "codesommet",
                                   (0, n.jsx)("span", {
                                     className:
                                       "text-[#FF6500] text-base leading-none",
@@ -479,7 +479,7 @@
                             className: "flex space-x-4",
                             children: [
                               (0, n.jsx)(z(), {
-                                href: "https://www.linkedin.com/company/goausbildung/",
+                                href: "https://www.linkedin.com/company/Azubi/",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 children: (0, n.jsxs)(J.$, {
@@ -525,7 +525,7 @@
                                 }),
                               }),
                               (0, n.jsx)(z(), {
-                                href: "https://www.instagram.com/goausbildung.global/",
+                                href: "https://www.instagram.com/Azubi.global/",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 children: (0, n.jsxs)(J.$, {
@@ -574,7 +574,7 @@
                                 }),
                               }),
                               (0, n.jsx)(z(), {
-                                href: "https://x.com/goausbildung",
+                                href: "https://x.com/Azubi",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 children: (0, n.jsxs)(J.$, {
@@ -612,7 +612,7 @@
                                 }),
                               }),
                               (0, n.jsx)(z(), {
-                                href: "https://www.youtube.com/@goausbildung",
+                                href: "https://www.youtube.com/@Azubi",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 children: (0, n.jsxs)(J.$, {
@@ -924,7 +924,7 @@
                           }),
                           (0, n.jsx)("li", {
                             children: (0, n.jsxs)(z(), {
-                              href: "https://bookgermantest.com?ref=goausbildung",
+                              href: "https://bookgermantest.com?ref=Azubi",
                               target: "_blank",
                               rel: "noopener noreferrer",
                               className:
@@ -1046,7 +1046,7 @@
                       children: [
                         "\xa9 ",
                         new Date().getFullYear(),
-                        " GoAusbildung. All rights reserved.",
+                        " Azubi. All rights reserved.",
                       ],
                     }),
                     (0, n.jsxs)("div", {

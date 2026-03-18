@@ -194,7 +194,7 @@
     },
     18937: (e, s, i) => {
       "use strict";
-      i.d(s, { QogentPoweredSection: () => g });
+      i.d(s, { AzubiPoweredSection: () => g });
       var t = i(70207),
         l = i(45748),
         a = i(95034),
@@ -261,13 +261,13 @@
                       className:
                         "text-3xl sm:text-4xl font-bold tracking-tight",
                       style: { color: "#344F1F" },
-                      children: "Eine Initiative von Qogent Global",
+                      children: "Eine Initiative von Azubi",
                     }),
                     (0, t.jsxs)("p", {
                       className: "text-lg leading-relaxed",
                       style: { color: "#344F1F", opacity: 0.8 },
                       children: [
-                        "GoAusbildung wird stolz unterst\xfctzt von",
+                        "Azubi wird stolz unterst\xfctzt von",
                         " ",
                         (0, t.jsx)(m(), {
                           href: "https://qogentglobal.com",
@@ -278,7 +278,7 @@
                             color: "#F4991A",
                             textDecorationColor: "#F4991A",
                           },
-                          children: "Qogent Global",
+                          children: "Azubi",
                         }),
                         ", einem f\xfchrenden Unternehmen im Bereich internationaler Bildung und Technologie. Unsere Mission ist es, erstklassige M\xf6glichkeiten f\xfcr ambitionierte Menschen weltweit zug\xe4nglich zu machen – und Unternehmen dabei zu helfen, diese Talente zu finden.",
                       ],
@@ -300,18 +300,18 @@
                                 (0, t.jsx)("h3", {
                                   className: "text-lg font-semibold",
                                   style: { color: "#344F1F" },
-                                  children: "Dubai HQ",
+                                  children: "Marrakech Office",
                                 }),
                               ],
                             }),
                             (0, t.jsxs)("p", {
                               style: { color: "#344F1F", opacity: 0.8 },
                               children: [
-                                "Onyx Building, Unit 101-228",
+                                "Marrakech",
                                 (0, t.jsx)("br", {}),
-                                "Al Khabeesi, Dubai 239532",
+                                "",
                                 (0, t.jsx)("br", {}),
-                                "Vereinigte Arabische Emirate",
+                                "Morocco",
                               ],
                             }),
                           ],
@@ -330,18 +330,18 @@
                                 (0, t.jsx)("h3", {
                                   className: "text-lg font-semibold",
                                   style: { color: "#344F1F" },
-                                  children: "India Office",
+                                  children: "Rabat Office",
                                 }),
                               ],
                             }),
                             (0, t.jsxs)("p", {
                               style: { color: "#344F1F", opacity: 0.8 },
                               children: [
-                                "No. 113, Kanaka Towers",
+                                "Rabat",
                                 (0, t.jsx)("br", {}),
-                                "16th Cross, JP Nagar 4th Phase",
+                                "",
                                 (0, t.jsx)("br", {}),
-                                "Bangalore 560078, Karnataka, Indien",
+                                "Morocco",
                               ],
                             }),
                           ],
@@ -366,7 +366,7 @@
                           target: "_blank",
                           rel: "noopener noreferrer",
                           children: [
-                            "Mehr \xfcber Qogent erfahren",
+                            "Mehr \xfcber Azubi erfahren",
                             (0, t.jsx)(c.A, { className: "ml-2 w-4 h-4" }),
                           ],
                         }),
@@ -393,21 +393,21 @@
             name: "Uday Yatnalli",
             designation: "Gr\xfcnder und CEO",
             photoUrl:
-              "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/UdayYatnalli_Pikasso.webp",
+              "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/UdayYatnalli_codesommet.webp",
           },
           {
             id: "2",
             name: "Asha M. Lingaraju",
             designation: "Head of Operations",
             photoUrl:
-              "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/AshaLingaraju_Pikasso.webp",
+              "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/AshaLingaraju_codesommet.webp",
           },
           {
             id: "3",
             name: "Leo Joseph",
             designation: "Business Development Executive",
             photoUrl:
-              "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/LeoJoseph_Pikasso.webp",
+              "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/LeoJoseph_codesommet.webp",
           },
         ],
         r = {
@@ -461,7 +461,7 @@
                   className: "text-lg md:text-xl max-w-2xl mx-auto",
                   style: { color: "#344F1F", opacity: 0.7 },
                   children:
-                    "Die Vision\xe4re hinter GoAusbildung, die Unternehmen und Talente zusammenbringen",
+                    "Die Vision\xe4re hinter Azubi, die Unternehmen und Talente zusammenbringen",
                 }),
               ],
             }),
@@ -552,64 +552,64 @@
         r = i(52461);
       let d = [
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-professional.webp",
-            alt: "GoAusbildung Professional Team Photo",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-professional.webp",
+            alt: "Azubi Professional Team Photo",
             width: 2334,
             height: 1556,
             category: "professional",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-awards.webp",
-            alt: "GoAusbildung Team Receiving Awards",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-awards.webp",
+            alt: "Azubi Team Receiving Awards",
             width: 2334,
             height: 1556,
             category: "celebration",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-working.webp",
-            alt: "GoAusbildung Team Collaborating",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-working.webp",
+            alt: "Azubi Team Collaborating",
             width: 2334,
             height: 1556,
             category: "work",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-celebration-cups.webp",
-            alt: "GoAusbildung Team Celebration",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-celebration-cups.webp",
+            alt: "Azubi Team Celebration",
             width: 2334,
             height: 1556,
             category: "celebration",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-adventure.webp",
-            alt: "GoAusbildung Team Adventure Activity",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-adventure.webp",
+            alt: "Azubi Team Adventure Activity",
             width: 2334,
             height: 1556,
             category: "adventure",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-pizza.webp",
-            alt: "GoAusbildung Team Pizza Party",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-pizza.webp",
+            alt: "Azubi Team Pizza Party",
             width: 2334,
             height: 1556,
             category: "celebration",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-outdoor.webp",
-            alt: "GoAusbildung Team Outdoor Event",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-outdoor.webp",
+            alt: "Azubi Team Outdoor Event",
             width: 2074,
             height: 1556,
             category: "adventure",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-outing-pool.webp",
-            alt: "GoAusbildung Team Pool Outing",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-outing-pool.webp",
+            alt: "Azubi Team Pool Outing",
             width: 2334,
             height: 1556,
             category: "adventure",
           },
           {
-            src: "https://storage.googleapis.com/pikasso-studio-portfolio/images/team/pikasso-team-awards-2.webp",
-            alt: "GoAusbildung Team Awards Ceremony",
+            src: "https://storage.googleapis.com/codesommet-studio-portfolio/images/team/codesommet-team-awards-2.webp",
+            alt: "Azubi Team Awards Ceremony",
             width: 2334,
             height: 1556,
             category: "celebration",
@@ -667,7 +667,7 @@
                       className:
                         "text-2xl md:text-3xl lg:text-4xl font-bold text-white",
                       children:
-                        "Lernen Sie die Menschen hinter GoAusbildung kennen",
+                        "Lernen Sie die Menschen hinter Azubi kennen",
                     }),
                   ],
                 }),
@@ -1021,13 +1021,13 @@
                             "text-3xl md:text-4xl lg:text-5xl font-bold mb-6",
                           style: { color: "#344F1F" },
                           children:
-                            "GoAusbildung: Die kostenlose Recruiting-Plattform",
+                            "Azubi: Die kostenlose Recruiting-Plattform",
                         }),
                         (0, t.jsx)("p", {
                           className: "text-lg leading-relaxed mb-6",
                           style: { color: "#344F1F", opacity: 0.8 },
                           children:
-                            "Wir haben GoAusbildung entwickelt, um die L\xfccke zwischen deutschen Unternehmen und internationalen Talenten zu schlie\xdfen – ohne die hohen Kosten traditioneller Personalvermittlung.",
+                            "Wir haben Azubi entwickelt, um die L\xfccke zwischen deutschen Unternehmen und internationalen Talenten zu schlie\xdfen – ohne die hohen Kosten traditioneller Personalvermittlung.",
                         }),
                         (0, t.jsx)("p", {
                           className: "text-lg leading-relaxed mb-8",
@@ -1081,7 +1081,7 @@
                       className: "relative w-full h-[400px]",
                       children: (0, t.jsx)(p.default, {
                         src: "/mascot/mascot_pointing_male.webp",
-                        alt: "GoAusbildung Maskottchen pr\xe4sentiert L\xf6sung",
+                        alt: "Azubi Maskottchen pr\xe4sentiert L\xf6sung",
                         fill: !0,
                         className: "object-contain",
                       }),
@@ -1149,7 +1149,7 @@
                       className: "text-xl font-semibold mb-2",
                       style: { color: "#344F1F" },
                       children:
-                        "\xdcber 500 deutsche Unternehmen vertrauen bereits auf GoAusbildung",
+                        "\xdcber 500 deutsche Unternehmen vertrauen bereits auf Azubi",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-lg",

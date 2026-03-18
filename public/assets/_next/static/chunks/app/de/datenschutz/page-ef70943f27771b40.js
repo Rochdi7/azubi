@@ -99,26 +99,26 @@
                               (0, n.jsx)(a.f, {
                                 size: "sm",
                                 children: (0, n.jsx)("strong", {
-                                  children: "GoAusbildung",
+                                  children: "Azubi",
                                 }),
                               }),
                               (0, n.jsx)(a.f, {
                                 size: "sm",
-                                children: "Betrieben von Qogent Global",
+                                children: "Betrieben von Azubi",
                               }),
                               (0, n.jsx)(a.f, {
                                 size: "sm",
                                 children: (0, n.jsx)("strong", {
-                                  children: "Dubai Hauptsitz:",
+                                  children: "Marrakech Office:",
                                 }),
                               }),
                               (0, n.jsx)(a.f, {
                                 size: "sm",
-                                children: "Onyx Building, Unit 101-228",
+                                children: "Marrakech",
                               }),
                               (0, n.jsx)(a.f, {
                                 size: "sm",
-                                children: "Al Khabeesi, Dubai 239532, VAE",
+                                children: "Morocco, VAE",
                               }),
                               (0, n.jsx)(a.f, {
                                 size: "sm",
@@ -129,16 +129,16 @@
                               (0, n.jsx)(a.f, {
                                 size: "sm",
                                 children:
-                                  "No. 113, Kanaka Towers, 16th Cross, JP Nagar 4th Phase",
+                                  "Rabat, Morocco",
                               }),
                               (0, n.jsx)(a.f, {
                                 size: "sm",
                                 children:
-                                  "Dollars Colony, Bangalore 560078, Karnataka, Indien",
+                                  "Rabat, Marokko",
                               }),
                               (0, n.jsx)(a.f, {
                                 size: "sm",
-                                children: "E-Mail: hello@goausbildung.com",
+                                children: "E-Mail: hello@azubi.ma",
                               }),
                             ],
                           }),
@@ -766,7 +766,7 @@
                                   (0, n.jsx)("br", {}),
                                   "in Ihrem Land wenden oder direkt an uns unter:",
                                   (0, n.jsx)("br", {}),
-                                  "hello@goausbildung.com",
+                                  "hello@azubi.ma",
                                 ],
                               }),
                             ],
@@ -801,10 +801,10 @@
                               (0, n.jsxs)("div", {
                                 children: [
                                   (0, n.jsx)("a", {
-                                    href: "mailto:hello@goausbildung.com",
+                                    href: "mailto:hello@azubi.ma",
                                     className:
                                       "text-primary hover:text-primary/80 transition-colors font-medium",
-                                    children: "hello@goausbildung.com",
+                                    children: "hello@azubi.ma",
                                   }),
                                   (0, n.jsx)(a.f, {
                                     size: "sm",

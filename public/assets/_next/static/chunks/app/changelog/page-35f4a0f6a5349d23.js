@@ -144,7 +144,7 @@
             }),
             (0, a.jsx)("meta", {
               itemProp: "author",
-              content: "GoAusbildung Team",
+              content: "Azubi Team",
             }),
             (0, a.jsx)("meta", {
               itemProp: "dateModified",
@@ -173,7 +173,7 @@
         j = s.n(f);
       let y = {
         en: {
-          title: "What's New at GoAusbildung",
+          title: "What's New at Azubi",
           subtitle:
             "Stay updated with our latest features, improvements, and platform updates",
           noUpdates: "No updates to show yet. Check back soon!",
@@ -188,7 +188,7 @@
           both: "Everyone",
         },
         de: {
-          title: "Was gibt es Neues bei GoAusbildung",
+          title: "Was gibt es Neues bei Azubi",
           subtitle:
             "Bleiben Sie \xfcber neue Features, Verbesserungen und Updates informiert",
           noUpdates:

@@ -1566,7 +1566,7 @@
                       children: [
                         (0, t.jsx)(i.default, {
                           src: d.KN.ICON,
-                          alt: "GoAusbildung Logo",
+                          alt: "Azubi Logo",
                           width: 40,
                           height: 40,
                           className: "h-8 w-8 object-contain flex-shrink-0",
@@ -1576,7 +1576,7 @@
                           style: { letterSpacing: "-0.02em" },
                           className:
                             "jsx-35a5491e342e1f8a font-bold text-secondary text-base",
-                          children: "GoAusbildung",
+                          children: "Azubi",
                         }),
                       ],
                     }),

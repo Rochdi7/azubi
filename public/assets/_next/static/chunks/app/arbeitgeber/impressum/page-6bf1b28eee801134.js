@@ -111,7 +111,7 @@
                                   (0, l.jsx)("p", {
                                     className: "font-semibold text-lg mb-3",
                                     style: { color: "#344F1F" },
-                                    children: "Qogent Global",
+                                    children: "Azubi",
                                   }),
                                   (0, l.jsx)("div", {
                                     className:
@@ -129,19 +129,19 @@
                                               className: "font-medium",
                                               style: { color: "#344F1F" },
                                               children:
-                                                "Hauptsitz (Dubai, VAE)",
+                                                "Hauptsitz (Marokko)",
                                             }),
                                             (0, l.jsx)("p", {
                                               children:
-                                                "Onyx Building, Unit 101-228",
+                                                "Marrakech",
                                             }),
                                             (0, l.jsx)("p", {
                                               children:
-                                                "Al Khabeesi, Dubai 239532",
+                                                "",
                                             }),
                                             (0, l.jsx)("p", {
                                               children:
-                                                "Vereinigte Arabische Emirate",
+                                                "Marokko",
                                             }),
                                           ],
                                         }),
@@ -188,18 +188,18 @@
                                     (0, l.jsx)("p", {
                                       className: "font-medium",
                                       style: { color: "#344F1F" },
-                                      children: "B\xfcro Indien",
+                                      children: "B\xfcro Rabat",
                                     }),
                                     (0, l.jsx)("p", {
-                                      children: "No. 113, Kanaka Towers",
-                                    }),
-                                    (0, l.jsx)("p", {
-                                      children:
-                                        "16th Cross, JP Nagar 4th Phase",
+                                      children: "Rabat",
                                     }),
                                     (0, l.jsx)("p", {
                                       children:
-                                        "Bangalore 560078, Karnataka, Indien",
+                                        "",
+                                    }),
+                                    (0, l.jsx)("p", {
+                                      children:
+                                        "Marokko",
                                     }),
                                   ],
                                 }),
@@ -253,12 +253,12 @@
                                             children: "E-Mail",
                                           }),
                                           (0, l.jsx)("a", {
-                                            href: "mailto:arbeitgeber@goausbildung.com",
+                                            href: "mailto:arbeitgeber@azubi.ma",
                                             className:
                                               "text-sm hover:underline",
                                             style: { color: "#F4991A" },
                                             children:
-                                              "arbeitgeber@goausbildung.com",
+                                              "arbeitgeber@azubi.ma",
                                           }),
                                         ],
                                       }),
@@ -284,13 +284,13 @@
                                             children: "Website",
                                           }),
                                           (0, l.jsx)("a", {
-                                            href: "https://goausbildung.com",
+                                            href: "https://azubi.ma",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className:
                                               "text-sm hover:underline",
                                             style: { color: "#F4991A" },
-                                            children: "goausbildung.com",
+                                            children: "azubi.ma",
                                           }),
                                         ],
                                       }),
@@ -353,7 +353,7 @@
                                         style: { color: "#344F1F" },
                                         children: "Registriert in:",
                                       }),
-                                      " Dubai, Vereinigte Arabische Emirate",
+                                      " Marokko",
                                     ],
                                   }),
                                   (0, l.jsx)("p", {
@@ -401,7 +401,7 @@
                                     className:
                                       "text-muted-foreground leading-relaxed",
                                     children:
-                                      "GoAusbildung.com ist eine Online-Plattform zur Vermittlung von Ausbildungspl\xe4tzen in Deutschland. Die Plattform wird von den Vereinigten Arabischen Emiraten aus betrieben.",
+                                      "azubi.ma ist eine Online-Plattform zur Vermittlung von Ausbildungspl\xe4tzen in Deutschland. Die Plattform wird von den Vereinigten Arabischen Emiraten aus betrieben.",
                                   }),
                                   (0, l.jsxs)("p", {
                                     className:
@@ -554,12 +554,12 @@
                                   " Diese Plattform wurde entwickelt von",
                                   " ",
                                   (0, l.jsx)("a", {
-                                    href: "https://pikassostudio.com",
+                                    href: "https://codesommet.com",
                                     target: "_blank",
                                     rel: "dofollow noopener noreferrer",
                                     className: "font-medium hover:underline",
                                     style: { color: "#F4991A" },
-                                    children: "Pikasso Studio",
+                                    children: "codesommet Studio",
                                   }),
                                   ", einem kreativen Technologie-Studio f\xfcr hochwertige digitale Erlebnisse.",
                                 ],

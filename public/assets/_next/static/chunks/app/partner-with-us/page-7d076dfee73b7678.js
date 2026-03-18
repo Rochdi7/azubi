@@ -12,7 +12,7 @@
       function c() {
         return (0, a.jsx)(r.d, {
           badge: { text: "Partner With Us", icon: n.A },
-          title: "Partner with GoAusbildung",
+          title: "Partner with Azubi",
           subtitle:
             "Join our network of successful education partners helping international students achieve their German Ausbildung dreams while building profitable business relationships.",
           primaryCta: {
@@ -219,7 +219,7 @@
           "Tunisia",
           "Turkey",
           "Ukraine",
-          "United Arab Emirates",
+          "Morocco",
           "United Kingdom",
           "United States",
           "Uruguay",
@@ -251,7 +251,7 @@
               contactPosition: "",
               email: "",
               phone: "",
-              countryCode: "91",
+              countryCode: "212",
               studentCountB1B2: void 0,
               studentSpecializations: [],
               servicesExpected: "",
@@ -358,7 +358,7 @@
                       className: "mb-6",
                       children: (0, a.jsx)("img", {
                         src: "/mascot/mascot_graduate_female.webp",
-                        alt: "GoAusbildung mascot celebrating partnership",
+                        alt: "Azubi mascot celebrating partnership",
                         className: "w-32 h-32 mx-auto",
                       }),
                     }),
@@ -370,7 +370,7 @@
                       className:
                         "text-lg text-muted-foreground mb-8 max-w-md mx-auto",
                       children:
-                        "Thank you for your interest in partnering with GoAusbildung! Our partnerships team will review your application and contact you within 48 hours.",
+                        "Thank you for your interest in partnering with Azubi! Our partnerships team will review your application and contact you within 48 hours.",
                     }),
                     (0, a.jsxs)("div", {
                       className: "bg-beige rounded-lg p-6 mb-8",
@@ -1337,7 +1337,7 @@
             icon: l.A,
             title: "Partner Certification",
             description:
-              "Become a certified GoAusbildung partner with official recognition and enhanced credibility.",
+              "Become a certified Azubi partner with official recognition and enhanced credibility.",
             color: "text-primary bg-primary/10",
           },
           {
@@ -1387,7 +1387,7 @@
             className: "container px-4 md:px-6",
             children: [
               (0, a.jsx)(n.X, {
-                title: "Why Partner with GoAusbildung?",
+                title: "Why Partner with Azubi?",
                 description:
                   "Join our network of successful education partners helping international students achieve their German Ausbildung goals.",
                 level: 2,

@@ -1592,8 +1592,8 @@
                                                   children: "Alle Standorte",
                                                 }),
                                                 (0, a.jsx)(o.eb, {
-                                                  value: "India",
-                                                  children: "Indien",
+                                                  value: "Morocco",
+                                                  children: "Marokko",
                                                 }),
                                                 (0, a.jsx)(o.eb, {
                                                   value: "Pakistan",

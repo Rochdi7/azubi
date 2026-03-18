@@ -58,7 +58,7 @@
                           className:
                             "text-muted-foreground mt-2 text-sm md:text-base",
                           children:
-                            "F\xfcr Arbeitgeber auf der GoAusbildung-Plattform",
+                            "F\xfcr Arbeitgeber auf der Azubi-Plattform",
                         }),
                         (0, l.jsxs)("p", {
                           className: "text-muted-foreground text-sm",
@@ -159,14 +159,14 @@
                                       (0, l.jsx)("p", {
                                         className: "font-semibold mb-2",
                                         style: { color: "#344F1F" },
-                                        children: "Qogent Global",
+                                        children: "Azubi",
                                       }),
                                       (0, l.jsx)("p", {
-                                        children: "Onyx Building, Unit 101-228",
+                                        children: "Marrakesch",
                                       }),
                                       (0, l.jsx)("p", {
                                         children:
-                                          "Al Khabeesi, Dubai 239532, VAE",
+                                          "Marokko",
                                       }),
                                       (0, l.jsxs)("p", {
                                         className: "mt-3",
@@ -178,11 +178,11 @@
                                           }),
                                           " ",
                                           (0, l.jsx)("a", {
-                                            href: "mailto:datenschutz@goausbildung.com",
+                                            href: "mailto:datenschutz@azubi.ma",
                                             className: "hover:underline",
                                             style: { color: "#F4991A" },
                                             children:
-                                              "datenschutz@goausbildung.com",
+                                              "datenschutz@azubi.ma",
                                           }),
                                         ],
                                       }),
@@ -1091,7 +1091,7 @@
                                           style: { color: "#344F1F" },
                                           children: "Wichtige Information:",
                                         }),
-                                        " Obwohl unser Unternehmen in den Vereinigten Arabischen Emiraten (Dubai) registriert ist, erfolgt die gesamte Datenverarbeitung DSGVO-konform auf Servern in Deutschland.",
+                                        " Obwohl unser Unternehmen im K\xf6nigreich Marokko registriert ist, erfolgt die gesamte Datenverarbeitung DSGVO-konform auf Servern in Deutschland.",
                                       ],
                                     }),
                                     (0, l.jsx)("p", {
@@ -1303,7 +1303,7 @@
                                         (0, l.jsx)("strong", {
                                           children: "Hinweis:",
                                         }),
-                                        " Sie fungieren als separater Verantwortlicher f\xfcr die Verarbeitung von Bewerberdaten in Ihrem Bewerbungsverfahren. GoAusbildung ist lediglich Vermittler und nicht verantwortlich f\xfcr Ihre Datenverarbeitung.",
+                                        " Sie fungieren als separater Verantwortlicher f\xfcr die Verarbeitung von Bewerberdaten in Ihrem Bewerbungsverfahren. Azubi ist lediglich Vermittler und nicht verantwortlich f\xfcr Ihre Datenverarbeitung.",
                                       ],
                                     }),
                                   }),
@@ -1629,12 +1629,12 @@
                                             style: { color: "#F4991A" },
                                           }),
                                           (0, l.jsx)("a", {
-                                            href: "mailto:datenschutz@goausbildung.com",
+                                            href: "mailto:datenschutz@azubi.ma",
                                             className:
                                               "font-medium hover:underline",
                                             style: { color: "#F4991A" },
                                             children:
-                                              "datenschutz@goausbildung.com",
+                                              "datenschutz@azubi.ma",
                                           }),
                                         ],
                                       }),
@@ -2057,12 +2057,12 @@
                                           style: { color: "#F4991A" },
                                         }),
                                         (0, l.jsx)("a", {
-                                          href: "mailto:datenschutz@goausbildung.com",
+                                          href: "mailto:datenschutz@azubi.ma",
                                           className:
                                             "font-medium hover:underline",
                                           style: { color: "#F4991A" },
                                           children:
-                                            "datenschutz@goausbildung.com",
+                                            "datenschutz@azubi.ma",
                                         }),
                                       ],
                                     }),

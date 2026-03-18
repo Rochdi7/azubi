@@ -393,7 +393,7 @@
             (0, r.jsx)(P.JN, { size: "sm", variant: "ghost" }),
             (0, r.jsx)(_.V, { variant: "icon", size: "default" }),
             (0, r.jsx)("a", {
-              href: "https://wa.me/971522884118?text=Hi%20GoAusbildung!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
+              href: "https://wa.me/971522884118?text=Hi%20Azubi!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
               target: "_blank",
               rel: "noopener noreferrer",
               className:
@@ -1339,7 +1339,7 @@
                                     }),
                                   }),
                                   (0, r.jsxs)("a", {
-                                    href: "https://wa.me/971522884118?text=Hi%20GoAusbildung!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
+                                    href: "https://wa.me/971522884118?text=Hi%20Azubi!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     className:
@@ -1824,7 +1824,7 @@
                                   }),
                                 }),
                                 (0, r.jsxs)("a", {
-                                  href: "https://wa.me/971522884118?text=Hi%20GoAusbildung!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
+                                  href: "https://wa.me/971522884118?text=Hi%20Azubi!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
                                   target: "_blank",
                                   rel: "noopener noreferrer",
                                   className: (0, d.cn)(
@@ -2383,7 +2383,7 @@
                               (0, r.jsxs)("p", {
                                 className: "text-sm font-mono truncate",
                                 children: [
-                                  "goausbildung.com/student/",
+                                  "azubi.ma/student/",
                                   i.username,
                                 ],
                               }),
@@ -2430,7 +2430,7 @@
       function eR(e) {
         let { isOpen: s, onClose: t, profile: i, onConfirm: l } = e,
           [o, c] = (0, a.useState)(!1),
-          m = "goausbildung.com/student/".concat(i.username),
+          m = "azubi.ma/student/".concat(i.username),
           x = [
             {
               field: "basic_info",
@@ -3504,7 +3504,7 @@
                   }),
                   (0, r.jsx)(eP.L3, {
                     className: "text-2xl",
-                    children: "Welcome to GoAusbildung! \uD83C\uDF89",
+                    children: "Welcome to Azubi! \uD83C\uDF89",
                   }),
                   (0, r.jsx)(eP.rr, {
                     className: "text-base mt-2",

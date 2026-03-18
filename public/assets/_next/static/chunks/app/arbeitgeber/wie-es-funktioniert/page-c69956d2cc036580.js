@@ -24,7 +24,7 @@
             icon: l.A,
             value: "847",
             label: "Unternehmen",
-            description: "vertrauen GoAusbildung",
+            description: "vertrauen Azubi",
           },
           {
             icon: r.A,
@@ -69,7 +69,7 @@
                   (0, i.jsx)("h2", {
                     className:
                       "text-3xl md:text-4xl lg:text-5xl font-bold text-[#344F1F]",
-                    children: "GoAusbildung in Zahlen",
+                    children: "Azubi in Zahlen",
                   }),
                   (0, i.jsx)("p", {
                     className:

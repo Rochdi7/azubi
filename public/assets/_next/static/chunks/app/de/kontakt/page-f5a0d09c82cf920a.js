@@ -168,9 +168,9 @@
                     }),
                     "Schreiben Sie uns an\xa0",
                     (0, n.jsx)("a", {
-                      href: "mailto:hello@goausbildung.com",
+                      href: "mailto:hello@azubi.ma",
                       className: "text-primary hover:underline",
-                      children: "hello@goausbildung.com",
+                      children: "hello@azubi.ma",
                     }),
                   ],
                 }),
@@ -764,7 +764,7 @@
                     (0, n.jsx)(h.f, {
                       size: "sm",
                       className: "text-muted-foreground",
-                      children: "hello@goausbildung.com",
+                      children: "hello@azubi.ma",
                     }),
                   ],
                 }),

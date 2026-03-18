@@ -218,7 +218,7 @@
                                       children: [
                                         "Tag ",
                                         U,
-                                        " als Arbeitgeber auf GoAusbildung",
+                                        " als Arbeitgeber auf Azubi",
                                       ],
                                     }),
                                   ],

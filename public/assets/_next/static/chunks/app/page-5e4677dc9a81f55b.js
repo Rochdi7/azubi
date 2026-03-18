@@ -54,7 +54,7 @@
                           autoPlay: !0,
                           playsInline: !0,
                           poster:
-                            "https://images.goausbildung.com/hero-images/ausbildung-video-cover-v2.webp",
+                            "https://images.azubi.ma/hero-images/ausbildung-video-cover-v2.webp",
                           children: [
                             (0, i.jsx)("source", {
                               src: l.BI.AUSBILDUNG_EXPLAINER,
@@ -66,7 +66,7 @@
                       : (0, i.jsxs)(i.Fragment, {
                           children: [
                             (0, i.jsx)(o.default, {
-                              src: "https://images.goausbildung.com/hero-images/ausbildung-video-cover-v2.webp",
+                              src: "https://images.azubi.ma/hero-images/ausbildung-video-cover-v2.webp",
                               alt: "Ausbildung Video Guide Cover",
                               fill: !0,
                               className: "object-cover",
@@ -1058,9 +1058,9 @@
             "High-demand sectors include IT & Technology, Healthcare & Nursing, Engineering & Manufacturing, Hospitality & Tourism, and Business & Finance. IT and healthcare sectors often offer the highest salaries and best job security.",
         },
         {
-          question: "How is GoAusbildung different from other job portals?",
+          question: "How is Azubi different from other job portals?",
           answer:
-            "Other portals list jobs and leave you on your own. GoAusbildung provides smart application tools that generate personalized cover letters, match scores showing your fit for each job, application tracking with follow-up reminders, and German learning + interview preparation tools.",
+            "Other portals list jobs and leave you on your own. Azubi provides smart application tools that generate personalized cover letters, match scores showing your fit for each job, application tracking with follow-up reminders, and German learning + interview preparation tools.",
         },
         {
           question: "How does the smart cover letter generator work?",
@@ -1114,7 +1114,7 @@
                   badgeIcon: (0, i.jsx)(n.A, { className: "h-4 w-4" }),
                   title: "Frequently Asked Questions",
                   description:
-                    "Everything you need to know about Ausbildung programs in Germany and how GoAusbildung helps you apply",
+                    "Everything you need to know about Ausbildung programs in Germany and how Azubi helps you apply",
                   level: 2,
                 }),
                 (0, i.jsx)("div", {

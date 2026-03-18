@@ -105,7 +105,7 @@
                           (0, n.jsx)(d.A, {
                             className: "h-6 w-6 text-primary mr-2",
                           }),
-                          "Cookie-Kategorien auf GoAusbildung",
+                          "Cookie-Kategorien auf Azubi",
                         ],
                       }),
                       (0, n.jsxs)("div", {
@@ -588,10 +588,10 @@
                               (0, n.jsxs)("div", {
                                 children: [
                                   (0, n.jsx)("a", {
-                                    href: "mailto:hello@goausbildung.com",
+                                    href: "mailto:hello@azubi.ma",
                                     className:
                                       "text-primary hover:text-primary/80 transition-colors font-medium",
-                                    children: "hello@goausbildung.com",
+                                    children: "hello@azubi.ma",
                                   }),
                                   (0, n.jsx)("p", {
                                     className: "text-xs text-muted-foreground",

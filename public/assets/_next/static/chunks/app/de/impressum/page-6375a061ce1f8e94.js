@@ -78,7 +78,7 @@
                                   (0, n.jsx)("br", {}),
                                   (0, n.jsx)("span", {
                                     className: "text-muted-foreground",
-                                    children: "GoAusbildung",
+                                    children: "Azubi",
                                   }),
                                 ],
                               }),
@@ -91,7 +91,7 @@
                                   (0, n.jsx)("br", {}),
                                   (0, n.jsx)("span", {
                                     className: "text-muted-foreground",
-                                    children: "Qogent Global",
+                                    children: "Azubi",
                                   }),
                                 ],
                               }),
@@ -105,7 +105,7 @@
                                   (0, n.jsx)("span", {
                                     className: "text-muted-foreground",
                                     children:
-                                      "GoAusbildung ist eine Initiative von Qogent Global",
+                                      "Azubi ist eine Initiative von Azubi",
                                   }),
                                 ],
                               }),
@@ -133,15 +133,15 @@
                                 children: [
                                   (0, n.jsx)("strong", {
                                     className: "text-foreground",
-                                    children: "Dubai Hauptsitz:",
+                                    children: "Marrakech Office:",
                                   }),
                                   (0, n.jsx)("br", {}),
                                   (0, n.jsxs)("span", {
                                     className: "text-muted-foreground",
                                     children: [
-                                      "Onyx Building, Unit 101-228",
+                                      "Marrakech",
                                       (0, n.jsx)("br", {}),
-                                      "Al Khabeesi, Dubai 239532",
+                                      "Morocco",
                                       (0, n.jsx)("br", {}),
                                       "VAE",
                                     ],
@@ -158,13 +158,13 @@
                                   (0, n.jsxs)("span", {
                                     className: "text-muted-foreground",
                                     children: [
-                                      "No. 113, Kanaka Towers",
+                                      "Rabat",
                                       (0, n.jsx)("br", {}),
-                                      "16th Cross, JP Nagar 4th Phase",
+                                      "Morocco",
                                       (0, n.jsx)("br", {}),
-                                      "Dollars Colony, Bangalore 560078",
+                                      "Dollars Colony, Rabat",
                                       (0, n.jsx)("br", {}),
-                                      "Karnataka, Indien",
+                                      "Marokko",
                                     ],
                                   }),
                                 ],
@@ -201,10 +201,10 @@
                                     className: "h-4 w-4 text-primary mr-2",
                                   }),
                                   (0, n.jsx)("a", {
-                                    href: "mailto:hello@goausbildung.com",
+                                    href: "mailto:hello@azubi.ma",
                                     className:
                                       "text-primary hover:text-secondary transition-colors",
-                                    children: "hello@goausbildung.com",
+                                    children: "hello@azubi.ma",
                                   }),
                                 ],
                               }),
@@ -317,11 +317,11 @@
                       (0, n.jsxs)("div", {
                         className: "text-muted-foreground pl-4",
                         children: [
-                          "GoAusbildung Team",
+                          "Azubi Team",
                           (0, n.jsx)("br", {}),
-                          "Qogent Global",
+                          "Azubi",
                           (0, n.jsx)("br", {}),
-                          "hello@goausbildung.com",
+                          "hello@azubi.ma",
                         ],
                       }),
                     ],
@@ -406,7 +406,7 @@
                         size: "sm",
                         className: "text-muted-foreground",
                         children:
-                          "Die endg\xfcltigen Entscheidungen \xfcber Ausbildungsplatzvergaben liegen bei den jeweiligen Unternehmen und Institutionen. Visa-Entscheidungen werden ausschlie\xdflich von den deutschen Beh\xf6rden getroffen. GoAusbildung \xfcbernimmt keine Haftung f\xfcr die Entscheidungen Dritter oder f\xfcr Sch\xe4den, die aus der Nutzung unserer Dienstleistungen entstehen k\xf6nnten.",
+                          "Die endg\xfcltigen Entscheidungen \xfcber Ausbildungsplatzvergaben liegen bei den jeweiligen Unternehmen und Institutionen. Visa-Entscheidungen werden ausschlie\xdflich von den deutschen Beh\xf6rden getroffen. Azubi \xfcbernimmt keine Haftung f\xfcr die Entscheidungen Dritter oder f\xfcr Sch\xe4den, die aus der Nutzung unserer Dienstleistungen entstehen k\xf6nnten.",
                       }),
                     ],
                   }),

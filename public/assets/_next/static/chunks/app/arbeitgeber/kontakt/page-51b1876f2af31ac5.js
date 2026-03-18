@@ -806,7 +806,7 @@
         {
           question: "Kann ich auch per Telefon Kontakt aufnehmen?",
           answer:
-            "Ja, w\xe4hrend unserer Gesch\xe4ftszeiten (Montag bis Freitag, 9:00-18:00 Uhr GST (Gulf Standard Time)) erreichen Sie uns telefonisch unter +971 52 288 4118. F\xfcr detaillierte Anfragen empfehlen wir jedoch das Kontaktformular, damit wir Ihnen eine umfassende schriftliche Antwort geben k\xf6nnen.",
+            "Ja, w\xe4hrend unserer Gesch\xe4ftszeiten (Montag bis Freitag, 9:00-18:00 Uhr GST (Gulf Standard Time)) erreichen Sie uns telefonisch unter +212 600 000 000. F\xfcr detaillierte Anfragen empfehlen wir jedoch das Kontaktformular, damit wir Ihnen eine umfassende schriftliche Antwort geben k\xf6nnen.",
         },
         {
           question: "Bieten Sie Support auf Englisch an?",
@@ -824,9 +824,9 @@
             "Ihre Daten werden gem\xe4\xdf unserer Datenschutzerkl\xe4rung und der DSGVO verarbeitet. Wir verwenden Ihre Informationen ausschlie\xdflich zur Bearbeitung Ihrer Anfrage und geben sie nicht an Dritte weiter. Weitere Details finden Sie in unserer Datenschutzerkl\xe4rung.",
         },
         {
-          question: "Ist die Nutzung von GoAusbildung wirklich kostenlos?",
+          question: "Ist die Nutzung von Azubi wirklich kostenlos?",
           answer:
-            "Ja, GoAusbildung ist f\xfcr Arbeitgeber 100% kostenlos. Es fallen keine Vermittlungsgeb\xfchren, Abonnementkosten oder versteckte Geb\xfchren an. Sie k\xf6nnen kostenlos Stellenanzeigen ver\xf6ffentlichen, Bewerbungen erhalten und mit Kandidaten kommunizieren.",
+            "Ja, Azubi ist f\xfcr Arbeitgeber 100% kostenlos. Es fallen keine Vermittlungsgeb\xfchren, Abonnementkosten oder versteckte Geb\xfchren an. Sie k\xf6nnen kostenlos Stellenanzeigen ver\xf6ffentlichen, Bewerbungen erhalten und mit Kandidaten kommunizieren.",
         },
         {
           question: "Wie lange dauert die Registrierung als Arbeitgeber?",
@@ -836,7 +836,7 @@
         {
           question: "Welche Branchen werden unterst\xfctzt?",
           answer:
-            "GoAusbildung unterst\xfctzt alle Branchen, die Ausbildungspl\xe4tze anbieten. Besonders stark vertreten sind IT, Pflege, Gastronomie, Handwerk, Technik und kaufm\xe4nnische Berufe. Wenn Sie sich unsicher sind, kontaktieren Sie uns gerne - wir beraten Sie.",
+            "Azubi unterst\xfctzt alle Branchen, die Ausbildungspl\xe4tze anbieten. Besonders stark vertreten sind IT, Pflege, Gastronomie, Handwerk, Technik und kaufm\xe4nnische Berufe. Wenn Sie sich unsicher sind, kontaktieren Sie uns gerne - wir beraten Sie.",
         },
       ];
       function i() {
@@ -906,7 +906,7 @@
                     children: "Haben Sie weitere Fragen?",
                   }),
                   (0, a.jsxs)("a", {
-                    href: "mailto:hello@goausbildung.com",
+                    href: "mailto:hello@azubi.ma",
                     className:
                       "inline-flex items-center gap-2 text-base font-semibold hover:underline",
                     style: { color: "#F4991A" },
@@ -1030,7 +1030,7 @@
                         (0, a.jsx)("p", {
                           className: "font-medium",
                           style: { color: "#344F1F" },
-                          children: "hello@goausbildung.com",
+                          children: "hello@azubi.ma",
                         }),
                         (0, a.jsx)("p", {
                           className: "text-sm",
@@ -1041,7 +1041,7 @@
                     }),
                     action: {
                       label: "E-Mail senden",
-                      href: "mailto:hello@goausbildung.com",
+                      href: "mailto:hello@azubi.ma",
                     },
                   }),
                   (0, a.jsx)(d, {
@@ -1056,7 +1056,7 @@
                         (0, a.jsx)("p", {
                           className: "font-medium",
                           style: { color: "#344F1F" },
-                          children: "+971 52 288 4118",
+                          children: "+212 600 000 000",
                         }),
                         (0, a.jsx)("p", {
                           className: "text-sm",
@@ -1067,7 +1067,7 @@
                     }),
                     action: {
                       label: "Jetzt anrufen",
-                      href: "tel:+971522884118",
+                      href: "tel:+212600000000",
                     },
                   }),
                   (0, a.jsx)(d, {
@@ -1124,7 +1124,7 @@
                               (0, a.jsx)("h4", {
                                 className: "text-lg font-semibold",
                                 style: { color: "#344F1F" },
-                                children: "Dubai Hauptsitz",
+                                children: "Marrakesch B\xfcro",
                               }),
                             ],
                           }),
@@ -1133,13 +1133,13 @@
                             style: { color: "rgba(52, 79, 31, 0.7)" },
                             children: [
                               (0, a.jsx)("p", {
-                                children: "Onyx Building, Unit 101-228",
+                                children: "Marrakesch",
                               }),
                               (0, a.jsx)("p", {
-                                children: "Al Khabeesi, Dubai 239532",
+                                children: "",
                               }),
                               (0, a.jsx)("p", {
-                                children: "Vereinigte Arabische Emirate",
+                                children: "Marokko",
                               }),
                             ],
                           }),
@@ -1159,7 +1159,7 @@
                               (0, a.jsx)("h4", {
                                 className: "text-lg font-semibold",
                                 style: { color: "#344F1F" },
-                                children: "Indien B\xfcro",
+                                children: "Rabat B\xfcro",
                               }),
                             ],
                           }),
@@ -1168,13 +1168,13 @@
                             style: { color: "rgba(52, 79, 31, 0.7)" },
                             children: [
                               (0, a.jsx)("p", {
-                                children: "No. 113, Kanaka Towers",
+                                children: "Rabat",
                               }),
                               (0, a.jsx)("p", {
-                                children: "16th Cross, JP Nagar 4th Phase",
+                                children: "",
                               }),
                               (0, a.jsx)("p", {
-                                children: "Bangalore 560078, Karnataka, Indien",
+                                children: "Marokko",
                               }),
                             ],
                           }),

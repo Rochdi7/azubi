@@ -64,11 +64,11 @@
                             children: "Drop us a line anytime",
                           }),
                           (0, a.jsxs)("a", {
-                            href: "mailto:hello@goausbildung.com",
+                            href: "mailto:hello@azubi.ma",
                             className:
                               "text-primary font-medium hover:text-orange-hover transition-colors inline-flex items-center gap-2 group text-sm",
                             children: [
-                              "hello@goausbildung.com",
+                              "hello@azubi.ma",
                               (0, a.jsx)(o.A, {
                                 className:
                                   "w-4 h-4 group-hover:translate-x-1 transition-transform",
@@ -111,7 +111,7 @@
                             children: "Chat with us directly",
                           }),
                           (0, a.jsxs)("a", {
-                            href: "https://wa.me/971522884118?text=Hi%20GoAusbildung!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
+                            href: "https://wa.me/971522884118?text=Hi%20Azubi!%20I'm%20interested%20in%20learning%20more%20about%20Ausbildung%20opportunities.",
                             target: "_blank",
                             rel: "noopener noreferrer",
                             className:
@@ -186,7 +186,7 @@
                     className:
                       "text-lg text-muted-foreground max-w-2xl mx-auto",
                     children:
-                      "We're proud to serve students globally with offices in Dubai and Bangalore.",
+                      "We're proud to serve students globally with offices in Marrakech and Rabat.",
                   }),
                 ],
               }),
@@ -219,7 +219,7 @@
                                 (0, a.jsx)("h3", {
                                   className:
                                     "font-semibold text-lg text-secondary",
-                                  children: "Dubai HQ",
+                                  children: "Marrakech Office",
                                 }),
                               ],
                             }),
@@ -232,11 +232,11 @@
                                   className:
                                     "text-sm text-muted-foreground leading-relaxed",
                                   children: [
-                                    "Onyx Building, Unit 101-228",
+                                    "Marrakech",
                                     (0, a.jsx)("br", {}),
-                                    "Al Khabeesi, Dubai 239532",
+                                    "Morocco",
                                     (0, a.jsx)("br", {}),
-                                    "United Arab Emirates",
+                                    "Morocco",
                                   ],
                                 }),
                               }),
@@ -250,10 +250,10 @@
                                         className: "h-4 w-4 text-primary",
                                       }),
                                       (0, a.jsx)("a", {
-                                        href: "mailto:hello@goausbildung.com",
+                                        href: "mailto:hello@azubi.ma",
                                         className:
                                           "text-sm text-primary hover:underline",
-                                        children: "hello@goausbildung.com",
+                                        children: "hello@azubi.ma",
                                       }),
                                     ],
                                   }),
@@ -264,10 +264,10 @@
                                         className: "h-4 w-4 text-primary",
                                       }),
                                       (0, a.jsx)("a", {
-                                        href: "tel:+971522884118",
+                                        href: "tel:+212600000000",
                                         className:
                                           "text-sm text-primary hover:underline",
-                                        children: "+971 52 288 4118",
+                                        children: "+212 600 000 000",
                                       }),
                                     ],
                                   }),
@@ -305,7 +305,7 @@
                                 (0, a.jsx)("h3", {
                                   className:
                                     "font-semibold text-lg text-secondary",
-                                  children: "India Office - Bangalore",
+                                  children: "Rabat Office",
                                 }),
                               ],
                             }),
@@ -318,13 +318,13 @@
                                   className:
                                     "text-sm text-muted-foreground leading-relaxed",
                                   children: [
-                                    "No. 113, Kanaka Towers",
+                                    "Rabat",
                                     (0, a.jsx)("br", {}),
-                                    "16th Cross, JP Nagar 4th Phase",
+                                    "Morocco",
                                     (0, a.jsx)("br", {}),
-                                    "Dollars Colony, Bangalore 560078",
+                                    "Dollars Colony, Rabat",
                                     (0, a.jsx)("br", {}),
-                                    "Karnataka, India",
+                                    "Morocco",
                                   ],
                                 }),
                               }),
@@ -337,10 +337,10 @@
                                       className: "h-4 w-4 text-primary",
                                     }),
                                     (0, a.jsx)("a", {
-                                      href: "mailto:hello@goausbildung.com",
+                                      href: "mailto:hello@azubi.ma",
                                       className:
                                         "text-sm text-primary hover:underline",
-                                      children: "hello@goausbildung.com",
+                                      children: "hello@azubi.ma",
                                     }),
                                   ],
                                 }),
@@ -356,7 +356,7 @@
                       "hidden lg:block absolute -bottom-8 -right-12 w-40 h-40",
                     children: (0, a.jsx)(x.default, {
                       src: "/mascot/mascot_pointing_male.webp",
-                      alt: "GoAusbildung mascot pointing to locations",
+                      alt: "Azubi mascot pointing to locations",
                       width: 160,
                       height: 160,
                       className: "w-full h-auto scale-x-[-1]",
@@ -535,9 +535,9 @@
                       (0, a.jsx)(d.A, { className: "h-5 w-5 mr-2" }),
                       "Email us at\xa0",
                       (0, a.jsx)("a", {
-                        href: "mailto:hello@goausbildung.com",
+                        href: "mailto:hello@azubi.ma",
                         className: "hover:underline font-semibold",
-                        children: "hello@goausbildung.com",
+                        children: "hello@azubi.ma",
                       }),
                     ],
                   }),
@@ -715,7 +715,7 @@
                                 }),
                                 (0, a.jsx)("span", {
                                   className: "text-sm text-muted-foreground",
-                                  children: "hello@goausbildung.com",
+                                  children: "hello@azubi.ma",
                                 }),
                               ],
                             }),
@@ -758,7 +758,7 @@
                     className: "relative w-full max-w-lg",
                     children: (0, a.jsx)(i.default, {
                       src: "/mascot/mascot_welcoming.webp",
-                      alt: "GoAusbildung mascot welcoming you",
+                      alt: "Azubi mascot welcoming you",
                       width: 600,
                       height: 600,
                       className: "w-full h-auto animate-float",
@@ -861,7 +861,7 @@
               lastName: "",
               email: "",
               phone: "",
-              countryCode: "+91",
+              countryCode: "+212",
               subject: "",
               message: "",
               website: "",
@@ -914,7 +914,7 @@
                       lastName: e.lastName,
                       email: e.email,
                       phone: e.phone,
-                      countryCode: e.countryCode || "+91",
+                      countryCode: e.countryCode || "+212",
                     },
                     messageDetails: { subject: e.subject, message: e.message },
                     source: "Contact Form",
@@ -990,7 +990,7 @@
                             className: "mb-6",
                             children: (0, a.jsx)("img", {
                               src: "/mascot/mascot_celebrating_female.webp",
-                              alt: "GoAusbildung mascot celebrating",
+                              alt: "Azubi mascot celebrating",
                               className: "w-32 h-32 mx-auto mb-4",
                             }),
                           }),
@@ -1333,7 +1333,7 @@
                   children: [
                     (0, a.jsx)("img", {
                       src: "/mascot/mascot_studying_male.webp",
-                      alt: "GoAusbildung mascot encouraging you",
+                      alt: "Azubi mascot encouraging you",
                       className: "w-full max-w-[280px] h-auto",
                     }),
                     (0, a.jsx)("div", {

@@ -46,7 +46,7 @@
                     className:
                       "text-lg text-muted-foreground max-w-2xl mx-auto",
                     children:
-                      "Nutzungsbedingungen f\xfcr die Dienstleistungen von GoAusbildung",
+                      "Nutzungsbedingungen f\xfcr die Dienstleistungen von Azubi",
                   }),
                 ],
               }),
@@ -89,7 +89,7 @@
                           (0, n.jsx)("p", {
                             className: "text-sm text-muted-foreground mb-4",
                             children:
-                              "Diese Allgemeinen Gesch\xe4ftsbedingungen (AGB) gelten f\xfcr alle Dienstleistungen der GoAusbildung \xfcber die Website goausbildung.com und alle damit verbundenen Services.",
+                              "Diese Allgemeinen Gesch\xe4ftsbedingungen (AGB) gelten f\xfcr alle Dienstleistungen der Azubi \xfcber die Website azubi.ma und alle damit verbundenen Services.",
                           }),
                           (0, n.jsx)("p", {
                             className: "text-sm text-muted-foreground",
@@ -391,7 +391,7 @@
                               (0, n.jsx)("p", {
                                 className: "text-sm text-muted-foreground",
                                 children:
-                                  "GoAusbildung haftet nicht f\xfcr Entscheidungen von Ausbildungsunternehmen oder Beh\xf6rden. Wir k\xf6nnen keine Garantie f\xfcr erfolgreiche Bewerbungen oder Visa-Erteilungen geben.",
+                                  "Azubi haftet nicht f\xfcr Entscheidungen von Ausbildungsunternehmen oder Beh\xf6rden. Wir k\xf6nnen keine Garantie f\xfcr erfolgreiche Bewerbungen oder Visa-Erteilungen geben.",
                               }),
                             ],
                           }),
@@ -610,7 +610,7 @@
                               (0, n.jsx)("p", {
                                 className: "text-sm text-muted-foreground",
                                 children:
-                                  "F\xfcr deutsche Nutzer gelten die Verbraucherschutzgesetze der Bundesrepublik Deutschland. Im \xdcbrigen gelten die Gesetze der Vereinigten Arabischen Emirate (Dubai).",
+                                  "F\xfcr deutsche Nutzer gelten die Verbraucherschutzgesetze der Bundesrepublik Deutschland. Im \xdcbrigen gelten die Gesetze der Königreich Marokko.",
                               }),
                             ],
                           }),
@@ -624,7 +624,7 @@
                               (0, n.jsx)("p", {
                                 className: "text-sm text-muted-foreground",
                                 children:
-                                  "Als internationale Plattform bem\xfchen wir uns um au\xdfergerichtliche L\xf6sungen. Bei rechtlichen Streitigkeiten gelten die Gerichte in Dubai, VAE, sofern nicht zwingende Verbraucherschutzgesetze einen anderen Gerichtsstand vorsehen.",
+                                  "Als internationale Plattform bem\xfchen wir uns um au\xdfergerichtliche L\xf6sungen. Bei rechtlichen Streitigkeiten gelten die Gerichte in Marokko, sofern nicht zwingende Verbraucherschutzgesetze einen anderen Gerichtsstand vorsehen.",
                               }),
                             ],
                           }),
@@ -730,10 +730,10 @@
                         (0, n.jsxs)("div", {
                           children: [
                             (0, n.jsx)("a", {
-                              href: "mailto:hello@goausbildung.com",
+                              href: "mailto:hello@azubi.ma",
                               className:
                                 "text-primary hover:text-primary/80 transition-colors font-medium",
-                              children: "hello@goausbildung.com",
+                              children: "hello@azubi.ma",
                             }),
                             (0, n.jsx)("p", {
                               className: "text-xs text-muted-foreground",

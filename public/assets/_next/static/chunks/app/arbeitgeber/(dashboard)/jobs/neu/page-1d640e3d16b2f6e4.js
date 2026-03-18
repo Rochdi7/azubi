@@ -233,9 +233,9 @@
                   "Fragen? Kontaktieren Sie uns unter",
                   " ",
                   (0, i.jsx)("a", {
-                    href: "mailto:arbeitgeber@goausbildung.com",
+                    href: "mailto:arbeitgeber@azubi.ma",
                     className: "text-primary hover:underline",
-                    children: "arbeitgeber@goausbildung.com",
+                    children: "arbeitgeber@azubi.ma",
                   }),
                 ],
               }),

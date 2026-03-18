@@ -1540,7 +1540,7 @@
         {
           question: "Do document requirements vary by nationality?",
           answer:
-            "Yes, document requirements can vary significantly based on your nationality. Some countries require additional documents like TB test certificates, extra financial proof, or specific educational evaluations. Embassy requirements also differ - for example, Indian applicants might need APS certificates, while Nigerian applicants may face stricter financial documentation requirements. Our tool provides country-specific guidance to ensure you prepare the correct documents for your nationality.",
+            "Yes, document requirements can vary significantly based on your nationality. Some countries require additional documents like TB test certificates, extra financial proof, or specific educational evaluations. Embassy requirements also differ - for example, Moroccan applicants might need APS certificates, while Algerian applicants may face stricter financial documentation requirements. Our tool provides country-specific guidance to ensure you prepare the correct documents for your nationality.",
         },
         {
           question: "What is apostille and which documents need it?",
@@ -1590,10 +1590,10 @@
         O = i(33482),
         z = i(46031);
       let H = [
-          "India",
-          "Nigeria",
-          "Pakistan",
-          "Bangladesh",
+          "Morocco",
+          "Egypt",
+          "Spain",
+          "Italy",
           "Philippines",
           "Egypt",
           "Vietnam",
@@ -2041,7 +2041,7 @@
                             children: (0, s.jsx)(p.p, {
                               id: "currentLocation",
                               type: "text",
-                              placeholder: "e.g., Mumbai, India",
+                              placeholder: "e.g., Casablanca, Morocco",
                               value: e.currentLocation,
                               onChange: (e) =>
                                 D("currentLocation", e.target.value),

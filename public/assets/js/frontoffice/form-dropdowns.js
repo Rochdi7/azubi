@@ -38,15 +38,13 @@
     if (label.indexOf('current country') !== -1 || label.indexOf('country *') !== -1 || name.indexOf('country') !== -1) {
       return [
         { value: '', label: 'Current Country *' },
-        { value: 'india', label: 'India' },
-        { value: 'pakistan', label: 'Pakistan' },
-        { value: 'bangladesh', label: 'Bangladesh' },
-        { value: 'nepal', label: 'Nepal' },
-        { value: 'sri_lanka', label: 'Sri Lanka' },
-        { value: 'uae', label: 'UAE' },
-        { value: 'nigeria', label: 'Nigeria' },
-        { value: 'kenya', label: 'Kenya' },
         { value: 'morocco', label: 'Morocco' },
+        { value: 'spain', label: 'Spain' },
+        { value: 'italy', label: 'Italy' },
+        { value: 'germany', label: 'Germany' },
+        { value: 'france', label: 'France' },
+        { value: 'egypt', label: 'Egypt' },
+        { value: 'algeria', label: 'Algeria' },
         { value: 'other', label: 'Other' }
       ];
     }

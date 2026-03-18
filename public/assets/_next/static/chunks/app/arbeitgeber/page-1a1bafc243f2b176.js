@@ -23,7 +23,7 @@
           question:
             "Was kostet die Nutzung wirklich? Gibt es versteckte Geb\xfchren?",
           answer:
-            "Nein, GoAusbildung ist 100% kostenlos f\xfcr Arbeitgeber. Wir erheben keine Vermittlungsgeb\xfchren, keine Abonnementkosten und keine versteckten Geb\xfchren. Sie k\xf6nnen unbegrenzt Stellen ver\xf6ffentlichen und mit Kandidaten kommunizieren – komplett kostenfrei.",
+            "Nein, Azubi ist 100% kostenlos f\xfcr Arbeitgeber. Wir erheben keine Vermittlungsgeb\xfchren, keine Abonnementkosten und keine versteckten Geb\xfchren. Sie k\xf6nnen unbegrenzt Stellen ver\xf6ffentlichen und mit Kandidaten kommunizieren – komplett kostenfrei.",
         },
         {
           question: "Wie lange dauert der Visa-Prozess?",
@@ -210,7 +210,7 @@
                       " ",
                       (0, i.jsx)("span", {
                         className: "text-primary",
-                        children: "GoAusbildung w\xe4hlen",
+                        children: "Azubi w\xe4hlen",
                       }),
                     ],
                   }),
@@ -327,7 +327,7 @@
                               }),
                               " Unternehmen",
                               (0, i.jsx)("br", {}),
-                              "nutzen GoAusbildung",
+                              "nutzen Azubi",
                             ],
                           }),
                         ],
@@ -382,7 +382,7 @@
                             className: "text-2xl font-bold",
                             children: "847",
                           }),
-                          " Unternehmen nutzen GoAusbildung",
+                          " Unternehmen nutzen Azubi",
                         ],
                       }),
                       (0, i.jsx)(r(), {
@@ -786,7 +786,7 @@
                                         "jsx-f5f63364af781941 relative w-20 h-20 md:w-24 md:h-24 rounded-full bg-white flex items-center justify-center shadow-xl",
                                       children: (0, i.jsx)(x.default, {
                                         src: u.KN.ICON,
-                                        alt: "GoAusbildung Logo",
+                                        alt: "Azubi Logo",
                                         width: 64,
                                         height: 64,
                                         className:
@@ -940,7 +940,7 @@
                         className:
                           "text-base text-secondary/70 max-w-2xl mx-auto",
                         children:
-                          "Sehen Sie sofort, wie viel Sie mit GoAusbildung im Vergleich zu traditionellen Methoden sparen",
+                          "Sehen Sie sofort, wie viel Sie mit Azubi im Vergleich zu traditionellen Methoden sparen",
                       }),
                     ],
                   }),
@@ -1239,7 +1239,7 @@
                                   children: (0, i.jsx)("h3", {
                                     className:
                                       "text-base md:text-lg font-bold text-secondary",
-                                    children: "Mit GoAusbildung",
+                                    children: "Mit Azubi",
                                   }),
                                 }),
                                 (0, i.jsxs)("div", {
@@ -1368,7 +1368,7 @@
             value: "€5.000-15.000 pro erfolgreiche Vermittlung",
             isPositive: !1,
           },
-          goausbildung: {
+          Azubi: {
             value: "100% kostenlos - keine versteckten Geb\xfchren",
             isPositive: !0,
           },
@@ -1377,7 +1377,7 @@
           feature: "Kandidatenpool",
           traditional: { value: "Begrenzte lokale Reichweite", isPositive: !1 },
           agencies: { value: "Kleine, exklusive Auswahl", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "12.500+ internationale Kandidaten",
             isPositive: !0,
           },
@@ -1389,7 +1389,7 @@
             isPositive: !1,
           },
           agencies: { value: "Grundlegende \xdcberpr\xfcfung", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "92% mit B1-C1 Level verifiziert",
             isPositive: !0,
           },
@@ -1398,7 +1398,7 @@
           feature: "Kulturvorbereitung",
           traditional: { value: "Keine Vorbereitung", isPositive: !1 },
           agencies: { value: "Minimale Vorbereitung", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "Umfassendes Kulturtraining & Etikette",
             isPositive: !0,
           },
@@ -1410,7 +1410,7 @@
             isPositive: !1,
           },
           agencies: { value: "Basis-Dokumentenpr\xfcfung", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "Deutsche Standards + Video-Profile",
             isPositive: !0,
           },
@@ -1419,7 +1419,7 @@
           feature: "Geschwindigkeit",
           traditional: { value: "Wochen bis Monate", isPositive: !1 },
           agencies: { value: "2-4 Wochen", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "Erste Antworten in 48-72 Stunden",
             isPositive: !0,
           },
@@ -1431,7 +1431,7 @@
             isPositive: !1,
           },
           agencies: { value: "Traditionelle Vermittlung", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "Intelligentes Matching & Automatisierung",
             isPositive: !0,
           },
@@ -1440,13 +1440,13 @@
           feature: "Qualifikation",
           traditional: { value: "Gemischtes Bildungsniveau", isPositive: !1 },
           agencies: { value: "Vorqualifiziert", isPositive: !0 },
-          goausbildung: { value: "78% mit Hochschulabschluss", isPositive: !0 },
+          Azubi: { value: "78% mit Hochschulabschluss", isPositive: !0 },
         },
         {
           feature: "Support",
           traditional: { value: "Nur technischer Support", isPositive: !1 },
           agencies: { value: "Kostenpflichtiger Support", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "Kostenloser Email Support inklusive",
             isPositive: !0,
           },
@@ -1455,7 +1455,7 @@
           feature: "Rechtssicherheit",
           traditional: { value: "Keine Unterst\xfctzung", isPositive: !1 },
           agencies: { value: "Begrenzte Beratung", isPositive: !1 },
-          goausbildung: {
+          Azubi: {
             value: "DSGVO-konform + Visa-Support",
             isPositive: !0,
           },
@@ -1503,7 +1503,7 @@
                         className:
                           "text-lg text-secondary/70 max-w-3xl mx-auto",
                         children:
-                          "Warum GoAusbildung anders ist als traditionelle Jobb\xf6rsen und Personalvermittlungen",
+                          "Warum Azubi anders ist als traditionelle Jobb\xf6rsen und Personalvermittlungen",
                       }),
                     ],
                   }),
@@ -1534,7 +1534,7 @@
                                   children: (0, i.jsx)("p", {
                                     className:
                                       "font-semibold text-primary text-center",
-                                    children: "GoAusbildung ⭐",
+                                    children: "Azubi ⭐",
                                   }),
                                 }),
                                 (0, i.jsx)("div", {
@@ -1586,7 +1586,7 @@
                                       children: (0, i.jsxs)("div", {
                                         className: "flex items-start gap-3",
                                         children: [
-                                          e.goausbildung.isPositive
+                                          e.Azubi.isPositive
                                             ? (0, i.jsx)(r, {
                                                 className: "mt-0.5",
                                               })
@@ -1596,7 +1596,7 @@
                                           (0, i.jsx)("span", {
                                             className:
                                               "text-secondary text-sm font-medium leading-relaxed",
-                                            children: e.goausbildung.value,
+                                            children: e.Azubi.value,
                                           }),
                                         ],
                                       }),
@@ -1688,7 +1688,7 @@
                                   children: (0, i.jsx)("p", {
                                     className:
                                       "font-semibold text-primary text-center text-sm",
-                                    children: "GoAusbildung ⭐",
+                                    children: "Azubi ⭐",
                                   }),
                                 }),
                                 (0, i.jsx)("div", {
@@ -1740,7 +1740,7 @@
                                       children: (0, i.jsxs)("div", {
                                         className: "flex items-start gap-2",
                                         children: [
-                                          e.goausbildung.isPositive
+                                          e.Azubi.isPositive
                                             ? (0, i.jsx)(r, {
                                                 className: "mt-0.5 w-4 h-4",
                                               })
@@ -1750,7 +1750,7 @@
                                           (0, i.jsx)("span", {
                                             className:
                                               "text-secondary text-xs font-medium leading-relaxed",
-                                            children: e.goausbildung.value,
+                                            children: e.Azubi.value,
                                           }),
                                         ],
                                       }),
@@ -1842,7 +1842,7 @@
                                   children: (0, i.jsx)("p", {
                                     className:
                                       "font-semibold text-primary text-center text-xs",
-                                    children: "GoAusbildung ⭐",
+                                    children: "Azubi ⭐",
                                   }),
                                 }),
                                 (0, i.jsx)("div", {
@@ -1894,7 +1894,7 @@
                                       children: (0, i.jsxs)("div", {
                                         className: "flex items-start gap-1.5",
                                         children: [
-                                          e.goausbildung.isPositive
+                                          e.Azubi.isPositive
                                             ? (0, i.jsx)(r, {
                                                 className:
                                                   "mt-0.5 w-3.5 h-3.5 flex-shrink-0",
@@ -1906,7 +1906,7 @@
                                           (0, i.jsx)("span", {
                                             className:
                                               "text-secondary text-[10px] leading-relaxed font-medium",
-                                            children: e.goausbildung.value,
+                                            children: e.Azubi.value,
                                           }),
                                         ],
                                       }),
@@ -2429,7 +2429,7 @@
                               className:
                                 "ml-4 flex-1 h-6 bg-background/60 rounded px-3 flex items-center text-xs text-muted-foreground",
                               children:
-                                "goausbildung.com/arbeitgeber/dashboard",
+                                "azubi.ma/arbeitgeber/dashboard",
                             }),
                           ],
                         }),
@@ -2445,7 +2445,7 @@
                                     "mb-4 flex items-center justify-center",
                                   children: (0, i.jsx)(n.default, {
                                     src: j.KN.ICON,
-                                    alt: "GoAusbildung",
+                                    alt: "Azubi",
                                     width: 32,
                                     height: 32,
                                     className: "object-contain",
@@ -3316,7 +3316,7 @@
                       className:
                         "text-base md:text-lg text-white/70 font-medium",
                       children:
-                        "847 Unternehmen vertrauen GoAusbildung bereits",
+                        "847 Unternehmen vertrauen Azubi bereits",
                     }),
                     (0, i.jsx)("p", {
                       className: "text-sm md:text-base text-white/50",

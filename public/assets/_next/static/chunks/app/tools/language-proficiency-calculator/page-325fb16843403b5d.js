@@ -991,7 +991,7 @@
                     ],
                   }),
                   (0, a.jsx)("a", {
-                    href: "https://bookgermantest.com/game?ref=goausbildung",
+                    href: "https://bookgermantest.com/game?ref=Azubi",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     className:

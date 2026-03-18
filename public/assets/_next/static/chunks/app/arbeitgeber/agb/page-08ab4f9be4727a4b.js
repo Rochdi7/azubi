@@ -55,7 +55,7 @@
                           className:
                             "text-muted-foreground mt-2 text-sm md:text-base",
                           children:
-                            "F\xfcr die Nutzung der GoAusbildung Arbeitgeber-Plattform",
+                            "F\xfcr die Nutzung der Azubi Arbeitgeber-Plattform",
                         }),
                         (0, n.jsxs)("p", {
                           className: "text-muted-foreground text-sm",
@@ -118,7 +118,7 @@
                                   (0, n.jsx)("p", {
                                     className: "leading-relaxed",
                                     children:
-                                      'Diese Allgemeinen Gesch\xe4ftsbedingungen (AGB) gelten f\xfcr die Nutzung der Online-Plattform GoAusbildung (nachfolgend "Plattform") durch Arbeitgeber zur Ver\xf6ffentlichung von Stellenanzeigen f\xfcr Ausbildungspl\xe4tze und zur Suche nach qualifizierten internationalen Kandidaten.',
+                                      'Diese Allgemeinen Gesch\xe4ftsbedingungen (AGB) gelten f\xfcr die Nutzung der Online-Plattform Azubi (nachfolgend "Plattform") durch Arbeitgeber zur Ver\xf6ffentlichung von Stellenanzeigen f\xfcr Ausbildungspl\xe4tze und zur Suche nach qualifizierten internationalen Kandidaten.',
                                   }),
                                   (0, n.jsxs)("div", {
                                     className: "p-5 rounded-xl",
@@ -132,7 +132,7 @@
                                             children:
                                               "Betreiber der Plattform:",
                                           }),
-                                          " Qogent Global, mit Sitz in Dubai, Vereinigte Arabische Emirate",
+                                          " Azubi, mit Sitz in Marrakesch, Marokko",
                                         ],
                                       }),
                                       (0, n.jsx)("p", {
@@ -743,7 +743,7 @@
                                       (0, n.jsx)("p", {
                                         className: "leading-relaxed mb-4",
                                         children:
-                                          "Die Nutzung der GoAusbildung-Plattform ist derzeit f\xfcr Arbeitgeber vollst\xe4ndig kostenlos. Sie k\xf6nnen unbegrenzt Stellenanzeigen ver\xf6ffentlichen, Bewerbungen erhalten und mit Kandidaten kommunizieren – ohne jegliche Geb\xfchren.",
+                                          "Die Nutzung der Azubi-Plattform ist derzeit f\xfcr Arbeitgeber vollst\xe4ndig kostenlos. Sie k\xf6nnen unbegrenzt Stellenanzeigen ver\xf6ffentlichen, Bewerbungen erhalten und mit Kandidaten kommunizieren – ohne jegliche Geb\xfchren.",
                                       }),
                                       (0, n.jsx)("div", {
                                         className: "p-4 rounded-lg",
@@ -1009,7 +1009,7 @@
                                           className: "text-foreground",
                                           children: "Wichtig:",
                                         }),
-                                        " GoAusbildung ist lediglich Vermittler und nicht verantwortlich f\xfcr Ihre Datenverarbeitung im Rahmen des Bewerbungsverfahrens. Sie handeln als eigenst\xe4ndiger Verantwortlicher gem\xe4\xdf DSGVO.",
+                                        " Azubi ist lediglich Vermittler und nicht verantwortlich f\xfcr Ihre Datenverarbeitung im Rahmen des Bewerbungsverfahrens. Sie handeln als eigenst\xe4ndiger Verantwortlicher gem\xe4\xdf DSGVO.",
                                       ],
                                     }),
                                   }),
@@ -1062,7 +1062,7 @@
                                       (0, n.jsx)("p", {
                                         className: "leading-relaxed mb-3",
                                         children:
-                                          "GoAusbildung fungiert ausschlie\xdflich als Vermittlungsplattform zwischen Arbeitgebern und Bewerbern. Wir \xfcbernehmen keine Haftung f\xfcr:",
+                                          "Azubi fungiert ausschlie\xdflich als Vermittlungsplattform zwischen Arbeitgebern und Bewerbern. Wir \xfcbernehmen keine Haftung f\xfcr:",
                                       }),
                                       (0, n.jsxs)("ul", {
                                         className: "space-y-2",
@@ -1458,7 +1458,7 @@
                                           className: "text-foreground",
                                           children: "Gerichtsstand:",
                                         }),
-                                        " Ausschlie\xdflicher Gerichtsstand ist Dubai, VAE. F\xfcr datenschutzrechtliche Streitigkeiten k\xf6nnen Sie auch deutsche Gerichte anrufen.",
+                                        " Ausschlie\xdflicher Gerichtsstand ist Marokko. F\xfcr datenschutzrechtliche Streitigkeiten k\xf6nnen Sie auch deutsche Gerichte anrufen.",
                                       ],
                                     }),
                                     (0, n.jsxs)("p", {
@@ -1495,12 +1495,12 @@
                                         (0, n.jsx)("strong", {
                                           className: "text-foreground",
                                           children:
-                                            "GoAusbildung / Qogent Global",
+                                            "Azubi / Azubi",
                                         }),
                                         (0, n.jsx)("br", {}),
-                                        "Onyx Building, Unit 101-228",
+                                        "Marrakech",
                                         (0, n.jsx)("br", {}),
-                                        "Al Khabeesi, Dubai 239532, VAE",
+                                        "Morocco, VAE",
                                       ],
                                     }),
                                     (0, n.jsxs)("p", {
@@ -1512,11 +1512,11 @@
                                           children: "E-Mail:",
                                         }),
                                         (0, n.jsx)("a", {
-                                          href: "mailto:arbeitgeber@goausbildung.com",
+                                          href: "mailto:arbeitgeber@azubi.ma",
                                           className: "hover:underline",
                                           style: { color: "#F4991A" },
                                           children:
-                                            "arbeitgeber@goausbildung.com",
+                                            "arbeitgeber@azubi.ma",
                                         }),
                                       ],
                                     }),

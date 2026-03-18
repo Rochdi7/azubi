@@ -74,7 +74,7 @@
           {
             question: "Is the ROI Calculator accurate?",
             answer:
-              "The calculator provides highly accurate estimates based on official data from: (1) German Federal Foreign Office (visa and blocked account requirements), (2) IHK - Chamber of Commerce (stipend ranges by sector), (3) German Federal Statistical Office (living costs, salary data), (4) GoAusbildung internal data from 1000+ successful placements. However, actual costs and earnings can vary based on city, company, and individual circumstances. Use it as a planning tool, not an absolute guarantee.",
+              "The calculator provides highly accurate estimates based on official data from: (1) German Federal Foreign Office (visa and blocked account requirements), (2) IHK - Chamber of Commerce (stipend ranges by sector), (3) German Federal Statistical Office (living costs, salary data), (4) Azubi internal data from 1000+ successful placements. However, actual costs and earnings can vary based on city, company, and individual circumstances. Use it as a planning tool, not an absolute guarantee.",
           },
           {
             question:

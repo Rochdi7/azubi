@@ -341,7 +341,7 @@
                           (0, a.jsx)("p", {
                             className: "text-sm mt-1",
                             children:
-                              "Please try again in 60 minutes or contact hello@goausbildung.com for immediate assistance.",
+                              "Please try again in 60 minutes or contact hello@azubi.ma for immediate assistance.",
                           }),
                         ],
                       }),

@@ -1663,7 +1663,7 @@
                       }),
                       (0, a.jsx)("h3", {
                         className: "text-white font-bold text-lg lg:text-xl",
-                        children: "Priya Sharma",
+                        children: "Fatima Zahra",
                       }),
                     ],
                   }),
@@ -2577,21 +2577,21 @@
         p = s(50341);
       let u = [
         {
-          name: "Priya Sharma",
-          country: "India",
+          name: "Fatima Zahra",
+          country: "Morocco",
           avatar: "/avatars/priya.webp",
           company: "Siemens AG",
           city: "Munich",
           role: "IT Specialist",
           quote:
-            "I was applying for 6 months with zero responses. GoAusbildung team got me 3 interview calls in my first month. The cover letters they wrote were incredible - I could never write German that well. Now I'm starting at Siemens!",
+            "I was applying for 6 months with zero responses. Azubi team got me 3 interview calls in my first month. The cover letters they wrote were incredible - I could never write German that well. Now I'm starting at Siemens!",
           timeline: "Applied: Oct 2025 → Offer: Dec 2025",
           duration: "2 months",
           rating: 5,
         },
         {
-          name: "Ahmed Khan",
-          country: "Pakistan",
+          name: "Omar Bennani",
+          country: "Morocco",
           avatar: "/avatars/ahmed.webp",
           company: "BMW Group",
           city: "Berlin",
@@ -2603,8 +2603,8 @@
           rating: 5,
         },
         {
-          name: "Sarah Okonkwo",
-          country: "Nigeria",
+          name: "Sara Amrani",
+          country: "Morocco",
           avatar: "/avatars/sarah.webp",
           company: "Deutsche Bahn",
           city: "Frankfurt",
@@ -2617,7 +2617,7 @@
         },
         {
           name: "Raj Patel",
-          country: "India",
+          country: "Morocco",
           avatar: "/avatars/raj.webp",
           company: "Bosch",
           city: "Stuttgart",
@@ -3150,7 +3150,7 @@
                           "border-2 border-white/30 text-white hover:bg-white/10 hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-all",
                         asChild: !0,
                         children: (0, a.jsx)("a", {
-                          href: "mailto:support@goausbildung.com",
+                          href: "mailto:support@azubi.ma",
                           children: "Ask a Question",
                         }),
                       }),
@@ -3419,7 +3419,7 @@
                       children: "Still have questions?",
                     }),
                     (0, a.jsx)("a", {
-                      href: "mailto:support@goausbildung.com",
+                      href: "mailto:support@azubi.ma",
                       className:
                         "px-6 py-2 bg-[#344F1F] text-white rounded-full font-medium hover:bg-[#2d4219] transition-colors",
                       children: "Contact Us",
@@ -3514,7 +3514,7 @@
                               (0, a.jsx)("p", {
                                 className: "text-gray-600 mb-6",
                                 children:
-                                  "Welcome to GoAusbildung Consultation! Your enrollment is confirmed and our team will contact you within 24-48 hours.",
+                                  "Welcome to Azubi Consultation! Your enrollment is confirmed and our team will contact you within 24-48 hours.",
                               }),
                               (0, a.jsxs)("div", {
                                 className:
@@ -3643,10 +3643,10 @@
                                     " Contact us at",
                                     " ",
                                     (0, a.jsx)("a", {
-                                      href: "mailto:support@goausbildung.com",
+                                      href: "mailto:support@azubi.ma",
                                       className:
                                         "text-[#F4991A] hover:underline",
-                                      children: "support@goausbildung.com",
+                                      children: "support@azubi.ma",
                                     }),
                                   ],
                                 }),
@@ -3710,7 +3710,7 @@
                   children: [
                     (0, a.jsx)("img", {
                       src: "/images/hero-background-germany-natural-autumn.webp",
-                      alt: "GoAusbildung Apply For Me Service",
+                      alt: "Azubi Apply For Me Service",
                       className: "w-full h-full object-cover",
                       loading: "eager",
                       fetchPriority: "high",
@@ -4199,7 +4199,7 @@
                                   "flex items-end justify-between gap-4 mb-2",
                                 children: (0, a.jsx)("h3", {
                                   className: "text-2xl font-bold text-white",
-                                  children: "GoAusbildung Consultation",
+                                  children: "Azubi Consultation",
                                 }),
                               }),
                               (0, a.jsx)("p", {

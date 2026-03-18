@@ -34,7 +34,7 @@
           Norway: 1,
           Iceland: 1,
           Liechtenstein: 1,
-          India: 2.5,
+          Morocco: 2.5,
           Philippines: 2.5,
           Vietnam: 2.5,
           Thailand: 2.5,
@@ -370,10 +370,10 @@
         V = t(79650),
         W = t(95992);
       let U = [
-          "India",
-          "Nigeria",
-          "Pakistan",
-          "Bangladesh",
+          "Morocco",
+          "Egypt",
+          "Spain",
+          "Italy",
           "Philippines",
           "Egypt",
           "Vietnam",
@@ -815,7 +815,7 @@
                               children: (0, s.jsx)(u.p, {
                                 id: "currentLocation",
                                 type: "text",
-                                placeholder: "e.g., Mumbai, India",
+                                placeholder: "e.g., Casablanca, Morocco",
                                 value: e.currentLocation,
                                 onChange: (e) =>
                                   ee("currentLocation", e.target.value),

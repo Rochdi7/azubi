@@ -178,7 +178,7 @@
         let { post: x } = e,
           g = async () => {
             let e = window.location.href,
-              t = x.title || "GoAusbildung Blog";
+              t = x.title || "Azubi Blog";
             if (navigator.share)
               try {
                 await navigator.share({ title: t, url: e });
@@ -243,7 +243,7 @@
                           name:
                             (null === (l = x.author) || void 0 === l
                               ? void 0
-                              : l.name) || "GoAusbildung Team",
+                              : l.name) || "Azubi Team",
                           size: "sm",
                         }),
                         (0, r.jsx)("span", {
@@ -251,7 +251,7 @@
                           children:
                             (null === (u = x.author) || void 0 === u
                               ? void 0
-                              : u.name) || "GoAusbildung Team",
+                              : u.name) || "Azubi Team",
                         }),
                       ],
                     }),

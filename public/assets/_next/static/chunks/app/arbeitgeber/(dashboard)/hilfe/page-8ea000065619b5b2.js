@@ -458,7 +458,7 @@
                                               className:
                                                 "text-sm text-muted-foreground",
                                               children:
-                                                "support@goausbildung.com",
+                                                "support@azubi.ma",
                                             }),
                                             (0, s.jsx)("p", {
                                               className:

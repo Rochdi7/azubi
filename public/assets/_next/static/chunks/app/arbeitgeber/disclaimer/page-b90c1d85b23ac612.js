@@ -51,7 +51,7 @@
                           className:
                             "text-muted-foreground mt-2 text-sm md:text-base",
                           children:
-                            "Wichtige Hinweise zur Nutzung der GoAusbildung-Plattform",
+                            "Wichtige Hinweise zur Nutzung der Azubi-Plattform",
                         }),
                         (0, n.jsxs)("p", {
                           className: "text-muted-foreground text-sm",
@@ -96,7 +96,7 @@
                           (0, n.jsx)("p", {
                             className: "text-muted-foreground leading-relaxed",
                             children:
-                              "Bitte lesen Sie diesen Haftungsausschluss sorgf\xe4ltig durch. Durch die Nutzung der GoAusbildung-Plattform erkl\xe4ren Sie sich mit den nachfolgenden Bedingungen einverstanden.",
+                              "Bitte lesen Sie diesen Haftungsausschluss sorgf\xe4ltig durch. Durch die Nutzung der Azubi-Plattform erkl\xe4ren Sie sich mit den nachfolgenden Bedingungen einverstanden.",
                           }),
                         ],
                       }),
@@ -149,7 +149,7 @@
                                           (0, n.jsx)("strong", {
                                             className: "text-foreground",
                                             children:
-                                              "GoAusbildung fungiert ausschlie\xdflich als Vermittlungsplattform",
+                                              "Azubi fungiert ausschlie\xdflich als Vermittlungsplattform",
                                           }),
                                           " zwischen Arbeitgebern und internationalen Bewerbern f\xfcr Ausbildungspl\xe4tze in Deutschland.",
                                         ],
@@ -225,7 +225,7 @@
                                   (0, n.jsx)("p", {
                                     className: "leading-relaxed",
                                     children:
-                                      "GoAusbildung \xfcbernimmt keine Haftung f\xfcr die von Nutzern (Arbeitgebern und Bewerbern) bereitgestellten Inhalte:",
+                                      "Azubi \xfcbernimmt keine Haftung f\xfcr die von Nutzern (Arbeitgebern und Bewerbern) bereitgestellten Inhalte:",
                                   }),
                                   (0, n.jsxs)("div", {
                                     className: "space-y-3",
@@ -924,7 +924,7 @@
                                           className: "text-foreground",
                                           children: "Gerichtsstand:",
                                         }),
-                                        " Ausschlie\xdflicher Gerichtsstand ist Dubai, VAE. F\xfcr datenschutzrechtliche Streitigkeiten k\xf6nnen auch deutsche Gerichte angerufen werden.",
+                                        " Ausschlie\xdflicher Gerichtsstand ist Marokko. F\xfcr datenschutzrechtliche Streitigkeiten k\xf6nnen auch deutsche Gerichte angerufen werden.",
                                       ],
                                     }),
                                   ],
@@ -960,11 +960,11 @@
                                       }),
                                       " ",
                                       (0, n.jsx)("a", {
-                                        href: "mailto:arbeitgeber@goausbildung.com",
+                                        href: "mailto:arbeitgeber@azubi.ma",
                                         className: "hover:underline",
                                         style: { color: "#F4991A" },
                                         children:
-                                          "arbeitgeber@goausbildung.com",
+                                          "arbeitgeber@azubi.ma",
                                       }),
                                     ],
                                   }),

@@ -1,5 +1,5 @@
 /* ============================================
-   GoAusbildung - Script
+   Azubi - Script
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {

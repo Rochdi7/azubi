@@ -94,7 +94,7 @@
                           (0, n.jsx)("p", {
                             className: "text-muted-foreground leading-relaxed",
                             children:
-                              "Die GoAusbildung Arbeitgeber-Plattform richtet sich ausschlie\xdflich an Unternehmen und gewerbliche Nutzer (B2B). F\xfcr B2B-Vertr\xe4ge gelten besondere Regelungen bez\xfcglich des Widerrufsrechts.",
+                              "Die Azubi Arbeitgeber-Plattform richtet sich ausschlie\xdflich an Unternehmen und gewerbliche Nutzer (B2B). F\xfcr B2B-Vertr\xe4ge gelten besondere Regelungen bez\xfcglich des Widerrufsrechts.",
                           }),
                         ],
                       }),
@@ -167,7 +167,7 @@
                                       (0, n.jsxs)("p", {
                                         className: "leading-relaxed",
                                         children: [
-                                          "Da die Nutzung der GoAusbildung Arbeitgeber-Plattform ausschlie\xdflich ",
+                                          "Da die Nutzung der Azubi Arbeitgeber-Plattform ausschlie\xdflich ",
                                           (0, n.jsx)("strong", {
                                             className: "text-foreground",
                                             children:
@@ -289,12 +289,12 @@
                                               "Die K\xfcndigung erfolgt formlos per E-Mail an:",
                                               " ",
                                               (0, n.jsx)("a", {
-                                                href: "mailto:arbeitgeber@goausbildung.com",
+                                                href: "mailto:arbeitgeber@azubi.ma",
                                                 className:
                                                   "font-medium hover:underline",
                                                 style: { color: "#F4991A" },
                                                 children:
-                                                  "arbeitgeber@goausbildung.com",
+                                                  "arbeitgeber@azubi.ma",
                                               }),
                                             ],
                                           }),
@@ -392,7 +392,7 @@
                                     (0, n.jsxs)("p", {
                                       className: "leading-relaxed mb-3",
                                       children: [
-                                        "Die Nutzung der GoAusbildung Arbeitgeber-Plattform ist derzeit ",
+                                        "Die Nutzung der Azubi Arbeitgeber-Plattform ist derzeit ",
                                         (0, n.jsx)("strong", {
                                           className: "text-foreground",
                                           children: "vollst\xe4ndig kostenlos",
@@ -574,12 +574,12 @@
                                                     children: "E-Mail",
                                                   }),
                                                   (0, n.jsx)("a", {
-                                                    href: "mailto:arbeitgeber@goausbildung.com",
+                                                    href: "mailto:arbeitgeber@azubi.ma",
                                                     className:
                                                       "hover:underline",
                                                     style: { color: "#F4991A" },
                                                     children:
-                                                      "arbeitgeber@goausbildung.com",
+                                                      "arbeitgeber@azubi.ma",
                                                   }),
                                                 ],
                                               }),

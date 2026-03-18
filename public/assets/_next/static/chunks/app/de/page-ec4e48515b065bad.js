@@ -3062,7 +3062,7 @@
                       controls: !0,
                       playsInline: !0,
                       poster:
-                        "https://images.goausbildung.com/hero-images/ausbildung-video-cover-v2.webp",
+                        "https://images.azubi.ma/hero-images/ausbildung-video-cover-v2.webp",
                       children: [
                         (0, r.jsx)("source", {
                           src: l.BI.AUSBILDUNG_EXPLAINER,

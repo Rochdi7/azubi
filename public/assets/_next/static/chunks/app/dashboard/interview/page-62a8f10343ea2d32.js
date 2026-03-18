@@ -756,7 +756,7 @@
                                           children: k
                                             ? (0, r.jsx)(n.default, {
                                                 src: "/logo-icon.webp",
-                                                alt: "GoAusbildung",
+                                                alt: "Azubi",
                                                 width: 20,
                                                 height: 20,
                                                 className:
@@ -1081,7 +1081,7 @@
                                         })
                                       : (0, r.jsx)(n.default, {
                                           src: "/logo-icon.webp",
-                                          alt: "GoAusbildung",
+                                          alt: "Azubi",
                                           width: 24,
                                           height: 24,
                                           className:

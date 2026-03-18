@@ -25,20 +25,20 @@
         f = a(82110),
         b = a(4286);
       let N = {
-        name: "GoAusbildung",
+        name: "Azubi",
         description:
           "Your gateway to German Ausbildung opportunities - connecting international students with vocational training in Germany.",
-        url: "https://goausbildung.com",
+        url: "https://azubi.ma",
         ogImage: a(78809)._l.OG_IMAGE,
         links: {
           facebook:
-            "https://www.facebook.com/people/GoAusbildung/61583863540385/",
-          instagram: "https://www.instagram.com/goausbildung.global/",
-          linkedin: "https://www.linkedin.com/company/goausbildung/",
-          twitter: "https://x.com/goausbildung",
-          youtube: "https://www.youtube.com/@goausbildung",
-          github: "https://github.com/udaysy007/goausbildung",
-          pinterest: "https://pinterest.com/goausbildung",
+            "https://www.facebook.com/people/Azubi/61583863540385/",
+          instagram: "https://www.instagram.com/Azubi.global/",
+          linkedin: "https://www.linkedin.com/company/Azubi/",
+          twitter: "https://x.com/Azubi",
+          youtube: "https://www.youtube.com/@Azubi",
+          github: "https://github.com/udaysy007/Azubi",
+          pinterest: "https://pinterest.com/Azubi",
         },
       };
       function v(e) {
@@ -62,7 +62,7 @@
               name: e.label,
               url: e.href.startsWith("http")
                 ? e.href
-                : "https://goausbildung.com".concat(
+                : "https://azubi.ma".concat(
                     "/" === e.href ? "" : e.href,
                   ),
             })),
@@ -226,20 +226,20 @@
             return (e[a] || (e[a] = []), e[s.category || "general"].push(s), e);
           }, {}),
           B = v([
-            { name: "Home", url: "https://goausbildung.com" },
-            { name: "Sectors", url: "https://goausbildung.com/sectors" },
+            { name: "Home", url: "https://azubi.ma" },
+            { name: "Sectors", url: "https://azubi.ma/sectors" },
             {
               name:
                 (null === (e = C.sectors) || void 0 === e ? void 0 : e.name) ||
                 "Sector",
-              url: "https://goausbildung.com/sectors/".concat(
+              url: "https://azubi.ma/sectors/".concat(
                 (null === (s = C.sectors) || void 0 === s ? void 0 : s.slug) ||
                   "",
               ),
             },
             {
               name: C.name,
-              url: "https://goausbildung.com/programs/".concat(C.slug),
+              url: "https://azubi.ma/programs/".concat(C.slug),
             },
           ]),
           F = C.requirements.map((e) => e.title),
@@ -321,8 +321,8 @@
             sectorName:
               (null === (a = C.sectors) || void 0 === a ? void 0 : a.name) ||
               "Vocational Training",
-            url: "https://goausbildung.com/programs/".concat(C.slug),
-            applicationUrl: "https://goausbildung.com/application",
+            url: "https://azubi.ma/programs/".concat(C.slug),
+            applicationUrl: "https://azubi.ma/application",
             programCode: C.program_code || void 0,
             requirements: F,
             skills: M,

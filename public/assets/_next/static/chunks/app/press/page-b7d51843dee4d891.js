@@ -19,7 +19,7 @@
         return (0, t.jsx)(a.d, {
           badge: { text: "Press & Media", icon: l.A },
           title: "Press Center",
-          subtitle: "Latest news and announcements from GoAusbildung",
+          subtitle: "Latest news and announcements from Azubi",
           primaryCta: {
             text: "Latest News",
             href: "#press-releases",

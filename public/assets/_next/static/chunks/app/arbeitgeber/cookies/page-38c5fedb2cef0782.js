@@ -51,7 +51,7 @@
                           className:
                             "text-muted-foreground mt-2 text-sm md:text-base",
                           children:
-                            "Informationen \xfcber die Verwendung von Cookies auf GoAusbildung",
+                            "Informationen \xfcber die Verwendung von Cookies auf Azubi",
                         }),
                         (0, l.jsxs)("p", {
                           className: "text-muted-foreground text-sm",
@@ -182,7 +182,7 @@
                                                   (0, l.jsx)("p", {
                                                     className: "text-sm",
                                                     children:
-                                                      "Werden direkt von GoAusbildung gesetzt",
+                                                      "Werden direkt von Azubi gesetzt",
                                                   }),
                                                 ],
                                               }),
@@ -512,7 +512,7 @@
                                                   (0, l.jsx)("strong", {
                                                     children: "Anbieter:",
                                                   }),
-                                                  " GoAusbildung (First-Party)",
+                                                  " Azubi (First-Party)",
                                                 ],
                                               }),
                                               (0, l.jsxs)("p", {
@@ -862,7 +862,7 @@
                                                   (0, l.jsx)("strong", {
                                                     children: "Anbieter:",
                                                   }),
-                                                  " GoAusbildung (First-Party)",
+                                                  " Azubi (First-Party)",
                                                 ],
                                               }),
                                               (0, l.jsxs)("p", {
@@ -919,7 +919,7 @@
                                                   (0, l.jsx)("strong", {
                                                     children: "Anbieter:",
                                                   }),
-                                                  " GoAusbildung (First-Party)",
+                                                  " Azubi (First-Party)",
                                                 ],
                                               }),
                                               (0, l.jsxs)("p", {
@@ -1514,11 +1514,11 @@
                                       children: "E-Mail:",
                                     }),
                                     (0, l.jsx)("a", {
-                                      href: "mailto:datenschutz@goausbildung.com",
+                                      href: "mailto:datenschutz@azubi.ma",
                                       className:
                                         "text-sm font-medium hover:underline",
                                       style: { color: "#F4991A" },
-                                      children: "datenschutz@goausbildung.com",
+                                      children: "datenschutz@azubi.ma",
                                     }),
                                   ],
                                 }),

@@ -29,69 +29,69 @@
       let w = [
         {
           id: "deutscher-lebenslauf",
-          filename: "GoAusbildung_Deutscher_Lebenslauf_Vorlage.docx",
+          filename: "Azubi_Deutscher_Lebenslauf_Vorlage.docx",
           name: "Deutscher Lebenslauf Vorlage",
           description:
             "Traditionelle deutsche Vorlage f\xfcr konservative Branchen.",
           category: "Traditional",
           features: [],
           downloadUrl:
-            "https://storage.googleapis.com/goausbildung-cv-templates/GoAusbildung_Deutscher_Lebenslauf_Vorlage.docx",
+            "https://storage.googleapis.com/Azubi-cv-templates/Azubi_Deutscher_Lebenslauf_Vorlage.docx",
           fileSize: 39115,
           color: "text-blue-500 bg-blue-500/10",
           icon: "FileText",
         },
         {
           id: "einsteiger-lebenslauf",
-          filename: "GoAusbildung_Einsteiger_Lebenslauf.docx",
+          filename: "Azubi_Einsteiger_Lebenslauf.docx",
           name: "Einsteiger Lebenslauf",
           description:
             "Speziell f\xfcr Berufseinsteiger und Ausbildungsbewerber.",
           category: "Entry Level",
           features: [],
           downloadUrl:
-            "https://storage.googleapis.com/goausbildung-cv-templates/GoAusbildung_Einsteiger_Lebenslauf.docx",
+            "https://storage.googleapis.com/Azubi-cv-templates/Azubi_Einsteiger_Lebenslauf.docx",
           fileSize: 39013,
           color: "text-green-500 bg-green-500/10",
           icon: "Users",
         },
         {
           id: "it-technisch-lebenslauf",
-          filename: "GoAusbildung_IT_Technisch_Lebenslauf.docx",
+          filename: "Azubi_IT_Technisch_Lebenslauf.docx",
           name: "IT & Technisch Lebenslauf",
           description:
             "Optimiert f\xfcr IT-Berufe und technische Ausbildungen.",
           category: "IT & Technical",
           features: [],
           downloadUrl:
-            "https://storage.googleapis.com/goausbildung-cv-templates/GoAusbildung_IT_Technisch_Lebenslauf.docx",
+            "https://storage.googleapis.com/Azubi-cv-templates/Azubi_IT_Technisch_Lebenslauf.docx",
           fileSize: 38071,
           color: "text-purple-500 bg-purple-500/10",
           icon: "Code",
         },
         {
           id: "pflege-gesundheit-lebenslauf",
-          filename: "GoAusbildung_Pflege_Gesundheit_Lebenslauf.docx",
+          filename: "Azubi_Pflege_Gesundheit_Lebenslauf.docx",
           name: "Pflege & Gesundheit Lebenslauf",
           description:
             "Ma\xdfgeschneidert f\xfcr Gesundheits- und Pflegeberufe.",
           category: "Healthcare",
           features: [],
           downloadUrl:
-            "https://storage.googleapis.com/goausbildung-cv-templates/GoAusbildung_Pflege_Gesundheit_Lebenslauf.docx",
+            "https://storage.googleapis.com/Azubi-cv-templates/Azubi_Pflege_Gesundheit_Lebenslauf.docx",
           fileSize: 38851,
           color: "text-red-500 bg-red-500/10",
           icon: "Heart",
         },
         {
           id: "traditioneller-lebenslauf",
-          filename: "GoAusbildung_Traditioneller_Lebenslauf.docx",
+          filename: "Azubi_Traditioneller_Lebenslauf.docx",
           name: "Traditioneller Lebenslauf",
           description: "Klassisches Design f\xfcr alle Branchen.",
           category: "Classic",
           features: [],
           downloadUrl:
-            "https://storage.googleapis.com/goausbildung-cv-templates/GoAusbildung_Traditioneller_Lebenslauf.docx",
+            "https://storage.googleapis.com/Azubi-cv-templates/Azubi_Traditioneller_Lebenslauf.docx",
           fileSize: 37627,
           color: "text-gray-500 bg-gray-500/10",
           icon: "Building",
@@ -104,7 +104,7 @@
           category: "Modern",
           features: [],
           downloadUrl:
-            "https://storage.googleapis.com/goausbildung-cv-templates/Modern_Professional_CV_Template.docx",
+            "https://storage.googleapis.com/Azubi-cv-templates/Modern_Professional_CV_Template.docx",
           fileSize: 38121,
           color: "text-cyan-500 bg-cyan-500/10",
           icon: "Award",

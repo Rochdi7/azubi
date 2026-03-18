@@ -1010,7 +1010,7 @@
                     size: "lg",
                     className: "text-muted-foreground",
                     children:
-                      "Welcome to the GoAusbildung blog, your comprehensive resource for everything related to vocational training and dual education programs in Germany. Our expert-written articles cover the entire Ausbildung journey—from application preparation and visa requirements to cultural integration and career opportunities after completing your program.",
+                      "Welcome to the Azubi blog, your comprehensive resource for everything related to vocational training and dual education programs in Germany. Our expert-written articles cover the entire Ausbildung journey—from application preparation and visa requirements to cultural integration and career opportunities after completing your program.",
                   }),
                   (0, i.jsx)(x.f, {
                     size: "lg",
@@ -5036,7 +5036,7 @@
       s.d(t, { CookieConsentProvider: () => d, uC: () => u, vP: () => m });
       var i = s(70207),
         n = s(87223);
-      let r = "goausbildung-cookie-consent",
+      let r = "Azubi-cookie-consent",
         a = () => false,
         l = {
           version: "1.0",
@@ -5110,7 +5110,7 @@
               )),
                 (document.cookie = "".concat(
                   e,
-                  "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.goausbildung.com;",
+                  "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.azubi.ma;",
                 )));
             }),
               window.dispatchEvent(
@@ -7048,12 +7048,12 @@
         m = [
           {
             icon: o.A,
-            href: "https://www.linkedin.com/company/goausbildung/",
+            href: "https://www.linkedin.com/company/Azubi/",
             label: "LinkedIn",
           },
           {
             icon: c.A,
-            href: "https://www.instagram.com/goausbildung.global/",
+            href: "https://www.instagram.com/Azubi.global/",
             label: "Instagram",
           },
           {
@@ -7077,12 +7077,12 @@
                   }),
                 ],
               }),
-            href: "https://x.com/goausbildung",
+            href: "https://x.com/Azubi",
             label: "X (formerly Twitter)",
           },
           {
             icon: d.A,
-            href: "https://www.youtube.com/@goausbildung",
+            href: "https://www.youtube.com/@Azubi",
             label: "YouTube",
           },
         ];
@@ -7256,7 +7256,7 @@
                       children: [
                         "\xa9 ",
                         new Date().getFullYear(),
-                        " GoAusbildung. Alle Rechte vorbehalten.",
+                        " Azubi. Alle Rechte vorbehalten.",
                       ],
                     }),
                     (0, i.jsxs)("div", {
@@ -18483,7 +18483,7 @@
               persistSession: !0,
               autoRefreshToken: !0,
               detectSessionInUrl: !0,
-              storageKey: "goausbildung-auth-token",
+              storageKey: "Azubi-auth-token",
               storage: window.localStorage,
             },
             global: { fetch: (e, t) => fetch(e, { ...t, cache: n }) },
@@ -21453,7 +21453,7 @@
         },
         {
           code: "AE",
-          name: "United Arab Emirates",
+          name: "Morocco",
           phoneCode: "971",
           flagCode: "AE",
           flag: "\uD83C\uDDE6\uD83C\uDDEA",
@@ -22033,7 +22033,7 @@
         );
       }
       function n(e) {
-        return "".concat("https://goausbildung.com", "/student/").concat(e);
+        return "".concat("https://azubi.ma", "/student/").concat(e);
       }
       s.d(t, { YH: () => n, yZ: () => i });
     },
@@ -28877,7 +28877,7 @@
         }, [t, v]);
         let F = w
             ? "Check out ".concat(y, "'s Ausbildung profile: ").concat(w)
-            : "Check out ".concat(y, "'s profile on GoAusbildung"),
+            : "Check out ".concat(y, "'s profile on Azubi"),
           S = {
             whatsapp: "https://wa.me/?text=".concat(
               encodeURIComponent("".concat(F, " ").concat(v)),
@@ -32348,7 +32348,7 @@
               signOut: "Sign Out",
             },
             footer: {
-              copyright: "\xa9 {year} GoAusbildung. All rights reserved.",
+              copyright: "\xa9 {year} Azubi. All rights reserved.",
               privacyPolicy: "Privacy Policy",
               termsOfService: "Terms of Service",
               contact: "Contact Us",
@@ -32451,7 +32451,7 @@
               signOut: "Abmelden",
             },
             footer: {
-              copyright: "\xa9 {year} GoAusbildung. Alle Rechte vorbehalten.",
+              copyright: "\xa9 {year} Azubi. Alle Rechte vorbehalten.",
               privacyPolicy: "Datenschutz",
               termsOfService: "Nutzungsbedingungen",
               contact: "Kontakt",
@@ -35743,7 +35743,7 @@
             title: "Subscription",
             loading: "Loading subscription details...",
             success: {
-              title: "Welcome to GoAusbildung Pro!",
+              title: "Welcome to Azubi Pro!",
               message:
                 "Your subscription has been activated successfully. You now have access to all premium features!",
               premiumFeatures: "Premium Features Unlocked",
@@ -35773,7 +35773,7 @@
             title: "Abonnement",
             loading: "Abonnementdetails werden geladen...",
             success: {
-              title: "Willkommen bei GoAusbildung Pro!",
+              title: "Willkommen bei Azubi Pro!",
               message:
                 "Dein Abonnement wurde erfolgreich aktiviert. Du hast jetzt Zugriff auf alle Premium-Funktionen!",
               premiumFeatures: "Premium-Funktionen freigeschaltet",
@@ -41520,7 +41520,7 @@
               created: "Created {date}",
               viewJobListing: "View Original Job Listing",
               jobMatchScore: "Job Match Score",
-              generatedWith: "Generated with GoAusbildung",
+              generatedWith: "Generated with Azubi",
               improvementSuggestions: "Improvement Suggestions",
               deleteTitle: "Delete Cover Letter",
               deleteDescription:
@@ -41592,7 +41592,7 @@
               created: "Erstellt am {date}",
               viewJobListing: "Urspr\xfcngliche Stellenanzeige anzeigen",
               jobMatchScore: "Job-\xdcbereinstimmungswert",
-              generatedWith: "Erstellt mit GoAusbildung",
+              generatedWith: "Erstellt mit Azubi",
               improvementSuggestions: "Verbesserungsvorschl\xe4ge",
               deleteTitle: "Anschreiben l\xf6schen",
               deleteDescription:
@@ -42356,7 +42356,7 @@
             }, e)
           : e;
       }
-      let S = "goausbildung-dashboard-language";
+      let S = "Azubi-dashboard-language";
       function C(e) {
         "undefined" != typeof localStorage && localStorage.setItem(S, e);
       }
@@ -46850,6 +46850,22 @@
               premium: { advance: 9e8, success: 27e8, total: 36e8 },
             },
           },
+          MAD: {
+            code: "MAD",
+            symbol: "MAD",
+            name: "Moroccan Dirham",
+            monthlyAmount: 19000,
+            yearlyAmount: 189000,
+            decimals: 2,
+            stripeCode: "mad",
+            locale: "fr-MA",
+            flag: "\uD83C\uDDF2\uD83C\uDDE6",
+            applyForMe: {
+              starter: { advance: 12e4, success: 24e4, total: 36e4 },
+              standard: { advance: 3e5, success: 899900, total: 1199900 },
+              premium: { advance: 6e5, success: 18e5, total: 24e5 },
+            },
+          },
         },
         n = {
           in: "INR",
@@ -46861,7 +46877,7 @@
           us: "USD",
           sg: "USD",
           id: "IDR",
-          ma: "EUR",
+          ma: "MAD",
           fr: "EUR",
           it: "EUR",
           es: "EUR",
@@ -46882,7 +46898,7 @@
           eg: "USD",
           za: "USD",
         },
-        r = "USD";
+        r = "MAD";
       function a(e) {
         return (e && i[n[e.toLowerCase()]]) || i[r];
       }
@@ -47876,8 +47892,8 @@
       let i = {
           ICON: "/logo-icon.webp",
           ICON_PNG: "/logo-icon.png",
-          WHITE: "/GoAusbildung-logo-white",
-          DEFAULT: "/GoAusbildung-logo",
+          WHITE: "/Azubi-logo-white",
+          DEFAULT: "/Azubi-logo",
         },
         n = {
           HEALTHCARE: "".concat("", "/images/sectors/healthcare-hero.webp"),
@@ -47944,19 +47960,19 @@
           SUCCESS_STORY: "".concat("", "/images/placeholders/success-story"),
         },
         l = {
-          OG_IMAGE: "https://images.goausbildung.com/og-images/default-og.png",
+          OG_IMAGE: "https://images.azubi.ma/og-images/default-og.png",
           TWITTER_CARD:
-            "https://images.goausbildung.com/og-images/default-og.png",
+            "https://images.azubi.ma/og-images/default-og.png",
           LINKEDIN_SHARE:
-            "https://images.goausbildung.com/og-images/default-og.png",
+            "https://images.azubi.ma/og-images/default-og.png",
           PINTEREST_PIN:
-            "https://images.goausbildung.com/og-images/default-og.png",
+            "https://images.azubi.ma/og-images/default-og.png",
         },
         o = {
           CTA: "/videos/cta-video.mp4",
           CTA_THUMBNAIL: "/images/videos/cta-video-thumbnail.webp",
           AUSBILDUNG_EXPLAINER: "".concat(
-            "https://images.goausbildung.com",
+            "https://images.azubi.ma",
             "/videos/ausbildung-explainer.mp4",
           ),
           TESTIMONIALS: {
@@ -52575,7 +52591,7 @@
           children: [
             (0, i.jsx)(n.default, {
               src: l.KN.ICON,
-              alt: "GoAusbildung Oak Leaf Logo",
+              alt: "Azubi Oak Leaf Logo",
               width: 56,
               height: 56,
               className: (0, o.cn)(
@@ -52591,7 +52607,7 @@
               (0, i.jsx)("span", {
                 className: (0, o.cn)("font-bold text-green", d[r]),
                 style: { letterSpacing: "-0.02em" },
-                children: "GoAusbildung",
+                children: "Azubi",
               }),
           ],
         });
@@ -53408,7 +53424,7 @@
         r = s(54604),
         a = s(18051);
       let l = (0, n.createContext)(void 0),
-        o = "goausbildung_selected_employer_id";
+        o = "Azubi_selected_employer_id";
       function c(e) {
         let { children: t } = e,
           [s, c] = (0, n.useState)(null),
@@ -55308,7 +55324,7 @@
           { value: "other", label: "Other Fields" },
         ],
         k = [
-          { value: "india", label: "India" },
+          { value: "morocco", label: "Morocco" },
           { value: "philippines", label: "Philippines" },
           { value: "vietnam", label: "Vietnam" },
           { value: "bangladesh", label: "Bangladesh" },
@@ -55900,7 +55916,7 @@
                                 className: "relative",
                                 children: (0, i.jsx)("img", {
                                   src: "/mascot/mascot_pointing_male.webp",
-                                  alt: "GoAusbildung Mascot",
+                                  alt: "Azubi Mascot",
                                   className: "w-56 h-auto object-contain",
                                 }),
                               }),
@@ -56233,7 +56249,7 @@
                                                         value: "india",
                                                         className:
                                                           "text-sm text-[#344F1F]",
-                                                        children: "India",
+                                                        children: "Morocco",
                                                       }),
                                                       (0, i.jsx)(g.eb, {
                                                         value: "philippines",

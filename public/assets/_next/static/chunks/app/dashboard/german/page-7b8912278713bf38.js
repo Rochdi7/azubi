@@ -1690,7 +1690,7 @@
                       transition: { duration: 0.5, delay: 0.5 },
                       className: "w-full mt-6",
                       children: (0, t.jsx)("a", {
-                        href: "https://bookgermantest.com/game?ref=goausbildung",
+                        href: "https://bookgermantest.com/game?ref=Azubi",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "jsx-a7f9ab7c02f698b4 block",

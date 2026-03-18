@@ -1253,7 +1253,7 @@
                   children: [
                     "\xa9 ",
                     new Date().getFullYear(),
-                    " GoAusbildung. Alle Rechte vorbehalten.",
+                    " Azubi. Alle Rechte vorbehalten.",
                   ],
                 }),
               ],
@@ -1810,7 +1810,7 @@
           [x, h] = (0, i.useState)(0),
           u = [
             {
-              title: "Willkommen bei GoAusbildung, ".concat(a, "!"),
+              title: "Willkommen bei Azubi, ".concat(a, "!"),
               description:
                 "Vielen Dank f\xfcr Ihre Registrierung. Lassen Sie uns Ihr Profil vervollst\xe4ndigen, damit Sie qualifizierte Bewerber erreichen k\xf6nnen.",
               icon: ec.A,

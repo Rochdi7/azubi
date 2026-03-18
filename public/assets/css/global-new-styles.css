@@ -1,0 +1,268 @@
+/* =============================================
+   Global New Styles
+   Extracted from inline <style> blocks in blade files
+   ============================================= */
+
+/* === Consultation Page: How It Works Step Cards === */
+.hiw-step {
+    transition: background 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+}
+
+.hiw-step--active {
+    background: #fff !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1) !important;
+    transform: scale(1.02) !important;
+}
+
+.hiw-step:not(.hiw-step--active) {
+    background: rgba(255, 255, 255, 0.6) !important;
+    box-shadow: none !important;
+    transform: scale(1) !important;
+}
+
+.hiw-step--active .hiw-badge {
+    background: rgba(244, 153, 26, 0.1) !important;
+    color: #F4991A !important;
+    border: 1px solid rgba(244, 153, 26, 0.2) !important;
+}
+
+.hiw-step:not(.hiw-step--active) .hiw-badge {
+    background: #e5e7eb !important;
+    color: #4b5563 !important;
+    border: none !important;
+}
+
+.hiw-step--active .hiw-title {
+    color: #344F1F !important;
+}
+
+.hiw-step:not(.hiw-step--active) .hiw-title {
+    color: #374151 !important;
+}
+
+.hiw-step--active .hiw-desc {
+    color: rgba(52, 79, 31, 0.7) !important;
+}
+
+.hiw-step:not(.hiw-step--active) .hiw-desc {
+    color: #6b7280 !important;
+}
+
+.hiw-step--active .hiw-indicator {
+    opacity: 1 !important;
+}
+
+.hiw-step:not(.hiw-step--active) .hiw-indicator {
+    opacity: 0 !important;
+}
+
+.hiw-card {
+    transition: opacity 500ms ease, transform 500ms ease;
+}
+
+.hiw-card--visible {
+    opacity: 1 !important;
+    transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(1) !important;
+}
+
+.hiw-card--hidden {
+    opacity: 0 !important;
+    transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(0.85) !important;
+    pointer-events: none;
+}
+
+/* === Consultation Page: Dashboard Card Hover === */
+.dash-card {
+    transition: background 300ms ease, box-shadow 300ms ease, transform 300ms ease, border-color 300ms ease;
+    border: 2px solid transparent;
+}
+
+.dash-card--active {
+    background: #F9F5F0 !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+    transform: scale(1.02) !important;
+    border-color: rgba(52, 79, 31, 0.2) !important;
+}
+
+.dash-card:not(.dash-card--active) {
+    background: #fff !important;
+    box-shadow: none !important;
+    transform: scale(1) !important;
+    border-color: #F2EAD3 !important;
+}
+
+.dash-card:not(.dash-card--active):hover {
+    background: #F9F5F0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dash-card--active .dash-icon {
+    transform: scale(1.1) !important;
+}
+
+.dash-card:not(.dash-card--active) .dash-icon {
+    transform: scale(1) !important;
+}
+
+.dash-card--active .dash-title {
+    color: #344F1F !important;
+}
+
+.dash-card:not(.dash-card--active) .dash-title {
+    color: #374151 !important;
+}
+
+.dash-card--active .dash-desc {
+    color: rgba(52, 79, 31, 0.7) !important;
+}
+
+.dash-card:not(.dash-card--active) .dash-desc {
+    color: #6b7280 !important;
+}
+
+.dash-card--active .dash-indicator {
+    opacity: 1 !important;
+}
+
+.dash-card:not(.dash-card--active) .dash-indicator {
+    opacity: 0 !important;
+}
+
+/* === Consultation Page: Dashboard Visual Swap === */
+#dash-visuals-container {
+    position: relative;
+}
+
+.dash-visual {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 400ms ease, transform 400ms ease;
+    padding: 1rem;
+}
+
+.dash-visual--visible {
+    opacity: 1 !important;
+    transform: none !important;
+    z-index: 1;
+}
+
+.dash-visual--hidden {
+    opacity: 0 !important;
+    transform: translateY(10px) !important;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* === Consultation Page: FAQ Accordion === */
+.faq-content {
+    transition: height 300ms ease, opacity 300ms ease;
+}
+
+/* === Index Page: Marquee Animations === */
+@keyframes marquee-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-scroll-reverse {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
+.stories-marquee-track:hover {
+    animation-play-state: paused;
+}
+
+/* === Tools: Range Slider Styling === */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: hsl(var(--primary));
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: hsl(var(--primary));
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* === Tools: FAQ Chevron Rotation === */
+.faq-chevron.rotated {
+    transform: rotate(180deg);
+}
+
+/* === Tools: Living Cost Calculator - Cost Bar === */
+.cost-bar {
+    height: 12px;
+    border-radius: 6px;
+    transition: width 0.6s ease;
+}
+
+/* === Tools: Document Checklist === */
+.doc-checkbox:checked + .doc-checkmark { display: flex; }
+.doc-checkbox:checked ~ .doc-label { text-decoration: line-through; opacity: 0.6; }
+.category-content { transition: max-height 0.3s ease; }
+
+/* === Tools: Career Pathway Decision === */
+.radio-circle.selected {
+    background-color: hsl(var(--primary));
+    border-color: hsl(var(--primary));
+}
+
+.radio-circle.selected::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+}
+
+.checkbox-box.checked {
+    background-color: hsl(var(--primary));
+    border-color: hsl(var(--primary));
+}
+
+.checkbox-box.checked::after {
+    content: '';
+    width: 8px;
+    height: 5px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(-45deg);
+    margin-top: -2px;
+}
+
+.option-selected {
+    border-color: hsl(var(--primary)) !important;
+    background-color: hsl(var(--primary) / 0.05) !important;
+}
+
+.wizard-step {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
