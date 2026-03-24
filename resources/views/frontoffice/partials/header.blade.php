@@ -661,6 +661,15 @@
                               <span>Apply For Me</span>
                           </a>
                       </div>
+                      <!-- Language Toggle Button -->
+                      <div class="bg-background/80 border border-border backdrop-blur-lg w-10 h-10 rounded-full shadow-lg overflow-hidden">
+                          <button onclick="toggleLanguage()" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 hover:text-foreground relative h-full w-full p-1 hover:bg-transparent rounded-full">
+                              <div class="relative h-full w-full rounded-full overflow-hidden">
+                                  <img id="lang-flag-desktop" alt="Switch to Deutsch" loading="lazy" width="32" height="32" decoding="async" class="object-cover w-full h-full" src="{{ asset('assets/images/flags/de.svg') }}" style="color: transparent;">
+                              </div>
+                              <span class="sr-only">Toggle language</span>
+                          </button>
+                      </div>
                   </div>
               </div>
               <!-- Mobile spacer -->
@@ -694,7 +703,14 @@
                                       style="letter-spacing: -0.02em;">Azubi</span>
                               </a>
                           </div>
-                          <div class="flex h-10 w-10 items-center justify-center flex-shrink-0"></div>
+                          <div class="flex h-10 w-10 items-center justify-center flex-shrink-0 rounded-full overflow-hidden">
+                              <button onclick="toggleLanguage()" class="inline-flex items-center justify-center h-full w-full p-1 rounded-full hover:bg-muted transition-all duration-200">
+                                  <div class="relative h-full w-full rounded-full overflow-hidden">
+                                      <img id="lang-flag-mobile" alt="Switch to Deutsch" loading="lazy" width="32" height="32" decoding="async" class="object-cover w-full h-full" src="{{ asset('assets/images/flags/de.svg') }}" style="color: transparent;">
+                                  </div>
+                                  <span class="sr-only">Toggle language</span>
+                              </button>
+                          </div>
                       </div>
                   </div>
               </div>
@@ -1374,3 +1390,42 @@
               </div>
           </div>
       </header>
+
+      <script>
+          const langCycle = [
+              { code: 'de', src: "{{ asset('assets/images/flags/de.svg') }}", alt: 'Switch to Deutsch' },
+              { code: 'fr', src: "{{ asset('assets/images/flags/fr.svg') }}", alt: 'Switch to Français' },
+              { code: 'en', src: "{{ asset('assets/images/flags/us.svg') }}", alt: 'Switch to English' }
+          ];
+
+          function toggleLanguage() {
+              const flags = document.querySelectorAll('#lang-flag-desktop, #lang-flag-mobile');
+              const currentLang = document.documentElement.lang || 'en';
+              const currentIndex = langCycle.findIndex(l => l.code === currentLang);
+              const next = langCycle[(currentIndex + 1) % langCycle.length];
+
+              flags.forEach(flag => {
+                  flag.src = next.src;
+                  flag.alt = next.alt;
+              });
+
+              document.documentElement.lang = next.code;
+              localStorage.setItem('preferred-lang', next.code);
+          }
+
+          // Restore preference on load
+          document.addEventListener('DOMContentLoaded', function() {
+              const savedLang = localStorage.getItem('preferred-lang');
+              if (savedLang && savedLang !== 'en') {
+                  const lang = langCycle.find(l => l.code === savedLang);
+                  if (lang) {
+                      const flags = document.querySelectorAll('#lang-flag-desktop, #lang-flag-mobile');
+                      flags.forEach(flag => {
+                          flag.src = lang.src;
+                          flag.alt = lang.alt;
+                      });
+                      document.documentElement.lang = savedLang;
+                  }
+              }
+          });
+      </script>

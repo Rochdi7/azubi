@@ -43,7 +43,10 @@
       "Bash(php \"c:/tmp/fix_srcset.php\")",
       "Bash(php \"c:/tmp/convert_construction.php\")",
       "Bash(php -r \"echo ''PHP works'';\")",
-      "Bash(php resources/views/frontoffice/pages/sectors/convert.php)"
+      "Bash(php resources/views/frontoffice/pages/sectors/convert.php)",
+      "Bash(find C:UsersASUSDownloadssaveweb2zip-com-goausbildung-com -type f -name *.png -o -type f -name *.jpg -o -type f -name *.svg -o -type f -name *.webp -o -type f -name *.gif -o -type f -name *.ico)",
+      "Bash(find C:UsersASUSDownloadssaveweb2zip-com-goausbildung-com -type f \\\\\\(-name *.png -o -name *.jpg -o -name *.svg -o -name *.webp -o -name *.gif -o -name *.ico \\\\\\))",
+      "Bash(find C:UsersASUSDownloadssaveweb2zip-com-goausbildung-com/project-clone/_next -type f -name *mascot* -o -name *avatar* -o -name *hero*)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ASUS\\Desktop\\Projects\\azubi\\resources\\views\\frontoffice\\partials",
