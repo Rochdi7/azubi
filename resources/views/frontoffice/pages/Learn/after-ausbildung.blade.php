@@ -2582,7 +2582,7 @@
                             employment, career advancement, and residency in Germany.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">View
                                 Training Positions</a>
                         </div>
@@ -2613,7 +2613,7 @@
                             <span class="text-sm font-medium">Visa Guide</span>
                         </a><a
                             class="p-4 rounded-xl bg-background/50 hover:bg-background border border-border flex flex-col items-center text-center gap-2 transition-colors"
-                            href="dashboard/cv-builder.html">
+                            href="#">
                             <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -2626,7 +2626,7 @@
                             <span class="text-sm font-medium">CV Builder</span>
                         </a><a
                             class="p-4 rounded-xl bg-background/50 hover:bg-background border border-border flex flex-col items-center text-center gap-2 transition-colors"
-                            href="{{ route('front.housing') }}">
+                            href="#">
                             <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"

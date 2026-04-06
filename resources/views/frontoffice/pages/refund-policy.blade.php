@@ -134,7 +134,7 @@
                     <p>
                         To withdraw from a paid service before work begins, send an
                         unequivocal statement to
-                        <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                        <a href="#" class="__cf_email__"
                             data-cfemail="a8cac1c4c4c1c6cfe8cfc7c9dddbcac1c4ccddc6cf86cbc7c5">[email&#160;protected]</a>.
                         You may use this model withdrawal form:
                     </p>
@@ -147,7 +147,7 @@
                   ">
                         <p style="margin-bottom: 0.5rem; font-style: italic">
                             To: Azubi,
-                            <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                            <a href="#" class="__cf_email__"
                                 data-cfemail="02606b6e6e6b6c6542656d637771606b6e66776c652c616d6f">[email&#160;protected]</a><br />I
                             hereby withdraw from my service contract.<br />Service
                             type: [Consultation Package / Other]<br />Enrolled on:
@@ -354,7 +354,7 @@
                     <h4>Cancellation Policy</h4>
                     <p>
                         You may cancel your enrollment at any time by contacting
-                        <a href="cdn-cgi/l/email-protection.html#21525451514e535561464e40545243484d45544f460f424e4c"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="90e3e5e0e0ffe2e4d0f7fff1e5e3f2f9fcf4e5fef7bef3fffd">[email&#160;protected]</span></a>:
                     </p>
@@ -611,7 +611,7 @@
                     <ul>
                         <li>
                             You notify us at
-                            <a href="cdn-cgi/l/email-protection.html#a5c7ccc9c9cccbc2e5c2cac4d0d6c7ccc9c1d0cbc28bc6cac8"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="2b4942474742454c6b4c444a5e584942474f5e454c05484446">[email&#160;protected]</span></a>
                             within 7 days of service delivery
@@ -637,7 +637,7 @@
                     <ul>
                         <li>
                             Report issues immediately to
-                            <a href="cdn-cgi/l/email-protection.html#0b787e7b7b64797f4b6c646a7e786962676f7e656c25686466"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="8dfef8fdfde2fff9cdeae2ecf8feefe4e1e9f8e3eaa3eee2e0">[email&#160;protected]</span></a>
                         </li>
@@ -664,7 +664,7 @@
                     <ol>
                         <li>
                             Contact
-                            <a href="cdn-cgi/l/email-protection.html#9efcf7f2f2f7f0f9def9f1ffebedfcf7f2faebf0f9b0fdf1f3"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="81e3e8edede8efe6c1e6eee0f4f2e3e8ede5f4efe6afe2eeec">[email&#160;protected]</span></a>
                             within 7 days with detailed explanation and evidence
@@ -782,7 +782,7 @@
                     <ul>
                         <li>
                             Email:
-                            <a href="cdn-cgi/l/email-protection.html#e183888d8d888f86a1868e80949283888d85948f86cf828e8c"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="62000b0e0e0b0c0522050d031711000b0e06170c054c010d0f">[email&#160;protected]</span></a>
                         </li>
@@ -823,7 +823,7 @@
                         </li>
                         <li>
                             <strong>Contact:</strong> Email
-                            <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                            <a href="#" class="__cf_email__"
                                 data-cfemail="1d7f74717174737a5d7a727c686e7f74717968737a337e7270">[email&#160;protected]</a>
                             for any enrollment inquiries
                         </li>
@@ -844,7 +844,7 @@
                     <p>
                         If you wish to delete your account entirely, please see our
                         Privacy Policy and contact
-                        <a href="cdn-cgi/l/email-protection.html#c7b7b5aeb1a6a4be87a0a8a6b2b4a5aeaba3b2a9a0e9a4a8aa"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="48383a213e292b31082f27293d3b2a21242c3d262f662b2725">[email&#160;protected]</span></a>.
                     </p>
@@ -956,7 +956,7 @@
                     <ul>
                         <li>
                             Contact
-                            <a href="cdn-cgi/l/email-protection.html#14767d78787d7a7354737b756167767d7870617a733a777b79"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="dbb9b2b7b7b2b5bc9bbcb4baaea8b9b2b7bfaeb5bcf5b8b4b6">[email&#160;protected]</span></a>
                             with documentation (medical certificate, official documents,
@@ -1028,7 +1028,7 @@
                     <p>
                         <strong>Before initiating a chargeback</strong> with your bank
                         or credit card company, please contact us directly at
-                        <a href="cdn-cgi/l/email-protection.html#6c0e05000005020b2c0b030d191f0e05000819020b420f0301"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="32505b5e5e5b5c5572555d534741505b5e56475c551c515d5f">[email&#160;protected]</span></a>.
                         We are committed to resolving billing disputes fairly,
@@ -1071,11 +1071,11 @@
                     <ul>
                         <li>
                             Contact us immediately at
-                            <a href="cdn-cgi/l/email-protection.html#bbd9d2d7d7d2d5dcfbdcd4dacec8d9d2d7dfced5dc95d8d4d6"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="e5878c89898c8b82a5828a849096878c8981908b82cb868a88">[email&#160;protected]</span></a>
                             or
-                            <a href="cdn-cgi/l/email-protection.html#cebdabadbbbca7bab78ea9a1afbbbdaca7a2aabba0a9e0ada1a3"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="e19284829493889598a1868e80949283888d85948f86cf828e8c">[email&#160;protected]</span></a>
                         </li>
@@ -1288,7 +1288,7 @@
                         </p>
                         <p style="margin-bottom: 0.75rem">
                             <strong>Billing &amp; Refunds:</strong><br />Email:
-                            <a href="cdn-cgi/l/email-protection.html#54363d38383d3a3314333b352127363d3830213a337a373b39"
+                            <a href="#"
                                 style="color: #344f1f; text-decoration: underline"><span class="__cf_email__"
                                     data-cfemail="5032393c3c393e3710373f31252332393c34253e377e333f3d">[email&#160;protected]</span></a><br /><em
                                 style="font-size: 0.875rem; color: rgba(52, 79, 31, 0.7)">For all refund requests, payment
@@ -1297,7 +1297,7 @@
                         </p>
                         <p style="margin-bottom: 0.75rem">
                             <strong>General Support:</strong><br />Email:
-                            <a href="cdn-cgi/l/email-protection.html#741c1118181b34131b150107161d1810011a135a171b19"
+                            <a href="#"
                                 style="color: #344f1f; text-decoration: underline"><span class="__cf_email__"
                                     data-cfemail="eb838e878784ab8c848a9e988982878f9e858cc5888486">[email&#160;protected]</span></a><br /><em
                                 style="font-size: 0.875rem; color: rgba(52, 79, 31, 0.7)">For general questions and platform
@@ -1325,7 +1325,7 @@
                     <p>
                         Before taking legal action, you agree to first attempt
                         informal resolution by contacting us at
-                        <a href="cdn-cgi/l/email-protection.html#54363d38383d3a3314333b352127363d3830213a337a373b39"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="23414a4f4f4a4d4463444c425650414a4f47564d440d404c4e">[email&#160;protected]</span></a>.
                         We will make good-faith efforts to resolve disputes within

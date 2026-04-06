@@ -6,7 +6,7 @@
     <meta name="description"
         content="Our expert team applies to 30+ Ausbildung positions for you. Pay advance to start, success fee only when you get an offer.">
     <meta name="keywords"
-        content="ausbildung application service,apply for me ausbildung,ausbildung consultancy india,german apprenticeship application help,ausbildung agent,ausbildung help india,someone apply for ausbildung,ausbildung cover letter service,german apprenticeship consultancy,ausbildung expert help">
+        content="ausbildung application service,apply for me ausbildung,ausbildung consultancy morocco,german apprenticeship application help,ausbildung agent,ausbildung help morocco,someone apply for ausbildung,ausbildung cover letter service,german apprenticeship consultancy,ausbildung expert help">
     <meta property="og:title" content="Expert Ausbildung Consultation Service | Azubi">
     <meta property="og:description"
         content="Our expert team applies to 30+ Ausbildung positions for you. Pay advance to start, success fee only when you get an offer.">
@@ -3684,7 +3684,7 @@
                         <p class="text-[#344F1F] font-medium">
                             Still have questions?
                         </p>
-                        <a href="cdn-cgi/l/email-protection.html#87f4f2f7f7e8f5f3c7e0e8e6f2f4e5eeebe3f2e9e0a9e4e8ea"
+                        <a href="#"
                             class="px-6 py-2 bg-[#344F1F] text-white rounded-full font-medium hover:bg-[#2d4219] transition-colors">Contact
                             Us</a>
                     </div>
@@ -3800,7 +3800,7 @@
                                 <path d="M5 12h14"></path>
                                 <path d="m12 5 7 7-7 7"></path>
                             </svg></a><a
-                            href="cdn-cgi/l/email-protection.html#1a696f6a6a75686e5a7d757b6f697873767e6f747d34797577"
+                            href="#"
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent shadow-sm hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/30 text-white hover:bg-white/10 hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-all">Ask
                             a Question</a>
                     </div>

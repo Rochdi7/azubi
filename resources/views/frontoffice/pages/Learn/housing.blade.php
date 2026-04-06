@@ -22,7 +22,7 @@
     <meta name="twitter:description"
         content="Find affordable housing in Germany: WG shared flats (€250-450), student dorms (€200-350), company housing options. City-by-city costs, deposit tips, and how to find rooms." />
     <meta name="twitter:image" content="https://images.azubi.ma/og-images/default-og.png" />
-    <link rel="canonical" href="{{ url('/housing') }}" />
+    <link rel="canonical" href="#" />
 @endsection
 
 @section('content')
@@ -1902,7 +1902,7 @@
                     </p>
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                         <a class="p-3 bg-background hover:bg-muted rounded-lg border border-border flex items-center gap-2 transition-colors"
-                            href="{{ route('front.daily-life') }}"><svg xmlns="http://www.w3.org/2000/svg"
+                            href="#"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4 text-primary">
@@ -1918,7 +1918,7 @@
                                 <path d="m12 5 7 7-7 7"></path>
                             </svg><span class="text-sm font-medium">Visa &amp; Residence Permits</span></a><a
                             class="p-3 bg-background hover:bg-muted rounded-lg border border-border flex items-center gap-2 transition-colors"
-                            href="{{ route('front.costs') }}"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-arrow-right h-4 w-4 text-primary">
@@ -1984,7 +1984,7 @@
                             for a smoother relocation experience.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                                 Live Positions</a><a href="{{ route('front.contact') }}"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Get

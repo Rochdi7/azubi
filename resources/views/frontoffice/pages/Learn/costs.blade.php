@@ -10,7 +10,7 @@
     <meta name="pinterest:pinnable" content="true" />
     <meta name="pinterest:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <meta name="linkedin:image" content="https://images.azubi.ma/og-images/default-og.png" />
-    <link rel="canonical" href="{{ route('front.costs') }}" />
+    <link rel="canonical" href="#" />
     <meta property="og:title" content="Ausbildung Costs 2026: €800-1,300/Month Stipend vs €700 Expenses" />
     <meta property="og:description"
         content="Real Ausbildung costs in Germany: €2K-3K initial investment, €850-1,300 monthly stipend, €700-900 living expenses. See stipends by sector, ROI calculator, and budget tips." />
@@ -104,7 +104,7 @@
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
                         <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
-                            aria-label="Calculate Costs" href="{{ route('front.tools.living-cost-calculator') }}"><span
+                            aria-label="Calculate Costs" href="#"><span
                                 aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -1422,7 +1422,7 @@
                             scenario based on your chosen sector, training duration, and
                             other factors.
                         </p>
-                        <a href="{{ route('front.tools.roi-calculator') }}"
+                        <a href="#"
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base group">Try
                             Our ROI Calculator<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1752,7 +1752,7 @@
                         </div>
                         <div class="grid gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-3">
                             <a class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                                href="{{ route('front.tools.living-cost-calculator') }}">
+                                href="#">
                                 <div class="flex items-start gap-4">
                                     <div
                                         class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1794,7 +1794,7 @@
                                 </div>
                             </a><a
                                 class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                                href="{{ route('front.tools.roi-calculator') }}">
+                                href="#">
                                 <div class="flex items-start gap-4">
                                     <div
                                         class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1860,7 +1860,7 @@
                                 </div>
                             </a><a
                                 class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                                href="{{ route('front.housing') }}">
+                                href="#">
                                 <div class="flex items-start gap-4">
                                     <div
                                         class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1937,7 +1937,7 @@
                                 </div>
                             </a><a
                                 class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                                href="{{ route('front.jobs') }}">
+                                href="#">
                                 <div class="flex items-start gap-4">
                                     <div
                                         class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -2031,9 +2031,9 @@
                             positions that match your financial goals.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
-                                Live Positions</a><a href="{{ route('front.tools.roi-calculator') }}"
+                                Live Positions</a><a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Calculate
                                 Your ROI</a>
                         </div>

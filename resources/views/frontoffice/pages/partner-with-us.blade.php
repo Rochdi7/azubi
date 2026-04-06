@@ -10,7 +10,7 @@
     <meta name="pinterest:pinnable" content="true" />
     <meta name="pinterest:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <meta name="linkedin:image" content="https://images.azubi.ma/og-images/default-og.png" />
-    <link rel="canonical" href="{{ route('front.partner-with-us') }}" />
+    <link rel="canonical" href="#" />
     <meta property="og:title" content="Partner with Azubi | B2B Partnerships for Student Placement" />
     <meta property="og:description"
         content="Join Azubi as a B2B partner and help your B1/B2 German-certified students secure Ausbildung positions in Germany. Competitive revenue sharing, dedicated support, and proven success rate." />
@@ -580,7 +580,7 @@
                     <div class="text-center mt-12 p-6 bg-primary/5 rounded-xl">
                         <p class="text-primary font-medium">
                             📧 Questions? Contact us at<!-- -->
-                            <a href="cdn-cgi/l/email-protection.html#9af2fff6f6f5dafdf5fbefe9f8f3f6feeff4fdb4f9f5f7"
+                            <a href="#"
                                 class="underline hover:no-underline"><span class="__cf_email__"
                                     data-cfemail="3e565b5252517e59515f4b4d5c57525a4b5059105d5153">[email&#160;protected]</span></a>
                         </p>

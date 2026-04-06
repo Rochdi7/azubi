@@ -353,7 +353,7 @@
                                         </path>
                                     </svg>€<!-- -->1171<!-- -->-€<!-- -->1602<!-- -->/mo</span>
                             </div>
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2">
                                     Browse
                                     <!-- -->Sales &amp; Retail<!-- -->
@@ -578,16 +578,16 @@
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/edeka-zentrale-80b1eba0.html">Edeka-Zentrale AG &amp; Co. KG<span
+                                    href="#">Edeka-Zentrale AG &amp; Co. KG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->6085<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/rewe-group-d5b29081.html">REWE Group<span
+                                    href="#">REWE Group<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->5309<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/deichmann-b5da5b3d.html">Deichmann<span
+                                    href="#">Deichmann<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->3653<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/dm-drogerie-markt-f38ad223.html">dm-drogerie markt<span
+                                    href="#">dm-drogerie markt<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->3639<!-- -->)</span></a><span
                                     class="inline-flex items-center px-2.5 py-1 text-xs text-[#344F1F]/60">+<!-- -->1<!-- -->
                                     <!-- -->more</span>
@@ -671,7 +671,7 @@
                             </p>
                             <div class="space-y-2">
                                 <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/kaufland-dienstleistung-72532b7c/ausbildung-zum-verkaeufer-frische-mwd-2026-konstanz-1de61bee1ef7.html?from=%2Fsectors%2Fsales">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -708,7 +708,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/kaufland-dienstleistung-72532b7c/ausbildung-zum-kaufmann-im-einzelhandel-mwd-2026-bitburg-3526331d1ef7.html?from=%2Fsectors%2Fsales">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -743,7 +743,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/kaufland-dienstleistung-72532b7c/ausbildung-zum-verkaeufer-mwd-2026-voehringen-379564d71ef7.html?from=%2Fsectors%2Fsales">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -782,7 +782,7 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-white rounded-full h-11">
                                     Browse All Sales &amp; Retail Jobs<svg xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1053,7 +1053,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/banking-professional.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1177,7 +1177,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/industrial-management-assistant.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1302,7 +1302,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/office-management-assistant.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1409,7 +1409,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/retail-sales-specialist.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1516,7 +1516,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/sales-assistant.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1623,7 +1623,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/wholesale-foreign-trade.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1692,9 +1692,9 @@
                             opportunities that match your skills and interests.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">View
-                                Available Positions</a><a href="{{ route('front.tools.eligibility-checker') }}"
+                                Available Positions</a><a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
                                 Eligibility</a>
                         </div>

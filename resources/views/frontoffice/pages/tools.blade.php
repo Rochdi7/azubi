@@ -105,7 +105,7 @@
                                     <path d="M8 18h.01"></path>
                                 </svg></span><span>Explore All Tools</span></a><a
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center"
-                            aria-label="Get Started" href="auth7d2a.html?signup"><span aria-hidden="true"><svg
+                            aria-label="Get Started" href="#"><span aria-hidden="true"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-compass w-5 h-5 mr-2">
@@ -153,7 +153,7 @@
                     </p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <a class="block group" href="{{ route('front.tools.blocked-account-calculator') }}">
+                    <a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -193,7 +193,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.living-cost-calculator') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.document-checklist') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -274,7 +274,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.application-timeline') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -315,7 +315,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.cv-comparison') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -356,7 +356,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.pre-departure-checklist') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -399,7 +399,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.career-pathway-decision') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -439,7 +439,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.ausbildung-vs-university-comparison') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -480,7 +480,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.ausbildung-sector-comparison') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -523,7 +523,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.eligibility-checker') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -563,7 +563,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.cover-letter') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -606,7 +606,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="block group" href="{{ route('front.tools.roi-calculator') }}">
+                    </a><a class="block group" href="#">
                         <div
                             class="rounded-xl text-card-foreground shadow bg-white border border-green/10 p-6 h-full transition-all hover:shadow-lg hover:-translate-y-2">
                             <div class="flex flex-col h-full">
@@ -940,7 +940,7 @@
                     access all features and start your Ausbildung journey today.
                 </p>
                 <a class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-green text-cream font-semibold transition-all hover:bg-green/90 hover:shadow-lg hover:-translate-y-1"
-                    href="auth7d2a.html?signup">Create Free Account</a>
+                    href="#">Create Free Account</a>
             </div>
         </section>
     </div>

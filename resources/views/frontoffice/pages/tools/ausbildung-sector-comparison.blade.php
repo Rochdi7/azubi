@@ -608,7 +608,7 @@
                         from verified German employers.
                     </p>
                     <div class="flex flex-col sm:flex-row items-center gap-3">
-                        <a href="{{ route('front.jobs') }}"
+                        <a href="#"
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                             Jobs</a><a href="#top"
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Compare
@@ -1726,12 +1726,12 @@
                         degree - Higher stipend (€1,200-1,800) - Better aligns
                         with 25+ profile (higher qualification, better salary
                         potential) - Available in IT, Engineering, Business
-                        **Real Success Stories:** - 32-year-old Indian software
+                        **Real Success Stories:** - 32-year-old Moroccan software
                         tester → Fachinformatiker Ausbildung → Now DevOps
-                        Engineer at BMW (€4,500/month) - 29-year-old Philippine
+                        Engineer at BMW (€4,500/month) - 29-year-old Moroccan
                         teacher → Pflegefachfrau Ausbildung → Registered nurse
                         in Hamburg (€3,800/month + family reunification) -
-                        27-year-old Nigerian business manager →
+                        27-year-old Moroccan business manager →
                         Industriekaufmann Ausbildung → Supply chain manager at
                         Bosch (€4,200/month) **Bottom Line:** Being 25+ is not a
                         barrier - it&#x27;s often an advantage if you frame it
@@ -1948,7 +1948,7 @@
         </div>
         <div class="grid md:grid-cols-3 gap-6 mb-6">
             <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                href="{{ route('front.tools.ausbildung-vs-university-comparison') }}">
+                href="#">
                 <div class="mb-4">
                     <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -1984,7 +1984,7 @@
                 </div>
             </a><a
                 class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                href="{{ route('front.tools.career-pathway-decision') }}">
+                href="#">
                 <div class="mb-4">
                     <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -2017,7 +2017,7 @@
                 </div>
             </a><a
                 class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                href="{{ route('front.tools.cv-comparison') }}">
+                href="#">
                 <div class="mb-4">
                     <div class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -2055,7 +2055,7 @@
         </div>
         <div class="text-center">
             <a class="inline-flex items-center gap-2 px-6 py-3 bg-orange hover:bg-orange-hover text-white rounded-full font-semibold transition-colors"
-                href="{{ route('front.tools') }}">Browse All Tools<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                href="#">Browse All Tools<svg xmlns="http://www.w3.org/2000/svg" width="24"
                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
                     <path d="M5 12h14"></path>

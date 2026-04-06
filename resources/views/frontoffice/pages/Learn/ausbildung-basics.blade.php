@@ -79,7 +79,7 @@
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
                         <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
-                            aria-label="Check Eligibility" href="/tools/eligibility-checker"> <span aria-hidden="true"> <svg
+                            aria-label="Check Eligibility" href="#"> <span aria-hidden="true"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-circle-check-big w-5 h-5 mr-2">
@@ -231,7 +231,7 @@
                         </div>
                         <div class="mt-8">
                             <a class="text-primary hover:text-primary/80 font-medium flex items-center"
-                                href="/ausbildung-basics"> Learn more about Ausbildung basics
+                                href="#"> Learn more about Ausbildung basics
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -701,7 +701,7 @@
                 </div>
                 <div class="text-center">
                     <a class="text-primary hover:text-primary font-medium flex items-center justify-center"
-                        href="/why-ausbildung"> Learn more about Ausbildung benefits
+                        href="#"> Learn more about Ausbildung benefits
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right ml-1 h-4 w-4">
@@ -779,7 +779,7 @@
                                 </p>
                                 <div class="mt-3">
                                     <a class="text-sm text-green-600 font-medium hover:underline flex items-center"
-                                        href="/language"> Learn more about language requirements
+                                        href="#"> Learn more about language requirements
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -869,7 +869,7 @@
                                 </p>
                                 <div class="mt-3">
                                     <a class="text-sm text-green-600 font-medium hover:underline flex items-center"
-                                        href="/housing"> Learn more about housing options
+                                        href="#"> Learn more about housing options
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -1059,7 +1059,7 @@
                     </div>
                     <div class="text-center mt-6">
                         <a class="text-green-600 hover:text-green-700:text-green-300 text-sm font-medium flex items-center justify-center"
-                            href="/success-stories"> Read more success stories
+                            href="#"> Read more success stories
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-arrow-right ml-1 h-4 w-4">
@@ -1836,7 +1836,7 @@
                         checker to assess your qualifications and get personalized recommendations.
                     </p>
                     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base rounded-full"
-                        href="/tools/eligibility-checker"> Start Eligibility Check
+                        href="#"> Start Eligibility Check
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4">
@@ -2716,7 +2716,7 @@
                     </div>
                     <div class="mt-8 text-center">
                         <a class="inline-flex items-center bg-secondary hover:bg-secondary text-white px-4 py-2 rounded-md font-medium transition-colors"
-                            href="/tools/roi-calculator"> Calculate Your ROI
+                            href="#"> Calculate Your ROI
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -2750,7 +2750,7 @@
                 </div>
                 <div class="mt-12 text-center">
                     <a class="text-secondary hover:text-secondary:text-emerald-300 font-medium flex items-center justify-center"
-                        href="/costs"> View detailed costs guide
+                        href="#"> View detailed costs guide
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right ml-1 h-4 w-4">
@@ -2964,7 +2964,7 @@
                             </ul>
                             <div class="mt-4 pt-4 border-t border-border/30">
                                 <a class="text-cyan-600 hover:text-cyan-700:text-cyan-300 text-sm font-medium flex items-center"
-                                    href="/housing"> Learn more about housing options
+                                    href="#"> Learn more about housing options
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -3054,7 +3054,7 @@
                             </ul>
                             <div class="mt-4 pt-4 border-t border-border/30">
                                 <a class="text-cyan-600 hover:text-cyan-700:text-cyan-300 text-sm font-medium flex items-center"
-                                    href="/cultural-integration"> Learn more about cultural adjustment
+                                    href="#"> Learn more about cultural adjustment
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -3142,7 +3142,7 @@
                             </ul>
                             <div class="mt-4 pt-4 border-t border-border/30">
                                 <a class="text-cyan-600 hover:text-cyan-700:text-cyan-300 text-sm font-medium flex items-center"
-                                    href="/costs"> Learn more about financial planning
+                                    href="#"> Learn more about financial planning
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -3409,7 +3409,7 @@
                 </div>
                 <div class="mt-12 text-center">
                     <a class="text-cyan-600 hover:text-cyan-700:text-cyan-300 font-medium flex items-center justify-center"
-                        href="/daily-life"> Explore more about life in Germany
+                        href="#"> Explore more about life in Germany
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right ml-1 h-4 w-4">
@@ -3787,16 +3787,16 @@
                             <div class="flex items-start gap-4 mb-4">
                                 <div
                                     class="w-14 h-14 rounded-full overflow-hidden bg-muted-foreground/20 relative flex-shrink-0">
-                                    <img alt="Daniel from Vietnam" loading="lazy" decoding="async"
+                                    <img alt="Youssef from Morocco" loading="lazy" decoding="async"
                                         class="w-full h-full object-cover"
                                         src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
                                 </div>
                                 <div>
                                     <h4 class="font-medium">
-                                        Daniel N.
+                                        Youssef N.
                                     </h4>
                                     <p class="text-xs text-muted-foreground">
-                                        Vietnam → Germany
+                                        Morocco → Germany
                                     </p>
                                     <p class="text-sm font-medium text-amber-600">
                                         Mechatronics Technician
@@ -3865,16 +3865,16 @@
                             <div class="flex items-start gap-4 mb-4">
                                 <div
                                     class="w-14 h-14 rounded-full overflow-hidden bg-muted-foreground/20 relative flex-shrink-0">
-                                    <img alt="Ahmed from Egypt" loading="lazy" decoding="async"
+                                    <img alt="Karim from Morocco" loading="lazy" decoding="async"
                                         class="w-full h-full object-cover"
                                         src="{{ asset('assets/_next/hero-avatar-58f5b.jpeg') }}" />
                                 </div>
                                 <div>
                                     <h4 class="font-medium">
-                                        Ahmed T.
+                                        Karim T.
                                     </h4>
                                     <p class="text-xs text-muted-foreground">
-                                        Egypt → Germany
+                                        Morocco → Germany
                                     </p>
                                     <p class="text-sm font-medium text-amber-600">
                                         IT Systems Electronics
@@ -3904,7 +3904,7 @@
                 </div>
                 <div class="text-center">
                     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 py-3 rounded-full px-8"
-                        href="/after-ausbildung"> Explore Career Paths in Detail
+                        href="#"> Explore Career Paths in Detail
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4">
@@ -3999,7 +3999,7 @@
                                     </p>
                                     <div class="mt-3">
                                         <a class="text-primary hover:text-primary/80 text-sm font-medium flex items-center"
-                                            href="/language"> Learn more about language requirements
+                                            href="#"> Learn more about language requirements
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -4040,7 +4040,7 @@
                                     </p>
                                     <div class="mt-3">
                                         <a class="text-primary hover:text-primary/80 text-sm font-medium flex items-center"
-                                            href="/costs"> Learn more about costs and salary
+                                            href="#"> Learn more about costs and salary
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -4168,7 +4168,7 @@
                                     </p>
                                     <div class="mt-3">
                                         <a class="text-primary hover:text-primary/80 text-sm font-medium flex items-center"
-                                            href="/after-ausbildung"> Learn more about post-Ausbildung opportunities
+                                            href="#"> Learn more about post-Ausbildung opportunities
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -4186,7 +4186,7 @@
                     </div>
                     <div class="text-center mt-8">
                         <a class="text-primary hover:text-primary/80 font-medium flex items-center justify-center"
-                            href="/ausbildung-faq"> View all FAQs
+                            href="#"> View all FAQs
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
@@ -4297,7 +4297,7 @@
                                 eligibility checker.
                             </p>
                             <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full"
-                                href="/tools/eligibility-checker"> Start Eligibility Check
+                                href="#"> Start Eligibility Check
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -4362,7 +4362,7 @@
                                 arrival in Germany.
                             </p>
                             <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full"
-                                href="/tools"> Explore Our Tools
+                                href="#"> Explore Our Tools
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -4473,7 +4473,7 @@
                                 </h4>
                                 <ul class="mt-2 space-y-2 text-sm text-muted-foreground">
                                     <li>
-                                        <a class="flex items-center hover:text-foreground" href="/ausbildung-timeline">
+                                        <a class="flex items-center hover:text-foreground" href="#">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -4501,7 +4501,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="flex items-center hover:text-foreground" href="/costs"> <svg
+                                        <a class="flex items-center hover:text-foreground" href="#"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -4583,7 +4583,7 @@
                 </div>
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base rounded-full"
-                        href="/tools/eligibility-checker"> Check Your Eligibility
+                        href="#"> Check Your Eligibility
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4">
@@ -4594,7 +4594,7 @@
                         </svg>
                     </a>
                     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base rounded-full"
-                        href="/jobs"> Browse Jobs
+                        href="#"> Browse Jobs
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4">
@@ -4633,11 +4633,11 @@
                             candidates for vocational training programs.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="/dashboard/jobs"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
                                 Browse Live Positions
                             </a>
-                            <a href="/tools/eligibility-checker"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
                                 Check Eligibility
                             </a>

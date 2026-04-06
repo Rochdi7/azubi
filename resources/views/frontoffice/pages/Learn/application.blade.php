@@ -161,7 +161,7 @@
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
                         <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
-                            aria-label="Get Smart Application Kit" href="{{ route('front.jobs') }}"><span
+                            aria-label="Get Smart Application Kit" href="#"><span
                                 aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -172,7 +172,7 @@
                                     <path d="m9 14 2 2 4-4"></path>
                                 </svg></span><span>Get Smart Application Kit</span></a><a
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center"
-                            aria-label="Browse Jobs First" href="{{ route('front.jobs') }}"><span aria-hidden="true"><svg
+                            aria-label="Browse Jobs First" href="#"><span aria-hidden="true"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-briefcase w-5 h-5 mr-2">
@@ -198,7 +198,7 @@
                             personalized checklists in seconds</p>
                     </div>
                     <div class="grid md:grid-cols-3 gap-4">
-                        <a class="group" href="/dashboard/tools/eligibility">
+                        <a class="group" href="#">
                             <div
                                 class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10">
                                 <div class="p-4">
@@ -235,7 +235,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a class="group" href="/dashboard/tools/timeline">
+                        <a class="group" href="#">
                             <div
                                 class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10">
                                 <div class="p-4">
@@ -270,7 +270,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a class="group" href="/dashboard/tools/cover-letter">
+                        <a class="group" href="#">
                             <div
                                 class="rounded-xl text-card-foreground shadow h-full hover:shadow-md transition-all bg-card border border-primary/10">
                                 <div class="p-4">
@@ -311,7 +311,7 @@
                         </a>
                     </div>
                     <div class="mt-6 text-center">
-                        <a href="/dashboard/video-studio">
+                        <a href="#">
                             <button
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 text-base rounded-full min-h-[48px] px-6">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -1702,7 +1702,7 @@
                 </div>
                 <div class="grid gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-3">
                     <a class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                        href="{{ route('front.tools.cover-letter') }}">
+                        href="#">
                         <div class="flex items-start gap-4">
                             <div
                                 class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1739,7 +1739,7 @@
                         </div>
                     </a><a
                         class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                        href="{{ route('front.tools.cv-comparison') }}">
+                        href="#">
                         <div class="flex items-start gap-4">
                             <div
                                 class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1772,7 +1772,7 @@
                         </div>
                     </a><a
                         class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                        href="{{ route('front.tools.document-checklist') }}">
+                        href="#">
                         <div class="flex items-start gap-4">
                             <div
                                 class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1802,7 +1802,7 @@
                         </div>
                     </a><a
                         class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                        href="{{ route('front.tools.application-timeline') }}">
+                        href="#">
                         <div class="flex items-start gap-4">
                             <div
                                 class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1834,7 +1834,7 @@
                         </div>
                     </a><a
                         class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                        href="{{ route('front.language') }}">
+                        href="#">
                         <div class="flex items-start gap-4">
                             <div
                                 class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1868,7 +1868,7 @@
                         </div>
                     </a><a
                         class="group flex flex-col p-5 md:p-6 rounded-xl border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-200"
-                        href="{{ route('front.jobs') }}">
+                        href="#">
                         <div class="flex items-start gap-4">
                             <div
                                 class="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
@@ -1955,9 +1955,9 @@
                             tailored to every role.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
-                                60K+ Jobs</a><a href="{{ route('front.jobs') }}"
+                                60K+ Jobs</a><a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Get
                                 Your First Smart Kit</a>
                         </div>

@@ -90,7 +90,7 @@
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 justify-start"
                         aria-label="Primary navigation">
                         <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
-                            aria-label="Start Your Journey" href="{{ route('front.tools.eligibility-checker') }}"><span
+                            aria-label="Start Your Journey" href="{{ route('front.consultation') }}"><span
                                 aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -593,7 +593,7 @@
                 </div>
             </div>
         </section>
-        <section class="py-16" style="background-color: white">
+        {{-- <section class="py-16" style="background-color: white">
             <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-7xl">
                 <div class="bg-card text-card-foreground shadow p-10 md:p-14 text-center rounded-3xl border-0"
                     style="
@@ -610,7 +610,7 @@
                             </h3>
                         </div>
                         <p class="text-lg leading-relaxed" style="color: rgba(52, 79, 31, 0.7)">
-                            This platform is designed and developed by<!-- -->
+                            This platform is designed and developed by
                             <a target="_blank" rel="dofollow noopener noreferrer"
                                 class="font-semibold underline decoration-2"
                                 style="color: #ff6500; text-decoration-color: #ff6500"
@@ -638,7 +638,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <div class="container mx-auto px-4 lg:px-6 my-16">
             <section class="relative py-16 md:py-20 rounded-2xl overflow-hidden shadow-lg">
                 <img alt="Background" loading="lazy" decoding="async" data-nimg="fill"
@@ -693,11 +693,11 @@
                             faster with Smart Application Kits.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="{{ route('front.consultation') }}"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Start
-                                Applying Now</a><a href="{{ route('front.tools.eligibility-checker') }}"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
-                                Eligibility</a>
+                                Applying Now</a><a href="{{ route('front.contact') }}"
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Contact
+                                Us</a>
                         </div>
                     </div>
                 </div>

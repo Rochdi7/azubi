@@ -364,7 +364,7 @@
                                         </path>
                                     </svg>€<!-- -->1330<!-- -->-€<!-- -->1538<!-- -->/mo</span>
                             </div>
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2">
                                     Browse
                                     <!-- -->IT &amp; Software<!-- -->
@@ -605,16 +605,16 @@
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/deutsche-bahn-23eddf32.html">Deutsche Bahn AG<span
+                                    href="#">Deutsche Bahn AG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->43<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/robert-bosch-150688bb.html">Robert Bosch GmbH<span
+                                    href="#">Robert Bosch GmbH<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->39<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/porsche-53b2396c.html">Porsche AG<span
+                                    href="#">Porsche AG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->37<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/siemens-ad5465c2.html">Siemens AG<span
+                                    href="#">Siemens AG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->35<!-- -->)</span></a><span
                                     class="inline-flex items-center px-2.5 py-1 text-xs text-[#344F1F]/60">+<!-- -->1<!-- -->
                                     <!-- -->more</span>
@@ -698,7 +698,7 @@
                             </p>
                             <div class="space-y-2">
                                 <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/kaufland-dienstleistung-72532b7c/ausbildung-zum-fachinformatiker-systemintegration-mwd-2026-heilbronn-cddfce968249.html?from=%2Fsectors%2Fit">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -735,7 +735,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/vattenfall-ed845c9f/kaufleute-fuer-digitalisierungsmanagement-2026-berlin-bc45189b8249.html?from=%2Fsectors%2Fit">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -770,7 +770,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/kaufland-dienstleistung-72532b7c/duales-studium-wirtschaftsinformatik-software-engineering-bsc-2026-neckarsulm-746fb6fa8249.html?from=%2Fsectors%2Fit">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -810,7 +810,7 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-white rounded-full h-11">
                                     Browse All IT &amp; Software Jobs<svg xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1067,7 +1067,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/application-development.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1175,7 +1175,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/application-development-specialist.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1283,7 +1283,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/data-process-analysis-specialist.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1391,7 +1391,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/digital-networking-specialist.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1498,7 +1498,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/it-business-manager.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1606,7 +1606,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/it-systems-electronics.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1714,7 +1714,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/it-systems-electronics-technician.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1822,7 +1822,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/system-integration-specialist.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1891,9 +1891,9 @@
                             opportunities that match your skills and interests.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">View
-                                Available Positions</a><a href="{{ route('front.tools.eligibility-checker') }}"
+                                Available Positions</a><a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
                                 Eligibility</a>
                         </div>

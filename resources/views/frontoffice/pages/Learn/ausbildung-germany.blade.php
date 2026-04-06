@@ -139,10 +139,7 @@
             "serviceType": "Educational Consulting",
             "areaServed": [
               "Germany",
-              "Morocco",
-              "Spain",
-              "Italy",
-              "France"
+              "Morocco"
             ],
             "offers": {
               "@type": "Offer",
@@ -252,7 +249,7 @@
                     <div
                         class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 w-full max-w-md mx-auto animate-fade-in-up animation-delay-500">
                         <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-5 sm:px-8 py-4 sm:py-6 text-sm sm:text-base font-semibold w-full sm:w-auto hover:-translate-y-1 min-h-[48px] inline-flex items-center justify-center"
-                            href="{{ route('front.jobs') }}">Start Applying</a><a
+                            href="#">Start Applying</a><a
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-5 sm:px-8 py-4 sm:py-6 text-sm sm:text-base font-semibold w-full sm:w-auto min-h-[48px] shadow-lg inline-flex items-center justify-center"
                             href="#how-it-works">See How It Works</a>
                     </div>
@@ -730,7 +727,7 @@
                                 checklists, and email templates
                             </p>
                             <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full rounded-full group-hover:scale-105 transition-transform duration-200 bg-[#F4991A] hover:bg-[#E5890F] text-white flex items-center justify-center gap-2"
-                                href="auth7d2a.html?signup"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-user-plus h-5 w-5">
@@ -762,7 +759,7 @@
                                 perfect fit
                             </p>
                             <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 shadow-sm hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full rounded-full group-hover:scale-105 transition-transform duration-200 border-[#F4991A]/30 bg-[#F4991A]/5 text-[#F4991A] hover:bg-[#F4991A]/10 hover:text-[#F4991A] flex items-center justify-center gap-2"
-                                href="{{ route('front.jobs') }}"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                     class="lucide lucide-briefcase h-5 w-5">
@@ -791,7 +788,7 @@
                                 Check if Ausbildung is right for you in 2 minutes
                             </p>
                             <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 shadow-sm hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full rounded-full group-hover:scale-105 transition-transform duration-200 border-[#F4991A]/30 bg-[#F4991A]/5 text-[#F4991A] hover:bg-[#F4991A]/10 hover:text-[#F4991A] flex items-center justify-center gap-2"
-                                href="{{ route('front.tools.eligibility-checker') }}"><svg
+                                href="#"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-file-check h-5 w-5">
@@ -1044,7 +1041,7 @@
                     </div>
                     <div class="mt-12 text-center" style="opacity: 0; transform: translateY(20px)">
                         <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 text-base bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full px-8 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 inline-flex items-center gap-2"
-                            style="min-height: 48px" href="auth7d2a.html?signup">Start Applying<svg
+                            style="min-height: 48px" href="#">Start Applying<svg
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5">
@@ -1398,7 +1395,7 @@
                     <p class="text-sm text-[#344F1F]/60 mb-6 font-medium">
                         Join 15,000+ students already applying smarter
                     </p>
-                    <a href="auth7d2a.html?signup"><button
+                    <a href="#"><button
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                             Start Applying<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -2043,7 +2040,7 @@
                         account today
                     </p>
                     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                        <a href="auth7d2a.html?signup"
+                        <a href="#"
                             class="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 rounded-full bg-[#F4991A] text-white text-sm sm:text-base font-semibold hover:bg-[#E5890F] hover:shadow-lg transition-all duration-300"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -2122,7 +2119,7 @@
                             82.4287px -3.28125px,
                           rgba(0, 0, 0, 0.024) 0px 150px 150px -3.75px;
                       "
-                                href="{{ route('front.jobs') }}">
+                                href="#">
                                 <div class="absolute inset-[3px] rounded-[114px] bg-white z-0"></div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -2136,7 +2133,7 @@
                                     style="font-weight: 500; letter-spacing: -0.04em">Start Applying Now</span>
                             </a><a
                                 class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full border-2 border-white/80 hover:border-white text-white hover:bg-white/10 transition-all duration-300"
-                                href="{{ route('front.tools.eligibility-checker') }}"><svg
+                                href="#"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"

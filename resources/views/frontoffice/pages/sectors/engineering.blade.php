@@ -377,7 +377,7 @@
                                         </path>
                                     </svg>€<!-- -->1408<!-- -->-€<!-- -->1634<!-- -->/mo</span>
                             </div>
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2">
                                     Browse
                                     <!-- -->Engineering &amp; Technical<!-- -->
@@ -602,16 +602,16 @@
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/deutsche-bahn-23eddf32.html">Deutsche Bahn AG<span
+                                    href="#">Deutsche Bahn AG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->324<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/henkel-5cb2bc33.html">Henkel<span
+                                    href="#">Henkel<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->198<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/robert-bosch-150688bb.html">Robert Bosch GmbH<span
+                                    href="#">Robert Bosch GmbH<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->181<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/hamburger-flugzeugbau-7fc8c9d4.html">Hamburger Flugzeugbau<span
+                                    href="#">Hamburger Flugzeugbau<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->135<!-- -->)</span></a><span
                                     class="inline-flex items-center px-2.5 py-1 text-xs text-[#344F1F]/60">+<!-- -->1<!-- -->
                                     <!-- -->more</span>
@@ -695,7 +695,7 @@
                             </p>
                             <div class="space-y-2">
                                 <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/konditorei-junge-c769f6bb/ausbildung-maschinen-und-anlagenfuehrer-mwd-luebeck-roggenhorst-luebeck-8928d6ce9123.html?from=%2Fsectors%2Fengineering">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -731,7 +731,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/thyssenkrupp-e2871933/ausbildung-zum-maschinen-und-anlagenfuehrer-mwd-start-august-2026-garbsen-cf97d3aa9123.html?from=%2Fsectors%2Fengineering">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -767,7 +767,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/basf-se-90296bbe/ausbildung-industriekaufmannfrau-mwd-lemfoerde-5d95165a9123.html?from=%2Fsectors%2Fengineering">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -806,7 +806,7 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-white rounded-full h-11">
                                     Browse All Engineering &amp; Technical Jobs<svg xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1084,7 +1084,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/chemical-technician.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1208,7 +1208,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/construction-mechanic.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1333,7 +1333,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/electrical-engineering-technician.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1459,7 +1459,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/electronics-technician.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1585,7 +1585,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/industrial-mechanic.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1693,7 +1693,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/mechatronics-technician.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1817,7 +1817,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/metalworking-technician.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1945,7 +1945,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/process-mechanic.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -2069,7 +2069,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/technical-product-designer.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -2195,7 +2195,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/tool-mechanic.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -2264,9 +2264,9 @@
                             opportunities that match your skills and interests.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">View
-                                Available Positions</a><a href="{{ route('front.tools.eligibility-checker') }}"
+                                Available Positions</a><a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
                                 Eligibility</a>
                         </div>

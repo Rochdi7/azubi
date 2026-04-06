@@ -83,7 +83,7 @@
                             </span>
                         </a>
                         <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/80 hover:border-white text-white hover:text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto shadow-lg inline-flex items-center justify-center"
-                            aria-label="Get Guidance" href="/contact"> <span aria-hidden="true"> <svg
+                            aria-label="Get Guidance" href="{{ route('front.contact') }}"> <span aria-hidden="true"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-users w-5 h-5 mr-2">
@@ -283,7 +283,7 @@
                             </svg>
                         </a>
                         <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
-                            href="/ausbildung/change-career/alternative-pathways"> Explore All Options
+                            href="#"> Explore All Options
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-target h-4 w-4">
@@ -694,7 +694,7 @@
                 <div class="mt-12 text-center">
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
                         <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2"
-                            href="/ausbildung/change-career/process-guide"> View Detailed Process Guide
+                            href="#"> View Detailed Process Guide
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-book-open h-4 w-4">
@@ -706,7 +706,7 @@
                             </svg>
                         </a>
                         <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2"
-                            href="/ausbildung/change-career/alternative-pathways"> Compare Alternative Pathways
+                            href="#"> Compare Alternative Pathways
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-trending-up h-4 w-4">
@@ -1117,7 +1117,7 @@
                             <p class="text-sm font-medium mb-3">
                                 —
                                 <!-- -->
-                                Ahmed K., Egypt
+                                Karim B., Morocco
                             </p>
                             <div class="space-y-2 py-3 border-t">
                                 <div class="flex justify-between text-xs">
@@ -1478,7 +1478,7 @@
                 </div>
                 <div class="mt-10 text-center">
                     <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
-                        href="/ausbildung/change-career/alternative-pathways"> Explore All Alternative Pathways
+                        href="#"> Explore All Alternative Pathways
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4">
@@ -2593,7 +2593,7 @@
                                                 <p class="text-muted-foreground max-w-md">Thank you! Our
                                                     Ausbildungswechsel specialists will review your situation and contact
                                                     you within 24 hours with a personalized switch plan.</p>
-                                                <a href="{{ route('front.jobs') }}"
+                                                <a href="#"
                                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold h-12 px-8 py-3 bg-primary text-primary-foreground hover:bg-orange-hover transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 shadow-lg">
                                                     Browse Available Jobs
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -2683,7 +2683,7 @@
                             perfect match for your skills and career goals while we handle the transition process.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="/dashboard/jobs"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
                                 Browse Available Jobs
                             </a>

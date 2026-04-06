@@ -335,7 +335,7 @@
                                         </path>
                                     </svg>€<!-- -->1257<!-- -->-€<!-- -->1396<!-- -->/mo</span>
                             </div>
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2">
                                     Browse
                                     <!-- -->Logistics &amp; Transportation<!-- -->
@@ -560,16 +560,16 @@
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/deutsche-post-ag-eb0ad47e.html">Deutsche Post AG<span
+                                    href="#">Deutsche Post AG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->772<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/deutsche-bahn-23eddf32.html">Deutsche Bahn AG<span
+                                    href="#">Deutsche Bahn AG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->161<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/gc-gruppe.html">GC-GRUPPE<span
+                                    href="#">GC-GRUPPE<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->153<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/edeka-zentrale-80b1eba0.html">Edeka-Zentrale AG &amp; Co. KG<span
+                                    href="#">Edeka-Zentrale AG &amp; Co. KG<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->153<!-- -->)</span></a><span
                                     class="inline-flex items-center px-2.5 py-1 text-xs text-[#344F1F]/60">+<!-- -->1<!-- -->
                                     <!-- -->more</span>
@@ -653,7 +653,7 @@
                             </p>
                             <div class="space-y-2">
                                 <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/thyssenkrupp-e2871933/ausbildung-fachkraft-fuer-lagerlogistik-mwd-start-august-2026-bielefeld-3a0bce98dbf1.html?from=%2Fsectors%2Flogistics">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -690,7 +690,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/thyssenkrupp-e2871933/ausbildung-kaufmann-frau-fuer-gross-und-aussenhandelsmanagement-mwd-start-august-2026-bielefeld-9eed778edbf1.html?from=%2Fsectors%2Flogistics">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -727,7 +727,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/thyssenkrupp-e2871933/ausbildung-fachkraft-fuer-lagerlogistik-mwd-start-august-2026-nuertingen-04744eb3dbf1.html?from=%2Fsectors%2Flogistics">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -767,7 +767,7 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-white rounded-full h-11">
                                     Browse All Logistics &amp; Transportation Jobs<svg xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1028,7 +1028,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/freight-forwarding-logistics.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1136,7 +1136,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/professional-driver.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1244,7 +1244,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/warehouse-logistics-specialist.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1313,9 +1313,9 @@
                             opportunities that match your skills and interests.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">View
-                                Available Positions</a><a href="{{ route('front.tools.eligibility-checker') }}"
+                                Available Positions</a><a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
                                 Eligibility</a>
                         </div>

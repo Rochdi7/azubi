@@ -1078,7 +1078,7 @@
                             someone sharing private information inappropriately, report
                             it to us immediately at
                             <a
-                                href="cdn-cgi/l/email-protection.html#54373b3939213a3d202d14333b352127363d3830213a337a373b39"><span
+                                href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="c5a6aaa8a8b0abacb1bc85a2aaa4b0b6a7aca9a1b0aba2eba6aaa8">[email&#160;protected]</span></a>.
                         </li>
@@ -1206,7 +1206,7 @@
                         <li>
                             <strong>Report Issues:</strong> If you encounter bugs,
                             broken links, or technical problems, let us know at
-                            <a href="cdn-cgi/l/email-protection.html#79111c151516391e16180c0a1b10151d0c171e571a1614"><span
+                            <a href="#"><span
                                     class="__cf_email__"
                                     data-cfemail="bed6dbd2d2d1fed9d1dfcbcddcd7d2dacbd0d990ddd1d3">[email&#160;protected]</span></a>.
                         </li>
@@ -1254,7 +1254,7 @@
                     <p><strong>How to Report:</strong></p>
                     <p>
                         Email us at
-                        <a href="cdn-cgi/l/email-protection.html#3d5e52505048535449447d5a525c484e5f54515948535a135e5250"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="0b686466667e65627f724b6c646a7e786962676f7e656c25686466">[email&#160;protected]</span></a>
                         with:
@@ -1595,7 +1595,7 @@
                         <li>
                             <strong>Cancellation:</strong> You may cancel at any time by
                             contacting
-                            <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                            <a href="#" class="__cf_email__"
                                 data-cfemail="295a5c5959465b5d694e46485c5a4b40454d5c474e074a4644">[email&#160;protected]</a>;
                             advance payment is non-refundable, success fee is not
                             applicable if cancelled before receiving an offer
@@ -1787,7 +1787,7 @@
                         <li>Processing time: 7-14 business days after approval</li>
                         <li>
                             Contact
-                            <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                            <a href="#" class="__cf_email__"
                                 data-cfemail="6f0d0603030601082f08000e1a1c0d06030b1a0108410c0002">[email&#160;protected]</a>
                             to request a refund
                         </li>
@@ -1820,7 +1820,7 @@
                     </p>
                     <p>
                         Contact for withdrawal:
-                        <strong><a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                        <strong><a href="#" class="__cf_email__"
                                 data-cfemail="c6a4afaaaaafa8a186a1a9a7b3b5a4afaaa2b3a8a1e8a5a9ab">[email&#160;protected]</a></strong>
                     </p>
                     <h4>Effects of Withdrawal</h4>
@@ -1865,7 +1865,7 @@
                   ">
                         <p style="margin-bottom: 0.5rem">
                             <em>To: Azubi (Azubi),
-                                <a href="cdn-cgi/l/email-protection.html" class="__cf_email__"
+                                <a href="#" class="__cf_email__"
                                     data-cfemail="82e0ebeeeeebece5c2e5ede3f7f1e0ebeee6f7ece5ace1edef">[email&#160;protected]</a><br />I
                                 hereby give notice that I withdraw from my
                                 contract for the provision of the following service:
@@ -2210,7 +2210,7 @@
                     <p>
                         Before filing any legal claim, you agree to first attempt
                         informal resolution by contacting us at
-                        <a href="cdn-cgi/l/email-protection.html#0f636a686e634f68606e7a7c6d66636b7a6168216c6062"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="80ece5e7e1ecc0e7efe1f5f3e2e9ece4f5eee7aee3efed">[email&#160;protected]</span></a>.
                         We will attempt to resolve disputes within 30 days.
@@ -2303,15 +2303,15 @@
                     </p>
                     <p>
                         <strong>Email:</strong><br />General inquiries:
-                        <a href="cdn-cgi/l/email-protection.html#6e060b0202012e09010f1b1d0c07020a1b0009400d0103"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="244c4148484b64434b455157464d4840514a430a474b49">[email&#160;protected]</span></a><br />Legal
                         matters:
-                        <a href="cdn-cgi/l/email-protection.html#38545d5f5954785f57594d4b5a51545c4d565f165b5755"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="94f8f1f3f5f8d4f3fbf5e1e7f6fdf8f0e1faf3baf7fbf9">[email&#160;protected]</span></a><br />Privacy
                         concerns:
-                        <a href="cdn-cgi/l/email-protection.html#bdcdcfd4cbdcdec4fddad2dcc8cedfd4d1d9c8d3da93ded2d0"><span
+                        <a href="#"><span
                                 class="__cf_email__"
                                 data-cfemail="dcacaeb5aabdbfa59cbbb3bda9afbeb5b0b8a9b2bbf2bfb3b1">[email&#160;protected]</span></a>
                     </p>

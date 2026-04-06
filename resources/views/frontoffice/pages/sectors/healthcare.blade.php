@@ -364,7 +364,7 @@
                                         </path>
                                     </svg>€<!-- -->1249<!-- -->-€<!-- -->1488<!-- -->/mo</span>
                             </div>
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2">
                                     Browse
                                     <!-- -->Healthcare &amp; Nursing<!-- -->
@@ -589,16 +589,16 @@
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/helios-kliniken-4c1e6386.html">Helios Kliniken<span
+                                    href="#">Helios Kliniken<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->1578<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/asklepios-kliniken-co-kgaa-2e5ed962.html">Asklepios Kliniken GmbH
+                                    href="#">Asklepios Kliniken GmbH
                                     &amp; Co. KGaA<span class="ml-1 text-[#344F1F]/50">(<!-- -->1528<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/fielmann-61c17c62.html">Fielmann<span
+                                    href="#">Fielmann<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->680<!-- -->)</span></a><a
                                     class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
-                                    href="../company/alexianer-a9e4194c.html">Alexianer<span
+                                    href="#">Alexianer<span
                                         class="ml-1 text-[#344F1F]/50">(<!-- -->422<!-- -->)</span></a><span
                                     class="inline-flex items-center px-2.5 py-1 text-xs text-[#344F1F]/60">+<!-- -->1<!-- -->
                                     <!-- -->more</span>
@@ -682,7 +682,7 @@
                             </p>
                             <div class="space-y-2">
                                 <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/aok-ba00de77/bachelor-soziale-arbeit-im-gesundheitswesen-dh-mwd-ab-01092026-region-suedlicher-oberrhein-region-suedlicher-oberrhein-freiburg-brsghschw-emmendingen-lahr-ortenau-63?from=%2Fsectors%2Fhealthcare">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -721,7 +721,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/bg-kliniken-berufsgenossenschaftliche-kliniken-857bb7f6/ausbildung-pflegefachfraupflegefachmannstart-im-maerz-2026-halle-f403a661edb6.html?from=%2Fsectors%2Fhealthcare">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -757,7 +757,7 @@
                                         /month
                                     </p>
                                 </a><a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
-                                    href="../jobs/vivantes-netzwerk-fr-gesundheit-765abd8f/ausbildung-medizinischer-technologetechnologin-fuer-radiologie-mtr-142026-mwd-berlin-142a6f16edb6.html?from=%2Fsectors%2Fhealthcare">
+                                    href="#">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
@@ -796,7 +796,7 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            <a href="{{ route('front.jobs') }}"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-white rounded-full h-11">
                                     Browse All Healthcare &amp; Nursing Jobs<svg xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1003,9 +1003,9 @@
                         </div>
                         <div class="flex flex-col sm:flex-row gap-4">
                             <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base"
-                                href="{{ route('front.jobs') }}">Browse Nursing Jobs</a><a
+                                href="#">Browse Nursing Jobs</a><a
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base"
-                                href="{{ route('front.tools.eligibility-checker') }}">Check Eligibility</a>
+                                href="#">Check Eligibility</a>
                         </div>
                     </div>
                     <div class="space-y-4 bg-card/60 backdrop-blur-sm rounded-xl p-6 border border-border">
@@ -1172,7 +1172,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/dental-assistant.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1297,7 +1297,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/general-nursing.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1420,7 +1420,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/geriatric-care.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1528,7 +1528,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/healthcare-assistant.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1637,7 +1637,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/medical-assistant.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1746,7 +1746,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/pharmaceutical-commercial-assistant.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1855,7 +1855,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/physiotherapist.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1963,7 +1963,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="../programs/registered-nurse.html"><button
+                            <a href="#"><button
                                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -2032,9 +2032,9 @@
                             opportunities that match your skills and interests.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center gap-3">
-                            <a href="{{ route('front.jobs') }}"
+                            <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">View
-                                Available Positions</a><a href="{{ route('front.tools.eligibility-checker') }}"
+                                Available Positions</a><a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
                                 Eligibility</a>
                         </div>
