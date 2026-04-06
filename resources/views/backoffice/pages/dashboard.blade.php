@@ -1,4 +1,4 @@
-@extends('frontoffice.layouts.dashboard')
+@extends('backoffice.layouts.dashboard')
 
 @section('title', 'Dashboard - Azubi')
 

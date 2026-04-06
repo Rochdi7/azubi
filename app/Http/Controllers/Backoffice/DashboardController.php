@@ -1,24 +1,24 @@
 <?php
 
-namespace App\Http\Controllers\Frontoffice;
+namespace App\Http\Controllers\Backoffice;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class UserDashboardController extends Controller
+class DashboardController extends Controller
 {
     public function index()
     {
         $user = auth()->user();
 
-        return view('frontoffice.pages.dashboard', compact('user'));
+        return view('backoffice.pages.dashboard', compact('user'));
     }
 
     public function profile()
     {
         $user = auth()->user();
 
-        return view('frontoffice.pages.profile', compact('user'));
+        return view('backoffice.pages.profile', compact('user'));
     }
 
     public function updateProfile(Request $request)
