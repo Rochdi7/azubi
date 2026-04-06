@@ -636,14 +636,42 @@
                               </button>
                           </div>
                           
-                          {{-- <a class="flex items-center justify-center gap-2 bg-primary hover:bg-primary/95 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors text-primary-foreground border border-primary/20 ml-2 md:ml-3"
-                              href="/auth"><span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg"
-                                  width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                  stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                  stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
-                                  <path d="M5 12h14"></path>
-                                  <path d="m12 5 7 7-7 7"></path>
-                              </svg></a> --}}
+                          @auth
+                              {{-- User Menu (logged in) --}}
+                              <div class="relative ml-2 md:ml-3 nav-has-dropdown">
+                                  <button class="nav-dropdown-trigger flex items-center gap-2 px-3 md:px-4 py-1.5 rounded-full text-sm font-semibold transition-colors bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20">
+                                      <div class="w-7 h-7 rounded-full bg-primary flex items-center justify-center text-primary-foreground text-xs font-bold">
+                                          {{ strtoupper(substr(auth()->user()->name, 0, 1)) }}
+                                      </div>
+                                      <span class="hidden md:inline">{{ explode(' ', auth()->user()->name)[0] }}</span>
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-3 w-3"><path d="m6 9 6 6 6-6"></path></svg>
+                                  </button>
+                                  <div class="nav-dropdown-panel absolute top-full right-0 mt-2 w-48 bg-white/95 backdrop-blur-lg border border-border rounded-xl shadow-xl p-2 opacity-0 invisible transition-all duration-200 z-50">
+                                      <a href="{{ route('front.dashboard') }}" class="flex items-center gap-2 px-3 py-2 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                                          Dashboard
+                                      </a>
+                                      <div class="border-t border-border/50 my-1"></div>
+                                      <form method="POST" action="{{ route('front.auth.logout') }}">
+                                          @csrf
+                                          <button type="submit" class="flex items-center gap-2 w-full px-3 py-2 text-sm font-medium text-red-600 hover:bg-red-50 rounded-lg transition-colors">
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg>
+                                              Sign Out
+                                          </button>
+                                      </form>
+                                  </div>
+                              </div>
+                          @else
+                              {{-- Get Started button (guest) --}}
+                              <a class="flex items-center justify-center gap-2 bg-primary hover:bg-primary/95 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors text-primary-foreground border border-primary/20 ml-2 md:ml-3"
+                                  href="{{ route('front.auth') }}"><span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg"
+                                      width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                      stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
+                                      <path d="M5 12h14"></path>
+                                      <path d="m12 5 7 7-7 7"></path>
+                                  </svg></a>
+                          @endauth
                           <a class="flex items-center justify-center gap-2 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors bg-[#F4991A] hover:bg-[#E5890F] text-white ml-1 md:ml-2"
                               href="{{ route('front.consultation') }}">
                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -1374,16 +1402,24 @@
                               </a>
                           </nav>
                           <div class="mt-4 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner backdrop-blur-sm">
-                              {{-- <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
-                                  href="/auth">
-                                  <span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                      height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                      class="lucide lucide-arrow-right ml-2 h-4 w-4">
-                                      <path d="M5 12h14"></path>
-                                      <path d="m12 5 7 7-7 7"></path>
-                                  </svg>
-                              </a> --}}
+                              @auth
+                                  <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
+                                      href="{{ route('front.dashboard') }}">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                                      <span>Dashboard</span>
+                                  </a>
+                              @else
+                                  <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
+                                      href="{{ route('front.auth') }}">
+                                      <span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                          height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                          class="lucide lucide-arrow-right ml-2 h-4 w-4">
+                                          <path d="M5 12h14"></path>
+                                          <path d="m12 5 7 7-7 7"></path>
+                                      </svg>
+                                  </a>
+                              @endauth
                           </div>
                       </div>
                   </div>

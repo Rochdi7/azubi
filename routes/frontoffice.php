@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontoffice\HomeController;
+use App\Http\Controllers\Frontoffice\AuthController;
+use App\Http\Controllers\Frontoffice\UserDashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,6 +13,23 @@ use App\Http\Controllers\Frontoffice\HomeController;
 | Routes for the public-facing website (Tailwind CSS).
 |
 */
+
+// Auth routes (guest only for login/register page)
+Route::middleware('guest')->group(function () {
+    Route::get('/auth', [AuthController::class, 'index'])->name('front.auth');
+    Route::post('/auth/login', [AuthController::class, 'login'])->name('front.auth.login');
+    Route::post('/auth/register', [AuthController::class, 'register'])->name('front.auth.register');
+});
+Route::post('/auth/logout', [AuthController::class, 'logout'])->name('front.auth.logout');
+
+// Authenticated user routes
+Route::middleware('auth')->group(function () {
+    Route::get('/dashboard', [UserDashboardController::class, 'index'])->name('front.dashboard');
+    Route::get('/dashboard/profile', [UserDashboardController::class, 'profile'])->name('front.dashboard.profile');
+    Route::post('/dashboard/profile', [UserDashboardController::class, 'updateProfile'])->name('front.dashboard.profile.update');
+    Route::post('/dashboard/profile/contact', [UserDashboardController::class, 'updateContactInfo'])->name('front.dashboard.profile.contact');
+    Route::post('/dashboard/profile/photo', [UserDashboardController::class, 'updateProfilePhoto'])->name('front.dashboard.profile.photo');
+});
 
 Route::get('/', [HomeController::class, 'index'])->name('front.index');
 Route::get('/faq', [HomeController::class, 'faq'])->name('front.faq');

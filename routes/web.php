@@ -12,4 +12,3 @@
 */
 
 require __DIR__.'/frontoffice.php';
-require __DIR__.'/backoffice.php';

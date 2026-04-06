@@ -18,9 +18,12 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'email',
-        'password',
+        'name', 'email', 'password',
+        'phone', 'date_of_birth', 'nationality', 'current_location',
+        'city', 'country', 'postal_code', 'visa_status', 'work_authorization',
+        'available_from', 'headline', 'bio', 'german_level',
+        'preferred_sectors', 'preferred_cities', 'skills',
+        'profile_photo', 'cv_path',
     ];
 
     /**
@@ -41,5 +44,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
+        'date_of_birth' => 'date',
+        'available_from' => 'date',
+        'preferred_sectors' => 'array',
+        'preferred_cities' => 'array',
+        'skills' => 'array',
     ];
 }
