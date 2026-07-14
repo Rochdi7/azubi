@@ -1,0 +1,33 @@
+[data-page="home"] [data-gsap-scene] {
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    will-change: transform;
+}
+
+[data-page="home"] [data-gsap-depth] {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+[data-page="home"] [data-gsap-hero-bg],
+[data-page="home"] [data-gsap-hero-content],
+[data-page="home"] [data-gsap-marquee] {
+    will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto !important;
+    }
+
+    [data-page="home"] [data-gsap-scene],
+    [data-page="home"] [data-gsap-depth],
+    [data-page="home"] [data-gsap-hero-bg],
+    [data-page="home"] [data-gsap-hero-content],
+    [data-page="home"] [data-gsap-marquee] {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

@@ -1,0 +1,2337 @@
+{
+  "generatedAt": "2026-07-14T16:46:49.305Z",
+  "baseUrl": "http://127.0.0.1:8000",
+  "browserVersion": "Chrome/150.0.7871.115",
+  "webSocketVersion": "537.36 (@25f5b661e5b08141ec24b17d1ce96c5ceb5828da)",
+  "routes": [
+    {
+      "route": "/",
+      "label": "home",
+      "url": "http://127.0.0.1:8000/",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Ausbildung Germany 2026: Earn €1,300/Month While Learning | 85% Job Placement",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hero-background-germany-natural-autumne4b3.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hero-avatar-1c9d9.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hero-avatar-2235b.jpeg",
+          "http://127.0.0.1:8000/images/avatar/1.jpg",
+          "http://127.0.0.1:8000/assets/_next/hero-avatar-33eed.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hero-avatar-4ec14.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hero-avatar-58f5b.jpeg",
+          "http://127.0.0.1:8000/assets/_next/university-card-background-winter-v2d699.jpeg",
+          "http://127.0.0.1:8000/assets/_next/ausbildung-card-background004b.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/",
+          "http://127.0.0.1:8000/build/assets/home-animations-701947ec.css",
+          "http://127.0.0.1:8000/build/assets/home-animations-b564ed73.js",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/NV5lfKR9pwY87K85EYByWA/WkZ7SIwljgYI2E6Q92nVhqtezgCi7lmLhoHXHYNxaLq-7Xeei67bdxbmA-qdTROmQycHjwyfz2zj5ACpzUfa7ume5hL_gS0uaRIIA9ayhy2yzx3d4fJBZAoS647MkWS0ZerF65af-FJBlDX8itWCfg/2oDxDa2eXYlEvdFXathT4RqV3PBbKHyBrUTYtZimxxA",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/Bh4jHeuNZSjZSVBMLLUBlw/ylg0x0uu9JszzpLux2ZDN7PD3KlAST_EzQFp6Jaa87e0-NIBogrRImFcyNRfYIrbDWLWrysvZJy1bSrN0FIAAE5hRodcEpnNs7cYFooybMKv2MGnI1mHsNhDezV31bScj5yCBRqyuyeISvRgnH96BQ/agnwEBtGeR4cmlV2UaIYBswd0QOHrUX7swL0bFC9Hi0",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/t5-mCiSM3_827IRf41gE-A/axhjIfhCMH5aRWIdIdQLORDf4qRjgS2jJ036zFJTbKLE-7Su4PRQ2MS6iBA2KowfaLizj_o52YEBKTbbw6YpMhpXoo1O76qhyuyRn3WbPdha7wF-gId6HwnB83QCgcBhqr1EYeybc_I3QSWZo4sIgg/KPZkCIXLQN4BvtlS_Z2cBtomENj6PgCo7_SwYKb9JnI",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/xZ4k7Jw3CtSBUzEb3LFhJQ/Uh68HfNBMrGR0xlLQIdZs8dLxn7Jct90wxYxioWp_sLvkVdHbUUqnCJAN7NadHrmP42hD17p7Qh-VbKI9dHZiFAkmZ2AEAT6XhivfQY4Y0gCl2yLreeVvwY32EcQuLA_B72WdldiaQysQFXvgEB19w/ACBheroQBtqaafCgWzL3p7nG1gv2KNo2M2qtLr5TQSI",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/tnN41oKOH5a_FmhzeZp00w/dfqNXXMxG7ZxD0D5LtuR4vawDjOOWNuDYLSDr9s6F0Fm5XkOo9feRH8b2E4Vc1hqb0VGg-sl7wQ8qXvIUp0OH2L_NhoOaSIdbxHnRTT_Y_yhYhjCVgAJIo9U_R1cGoqpDrgq2MgR72JBlNMyQZe-uQ/NFUCRi3ItXI1mlZADd6WdPNb42kHv-doHSj3gG0j05Y",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/D1yRb4z-SnX81znUjd7S-Q/05nG3EioHx0wOaUjSz9aKp5GHWlfSl1CJdSRLCMjPjiQucnPUdZeFjfTdzU58pQ9wT8Zsh6L70l0jZ9KISdxCB7BAGegGSMC47uZfvmar8wzy1fSP1PQZ_G-lvMWT8dUVlYIaWWfAPy8szevlauR_A/0RmmBGXryOnRsVz5clvfByFQu-hu_yx8PSg9KQO2wzQ",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/8WYhTOZjti8Rhz_cn_A2kQ/x4qAppMDZuncjEYACtipuRHOzS6mvt7y6Mvq8bdnZCQwwAufQfwdhQ-FJp7imGNPrGne9j0cyE3TVtwddB3VL4DNTZu16MHhaVRZTbM06Ic8aDCljGl9SUShTGJKU-ukAgCjKex4xx4bFeD15DII1g/QgMUjhuuIHMrcKhA2eyfwDvdMnldNSUsmbwYovFsSLk",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/KZcGu27b_WKRJcgyEIzGyw/hMPo8U6yaiHB8CSmu3ROSYZKEE_aSN-MyDtL6jVwvMdjNjmxz4nK797h7wpPuzGxy9sdmkKHfaSAo7aYO1lAiI7ts5tZ7RoC0xugw4G4xUllwMc1ipLAblo2LmgHa7mJ5xejq6v1O6zMXjAMtCBbgg/KrU-ZudwW4U6u3Tw4_WPlnhqG1BzXUDQqOyK_EAYrRQ",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/dvm6eB-UDESTUT_xVNGOvQ/1ayPVuKt8ZylWGoAnovnyy_R9beubvlPDhxNAXEFdj17obr9379R0TTYlak-sSMGFH4BiR0n6ULGCOsUg8EqlDm-xo0VCX_Sh3UIf8gpYANelNYXJ-H0p0iYwxJ6IUNPGhjNzMOK8U8FFN2PtDh6WA/UVlqXbQfveGqwX-L0ygCilFbQt3nOVstRhdglaj9Va8",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/ywbS1Ci6J6cnt98al0CICw/Hhe1dpGJKWSyazm-IYlHtuKJyU--p27nYflZnycPURivp-CiUGOGu7xQlcmUSQi6beQp_gbfs7C3xGqBg0SEWtq-LPsHILRLPWX37_2T2Zfkf0S_51EnLqvP4b25kuFApAxeUs9iEFHQBrDNrgPLqA/v8rAO1vNVldrF1iJvxqCYTcWZZG3LCdOAHKb6wSQi9I",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/EC8VIVCWOPr2Xp7tFUzATg/00LL0iB-C2zdaVuCB9InYeGB43sJ55yHHvOKyhbqbxKn2Rxubci_unCkiWjkHxkaoPxxv-tsmIngdxq00c2Dak-2K-uctJRrReaq6z1D-N9fbj97QvPlvtyo5OWNi-tkdBZCbfEfZfz3JFGx1CveSA/5FdeDv9DIUJzJBQXTLMFnPSj4VKuIHtvu7YnSYzOb3Y",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/crr5YDinHZrmTyqdRUDcYw/PJCfR3srqPNBvwWDj2KlhSKVeBthX2i5-UWoNjqGRxwiwzIyrq5E0GgDw4ctfyFYQp3swZHJXOWqfh--4apO_3DPtmHC2iKI78-2DSOsW1QP-JWIp3w4JTiBNeO98b6_Hb4KEpaAVi9cq4hyDdMA1w/od6kBPi9FcCtaUIn69Cblgrn88c5pXirlHvrsJwW9rQ",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/VBx_hoKZK-IUgSv0JFPc8g/JQwa6F1L-e8u9T300TD1TXHMAIEBAxiOPcoDWdi2eXRUPB88VIHqMyJfQr10echmwQYz70gs0XyXjRiA6HarGN_SaTqMy_GwsrGSzkVpFZyel9yziKuK4GOlFaX0c9mmV7IBe-3QUPw34hm7utHAdQ/xR1j_9BgKIq0zo2mC1AXnHT1dBmSQH9a5Cfw1ISXE4E",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/w_IXoxRTYQyUFSYO4YBtqA/XFTgfrpBAb9RAZsTlJij5ZGkKqIr2_YMi6-dJnlV34rbx_ME4fAnAI_mTwru1LEUjr0pHENoRYd047iZaVlbTq2xEf_pIKD6c9LYcXSF3wuCtTb-PMdEpTOgsADNvdOsa1fLHAszbwdtnh92h3BmEg/9Ld-EKhSfSMis7Mbc3fD2xPqKcNOK2ioAADbejG_OZI",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/k7WU42cRpNJmYU_WH8QJgQ/6N0wWYNmZx8M93VFEIRZCCirbzdKXH91mq3-dcdiGD5a3_HEYRSvSdNP7HDA6quuKEXlFuZ_yYtapWSSAjqQRhxGWhGyADs24TTw3yIaVyWZVj7Mc_zUXwImLPoNoFPv-GYMRJ-OjvoSJG4Vpyjv5Q/mgCGoYs_QubfumX2uTKV0aHvcV_-zZeOW7i_RgFFltg",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/EjdJn8aDmp8EWQ1IHvYKiQ/q0T6WzXFPZlaxzDIfug6nEBUs2PTdzmYhO5hFdskWlv14JTub2kfNmWAveyg2dJd4EUsF3t39rDQG1eTPNk_5Abu3JZB6OuDmpUWowWCcMsepgCHrgxWpEOAJsstU3lmgID2WGls1_UNJM0mym5oYA/KqwS11j4RrOaklYnOoCsszn0IUnthPFPn44pHBMBR0Q",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/zal8g28XT_4jDWruYqr-Lw/BtbzzLdlvLIXcLrkKeJOhwhJokgwnR61JugvFq7B8nEgDMd1PWxLVDqyndMEDZXejFeeX58oun1ZqQXhLgAH4lr95vkVC3rTTy-Qn1Mau9-ORn_ShEwdAvSO08NTPlYDQjTIX93p8KIBSm1h3J2moA/wLFmWbKGeWd8Sr_8Jb-pRHhbq3RSw6Htld5Wc-Wixno",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/v9Qn7V9MlNKg8SwkRvXPQQ/aRDa7_FSvSwXvZFshO2XzeaV5vpN1SP3JA07ZvbgnEvuOx7fx420_UXEXmF5ttUfd1r1jyT2MGb6p0B7_178IdT34HxT9gSji9G6c_eEXFQslW9YcfkjlXH8fVvPUIvnEzcCubUfg1oszQMFQMG3HA/6g-Pey9k0yhL9omY1m4ZM06smPFdgVVbrQmjrDCdmdQ",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/W78EbQ5nluu9XwT0o95mag/qifPvnzCP8BZz5zfkIsDdO1F76V2dxzUxsKEokJVIFUGoGfZGF3uxxruFEnPSOmFmMHun4Auwu-ZjNCsdtjHiszo4PJgO54w2947pMMSVWpnh7tKVf7uAB8ckGfwicmyRLXYNRYO3ma7xTIwwUz3xg/ijTWb9fs8L_cBqk1QFa7F9JG6ZuiZV4oQ_JoW-yvkWU",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/gtyfS8mou0xRRZYB7kayKQ/QZzoi2yfIorHWTYNclQh0Tam7M0BI9b3tkI2rBLoDhBhfvDpkl-EUmKgHn1XEMZ0bvNJASE0DVZv-IlZ6kc5omi-YP7QPzeK79PpjMG_RzYQcHLQ7zX1eDAS_LtpCTkVQkGGpVG-Y3wlBbI6DSEklw/076kDKH7Q1hGbazKK4FjhYG4e65IB2PMQZgxokQXtYI",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/r9Lu1bzlNiEaGFr9nsp5OA/2MEkqSPr3g30TYTE_CQCONvskY2Xa3jBYqq2zlxN4GRxnYmvFa9071Td0E9Axg-9jXheFUQhZVrIuJdvUCtYHmK9dlDfC7D7nCKl4eGDOE4VtYOL11BaHjIfdV93GeffjDUcFhM09d2vJj2XV21m9w/rTbVjFlI6703YMgjYBkC_gC4BjmvBFdmebA_JYIslVA",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/xmv4EyEwuW-590rn6yh_mA/r75WHV-RMhpSGWam7W0VYbalV8nM9aPHsc58zBZIpcXTWQcopgYaZB5GbwiCxjLela4NKnPh4wBBREYe5RjHvhU0WlTgndJD6U9bI4Z0c6gJ9fDKKES-K0_k1maR57oArSrBzMpOuOnEQ972cawMqg/ZxH_-hqFIssp9Hz0LvS-xFTvRnSkEySLUB-Eu3iGt-U",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/Kus92QLaahQOOm1Td5MQ1g/aRj-0yw5GbrxVcV3ThV-UJjcEVod4zscJen3rucSHkR0RpZKzBrGDQm-hOdjjl3RcBIJsvtGIUzpDxL9WqF-s2t-XRjxYyME7wr-N6dBGH8YR24sb6pj-mPbkidXC18ZDQ96Hh6YDC9kzrm7WfZFoQ/9jV2B0reArX59FVbniuJGRWL5j1T--YEl0aG13kjvvY",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/5uOxDdKWU706LyZHOlQ4-A/gA-0RRUcCahi9SfW2JFDcGydbloC--URxF035QjQuqq6g_jpomCsY3_ZtQzSXabKG0-3r09m9H21KW82fo0E5BcyoL6jT7CmXi7l1R3lz1_V4VBw7eq52uDc70TZ_xupuisuV1G9Sdm54W7C8jLriw/HqeSyVVAAe-FACAZe_cOHcqZwUYfHG7T_IF4-y0ZBnE",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/3CQ7R5eCXzcmAM3lPYnN-g/a9ea6pvnvPW3m1d0hrvv2FnhgNuy6nr9V1M1hmChkr8KkhkNmIWfKppiu-dbzp7EZNdO6NZAcDOhZp8VJkCieuhM_07SHeMshVoSxdgAxw9Pq6T917ElFheulnHUWLN_UOTYEJvknIrbhcEZXapJ8Q/J2n8cAAk_NBwFmNAYYWSOpJYyykg4x40JZ45sXnaYL8",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/uj4k86BKfkBui-62E44VbA/bzt50F6DHcZXYROMgOJix_kRZiuTYQ1DyfA2hpP7UWqorPJnOA9umGPz4kZZhU5JpKIyGpeegEUr0qAXA5LY16RjzA3G_Dqmhd2RGcXvtOmYUYSc6ju82aQqkmIzc3eGU8CAMtQteBaMvE8XBvdvVA/LpZRXCQPrKCqBa0limrPobQhKgMXUkjmZt3IXiSu3Tg",
+          "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/27IYQCsQROVJCs2_H-wJ5Q/P5OgkWWcZtTe5GyYUKml4fVHlW2flvM3TdH1WDAt_xISKmD_BBb3pEQradNHuZmQXvIPghPBsy_CFnDhV7ZyPlATBmx1uLgHsacATrl2YNwt4ajGVHOz48X7FatJ05gmPv8oI9yBfoVBzAB6Cl2iDw/HUeNQXVUlClK4aMeLUZ0KSvFUnh2r2RzccEDZf2aIhs",
+          "http://127.0.0.1:8000/assets/css/global-new-styles.css"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "mobile-menu-toggle",
+          "details": {
+            "performed": true,
+            "selector": "#mobile-menu-toggle"
+          }
+        },
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "What is Ausbildung and how is it different from\n                                    university?"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/images/avatar/1.jpg",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/Bh4jHeuNZSjZSVBMLLUBlw/ylg0x0uu9JszzpLux2ZDN7PD3KlAST_EzQFp6Jaa87e0-NIBogrRImFcyNRfYIrbDWLWrysvZJy1bSrN0FIAAE5hRodcEpnNs7cYFooybMKv2MGnI1mHsNhDezV31bScj5yCBRqyuyeISvRgnH96BQ/agnwEBtGeR4cmlV2UaIYBswd0QOHrUX7swL0bFC9Hi0",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/D1yRb4z-SnX81znUjd7S-Q/05nG3EioHx0wOaUjSz9aKp5GHWlfSl1CJdSRLCMjPjiQucnPUdZeFjfTdzU58pQ9wT8Zsh6L70l0jZ9KISdxCB7BAGegGSMC47uZfvmar8wzy1fSP1PQZ_G-lvMWT8dUVlYIaWWfAPy8szevlauR_A/0RmmBGXryOnRsVz5clvfByFQu-hu_yx8PSg9KQO2wzQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/27IYQCsQROVJCs2_H-wJ5Q/P5OgkWWcZtTe5GyYUKml4fVHlW2flvM3TdH1WDAt_xISKmD_BBb3pEQradNHuZmQXvIPghPBsy_CFnDhV7ZyPlATBmx1uLgHsacATrl2YNwt4ajGVHOz48X7FatJ05gmPv8oI9yBfoVBzAB6Cl2iDw/HUeNQXVUlClK4aMeLUZ0KSvFUnh2r2RzccEDZf2aIhs",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/NV5lfKR9pwY87K85EYByWA/WkZ7SIwljgYI2E6Q92nVhqtezgCi7lmLhoHXHYNxaLq-7Xeei67bdxbmA-qdTROmQycHjwyfz2zj5ACpzUfa7ume5hL_gS0uaRIIA9ayhy2yzx3d4fJBZAoS647MkWS0ZerF65af-FJBlDX8itWCfg/2oDxDa2eXYlEvdFXathT4RqV3PBbKHyBrUTYtZimxxA",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/t5-mCiSM3_827IRf41gE-A/axhjIfhCMH5aRWIdIdQLORDf4qRjgS2jJ036zFJTbKLE-7Su4PRQ2MS6iBA2KowfaLizj_o52YEBKTbbw6YpMhpXoo1O76qhyuyRn3WbPdha7wF-gId6HwnB83QCgcBhqr1EYeybc_I3QSWZo4sIgg/KPZkCIXLQN4BvtlS_Z2cBtomENj6PgCo7_SwYKb9JnI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/tnN41oKOH5a_FmhzeZp00w/dfqNXXMxG7ZxD0D5LtuR4vawDjOOWNuDYLSDr9s6F0Fm5XkOo9feRH8b2E4Vc1hqb0VGg-sl7wQ8qXvIUp0OH2L_NhoOaSIdbxHnRTT_Y_yhYhjCVgAJIo9U_R1cGoqpDrgq2MgR72JBlNMyQZe-uQ/NFUCRi3ItXI1mlZADd6WdPNb42kHv-doHSj3gG0j05Y",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/VBx_hoKZK-IUgSv0JFPc8g/JQwa6F1L-e8u9T300TD1TXHMAIEBAxiOPcoDWdi2eXRUPB88VIHqMyJfQr10echmwQYz70gs0XyXjRiA6HarGN_SaTqMy_GwsrGSzkVpFZyel9yziKuK4GOlFaX0c9mmV7IBe-3QUPw34hm7utHAdQ/xR1j_9BgKIq0zo2mC1AXnHT1dBmSQH9a5Cfw1ISXE4E",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/xZ4k7Jw3CtSBUzEb3LFhJQ/Uh68HfNBMrGR0xlLQIdZs8dLxn7Jct90wxYxioWp_sLvkVdHbUUqnCJAN7NadHrmP42hD17p7Qh-VbKI9dHZiFAkmZ2AEAT6XhivfQY4Y0gCl2yLreeVvwY32EcQuLA_B72WdldiaQysQFXvgEB19w/ACBheroQBtqaafCgWzL3p7nG1gv2KNo2M2qtLr5TQSI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/W78EbQ5nluu9XwT0o95mag/qifPvnzCP8BZz5zfkIsDdO1F76V2dxzUxsKEokJVIFUGoGfZGF3uxxruFEnPSOmFmMHun4Auwu-ZjNCsdtjHiszo4PJgO54w2947pMMSVWpnh7tKVf7uAB8ckGfwicmyRLXYNRYO3ma7xTIwwUz3xg/ijTWb9fs8L_cBqk1QFa7F9JG6ZuiZV4oQ_JoW-yvkWU",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/EC8VIVCWOPr2Xp7tFUzATg/00LL0iB-C2zdaVuCB9InYeGB43sJ55yHHvOKyhbqbxKn2Rxubci_unCkiWjkHxkaoPxxv-tsmIngdxq00c2Dak-2K-uctJRrReaq6z1D-N9fbj97QvPlvtyo5OWNi-tkdBZCbfEfZfz3JFGx1CveSA/5FdeDv9DIUJzJBQXTLMFnPSj4VKuIHtvu7YnSYzOb3Y",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/zal8g28XT_4jDWruYqr-Lw/BtbzzLdlvLIXcLrkKeJOhwhJokgwnR61JugvFq7B8nEgDMd1PWxLVDqyndMEDZXejFeeX58oun1ZqQXhLgAH4lr95vkVC3rTTy-Qn1Mau9-ORn_ShEwdAvSO08NTPlYDQjTIX93p8KIBSm1h3J2moA/wLFmWbKGeWd8Sr_8Jb-pRHhbq3RSw6Htld5Wc-Wixno",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/KZcGu27b_WKRJcgyEIzGyw/hMPo8U6yaiHB8CSmu3ROSYZKEE_aSN-MyDtL6jVwvMdjNjmxz4nK797h7wpPuzGxy9sdmkKHfaSAo7aYO1lAiI7ts5tZ7RoC0xugw4G4xUllwMc1ipLAblo2LmgHa7mJ5xejq6v1O6zMXjAMtCBbgg/KrU-ZudwW4U6u3Tw4_WPlnhqG1BzXUDQqOyK_EAYrRQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/crr5YDinHZrmTyqdRUDcYw/PJCfR3srqPNBvwWDj2KlhSKVeBthX2i5-UWoNjqGRxwiwzIyrq5E0GgDw4ctfyFYQp3swZHJXOWqfh--4apO_3DPtmHC2iKI78-2DSOsW1QP-JWIp3w4JTiBNeO98b6_Hb4KEpaAVi9cq4hyDdMA1w/od6kBPi9FcCtaUIn69Cblgrn88c5pXirlHvrsJwW9rQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/ywbS1Ci6J6cnt98al0CICw/Hhe1dpGJKWSyazm-IYlHtuKJyU--p27nYflZnycPURivp-CiUGOGu7xQlcmUSQi6beQp_gbfs7C3xGqBg0SEWtq-LPsHILRLPWX37_2T2Zfkf0S_51EnLqvP4b25kuFApAxeUs9iEFHQBrDNrgPLqA/v8rAO1vNVldrF1iJvxqCYTcWZZG3LCdOAHKb6wSQi9I",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/k7WU42cRpNJmYU_WH8QJgQ/6N0wWYNmZx8M93VFEIRZCCirbzdKXH91mq3-dcdiGD5a3_HEYRSvSdNP7HDA6quuKEXlFuZ_yYtapWSSAjqQRhxGWhGyADs24TTw3yIaVyWZVj7Mc_zUXwImLPoNoFPv-GYMRJ-OjvoSJG4Vpyjv5Q/mgCGoYs_QubfumX2uTKV0aHvcV_-zZeOW7i_RgFFltg",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/EjdJn8aDmp8EWQ1IHvYKiQ/q0T6WzXFPZlaxzDIfug6nEBUs2PTdzmYhO5hFdskWlv14JTub2kfNmWAveyg2dJd4EUsF3t39rDQG1eTPNk_5Abu3JZB6OuDmpUWowWCcMsepgCHrgxWpEOAJsstU3lmgID2WGls1_UNJM0mym5oYA/KqwS11j4RrOaklYnOoCsszn0IUnthPFPn44pHBMBR0Q",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/v9Qn7V9MlNKg8SwkRvXPQQ/aRDa7_FSvSwXvZFshO2XzeaV5vpN1SP3JA07ZvbgnEvuOx7fx420_UXEXmF5ttUfd1r1jyT2MGb6p0B7_178IdT34HxT9gSji9G6c_eEXFQslW9YcfkjlXH8fVvPUIvnEzcCubUfg1oszQMFQMG3HA/6g-Pey9k0yhL9omY1m4ZM06smPFdgVVbrQmjrDCdmdQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/gtyfS8mou0xRRZYB7kayKQ/QZzoi2yfIorHWTYNclQh0Tam7M0BI9b3tkI2rBLoDhBhfvDpkl-EUmKgHn1XEMZ0bvNJASE0DVZv-IlZ6kc5omi-YP7QPzeK79PpjMG_RzYQcHLQ7zX1eDAS_LtpCTkVQkGGpVG-Y3wlBbI6DSEklw/076kDKH7Q1hGbazKK4FjhYG4e65IB2PMQZgxokQXtYI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/xmv4EyEwuW-590rn6yh_mA/r75WHV-RMhpSGWam7W0VYbalV8nM9aPHsc58zBZIpcXTWQcopgYaZB5GbwiCxjLela4NKnPh4wBBREYe5RjHvhU0WlTgndJD6U9bI4Z0c6gJ9fDKKES-K0_k1maR57oArSrBzMpOuOnEQ972cawMqg/ZxH_-hqFIssp9Hz0LvS-xFTvRnSkEySLUB-Eu3iGt-U",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/3CQ7R5eCXzcmAM3lPYnN-g/a9ea6pvnvPW3m1d0hrvv2FnhgNuy6nr9V1M1hmChkr8KkhkNmIWfKppiu-dbzp7EZNdO6NZAcDOhZp8VJkCieuhM_07SHeMshVoSxdgAxw9Pq6T917ElFheulnHUWLN_UOTYEJvknIrbhcEZXapJ8Q/J2n8cAAk_NBwFmNAYYWSOpJYyykg4x40JZ45sXnaYL8",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/5uOxDdKWU706LyZHOlQ4-A/gA-0RRUcCahi9SfW2JFDcGydbloC--URxF035QjQuqq6g_jpomCsY3_ZtQzSXabKG0-3r09m9H21KW82fo0E5BcyoL6jT7CmXi7l1R3lz1_V4VBw7eq52uDc70TZ_xupuisuV1G9Sdm54W7C8jLriw/HqeSyVVAAe-FACAZe_cOHcqZwUYfHG7T_IF4-y0ZBnE",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/Kus92QLaahQOOm1Td5MQ1g/aRj-0yw5GbrxVcV3ThV-UJjcEVod4zscJen3rucSHkR0RpZKzBrGDQm-hOdjjl3RcBIJsvtGIUzpDxL9WqF-s2t-XRjxYyME7wr-N6dBGH8YR24sb6pj-mPbkidXC18ZDQ96Hh6YDC9kzrm7WfZFoQ/9jV2B0reArX59FVbniuJGRWL5j1T--YEl0aG13kjvvY",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/uj4k86BKfkBui-62E44VbA/bzt50F6DHcZXYROMgOJix_kRZiuTYQ1DyfA2hpP7UWqorPJnOA9umGPz4kZZhU5JpKIyGpeegEUr0qAXA5LY16RjzA3G_Dqmhd2RGcXvtOmYUYSc6ju82aQqkmIzc3eGU8CAMtQteBaMvE8XBvdvVA/LpZRXCQPrKCqBa0limrPobQhKgMXUkjmZt3IXiSu3Tg",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/8WYhTOZjti8Rhz_cn_A2kQ/x4qAppMDZuncjEYACtipuRHOzS6mvt7y6Mvq8bdnZCQwwAufQfwdhQ-FJp7imGNPrGne9j0cyE3TVtwddB3VL4DNTZu16MHhaVRZTbM06Ic8aDCljGl9SUShTGJKU-ukAgCjKex4xx4bFeD15DII1g/QgMUjhuuIHMrcKhA2eyfwDvdMnldNSUsmbwYovFsSLk",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/dvm6eB-UDESTUT_xVNGOvQ/1ayPVuKt8ZylWGoAnovnyy_R9beubvlPDhxNAXEFdj17obr9379R0TTYlak-sSMGFH4BiR0n6ULGCOsUg8EqlDm-xo0VCX_Sh3UIf8gpYANelNYXJ-H0p0iYwxJ6IUNPGhjNzMOK8U8FFN2PtDh6WA/UVlqXbQfveGqwX-L0ygCilFbQt3nOVstRhdglaj9Va8",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/r9Lu1bzlNiEaGFr9nsp5OA/2MEkqSPr3g30TYTE_CQCONvskY2Xa3jBYqq2zlxN4GRxnYmvFa9071Td0E9Axg-9jXheFUQhZVrIuJdvUCtYHmK9dlDfC7D7nCKl4eGDOE4VtYOL11BaHjIfdV93GeffjDUcFhM09d2vJj2XV21m9w/rTbVjFlI6703YMgjYBkC_gC4BjmvBFdmebA_JYIslVA",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/w_IXoxRTYQyUFSYO4YBtqA/XFTgfrpBAb9RAZsTlJij5ZGkKqIr2_YMi6-dJnlV34rbx_ME4fAnAI_mTwru1LEUjr0pHENoRYd047iZaVlbTq2xEf_pIKD6c9LYcXSF3wuCtTb-PMdEpTOgsADNvdOsa1fLHAszbwdtnh92h3BmEg/9Ld-EKhSfSMis7Mbc3fD2xPqKcNOK2ioAADbejG_OZI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/NV5lfKR9pwY87K85EYByWA/WkZ7SIwljgYI2E6Q92nVhqtezgCi7lmLhoHXHYNxaLq-7Xeei67bdxbmA-qdTROmQycHjwyfz2zj5ACpzUfa7ume5hL_gS0uaRIIA9ayhy2yzx3d4fJBZAoS647MkWS0ZerF65af-FJBlDX8itWCfg/2oDxDa2eXYlEvdFXathT4RqV3PBbKHyBrUTYtZimxxA",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/Bh4jHeuNZSjZSVBMLLUBlw/ylg0x0uu9JszzpLux2ZDN7PD3KlAST_EzQFp6Jaa87e0-NIBogrRImFcyNRfYIrbDWLWrysvZJy1bSrN0FIAAE5hRodcEpnNs7cYFooybMKv2MGnI1mHsNhDezV31bScj5yCBRqyuyeISvRgnH96BQ/agnwEBtGeR4cmlV2UaIYBswd0QOHrUX7swL0bFC9Hi0",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/t5-mCiSM3_827IRf41gE-A/axhjIfhCMH5aRWIdIdQLORDf4qRjgS2jJ036zFJTbKLE-7Su4PRQ2MS6iBA2KowfaLizj_o52YEBKTbbw6YpMhpXoo1O76qhyuyRn3WbPdha7wF-gId6HwnB83QCgcBhqr1EYeybc_I3QSWZo4sIgg/KPZkCIXLQN4BvtlS_Z2cBtomENj6PgCo7_SwYKb9JnI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/xZ4k7Jw3CtSBUzEb3LFhJQ/Uh68HfNBMrGR0xlLQIdZs8dLxn7Jct90wxYxioWp_sLvkVdHbUUqnCJAN7NadHrmP42hD17p7Qh-VbKI9dHZiFAkmZ2AEAT6XhivfQY4Y0gCl2yLreeVvwY32EcQuLA_B72WdldiaQysQFXvgEB19w/ACBheroQBtqaafCgWzL3p7nG1gv2KNo2M2qtLr5TQSI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/tnN41oKOH5a_FmhzeZp00w/dfqNXXMxG7ZxD0D5LtuR4vawDjOOWNuDYLSDr9s6F0Fm5XkOo9feRH8b2E4Vc1hqb0VGg-sl7wQ8qXvIUp0OH2L_NhoOaSIdbxHnRTT_Y_yhYhjCVgAJIo9U_R1cGoqpDrgq2MgR72JBlNMyQZe-uQ/NFUCRi3ItXI1mlZADd6WdPNb42kHv-doHSj3gG0j05Y",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/D1yRb4z-SnX81znUjd7S-Q/05nG3EioHx0wOaUjSz9aKp5GHWlfSl1CJdSRLCMjPjiQucnPUdZeFjfTdzU58pQ9wT8Zsh6L70l0jZ9KISdxCB7BAGegGSMC47uZfvmar8wzy1fSP1PQZ_G-lvMWT8dUVlYIaWWfAPy8szevlauR_A/0RmmBGXryOnRsVz5clvfByFQu-hu_yx8PSg9KQO2wzQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/KZcGu27b_WKRJcgyEIzGyw/hMPo8U6yaiHB8CSmu3ROSYZKEE_aSN-MyDtL6jVwvMdjNjmxz4nK797h7wpPuzGxy9sdmkKHfaSAo7aYO1lAiI7ts5tZ7RoC0xugw4G4xUllwMc1ipLAblo2LmgHa7mJ5xejq6v1O6zMXjAMtCBbgg/KrU-ZudwW4U6u3Tw4_WPlnhqG1BzXUDQqOyK_EAYrRQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/dvm6eB-UDESTUT_xVNGOvQ/1ayPVuKt8ZylWGoAnovnyy_R9beubvlPDhxNAXEFdj17obr9379R0TTYlak-sSMGFH4BiR0n6ULGCOsUg8EqlDm-xo0VCX_Sh3UIf8gpYANelNYXJ-H0p0iYwxJ6IUNPGhjNzMOK8U8FFN2PtDh6WA/UVlqXbQfveGqwX-L0ygCilFbQt3nOVstRhdglaj9Va8",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/ywbS1Ci6J6cnt98al0CICw/Hhe1dpGJKWSyazm-IYlHtuKJyU--p27nYflZnycPURivp-CiUGOGu7xQlcmUSQi6beQp_gbfs7C3xGqBg0SEWtq-LPsHILRLPWX37_2T2Zfkf0S_51EnLqvP4b25kuFApAxeUs9iEFHQBrDNrgPLqA/v8rAO1vNVldrF1iJvxqCYTcWZZG3LCdOAHKb6wSQi9I",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/EjdJn8aDmp8EWQ1IHvYKiQ/q0T6WzXFPZlaxzDIfug6nEBUs2PTdzmYhO5hFdskWlv14JTub2kfNmWAveyg2dJd4EUsF3t39rDQG1eTPNk_5Abu3JZB6OuDmpUWowWCcMsepgCHrgxWpEOAJsstU3lmgID2WGls1_UNJM0mym5oYA/KqwS11j4RrOaklYnOoCsszn0IUnthPFPn44pHBMBR0Q",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/8WYhTOZjti8Rhz_cn_A2kQ/x4qAppMDZuncjEYACtipuRHOzS6mvt7y6Mvq8bdnZCQwwAufQfwdhQ-FJp7imGNPrGne9j0cyE3TVtwddB3VL4DNTZu16MHhaVRZTbM06Ic8aDCljGl9SUShTGJKU-ukAgCjKex4xx4bFeD15DII1g/QgMUjhuuIHMrcKhA2eyfwDvdMnldNSUsmbwYovFsSLk",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/crr5YDinHZrmTyqdRUDcYw/PJCfR3srqPNBvwWDj2KlhSKVeBthX2i5-UWoNjqGRxwiwzIyrq5E0GgDw4ctfyFYQp3swZHJXOWqfh--4apO_3DPtmHC2iKI78-2DSOsW1QP-JWIp3w4JTiBNeO98b6_Hb4KEpaAVi9cq4hyDdMA1w/od6kBPi9FcCtaUIn69Cblgrn88c5pXirlHvrsJwW9rQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/EC8VIVCWOPr2Xp7tFUzATg/00LL0iB-C2zdaVuCB9InYeGB43sJ55yHHvOKyhbqbxKn2Rxubci_unCkiWjkHxkaoPxxv-tsmIngdxq00c2Dak-2K-uctJRrReaq6z1D-N9fbj97QvPlvtyo5OWNi-tkdBZCbfEfZfz3JFGx1CveSA/5FdeDv9DIUJzJBQXTLMFnPSj4VKuIHtvu7YnSYzOb3Y",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/r9Lu1bzlNiEaGFr9nsp5OA/2MEkqSPr3g30TYTE_CQCONvskY2Xa3jBYqq2zlxN4GRxnYmvFa9071Td0E9Axg-9jXheFUQhZVrIuJdvUCtYHmK9dlDfC7D7nCKl4eGDOE4VtYOL11BaHjIfdV93GeffjDUcFhM09d2vJj2XV21m9w/rTbVjFlI6703YMgjYBkC_gC4BjmvBFdmebA_JYIslVA",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/w_IXoxRTYQyUFSYO4YBtqA/XFTgfrpBAb9RAZsTlJij5ZGkKqIr2_YMi6-dJnlV34rbx_ME4fAnAI_mTwru1LEUjr0pHENoRYd047iZaVlbTq2xEf_pIKD6c9LYcXSF3wuCtTb-PMdEpTOgsADNvdOsa1fLHAszbwdtnh92h3BmEg/9Ld-EKhSfSMis7Mbc3fD2xPqKcNOK2ioAADbejG_OZI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/uj4k86BKfkBui-62E44VbA/bzt50F6DHcZXYROMgOJix_kRZiuTYQ1DyfA2hpP7UWqorPJnOA9umGPz4kZZhU5JpKIyGpeegEUr0qAXA5LY16RjzA3G_Dqmhd2RGcXvtOmYUYSc6ju82aQqkmIzc3eGU8CAMtQteBaMvE8XBvdvVA/LpZRXCQPrKCqBa0limrPobQhKgMXUkjmZt3IXiSu3Tg",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/27IYQCsQROVJCs2_H-wJ5Q/P5OgkWWcZtTe5GyYUKml4fVHlW2flvM3TdH1WDAt_xISKmD_BBb3pEQradNHuZmQXvIPghPBsy_CFnDhV7ZyPlATBmx1uLgHsacATrl2YNwt4ajGVHOz48X7FatJ05gmPv8oI9yBfoVBzAB6Cl2iDw/HUeNQXVUlClK4aMeLUZ0KSvFUnh2r2RzccEDZf2aIhs",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/v9Qn7V9MlNKg8SwkRvXPQQ/aRDa7_FSvSwXvZFshO2XzeaV5vpN1SP3JA07ZvbgnEvuOx7fx420_UXEXmF5ttUfd1r1jyT2MGb6p0B7_178IdT34HxT9gSji9G6c_eEXFQslW9YcfkjlXH8fVvPUIvnEzcCubUfg1oszQMFQMG3HA/6g-Pey9k0yhL9omY1m4ZM06smPFdgVVbrQmjrDCdmdQ",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/xmv4EyEwuW-590rn6yh_mA/r75WHV-RMhpSGWam7W0VYbalV8nM9aPHsc58zBZIpcXTWQcopgYaZB5GbwiCxjLela4NKnPh4wBBREYe5RjHvhU0WlTgndJD6U9bI4Z0c6gJ9fDKKES-K0_k1maR57oArSrBzMpOuOnEQ972cawMqg/ZxH_-hqFIssp9Hz0LvS-xFTvRnSkEySLUB-Eu3iGt-U",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/k7WU42cRpNJmYU_WH8QJgQ/6N0wWYNmZx8M93VFEIRZCCirbzdKXH91mq3-dcdiGD5a3_HEYRSvSdNP7HDA6quuKEXlFuZ_yYtapWSSAjqQRhxGWhGyADs24TTw3yIaVyWZVj7Mc_zUXwImLPoNoFPv-GYMRJ-OjvoSJG4Vpyjv5Q/mgCGoYs_QubfumX2uTKV0aHvcV_-zZeOW7i_RgFFltg",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/W78EbQ5nluu9XwT0o95mag/qifPvnzCP8BZz5zfkIsDdO1F76V2dxzUxsKEokJVIFUGoGfZGF3uxxruFEnPSOmFmMHun4Auwu-ZjNCsdtjHiszo4PJgO54w2947pMMSVWpnh7tKVf7uAB8ckGfwicmyRLXYNRYO3ma7xTIwwUz3xg/ijTWb9fs8L_cBqk1QFa7F9JG6ZuiZV4oQ_JoW-yvkWU",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/VBx_hoKZK-IUgSv0JFPc8g/JQwa6F1L-e8u9T300TD1TXHMAIEBAxiOPcoDWdi2eXRUPB88VIHqMyJfQr10echmwQYz70gs0XyXjRiA6HarGN_SaTqMy_GwsrGSzkVpFZyel9yziKuK4GOlFaX0c9mmV7IBe-3QUPw34hm7utHAdQ/xR1j_9BgKIq0zo2mC1AXnHT1dBmSQH9a5Cfw1ISXE4E",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/Kus92QLaahQOOm1Td5MQ1g/aRj-0yw5GbrxVcV3ThV-UJjcEVod4zscJen3rucSHkR0RpZKzBrGDQm-hOdjjl3RcBIJsvtGIUzpDxL9WqF-s2t-XRjxYyME7wr-N6dBGH8YR24sb6pj-mPbkidXC18ZDQ96Hh6YDC9kzrm7WfZFoQ/9jV2B0reArX59FVbniuJGRWL5j1T--YEl0aG13kjvvY",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/3CQ7R5eCXzcmAM3lPYnN-g/a9ea6pvnvPW3m1d0hrvv2FnhgNuy6nr9V1M1hmChkr8KkhkNmIWfKppiu-dbzp7EZNdO6NZAcDOhZp8VJkCieuhM_07SHeMshVoSxdgAxw9Pq6T917ElFheulnHUWLN_UOTYEJvknIrbhcEZXapJ8Q/J2n8cAAk_NBwFmNAYYWSOpJYyykg4x40JZ45sXnaYL8",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/gtyfS8mou0xRRZYB7kayKQ/QZzoi2yfIorHWTYNclQh0Tam7M0BI9b3tkI2rBLoDhBhfvDpkl-EUmKgHn1XEMZ0bvNJASE0DVZv-IlZ6kc5omi-YP7QPzeK79PpjMG_RzYQcHLQ7zX1eDAS_LtpCTkVQkGGpVG-Y3wlBbI6DSEklw/076kDKH7Q1hGbazKK4FjhYG4e65IB2PMQZgxokQXtYI",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/5uOxDdKWU706LyZHOlQ4-A/gA-0RRUcCahi9SfW2JFDcGydbloC--URxF035QjQuqq6g_jpomCsY3_ZtQzSXabKG0-3r09m9H21KW82fo0E5BcyoL6jT7CmXi7l1R3lz1_V4VBw7eq52uDc70TZ_xupuisuV1G9Sdm54W7C8jLriw/HqeSyVVAAe-FACAZe_cOHcqZwUYfHG7T_IF4-y0ZBnE",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/50/50/1773093600000/zal8g28XT_4jDWruYqr-Lw/BtbzzLdlvLIXcLrkKeJOhwhJokgwnR61JugvFq7B8nEgDMd1PWxLVDqyndMEDZXejFeeX58oun1ZqQXhLgAH4lr95vkVC3rTTy-Qn1Mau9-ORn_ShEwdAvSO08NTPlYDQjTIX93p8KIBSm1h3J2moA/wLFmWbKGeWd8Sr_8Jb-pRHhbq3RSw6Htld5Wc-Wixno",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "http://127.0.0.1:8000/images/avatar/1.jpg",
+          "status": 404,
+          "type": "Image"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/home-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/home-mobile.png"
+      }
+    },
+    {
+      "route": "/consultation",
+      "label": "consultation",
+      "url": "http://127.0.0.1:8000/consultation",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Consultation - Expert Ausbildung Application Service | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/consultation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hero-background-germany-natural-autumne4b3.jpeg",
+          "http://127.0.0.1:8000/assets/images/hero-avatar-1.webp",
+          "http://127.0.0.1:8000/assets/images/hero-avatar-2.webp",
+          "http://127.0.0.1:8000/assets/images/hero-avatar-3.webp",
+          "http://127.0.0.1:8000/assets/images/hero-avatar-4.webp",
+          "http://127.0.0.1:8000/assets/_next/mascot_thinking_female7bb0.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/consultation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/consultation",
+          "http://127.0.0.1:8000/assets/css/global-new-styles.css",
+          "http://127.0.0.1:8000/_data_image/svg%2bxml%2c_svg%20width%3d%2760%27%20height%3d%2760%27%20viewBox%3d%270/www.w3.org/2000/svg%27__g%20fill%3d%27none%27%20fill-rule%3d%27evenodd%27__g%20fill/__/g__/g__/svg__.html"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "mobile-menu-toggle",
+          "details": {
+            "performed": true,
+            "selector": "#mobile-menu-toggle"
+          }
+        },
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "USD"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/_data_image/svg%2bxml%2c_svg%20width%3d%2760%27%20height%3d%2760%27%20viewBox%3d%270/www.w3.org/2000/svg%27__g%20fill%3d%27none%27%20fill-rule%3d%27evenodd%27__g%20fill/__/g__/g__/svg__.html",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "http://127.0.0.1:8000/_data_image/svg%2bxml%2c_svg%20width%3d%2760%27%20height%3d%2760%27%20viewBox%3d%270/www.w3.org/2000/svg%27__g%20fill%3d%27none%27%20fill-rule%3d%27evenodd%27__g%20fill/__/g__/g__/svg__.html",
+          "status": 404,
+          "type": "Image"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/consultation-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/consultation-mobile.png"
+      }
+    },
+    {
+      "route": "/contact",
+      "label": "contact",
+      "url": "http://127.0.0.1:8000/contact",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Contact Us | Get in Touch with Azubi | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/contact-faq.js",
+        "http://127.0.0.1:8000/assets/js/script.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_welcominge50a.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_studying_malec9f9.jpeg",
+          "http://127.0.0.1:8000/favicon.ico",
+          "http://127.0.0.1:8000/assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/contact-faq.js",
+          "http://127.0.0.1:8000/assets/js/script.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/contact"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "mobile-menu-toggle",
+          "details": {
+            "performed": true,
+            "selector": "#mobile-menu-toggle"
+          }
+        },
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "Select a subject"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": true,
+            "tag": "input",
+            "name": "firstName"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/contact-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/contact-mobile.png"
+      }
+    },
+    {
+      "route": "/jobs",
+      "label": "jobs",
+      "url": "http://127.0.0.1:8000/jobs",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Ausbildung Jobs Germany 2026: 45,000+ Verified Positions | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hamburg-harbor-hero-autumn9127.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_pointing_male8bc3.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/jobs",
+          "https://www.google.com/s2/favicons?domain=karriere.sparkasse-koelnbonn.de&sz=128",
+          "https://www.google.com/s2/favicons?domain=kloepfer.de&sz=128",
+          "https://www.google.com/s2/favicons?domain=deutschebahn.com&sz=128",
+          "https://www.google.com/s2/favicons?domain=swm.de&sz=128",
+          "https://www.google.com/s2/favicons?domain=gold-mann.de&sz=128",
+          "https://www.google.com/s2/favicons?domain=phorms.de&sz=128",
+          "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://deutschebahn.com&size=128",
+          "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://gold-mann.de&size=128",
+          "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://swm.de&size=128",
+          "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kloepfer.de&size=128",
+          "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://karriere.sparkasse-koelnbonn.de&size=128",
+          "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://phorms.de&size=128"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "mobile-menu-toggle",
+          "details": {
+            "performed": true,
+            "selector": "#mobile-menu-toggle"
+          }
+        },
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "All sectors"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": true,
+            "tag": "input",
+            "name": ""
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/jobs-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/jobs-mobile.png"
+      }
+    },
+    {
+      "route": "/about",
+      "label": "about",
+      "url": "http://127.0.0.1:8000/about",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "About Us | Azubi | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/heidelberg-castle-hero-autumn35bd.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_thinking_femalee589.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/about"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "mobile-menu-toggle",
+          "details": {
+            "performed": true,
+            "selector": "#mobile-menu-toggle"
+          }
+        },
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/about-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/about-mobile.png"
+      }
+    },
+    {
+      "route": "/partner-with-us",
+      "label": "partner-with-us",
+      "url": "http://127.0.0.1:8000/partner-with-us",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Partner with Azubi | B2B Partnerships for Student Placement | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/script.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/script.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/partner-with-us",
+          "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=1920&q=85",
+          "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=640&q=85",
+          "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&w=1920&q=85",
+          "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=750&q=85",
+          "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&w=750&q=85"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": ""
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": true,
+            "tag": "input",
+            "name": "companyName"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=1920&q=85",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "",
+          "status": "net::ERR_ABORTED",
+          "type": ""
+        },
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=1920&q=85",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&w=1920&q=85",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&w=750&q=85",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=750&q=85",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=750&q=85",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "",
+          "status": "net::ERR_ABORTED",
+          "type": ""
+        },
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&w=750&q=85",
+          "status": 404,
+          "type": "Image"
+        },
+        {
+          "url": "http://127.0.0.1:8000/_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&w=750&q=85",
+          "status": 404,
+          "type": "Image"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/partner-with-us-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/partner-with-us-mobile.png"
+      }
+    },
+    {
+      "route": "/faq",
+      "label": "faq",
+      "url": "http://127.0.0.1:8000/faq",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "50+ Ausbildung FAQ - Complete Guide for International Students 2026 | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/frontoffice/faq-interactive.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/black-forest-hero-autumnd6b2.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/faq-interactive.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/faq"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": ""
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/faq-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/faq-mobile.png"
+      }
+    },
+    {
+      "route": "/sectors",
+      "label": "sectors",
+      "url": "http://127.0.0.1:8000/sectors",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Ausbildung Sectors 2026: 327 Occupations in 12 Industries | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/hamburg-harbor-hero-autumn9127.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_pointing_malee75a.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_welcomingfad6.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_engineering75c1.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_graduate_female94ff.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_studying_malec9f9.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_documents_maleebd2.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_healthcaredcc0.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_hospitality08bf.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_itc3c5.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_logistics757f.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_excited_female2395.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_thinking_femalee589.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_documents_malef502.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_sales9644.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/sectors"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "German Level *"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": true,
+            "tag": "input",
+            "name": ""
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/sectors-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/sectors-mobile.png"
+      }
+    },
+    {
+      "route": "/sectors/healthcare",
+      "label": "sector-healthcare",
+      "url": "http://127.0.0.1:8000/sectors/healthcare",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Healthcare & Nursing Ausbildung Jobs Germany | Azubi | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_healthcaredcc0.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/sectors/healthcare"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/sector-healthcare-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/sector-healthcare-mobile.png"
+      }
+    },
+    {
+      "route": "/tools",
+      "label": "tools-index",
+      "url": "http://127.0.0.1:8000/tools",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Free Ausbildung Tools: 12 Calculators & Generators (2026) | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/rothenburg-hero-autumna965.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/tools"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/tools-index-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/tools-index-mobile.png"
+      }
+    },
+    {
+      "route": "/tools/document-checklist",
+      "label": "tool-document-checklist",
+      "url": "http://127.0.0.1:8000/tools/document-checklist",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Document Checklist Generator | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/document-checklist.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/document-checklist.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/tools/document-checklist",
+          "http://127.0.0.1:8000/assets/css/global-new-styles.css",
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJXaW5kb3dUZXh0IiBkPSJNMjAgM2gtMVYxaC0ydjJIN1YxSDV2Mkg0Yy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMThINFY4aDE2djEzeiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4="
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "Select your nationality"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/tool-document-checklist-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/tool-document-checklist-mobile.png"
+      }
+    },
+    {
+      "route": "/tools/living-cost-calculator",
+      "label": "tool-living-cost-calculator",
+      "url": "http://127.0.0.1:8000/tools/living-cost-calculator",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Living Cost Calculator | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/living-cost-calculator.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_welcomingfad6.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/living-cost-calculator.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/tools/living-cost-calculator",
+          "http://127.0.0.1:8000/assets/css/global-new-styles.css"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/tools/living-cost-calculator",
+          "status": "net::ERR_INCOMPLETE_CHUNKED_ENCODING",
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/tool-living-cost-calculator-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/tool-living-cost-calculator-mobile.png"
+      }
+    },
+    {
+      "route": "/tools/roi-calculator",
+      "label": "tool-roi-calculator",
+      "url": "http://127.0.0.1:8000/tools/roi-calculator",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Ausbildung ROI Calculator | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/roi-calculator.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_welcomingfad6.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/roi-calculator.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/tools/roi-calculator",
+          "http://127.0.0.1:8000/assets/css/global-new-styles.css"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "Select a sector"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": true,
+            "name": "",
+            "value": "3"
+          }
+        }
+      ],
+      "consoleEntries": [],
+      "failedRequests": [],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/tool-roi-calculator-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/tool-roi-calculator-mobile.png"
+      }
+    },
+    {
+      "route": "/tools/career-pathway-decision",
+      "label": "tool-career-pathway-decision",
+      "url": "http://127.0.0.1:8000/tools/career-pathway-decision",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Career Pathway Decision Tool | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [
+        "http://127.0.0.1:8000/assets/js/career-pathway-decision.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+        "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+      ],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/assets/_next/mascot_welcomingfad6.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/career-pathway-decision.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/tools/career-pathway-decision",
+          "http://127.0.0.1:8000/assets/css/global-new-styles.css"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/tools/career-pathway-decision",
+          "status": "net::ERR_INCOMPLETE_CHUNKED_ENCODING",
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/tool-career-pathway-decision-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/tool-career-pathway-decision-mobile.png"
+      }
+    },
+    {
+      "route": "/tools/pre-departure-checklist",
+      "label": "tool-pre-departure-checklist",
+      "url": "http://127.0.0.1:8000/tools/pre-departure-checklist",
+      "expectedStatus": 200,
+      "actualStatus": 200,
+      "title": "Pre-Departure Checklist for Germany | Complete Ausbildung Moving Checklist | Azubi",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [
+        "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+        "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+      ],
+      "requests": {
+        "chunks": [],
+        "css": [
+          "http://127.0.0.1:8000/assets/_next/static/css/081a0afca5a9bd20.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/d9109d77acd75b7b.css",
+          "http://127.0.0.1:8000/assets/_next/static/css/e2c84361ea1dce8b.css"
+        ],
+        "media": [
+          "http://127.0.0.1:8000/assets/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+        ],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/assets/_next/logo-icone6f8.jpeg",
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [
+          "http://127.0.0.1:8000/assets/js/frontoffice/navigation.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/accordion-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/visibility-fixes.js",
+          "http://127.0.0.1:8000/assets/js/frontoffice/form-dropdowns.js"
+        ],
+        "other": [
+          "http://127.0.0.1:8000/tools/pre-departure-checklist",
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJXaW5kb3dUZXh0IiBkPSJNMjAgM2gtMVYxaC0ydjJIN1YxSDV2Mkg0Yy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMThINFY4aDE2djEzeiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4="
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": true,
+            "text": "Select nationality"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/tools/pre-departure-checklist",
+          "status": "net::ERR_INCOMPLETE_CHUNKED_ENCODING",
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/tool-pre-departure-checklist-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/tool-pre-departure-checklist-mobile.png"
+      }
+    },
+    {
+      "route": "/login",
+      "label": "auth-login",
+      "url": "http://127.0.0.1:8000/login",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "Not Found",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [],
+      "requests": {
+        "chunks": [],
+        "css": [],
+        "media": [],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [],
+        "other": [
+          "http://127.0.0.1:8000/login"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/login",
+          "status": 404,
+          "type": "Document"
+        },
+        {
+          "url": "http://127.0.0.1:8000/login",
+          "status": 404,
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/auth-login-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/auth-login-mobile.png"
+      }
+    },
+    {
+      "route": "/dashboard",
+      "label": "dashboard-root",
+      "url": "http://127.0.0.1:8000/dashboard",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "Not Found",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [],
+      "requests": {
+        "chunks": [],
+        "css": [],
+        "media": [],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [],
+        "other": [
+          "http://127.0.0.1:8000/dashboard"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/dashboard",
+          "status": 404,
+          "type": "Document"
+        },
+        {
+          "url": "http://127.0.0.1:8000/dashboard",
+          "status": 404,
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/dashboard-root-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/dashboard-root-mobile.png"
+      }
+    },
+    {
+      "route": "/de",
+      "label": "german-root",
+      "url": "http://127.0.0.1:8000/de",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "Not Found",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [],
+      "requests": {
+        "chunks": [],
+        "css": [],
+        "media": [],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [],
+        "other": [
+          "http://127.0.0.1:8000/de"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/de",
+          "status": 404,
+          "type": "Document"
+        },
+        {
+          "url": "http://127.0.0.1:8000/de",
+          "status": 404,
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/german-root-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/german-root-mobile.png"
+      }
+    },
+    {
+      "route": "/blog",
+      "label": "blog-root",
+      "url": "http://127.0.0.1:8000/blog",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "Not Found",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [],
+      "requests": {
+        "chunks": [],
+        "css": [],
+        "media": [],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [],
+        "other": [
+          "http://127.0.0.1:8000/blog"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/blog",
+          "status": 404,
+          "type": "Document"
+        },
+        {
+          "url": "http://127.0.0.1:8000/blog",
+          "status": 404,
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/blog-root-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/blog-root-mobile.png"
+      }
+    },
+    {
+      "route": "/arbeitgeber",
+      "label": "employer-root",
+      "url": "http://127.0.0.1:8000/arbeitgeber",
+      "expectedStatus": 404,
+      "actualStatus": 404,
+      "title": "Not Found",
+      "nextRuntimeDetected": false,
+      "reactHydrationDetected": false,
+      "bladeScriptsDetected": [],
+      "nextScriptsDetected": [],
+      "nextCssDetected": [],
+      "requests": {
+        "chunks": [],
+        "css": [],
+        "media": [],
+        "fonts": [],
+        "images": [
+          "http://127.0.0.1:8000/favicon.ico"
+        ],
+        "api": [],
+        "bladeScripts": [],
+        "other": [
+          "http://127.0.0.1:8000/arbeitgeber"
+        ]
+      },
+      "interactions": [
+        {
+          "action": "accordion-open",
+          "details": {
+            "performed": false,
+            "reason": "accordion trigger not found"
+          }
+        },
+        {
+          "action": "form-focus",
+          "details": {
+            "performed": false,
+            "reason": "form field not found"
+          }
+        },
+        {
+          "action": "range-change",
+          "details": {
+            "performed": false,
+            "reason": "range input not found"
+          }
+        }
+      ],
+      "consoleEntries": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        }
+      ],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:8000/arbeitgeber",
+          "status": 404,
+          "type": "Document"
+        },
+        {
+          "url": "http://127.0.0.1:8000/arbeitgeber",
+          "status": 404,
+          "type": "Document"
+        }
+      ],
+      "screenshots": {
+        "desktop": "docs/chunk-migration/screenshots/employer-root-desktop.png",
+        "mobile": "docs/chunk-migration/screenshots/employer-root-mobile.png"
+      }
+    }
+  ]
+}
