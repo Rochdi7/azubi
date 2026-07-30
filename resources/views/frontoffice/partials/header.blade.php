@@ -29,13 +29,11 @@
                                   </div>
                               </a>
                           </div>
-                          <!-- STARTER VERSION: COMMENTED OUT - Jobs link
                           <div class="relative">
                               <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors text-foreground/80 hover:text-primary px-3 md:px-6"
                                   href="{{ route('front.jobs') }}"><span>Jobs</span></a>
                           </div>
-                          END COMMENTED OUT - Jobs link -->
-                          <!-- STARTER VERSION: COMMENTED OUT - Tools dropdown
+                          {{-- Tools dropdown commented out for now
                           <div class="nav-has-dropdown">
                               <button
                                   class="nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
@@ -174,11 +172,7 @@
                                   </a>
                               </div>
                           </div>
-                          END COMMENTED OUT - Tools dropdown -->
-                          <div class="relative">
-                              <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors text-foreground/80 hover:text-primary px-3 md:px-6"
-                                  href="{{ route('front.about') }}"><span>About Us</span></a>
-                          </div>
+                          --}}
                           <div class="hidden xl:block nav-has-dropdown">
                               <button
                                   class="nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
@@ -337,7 +331,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Ausbildung in Germany</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Ausbildung Basics
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.ausbildung-basics') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -355,8 +348,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Ausbildung Basics</span>
                                       </a>
-                                      END COMMENTED OUT - Ausbildung Basics -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - Why Choose Ausbildung
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.why-ausbildung') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -372,8 +363,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Why Choose Ausbildung</span>
                                       </a>
-                                      END COMMENTED OUT - Why Choose Ausbildung -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - Finding Programs
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.programs') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -388,7 +377,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Finding Programs</span>
                                       </a>
-                                      END COMMENTED OUT - Finding Programs -->
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.requirements') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -404,7 +392,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Requirements</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Language
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.language') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -423,7 +410,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Language</span>
                                       </a>
-                                      END COMMENTED OUT - Language -->
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.visa') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -441,7 +427,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Visa</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Costs
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.costs') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -458,7 +443,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Costs</span>
                                       </a>
-                                      END COMMENTED OUT - Costs -->
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.application') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -476,7 +460,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Application</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Housing
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.housing') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -491,8 +474,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Housing</span>
                                       </a>
-                                      END COMMENTED OUT - Housing -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - Timeline
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.ausbildung-timeline') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -513,8 +494,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Timeline</span>
                                       </a>
-                                      END COMMENTED OUT - Timeline -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - Daily Life
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.daily-life') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -530,8 +509,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Daily Life</span>
                                       </a>
-                                      END COMMENTED OUT - Daily Life -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - Cultural Integration
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.cultural-integration') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -548,8 +525,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Cultural Integration</span>
                                       </a>
-                                      END COMMENTED OUT - Cultural Integration -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - Trainee Rights
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.trainee-rights') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -565,8 +540,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Trainee Rights</span>
                                       </a>
-                                      END COMMENTED OUT - Trainee Rights -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - Switch Your Ausbildung
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.change-career') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -581,8 +554,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Switch Your Ausbildung</span>
                                       </a>
-                                      END COMMENTED OUT - Switch Your Ausbildung -->
-                                      <!-- STARTER VERSION: COMMENTED OUT - After Ausbildung
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.after-ausbildung') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -597,7 +568,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">After Ausbildung</span>
                                       </a>
-                                      END COMMENTED OUT - After Ausbildung -->
                                       <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
                                           href="{{ route('front.faq') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -616,10 +586,9 @@
                                   </div>
                               </div>
                           </div>
-                         
                           <div class="relative">
                               <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors text-foreground/80 hover:text-primary px-3 md:px-6"
-                                  href="{{ route('front.contact') }}"><span>Contact Us</span></a>
+                                  href="{{ route('front.contact') }}"><span>Contact</span></a>
                           </div>
                           <div class="block xl:hidden">
                               <button
@@ -635,15 +604,15 @@
                                   </svg>
                               </button>
                           </div>
-                          
-                          {{-- <a class="flex items-center justify-center gap-2 bg-primary hover:bg-primary/95 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors text-primary-foreground border border-primary/20 ml-2 md:ml-3"
-                              href="/auth"><span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg"
+                          <a class="flex items-center justify-center gap-2 bg-primary hover:bg-primary/95 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors text-primary-foreground border border-primary/20 ml-2 md:ml-3"
+                              href="#"><span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg"
                                   width="24" height="24" viewBox="0 0 24 24" fill="none"
                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                   stroke-linejoin="round" class="lucide lucide-arrow-right w-4 h-4">
                                   <path d="M5 12h14"></path>
                                   <path d="m12 5 7 7-7 7"></path>
-                              </svg></a> --}}
+                              </svg></a>
+                          {{-- STARTER VERSION: COMMENTED OUT - Apply For Me (dashboard entry)
                           <a class="flex items-center justify-center gap-2 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors bg-[#F4991A] hover:bg-[#E5890F] text-white ml-1 md:ml-2"
                               href="{{ route('front.consultation') }}">
                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -660,6 +629,7 @@
                               </svg>
                               <span>Apply For Me</span>
                           </a>
+                          --}}
                       </div>
                   </div>
               </div>
@@ -667,9 +637,7 @@
               <div class="w-full block sm:hidden transition-all duration-300 h-[96px]"></div>
               <!-- Mobile Nav Bar -->
               <div class="fixed left-0 right-0 z-50 sm:hidden transition-all duration-300 top-0">
-                  
-                <div class="flex w-full justify-center px-4 pt-3 pb-1">
-                    
+                  <div class="flex w-full justify-center px-4 pt-3 pb-1">
                       <div
                           class="relative flex w-full items-center rounded-full border border-border bg-background/80 px-2 py-1.5 shadow-lg backdrop-blur-lg max-w-[380px] justify-between">
                           <button id="mobile-menu-toggle"
@@ -699,10 +667,8 @@
                   </div>
               </div>
               <!-- Mobile Menu Overlay -->
-              
               <div id="mobile-menu-overlay" class="fixed inset-0 z-[60] bg-black/25"
                   style="display:none; opacity: 0; transition: opacity 0.3s;">
-                  
                   <div class="fixed left-0 right-0 z-[70] flex justify-center px-4" style="top: 88px;">
                       <div
                           class="mobile-panel-scrollbar w-full max-w-[380px] max-h-[calc(100vh-120px)] overflow-y-auto rounded-3xl border border-[#F2EAD3] bg-white/95 p-3 shadow-[0_28px_60px_-24px_rgba(244,153,26,0.3)] backdrop-blur-2xl">
@@ -716,9 +682,7 @@
                                   <path d="m6 6 12 12"></path>
                               </svg>
                           </button>
-                          
                           <nav class="flex flex-col gap-1.5">
-                            
                               <a class="mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-[#F4991A]/10 text-[#F4991A] shadow-[0_18px_40px_-22px_rgba(244,153,26,0.4)]"
                                   href="{{ route('front.index') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
@@ -736,22 +700,6 @@
                                   <span class="flex-1 text-left">Home</span>
                               </a>
                               <a class="mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50"
-                                  href="{{ route('front.about') }}">
-                                  <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
-                                      style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                          stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                                          <circle cx="9" cy="7" r="4"></circle>
-                                          <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                                          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                                      </svg>
-                                  </div>
-                                  <span class="flex-1 text-left">About Us</span>
-                              </a>
-                              <!-- STARTER VERSION: COMMENTED OUT - Mobile Jobs Link
-                              <a class="mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50"
                                   href="{{ route('front.jobs') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
                                       style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
@@ -765,8 +713,7 @@
                                   </div>
                                   <span class="flex-1 text-left">Jobs</span>
                               </a>
-                              END COMMENTED OUT - Mobile Jobs Link -->
-                              <!-- STARTER VERSION: COMMENTED OUT - Mobile Tools Accordion
+                              {{-- Mobile Tools accordion commented out for now
                               <div class="mobile-accordion">
                                   <button
                                       class="mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50 w-full text-left">
@@ -904,7 +851,7 @@
                                       </a>
                                   </div>
                               </div>
-                              END COMMENTED OUT - Mobile Tools Accordion -->
+                              --}}
                               <div class="mobile-accordion">
                                   <button
                                       class="mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50 w-full text-left">
@@ -1081,7 +1028,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Ausbildung in Germany</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Mobile Ausbildung Basics, Why Choose, Finding Programs
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.ausbildung-basics') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1128,7 +1074,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Finding Programs</span>
                                       </a>
-                                      END COMMENTED OUT - Mobile Ausbildung Basics, Why Choose, Finding Programs -->
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.requirements') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1144,7 +1089,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Requirements</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Mobile Language
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.language') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1163,7 +1107,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Language</span>
                                       </a>
-                                      END COMMENTED OUT - Mobile Language -->
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.visa') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1181,7 +1124,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Visa</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Mobile Costs
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.costs') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1198,7 +1140,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Costs</span>
                                       </a>
-                                      END COMMENTED OUT - Mobile Costs -->
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.application') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1216,7 +1157,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">Application</span>
                                       </a>
-                                      <!-- STARTER VERSION: COMMENTED OUT - Mobile Housing, Timeline, Daily Life, Cultural Integration, Trainee Rights, Switch Ausbildung, After Ausbildung
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.housing') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1325,7 +1265,6 @@
                                           </div>
                                           <span class="text-sm font-semibold">After Ausbildung</span>
                                       </a>
-                                      END COMMENTED OUT - Mobile Housing through After Ausbildung -->
                                       <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
                                           href="{{ route('front.faq') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
@@ -1343,23 +1282,24 @@
                                       </a>
                                   </div>
                               </div>
-                              
                               <a class="mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50"
                                   href="{{ route('front.contact') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
                                       style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                          stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                          stroke-linecap="round" stroke-linejoin="round"
+                                          class="lucide lucide-mail h-4 w-4">
+                                          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                                       </svg>
                                   </div>
-                                  <span class="flex-1 text-left">Contact Us</span>
+                                  <span class="flex-1 text-left">Contact</span>
                               </a>
                           </nav>
                           <div class="mt-4 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner backdrop-blur-sm">
-                              {{-- <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
-                                  href="/auth">
+                              <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
+                                  href="#">
                                   <span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                       height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                       stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1367,7 +1307,7 @@
                                       <path d="M5 12h14"></path>
                                       <path d="m12 5 7 7-7 7"></path>
                                   </svg>
-                              </a> --}}
+                              </a>
                           </div>
                       </div>
                   </div>

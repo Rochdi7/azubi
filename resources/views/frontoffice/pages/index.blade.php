@@ -13,10 +13,6 @@
     <link rel="canonical" href="{{ url('/') }}" />
 @endsection
 
-@push('styles')
-    @vite('resources/js/pages/home-animations.js')
-@endpush
-
 @section('content')
     <script type="application/ld+json">
           {
@@ -154,12 +150,11 @@
             "category": "Education and Career Services"
           }
         </script>
-    <main data-page="home">
-        <section data-gsap-hero
+    <main>
+        <section
             class="relative text-foreground py-16 sm:py-20 md:py-24 lg:py-32 min-h-[600px] sm:min-h-[700px] lg:min-h-[800px] overflow-hidden w-full flex items-center justify-center -mt-24 pt-40 sm:pt-44 md:pt-48">
             <img alt="Beautiful autumn landscape in Germany" decoding="async" data-nimg="fill"
                 class="object-cover object-center"
-                data-gsap-hero-bg
                 style="
                 position: absolute;
                 height: 100%;
@@ -198,10 +193,10 @@
                   );
               ">
             </div>
-            <div data-gsap-hero-content
+            <div
                 class="container mx-auto px-4 sm:px-6 md:px-8 relative z-10 flex flex-col items-center text-center gap-6 sm:gap-8 max-w-6xl">
                 <div class="relative z-10 flex flex-col items-center text-center gap-4 sm:gap-6 lg:gap-8 w-full max-w-5xl">
-                    <div class="animate-fade-in-up animation-delay-100" data-gsap-hero-badge>
+                    <div class="animate-fade-in-up animation-delay-100">
                         <div
                             class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-2 border-white/80 text-white backdrop-blur-sm bg-white/10 hover:bg-white/20 px-4 py-2 text-sm font-semibold">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -223,8 +218,7 @@
                         application tools and personalized job matching. Join 85% of
                         trainees who get hired.
                     </p>
-                    <div class="flex flex-col items-center gap-2 animate-fade-in-up animation-delay-400"
-                        data-gsap-hero-proof>
+                    <div class="flex flex-col items-center gap-2 animate-fade-in-up animation-delay-400">
                         <div class="z-10 flex -space-x-4 rtl:space-x-reverse justify-center">
                             <div class="relative h-10 w-10">
                                 <picture>
@@ -338,7 +332,7 @@
                 </div>
             </div>
         </section>
-        <section data-gsap-section="compare" class="py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F2EAD3]">
+        <section class="py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F2EAD3]">
             <div class="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
                 <div class="absolute left-1/4 top-0 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl"></div>
                 <div class="absolute right-1/4 bottom-0 w-80 h-80 bg-[#344F1F]/5 rounded-full blur-3xl"></div>
@@ -363,7 +357,7 @@
                 </div>
                 <div class="max-w-5xl mx-auto mb-16 sm:mb-20">
                     <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-                        <div data-gsap-scene="compare-card"
+                        <div
                             class="relative p-6 sm:p-8 rounded-2xl border-2 border-[#344F1F]/15 overflow-hidden animate-fade-in-left">
                             <img alt="Traditional university education" loading="lazy" decoding="async" data-nimg="fill"
                                 class="object-cover object-center rounded-2xl"
@@ -379,7 +373,7 @@
                       "
                                 src="{{ asset('assets/_next/university-card-background-winter-v2d699.jpeg') }}" />
                             <div class="absolute inset-0 bg-white/85 backdrop-blur-[0.5px] rounded-2xl"></div>
-                            <div class="relative z-10" data-gsap-depth="foreground">
+                            <div class="relative z-10">
                                 <div class="absolute top-0 right-0">
                                     <div class="w-10 h-10 rounded-full bg-[#F4991A]/20 flex items-center justify-center">
                                         <span class="text-[#F4991A] text-xl font-bold">✗</span>
@@ -437,7 +431,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-gsap-scene="compare-card"
+                        <div
                             class="relative p-6 sm:p-8 rounded-2xl border-2 border-[#F4991A]/30 overflow-hidden shadow-lg animate-fade-in-right animation-delay-100">
                             <img alt="German Ausbildung vocational training" loading="lazy" decoding="async"
                                 data-nimg="fill" class="object-cover object-center rounded-2xl"
@@ -455,7 +449,7 @@
                             <div
                                 class="absolute inset-0 bg-gradient-to-br from-white/90 via-white/88 to-[#F4991A]/10 backdrop-blur-[0.5px] rounded-2xl">
                             </div>
-                            <div class="relative z-10" data-gsap-depth="foreground">
+                            <div class="relative z-10">
                                 <div class="absolute top-0 right-0">
                                     <div class="w-10 h-10 rounded-full bg-[#F4991A]/20 flex items-center justify-center">
                                         <span class="text-[#F4991A] text-xl font-bold">✓</span>
@@ -740,7 +734,7 @@
                 </div>
             </div>
         </section>
-        <section data-gsap-section="personas" class="py-12 sm:py-16 md:py-20 relative overflow-hidden bg-[#F9F5F0]">
+        <section class="py-12 sm:py-16 md:py-20 relative overflow-hidden bg-[#F9F5F0]">
             <div class="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
                 <div class="absolute left-1/4 top-1/4 w-72 h-72 bg-[#F4991A]/5 rounded-full blur-3xl"></div>
                 <div class="absolute right-1/4 bottom-1/4 w-96 h-96 bg-[#344F1F]/5 rounded-full blur-3xl"></div>
@@ -760,7 +754,7 @@
                     </p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
-                    <div data-gsap-scene="persona-card"
+                    <div
                         class="relative group rounded-2xl border backdrop-blur-md p-4 sm:p-6 transition-all duration-300 hover:shadow-lg cursor-pointer bg-white/60 border-[#344F1F]/10 hover:border-[#F4991A]/30 ring-2 ring-[#F4991A]/20">
                         <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
                             <span class="px-3 py-1 bg-[#F4991A] text-white text-xs font-medium rounded-full">Most
@@ -769,7 +763,7 @@
                         <div
                             class="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl">
                         </div>
-                        <div class="relative z-10 text-center" data-gsap-depth="foreground">
+                        <div class="relative z-10 text-center">
                             <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">🚀</div>
                             <h3 class="text-base sm:text-lg font-semibold mb-2 sm:mb-3">
                                 I&#x27;m Ready to Apply
@@ -796,12 +790,12 @@
                                 </svg></a>
                         </div>
                     </div>
-                    <div data-gsap-scene="persona-card"
+                    <div
                         class="relative group rounded-2xl border backdrop-blur-md p-4 sm:p-6 transition-all duration-300 hover:shadow-lg cursor-pointer bg-white/60 border-[#344F1F]/10 hover:border-[#F4991A]/30">
                         <div
                             class="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl">
                         </div>
-                        <div class="relative z-10 text-center" data-gsap-depth="foreground">
+                        <div class="relative z-10 text-center">
                             <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">💼</div>
                             <h3 class="text-base sm:text-lg font-semibold mb-2 sm:mb-3">
                                 I Want to Find Jobs
@@ -826,12 +820,12 @@
                                 </svg></a>
                         </div>
                     </div>
-                    <div data-gsap-scene="persona-card"
+                    <div
                         class="relative group rounded-2xl border backdrop-blur-md p-4 sm:p-6 transition-all duration-300 hover:shadow-lg cursor-pointer bg-white/60 border-[#344F1F]/10 hover:border-[#F4991A]/30">
                         <div
                             class="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl">
                         </div>
-                        <div class="relative z-10 text-center" data-gsap-depth="foreground">
+                        <div class="relative z-10 text-center">
                             <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">🤔</div>
                             <h3 class="text-base sm:text-lg font-semibold mb-2 sm:mb-3">
                                 I&#x27;m Just Exploring
@@ -863,7 +857,7 @@
             </div>
         </section>
         <!--$-->
-        <section data-gsap-section="jobs" class="relative py-16 sm:py-20 md:py-24 bg-[#F9F5F0] overflow-hidden">
+        <section class="relative py-16 sm:py-20 md:py-24 bg-[#F9F5F0] overflow-hidden">
             <div class="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
                 <div class="absolute left-1/4 top-0 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl"></div>
                 <div class="absolute right-1/4 bottom-0 w-80 h-80 bg-[#344F1F]/5 rounded-full blur-3xl"></div>
@@ -1193,7 +1187,7 @@
         </section>
         <!--/$-->
         <div id="how-it-works">
-            <section data-gsap-section="steps" class="py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F2EAD3]">
+            <section class="py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F2EAD3]">
                 <div class="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
                     <div class="absolute right-1/4 top-10 w-80 h-80 rounded-full bg-[#F4991A]/5 blur-3xl"></div>
                     <div class="absolute left-1/4 bottom-10 w-80 h-80 rounded-full bg-[#344F1F]/5 blur-3xl"></div>
@@ -1340,7 +1334,7 @@
             </section>
         </div>
         <!--$-->
-        <section data-gsap-section="tools" class="py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F9F5F0]">
+        <section class="py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F9F5F0]">
             <div class="absolute inset-0 -z-10 pointer-events-none">
                 <div class="absolute top-0 left-1/4 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl"></div>
                 <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-[#344F1F]/5 rounded-full blur-3xl"></div>
@@ -1958,7 +1952,7 @@
                   </section> -->
 
         <!--/$--><!--$-->
-        <section data-gsap-section="guide" class="py-12 sm:py-16 bg-[#F9F5F0]">
+        <section class="py-12 sm:py-16 bg-[#F9F5F0]">
             <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto">
                     <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
@@ -1979,8 +1973,8 @@
                             system in this comprehensive 6-minute video
                         </p>
                     </div>
-                    <div class="relative rounded-xl overflow-hidden shadow-xl bg-black" data-gsap-scene="guide-video">
-                        <div class="aspect-video relative" data-gsap-depth="background">
+                    <div class="relative rounded-xl overflow-hidden shadow-xl bg-black">
+                        <div class="aspect-video relative">
                             <img alt="Ausbildung Video Guide Cover" loading="lazy" decoding="async" data-nimg="fill"
                                 class="object-cover"
                                 style="
@@ -1995,7 +1989,6 @@
                       "
                                 src="{{ asset('assets/_next/ausbildung-video-cover-v2a712.jpeg') }}" /><button
                                 class="absolute inset-0 flex items-center justify-center group cursor-pointer bg-black/20 hover:bg-black/30 transition-all duration-300"
-                                data-gsap-depth="foreground"
                                 aria-label="Play video">
                                 <div
                                     class="w-20 h-20 rounded-full bg-[#F4991A] flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
@@ -2013,7 +2006,7 @@
             </div>
         </section>
         <!--/$--><!--$-->
-        <section data-gsap-section="sectors" class="py-12 md:py-16 lg:py-20 relative bg-[#F9F5F0]">
+        <section class="py-12 md:py-16 lg:py-20 relative bg-[#F9F5F0]">
             <div class="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
                 <div class="absolute left-1/4 top-1/4 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl"></div>
                 <div class="absolute right-1/4 bottom-1/4 w-80 h-80 bg-[#344F1F]/5 rounded-full blur-3xl"></div>
@@ -2260,7 +2253,7 @@
                 <div class="absolute right-1/4 bottom-1/4 w-80 h-80 bg-[#344F1F]/5 rounded-full blur-3xl"></div>
             </div>
             <div class="container mx-auto px-4 relative z-10">
-                <section data-gsap-section="stories" class="py-20 overflow-hidden bg-[#F2EAD3]">
+                <section class="py-20 overflow-hidden bg-[#F2EAD3]">
                     <div class="container">
                         <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
                             <div
@@ -2287,7 +2280,7 @@
                             class="absolute inset-y-0 right-0 w-40 bg-gradient-to-l from-[#F2EAD3] to-transparent z-10 pointer-events-none">
                         </div>
                         <div class="space-y-4">
-                            <div class="stories-marquee-track flex gap-[10px]" data-gsap-marquee
+                            <div class="stories-marquee-track flex gap-[10px]"
                                 style="animation: marquee-scroll 10s linear infinite;">
                                 <div
                                     class="flex-shrink-0 relative group w-[320px] sm:w-[360px] h-[160px] rounded-lg p-4 sm:p-6 bg-white/50 backdrop-blur-sm border border-[#344F1F]/10 hover:bg-white/80 transition-colors duration-300">
@@ -2548,7 +2541,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="stories-marquee-track flex gap-[10px]" data-gsap-marquee
+                            <div class="stories-marquee-track flex gap-[10px]"
                                 style="animation: marquee-scroll-reverse 12s linear infinite;">
                                 <div
                                     class="flex-shrink-0 relative group w-[320px] sm:w-[360px] h-[160px] rounded-lg p-4 sm:p-6 bg-white/50 backdrop-blur-sm border border-[#344F1F]/10 hover:bg-white/80 transition-colors duration-300">
@@ -2839,7 +2832,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="stories-marquee-track flex gap-[10px]" data-gsap-marquee
+                            <div class="stories-marquee-track flex gap-[10px]"
                                 style="animation: marquee-scroll 11s linear infinite;">
                                 <div
                                     class="flex-shrink-0 relative group w-[320px] sm:w-[360px] h-[160px] rounded-lg p-4 sm:p-6 bg-white/50 backdrop-blur-sm border border-[#344F1F]/10 hover:bg-white/80 transition-colors duration-300">
@@ -3113,8 +3106,7 @@
                     </div>
                     <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}">
                 </section>
-                <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center"
-                    data-gsap-faq-intro>
+                <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
                     <div
                         class="inline-flex items-center rounded-full border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-[#F4991A]/10 border-[#F4991A]/20 text-[#F4991A] hover:bg-[#F4991A]/20 px-4 py-2 text-sm font-semibold w-fit">
                         <span class="mr-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -3134,7 +3126,7 @@
                         Germany and how Azubi helps you apply
                     </p>
                 </div>
-                <div class="max-w-4xl mx-auto" data-gsap-faq-cards>
+                <div class="max-w-4xl mx-auto">
                     <div class="space-y-4">
                         <div
                             class="rounded-[24px] border-2 border-[#344F1F]/10 bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[#F4991A]/20">
@@ -3471,13 +3463,11 @@
             </div>
         </section>
         <!--$-->
-        <section data-gsap-section="final-cta" class="relative w-full px-4 py-12 md:py-16 lg:py-20 bg-cream">
+        <section class="relative w-full px-4 py-12 md:py-16 lg:py-20 bg-cream">
             <div class="max-w-7xl mx-auto">
-                <div class="relative overflow-hidden rounded-[24px] md:rounded-[32px] px-6 py-8 md:py-12"
-                    data-gsap-scene="final-cta">
+                <div class="relative overflow-hidden rounded-[24px] md:rounded-[32px] px-6 py-8 md:py-12">
                     <img alt="Professional German workplace environment" loading="lazy" decoding="async"
                         data-nimg="fill" class="object-cover object-center rounded-[24px] md:rounded-[32px]"
-                        data-gsap-depth="background"
                         style="
                     position: absolute;
                     height: 100%;
@@ -3516,18 +3506,18 @@
                       );
                   ">
                     </div>
-                    <div class="relative z-10 text-center space-y-6 md:space-y-8" data-gsap-depth="foreground">
+                    <div class="relative z-10 text-center space-y-6 md:space-y-8">
                         <h2 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-white px-4"
-                            style="opacity: 1; transform: none" data-gsap-cta-title>
+                            style="opacity: 1; transform: none">
                             Ready to Apply 10x Faster?
                         </h2>
                         <p class="text-lg md:text-xl text-white/90 max-w-3xl mx-auto px-4"
-                            style="opacity: 1; transform: none" data-gsap-cta-copy>
+                            style="opacity: 1; transform: none">
                             Smart application kits. Intelligent job matching. Get hired,
                             not overlooked.
                         </p>
                         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 mt-8"
-                            style="opacity: 1; transform: none" data-gsap-cta-actions>
+                            style="opacity: 1; transform: none">
                             <a class="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full overflow-hidden"
                                 style="
                         background-color: rgba(0, 0, 0, 0.11);
@@ -3582,7 +3572,7 @@
                                     href="{{ route('front.consultation') }}">Learn More</a>
                             </div>
                         </div>
-                        <div class="space-y-3 mt-8" style="opacity: 1; transform: none" data-gsap-cta-proof>
+                        <div class="space-y-3 mt-8" style="opacity: 1; transform: none">
                             <p class="text-base md:text-lg text-white/80 font-medium">
                                 <span>15,000+ applications sent this month</span>
                             </p>
