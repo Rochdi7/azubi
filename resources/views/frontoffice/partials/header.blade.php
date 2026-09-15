@@ -10,10 +10,10 @@
                           <div class="px-0.5 md:px-1">
                               <a class="inline-flex items-center select-none gap-[2px] px-0"
                                   href="{{ route('front.index') }}">
-                                  <img alt="Azubi Oak Leaf Logo" loading="eager" width="56" height="56"
+                                  <img alt="Azubi logo" loading="eager" width="56" height="56"
                                       class="object-contain flex-shrink-0 mt-[2px] h-10 w-10"
-                                      src="{{ asset('assets/_next/logo-icone6f8.jpeg') }}" style="color: transparent;">
-                                  <span class="font-bold text-[#344F1F] text-lg"
+                                      src="{{ asset('assets/images/logo/logo-mark-160.png') }}" style="color: transparent;">
+                                  <span class="font-bold text-[#2C3340] text-lg"
                                       style="letter-spacing: -0.02em;">Azubi</span>
                               </a>
                           </div>
@@ -34,9 +34,9 @@
                                   href="{{ route('front.jobs') }}"><span>Jobs</span></a>
                           </div>
                           {{-- Tools dropdown commented out for now
-                          <div class="nav-has-dropdown">
+                          <div class="azubi-nav-has-dropdown">
                               <button
-                                  class="nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
+                                  class="azubi-nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
                                   <span>Tools</span>
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -45,16 +45,16 @@
                                       <path d="m6 9 6 6 6-6"></path>
                                   </svg>
                               </button>
-                              <div class="nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[520px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-4 opacity-0 invisible transition-all duration-200"
+                              <div class="azubi-nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[520px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-4 opacity-0 invisible transition-all duration-200"
                                   style="display:none;">
                                   <p
                                       class="px-3 py-2 text-xs font-medium text-muted-foreground uppercase tracking-wider">
                                       Tools</p>
                                   <div class="grid grid-cols-2 gap-1">
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.tools.eligibility-checker') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -67,10 +67,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Eligibility Checker</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.tools.living-cost-calculator') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -91,10 +91,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Living Cost Calculator</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.tools.roi-calculator') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -105,10 +105,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">ROI Calculator</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.tools.document-checklist') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -126,10 +126,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Document Checklist</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.tools.career-pathway-decision') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -141,10 +141,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Career Pathway</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.tools.cover-letter') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -160,7 +160,7 @@
                                           <span class="text-sm font-semibold">Cover Letter Generator</span>
                                       </a>
                                   </div>
-                                  <a class="flex items-center justify-center gap-2 mt-3 w-full py-3 rounded-xl bg-[#F4991A] hover:bg-[#E5890F] text-white text-sm font-semibold transition-all duration-200"
+                                  <a class="flex items-center justify-center gap-2 mt-3 w-full py-3 rounded-xl bg-[#5D5DE9] hover:bg-[#2C3340] text-white text-sm font-semibold transition-all duration-200"
                                       href="{{ route('front.tools') }}">
                                       <span>View All 13 Tools</span>
                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -173,9 +173,9 @@
                               </div>
                           </div>
                           --}}
-                          <div class="hidden xl:block nav-has-dropdown">
+                          <div class="hidden xl:block azubi-nav-has-dropdown">
                               <button
-                                  class="nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
+                                  class="azubi-nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
                                   <span>Sectors</span>
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -184,16 +184,16 @@
                                       <path d="m6 9 6 6 6-6"></path>
                                   </svg>
                               </button>
-                              <div class="nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[480px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-3 opacity-0 invisible transition-all duration-200"
+                              <div class="azubi-nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[480px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-3 opacity-0 invisible transition-all duration-200"
                                   style="display:none;">
                                   <p
                                       class="px-3 py-2 text-xs font-medium text-muted-foreground uppercase tracking-wider">
                                       Sectors</p>
                                   <div class="grid grid-cols-2 gap-1">
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.sector', ['slug' => 'healthcare']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -205,10 +205,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Healthcare &amp; Nursing</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.sector', ['slug' => 'it']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -219,10 +219,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">IT &amp; Software</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.sector', ['slug' => 'engineering']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -234,10 +234,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Engineering &amp; Technical</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.sector', ['slug' => 'automotive']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -252,10 +252,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Automotive &amp; Transportation</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.sector', ['slug' => 'hospitality']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -268,10 +268,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Hospitality &amp; Tourism</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.sector', ['slug' => 'construction']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -286,7 +286,7 @@
                                           <span class="text-sm font-semibold">Construction &amp; Trades</span>
                                       </a>
                                   </div>
-                                  <a class="flex items-center justify-center gap-2 mt-2 py-2.5 px-4 rounded-full bg-[#F4991A] text-white hover:bg-[#E5890F] text-sm font-semibold transition-all duration-200"
+                                  <a class="flex items-center justify-center gap-2 mt-2 py-2.5 px-4 rounded-full bg-[#5D5DE9] text-white hover:bg-[#2C3340] text-sm font-semibold transition-all duration-200"
                                       href="{{ route('front.sectors') }}">
                                       <span>View All 15 Sectors</span>
                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -298,9 +298,9 @@
                                   </a>
                               </div>
                           </div>
-                          <div class="nav-has-dropdown">
+                          <div class="azubi-nav-has-dropdown">
                               <button
-                                  class="nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
+                                  class="azubi-nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
                                   <span>Learn</span>
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -309,16 +309,16 @@
                                       <path d="m6 9 6 6 6-6"></path>
                                   </svg>
                               </button>
-                              <div class="nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[520px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-3 opacity-0 invisible transition-all duration-200"
+                              <div class="azubi-nav-dropdown-panel absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[520px] bg-white/95 backdrop-blur-lg border border-border rounded-2xl shadow-xl p-3 opacity-0 invisible transition-all duration-200"
                                   style="display:none; max-height: 80vh; overflow-y: auto;">
                                   <p
                                       class="px-3 py-2 text-xs font-medium text-muted-foreground uppercase tracking-wider">
                                       Learn</p>
                                   <div class="grid grid-cols-2 gap-1">
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.ausbildung-germany') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -331,10 +331,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Ausbildung in Germany</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.ausbildung-basics') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -348,10 +348,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Ausbildung Basics</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.why-ausbildung') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -363,10 +363,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Why Choose Ausbildung</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.programs') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -377,10 +377,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Finding Programs</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.requirements') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -392,10 +392,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Requirements</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.language') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -410,10 +410,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Language</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.visa') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -427,10 +427,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Visa</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.costs') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -443,10 +443,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Costs</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.application') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -460,10 +460,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Application</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.housing') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -474,10 +474,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Housing</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.ausbildung-timeline') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -494,10 +494,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Timeline</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.daily-life') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -509,10 +509,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Daily Life</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.cultural-integration') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -525,10 +525,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Cultural Integration</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.trainee-rights') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -540,10 +540,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Trainee Rights</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.change-career') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -554,10 +554,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Switch Your Ausbildung</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.after-ausbildung') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -568,10 +568,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">After Ausbildung</span>
                                       </a>
-                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-[#F4991A]/5"
+                                      <a class="flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-[#5D5DE9]/5"
                                           href="{{ route('front.faq') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -613,7 +613,7 @@
                                   <path d="m12 5 7 7-7 7"></path>
                               </svg></a>
                           {{-- STARTER VERSION: COMMENTED OUT - Apply For Me (dashboard entry)
-                          <a class="flex items-center justify-center gap-2 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors bg-[#F4991A] hover:bg-[#E5890F] text-white ml-1 md:ml-2"
+                          <a class="flex items-center justify-center gap-2 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors bg-[#5D5DE9] hover:bg-[#2C3340] text-white ml-1 md:ml-2"
                               href="{{ route('front.consultation') }}">
                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -654,11 +654,11 @@
                           <div class="flex items-center justify-center flex-1">
                               <a class="inline-flex items-center select-none gap-[2px] drop-shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
                                   href="{{ route('front.index') }}">
-                                  <img alt="Azubi Oak Leaf Logo" loading="eager" width="56" height="56"
+                                  <img alt="Azubi logo" loading="eager" width="56" height="56"
                                       class="object-contain flex-shrink-0 mt-[2px] h-10 w-10"
-                                      src="{{ asset('assets/_next/logo-icone6f8.jpeg') }}"
+                                      src="{{ asset('assets/images/logo/logo-mark-160.png') }}"
                                       style="color: transparent;">
-                                  <span class="font-bold text-[#344F1F] text-lg"
+                                  <span class="font-bold text-[#2C3340] text-lg"
                                       style="letter-spacing: -0.02em;">Azubi</span>
                               </a>
                           </div>
@@ -671,9 +671,9 @@
                   style="display:none; opacity: 0; transition: opacity 0.3s;">
                   <div class="fixed left-0 right-0 z-[70] flex justify-center px-4" style="top: 88px;">
                       <div
-                          class="mobile-panel-scrollbar w-full max-w-[380px] max-h-[calc(100vh-120px)] overflow-y-auto rounded-3xl border border-[#F2EAD3] bg-white/95 p-3 shadow-[0_28px_60px_-24px_rgba(244,153,26,0.3)] backdrop-blur-2xl">
+                          class="mobile-panel-scrollbar w-full max-w-[380px] max-h-[calc(100vh-120px)] overflow-y-auto rounded-3xl border border-[#EEF0F4] bg-white/95 p-3 shadow-[0_28px_60px_-24px_rgba(93,93,233,0.3)] backdrop-blur-2xl">
                           <button id="mobile-menu-close"
-                              class="absolute top-3 right-6 p-2 rounded-full hover:bg-[#F2EAD3]/50 transition-colors"
+                              class="absolute top-3 right-6 p-2 rounded-full hover:bg-[#EEF0F4]/50 transition-colors"
                               aria-label="Close menu" style="display:none;">
                               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -683,10 +683,10 @@
                               </svg>
                           </button>
                           <nav class="flex flex-col gap-1.5">
-                              <a class="mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-[#F4991A]/10 text-[#F4991A] shadow-[0_18px_40px_-22px_rgba(244,153,26,0.4)]"
+                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-[#5D5DE9]/10 text-[#5D5DE9] shadow-[0_18px_40px_-22px_rgba(93,93,233,0.4)]"
                                   href="{{ route('front.index') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
-                                      style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                      style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"
@@ -699,10 +699,10 @@
                                   </div>
                                   <span class="flex-1 text-left">Home</span>
                               </a>
-                              <a class="mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50"
+                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#2C3340] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-white/80 hover:bg-[#EEF0F4]/50"
                                   href="{{ route('front.jobs') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
-                                      style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                      style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"
@@ -714,12 +714,12 @@
                                   <span class="flex-1 text-left">Jobs</span>
                               </a>
                               {{-- Mobile Tools accordion commented out for now
-                              <div class="mobile-accordion">
+                              <div class="azubi-mobile-accordion">
                                   <button
-                                      class="mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50 w-full text-left">
+                                      class="azubi-mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#2C3340] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-white/80 hover:bg-[#EEF0F4]/50 w-full text-left">
                                       <div class="flex items-center gap-3">
                                           <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -738,12 +738,12 @@
                                           <path d="m9 18 6-6-6-6"></path>
                                       </svg>
                                   </button>
-                                  <div class="mobile-accordion-content mt-2 flex-col gap-1 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner max-h-[340px] overflow-y-auto"
+                                  <div class="azubi-mobile-accordion-content mt-2 flex-col gap-1 rounded-2xl bg-[#EEF0F4]/30 p-2 shadow-inner max-h-[340px] overflow-y-auto"
                                       style="display:none;">
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.tools.eligibility-checker') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -756,10 +756,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Eligibility Checker</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.tools.living-cost-calculator') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -781,10 +781,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Living Cost Calculator</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.tools.roi-calculator') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -795,10 +795,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">ROI Calculator</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.tools.document-checklist') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -816,10 +816,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Document Checklist</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.tools.career-pathway-decision') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -831,10 +831,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Career Pathway</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.tools.cover-letter') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -852,12 +852,12 @@
                                   </div>
                               </div>
                               --}}
-                              <div class="mobile-accordion">
+                              <div class="azubi-mobile-accordion">
                                   <button
-                                      class="mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50 w-full text-left">
+                                      class="azubi-mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#2C3340] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-white/80 hover:bg-[#EEF0F4]/50 w-full text-left">
                                       <div class="flex items-center gap-3">
                                           <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -876,12 +876,12 @@
                                           <path d="m9 18 6-6-6-6"></path>
                                       </svg>
                                   </button>
-                                  <div class="mobile-accordion-content mt-2 flex-col gap-1 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner max-h-[340px] overflow-y-auto"
+                                  <div class="azubi-mobile-accordion-content mt-2 flex-col gap-1 rounded-2xl bg-[#EEF0F4]/30 p-2 shadow-inner max-h-[340px] overflow-y-auto"
                                       style="display:none;">
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.sector', ['slug' => 'healthcare']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -893,10 +893,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Healthcare &amp; Nursing</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.sector', ['slug' => 'it']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -907,10 +907,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">IT &amp; Software</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.sector', ['slug' => 'engineering']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -922,10 +922,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Engineering &amp; Technical</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.sector', ['slug' => 'automotive']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -940,10 +940,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Automotive &amp; Transportation</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.sector', ['slug' => 'hospitality']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -956,10 +956,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Hospitality &amp; Tourism</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.sector', ['slug' => 'construction']) }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -973,7 +973,7 @@
                                           </div>
                                           <span class="text-sm font-semibold">Construction &amp; Trades</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center justify-center gap-2 mt-2 py-2.5 px-4 rounded-full bg-[#F4991A] text-white hover:bg-[#E5890F] text-sm font-semibold transition-all duration-200"
+                                      <a class="azubi-mobile-sub-link flex items-center justify-center gap-2 mt-2 py-2.5 px-4 rounded-full bg-[#5D5DE9] text-white hover:bg-[#2C3340] text-sm font-semibold transition-all duration-200"
                                           href="{{ route('front.sectors') }}">
                                           <span>View All 15 Sectors</span>
                                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -986,12 +986,12 @@
                                       </a>
                                   </div>
                               </div>
-                              <div class="mobile-accordion">
+                              <div class="azubi-mobile-accordion">
                                   <button
-                                      class="mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50 w-full text-left">
+                                      class="azubi-mobile-accordion-trigger group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#2C3340] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-white/80 hover:bg-[#EEF0F4]/50 w-full text-left">
                                       <div class="flex items-center gap-3">
                                           <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1010,12 +1010,12 @@
                                           <path d="m9 18 6-6-6-6"></path>
                                       </svg>
                                   </button>
-                                  <div class="mobile-accordion-content mt-2 flex-col gap-1 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner max-h-[340px] overflow-y-auto"
+                                  <div class="azubi-mobile-accordion-content mt-2 flex-col gap-1 rounded-2xl bg-[#EEF0F4]/30 p-2 shadow-inner max-h-[340px] overflow-y-auto"
                                       style="display:none;">
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.ausbildung-germany') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1028,10 +1028,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Ausbildung in Germany</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.ausbildung-basics') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1045,10 +1045,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Ausbildung Basics</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.why-ausbildung') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1060,10 +1060,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Why Choose Ausbildung</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.programs') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1074,10 +1074,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Finding Programs</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.requirements') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1089,10 +1089,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Requirements</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.language') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1107,10 +1107,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Language</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.visa') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1124,10 +1124,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Visa</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.costs') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1140,10 +1140,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Costs</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.application') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1157,10 +1157,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Application</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.housing') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1171,10 +1171,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Housing</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.ausbildung-timeline') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1191,10 +1191,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Timeline</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.daily-life') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1206,10 +1206,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Daily Life</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.cultural-integration') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1222,10 +1222,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Cultural Integration</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.trainee-rights') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1237,10 +1237,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Trainee Rights</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.change-career') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1251,10 +1251,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">Switch Your Ausbildung</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.after-ausbildung') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1265,10 +1265,10 @@
                                           </div>
                                           <span class="text-sm font-semibold">After Ausbildung</span>
                                       </a>
-                                      <a class="mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#344F1F] hover:bg-white"
+                                      <a class="azubi-mobile-sub-link flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all duration-200 text-[#2C3340] hover:bg-white"
                                           href="{{ route('front.faq') }}">
                                           <div class="flex h-9 w-9 items-center justify-center rounded-full shrink-0"
-                                              style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                              style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                   height="24" viewBox="0 0 24 24" fill="none"
                                                   stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1282,10 +1282,10 @@
                                       </a>
                                   </div>
                               </div>
-                              <a class="mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#344F1F] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)] bg-white/80 hover:bg-[#F2EAD3]/50"
+                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#2C3340] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-white/80 hover:bg-[#EEF0F4]/50"
                                   href="{{ route('front.contact') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
-                                      style="background-color:rgba(244,153,26,0.1); border: 1.5px solid #F4991A; color: #F4991A;">
+                                      style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"
@@ -1297,7 +1297,7 @@
                                   <span class="flex-1 text-left">Contact</span>
                               </a>
                           </nav>
-                          <div class="mt-4 rounded-2xl bg-[#F2EAD3]/30 p-2 shadow-inner backdrop-blur-sm">
+                          <div class="mt-4 rounded-2xl bg-[#EEF0F4]/30 p-2 shadow-inner backdrop-blur-sm">
                               <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 h-11 w-full rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
                                   href="#">
                                   <span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg" width="24"

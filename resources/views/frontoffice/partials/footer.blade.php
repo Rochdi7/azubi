@@ -3,10 +3,10 @@
               <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr_1fr] lg:gap-8">
                   <div class="space-y-2">
                       <a class="inline-flex items-center select-none gap-[2px]" href="{{ route('front.index') }}"><img
-                              alt="Azubi Oak Leaf Logo" fetchpriority="high" loading="eager" width="56" height="56"
+                              alt="Azubi logo" fetchpriority="high" loading="eager" width="56" height="56"
                               decoding="async" data-nimg="1" class="object-contain flex-shrink-0 mt-[2px] h-10 w-10"
-                              style="color: transparent" src="{{ asset('assets/_next/logo-icone6f8.jpeg') }}" /><span
-                              class="font-bold text-green text-lg" style="letter-spacing: -0.02em">Azubi</span></a>
+                              style="color: transparent" src="{{ asset('assets/images/logo/logo-mark-160.png') }}" /><span
+                              class="font-bold azubi-text-green text-lg" style="letter-spacing: -0.02em">Azubi</span></a>
                       <p class="text-sm text-muted-foreground">
                           Your gateway from Morocco to Germany. Apply to Ausbildung
                           positions with smart tools and expert guidance.
@@ -15,7 +15,7 @@
                           <div class="flex space-x-4">
                               <a target="_blank" rel="noopener noreferrer"
                                   href="https://www.linkedin.com/company/Azubi/"><button
-                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 touch-target hover:bg-muted group">
+                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 azubi-touch-target hover:bg-muted group">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"
@@ -28,7 +28,7 @@
                                       </svg><span class="sr-only">LinkedIn</span>
                                   </button></a><a target="_blank" rel="noopener noreferrer"
                                   href="https://www.instagram.com/Azubi.global/"><button
-                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 touch-target hover:bg-muted group">
+                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 azubi-touch-target hover:bg-muted group">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"
@@ -40,7 +40,7 @@
                                       </svg><span class="sr-only">Instagram</span>
                                   </button></a><a target="_blank" rel="noopener noreferrer"
                                   href="https://x.com/Azubi"><button
-                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 touch-target hover:bg-muted group">
+                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 azubi-touch-target hover:bg-muted group">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"
@@ -50,7 +50,7 @@
                                       </svg><span class="sr-only">X (formerly Twitter)</span>
                                   </button></a><a target="_blank" rel="noopener noreferrer"
                                   href="https://www.youtube.com/@Azubi"><button
-                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 touch-target hover:bg-muted group">
+                                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-foreground h-8 w-8 azubi-touch-target hover:bg-muted group">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"

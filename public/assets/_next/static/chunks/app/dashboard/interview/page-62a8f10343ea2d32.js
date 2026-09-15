@@ -3647,7 +3647,7 @@
                                 children: [
                                   (0, r.jsxs)("div", {
                                     className:
-                                      "flex items-start gap-2 sm:gap-3 bg-[#E5890F] rounded-lg sm:rounded-xl p-3 sm:p-4",
+                                      "flex items-start gap-2 sm:gap-3 bg-[#2C3340] rounded-lg sm:rounded-xl p-3 sm:p-4",
                                     children: [
                                       (0, r.jsx)("span", {
                                         className:
@@ -3665,7 +3665,7 @@
                                   }),
                                   (0, r.jsxs)("div", {
                                     className:
-                                      "flex items-start gap-2 sm:gap-3 bg-[#E5890F] rounded-lg sm:rounded-xl p-3 sm:p-4",
+                                      "flex items-start gap-2 sm:gap-3 bg-[#2C3340] rounded-lg sm:rounded-xl p-3 sm:p-4",
                                     children: [
                                       (0, r.jsx)("span", {
                                         className:
@@ -3683,7 +3683,7 @@
                                   }),
                                   (0, r.jsxs)("div", {
                                     className:
-                                      "flex items-start gap-2 sm:gap-3 bg-[#E5890F] rounded-lg sm:rounded-xl p-3 sm:p-4",
+                                      "flex items-start gap-2 sm:gap-3 bg-[#2C3340] rounded-lg sm:rounded-xl p-3 sm:p-4",
                                     children: [
                                       (0, r.jsx)("span", {
                                         className:

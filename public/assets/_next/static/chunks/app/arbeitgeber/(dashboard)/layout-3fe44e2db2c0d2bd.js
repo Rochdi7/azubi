@@ -652,7 +652,7 @@
                         "absolute -top-0.5 -right-0.5",
                         "flex items-center justify-center",
                         "min-w-[20px] h-5 px-1.5",
-                        "bg-[#F4991A] text-white",
+                        "bg-[#5D5DE9] text-white",
                         "rounded-full",
                         "text-xs font-semibold",
                         "shadow-sm",
@@ -666,17 +666,17 @@
                   className: (0, c.cn)(
                     "absolute right-0 mt-2 w-[380px] max-w-[calc(100vw-2rem)]",
                     "bg-white rounded-xl shadow-lg",
-                    "border border-[#344F1F]/10",
+                    "border border-[#2C3340]/10",
                     "z-50",
                     "max-h-[600px] flex flex-col",
                   ),
                   children: [
                     (0, s.jsxs)("div", {
                       className:
-                        "px-4 py-3 border-b border-[#344F1F]/10 flex items-center justify-between",
+                        "px-4 py-3 border-b border-[#2C3340]/10 flex items-center justify-between",
                       children: [
                         (0, s.jsx)("h3", {
-                          className: "text-base font-semibold text-[#344F1F]",
+                          className: "text-base font-semibold text-[#2C3340]",
                           children: "Benachrichtigungen",
                         }),
                         o > 0 &&
@@ -684,7 +684,7 @@
                             onClick: k,
                             disabled: g,
                             className: (0, c.cn)(
-                              "text-xs text-[#F4991A] hover:text-[#E5890F]",
+                              "text-xs text-[#5D5DE9] hover:text-[#2C3340]",
                               "font-medium transition-colors",
                               "disabled:opacity-50",
                             ),
@@ -700,7 +700,7 @@
                         ? (0, s.jsx)("div", {
                             className: "flex items-center justify-center py-12",
                             children: (0, s.jsx)(I.A, {
-                              className: "h-8 w-8 text-[#F4991A] animate-spin",
+                              className: "h-8 w-8 text-[#5D5DE9] animate-spin",
                             }),
                           })
                         : 0 === m.length
@@ -709,10 +709,10 @@
                               children: [
                                 (0, s.jsx)(p.A, {
                                   className:
-                                    "h-12 w-12 text-[#344F1F]/30 mx-auto mb-3",
+                                    "h-12 w-12 text-[#2C3340]/30 mx-auto mb-3",
                                 }),
                                 (0, s.jsx)("p", {
-                                  className: "text-sm text-[#344F1F]/70",
+                                  className: "text-sm text-[#2C3340]/70",
                                   children: "Keine Benachrichtigungen",
                                 }),
                               ],
@@ -735,15 +735,15 @@
                     }),
                     m.length > 0 &&
                       (0, s.jsx)("div", {
-                        className: "px-4 py-3 border-t border-[#344F1F]/10",
+                        className: "px-4 py-3 border-t border-[#2C3340]/10",
                         children: (0, s.jsx)(A.$, {
                           onClick: () => {
                             (u(!1), r.push("/arbeitgeber/benachrichtigungen"));
                           },
                           className: (0, c.cn)(
                             "w-full rounded-full",
-                            "bg-[#F4991A] text-white",
-                            "hover:bg-[#E5890F]",
+                            "bg-[#5D5DE9] text-white",
+                            "hover:bg-[#2C3340]",
                             "transition-all duration-200",
                             "text-sm font-medium",
                             "min-h-[44px]",
@@ -864,17 +864,17 @@
                   className: (0, c.cn)(
                     "absolute right-0 mt-2 w-[380px] max-w-[calc(100vw-2rem)]",
                     "bg-white rounded-xl shadow-lg",
-                    "border border-[#344F1F]/10",
+                    "border border-[#2C3340]/10",
                     "z-50",
                     "max-h-[600px] flex flex-col",
                   ),
                   children: [
                     (0, s.jsxs)("div", {
                       className:
-                        "px-4 py-3 border-b border-[#344F1F]/10 flex items-center justify-between",
+                        "px-4 py-3 border-b border-[#2C3340]/10 flex items-center justify-between",
                       children: [
                         (0, s.jsx)("h3", {
-                          className: "text-base font-semibold text-[#344F1F]",
+                          className: "text-base font-semibold text-[#2C3340]",
                           children: "Nachrichten",
                         }),
                         (0, s.jsx)("button", {
@@ -882,7 +882,7 @@
                             (r.push("/arbeitgeber/nachrichten"), u(!1));
                           },
                           className:
-                            "text-xs text-[#F4991A] hover:text-[#E5890F] font-medium transition-colors",
+                            "text-xs text-[#5D5DE9] hover:text-[#2C3340] font-medium transition-colors",
                           children: "Alle anzeigen",
                         }),
                       ],
@@ -893,7 +893,7 @@
                         ? (0, s.jsx)("div", {
                             className: "flex items-center justify-center py-12",
                             children: (0, s.jsx)(I.A, {
-                              className: "h-8 w-8 text-[#F4991A] animate-spin",
+                              className: "h-8 w-8 text-[#5D5DE9] animate-spin",
                             }),
                           })
                         : 0 === m.length
@@ -902,10 +902,10 @@
                               children: [
                                 (0, s.jsx)(W.A, {
                                   className:
-                                    "h-12 w-12 text-[#344F1F]/30 mx-auto mb-3",
+                                    "h-12 w-12 text-[#2C3340]/30 mx-auto mb-3",
                                 }),
                                 (0, s.jsx)("p", {
-                                  className: "text-sm text-[#344F1F]/70",
+                                  className: "text-sm text-[#2C3340]/70",
                                   children: "Keine Nachrichten",
                                 }),
                               ],
@@ -919,15 +919,15 @@
                                     onClick: () => j(e.id),
                                     className: (0, c.cn)(
                                       "w-full text-left p-3 rounded-lg transition-colors",
-                                      "hover:bg-[#F2EAD3]",
-                                      e.unread_count > 0 && "bg-[#F4991A]/5",
+                                      "hover:bg-[#EEF0F4]",
+                                      e.unread_count > 0 && "bg-[#5D5DE9]/5",
                                     ),
                                     children: (0, s.jsxs)("div", {
                                       className: "flex items-start gap-3",
                                       children: [
                                         (0, s.jsx)("div", {
                                           className:
-                                            "relative h-10 w-10 overflow-hidden rounded-full bg-[#F4991A]/10 flex-shrink-0",
+                                            "relative h-10 w-10 overflow-hidden rounded-full bg-[#5D5DE9]/10 flex-shrink-0",
                                           children: e.student_avatar
                                             ? (0, s.jsx)("img", {
                                                 src: e.student_avatar,
@@ -937,7 +937,7 @@
                                               })
                                             : (0, s.jsx)("div", {
                                                 className:
-                                                  "w-full h-full flex items-center justify-center text-[#F4991A] font-semibold",
+                                                  "w-full h-full flex items-center justify-center text-[#5D5DE9] font-semibold",
                                                 children: e.student_name
                                                   .charAt(0)
                                                   .toUpperCase(),
@@ -952,12 +952,12 @@
                                               children: [
                                                 (0, s.jsx)("p", {
                                                   className:
-                                                    "text-sm font-semibold text-[#344F1F] truncate",
+                                                    "text-sm font-semibold text-[#2C3340] truncate",
                                                   children: e.student_name,
                                                 }),
                                                 (0, s.jsx)("span", {
                                                   className:
-                                                    "text-xs text-[#344F1F]/70 flex-shrink-0 ml-2",
+                                                    "text-xs text-[#2C3340]/70 flex-shrink-0 ml-2",
                                                   children: (0, D.m)(
                                                     new Date(e.last_message_at),
                                                     {
@@ -970,7 +970,7 @@
                                             }),
                                             (0, s.jsx)("p", {
                                               className:
-                                                "text-sm text-[#344F1F]/70 line-clamp-2",
+                                                "text-sm text-[#2C3340]/70 line-clamp-2",
                                               children: e.last_message_text,
                                             }),
                                             e.unread_count > 0 &&
@@ -980,11 +980,11 @@
                                                 children: [
                                                   (0, s.jsx)("span", {
                                                     className:
-                                                      "inline-block h-2 w-2 rounded-full bg-[#F4991A]",
+                                                      "inline-block h-2 w-2 rounded-full bg-[#5D5DE9]",
                                                   }),
                                                   (0, s.jsx)("span", {
                                                     className:
-                                                      "text-xs font-semibold text-[#F4991A]",
+                                                      "text-xs font-semibold text-[#5D5DE9]",
                                                     children: e.unread_count,
                                                   }),
                                                 ],
@@ -1658,7 +1658,7 @@
                           "absolute bottom-full right-0 mb-3 w-[280px] md:w-[320px] z-50",
                         children: (0, s.jsxs)("div", {
                           className:
-                            "bg-[#F4991A] text-white p-4 rounded-xl shadow-2xl relative",
+                            "bg-[#5D5DE9] text-white p-4 rounded-xl shadow-2xl relative",
                           children: [
                             (0, s.jsx)("button", {
                               onClick: () => {
@@ -1705,7 +1705,7 @@
                             }),
                             (0, s.jsx)("div", {
                               className:
-                                "absolute -bottom-2 right-6 w-4 h-4 bg-[#F4991A] transform rotate-45",
+                                "absolute -bottom-2 right-6 w-4 h-4 bg-[#5D5DE9] transform rotate-45",
                             }),
                           ],
                         }),
@@ -1851,11 +1851,11 @@
                   children: [
                     (0, s.jsx)("div", {
                       className:
-                        "absolute right-0 top-0 w-64 h-64 rounded-full bg-[#F4991A]/5 blur-3xl",
+                        "absolute right-0 top-0 w-64 h-64 rounded-full bg-[#5D5DE9]/5 blur-3xl",
                     }),
                     (0, s.jsx)("div", {
                       className:
-                        "absolute left-0 bottom-0 w-48 h-48 rounded-full bg-[#344F1F]/5 blur-3xl",
+                        "absolute left-0 bottom-0 w-48 h-48 rounded-full bg-[#2C3340]/5 blur-3xl",
                     }),
                   ],
                 }),
@@ -2155,9 +2155,9 @@
                                 "flex flex-col items-center text-center gap-2",
                               children: [
                                 (0, s.jsx)("div", {
-                                  className: "p-2 rounded-full bg-[#F9F5F0]",
+                                  className: "p-2 rounded-full bg-[#F7F8FA]",
                                   children: (0, s.jsx)(e.icon, {
-                                    className: "w-5 h-5 text-[#344F1F]",
+                                    className: "w-5 h-5 text-[#2C3340]",
                                   }),
                                 }),
                                 (0, s.jsxs)("div", {
@@ -2186,7 +2186,7 @@
               (0, s.jsxs)(A.$, {
                 onClick: n,
                 className:
-                  "w-full rounded-full bg-[#F4991A] hover:bg-[#E5890F] text-white mt-4",
+                  "w-full rounded-full bg-[#5D5DE9] hover:bg-[#2C3340] text-white mt-4",
                 size: "lg",
                 children: [
                   (0, s.jsx)(m.A, { className: "w-4 h-4 mr-2" }),

@@ -13,16 +13,16 @@
 @endsection
 
 @section('content')
-    <main class="min-h-screen bg-[#F9F5F0]">
-        <section class="relative w-full overflow-hidden bg-[#F9F5F0] pt-4 pb-8 sm:pt-6 sm:pb-12 md:pt-8 md:pb-16"
-            aria-label="Apply For Me service hero section">
+    <main class="min-h-screen bg-[#F7F8FA]">
+        <section class="relative w-full overflow-hidden bg-[#F7F8FA] pt-4 pb-8 sm:pt-6 sm:pb-12 md:pt-8 md:pb-16"
+            aria-label="Apply For Me service azubi-hero section">
             <div class="container mx-auto px-4 lg:px-6">
                 <div class="relative overflow-hidden rounded-2xl sm:rounded-3xl shadow-xl">
                     <div class="absolute inset-0">
                         <img src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}"
                             alt="Azubi Apply For Me Service" class="w-full h-full object-cover" loading="eager"
                             fetchpriority="high" width="1920" height="1080" />
-                        <div class="absolute inset-0 bg-black/50"></div>
+                        <div class="absolute inset-0 bg-black/50 azubi-hero-veil"></div>
                         <div class="absolute inset-0"
                             style="
                       background:
@@ -59,7 +59,7 @@
                         </div>
                         <h1
                             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight drop-shadow-2xl max-w-4xl mx-auto">
-                            Get Your Ausbildung Offer.<br /><span class="text-[#F4991A]">We Handle Everything.</span>
+                            Get Your Ausbildung Offer.<br /><span class="text-[#5D5DE9]">We Handle Everything.</span>
                         </h1>
                         <p
                             class="text-base sm:text-lg md:text-xl text-white/90 mb-6 max-w-2xl mx-auto font-medium leading-relaxed drop-shadow-lg">
@@ -128,7 +128,7 @@
                                         height="44" />
                                 </div>
                                 <div
-                                    class="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white bg-[#344F1F] flex items-center justify-center">
+                                    class="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white bg-[#2C3340] flex items-center justify-center">
                                     <span class="text-xs font-bold text-white">40+</span>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
                         </div>
                         <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-lg mx-auto">
                             <a href="#pricing" class="inline-block flex-1"><button
-                                    class="w-full bg-[#F4991A] hover:bg-[#e08a15] text-white rounded-full text-base sm:text-lg px-8 sm:px-10 py-3 sm:py-4 font-semibold transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
+                                    class="w-full bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full text-base sm:text-lg px-8 sm:px-10 py-3 sm:py-4 font-semibold transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
                                     See How It Works
                                 </button></a><a href="#pricing" class="inline-block flex-1"><button
                                     class="w-full border-2 border-white/60 hover:border-white text-white hover:bg-white/10 backdrop-blur-sm rounded-full text-base sm:text-lg px-8 sm:px-10 py-3 sm:py-4 font-semibold transition-all">
@@ -158,10 +158,10 @@
         <section class="py-16 md:py-24 bg-white overflow-hidden">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12 md:mb-16" style="opacity: 0; transform: translateY(20px)">
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#344F1F] mb-4">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2C3340] mb-4">
                         Stop Struggling. Start Getting Offers.
                     </h2>
-                    <p class="text-lg text-[#344F1F]/70 max-w-2xl mx-auto">
+                    <p class="text-lg text-[#2C3340]/70 max-w-2xl mx-auto">
                         You focus on learning German. We handle the applications.
                     </p>
                 </div>
@@ -292,7 +292,7 @@
                         <div class="hidden lg:flex items-center justify-center z-10"
                             style="opacity: 0; transform: scale(0.8)">
                             <div
-                                class="w-16 h-16 bg-[#F4991A] rounded-full flex items-center justify-center shadow-xl -mx-8">
+                                class="w-16 h-16 bg-[#5D5DE9] rounded-full flex items-center justify-center shadow-xl -mx-8">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -305,7 +305,7 @@
                         <div class="flex lg:hidden items-center justify-center py-2"
                             style="opacity: 0; transform: translateY(-10px)">
                             <div
-                                class="w-12 h-12 bg-[#F4991A] rounded-full flex items-center justify-center shadow-lg rotate-90">
+                                class="w-12 h-12 bg-[#5D5DE9] rounded-full flex items-center justify-center shadow-lg rotate-90">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -317,10 +317,10 @@
                         </div>
                         <div class="relative" style="opacity: 0; transform: translateX(30px)">
                             <div
-                                class="h-full bg-gradient-to-br from-[#344F1F] to-[#2d4219] rounded-2xl lg:rounded-l-none p-6 md:p-8 lg:pl-12 text-white">
+                                class="h-full bg-gradient-to-br from-[#2C3340] to-[#1E242E] rounded-2xl lg:rounded-l-none p-6 md:p-8 lg:pl-12 text-white">
                                 <div class="mb-8">
                                     <span
-                                        class="inline-flex items-center gap-1.5 px-3 py-1 bg-[#F4991A]/20 rounded-full text-xs font-medium text-[#F4991A] mb-4"><svg
+                                        class="inline-flex items-center gap-1.5 px-3 py-1 bg-[#5D5DE9]/20 rounded-full text-xs font-medium text-[#5D5DE9] mb-4"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -347,7 +347,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-file-text w-5 h-5 text-[#F4991A]">
+                                                class="lucide lucide-file-text w-5 h-5 text-[#5D5DE9]">
                                                 <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
                                                 <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
                                                 <path d="M10 9H8"></path>
@@ -370,7 +370,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-building2 w-5 h-5 text-[#F4991A]">
+                                                class="lucide lucide-building2 w-5 h-5 text-[#5D5DE9]">
                                                 <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                                                 <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
                                                 <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
@@ -395,7 +395,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-target w-5 h-5 text-[#F4991A]">
+                                                class="lucide lucide-target w-5 h-5 text-[#5D5DE9]">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <circle cx="12" cy="12" r="6"></circle>
                                                 <circle cx="12" cy="12" r="2"></circle>
@@ -416,7 +416,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-shield w-5 h-5 text-[#F4991A]">
+                                                class="lucide lucide-shield w-5 h-5 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
                                                 </path>
@@ -443,7 +443,7 @@
                                             </div>
                                         </div>
                                         <div class="bg-white/10 rounded-xl p-4 text-center">
-                                            <div class="text-2xl font-bold text-[#F4991A]">
+                                            <div class="text-2xl font-bold text-[#5D5DE9]">
                                                 Expert
                                             </div>
                                             <div class="text-xs text-white/60">
@@ -455,41 +455,41 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-8 bg-[#F9F5F0] rounded-2xl p-6 md:p-8" style="opacity: 0; transform: translateY(20px)">
+                    <div class="mt-8 bg-[#F7F8FA] rounded-2xl p-6 md:p-8" style="opacity: 0; transform: translateY(20px)">
                         <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                             <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 bg-[#F4991A]/10 rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-[#5D5DE9]/10 rounded-full flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-headphones w-6 h-6 text-[#F4991A]">
+                                        class="lucide lucide-headphones w-6 h-6 text-[#5D5DE9]">
                                         <path
                                             d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3">
                                         </path>
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 class="font-bold text-[#344F1F]">
+                                    <h4 class="font-bold text-[#2C3340]">
                                         Your dedicated counselor
                                     </h4>
-                                    <p class="text-sm text-[#344F1F]/60">
+                                    <p class="text-sm text-[#2C3340]/60">
                                         WhatsApp support throughout your journey
                                     </p>
                                 </div>
                             </div>
                             <div class="flex items-center gap-8">
                                 <div class="text-center">
-                                    <div class="text-2xl font-bold text-[#344F1F]">3-6</div>
-                                    <div class="text-xs text-[#344F1F]/60">
+                                    <div class="text-2xl font-bold text-[#2C3340]">3-6</div>
+                                    <div class="text-xs text-[#2C3340]/60">
                                         Months to Germany
                                     </div>
                                 </div>
-                                <div class="h-8 w-px bg-[#344F1F]/10 hidden md:block"></div>
+                                <div class="h-8 w-px bg-[#2C3340]/10 hidden md:block"></div>
                                 <div class="text-center">
-                                    <div class="text-2xl font-bold text-[#F4991A]">
+                                    <div class="text-2xl font-bold text-[#5D5DE9]">
                                         $300
                                     </div>
-                                    <div class="text-xs text-[#344F1F]/60">
+                                    <div class="text-xs text-[#2C3340]/60">
                                         To get started
                                     </div>
                                 </div>
@@ -499,13 +499,13 @@
                 </div>
             </div>
         </section>
-        <section id="how-it-works" class="py-12 sm:py-16 md:py-24 bg-[#F9F5F0]">
+        <section id="how-it-works" class="py-12 sm:py-16 md:py-24 bg-[#F7F8FA]">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-8 sm:mb-12 lg:mb-16" style="opacity: 0; transform: translateY(20px)">
-                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-[#344F1F]">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-[#2C3340]">
                         How It Works
                     </h2>
-                    <p class="text-base sm:text-lg text-[#344F1F]/70 max-w-2xl mx-auto px-4">
+                    <p class="text-base sm:text-lg text-[#2C3340]/70 max-w-2xl mx-auto px-4">
                         From enrollment to job offer in 3 simple steps
                     </p>
                 </div>
@@ -531,7 +531,7 @@
 
                                     {{-- Card 1: Apply For Me (Step 1) --}}
                                     <div data-hiw-card="1"
-                                        class="hiw-card absolute top-1/2 left-1/2 bg-gradient-to-br from-[#F4991A] to-[#E5890F] rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
+                                        class="azubi-hiw-card absolute top-1/2 left-1/2 bg-gradient-to-br from-[#5D5DE9] to-[#2C3340] rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
                                         style="
                             width: 320px;
                             height: 440px;
@@ -541,7 +541,7 @@
                                         <div class="text-center mb-6">
                                             <div
                                                 class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4">
-                                                <svg class="w-8 h-8 text-[#F4991A]" viewBox="0 0 24 24" fill="none">
+                                                <svg class="w-8 h-8 text-[#5D5DE9]" viewBox="0 0 24 24" fill="none">
                                                     <path
                                                         d="M16 21V19C16 17.9391 15.5786 16.9217 14.8284 16.1716C14.0783 15.4214 13.0609 15 12 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -567,7 +567,7 @@
                                             <div class="flex items-center gap-2">
                                                 <div
                                                     class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0">
-                                                    <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16"
+                                                    <svg class="w-2.5 h-2.5 text-[#5D5DE9]" viewBox="0 0 16 16"
                                                         fill="none">
                                                         <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2"
                                                             stroke-linecap="round" stroke-linejoin="round"></path>
@@ -578,7 +578,7 @@
                                             <div class="flex items-center gap-2">
                                                 <div
                                                     class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0">
-                                                    <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16"
+                                                    <svg class="w-2.5 h-2.5 text-[#5D5DE9]" viewBox="0 0 16 16"
                                                         fill="none">
                                                         <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2"
                                                             stroke-linecap="round" stroke-linejoin="round"></path>
@@ -589,7 +589,7 @@
                                             <div class="flex items-center gap-2">
                                                 <div
                                                     class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0">
-                                                    <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16"
+                                                    <svg class="w-2.5 h-2.5 text-[#5D5DE9]" viewBox="0 0 16 16"
                                                         fill="none">
                                                         <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2"
                                                             stroke-linecap="round" stroke-linejoin="round"></path>
@@ -600,7 +600,7 @@
                                             <div class="flex items-center gap-2">
                                                 <div
                                                     class="w-4 h-4 bg-white rounded-full flex items-center justify-center flex-shrink-0">
-                                                    <svg class="w-2.5 h-2.5 text-[#F4991A]" viewBox="0 0 16 16"
+                                                    <svg class="w-2.5 h-2.5 text-[#5D5DE9]" viewBox="0 0 16 16"
                                                         fill="none">
                                                         <path d="M3 8L6 11L13 4" stroke="currentColor" stroke-width="2"
                                                             stroke-linecap="round" stroke-linejoin="round"></path>
@@ -611,14 +611,14 @@
                                             </div>
                                         </div>
                                         <button
-                                            class="w-full bg-white text-[#F4991A] rounded-full py-3 font-bold hover:bg-gray-50 transition-all">
+                                            class="w-full bg-white text-[#5D5DE9] rounded-full py-3 font-bold hover:bg-gray-50 transition-all">
                                             Get Started
                                         </button>
                                     </div>
 
                                     {{-- Card 2: Applications Sent (Step 2) --}}
                                     <div data-hiw-card="2"
-                                        class="hiw-card absolute top-1/2 left-1/2 bg-white rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
+                                        class="azubi-hiw-card absolute top-1/2 left-1/2 bg-white rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
                                         style="
                             width: 320px;
                             height: 440px;
@@ -628,8 +628,8 @@
                           ">
                                         <div class="flex items-center gap-3 mb-5">
                                             <div
-                                                class="w-10 h-10 bg-[#344F1F]/10 rounded-xl flex items-center justify-center">
-                                                <svg class="w-5 h-5 text-[#344F1F]" viewBox="0 0 24 24" fill="none"
+                                                class="w-10 h-10 bg-[#2C3340]/10 rounded-xl flex items-center justify-center">
+                                                <svg class="w-5 h-5 text-[#2C3340]" viewBox="0 0 24 24" fill="none"
                                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                                     stroke-linejoin="round">
                                                     <path
@@ -638,50 +638,50 @@
                                                 </svg>
                                             </div>
                                             <div>
-                                                <h3 class="font-bold text-[#344F1F] text-lg">Applications Sent</h3>
-                                                <p class="text-sm text-[#344F1F]/50">12 of 30 complete</p>
+                                                <h3 class="font-bold text-[#2C3340] text-lg">Applications Sent</h3>
+                                                <p class="text-sm text-[#2C3340]/50">12 of 30 complete</p>
                                             </div>
                                         </div>
                                         <div class="space-y-3 mb-6">
                                             <div
-                                                class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
-                                                <span class="font-medium text-[#344F1F] text-sm">Siemens AG</span>
+                                                class="flex items-center justify-between bg-[#F7F8FA] rounded-xl px-4 py-3">
+                                                <span class="font-medium text-[#2C3340] text-sm">Siemens AG</span>
                                                 <span
                                                     class="text-xs font-semibold bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded-full">Sent</span>
                                             </div>
                                             <div
-                                                class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
-                                                <span class="font-medium text-[#344F1F] text-sm">BMW Group</span>
+                                                class="flex items-center justify-between bg-[#F7F8FA] rounded-xl px-4 py-3">
+                                                <span class="font-medium text-[#2C3340] text-sm">BMW Group</span>
                                                 <span
                                                     class="text-xs font-semibold bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded-full">Sent</span>
                                             </div>
                                             <div
-                                                class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
-                                                <span class="font-medium text-[#344F1F] text-sm">Bosch</span>
+                                                class="flex items-center justify-between bg-[#F7F8FA] rounded-xl px-4 py-3">
+                                                <span class="font-medium text-[#2C3340] text-sm">Bosch</span>
                                                 <span
                                                     class="text-xs font-semibold bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded-full">Sent</span>
                                             </div>
                                             <div
-                                                class="flex items-center justify-between bg-[#F9F5F0] rounded-xl px-4 py-3">
-                                                <span class="font-medium text-[#344F1F] text-sm">Deutsche Bahn</span>
+                                                class="flex items-center justify-between bg-[#F7F8FA] rounded-xl px-4 py-3">
+                                                <span class="font-medium text-[#2C3340] text-sm">Deutsche Bahn</span>
                                                 <span
                                                     class="text-xs font-semibold bg-amber-100 text-amber-700 px-2.5 py-1 rounded-full">Pending</span>
                                             </div>
                                         </div>
                                         <div>
                                             <div class="flex items-center justify-between mb-2">
-                                                <span class="text-xs text-[#344F1F]/50">Progress</span>
-                                                <span class="text-xs font-semibold text-[#344F1F]">12/30 apps</span>
+                                                <span class="text-xs text-[#2C3340]/50">Progress</span>
+                                                <span class="text-xs font-semibold text-[#2C3340]">12/30 apps</span>
                                             </div>
                                             <div class="w-full bg-gray-200 rounded-full h-2.5">
-                                                <div class="bg-[#344F1F] h-2.5 rounded-full" style="width: 40%"></div>
+                                                <div class="bg-[#2C3340] h-2.5 rounded-full" style="width: 40%"></div>
                                             </div>
                                         </div>
                                     </div>
 
                                     {{-- Card 3: Offer Received (Step 3) - Dark theme --}}
                                     <div data-hiw-card="3"
-                                        class="hiw-card absolute top-1/2 left-1/2 bg-[#1a1a1a] rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
+                                        class="azubi-hiw-card absolute top-1/2 left-1/2 bg-[#1a1a1a] rounded-2xl lg:rounded-3xl shadow-2xl transition-all duration-500"
                                         style="
                             width: 320px;
                             height: 440px;
@@ -717,7 +717,7 @@
                                             <div class="flex items-center justify-between mb-1">
                                                 <span class="font-bold text-white text-sm">BMW Group</span>
                                                 <span
-                                                    class="text-xs font-semibold bg-[#F4991A] text-white px-2.5 py-0.5 rounded-full">Interview</span>
+                                                    class="text-xs font-semibold bg-[#5D5DE9] text-white px-2.5 py-0.5 rounded-full">Interview</span>
                                             </div>
                                             <p class="text-xs text-white/50">Mechatronics - Berlin</p>
                                             <p class="text-xs text-white/40">Dec 20, 2026 &bull; 10:00 AM</p>
@@ -738,66 +738,66 @@
                     {{-- Right side: step cards --}}
                     <div class="space-y-3 sm:space-y-4" id="how-it-works-steps">
                         <div data-step="1"
-                            class="hiw-step hiw-step--active relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
+                            class="azubi-hiw-step azubi-hiw-step--active relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
                             style="opacity: 0; transform: translateY(20px)">
                             <div class="space-y-2 sm:space-y-2.5">
                                 <div
-                                    class="hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300">
+                                    class="azubi-hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300">
                                     Step 1
                                 </div>
-                                <h3 class="hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300">
+                                <h3 class="azubi-hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300">
                                     Enroll &amp; Complete Profile
                                 </h3>
-                                <p class="hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
+                                <p class="azubi-hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
                                     Pay $300 advance and complete your profile in 15
                                     minutes. Education, experience, German level, and job
                                     preferences.
                                 </p>
                             </div>
                             <div
-                                class="hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#F4991A] rounded-r-full transition-opacity duration-300">
+                                class="azubi-hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#5D5DE9] rounded-r-full transition-opacity duration-300">
                             </div>
                         </div>
                         <div data-step="2"
-                            class="hiw-step relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
+                            class="azubi-hiw-step relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
                             style="opacity: 0; transform: translateY(20px)">
                             <div class="space-y-2 sm:space-y-2.5">
                                 <div
-                                    class="hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300">
+                                    class="azubi-hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300">
                                     Step 2
                                 </div>
-                                <h3 class="hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300">
+                                <h3 class="azubi-hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300">
                                     We Apply For You
                                 </h3>
-                                <p class="hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
+                                <p class="azubi-hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
                                     Our expert team writes native German applications and
                                     submits to companies that hire internationals. Track
                                     everything in your dashboard.
                                 </p>
                             </div>
                             <div
-                                class="hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#F4991A] rounded-r-full transition-opacity duration-300">
+                                class="azubi-hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#5D5DE9] rounded-r-full transition-opacity duration-300">
                             </div>
                         </div>
                         <div data-step="3"
-                            class="hiw-step relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
+                            class="azubi-hiw-step relative p-4 sm:p-5 lg:p-6 rounded-xl cursor-pointer transition-all duration-300"
                             style="opacity: 0; transform: translateY(20px)">
                             <div class="space-y-2 sm:space-y-2.5">
                                 <div
-                                    class="hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300">
+                                    class="azubi-hiw-badge inline-block px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-colors duration-300">
                                     Step 3
                                 </div>
-                                <h3 class="hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300">
+                                <h3 class="azubi-hiw-title text-lg sm:text-xl font-semibold transition-colors duration-300">
                                     Get Your Offer
                                 </h3>
-                                <p class="hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
+                                <p class="azubi-hiw-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
                                     Receive interview calls, get 1-on-1 coaching, accept
                                     your offer, pay success fee. We help with visa and
                                     relocation.
                                 </p>
                             </div>
                             <div
-                                class="hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#F4991A] rounded-r-full transition-opacity duration-300">
+                                class="azubi-hiw-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-12 bg-[#5D5DE9] rounded-r-full transition-opacity duration-300">
                             </div>
                         </div>
                     </div>
@@ -808,13 +808,13 @@
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12" style="opacity: 0; transform: translateY(20px)">
                     <div
-                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 mb-4 bg-[#F4991A]/10 text-[#F4991A] border-[#F4991A]/20">
+                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 mb-4 bg-[#5D5DE9]/10 text-[#5D5DE9] border-[#5D5DE9]/20">
                         What You Get
                     </div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#344F1F]">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#2C3340]">
                         Everything Included in Apply For Me
                     </h2>
-                    <p class="text-lg text-[#344F1F]/70 max-w-2xl mx-auto">
+                    <p class="text-lg text-[#2C3340]/70 max-w-2xl mx-auto">
                         A complete done-for-you service from application to offer.
                         Focus on learning German while we handle everything else.
                     </p>
@@ -824,7 +824,7 @@
                         <div class="lg:row-span-2 rounded-2xl border-2 border-orange-300 bg-gradient-to-br from-orange-50 to-amber-50 hover:shadow-xl transition-all duration-500 min-h-[400px] p-8 flex flex-col"
                             style="opacity: 0; transform: translateY(20px)">
                             <div class="flex-1 space-y-4">
-                                <div class="w-12 h-12 bg-[#F4991A] rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-[#5D5DE9] rounded-full flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -835,10 +835,10 @@
                                         <path d="m21.854 2.147-10.94 10.939"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-2xl md:text-3xl font-bold text-[#344F1F]">
+                                <h3 class="text-2xl md:text-3xl font-bold text-[#2C3340]">
                                     Expert Applications
                                 </h3>
-                                <p class="text-base text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-base text-[#2C3340]/70 leading-relaxed">
                                     Our team submits personalized applications to companies
                                     that actually hire internationals. Not random spam -
                                     strategic, targeted applications based on your profile.
@@ -862,17 +862,17 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-layout-dashboard w-6 h-6 text-[#344F1F]">
+                                            class="lucide lucide-layout-dashboard w-6 h-6 text-[#2C3340]">
                                             <rect width="7" height="9" x="3" y="3" rx="1"></rect>
                                             <rect width="7" height="5" x="14" y="3" rx="1"></rect>
                                             <rect width="7" height="9" x="14" y="12" rx="1"></rect>
                                             <rect width="7" height="5" x="3" y="16" rx="1"></rect>
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl md:text-2xl font-bold text-[#344F1F]">
+                                    <h3 class="text-xl md:text-2xl font-bold text-[#2C3340]">
                                         Real-Time Dashboard
                                     </h3>
-                                    <p class="text-sm md:text-base text-[#344F1F]/70 leading-relaxed">
+                                    <p class="text-sm md:text-base text-[#2C3340]/70 leading-relaxed">
                                         Watch your applications in real-time. See who we
                                         applied to, track responses, get notified instantly
                                         when companies respond.
@@ -904,10 +904,10 @@
                                         <path d="M16 17H8"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-2xl md:text-3xl font-bold text-[#344F1F]">
+                                <h3 class="text-2xl md:text-3xl font-bold text-[#2C3340]">
                                     Native German Cover Letters
                                 </h3>
-                                <p class="text-base text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-base text-[#2C3340]/70 leading-relaxed">
                                     Native-level German Anschreiben written by experts. DIN
                                     5008 format. Personalized for each company and position
                                     - the kind that get responses.
@@ -936,10 +936,10 @@
                                         <rect x="2" y="6" width="14" height="12" rx="2"></rect>
                                     </svg>
                                 </div>
-                                <h3 class="text-2xl md:text-3xl font-bold text-[#344F1F]">
+                                <h3 class="text-2xl md:text-3xl font-bold text-[#2C3340]">
                                     Interview Preparation
                                 </h3>
-                                <p class="text-base text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-base text-[#2C3340]/70 leading-relaxed">
                                     When you get interview calls, we prep you. Mock
                                     interviews, company research, question practice, and
                                     feedback until you&#x27;re interview-ready.
@@ -1000,16 +1000,16 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-plane w-6 h-6 text-[#F4991A]">
+                                        class="lucide lucide-plane w-6 h-6 text-[#5D5DE9]">
                                         <path
                                             d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z">
                                         </path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Visa &amp; Relocation Support
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     After your offer, we help with blocked account setup,
                                     visa application, health insurance, and pre-departure
                                     checklist. End-to-end support.
@@ -1039,10 +1039,10 @@
                                             </path>
                                         </svg>
                                     </div>
-                                    <h3 class="text-xl md:text-2xl font-bold text-[#344F1F]">
+                                    <h3 class="text-xl md:text-2xl font-bold text-[#2C3340]">
                                         Dedicated Counselor
                                     </h3>
-                                    <p class="text-sm md:text-base text-[#344F1F]/70 leading-relaxed">
+                                    <p class="text-sm md:text-base text-[#2C3340]/70 leading-relaxed">
                                         Your personal point of contact throughout the journey.
                                         WhatsApp support, email, and video calls whenever you
                                         need guidance.
@@ -1064,7 +1064,7 @@
                         <div class="rounded-2xl border-2 border-orange-300 bg-gradient-to-br from-orange-50 to-amber-50 hover:shadow-xl transition-all duration-500 p-6 flex flex-col"
                             style="opacity: 0; transform: translateY(20px)">
                             <div class="space-y-3">
-                                <div class="w-12 h-12 bg-[#F4991A] rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-[#5D5DE9] rounded-full flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -1075,10 +1075,10 @@
                                         <path d="m21.854 2.147-10.94 10.939"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Expert Applications
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Our team submits personalized applications to companies
                                     that actually hire internationals. Not random spam -
                                     strategic, targeted applications based on your profile.
@@ -1101,17 +1101,17 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-layout-dashboard w-6 h-6 text-[#344F1F]">
+                                        class="lucide lucide-layout-dashboard w-6 h-6 text-[#2C3340]">
                                         <rect width="7" height="9" x="3" y="3" rx="1"></rect>
                                         <rect width="7" height="5" x="14" y="3" rx="1"></rect>
                                         <rect width="7" height="9" x="14" y="12" rx="1"></rect>
                                         <rect width="7" height="5" x="3" y="16" rx="1"></rect>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Real-Time Dashboard
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Watch your applications in real-time. See who we applied
                                     to, track responses, get notified instantly when
                                     companies respond.
@@ -1142,10 +1142,10 @@
                                         <path d="M16 17H8"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Native German Cover Letters
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Native-level German Anschreiben written by experts. DIN
                                     5008 format. Personalized for each company and position
                                     - the kind that get responses.
@@ -1174,10 +1174,10 @@
                                         <rect x="2" y="6" width="14" height="12" rx="2"></rect>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Interview Preparation
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     When you get interview calls, we prep you. Mock
                                     interviews, company research, question practice, and
                                     feedback until you&#x27;re interview-ready.
@@ -1200,16 +1200,16 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-plane w-6 h-6 text-[#F4991A]">
+                                        class="lucide lucide-plane w-6 h-6 text-[#5D5DE9]">
                                         <path
                                             d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z">
                                         </path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Visa &amp; Relocation Support
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     After your offer, we help with blocked account setup,
                                     visa application, health insurance, and pre-departure
                                     checklist. End-to-end support.
@@ -1238,10 +1238,10 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Dedicated Counselor
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Your personal point of contact throughout the journey.
                                     WhatsApp support, email, and video calls whenever you
                                     need guidance.
@@ -1297,7 +1297,7 @@
                         <div class="rounded-2xl border-2 border-orange-300 bg-gradient-to-br from-orange-50 to-amber-50 p-6 flex flex-col"
                             style="opacity: 0; transform: translateY(20px)">
                             <div class="space-y-3">
-                                <div class="w-12 h-12 bg-[#F4991A] rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-[#5D5DE9] rounded-full flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -1308,10 +1308,10 @@
                                         <path d="m21.854 2.147-10.94 10.939"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Expert Applications
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Our team submits personalized applications to companies
                                     that actually hire internationals. Not random spam -
                                     strategic, targeted applications based on your profile.
@@ -1334,17 +1334,17 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-layout-dashboard w-6 h-6 text-[#344F1F]">
+                                        class="lucide lucide-layout-dashboard w-6 h-6 text-[#2C3340]">
                                         <rect width="7" height="9" x="3" y="3" rx="1"></rect>
                                         <rect width="7" height="5" x="14" y="3" rx="1"></rect>
                                         <rect width="7" height="9" x="14" y="12" rx="1"></rect>
                                         <rect width="7" height="5" x="3" y="16" rx="1"></rect>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Real-Time Dashboard
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Watch your applications in real-time. See who we applied
                                     to, track responses, get notified instantly when
                                     companies respond.
@@ -1375,10 +1375,10 @@
                                         <path d="M16 17H8"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Native German Cover Letters
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Native-level German Anschreiben written by experts. DIN
                                     5008 format. Personalized for each company and position
                                     - the kind that get responses.
@@ -1407,10 +1407,10 @@
                                         <rect x="2" y="6" width="14" height="12" rx="2"></rect>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Interview Preparation
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     When you get interview calls, we prep you. Mock
                                     interviews, company research, question practice, and
                                     feedback until you&#x27;re interview-ready.
@@ -1433,16 +1433,16 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-plane w-6 h-6 text-[#F4991A]">
+                                        class="lucide lucide-plane w-6 h-6 text-[#5D5DE9]">
                                         <path
                                             d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z">
                                         </path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Visa &amp; Relocation Support
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     After your offer, we help with blocked account setup,
                                     visa application, health insurance, and pre-departure
                                     checklist. End-to-end support.
@@ -1471,10 +1471,10 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-[#344F1F]">
+                                <h3 class="text-xl font-bold text-[#2C3340]">
                                     Dedicated Counselor
                                 </h3>
-                                <p class="text-sm text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-sm text-[#2C3340]/70 leading-relaxed">
                                     Your personal point of contact throughout the journey.
                                     WhatsApp support, email, and video calls whenever you
                                     need guidance.
@@ -1533,18 +1533,18 @@
             <div class="container mx-auto px-4">
                 <div class="text-center mb-10 sm:mb-14 lg:mb-16" style="opacity: 0; transform: translateY(20px)">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#344F1F]/10 border border-[#344F1F]/20 mb-4">
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#2C3340]/10 border border-[#2C3340]/20 mb-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-briefcase w-4 h-4 text-[#344F1F]">
+                            stroke-linejoin="round" class="lucide lucide-briefcase w-4 h-4 text-[#2C3340]">
                             <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                             <rect width="20" height="14" x="2" y="6" rx="2"></rect>
-                        </svg><span class="text-sm font-medium text-[#344F1F]">Exclusive Member Dashboard</span>
+                        </svg><span class="text-sm font-medium text-[#2C3340]">Exclusive Member Dashboard</span>
                     </div>
-                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-[#344F1F]">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-[#2C3340]">
                         Your Personal Command Center
                     </h2>
-                    <p class="text-base sm:text-lg text-[#344F1F]/70 max-w-2xl mx-auto px-4">
+                    <p class="text-base sm:text-lg text-[#2C3340]/70 max-w-2xl mx-auto px-4">
                         Enrolled members get instant access to track applications,
                         download documents, and chat with their counselor
                     </p>
@@ -1552,11 +1552,11 @@
                 <div class="max-w-7xl mx-auto grid lg:grid-cols-[1fr,1.3fr] gap-8 lg:gap-12 items-center">
                     <div class="space-y-3 sm:space-y-4 order-2 lg:order-1">
                         <div data-dash="1"
-                            class="dash-card dash-card--active relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
+                            class="azubi-dash-card azubi-dash-card--active relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
                             style="opacity: 0; transform: translateX(-20px)">
                             <div class="flex items-start gap-4">
                                 <div
-                                    class="dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#344F1F] rounded-xl flex items-center justify-center transition-transform duration-300">
+                                    class="azubi-dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#2C3340] rounded-xl flex items-center justify-center transition-transform duration-300">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -1569,23 +1569,23 @@
                                 </div>
                                 <div class="flex-1">
                                     <h3
-                                        class="dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">
+                                        class="azubi-dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">
                                         Full Dashboard Overview</h3>
                                     <p
-                                        class="dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
+                                        class="azubi-dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
                                         Your personal command center with live stats, recent activity, upcoming interviews,
                                         and quick actions - all at a glance.</p>
                                 </div>
                             </div>
-                            <div class="dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#F4991A] rounded-r-full"
+                            <div class="azubi-dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#5D5DE9] rounded-r-full"
                                 style="opacity: 0"></div>
                         </div>
                         <div data-dash="2"
-                            class="dash-card relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
+                            class="azubi-dash-card relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
                             style="opacity: 0; transform: translateX(-20px)">
                             <div class="flex items-start gap-4">
                                 <div
-                                    class="dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#F4991A] rounded-xl flex items-center justify-center transition-transform duration-300">
+                                    class="azubi-dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-[#5D5DE9] rounded-xl flex items-center justify-center transition-transform duration-300">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -1599,23 +1599,23 @@
                                 </div>
                                 <div class="flex-1">
                                     <h3
-                                        class="dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">
+                                        class="azubi-dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">
                                         Documents &amp; Cover Letters</h3>
                                     <p
-                                        class="dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
+                                        class="azubi-dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
                                         Access every CV and cover letter we create. Download anytime, review before we send,
                                         keep for future use.</p>
                                 </div>
                             </div>
-                            <div class="dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#F4991A] rounded-r-full"
+                            <div class="azubi-dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#5D5DE9] rounded-r-full"
                                 style="opacity: 0"></div>
                         </div>
                         <div data-dash="3"
-                            class="dash-card relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
+                            class="azubi-dash-card relative p-4 sm:p-5 lg:p-6 rounded-2xl cursor-pointer transition-all duration-300"
                             style="opacity: 0; transform: translateX(-20px)">
                             <div class="flex items-start gap-4">
                                 <div
-                                    class="dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-black rounded-xl flex items-center justify-center transition-transform duration-300">
+                                    class="azubi-dash-icon flex-shrink-0 w-12 h-12 lg:w-14 lg:h-14 bg-black rounded-xl flex items-center justify-center transition-transform duration-300">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -1625,19 +1625,19 @@
                                 </div>
                                 <div class="flex-1">
                                     <h3
-                                        class="dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">
+                                        class="azubi-dash-title text-lg sm:text-xl font-bold mb-2 transition-colors duration-300">
                                         Direct Counselor Chat</h3>
                                     <p
-                                        class="dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
+                                        class="azubi-dash-desc text-sm sm:text-base leading-relaxed transition-colors duration-300">
                                         Message your dedicated counselor anytime. Get interview tips, request changes, ask
                                         questions. Avg response: 4 hours.</p>
                                 </div>
                             </div>
-                            <div class="dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#F4991A] rounded-r-full"
+                            <div class="azubi-dash-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 bg-[#5D5DE9] rounded-r-full"
                                 style="opacity: 0"></div>
                         </div>
                         <div class="pt-4" style="opacity: 0; transform: translateY(10px)">
-                            <div class="flex items-center gap-2 text-sm text-[#344F1F]/60">
+                            <div class="flex items-center gap-2 text-sm text-[#2C3340]/60">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -1650,14 +1650,14 @@
                     </div>
                     <div class="relative min-h-[450px] sm:min-h-[500px] lg:min-h-[580px] flex items-center justify-center order-1 lg:order-2"
                         id="dash-visuals-container">
-                        <div class="absolute inset-0 bg-gradient-to-br from-[#F9F5F0] to-[#F2EAD3]/50 rounded-3xl -z-10">
+                        <div class="absolute inset-0 bg-gradient-to-br from-[#F7F8FA] to-[#EEF0F4]/50 rounded-3xl -z-10">
                         </div>
                         <div data-dash-visual="1"
-                            class="dash-visual dash-visual--visible w-full flex justify-center p-4 lg:p-6"
+                            class="azubi-dash-visual azubi-dash-visual--visible w-full flex justify-center p-4 lg:p-6"
                             style="opacity: 0; transform: translateY(30px) scale(0.95)">
                             <div
                                 class="bg-white rounded-2xl lg:rounded-3xl shadow-2xl border border-gray-200 overflow-hidden w-full max-w-[500px]">
-                                <div class="bg-gradient-to-r from-[#344F1F] to-[#2d4219] px-4 lg:px-6 py-4 lg:py-5">
+                                <div class="bg-gradient-to-r from-[#2C3340] to-[#1E242E] px-4 lg:px-6 py-4 lg:py-5">
                                     <div class="flex items-center justify-between">
                                         <div>
                                             <p class="text-white/70 text-xs lg:text-sm">
@@ -1681,19 +1681,19 @@
                                                 </svg>
                                             </div>
                                             <div
-                                                class="w-8 h-8 lg:w-10 lg:h-10 bg-[#F4991A] rounded-full flex items-center justify-center text-white font-bold text-sm">
+                                                class="w-8 h-8 lg:w-10 lg:h-10 bg-[#5D5DE9] rounded-full flex items-center justify-center text-white font-bold text-sm">
                                                 PS
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="grid grid-cols-3 gap-2 lg:gap-4 p-3 lg:p-4 bg-[#F9F5F0] border-b border-[#F2EAD3]">
+                                    class="grid grid-cols-3 gap-2 lg:gap-4 p-3 lg:p-4 bg-[#F7F8FA] border-b border-[#EEF0F4]">
                                     <div class="bg-white rounded-xl p-2 lg:p-3 text-center shadow-sm">
-                                        <p class="text-xl lg:text-2xl font-bold text-[#344F1F]">
+                                        <p class="text-xl lg:text-2xl font-bold text-[#2C3340]">
                                             12
                                         </p>
-                                        <p class="text-[10px] lg:text-xs text-[#344F1F]/60">
+                                        <p class="text-[10px] lg:text-xs text-[#2C3340]/60">
                                             Apps Sent
                                         </p>
                                     </div>
@@ -1701,15 +1701,15 @@
                                         <p class="text-xl lg:text-2xl font-bold text-emerald-600">
                                             3
                                         </p>
-                                        <p class="text-[10px] lg:text-xs text-[#344F1F]/60">
+                                        <p class="text-[10px] lg:text-xs text-[#2C3340]/60">
                                             Interviews
                                         </p>
                                     </div>
                                     <div class="bg-white rounded-xl p-2 lg:p-3 text-center shadow-sm">
-                                        <p class="text-xl lg:text-2xl font-bold text-[#F4991A]">
+                                        <p class="text-xl lg:text-2xl font-bold text-[#5D5DE9]">
                                             1
                                         </p>
-                                        <p class="text-[10px] lg:text-xs text-[#344F1F]/60">
+                                        <p class="text-[10px] lg:text-xs text-[#2C3340]/60">
                                             Offer!
                                         </p>
                                     </div>
@@ -1730,10 +1730,10 @@
                                         </div>
                                         <div class="flex items-center justify-between">
                                             <div>
-                                                <p class="font-semibold text-[#344F1F] text-sm lg:text-base">
+                                                <p class="font-semibold text-[#2C3340] text-sm lg:text-base">
                                                     Siemens AG
                                                 </p>
-                                                <p class="text-xs text-[#344F1F]/60">
+                                                <p class="text-xs text-[#2C3340]/60">
                                                     Dec 20, 2025 • 10:00 AM CET
                                                 </p>
                                             </div>
@@ -1745,9 +1745,9 @@
                                     </div>
                                     <div>
                                         <div class="flex items-center justify-between mb-2">
-                                            <span class="text-xs font-semibold text-[#344F1F]/70">RECENT
+                                            <span class="text-xs font-semibold text-[#2C3340]/70">RECENT
                                                 APPLICATIONS</span><button
-                                                class="text-xs text-[#F4991A] font-medium flex items-center gap-1">
+                                                class="text-xs text-[#5D5DE9] font-medium flex items-center gap-1">
                                                 View All
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1759,7 +1759,7 @@
                                         </div>
                                         <div class="space-y-2">
                                             <div
-                                                class="flex items-center justify-between p-2 lg:p-3 bg-[#F9F5F0] rounded-lg">
+                                                class="flex items-center justify-between p-2 lg:p-3 bg-[#F7F8FA] rounded-lg">
                                                 <div class="flex items-center gap-2 lg:gap-3">
                                                     <div
                                                         class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
@@ -1773,10 +1773,10 @@
                                                         </svg>
                                                     </div>
                                                     <div>
-                                                        <p class="font-medium text-[#344F1F] text-xs lg:text-sm">
+                                                        <p class="font-medium text-[#2C3340] text-xs lg:text-sm">
                                                             BMW Group
                                                         </p>
-                                                        <p class="text-[10px] lg:text-xs text-[#344F1F]/60">
+                                                        <p class="text-[10px] lg:text-xs text-[#2C3340]/60">
                                                             Mechatronics
                                                         </p>
                                                     </div>
@@ -1785,10 +1785,10 @@
                                                     class="bg-emerald-100 text-emerald-700 text-[10px] lg:text-xs px-2 py-1 rounded-full font-medium">Interview</span>
                                             </div>
                                             <div
-                                                class="flex items-center justify-between p-2 lg:p-3 bg-[#F9F5F0] rounded-lg">
+                                                class="flex items-center justify-between p-2 lg:p-3 bg-[#F7F8FA] rounded-lg">
                                                 <div class="flex items-center gap-2 lg:gap-3">
                                                     <div
-                                                        class="w-8 h-8 bg-[#344F1F] rounded-lg flex items-center justify-center">
+                                                        class="w-8 h-8 bg-[#2C3340] rounded-lg flex items-center justify-center">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                             height="24" viewBox="0 0 24 24" fill="none"
                                                             stroke="currentColor" stroke-width="2"
@@ -1801,23 +1801,23 @@
                                                         </svg>
                                                     </div>
                                                     <div>
-                                                        <p class="font-medium text-[#344F1F] text-xs lg:text-sm">
+                                                        <p class="font-medium text-[#2C3340] text-xs lg:text-sm">
                                                             Bosch
                                                         </p>
-                                                        <p class="text-[10px] lg:text-xs text-[#344F1F]/60">
+                                                        <p class="text-[10px] lg:text-xs text-[#2C3340]/60">
                                                             Electronics
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <span
-                                                    class="bg-[#344F1F]/10 text-[#344F1F] text-[10px] lg:text-xs px-2 py-1 rounded-full font-medium">Sent</span>
+                                                    class="bg-[#2C3340]/10 text-[#2C3340] text-[10px] lg:text-xs px-2 py-1 rounded-full font-medium">Sent</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="bg-[#F4991A]/10 border border-[#F4991A]/20 rounded-xl p-3">
+                                    <div class="bg-[#5D5DE9]/10 border border-[#5D5DE9]/20 rounded-xl p-3">
                                         <div class="flex items-start gap-3">
                                             <div
-                                                class="w-8 h-8 bg-[#F4991A] rounded-full flex items-center justify-center flex-shrink-0">
+                                                class="w-8 h-8 bg-[#5D5DE9] rounded-full flex items-center justify-center flex-shrink-0">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1827,10 +1827,10 @@
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p class="font-semibold text-[#344F1F] text-xs lg:text-sm">
+                                                <p class="font-semibold text-[#2C3340] text-xs lg:text-sm">
                                                     Anna Schmidt
                                                 </p>
-                                                <p class="text-[10px] lg:text-xs text-[#344F1F]/70 mt-0.5">
+                                                <p class="text-[10px] lg:text-xs text-[#2C3340]/70 mt-0.5">
                                                     Great news! I&#x27;ve prepared interview tips
                                                     for your Siemens call. Check the prep section!
                                                 </p>
@@ -1843,10 +1843,10 @@
 
                         {{-- Visual 2: Documents & Cover Letters --}}
                         <div data-dash-visual="2"
-                            class="dash-visual dash-visual--hidden w-full flex justify-center p-4 lg:p-6">
+                            class="azubi-dash-visual azubi-dash-visual--hidden w-full flex justify-center p-4 lg:p-6">
                             <div
                                 class="bg-white rounded-2xl lg:rounded-3xl shadow-2xl border border-gray-200 overflow-hidden w-full max-w-[500px]">
-                                <div class="bg-[#F4991A] px-4 lg:px-6 py-4 lg:py-5 flex items-center justify-between">
+                                <div class="bg-[#5D5DE9] px-4 lg:px-6 py-4 lg:py-5 flex items-center justify-between">
                                     <div class="flex items-center gap-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -1869,7 +1869,7 @@
                                 </div>
                                 <div class="p-4 lg:p-5 space-y-3">
                                     <div>
-                                        <p class="text-xs font-semibold text-[#344F1F]/60 mb-2">YOUR CV</p>
+                                        <p class="text-xs font-semibold text-[#2C3340]/60 mb-2">YOUR CV</p>
                                         <div
                                             class="flex items-center justify-between p-3 lg:p-4 bg-blue-50 rounded-xl border border-blue-100">
                                             <div class="flex items-center gap-3 lg:gap-4">
@@ -1890,25 +1890,25 @@
                                                     </svg>
                                                 </div>
                                                 <div>
-                                                    <p class="font-semibold text-[#344F1F] text-sm lg:text-base">German CV
+                                                    <p class="font-semibold text-[#2C3340] text-sm lg:text-base">German CV
                                                         - Final</p>
-                                                    <p class="text-xs text-[#344F1F]/60">Updated Dec 15, 2025</p>
+                                                    <p class="text-xs text-[#2C3340]/60">Updated Dec 15, 2025</p>
                                                     <div class="flex items-center gap-1 mt-1">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                             height="24" viewBox="0 0 24 24" fill="none"
                                                             stroke="currentColor" stroke-width="2"
                                                             stroke-linecap="round" stroke-linejoin="round"
-                                                            class="lucide lucide-star w-3 h-3 text-[#F4991A] fill-[#F4991A]">
+                                                            class="lucide lucide-star w-3 h-3 text-[#5D5DE9] fill-[#5D5DE9]">
                                                             <path
                                                                 d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                                             </path>
                                                         </svg>
-                                                        <span class="text-[10px] text-[#344F1F]/60">Expert reviewed</span>
+                                                        <span class="text-[10px] text-[#2C3340]/60">Expert reviewed</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <button
-                                                class="w-10 h-10 lg:w-12 lg:h-12 bg-[#344F1F] rounded-full flex items-center justify-center hover:bg-[#2d4219] transition-colors">
+                                                class="w-10 h-10 lg:w-12 lg:h-12 bg-[#2C3340] rounded-full flex items-center justify-center hover:bg-[#1E242E] transition-colors">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1922,10 +1922,10 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <p class="text-xs font-semibold text-[#344F1F]/60 mb-2">COVER LETTERS (5)</p>
+                                        <p class="text-xs font-semibold text-[#2C3340]/60 mb-2">COVER LETTERS (5)</p>
                                         <div class="space-y-2">
                                             <div
-                                                class="flex items-center justify-between p-3 bg-[#F9F5F0] rounded-xl border border-[#F2EAD3]">
+                                                class="flex items-center justify-between p-3 bg-[#F7F8FA] rounded-xl border border-[#EEF0F4]">
                                                 <div class="flex items-center gap-3">
                                                     <div
                                                         class="w-10 h-12 bg-emerald-100 rounded-lg flex items-center justify-center border border-emerald-200">
@@ -1944,13 +1944,13 @@
                                                         </svg>
                                                     </div>
                                                     <div>
-                                                        <p class="font-semibold text-[#344F1F] text-sm">Siemens AG</p>
-                                                        <p class="text-xs text-[#344F1F]/60">IT Specialist &bull; Munich
+                                                        <p class="font-semibold text-[#2C3340] text-sm">Siemens AG</p>
+                                                        <p class="text-xs text-[#2C3340]/60">IT Specialist &bull; Munich
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <button
-                                                    class="w-8 h-8 bg-[#344F1F] rounded-full flex items-center justify-center">
+                                                    class="w-8 h-8 bg-[#2C3340] rounded-full flex items-center justify-center">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1964,7 +1964,7 @@
                                                 </button>
                                             </div>
                                             <div
-                                                class="flex items-center justify-between p-3 bg-[#F9F5F0] rounded-xl border border-[#F2EAD3]">
+                                                class="flex items-center justify-between p-3 bg-[#F7F8FA] rounded-xl border border-[#EEF0F4]">
                                                 <div class="flex items-center gap-3">
                                                     <div
                                                         class="w-10 h-12 bg-emerald-100 rounded-lg flex items-center justify-center border border-emerald-200">
@@ -1983,13 +1983,13 @@
                                                         </svg>
                                                     </div>
                                                     <div>
-                                                        <p class="font-semibold text-[#344F1F] text-sm">BMW Group</p>
-                                                        <p class="text-xs text-[#344F1F]/60">Mechatronics &bull; Berlin
+                                                        <p class="font-semibold text-[#2C3340] text-sm">BMW Group</p>
+                                                        <p class="text-xs text-[#2C3340]/60">Mechatronics &bull; Berlin
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <button
-                                                    class="w-8 h-8 bg-[#344F1F] rounded-full flex items-center justify-center">
+                                                    class="w-8 h-8 bg-[#2C3340] rounded-full flex items-center justify-center">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -2003,7 +2003,7 @@
                                                 </button>
                                             </div>
                                             <div
-                                                class="flex items-center justify-between p-3 bg-[#F9F5F0] rounded-xl border border-[#F2EAD3]">
+                                                class="flex items-center justify-between p-3 bg-[#F7F8FA] rounded-xl border border-[#EEF0F4]">
                                                 <div class="flex items-center gap-3">
                                                     <div
                                                         class="w-10 h-12 bg-emerald-100 rounded-lg flex items-center justify-center border border-emerald-200">
@@ -2022,13 +2022,13 @@
                                                         </svg>
                                                     </div>
                                                     <div>
-                                                        <p class="font-semibold text-[#344F1F] text-sm">Bosch</p>
-                                                        <p class="text-xs text-[#344F1F]/60">Electronics &bull; Stuttgart
+                                                        <p class="font-semibold text-[#2C3340] text-sm">Bosch</p>
+                                                        <p class="text-xs text-[#2C3340]/60">Electronics &bull; Stuttgart
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <button
-                                                    class="w-8 h-8 bg-[#344F1F] rounded-full flex items-center justify-center">
+                                                    class="w-8 h-8 bg-[#2C3340] rounded-full flex items-center justify-center">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
                                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -2049,13 +2049,13 @@
 
                         {{-- Visual 3: Counselor Chat --}}
                         <div data-dash-visual="3"
-                            class="dash-visual dash-visual--hidden w-full flex justify-center p-4 lg:p-6">
+                            class="azubi-dash-visual azubi-dash-visual--hidden w-full flex justify-center p-4 lg:p-6">
                             <div
                                 class="bg-white rounded-2xl lg:rounded-3xl shadow-2xl border border-gray-200 overflow-hidden w-full max-w-[500px]">
                                 <div class="bg-black px-4 lg:px-6 py-4 lg:py-5 flex items-center justify-between">
                                     <div class="flex items-center gap-3">
                                         <div
-                                            class="w-10 h-10 bg-[#F4991A] rounded-full flex items-center justify-center text-white font-bold text-sm">
+                                            class="w-10 h-10 bg-[#5D5DE9] rounded-full flex items-center justify-center text-white font-bold text-sm">
                                             AS</div>
                                         <div>
                                             <h3 class="text-white font-bold text-base lg:text-lg">Anna Schmidt</h3>
@@ -2078,36 +2078,36 @@
                                         Call
                                     </button>
                                 </div>
-                                <div class="p-4 lg:p-5 space-y-4 bg-[#F9F5F0] min-h-[320px]">
+                                <div class="p-4 lg:p-5 space-y-4 bg-[#F7F8FA] min-h-[320px]">
                                     <div class="flex gap-3">
                                         <div
-                                            class="w-8 h-8 bg-[#F4991A] rounded-full flex items-center justify-center text-white font-bold text-[10px] flex-shrink-0">
+                                            class="w-8 h-8 bg-[#5D5DE9] rounded-full flex items-center justify-center text-white font-bold text-[10px] flex-shrink-0">
                                             AS</div>
                                         <div class="bg-white rounded-2xl rounded-tl-sm p-3 shadow-sm max-w-[80%]">
-                                            <p class="text-sm text-[#344F1F]">Great news! Siemens confirmed your interview
+                                            <p class="text-sm text-[#2C3340]">Great news! Siemens confirmed your interview
                                                 for Dec 20th. I've prepared some tips for you.</p>
-                                            <p class="text-[10px] text-[#344F1F]/40 mt-1">10:30 AM</p>
+                                            <p class="text-[10px] text-[#2C3340]/40 mt-1">10:30 AM</p>
                                         </div>
                                     </div>
                                     <div class="flex gap-3 justify-end">
-                                        <div class="bg-[#344F1F] rounded-2xl rounded-tr-sm p-3 shadow-sm max-w-[80%]">
+                                        <div class="bg-[#2C3340] rounded-2xl rounded-tr-sm p-3 shadow-sm max-w-[80%]">
                                             <p class="text-sm text-white">That's amazing! What should I prepare?</p>
                                             <p class="text-[10px] text-white/40 mt-1">10:32 AM</p>
                                         </div>
                                     </div>
                                     <div class="flex gap-3">
                                         <div
-                                            class="w-8 h-8 bg-[#F4991A] rounded-full flex items-center justify-center text-white font-bold text-[10px] flex-shrink-0">
+                                            class="w-8 h-8 bg-[#5D5DE9] rounded-full flex items-center justify-center text-white font-bold text-[10px] flex-shrink-0">
                                             AS</div>
                                         <div class="bg-white rounded-2xl rounded-tl-sm p-3 shadow-sm max-w-[80%]">
-                                            <p class="text-sm text-[#344F1F]">I've uploaded an interview prep guide to
+                                            <p class="text-sm text-[#2C3340]">I've uploaded an interview prep guide to
                                                 your Documents section. Focus on: 1) Why Siemens 2) Your technical skills 3)
                                                 German work culture questions.</p>
-                                            <p class="text-[10px] text-[#344F1F]/40 mt-1">10:35 AM</p>
+                                            <p class="text-[10px] text-[#2C3340]/40 mt-1">10:35 AM</p>
                                         </div>
                                     </div>
                                     <div class="flex gap-3 justify-end">
-                                        <div class="bg-[#344F1F] rounded-2xl rounded-tr-sm p-3 shadow-sm max-w-[80%]">
+                                        <div class="bg-[#2C3340] rounded-2xl rounded-tr-sm p-3 shadow-sm max-w-[80%]">
                                             <p class="text-sm text-white">Thank you so much! I'll review it today.</p>
                                             <p class="text-[10px] text-white/40 mt-1">10:36 AM</p>
                                         </div>
@@ -2115,9 +2115,9 @@
                                 </div>
                                 <div class="p-3 border-t border-gray-200 bg-white flex items-center gap-2">
                                     <input type="text" placeholder="Type a message..."
-                                        class="flex-1 bg-[#F9F5F0] rounded-full px-4 py-2.5 text-sm outline-none border border-[#F2EAD3]"
+                                        class="flex-1 bg-[#F7F8FA] rounded-full px-4 py-2.5 text-sm outline-none border border-[#EEF0F4]"
                                         disabled>
-                                    <button class="w-10 h-10 bg-[#344F1F] rounded-full flex items-center justify-center">
+                                    <button class="w-10 h-10 bg-[#2C3340] rounded-full flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2136,7 +2136,7 @@
             </div>
         </section>
         <section id="pricing" aria-labelledby="pricing-heading">
-            <section class="py-16 md:py-24 bg-[#F9F5F0]" id="pricing">
+            <section class="py-16 md:py-24 bg-[#F7F8FA]">
                 <div class="container mx-auto px-4">
                     <div class="text-center mb-12" style="opacity: 0; transform: translateY(20px)">
                         <div
@@ -2149,23 +2149,23 @@
                                 <polyline points="16 7 22 7 22 13"></polyline>
                             </svg>Limited Spots Each Intake
                         </div>
-                        <h2 id="pricing-heading" class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#344F1F]">
+                        <h2 id="pricing-heading" class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#2C3340]">
                             Two Ways to Get to Germany
                         </h2>
-                        <p class="text-lg text-[#344F1F]/70 max-w-2xl mx-auto">
+                        <p class="text-lg text-[#2C3340]/70 max-w-2xl mx-auto">
                             DIY students apply to 50+ positions and wait 6+ months. Our
                             clients get offers in 3-4 months with expert support.
                         </p>
                         <div class="mt-4 flex items-center justify-center gap-2">
-                            <span class="text-sm text-[#344F1F]/60">Prices in:</span><button type="button"
+                            <span class="text-sm text-[#2C3340]/60">Prices in:</span><button type="button"
                                 role="combobox" aria-controls="radix-«R2ibcuslb»" aria-expanded="false"
                                 aria-autocomplete="none" dir="ltr" data-state="closed"
-                                class="flex items-center justify-between rounded-lg border py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 bg-white/80 border-[#344F1F]/20 hover:border-[#F4991A] focus:ring-[#F4991A]/20 h-8 px-2 text-xs min-w-[80px] w-[100px]">
+                                class="flex items-center justify-between rounded-lg border py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 bg-white/80 border-[#2C3340]/20 hover:border-[#5D5DE9] focus:ring-[#5D5DE9]/20 h-8 px-2 text-xs min-w-[80px] w-[100px]">
                                 <span style="pointer-events: none"><span class="flex items-center gap-1.5"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-globe h-3 w-3 text-[#344F1F]/60">
+                                            class="lucide lucide-globe h-3 w-3 text-[#2C3340]/60">
                                             <circle cx="12" cy="12" r="10"></circle>
                                             <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                                             <path d="M2 12h20"></path>
@@ -2196,97 +2196,97 @@
                             <div class="rounded-[20px] p-6 md:p-8 bg-[#F5F5F5] flex-1 flex flex-col">
                                 <div class="mb-6">
                                     <div class="flex items-end justify-between mb-2" style="min-height: 44px">
-                                        <h3 class="text-2xl font-bold text-[#344F1F]">
+                                        <h3 class="text-2xl font-bold text-[#2C3340]">
                                             Free (DIY)
                                         </h3>
                                     </div>
-                                    <p class="text-[#344F1F]/60 mb-4">
+                                    <p class="text-[#2C3340]/60 mb-4">
                                         Apply yourself with AI tools
                                     </p>
                                     <div class="flex items-baseline gap-2">
-                                        <span class="text-4xl font-bold text-[#344F1F]">$<!-- -->0</span><span
-                                            class="text-[#344F1F]/60">/forever</span>
+                                        <span class="text-4xl font-bold text-[#2C3340]">$<!-- -->0</span><span
+                                            class="text-[#2C3340]/60">/forever</span>
                                     </div>
-                                    <p class="text-sm mt-2 h-5 text-[#344F1F]/50">
-                                        No credit card required
+                                    <p class="text-sm mt-2 h-5 text-[#2C3340]/50">
+                                        No credit card azubi-required
                                     </p>
                                 </div>
                                 <div class="space-y-3 mb-6 flex-grow">
                                     <div class="flex items-start gap-3">
                                         <div
-                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#344F1F]/10">
+                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#2C3340]/10">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-check w-3 h-3 text-[#344F1F]">
+                                                class="lucide lucide-check w-3 h-3 text-[#2C3340]">
                                                 <path d="M20 6 9 17l-5-5"></path>
                                             </svg>
                                         </div>
-                                        <span class="text-sm text-[#344F1F]/80">Unlimited access to 67,000+ jobs</span>
+                                        <span class="text-sm text-[#2C3340]/80">Unlimited access to 67,000+ jobs</span>
                                     </div>
                                     <div class="flex items-start gap-3">
                                         <div
-                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#344F1F]/10">
+                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#2C3340]/10">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-check w-3 h-3 text-[#344F1F]">
+                                                class="lucide lucide-check w-3 h-3 text-[#2C3340]">
                                                 <path d="M20 6 9 17l-5-5"></path>
                                             </svg>
                                         </div>
-                                        <span class="text-sm text-[#344F1F]/80">Unlimited AI application kits</span>
+                                        <span class="text-sm text-[#2C3340]/80">Unlimited AI application kits</span>
                                     </div>
                                     <div class="flex items-start gap-3">
                                         <div
-                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#344F1F]/10">
+                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#2C3340]/10">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-check w-3 h-3 text-[#344F1F]">
+                                                class="lucide lucide-check w-3 h-3 text-[#2C3340]">
                                                 <path d="M20 6 9 17l-5-5"></path>
                                             </svg>
                                         </div>
-                                        <span class="text-sm text-[#344F1F]/80">Unlimited CV exports</span>
+                                        <span class="text-sm text-[#2C3340]/80">Unlimited CV exports</span>
                                     </div>
                                     <div class="flex items-start gap-3">
                                         <div
-                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#344F1F]/10">
+                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#2C3340]/10">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-check w-3 h-3 text-[#344F1F]">
+                                                class="lucide lucide-check w-3 h-3 text-[#2C3340]">
                                                 <path d="M20 6 9 17l-5-5"></path>
                                             </svg>
                                         </div>
-                                        <span class="text-sm text-[#344F1F]/80">Full German learning tools</span>
+                                        <span class="text-sm text-[#2C3340]/80">Full German learning tools</span>
                                     </div>
                                     <div class="flex items-start gap-3">
                                         <div
-                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#344F1F]/10">
+                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#2C3340]/10">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-check w-3 h-3 text-[#344F1F]">
+                                                class="lucide lucide-check w-3 h-3 text-[#2C3340]">
                                                 <path d="M20 6 9 17l-5-5"></path>
                                             </svg>
                                         </div>
-                                        <span class="text-sm text-[#344F1F]/80">AI job match recommendations</span>
+                                        <span class="text-sm text-[#2C3340]/80">AI job match recommendations</span>
                                     </div>
                                     <div class="flex items-start gap-3">
                                         <div
-                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#344F1F]/10">
+                                            class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-[#2C3340]/10">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-check w-3 h-3 text-[#344F1F]">
+                                                class="lucide lucide-check w-3 h-3 text-[#2C3340]">
                                                 <path d="M20 6 9 17l-5-5"></path>
                                             </svg>
                                         </div>
-                                        <span class="text-sm text-[#344F1F]/80">Interview prep question bank</span>
+                                        <span class="text-sm text-[#2C3340]/80">Interview prep question bank</span>
                                     </div>
                                 </div>
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent shadow-sm hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 w-full rounded-full border-2 border-[#344F1F] text-[#344F1F] hover:bg-[#344F1F] hover:text-white transition-all py-6">
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent shadow-sm hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 w-full rounded-full border-2 border-[#2C3340] text-[#2C3340] hover:bg-[#2C3340] hover:text-white transition-all py-6">
                                     Get Started Free<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2300,7 +2300,7 @@
                         <div class="rounded-[32px] p-3 bg-black relative flex flex-col"
                             style="opacity: 0; transform: translateY(20px)">
                             <div
-                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent absolute -top-3 left-1/2 -translate-x-1/2 bg-[#F4991A] text-white hover:bg-[#E5890F] z-10">
+                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent absolute -top-3 left-1/2 -translate-x-1/2 bg-[#5D5DE9] text-white hover:bg-[#2C3340] z-10">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -2450,7 +2450,7 @@
                         </div>
                     </div>
                     <div class="mt-12 text-center" style="opacity: 0">
-                        <div class="flex flex-wrap items-center justify-center gap-6 text-sm text-[#344F1F]/60">
+                        <div class="flex flex-wrap items-center justify-center gap-6 text-sm text-[#2C3340]/60">
                             <div class="flex items-center gap-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -2477,14 +2477,14 @@
                                 </svg><span>Secure payment via Stripe</span>
                             </div>
                         </div>
-                        <p class="mt-4 text-xs text-[#344F1F]/50 italic">
+                        <p class="mt-4 text-xs text-[#2C3340]/50 italic">
                             Prices shown in
                             <!-- -->Moroccan Dirham<!-- -->
                             (<!-- -->MAD<!-- -->). Change currency above.
                         </p>
                         <div class="mt-6 flex items-center justify-center gap-4 opacity-40">
-                            <span class="text-xs text-[#344F1F]/60 font-medium">Powered by</span><span
-                                class="text-lg font-bold text-[#344F1F]/80">Stripe</span>
+                            <span class="text-xs text-[#2C3340]/60 font-medium">Powered by</span><span
+                                class="text-lg font-bold text-[#2C3340]/80">Stripe</span>
                         </div>
                     </div>
                 </div>
@@ -2493,10 +2493,10 @@
         <section class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12" style="opacity: 0; transform: translateY(20px)">
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#344F1F]">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#2C3340]">
                         DIY vs Apply For Me
                     </h2>
-                    <p class="text-lg text-[#344F1F]/70 max-w-2xl mx-auto">
+                    <p class="text-lg text-[#2C3340]/70 max-w-2xl mx-auto">
                         See why students are choosing our expert service
                     </p>
                 </div>
@@ -2504,22 +2504,22 @@
                     <div class="bg-gray-100 rounded-[32px] p-[5px]">
                         <div class="bg-white rounded-[27px] overflow-hidden">
                             <div class="grid grid-cols-[280px_1fr_1fr]">
-                                <div class="bg-gray-100 p-6 font-bold text-[#344F1F]">
+                                <div class="bg-gray-100 p-6 font-bold text-[#2C3340]">
                                     Features
                                 </div>
                                 <div class="p-6 text-center">
-                                    <div class="font-bold text-[#344F1F] mb-1">
+                                    <div class="font-bold text-[#2C3340] mb-1">
                                         DIY (Free)
                                     </div>
-                                    <div class="text-sm text-[#344F1F]/60">
+                                    <div class="text-sm text-[#2C3340]/60">
                                         You do everything
                                     </div>
                                 </div>
-                                <div class="p-6 text-center bg-[#F4991A]/5">
-                                    <div class="font-bold text-[#F4991A] mb-1">
+                                <div class="p-6 text-center bg-[#5D5DE9]/5">
+                                    <div class="font-bold text-[#5D5DE9] mb-1">
                                         Apply For Me
                                     </div>
-                                    <div class="text-sm text-[#F4991A]/80">
+                                    <div class="text-sm text-[#5D5DE9]/80">
                                         $300<!-- -->
                                         advance +
                                         <!-- -->$899<!-- -->
@@ -2527,34 +2527,34 @@
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Job Discovery
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">67K+ jobs
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">67K+ jobs
                                             (you search)</span>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Curated
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Curated
                                             matches for you</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Cover Letters
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">AI-generated
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">AI-generated
                                             (you edit)</span>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
                                         <span
-                                            class="text-sm text-[#344F1F]/80 font-medium text-center block">Expert-written
+                                            class="text-sm text-[#2C3340]/80 font-medium text-center block">Expert-written
                                             (native German)</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Application Submission
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
@@ -2566,52 +2566,52 @@
                                                 stroke-linecap="round" stroke-linejoin="round"></path>
                                         </svg>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">We do it for
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">We do it for
                                             you</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Applications per Month
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">5-10
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">5-10
                                             (realistically)</span>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Based on
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Based on
                                             your profile</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Application Tracking
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Basic
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Basic
                                             dashboard</span>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Real-time
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Real-time
                                             team updates</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Interview Preparation
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Question
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Question
                                             bank access</span>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">1-on-1
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">1-on-1
                                             coaching sessions</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Dedicated Counselor
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
@@ -2623,7 +2623,7 @@
                                                 stroke-linecap="round" stroke-linejoin="round"></path>
                                         </svg>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
                                         <svg class="w-5 h-5 mx-auto" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="12" cy="12" r="10" fill="#10B981"
@@ -2634,33 +2634,33 @@
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Your Time Investment
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">50+
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">50+
                                             hours</span>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">&lt;5
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">&lt;5
                                             hours</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340] border-b border-white">
                                         Visa Guidance
                                     </div>
                                     <div class="p-6 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Self-service
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Self-service
                                             guides</span>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Full support
+                                    <div class="p-6 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Full support
                                             + booking</span>
                                     </div>
                                 </div>
                                 <div class="contents" style="opacity: 0; transform: translateY(10px)">
-                                    <div class="bg-gray-100 p-6 text-sm text-[#344F1F]">
+                                    <div class="bg-gray-100 p-6 text-sm text-[#2C3340]">
                                         Success-based Payment
                                     </div>
                                     <div class="p-6">
@@ -2672,7 +2672,7 @@
                                                 stroke-linecap="round" stroke-linejoin="round"></path>
                                         </svg>
                                     </div>
-                                    <div class="p-6 bg-[#F4991A]/5">
+                                    <div class="p-6 bg-[#5D5DE9]/5">
                                         <svg class="w-5 h-5 mx-auto" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="12" cy="12" r="10" fill="#10B981"
@@ -2690,54 +2690,54 @@
                     <div class="bg-gray-100 rounded-[32px] p-[5px]">
                         <div class="bg-white rounded-[27px] overflow-hidden">
                             <div class="grid grid-cols-[140px_1fr_1fr]">
-                                <div class="bg-gray-100 p-4 font-bold text-[#344F1F] text-sm">
+                                <div class="bg-gray-100 p-4 font-bold text-[#2C3340] text-sm">
                                     Features
                                 </div>
                                 <div class="p-4 text-center">
-                                    <div class="font-bold text-[#344F1F] text-sm mb-1">
+                                    <div class="font-bold text-[#2C3340] text-sm mb-1">
                                         DIY
                                     </div>
-                                    <div class="text-xs text-[#344F1F]/60">Free</div>
+                                    <div class="text-xs text-[#2C3340]/60">Free</div>
                                 </div>
-                                <div class="p-4 text-center bg-[#F4991A]/5">
-                                    <div class="font-bold text-[#F4991A] text-sm mb-1">
+                                <div class="p-4 text-center bg-[#5D5DE9]/5">
+                                    <div class="font-bold text-[#5D5DE9] text-sm mb-1">
                                         Apply For Me
                                     </div>
-                                    <div class="text-xs text-[#F4991A]/80">
+                                    <div class="text-xs text-[#5D5DE9]/80">
                                         $300<!-- -->
                                         +
                                         <!-- -->$899
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Job Discovery
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">67K+ jobs
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">67K+ jobs
                                             (you search)</span>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Curated
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Curated
                                             matches for you</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Cover Letters
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">AI-generated
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">AI-generated
                                             (you edit)</span>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
                                         <span
-                                            class="text-sm text-[#344F1F]/80 font-medium text-center block">Expert-written
+                                            class="text-sm text-[#2C3340]/80 font-medium text-center block">Expert-written
                                             (native German)</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Application Submission
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
@@ -2749,52 +2749,52 @@
                                                 stroke-linecap="round" stroke-linejoin="round"></path>
                                         </svg>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">We do it for
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">We do it for
                                             you</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Applications per Month
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">5-10
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">5-10
                                             (realistically)</span>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Based on
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Based on
                                             your profile</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Application Tracking
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Basic
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Basic
                                             dashboard</span>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Real-time
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Real-time
                                             team updates</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Interview Preparation
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Question
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Question
                                             bank access</span>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">1-on-1
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">1-on-1
                                             coaching sessions</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Dedicated Counselor
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
@@ -2806,7 +2806,7 @@
                                                 stroke-linecap="round" stroke-linejoin="round"></path>
                                         </svg>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
                                         <svg class="w-5 h-5 mx-auto" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="12" cy="12" r="10" fill="#10B981"
@@ -2817,33 +2817,33 @@
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Your Time Investment
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">50+
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">50+
                                             hours</span>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">&lt;5
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">&lt;5
                                             hours</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F] border-b border-white">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340] border-b border-white">
                                         Visa Guidance
                                     </div>
                                     <div class="p-4 border-b border-gray-100">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Self-service
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Self-service
                                             guides</span>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5 border-b border-[#F4991A]/10">
-                                        <span class="text-sm text-[#344F1F]/80 font-medium text-center block">Full support
+                                    <div class="p-4 bg-[#5D5DE9]/5 border-b border-[#5D5DE9]/10">
+                                        <span class="text-sm text-[#2C3340]/80 font-medium text-center block">Full support
                                             + booking</span>
                                     </div>
                                 </div>
                                 <div class="contents">
-                                    <div class="bg-gray-100 p-4 text-xs text-[#344F1F]">
+                                    <div class="bg-gray-100 p-4 text-xs text-[#2C3340]">
                                         Success-based Payment
                                     </div>
                                     <div class="p-4">
@@ -2855,7 +2855,7 @@
                                                 stroke-linecap="round" stroke-linejoin="round"></path>
                                         </svg>
                                     </div>
-                                    <div class="p-4 bg-[#F4991A]/5">
+                                    <div class="p-4 bg-[#5D5DE9]/5">
                                         <svg class="w-5 h-5 mx-auto" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="12" cy="12" r="10" fill="#10B981"
@@ -2871,7 +2871,7 @@
                 </div>
             </div>
         </section>
-        <section class="py-16 md:py-24 bg-[#F9F5F0]" id="testimonials-section">
+        <section class="py-16 md:py-24 bg-[#F7F8FA]" id="testimonials-section">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12" style="opacity: 0; transform: translateY(20px)">
                     <div
@@ -2884,25 +2884,25 @@
                             </path>
                         </svg>Success Stories
                     </div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#344F1F]">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#2C3340]">
                         Real Students, Real Results
                     </h2>
-                    <p class="text-lg text-[#344F1F]/70 max-w-2xl mx-auto">
+                    <p class="text-lg text-[#2C3340]/70 max-w-2xl mx-auto">
                         Hear from students who trusted us with their Ausbildung
                         journey
                     </p>
                 </div>
                 <div class="max-w-6xl mx-auto overflow-hidden" id="testimonials-carousel">
-                    <div class="flex transition-transform duration-500 ease-in-out carousel-track"
+                    <div class="flex transition-transform duration-500 ease-in-out azubi-carousel-track"
                         style="opacity: 0; transform: translateX(0)">
                         {{-- Page 1 --}}
                         <div class="w-full flex-shrink-0 grid md:grid-cols-3 gap-6 px-1">
-                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col"
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#EEF0F4] flex flex-col"
                                 style="opacity: 0; transform: translateY(20px)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4">
+                                    class="lucide lucide-quote w-8 h-8 text-[#5D5DE9]/30 mb-4">
                                     <path
                                         d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
@@ -2910,7 +2910,7 @@
                                         d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
                                 </svg>
-                                <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">
+                                <p class="text-[#2C3340]/80 text-sm leading-relaxed mb-6 flex-grow">
                                     &quot;<!-- -->I was applying for 6 months with zero
                                     responses. Azubi team got me 3 interview calls in
                                     my first month. The cover letters they wrote were
@@ -2921,35 +2921,35 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
@@ -2972,16 +2972,16 @@
                                         <!-- -->2 months
                                     </p>
                                 </div>
-                                <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                                <div class="flex items-center gap-3 pt-4 border-t border-[#EEF0F4]">
                                     <div
-                                        class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">
+                                        class="w-12 h-12 rounded-full bg-[#F7F8FA] flex items-center justify-center text-lg font-bold text-[#2C3340]">
                                         FZ
                                     </div>
                                     <div class="flex-1">
-                                        <h4 class="font-semibold text-[#344F1F]">
+                                        <h4 class="font-semibold text-[#2C3340]">
                                             Fatima Zahra
                                         </h4>
-                                        <div class="flex items-center gap-1 text-xs text-[#344F1F]/60">
+                                        <div class="flex items-center gap-1 text-xs text-[#2C3340]/60">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2994,12 +2994,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3">
+                                <div class="mt-3 bg-[#F7F8FA] rounded-lg p-3">
                                     <div class="flex items-center gap-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60">
+                                            class="lucide lucide-building2 w-4 h-4 text-[#2C3340]/60">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
                                             <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
@@ -3009,23 +3009,23 @@
                                             <path d="M10 18h4"></path>
                                         </svg>
                                         <div>
-                                            <span class="text-sm font-semibold text-[#344F1F]">Siemens AG</span><span
-                                                class="text-xs text-[#344F1F]/60">
+                                            <span class="text-sm font-semibold text-[#2C3340]">Siemens AG</span><span
+                                                class="text-xs text-[#2C3340]/60">
                                                 •
                                                 <!-- -->Munich</span>
                                         </div>
                                     </div>
-                                    <p class="text-xs text-[#344F1F]/60 mt-1">
+                                    <p class="text-xs text-[#2C3340]/60 mt-1">
                                         IT Specialist
                                     </p>
                                 </div>
                             </div>
-                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col"
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#EEF0F4] flex flex-col"
                                 style="opacity: 0; transform: translateY(20px)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4">
+                                    class="lucide lucide-quote w-8 h-8 text-[#5D5DE9]/30 mb-4">
                                     <path
                                         d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
@@ -3033,7 +3033,7 @@
                                         d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
                                 </svg>
-                                <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">
+                                <p class="text-[#2C3340]/80 text-sm leading-relaxed mb-6 flex-grow">
                                     &quot;<!-- -->BMW HR told me my application stood out
                                     because of the quality. The team knew exactly which
                                     companies hire internationals and which to avoid. Best
@@ -3043,35 +3043,35 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
@@ -3094,14 +3094,14 @@
                                         <!-- -->2 months
                                     </p>
                                 </div>
-                                <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                                <div class="flex items-center gap-3 pt-4 border-t border-[#EEF0F4]">
                                     <div
-                                        class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">
+                                        class="w-12 h-12 rounded-full bg-[#F7F8FA] flex items-center justify-center text-lg font-bold text-[#2C3340]">
                                         OB
                                     </div>
                                     <div class="flex-1">
-                                        <h4 class="font-semibold text-[#344F1F]">Omar Bennani</h4>
-                                        <div class="flex items-center gap-1 text-xs text-[#344F1F]/60">
+                                        <h4 class="font-semibold text-[#2C3340]">Omar Bennani</h4>
+                                        <div class="flex items-center gap-1 text-xs text-[#2C3340]/60">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -3114,12 +3114,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3">
+                                <div class="mt-3 bg-[#F7F8FA] rounded-lg p-3">
                                     <div class="flex items-center gap-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60">
+                                            class="lucide lucide-building2 w-4 h-4 text-[#2C3340]/60">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
                                             <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
@@ -3129,21 +3129,21 @@
                                             <path d="M10 18h4"></path>
                                         </svg>
                                         <div>
-                                            <span class="text-sm font-semibold text-[#344F1F]">BMW Group</span><span
-                                                class="text-xs text-[#344F1F]/60">
+                                            <span class="text-sm font-semibold text-[#2C3340]">BMW Group</span><span
+                                                class="text-xs text-[#2C3340]/60">
                                                 •
                                                 <!-- -->Berlin</span>
                                         </div>
                                     </div>
-                                    <p class="text-xs text-[#344F1F]/60 mt-1">Mechatronics</p>
+                                    <p class="text-xs text-[#2C3340]/60 mt-1">Mechatronics</p>
                                 </div>
                             </div>
-                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col"
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#EEF0F4] flex flex-col"
                                 style="opacity: 0; transform: translateY(20px)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4">
+                                    class="lucide lucide-quote w-8 h-8 text-[#5D5DE9]/30 mb-4">
                                     <path
                                         d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
@@ -3151,7 +3151,7 @@
                                         d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
                                 </svg>
-                                <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">
+                                <p class="text-[#2C3340]/80 text-sm leading-relaxed mb-6 flex-grow">
                                     &quot;<!-- -->My counselor was available on WhatsApp
                                     whenever I had questions. They prepped me so well for my
                                     interview that I felt more confident than ever. Got the
@@ -3161,35 +3161,35 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
                                     </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                        class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                         <path
                                             d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                         </path>
@@ -3212,16 +3212,16 @@
                                         <!-- -->3 months
                                     </p>
                                 </div>
-                                <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                                <div class="flex items-center gap-3 pt-4 border-t border-[#EEF0F4]">
                                     <div
-                                        class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">
+                                        class="w-12 h-12 rounded-full bg-[#F7F8FA] flex items-center justify-center text-lg font-bold text-[#2C3340]">
                                         SA
                                     </div>
                                     <div class="flex-1">
-                                        <h4 class="font-semibold text-[#344F1F]">
+                                        <h4 class="font-semibold text-[#2C3340]">
                                             Sara Amrani
                                         </h4>
-                                        <div class="flex items-center gap-1 text-xs text-[#344F1F]/60">
+                                        <div class="flex items-center gap-1 text-xs text-[#2C3340]/60">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -3234,12 +3234,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3">
+                                <div class="mt-3 bg-[#F7F8FA] rounded-lg p-3">
                                     <div class="flex items-center gap-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60">
+                                            class="lucide lucide-building2 w-4 h-4 text-[#2C3340]/60">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
                                             <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
@@ -3249,24 +3249,24 @@
                                             <path d="M10 18h4"></path>
                                         </svg>
                                         <div>
-                                            <span class="text-sm font-semibold text-[#344F1F]">Deutsche Bahn</span><span
-                                                class="text-xs text-[#344F1F]/60">
+                                            <span class="text-sm font-semibold text-[#2C3340]">Deutsche Bahn</span><span
+                                                class="text-xs text-[#2C3340]/60">
                                                 •
                                                 <!-- -->Frankfurt</span>
                                         </div>
                                     </div>
-                                    <p class="text-xs text-[#344F1F]/60 mt-1">Logistics</p>
+                                    <p class="text-xs text-[#2C3340]/60 mt-1">Logistics</p>
                                 </div>
                             </div>
                         </div>{{-- Close Page 1 --}}
 
                         {{-- Page 2 --}}
                         <div class="w-full flex-shrink-0 grid md:grid-cols-3 gap-6 px-1">
-                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col">
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#EEF0F4] flex flex-col">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4">
+                                    class="lucide lucide-quote w-8 h-8 text-[#5D5DE9]/30 mb-4">
                                     <path
                                         d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
@@ -3274,7 +3274,7 @@
                                         d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
                                 </svg>
-                                <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">"I was skeptical at
+                                <p class="text-[#2C3340]/80 text-sm leading-relaxed mb-6 flex-grow">"I was skeptical at
                                     first, but they delivered beyond my expectations. 4 interviews in 2 months and I chose
                                     the best offer. The counselor was available on WhatsApp whenever I needed help."</p>
                                 <div class="flex gap-1 mb-4">
@@ -3282,7 +3282,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                            class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                             <path
                                                 d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                             </path>
@@ -3302,13 +3302,13 @@
                                         </svg><span>Applied: Nov 2025 &rarr; Offer: Jan 2026</span></div>
                                     <p class="text-emerald-600 text-sm font-semibold mt-1">Offer in 2 months</p>
                                 </div>
-                                <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                                <div class="flex items-center gap-3 pt-4 border-t border-[#EEF0F4]">
                                     <div
-                                        class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">
+                                        class="w-12 h-12 rounded-full bg-[#F7F8FA] flex items-center justify-center text-lg font-bold text-[#2C3340]">
                                         KE</div>
                                     <div class="flex-1">
-                                        <h4 class="font-semibold text-[#344F1F]">Karim El Idrissi</h4>
-                                        <div class="flex items-center gap-1 text-xs text-[#344F1F]/60"><svg
+                                        <h4 class="font-semibold text-[#2C3340]">Karim El Idrissi</h4>
+                                        <div class="flex items-center gap-1 text-xs text-[#2C3340]/60"><svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -3320,12 +3320,12 @@
                                             </svg><span>Morocco</span></div>
                                     </div>
                                 </div>
-                                <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3">
+                                <div class="mt-3 bg-[#F7F8FA] rounded-lg p-3">
                                     <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
                                             width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60">
+                                            class="lucide lucide-building2 w-4 h-4 text-[#2C3340]/60">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
                                             <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
@@ -3334,17 +3334,17 @@
                                             <path d="M10 14h4"></path>
                                             <path d="M10 18h4"></path>
                                         </svg>
-                                        <div><span class="text-sm font-semibold text-[#344F1F]">Mercedes-Benz</span><span
-                                                class="text-xs text-[#344F1F]/60"> &bull; Stuttgart</span></div>
+                                        <div><span class="text-sm font-semibold text-[#2C3340]">Mercedes-Benz</span><span
+                                                class="text-xs text-[#2C3340]/60"> &bull; Stuttgart</span></div>
                                     </div>
-                                    <p class="text-xs text-[#344F1F]/60 mt-1">Automotive Engineering</p>
+                                    <p class="text-xs text-[#2C3340]/60 mt-1">Automotive Engineering</p>
                                 </div>
                             </div>
-                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col">
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#EEF0F4] flex flex-col">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4">
+                                    class="lucide lucide-quote w-8 h-8 text-[#5D5DE9]/30 mb-4">
                                     <path
                                         d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
@@ -3352,7 +3352,7 @@
                                         d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
                                 </svg>
-                                <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">"As a nurse looking to
+                                <p class="text-[#2C3340]/80 text-sm leading-relaxed mb-6 flex-grow">"As a nurse looking to
                                     switch to healthcare administration, their team found the perfect Ausbildung program for
                                     me. They understood the German healthcare system and matched me perfectly."</p>
                                 <div class="flex gap-1 mb-4">
@@ -3360,7 +3360,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                            class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                             <path
                                                 d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                             </path>
@@ -3380,13 +3380,13 @@
                                         </svg><span>Applied: Jun 2025 &rarr; Offer: Sep 2025</span></div>
                                     <p class="text-emerald-600 text-sm font-semibold mt-1">Offer in 3 months</p>
                                 </div>
-                                <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                                <div class="flex items-center gap-3 pt-4 border-t border-[#EEF0F4]">
                                     <div
-                                        class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">
+                                        class="w-12 h-12 rounded-full bg-[#F7F8FA] flex items-center justify-center text-lg font-bold text-[#2C3340]">
                                         HM</div>
                                     <div class="flex-1">
-                                        <h4 class="font-semibold text-[#344F1F]">Hajar Mourad</h4>
-                                        <div class="flex items-center gap-1 text-xs text-[#344F1F]/60"><svg
+                                        <h4 class="font-semibold text-[#2C3340]">Hajar Mourad</h4>
+                                        <div class="flex items-center gap-1 text-xs text-[#2C3340]/60"><svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -3398,12 +3398,12 @@
                                             </svg><span>Morocco</span></div>
                                     </div>
                                 </div>
-                                <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3">
+                                <div class="mt-3 bg-[#F7F8FA] rounded-lg p-3">
                                     <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
                                             width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60">
+                                            class="lucide lucide-building2 w-4 h-4 text-[#2C3340]/60">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
                                             <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
@@ -3412,17 +3412,17 @@
                                             <path d="M10 14h4"></path>
                                             <path d="M10 18h4"></path>
                                         </svg>
-                                        <div><span class="text-sm font-semibold text-[#344F1F]">Charit&eacute;</span><span
-                                                class="text-xs text-[#344F1F]/60"> &bull; Berlin</span></div>
+                                        <div><span class="text-sm font-semibold text-[#2C3340]">Charit&eacute;</span><span
+                                                class="text-xs text-[#2C3340]/60"> &bull; Berlin</span></div>
                                     </div>
-                                    <p class="text-xs text-[#344F1F]/60 mt-1">Healthcare</p>
+                                    <p class="text-xs text-[#2C3340]/60 mt-1">Healthcare</p>
                                 </div>
                             </div>
-                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#F2EAD3] flex flex-col">
+                            <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-[#EEF0F4] flex flex-col">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-quote w-8 h-8 text-[#F4991A]/30 mb-4">
+                                    class="lucide lucide-quote w-8 h-8 text-[#5D5DE9]/30 mb-4">
                                     <path
                                         d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
@@ -3430,7 +3430,7 @@
                                         d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
                                     </path>
                                 </svg>
-                                <p class="text-[#344F1F]/80 text-sm leading-relaxed mb-6 flex-grow">"From Morocco to
+                                <p class="text-[#2C3340]/80 text-sm leading-relaxed mb-6 flex-grow">"From Morocco to
                                     Munich in 4 months! The team handled everything - applications, interview prep, visa
                                     guidance. I couldn't have done it without their German language expertise in the cover
                                     letters."</p>
@@ -3439,7 +3439,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-star w-4 h-4 text-[#F4991A] fill-[#F4991A]">
+                                            class="lucide lucide-star w-4 h-4 text-[#5D5DE9] fill-[#5D5DE9]">
                                             <path
                                                 d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
                                             </path>
@@ -3459,13 +3459,13 @@
                                         </svg><span>Applied: Aug 2025 &rarr; Offer: Dec 2025</span></div>
                                     <p class="text-emerald-600 text-sm font-semibold mt-1">Offer in 4 months</p>
                                 </div>
-                                <div class="flex items-center gap-3 pt-4 border-t border-[#F2EAD3]">
+                                <div class="flex items-center gap-3 pt-4 border-t border-[#EEF0F4]">
                                     <div
-                                        class="w-12 h-12 rounded-full bg-[#F9F5F0] flex items-center justify-center text-lg font-bold text-[#344F1F]">
+                                        class="w-12 h-12 rounded-full bg-[#F7F8FA] flex items-center justify-center text-lg font-bold text-[#2C3340]">
                                         YB</div>
                                     <div class="flex-1">
-                                        <h4 class="font-semibold text-[#344F1F]">Youssef Benali</h4>
-                                        <div class="flex items-center gap-1 text-xs text-[#344F1F]/60"><svg
+                                        <h4 class="font-semibold text-[#2C3340]">Youssef Benali</h4>
+                                        <div class="flex items-center gap-1 text-xs text-[#2C3340]/60"><svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -3477,12 +3477,12 @@
                                             </svg><span>Morocco</span></div>
                                     </div>
                                 </div>
-                                <div class="mt-3 bg-[#F9F5F0] rounded-lg p-3">
+                                <div class="mt-3 bg-[#F7F8FA] rounded-lg p-3">
                                     <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
                                             width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60">
+                                            class="lucide lucide-building2 w-4 h-4 text-[#2C3340]/60">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
                                             <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
@@ -3491,45 +3491,45 @@
                                             <path d="M10 14h4"></path>
                                             <path d="M10 18h4"></path>
                                         </svg>
-                                        <div><span class="text-sm font-semibold text-[#344F1F]">Siemens</span><span
-                                                class="text-xs text-[#344F1F]/60"> &bull; Munich</span></div>
+                                        <div><span class="text-sm font-semibold text-[#2C3340]">Siemens</span><span
+                                                class="text-xs text-[#2C3340]/60"> &bull; Munich</span></div>
                                     </div>
-                                    <p class="text-xs text-[#344F1F]/60 mt-1">IT Systems</p>
+                                    <p class="text-xs text-[#2C3340]/60 mt-1">IT Systems</p>
                                 </div>
                             </div>
                         </div>{{-- Close Page 2 --}}
                     </div>
                     <div class="flex items-center justify-center gap-4 mt-8">
                         <button
-                            class="w-10 h-10 rounded-full bg-white border-2 border-[#F2EAD3] flex items-center justify-center hover:bg-[#F9F5F0] transition-colors"
+                            class="w-10 h-10 rounded-full bg-white border-2 border-[#EEF0F4] flex items-center justify-center hover:bg-[#F7F8FA] transition-colors"
                             aria-label="Previous testimonials">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-chevron-left w-5 h-5 text-[#344F1F]">
+                                class="lucide lucide-chevron-left w-5 h-5 text-[#2C3340]">
                                 <path d="m15 18-6-6 6-6"></path>
                             </svg>
                         </button>
                         <div class="flex gap-2">
-                            <button class="carousel-dot h-2 rounded-full transition-all w-6 bg-[#F4991A]"
+                            <button class="azubi-carousel-dot h-2 rounded-full transition-all w-6 bg-[#5D5DE9]"
                                 aria-label="Go to page 1"></button>
-                            <button class="carousel-dot h-2 rounded-full transition-all w-2 bg-[#F2EAD3]"
+                            <button class="azubi-carousel-dot h-2 rounded-full transition-all w-2 bg-[#EEF0F4]"
                                 aria-label="Go to page 2"></button>
                         </div>
                         <button
-                            class="w-10 h-10 rounded-full bg-white border-2 border-[#F2EAD3] flex items-center justify-center hover:bg-[#F9F5F0] transition-colors"
+                            class="w-10 h-10 rounded-full bg-white border-2 border-[#EEF0F4] flex items-center justify-center hover:bg-[#F7F8FA] transition-colors"
                             aria-label="Next testimonials">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-chevron-right w-5 h-5 text-[#344F1F]">
+                                class="lucide lucide-chevron-right w-5 h-5 text-[#2C3340]">
                                 <path d="m9 18 6-6-6-6"></path>
                             </svg>
                         </button>
                     </div>
                 </div>
                 <div class="mt-12 max-w-4xl mx-auto" style="opacity: 0; transform: translateY(20px)">
-                    <div class="bg-gradient-to-r from-[#344F1F] to-[#2d4219] rounded-2xl p-6 md:p-8">
+                    <div class="bg-gradient-to-r from-[#2C3340] to-[#1E242E] rounded-2xl p-6 md:p-8">
                         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
                             <div>
                                 <div class="text-3xl md:text-4xl font-bold mb-1">
@@ -3562,33 +3562,33 @@
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12" style="opacity: 0; transform: translateY(20px)">
                     <div
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F9F5F0] border border-[#F2EAD3] mb-4">
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F7F8FA] border border-[#EEF0F4] mb-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-circle-help w-4 h-4 text-[#F4991A]">
+                            stroke-linejoin="round" class="lucide lucide-circle-help w-4 h-4 text-[#5D5DE9]">
                             <circle cx="12" cy="12" r="10"></circle>
                             <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
                             <path d="M12 17h.01"></path>
-                        </svg><span class="text-sm font-medium text-[#344F1F]">Common Questions</span>
+                        </svg><span class="text-sm font-medium text-[#2C3340]">Common Questions</span>
                     </div>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#344F1F]">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#2C3340]">
                         Frequently Asked Questions
                     </h2>
-                    <p class="text-lg text-[#344F1F]/70 max-w-2xl mx-auto">
+                    <p class="text-lg text-[#2C3340]/70 max-w-2xl mx-auto">
                         Everything you need to know about our Consultation service
                     </p>
                 </div>
                 <div class="max-w-3xl mx-auto space-y-4">
                     <article
-                        class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F4991A]/50 bg-[#F4991A]/5"
+                        class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#5D5DE9]/50 bg-[#5D5DE9]/5"
                         style="opacity: 0; transform: translateY(20px)">
                         <button class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
                             aria-expanded="true">
-                            <h3 class="text-base md:text-lg font-semibold text-[#344F1F] pr-4">
+                            <h3 class="text-base md:text-lg font-semibold text-[#2C3340] pr-4">
                                 What if I don&#x27;t get any offers?
                             </h3>
                             <div
-                                class="faq-chevron flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F4991A] rotate-180">
+                                class="azubi-faq-chevron flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#5D5DE9] rotate-180">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -3597,9 +3597,9 @@
                                 </svg>
                             </div>
                         </button>
-                        <div class="faq-content overflow-hidden" style="height: 0px; opacity: 0">
+                        <div class="azubi-faq-content overflow-hidden" style="height: 0px; opacity: 0">
                             <div class="px-5 md:px-6 pb-5 md:pb-6">
-                                <p class="text-[#344F1F]/70 leading-relaxed">
+                                <p class="text-[#2C3340]/70 leading-relaxed">
                                     We extend your validity by 1 intake (6 months) at no
                                     extra cost. Our success rate is high because we only
                                     accept students whose profiles match what German
@@ -3655,43 +3655,43 @@
                     @endphp
                     @foreach ($faqs as $faq)
                         <article
-                            class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#F2EAD3] bg-white hover:border-[#F4991A]/30"
+                            class="rounded-xl border-2 overflow-hidden transition-all duration-300 border-[#EEF0F4] bg-white hover:border-[#5D5DE9]/30"
                             style="opacity: 0; transform: translateY(20px)">
                             <button class="w-full p-5 md:p-6 flex items-center justify-between gap-4 text-left"
                                 aria-expanded="false">
-                                <h3 class="text-base md:text-lg font-semibold text-[#344F1F] pr-4">{{ $faq['q'] }}
+                                <h3 class="text-base md:text-lg font-semibold text-[#2C3340] pr-4">{{ $faq['q'] }}
                                 </h3>
                                 <div
-                                    class="faq-chevron flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F9F5F0]">
+                                    class="azubi-faq-chevron flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 bg-[#F7F8FA]">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#344F1F]">
+                                        class="lucide lucide-chevron-down w-5 h-5 transition-colors text-[#2C3340]">
                                         <path d="m6 9 6 6 6-6"></path>
                                     </svg>
                                 </div>
                             </button>
-                            <div class="faq-content overflow-hidden" style="height: 0px; opacity: 0">
+                            <div class="azubi-faq-content overflow-hidden" style="height: 0px; opacity: 0">
                                 <div class="px-5 md:px-6 pb-5 md:pb-6">
-                                    <p class="text-[#344F1F]/70 leading-relaxed">{{ $faq['a'] }}</p>
+                                    <p class="text-[#2C3340]/70 leading-relaxed">{{ $faq['a'] }}</p>
                                 </div>
                             </div>
                         </article>
                     @endforeach
                 </div>
                 <div class="mt-12 text-center" style="opacity: 0; transform: translateY(20px)">
-                    <div class="inline-flex flex-col sm:flex-row items-center gap-3 bg-[#F9F5F0] rounded-xl p-6">
-                        <p class="text-[#344F1F] font-medium">
+                    <div class="inline-flex flex-col sm:flex-row items-center gap-3 bg-[#F7F8FA] rounded-xl p-6">
+                        <p class="text-[#2C3340] font-medium">
                             Still have questions?
                         </p>
                         <a href="#"
-                            class="px-6 py-2 bg-[#344F1F] text-white rounded-full font-medium hover:bg-[#2d4219] transition-colors">Contact
+                            class="px-6 py-2 bg-[#2C3340] text-white rounded-full font-medium hover:bg-[#1E242E] transition-colors">Contact
                             Us</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-16 md:py-24 bg-gradient-to-br from-[#344F1F] to-[#2d4219] relative overflow-hidden">
+        <section class="py-16 md:py-24 bg-gradient-to-br from-[#2C3340] to-[#1E242E] relative overflow-hidden">
             <div class="absolute inset-0 opacity-5">
                 <div class="absolute inset-0"
                     style="
@@ -3703,11 +3703,11 @@
                 <div class="max-w-4xl mx-auto text-center">
                     <div style="opacity: 0; transform: translateY(20px)">
                         <div
-                            class="inline-flex items-center px-4 py-2 rounded-full bg-[#F4991A]/20 border border-[#F4991A]/30 text-[#F4991A] text-sm font-medium mb-6">
+                            class="inline-flex items-center px-4 py-2 rounded-full bg-[#5D5DE9]/20 border border-[#5D5DE9]/30 text-[#5D5DE9] text-sm font-medium mb-6">
                             Limited to 20 students per intake
                         </div>
                         <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                            Your Ausbildung Is Waiting.<br /><span class="text-[#F4991A]">Let&#x27;s Get You There.</span>
+                            Your Ausbildung Is Waiting.<br /><span class="text-[#5D5DE9]">Let&#x27;s Get You There.</span>
                         </h2>
                         <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
                             We&#x27;ve placed students at Siemens, BMW, Bosch, and 200+
@@ -3765,24 +3765,24 @@
                     </div>
                     <div class="flex flex-col items-center gap-3 mb-10" style="opacity: 0; transform: translateY(20px)">
                         <div class="flex -space-x-3">
-                            <div class="w-10 h-10 rounded-full border-2 border-[#344F1F] overflow-hidden">
+                            <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
                                 <img src="{{ asset('assets/images/hero-avatar-1.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
-                            <div class="w-10 h-10 rounded-full border-2 border-[#344F1F] overflow-hidden">
+                            <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
                                 <img src="{{ asset('assets/images/hero-avatar-2.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
-                            <div class="w-10 h-10 rounded-full border-2 border-[#344F1F] overflow-hidden">
+                            <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
                                 <img src="{{ asset('assets/images/hero-avatar-3.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
-                            <div class="w-10 h-10 rounded-full border-2 border-[#344F1F] overflow-hidden">
+                            <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
                                 <img src="{{ asset('assets/images/hero-avatar-4.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
                             <div
-                                class="w-10 h-10 rounded-full border-2 border-[#344F1F] bg-[#F4991A] flex items-center justify-center">
+                                class="w-10 h-10 rounded-full border-2 border-[#2C3340] bg-[#5D5DE9] flex items-center justify-center">
                                 <span class="text-xs font-bold text-white">40+</span>
                             </div>
                         </div>
@@ -3792,7 +3792,7 @@
                     </div>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8"
                         style="opacity: 0; transform: translateY(20px)">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#e08a15] text-white rounded-full px-8 py-6 text-lg font-semibold transition-all hover:shadow-xl hover:-translate-y-1"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full px-8 py-6 text-lg font-semibold transition-all hover:shadow-xl hover:-translate-y-1"
                             href="#pricing">View Packages<svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -3801,7 +3801,7 @@
                                 <path d="m12 5 7 7-7 7"></path>
                             </svg></a><a
                             href="#"
-                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent shadow-sm hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/30 text-white hover:bg-white/10 hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-all">Ask
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-transparent shadow-sm hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 border-2 border-white/30 text-white hover:bg-white/10 hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-all">Ask
                             a Question</a>
                     </div>
                     <div class="flex flex-wrap items-center justify-center gap-4 text-sm text-white/60"
@@ -3855,7 +3855,7 @@
     </main>
 
     @push('styles')
-        <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}?v={{ filemtime(public_path('assets/css/global-new-styles.css')) }}">
     @endpush
 
     @push('scripts')

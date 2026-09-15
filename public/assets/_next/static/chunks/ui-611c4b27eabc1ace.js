@@ -684,7 +684,7 @@
                 }),
                 (0, t.jsx)("span", {
                   className:
-                    "absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50",
+                    "absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50",
                   children: f,
                 }),
               ],
@@ -1053,7 +1053,7 @@
           children: [
             (0, t.jsx)(l.bq, {
               className: (0, i.cn)(
-                "bg-white/80 border-[#344F1F]/20 hover:border-[#F4991A] focus:ring-[#F4991A]/20",
+                "bg-white/80 border-[#2C3340]/20 hover:border-[#5D5DE9] focus:ring-[#5D5DE9]/20",
                 o ? "h-8 px-2 text-xs" : "h-10 px-3 text-sm",
                 d,
               ),
@@ -1064,7 +1064,7 @@
                     ? (0, t.jsxs)(t.Fragment, {
                         children: [
                           (0, t.jsx)(r.A, {
-                            className: "h-3 w-3 text-[#344F1F]/60",
+                            className: "h-3 w-3 text-[#2C3340]/60",
                           }),
                           (0, t.jsx)("span", {
                             className: "font-medium",
@@ -1113,12 +1113,12 @@
                           children: e.symbol,
                         }),
                         (0, t.jsx)("span", {
-                          className: "text-[#344F1F]/70",
+                          className: "text-[#2C3340]/70",
                           children: e.code,
                         }),
                         !o &&
                           (0, t.jsx)("span", {
-                            className: "text-xs text-[#344F1F]/50 ml-1",
+                            className: "text-xs text-[#2C3340]/50 ml-1",
                             children: e.name,
                           }),
                       ],
@@ -1550,12 +1550,12 @@
                   (0, t.jsx)(l(), {
                     id: "35a5491e342e1f8a",
                     children:
-                      "@-webkit-keyframes subtle-pulse{0%,100%{-webkit-box-shadow:0 0 20px rgba(244,153,26,.3);box-shadow:0 0 20px rgba(244,153,26,.3)}50%{-webkit-box-shadow:0 0 40px rgba(244,153,26,.5);box-shadow:0 0 40px rgba(244,153,26,.5)}}@-moz-keyframes subtle-pulse{0%,100%{-moz-box-shadow:0 0 20px rgba(244,153,26,.3);box-shadow:0 0 20px rgba(244,153,26,.3)}50%{-moz-box-shadow:0 0 40px rgba(244,153,26,.5);box-shadow:0 0 40px rgba(244,153,26,.5)}}@-o-keyframes subtle-pulse{0%,100%{box-shadow:0 0 20px rgba(244,153,26,.3)}50%{box-shadow:0 0 40px rgba(244,153,26,.5)}}@keyframes subtle-pulse{0%,100%{-webkit-box-shadow:0 0 20px rgba(244,153,26,.3);-moz-box-shadow:0 0 20px rgba(244,153,26,.3);box-shadow:0 0 20px rgba(244,153,26,.3)}50%{-webkit-box-shadow:0 0 40px rgba(244,153,26,.5);-moz-box-shadow:0 0 40px rgba(244,153,26,.5);box-shadow:0 0 40px rgba(244,153,26,.5)}}",
+                      "@-webkit-keyframes subtle-pulse{0%,100%{-webkit-box-shadow:0 0 20px rgba(93,93,233,.3);box-shadow:0 0 20px rgba(93,93,233,.3)}50%{-webkit-box-shadow:0 0 40px rgba(93,93,233,.5);box-shadow:0 0 40px rgba(93,93,233,.5)}}@-moz-keyframes subtle-pulse{0%,100%{-moz-box-shadow:0 0 20px rgba(93,93,233,.3);box-shadow:0 0 20px rgba(93,93,233,.3)}50%{-moz-box-shadow:0 0 40px rgba(93,93,233,.5);box-shadow:0 0 40px rgba(93,93,233,.5)}}@-o-keyframes subtle-pulse{0%,100%{box-shadow:0 0 20px rgba(93,93,233,.3)}50%{box-shadow:0 0 40px rgba(93,93,233,.5)}}@keyframes subtle-pulse{0%,100%{-webkit-box-shadow:0 0 20px rgba(93,93,233,.3);-moz-box-shadow:0 0 20px rgba(93,93,233,.3);box-shadow:0 0 20px rgba(93,93,233,.3)}50%{-webkit-box-shadow:0 0 40px rgba(93,93,233,.5);-moz-box-shadow:0 0 40px rgba(93,93,233,.5);box-shadow:0 0 40px rgba(93,93,233,.5)}}",
                   }),
                   (0, t.jsx)("div", {
                     style: {
                       background:
-                        "linear-gradient(135deg, #F4991A, #F5A83A, #F6B854)",
+                        "linear-gradient(135deg, #5D5DE9, #F5A83A, #F6B854)",
                       animation: "subtle-pulse 2s ease-in-out infinite",
                     },
                     className:
@@ -1795,7 +1795,7 @@
                 destructive:
                   "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90 hover:-translate-y-0.5 active:translate-y-0",
                 outline:
-                  "border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0",
+                  "border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0",
                 secondary:
                   "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/90 hover:-translate-y-0.5 active:translate-y-0",
                 ghost: "hover:bg-green-light/5 hover:text-foreground",
@@ -2834,7 +2834,7 @@
             s &&
               (0, t.jsxs)(l.E, {
                 className:
-                  "bg-[#F4991A]/10 border-[#F4991A]/20 text-[#F4991A] hover:bg-[#F4991A]/20 px-4 py-2 text-sm font-semibold w-fit",
+                  "bg-[#5D5DE9]/10 border-[#5D5DE9]/20 text-[#5D5DE9] hover:bg-[#5D5DE9]/20 px-4 py-2 text-sm font-semibold w-fit",
                 children: [
                   a && (0, t.jsx)("span", { className: "mr-2", children: a }),
                   s,
@@ -2842,7 +2842,7 @@
               }),
             (0, t.jsx)("h".concat(d), {
               className: (0, r.cn)(
-                "font-bold tracking-tight leading-tight text-[#344F1F]",
+                "font-bold tracking-tight leading-tight text-[#2C3340]",
                 {
                   1: "text-3xl sm:text-4xl md:text-5xl",
                   2: "text-2xl sm:text-3xl md:text-4xl",
@@ -2857,7 +2857,7 @@
             i &&
               (0, t.jsx)("p", {
                 className:
-                  "text-base sm:text-lg text-[#344F1F]/70 font-medium leading-relaxed max-w-3xl",
+                  "text-base sm:text-lg text-[#2C3340]/70 font-medium leading-relaxed max-w-3xl",
                 children: i,
               }),
           ],
@@ -3422,7 +3422,7 @@
                         asChild: !0,
                         size: "lg",
                         className: (0, r.cn)(
-                          "bg-[#F4991A] hover:bg-[#E5890F]",
+                          "bg-[#5D5DE9] hover:bg-[#2C3340]",
                           "text-white shadow-lg hover:shadow-xl",
                           "transition-all duration-300",
                           "rounded-full",
@@ -4168,7 +4168,7 @@
             let e = document.createElement("style");
             return (
               (e.textContent =
-                "\n        .mobile-panel-scrollbar::-webkit-scrollbar {\n          width: 6px;\n        }\n        .mobile-panel-scrollbar::-webkit-scrollbar-track {\n          background: transparent;\n        }\n        .mobile-panel-scrollbar::-webkit-scrollbar-thumb {\n          background: rgba(244, 153, 26, 0.3);\n          border-radius: 3px;\n        }\n        .mobile-panel-scrollbar::-webkit-scrollbar-thumb:hover {\n          background: rgba(244, 153, 26, 0.5);\n        }\n      "),
+                "\n        .mobile-panel-scrollbar::-webkit-scrollbar {\n          width: 6px;\n        }\n        .mobile-panel-scrollbar::-webkit-scrollbar-track {\n          background: transparent;\n        }\n        .mobile-panel-scrollbar::-webkit-scrollbar-thumb {\n          background: rgba(93, 93, 233, 0.3);\n          border-radius: 3px;\n        }\n        .mobile-panel-scrollbar::-webkit-scrollbar-thumb:hover {\n          background: rgba(93, 93, 233, 0.5);\n        }\n      "),
               document.head.appendChild(e),
               () => document.head.removeChild(e)
             );
@@ -4217,7 +4217,7 @@
                   style: { top: "".concat(h, "px") },
                   children: (0, t.jsxs)("div", {
                     className:
-                      "mobile-panel-scrollbar w-full max-w-[380px] max-h-[calc(100vh-120px)] overflow-y-auto rounded-3xl border border-beige bg-white/95 p-3 shadow-[0_28px_60px_-24px_rgba(244,153,26,0.3)] backdrop-blur-2xl",
+                      "mobile-panel-scrollbar w-full max-w-[380px] max-h-[calc(100vh-120px)] overflow-y-auto rounded-3xl border border-beige bg-white/95 p-3 shadow-[0_28px_60px_-24px_rgba(93,93,233,0.3)] backdrop-blur-2xl",
                     children: [
                       (0, t.jsx)("nav", {
                         className: "flex flex-col gap-1.5",
@@ -4236,9 +4236,9 @@
                             h = f[e.name] || !1,
                             p = (0, g.cn)(
                               "group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200",
-                              "text-green hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(244,153,26,0.3)]",
+                              "text-green hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)]",
                               u
-                                ? "bg-orange-light text-primary shadow-[0_18px_40px_-22px_rgba(244,153,26,0.4)]"
+                                ? "bg-orange-light text-primary shadow-[0_18px_40px_-22px_rgba(93,93,233,0.4)]"
                                 : "bg-white/80 hover:bg-beige/50",
                             ),
                             j = (0, g.cn)(
@@ -5355,7 +5355,7 @@
                             href: "/consultation",
                             className: (0, g.cn)(
                               "flex items-center justify-center gap-2 px-3 md:px-5 py-2 rounded-full text-sm font-medium transition-colors",
-                              "bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                              "bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                               "ml-1 md:ml-2",
                             ),
                             children: [
@@ -5825,7 +5825,7 @@
             strokeWidth: i = 4,
             showLabel: d = !0,
             customLabel: o,
-            trackColor: c = "#F2EAD3",
+            trackColor: c = "#EEF0F4",
             progressColor: m = "auto",
             colorThreshold: x = 70,
             className: u,
@@ -5836,7 +5836,7 @@
           b = (r - i) / 2,
           g = 2 * Math.PI * b,
           j = g - (p / 100) * g,
-          v = "auto" !== m ? m : p >= x ? "#344F1F" : "#F4991A";
+          v = "auto" !== m ? m : p >= x ? "#2C3340" : "#5D5DE9";
         return (0, t.jsxs)("div", {
           ref: s,
           className: (0, n.cn)(
@@ -5975,7 +5975,7 @@
             footerText: u,
             onPrimaryClick: h,
             onSecondaryClick: f,
-            backgroundColor: p = "bg-[#F4991A]",
+            backgroundColor: p = "bg-[#5D5DE9]",
             rounded: b = !0,
             className: g,
           } = e,
@@ -6032,14 +6032,14 @@
                         (0, t.jsx)(n.$, {
                           onClick: h,
                           className:
-                            "bg-[#F4991A] hover:bg-[#E5890F] text-white hover:text-white rounded-full px-8 shadow-lg hover:shadow-xl transition-all duration-200",
+                            "bg-[#5D5DE9] hover:bg-[#2C3340] text-white hover:text-white rounded-full px-8 shadow-lg hover:shadow-xl transition-all duration-200",
                           children: c,
                         }),
                         (0, t.jsxs)(n.$, {
                           onClick: f,
                           variant: "outline",
                           className:
-                            "bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#F4991A] rounded-full px-8",
+                            "bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#5D5DE9] rounded-full px-8",
                           children: [
                             x && (0, t.jsx)(l.A, { className: "w-4 h-4 mr-2" }),
                             m,
@@ -6385,7 +6385,7 @@
                           }),
                         }),
                         (0, t.jsx)(r.E, {
-                          className: "h-11 w-full rounded-full bg-[#344F1F]",
+                          className: "h-11 w-full rounded-full bg-[#2C3340]",
                         }),
                         (0, t.jsxs)("div", {
                           className: "flex items-center justify-center gap-2",
@@ -6473,7 +6473,7 @@
                           children: [1, 2, 3].map((e) =>
                             (0, t.jsx)(
                               r.E,
-                              { className: "h-16 rounded-xl bg-[#E5890F]" },
+                              { className: "h-16 rounded-xl bg-[#2C3340]" },
                               e,
                             ),
                           ),
@@ -6530,7 +6530,7 @@
                       }),
                       (0, t.jsx)(r.E, {
                         className:
-                          "h-11 w-full sm:w-[180px] rounded-full bg-[#344F1F]",
+                          "h-11 w-full sm:w-[180px] rounded-full bg-[#2C3340]",
                       }),
                     ],
                   }),
@@ -6914,10 +6914,10 @@
               sideOffset: r,
               className: (0, n.cn)(
                 "z-50 overflow-hidden",
-                "bg-[#344F1F] text-[#F9F5F0]",
+                "bg-[#2C3340] text-[#F7F8FA]",
                 "rounded-lg",
                 "px-3 py-2 text-xs font-medium",
-                "shadow-[0_4px_12px_rgba(52,79,31,0.25)]",
+                "shadow-[0_4px_12px_rgba(44,51,64,0.25)]",
                 "animate-in fade-in-0 zoom-in-95",
                 "data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95",
                 "data-[side=bottom]:slide-in-from-top-2",
@@ -7092,14 +7092,14 @@
           O = (e) =>
             A && A.key === e
               ? "asc" === A.direction
-                ? (0, t.jsx)(d.A, { className: "h-3.5 w-3.5 text-[#F4991A]" })
-                : (0, t.jsx)(o.A, { className: "h-3.5 w-3.5 text-[#F4991A]" })
-              : (0, t.jsx)(i.A, { className: "h-3.5 w-3.5 text-[#344F1F]/40" }),
+                ? (0, t.jsx)(d.A, { className: "h-3.5 w-3.5 text-[#5D5DE9]" })
+                : (0, t.jsx)(o.A, { className: "h-3.5 w-3.5 text-[#5D5DE9]" })
+              : (0, t.jsx)(i.A, { className: "h-3.5 w-3.5 text-[#2C3340]/40" }),
           M = a.length > 0 && b.size === a.length,
           B = b.size > 0 && b.size < a.length;
         return (0, t.jsx)("div", {
           className: (0, l.cn)(
-            "bg-white rounded-xl border border-[#344F1F]/10 overflow-hidden",
+            "bg-white rounded-xl border border-[#2C3340]/10 overflow-hidden",
             w,
           ),
           children: (0, t.jsx)("div", {
@@ -7110,7 +7110,7 @@
               children: [
                 (0, t.jsx)("thead", {
                   className: (0, l.cn)(
-                    "bg-[#F2EAD3]",
+                    "bg-[#EEF0F4]",
                     j && "sticky top-0 z-10",
                     N,
                   ),
@@ -7137,11 +7137,11 @@
                           "th",
                           {
                             className: (0, l.cn)(
-                              "px-4 py-3 text-sm font-semibold text-[#344F1F] whitespace-nowrap relative group",
+                              "px-4 py-3 text-sm font-semibold text-[#2C3340] whitespace-nowrap relative group",
                               "center" === e.align && "text-center",
                               "right" === e.align && "text-right",
                               e.sortable &&
-                                "cursor-pointer select-none hover:bg-[#EDE4C8]",
+                                "cursor-pointer select-none hover:bg-[#E4E7ED]",
                             ),
                             style: { width: U(e) },
                             onClick: () => e.sortable && D(e.key),
@@ -7156,7 +7156,7 @@
                               !1 !== e.resizable &&
                                 (0, t.jsx)("div", {
                                   className:
-                                    "absolute right-0 top-0 bottom-0 w-1 cursor-col-resize hover:bg-[#F4991A] opacity-0 group-hover:opacity-100 transition-opacity",
+                                    "absolute right-0 top-0 bottom-0 w-1 cursor-col-resize hover:bg-[#5D5DE9] opacity-0 group-hover:opacity-100 transition-opacity",
                                   onMouseDown: (s) => T(s, e.key),
                                   onClick: (e) => e.stopPropagation(),
                                 }),
@@ -7169,7 +7169,7 @@
                   }),
                 }),
                 (0, t.jsx)("tbody", {
-                  className: (0, l.cn)("divide-y divide-[#344F1F]/10", y),
+                  className: (0, l.cn)("divide-y divide-[#2C3340]/10", y),
                   children: x
                     ? (0, t.jsx)("tr", {
                         children: (0, t.jsx)("td", {
@@ -7178,7 +7178,7 @@
                           children: (0, t.jsx)("div", {
                             className: "flex items-center justify-center",
                             children: (0, t.jsx)(c.A, {
-                              className: "h-8 w-8 animate-spin text-[#F4991A]",
+                              className: "h-8 w-8 animate-spin text-[#5D5DE9]",
                             }),
                           }),
                         }),
@@ -7189,7 +7189,7 @@
                             colSpan: _.length + +!!p,
                             className: "px-6 py-12 text-center",
                             children: (0, t.jsx)("p", {
-                              className: "text-[#344F1F]/70",
+                              className: "text-[#2C3340]/70",
                               children: u,
                             }),
                           }),
@@ -7208,9 +7208,9 @@
                                   h(e, s);
                               },
                               className: (0, l.cn)(
-                                "hover:bg-[#F9F5F0] transition-colors duration-200",
+                                "hover:bg-[#F7F8FA] transition-colors duration-200",
                                 h && "cursor-pointer",
-                                r && "bg-[#F4991A]/5",
+                                r && "bg-[#5D5DE9]/5",
                                 null == f ? void 0 : f(e, s),
                               ),
                               children: [
@@ -7227,7 +7227,7 @@
                                     "td",
                                     {
                                       className: (0, l.cn)(
-                                        "px-4 py-3 text-sm text-[#344F1F]",
+                                        "px-4 py-3 text-sm text-[#2C3340]",
                                         "center" === a.align && "text-center",
                                         "right" === a.align && "text-right",
                                       ),

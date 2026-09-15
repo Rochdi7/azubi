@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Azubi — Brand Gradients</title>
+<link rel="stylesheet" href="/assets/css/brand-gradients.css">
+<style>
+  body{margin:0;font:15px/1.5 'DM Sans',system-ui,sans-serif;color:#2c3340;background:#fff}
+  .wrap{max-width:1120px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-size:30px;margin:0 0 4px}
+  .sub{color:#7b88a8;margin:0 0 32px}
+  h2{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:#7b88a8;margin:40px 0 14px;font-weight:700}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+  .sw{border-radius:14px;overflow:hidden;border:1px solid #e6eaf5;background:#fff}
+  .box{height:120px;position:relative}
+  .lbl{padding:9px 12px;font-size:12px;font-family:ui-monospace,Menlo,Consolas,monospace;color:#596273;border-top:1px solid #e6eaf5;word-break:break-all}
+  .hero{position:relative;height:230px;border-radius:14px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+  .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero .ov{position:absolute;inset:0}
+  .hero .txt{position:relative;color:#fff;font-size:24px;font-weight:700;text-shadow:0 2px 12px rgba(0,0,0,.4);text-align:center}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:720px){.two{grid-template-columns:1fr}}
+  .btn{display:inline-block;padding:13px 26px;border-radius:999px;color:#fff;font-weight:600;border:0;font-size:15px}
+  .chip{display:inline-block;padding:7px 15px;border-radius:999px;color:#fff;font-size:13px;font-weight:600}
+  .card{border-radius:14px;padding:22px;border:1px solid #e6eaf5}
+  .glowbox{position:relative;height:190px;border-radius:14px;overflow:hidden;background:#fff;border:1px solid #e6eaf5}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Azubi — Brand Gradients</h1>
+  <p class="sub">Built from the Leapsome palette. Royal&nbsp;Blue <code>#5D5DE9</code> + Ebony&nbsp;Clay <code>#2C3340</code> are already your brand colors.</p>
+
+  <h2>1 · Page &amp; section washes</h2>
+  <div class="grid">
+    <div class="sw"><div class="box azubi-grad-page"></div><div class="lbl">.azubi-grad-page</div></div>
+    <div class="sw"><div class="box azubi-grad-mist"></div><div class="lbl">.azubi-grad-mist</div></div>
+    <div class="sw"><div class="box azubi-grad-aurora"></div><div class="lbl">.azubi-grad-aurora</div></div>
+  </div>
+
+  <h2>2 · Brand fills</h2>
+  <div class="grid">
+    <div class="sw"><div class="box azubi-grad-brand"></div><div class="lbl">.azubi-grad-brand</div></div>
+    <div class="sw"><div class="box azubi-grad-brand-deep"></div><div class="lbl">.azubi-grad-brand-deep</div></div>
+    <div class="sw"><div class="box azubi-grad-brand-ink"></div><div class="lbl">.azubi-grad-brand-ink</div></div>
+  </div>
+  <p style="margin-top:16px">
+    <span class="btn azubi-grad-brand">Start Applying</span>
+    &nbsp;
+    <span class="btn azubi-grad-brand-deep">Book a call</span>
+    &nbsp;
+    <span class="chip azubi-grad-brand-ink">Talent Suite</span>
+  </p>
+
+  <h2>3 · Hero overlays — on your real autumn photo</h2>
+  <div class="two">
+    <div class="hero">
+      <img src="/assets/_next/rhine-valley-hero-autumn77a4.jpeg" alt="">
+      <div class="ov" style="background:rgba(0,0,0,.30)"></div>
+      <div class="txt">BEFORE<br><span style="font-size:13px;font-weight:400">black/30 — reads orange</span></div>
+    </div>
+    <div class="hero">
+      <img src="/assets/_next/rhine-valley-hero-autumn77a4.jpeg" alt="">
+      <div class="ov azubi-hero-veil"></div>
+      <div class="txt">AFTER<br><span style="font-size:13px;font-weight:400">.azubi-hero-veil</span></div>
+    </div>
+  </div>
+  <div class="two" style="margin-top:16px">
+    <div class="hero">
+      <img src="/assets/_next/rhine-valley-hero-autumn77a4.jpeg" alt="">
+      <div class="ov azubi-hero-veil--soft"></div>
+      <div class="txt">SOFT<br><span style="font-size:13px;font-weight:400">.azubi-hero-veil--soft</span></div>
+    </div>
+    <div class="hero">
+      <img src="/assets/_next/heidelberg-castle-hero-autumn35bd.jpeg" alt="">
+      <div class="ov azubi-hero-veil"></div>
+      <div class="txt">Heidelberg<br><span style="font-size:13px;font-weight:400">.azubi-hero-veil</span></div>
+    </div>
+  </div>
+
+  <h2>4 · Cards &amp; glass</h2>
+  <div class="grid">
+    <div class="sw"><div class="box azubi-grad-card"></div><div class="lbl">.azubi-grad-card</div></div>
+    <div class="sw"><div class="box azubi-grad-glass" style="background-image:var(--grad-aurora)"></div><div class="lbl">.azubi-grad-glass</div></div>
+  </div>
+
+  <h2>5 · Glow blobs (Leapsome's soft corner light)</h2>
+  <div class="glowbox">
+    <div class="azubi-glow azubi-glow--purple" style="left:-4rem;top:-6rem"></div>
+    <div class="azubi-glow azubi-glow--peach" style="right:-3rem;bottom:-5rem"></div>
+    <div style="position:relative;padding:26px;font-weight:600">.azubi-glow--purple / --peach / --violet / --blue</div>
+  </div>
+
+  <h2>6 · Gradient text &amp; rule</h2>
+  <p style="font-size:34px;font-weight:700;margin:0"><span class="azubi-grad-text">Start your Ausbildung in Germany</span></p>
+  <hr class="azubi-grad-rule" style="margin:22px 0">
+  <p style="font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:#596273">.azubi-grad-text &nbsp;·&nbsp; .azubi-grad-rule</p>
+</div>
+</body>
+</html>

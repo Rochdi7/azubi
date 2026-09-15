@@ -1997,29 +1997,29 @@
       function b() {
         let e = [
           {
-            icon: (0, r.jsx)(a.A, { className: "h-5 w-5 text-[#F4991A]" }),
+            icon: (0, r.jsx)(a.A, { className: "h-5 w-5 text-[#5D5DE9]" }),
             title: "High Demand",
             description: "40,000+ open positions",
           },
           {
-            icon: (0, r.jsx)(l.A, { className: "h-5 w-5 text-[#344F1F]" }),
+            icon: (0, r.jsx)(l.A, { className: "h-5 w-5 text-[#2C3340]" }),
             title: "Paid Training",
             description: "€950-1,200 monthly",
           },
           {
-            icon: (0, r.jsx)(i.A, { className: "h-5 w-5 text-[#F4991A]" }),
+            icon: (0, r.jsx)(i.A, { className: "h-5 w-5 text-[#5D5DE9]" }),
             title: "Career Growth",
             description: "€3,200+ after graduation",
           },
           {
-            icon: (0, r.jsx)(n.A, { className: "h-5 w-5 text-[#344F1F]" }),
+            icon: (0, r.jsx)(n.A, { className: "h-5 w-5 text-[#2C3340]" }),
             title: "3-Year Program",
             description: "Professional qualification",
           },
         ];
         return (0, r.jsx)("section", {
           className:
-            "py-12 sm:py-16 px-4 relative overflow-hidden bg-[#F9F5F0]",
+            "py-12 sm:py-16 px-4 relative overflow-hidden bg-[#F7F8FA]",
           children: (0, r.jsxs)("div", {
             className: "container mx-auto relative",
             children: [
@@ -2046,7 +2046,7 @@
                             "div",
                             {
                               className:
-                                "flex items-start gap-3 p-3 sm:p-4 rounded-2xl bg-white/80 backdrop-blur-sm border-2 border-[#344F1F]/10 hover:border-[#F4991A]/30 hover:shadow-lg transition-all duration-300",
+                                "flex items-start gap-3 p-3 sm:p-4 rounded-2xl bg-white/80 backdrop-blur-sm border-2 border-[#2C3340]/10 hover:border-[#5D5DE9]/30 hover:shadow-lg transition-all duration-300",
                               children: [
                                 (0, r.jsx)("div", {
                                   className: "flex-shrink-0 mt-1",
@@ -2056,11 +2056,11 @@
                                   children: [
                                     (0, r.jsx)("h3", {
                                       className:
-                                        "font-semibold text-sm mb-1 text-[#344F1F]",
+                                        "font-semibold text-sm mb-1 text-[#2C3340]",
                                       children: e.title,
                                     }),
                                     (0, r.jsx)("p", {
-                                      className: "text-xs text-[#344F1F]/70",
+                                      className: "text-xs text-[#2C3340]/70",
                                       children: e.description,
                                     }),
                                   ],
@@ -2076,7 +2076,7 @@
                           asChild: !0,
                           size: "lg",
                           className:
-                            "bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300",
+                            "bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300",
                           children: (0, r.jsxs)(u(), {
                             href: "/nursing-germany",
                             children: [
@@ -2095,11 +2095,11 @@
                               "flex items-center gap-2 bg-white/80 backdrop-blur-sm px-3 py-2 rounded-full",
                             children: [
                               (0, r.jsx)(c.A, {
-                                className: "h-4 w-4 text-[#F4991A]",
+                                className: "h-4 w-4 text-[#5D5DE9]",
                               }),
                               (0, r.jsx)("span", {
                                 className:
-                                  "text-xs sm:text-sm text-[#344F1F]/90 font-medium",
+                                  "text-xs sm:text-sm text-[#2C3340]/90 font-medium",
                                 children: "5,000+ students enrolled",
                               }),
                             ],
@@ -2109,11 +2109,11 @@
                               "flex items-center gap-2 bg-white/80 backdrop-blur-sm px-3 py-2 rounded-full",
                             children: [
                               (0, r.jsx)(o.A, {
-                                className: "h-4 w-4 text-[#344F1F]",
+                                className: "h-4 w-4 text-[#2C3340]",
                               }),
                               (0, r.jsx)("span", {
                                 className:
-                                  "text-xs sm:text-sm text-[#344F1F]/90 font-medium",
+                                  "text-xs sm:text-sm text-[#2C3340]/90 font-medium",
                                 children: "98% placement rate",
                               }),
                             ],
@@ -2127,15 +2127,15 @@
                     children: [
                       (0, r.jsx)("div", {
                         className:
-                          "absolute -z-10 top-0 right-0 w-72 h-72 bg-[#F4991A]/10 rounded-full blur-3xl",
+                          "absolute -z-10 top-0 right-0 w-72 h-72 bg-[#5D5DE9]/10 rounded-full blur-3xl",
                       }),
                       (0, r.jsx)("div", {
                         className:
-                          "absolute -z-10 bottom-0 left-0 w-60 h-60 bg-[#344F1F]/10 rounded-full blur-3xl",
+                          "absolute -z-10 bottom-0 left-0 w-60 h-60 bg-[#2C3340]/10 rounded-full blur-3xl",
                       }),
                       (0, r.jsxs)("div", {
                         className:
-                          "relative rounded-2xl overflow-hidden bg-white/80 backdrop-blur-md p-4 sm:p-6 lg:p-8 border-2 border-[#344F1F]/10 shadow-xl mt-8 lg:mt-0",
+                          "relative rounded-2xl overflow-hidden bg-white/80 backdrop-blur-md p-4 sm:p-6 lg:p-8 border-2 border-[#2C3340]/10 shadow-xl mt-8 lg:mt-0",
                         children: [
                           (0, r.jsxs)("div", {
                             className:
@@ -2143,32 +2143,32 @@
                             children: [
                               (0, r.jsxs)("div", {
                                 className:
-                                  "bg-[#F4991A]/10 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border-2 border-[#F4991A]/20",
+                                  "bg-[#5D5DE9]/10 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border-2 border-[#5D5DE9]/20",
                                 children: [
                                   (0, r.jsx)("div", {
                                     className:
-                                      "text-xl sm:text-2xl font-bold text-[#F4991A]",
+                                      "text-xl sm:text-2xl font-bold text-[#5D5DE9]",
                                     children: "40K+",
                                   }),
                                   (0, r.jsx)("div", {
                                     className:
-                                      "text-xs text-[#344F1F]/70 font-medium",
+                                      "text-xs text-[#2C3340]/70 font-medium",
                                     children: "Open Positions",
                                   }),
                                 ],
                               }),
                               (0, r.jsxs)("div", {
                                 className:
-                                  "bg-[#344F1F]/10 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border-2 border-[#344F1F]/20",
+                                  "bg-[#2C3340]/10 backdrop-blur-sm p-3 sm:p-4 rounded-2xl border-2 border-[#2C3340]/20",
                                 children: [
                                   (0, r.jsx)("div", {
                                     className:
-                                      "text-xl sm:text-2xl font-bold text-[#344F1F]",
+                                      "text-xl sm:text-2xl font-bold text-[#2C3340]",
                                     children: "€3,200",
                                   }),
                                   (0, r.jsx)("div", {
                                     className:
-                                      "text-xs text-[#344F1F]/70 font-medium",
+                                      "text-xs text-[#2C3340]/70 font-medium",
                                     children: "Starting Salary",
                                   }),
                                 ],
@@ -2180,7 +2180,7 @@
                             children: [
                               (0, r.jsx)("h4", {
                                 className:
-                                  "text-sm sm:text-base font-semibold text-[#344F1F]",
+                                  "text-sm sm:text-base font-semibold text-[#2C3340]",
                                 children: "Your Journey:",
                               }),
                               (0, r.jsx)("div", {
@@ -2211,7 +2211,7 @@
                                     "div",
                                     {
                                       className:
-                                        "flex items-center justify-between p-2 bg-white/60 backdrop-blur-sm rounded-xl border-2 border-[#344F1F]/10",
+                                        "flex items-center justify-between p-2 bg-white/60 backdrop-blur-sm rounded-xl border-2 border-[#2C3340]/10",
                                       children: [
                                         (0, r.jsxs)("div", {
                                           className: "flex items-center gap-2",
@@ -2220,25 +2220,25 @@
                                               className: (0, g.cn)(
                                                 "w-2 h-2 rounded-full",
                                                 s < 3
-                                                  ? "bg-[#F4991A]"
-                                                  : "bg-[#344F1F]",
+                                                  ? "bg-[#5D5DE9]"
+                                                  : "bg-[#2C3340]",
                                               ),
                                             }),
                                             (0, r.jsx)("span", {
                                               className:
-                                                "text-xs font-medium text-[#344F1F]",
+                                                "text-xs font-medium text-[#2C3340]",
                                               children: e.step,
                                             }),
                                             (0, r.jsx)("span", {
                                               className:
-                                                "text-xs text-[#344F1F]/70",
+                                                "text-xs text-[#2C3340]/70",
                                               children: e.title,
                                             }),
                                           ],
                                         }),
                                         (0, r.jsx)("span", {
                                           className:
-                                            "text-xs font-semibold text-[#344F1F]",
+                                            "text-xs font-semibold text-[#2C3340]",
                                           children: e.amount,
                                         }),
                                       ],
@@ -2251,11 +2251,11 @@
                           }),
                           (0, r.jsxs)("div", {
                             className:
-                              "mt-6 p-4 bg-[#F2EAD3]/80 backdrop-blur-sm rounded-2xl border-2 border-[#344F1F]/10",
+                              "mt-6 p-4 bg-[#EEF0F4]/80 backdrop-blur-sm rounded-2xl border-2 border-[#2C3340]/10",
                             children: [
                               (0, r.jsx)("h4", {
                                 className:
-                                  "text-sm font-semibold mb-2 text-[#344F1F]",
+                                  "text-sm font-semibold mb-2 text-[#2C3340]",
                                 children: "Available Programs:",
                               }),
                               (0, r.jsx)("div", {
@@ -2272,11 +2272,11 @@
                                       className: "flex items-center gap-1",
                                       children: [
                                         (0, r.jsx)(o.A, {
-                                          className: "h-3 w-3 text-[#344F1F]",
+                                          className: "h-3 w-3 text-[#2C3340]",
                                         }),
                                         (0, r.jsx)("span", {
                                           className:
-                                            "text-xs text-[#344F1F]/90 font-medium",
+                                            "text-xs text-[#2C3340]/90 font-medium",
                                           children: e,
                                         }),
                                       ],
@@ -3199,7 +3199,7 @@
             })();
           }, []),
           (0, r.jsx)("section", {
-            className: "py-12 md:py-16 lg:py-20 bg-[#F9F5F0]",
+            className: "py-12 md:py-16 lg:py-20 bg-[#F7F8FA]",
             children: (0, r.jsxs)("div", {
               className: "container",
               children: [
@@ -3509,7 +3509,7 @@
                     asChild: !0,
                     variant: "outline",
                     className:
-                      "rounded-full border-2 border-[#F4991A]/30 bg-[#F4991A]/5 text-[#F4991A] hover:text-[#F4991A] hover:bg-[#F4991A]/10 font-semibold hover:shadow-lg transition-all duration-300",
+                      "rounded-full border-2 border-[#5D5DE9]/30 bg-[#5D5DE9]/5 text-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[#5D5DE9]/10 font-semibold hover:shadow-lg transition-all duration-300",
                     children: (0, r.jsxs)(i(), {
                       href: "/blog",
                       className: "flex items-center",

@@ -19,7 +19,7 @@
       function u() {
         return (0, n.jsxs)("div", {
           className: "min-h-screen",
-          style: { backgroundColor: "#F9F5F0" },
+          style: { backgroundColor: "#F7F8FA" },
           children: [
             (0, n.jsx)(x.M, {}),
             (0, n.jsx)("section", {
@@ -32,17 +32,17 @@
                     (0, n.jsx)("div", {
                       className:
                         "w-16 h-16 rounded-full flex items-center justify-center shrink-0",
-                      style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                      style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                       children: (0, n.jsx)(l.A, {
                         className: "w-8 h-8",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                     }),
                     (0, n.jsxs)("div", {
                       children: [
                         (0, n.jsx)("h1", {
                           className: "text-3xl md:text-4xl font-bold",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Widerrufsbelehrung",
                         }),
                         (0, n.jsx)("p", {
@@ -75,20 +75,20 @@
                   (0, n.jsxs)("div", {
                     className: "p-5 rounded-xl flex items-start gap-3",
                     style: {
-                      backgroundColor: "rgba(244, 153, 26, 0.1)",
-                      border: "1px solid rgba(244, 153, 26, 0.2)",
+                      backgroundColor: "rgba(93, 93, 233, 0.1)",
+                      border: "1px solid rgba(93, 93, 233, 0.2)",
                     },
                     children: [
                       (0, n.jsx)(t.A, {
                         className: "w-5 h-5 shrink-0 mt-0.5",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                       (0, n.jsxs)("div", {
                         className: "text-sm",
                         children: [
                           (0, n.jsx)("p", {
                             className: "font-medium mb-1",
-                            style: { color: "#344F1F" },
+                            style: { color: "#2C3340" },
                             children: "B2B-Vertragsverh\xe4ltnis",
                           }),
                           (0, n.jsx)("p", {
@@ -118,17 +118,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(i.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "1. Kein Widerrufsrecht f\xfcr Unternehmer",
                                   }),
@@ -140,7 +140,7 @@
                                 children: [
                                   (0, n.jsxs)("div", {
                                     className: "p-6 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, n.jsx)("p", {
                                         className:
@@ -186,7 +186,7 @@
                                   (0, n.jsxs)("div", {
                                     className: "p-5 rounded-xl",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: [
                                       (0, n.jsx)("h4", {
@@ -228,17 +228,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(t.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "2. Was bedeutet das f\xfcr Sie als Arbeitgeber?",
                                   }),
@@ -260,7 +260,7 @@
                                         className: "p-5 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, n.jsx)("h4", {
@@ -292,7 +292,7 @@
                                                 href: "mailto:arbeitgeber@azubi.ma",
                                                 className:
                                                   "font-medium hover:underline",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                                 children:
                                                   "arbeitgeber@azubi.ma",
                                               }),
@@ -304,7 +304,7 @@
                                         className: "p-5 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, n.jsx)("h4", {
@@ -325,7 +325,7 @@
                                         className: "p-5 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, n.jsx)("h4", {
@@ -364,17 +364,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(d.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "3. Besonderheit: Kostenlose Nutzung",
                                   }),
@@ -386,7 +386,7 @@
                                 children: (0, n.jsxs)("div", {
                                   className: "p-6 rounded-xl",
                                   style: {
-                                    backgroundColor: "rgba(244, 153, 26, 0.08)",
+                                    backgroundColor: "rgba(93, 93, 233, 0.08)",
                                   },
                                   children: [
                                     (0, n.jsxs)("p", {
@@ -416,7 +416,7 @@
                                       className: "p-4 rounded-lg mt-4",
                                       style: {
                                         backgroundColor:
-                                          "rgba(244, 153, 26, 0.1)",
+                                          "rgba(93, 93, 233, 0.1)",
                                       },
                                       children: (0, n.jsxs)("p", {
                                         className: "text-sm leading-relaxed",
@@ -445,17 +445,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(a.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "4. Rechtliche Grundlagen",
                                   }),
                                 ],
@@ -465,7 +465,7 @@
                                   "space-y-4 text-sm md:text-base text-muted-foreground",
                                 children: (0, n.jsxs)("div", {
                                   className: "p-5 rounded-xl",
-                                  style: { backgroundColor: "#F2EAD3" },
+                                  style: { backgroundColor: "#EEF0F4" },
                                   children: [
                                     (0, n.jsx)("h4", {
                                       className:
@@ -532,7 +532,7 @@
                             children: [
                               (0, n.jsx)("h3", {
                                 className: "text-lg font-semibold mb-4",
-                                style: { color: "#344F1F" },
+                                style: { color: "#2C3340" },
                                 children: "5. Fragen zur K\xfcndigung?",
                               }),
                               (0, n.jsxs)("div", {
@@ -541,7 +541,7 @@
                                 children: [
                                   (0, n.jsxs)("div", {
                                     className: "p-6 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, n.jsx)("p", {
                                         className: "leading-relaxed mb-4",
@@ -559,11 +559,11 @@
                                                   "w-8 h-8 rounded-full flex items-center justify-center shrink-0",
                                                 style: {
                                                   backgroundColor:
-                                                    "rgba(244, 153, 26, 0.1)",
+                                                    "rgba(93, 93, 233, 0.1)",
                                                 },
                                                 children: (0, n.jsx)(d.A, {
                                                   className: "w-4 h-4",
-                                                  style: { color: "#F4991A" },
+                                                  style: { color: "#5D5DE9" },
                                                 }),
                                               }),
                                               (0, n.jsxs)("div", {
@@ -577,7 +577,7 @@
                                                     href: "mailto:arbeitgeber@azubi.ma",
                                                     className:
                                                       "hover:underline",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                     children:
                                                       "arbeitgeber@azubi.ma",
                                                   }),
@@ -593,11 +593,11 @@
                                                   "w-8 h-8 rounded-full flex items-center justify-center shrink-0",
                                                 style: {
                                                   backgroundColor:
-                                                    "rgba(244, 153, 26, 0.1)",
+                                                    "rgba(93, 93, 233, 0.1)",
                                                 },
                                                 children: (0, n.jsx)(l.A, {
                                                   className: "w-4 h-4",
-                                                  style: { color: "#F4991A" },
+                                                  style: { color: "#5D5DE9" },
                                                 }),
                                               }),
                                               (0, n.jsxs)("div", {
@@ -624,7 +624,7 @@
                                   (0, n.jsx)("div", {
                                     className: "p-4 rounded-lg",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: (0, n.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
@@ -639,7 +639,7 @@
                                           href: "/arbeitgeber/agb",
                                           className:
                                             "font-medium hover:underline",
-                                          style: { color: "#F4991A" },
+                                          style: { color: "#5D5DE9" },
                                           children:
                                             "Allgemeinen Gesch\xe4ftsbedingungen",
                                         }),
@@ -662,7 +662,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, n.jsx)(m(), {
                           href: "/arbeitgeber/impressum",
                           children: "Impressum",
@@ -672,7 +672,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, n.jsx)(m(), {
                           href: "/arbeitgeber/datenschutz",
                           children: "Datenschutz",
@@ -682,7 +682,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, n.jsx)(m(), {
                           href: "/arbeitgeber/agb",
                           children: "AGB",
@@ -691,7 +691,7 @@
                       (0, n.jsx)(o.$, {
                         asChild: !0,
                         className: "rounded-full",
-                        style: { backgroundColor: "#F4991A", color: "white" },
+                        style: { backgroundColor: "#5D5DE9", color: "white" },
                         children: (0, n.jsx)(m(), {
                           href: "/arbeitgeber",
                           children: "Zur\xfcck zur Startseite",

@@ -185,7 +185,7 @@
                 className: "p-8 md:p-12 rounded-2xl text-center",
                 style: {
                   backgroundColor: "white",
-                  boxShadow: "0 20px 40px rgba(52, 79, 31, 0.08)",
+                  boxShadow: "0 20px 40px rgba(44, 51, 64, 0.08)",
                 },
                 children: (0, a.jsxs)("div", {
                   className: "space-y-6",
@@ -193,22 +193,22 @@
                     (0, a.jsx)("div", {
                       className:
                         "w-20 h-20 rounded-full flex items-center justify-center mx-auto",
-                      style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                      style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                       children: (0, a.jsx)(g.A, {
                         className: "w-12 h-12",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                     }),
                     (0, a.jsxs)("div", {
                       children: [
                         (0, a.jsx)("h3", {
                           className: "text-2xl font-bold mb-2",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Vielen Dank f\xfcr Ihre Nachricht!",
                         }),
                         (0, a.jsx)("p", {
                           className: "text-lg",
-                          style: { color: "rgba(52, 79, 31, 0.7)" },
+                          style: { color: "rgba(44, 51, 64, 0.7)" },
                           children:
                             "Wir haben Ihre Anfrage erhalten und werden uns innerhalb von 24 Stunden bei Ihnen melden.",
                         }),
@@ -217,23 +217,23 @@
                     k &&
                       (0, a.jsxs)("div", {
                         className: "p-4 rounded-xl inline-block",
-                        style: { backgroundColor: "#F2EAD3" },
+                        style: { backgroundColor: "#EEF0F4" },
                         children: [
                           (0, a.jsx)("p", {
                             className: "text-sm font-medium mb-1",
-                            style: { color: "#344F1F" },
+                            style: { color: "#2C3340" },
                             children: "Ihre Referenznummer:",
                           }),
                           (0, a.jsx)("p", {
                             className: "text-lg font-bold",
-                            style: { color: "#F4991A" },
+                            style: { color: "#5D5DE9" },
                             children: k,
                           }),
                         ],
                       }),
                     (0, a.jsx)("p", {
                       className: "text-sm",
-                      style: { color: "rgba(52, 79, 31, 0.6)" },
+                      style: { color: "rgba(44, 51, 64, 0.6)" },
                       children:
                         "Eine Best\xe4tigungs-E-Mail wurde an Ihre E-Mail-Adresse gesendet.",
                     }),
@@ -241,7 +241,7 @@
                       onClick: () => N(!1),
                       className: "rounded-full",
                       style: {
-                        backgroundColor: "#F4991A",
+                        backgroundColor: "#5D5DE9",
                         color: "white",
                         minHeight: "48px",
                       },
@@ -270,16 +270,16 @@
                         }),
                         (0, a.jsxs)("div", {
                           className: "mt-4 p-4 rounded-xl text-center",
-                          style: { backgroundColor: "#F2EAD3" },
+                          style: { backgroundColor: "#EEF0F4" },
                           children: [
                             (0, a.jsx)("p", {
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: "Brauchen Sie Hilfe?",
                             }),
                             (0, a.jsx)("p", {
                               className: "text-xs mt-1",
-                              style: { color: "rgba(52, 79, 31, 0.7)" },
+                              style: { color: "rgba(44, 51, 64, 0.7)" },
                               children: "Unser Team ist f\xfcr Sie da!",
                             }),
                           ],
@@ -291,7 +291,7 @@
                     className: "p-6 md:p-8 rounded-2xl",
                     style: {
                       backgroundColor: "white",
-                      boxShadow: "0 20px 40px rgba(52, 79, 31, 0.08)",
+                      boxShadow: "0 20px 40px rgba(44, 51, 64, 0.08)",
                     },
                     children: (0, a.jsxs)("form", {
                       onSubmit: z(M),
@@ -302,11 +302,11 @@
                           children: [
                             (0, a.jsx)("h3", {
                               className: "text-2xl font-bold",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: "Kontaktformular",
                             }),
                             (0, a.jsx)("p", {
-                              style: { color: "rgba(52, 79, 31, 0.7)" },
+                              style: { color: "rgba(44, 51, 64, 0.7)" },
                               children:
                                 "F\xfcllen Sie das Formular aus und wir melden uns zeitnah bei Ihnen.",
                             }),
@@ -321,7 +321,7 @@
                                 (0, a.jsx)(m.J, {
                                   htmlFor: "firstName",
                                   className: "text-sm font-medium",
-                                  style: { color: "#344F1F" },
+                                  style: { color: "#2C3340" },
                                   children: "Vorname *",
                                 }),
                                 (0, a.jsx)(c.p, {
@@ -332,7 +332,7 @@
                                     minHeight: "48px",
                                     borderColor: E.firstName
                                       ? "#EF4444"
-                                      : "rgba(52, 79, 31, 0.15)",
+                                      : "rgba(44, 51, 64, 0.15)",
                                   },
                                   placeholder: "Max",
                                 }),
@@ -354,7 +354,7 @@
                                 (0, a.jsx)(m.J, {
                                   htmlFor: "lastName",
                                   className: "text-sm font-medium",
-                                  style: { color: "#344F1F" },
+                                  style: { color: "#2C3340" },
                                   children: "Nachname *",
                                 }),
                                 (0, a.jsx)(c.p, {
@@ -365,7 +365,7 @@
                                     minHeight: "48px",
                                     borderColor: E.lastName
                                       ? "#EF4444"
-                                      : "rgba(52, 79, 31, 0.15)",
+                                      : "rgba(44, 51, 64, 0.15)",
                                   },
                                   placeholder: "Mustermann",
                                 }),
@@ -389,7 +389,7 @@
                             (0, a.jsx)(m.J, {
                               htmlFor: "email",
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: "E-Mail-Adresse *",
                             }),
                             (0, a.jsx)(c.p, {
@@ -401,7 +401,7 @@
                                 minHeight: "48px",
                                 borderColor: E.email
                                   ? "#EF4444"
-                                  : "rgba(52, 79, 31, 0.15)",
+                                  : "rgba(44, 51, 64, 0.15)",
                               },
                               placeholder: "max.mustermann@firma.de",
                             }),
@@ -422,11 +422,11 @@
                             (0, a.jsxs)(m.J, {
                               htmlFor: "phone",
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: [
                                 "Telefonnummer ",
                                 (0, a.jsx)("span", {
-                                  style: { color: "rgba(52, 79, 31, 0.5)" },
+                                  style: { color: "rgba(44, 51, 64, 0.5)" },
                                   children: "(optional)",
                                 }),
                               ],
@@ -462,11 +462,11 @@
                             (0, a.jsxs)(m.J, {
                               htmlFor: "companyName",
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: [
                                 "Firmenname ",
                                 (0, a.jsx)("span", {
-                                  style: { color: "rgba(52, 79, 31, 0.5)" },
+                                  style: { color: "rgba(44, 51, 64, 0.5)" },
                                   children: "(optional)",
                                 }),
                               ],
@@ -479,7 +479,7 @@
                                 minHeight: "48px",
                                 borderColor: E.companyName
                                   ? "#EF4444"
-                                  : "rgba(52, 79, 31, 0.15)",
+                                  : "rgba(44, 51, 64, 0.15)",
                               },
                               placeholder: "Musterfirma GmbH",
                             }),
@@ -500,11 +500,11 @@
                             (0, a.jsxs)(m.J, {
                               htmlFor: "companyWebsite",
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: [
                                 "Firmenwebsite ",
                                 (0, a.jsx)("span", {
-                                  style: { color: "rgba(52, 79, 31, 0.5)" },
+                                  style: { color: "rgba(44, 51, 64, 0.5)" },
                                   children: "(optional)",
                                 }),
                               ],
@@ -518,7 +518,7 @@
                                 minHeight: "48px",
                                 borderColor: E.companyWebsite
                                   ? "#EF4444"
-                                  : "rgba(52, 79, 31, 0.15)",
+                                  : "rgba(44, 51, 64, 0.15)",
                               },
                               placeholder: "https://www.beispiel.de",
                             }),
@@ -542,11 +542,11 @@
                                 (0, a.jsxs)(m.J, {
                                   htmlFor: "industrySector",
                                   className: "text-sm font-medium",
-                                  style: { color: "#344F1F" },
+                                  style: { color: "#2C3340" },
                                   children: [
                                     "Branche ",
                                     (0, a.jsx)("span", {
-                                      style: { color: "rgba(52, 79, 31, 0.5)" },
+                                      style: { color: "rgba(44, 51, 64, 0.5)" },
                                       children: "(optional)",
                                     }),
                                   ],
@@ -559,7 +559,7 @@
                                     minHeight: "48px",
                                     borderColor: E.industrySector
                                       ? "#EF4444"
-                                      : "rgba(52, 79, 31, 0.15)",
+                                      : "rgba(44, 51, 64, 0.15)",
                                   },
                                   placeholder: "z.B. IT, Pflege, Gastronomie",
                                 }),
@@ -581,11 +581,11 @@
                                 (0, a.jsxs)(m.J, {
                                   htmlFor: "companySize",
                                   className: "text-sm font-medium",
-                                  style: { color: "#344F1F" },
+                                  style: { color: "#2C3340" },
                                   children: [
                                     "Firmengr\xf6\xdfe ",
                                     (0, a.jsx)("span", {
-                                      style: { color: "rgba(52, 79, 31, 0.5)" },
+                                      style: { color: "rgba(44, 51, 64, 0.5)" },
                                       children: "(optional)",
                                     }),
                                   ],
@@ -600,7 +600,7 @@
                                         minHeight: "48px",
                                         borderColor: E.companySize
                                           ? "#EF4444"
-                                          : "rgba(52, 79, 31, 0.15)",
+                                          : "rgba(44, 51, 64, 0.15)",
                                       },
                                       children: (0, a.jsx)(u.yv, {
                                         placeholder: "Mitarbeiteranzahl",
@@ -640,7 +640,7 @@
                             (0, a.jsx)(m.J, {
                               htmlFor: "subject",
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: "Betreff *",
                             }),
                             (0, a.jsxs)(u.l6, {
@@ -653,7 +653,7 @@
                                     minHeight: "48px",
                                     borderColor: E.subject
                                       ? "#EF4444"
-                                      : "rgba(52, 79, 31, 0.15)",
+                                      : "rgba(44, 51, 64, 0.15)",
                                   },
                                   children: (0, a.jsx)(u.yv, {
                                     placeholder: "W\xe4hlen Sie einen Betreff",
@@ -687,7 +687,7 @@
                             (0, a.jsx)(m.J, {
                               htmlFor: "message",
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: "Nachricht *",
                             }),
                             (0, a.jsx)(h.T, {
@@ -697,7 +697,7 @@
                               style: {
                                 borderColor: E.message
                                   ? "#EF4444"
-                                  : "rgba(52, 79, 31, 0.15)",
+                                  : "rgba(44, 51, 64, 0.15)",
                               },
                               placeholder: "Beschreiben Sie Ihre Anfrage...",
                             }),
@@ -712,7 +712,7 @@
                               }),
                             (0, a.jsx)("p", {
                               className: "text-xs",
-                              style: { color: "rgba(52, 79, 31, 0.5)" },
+                              style: { color: "rgba(44, 51, 64, 0.5)" },
                               children: "Mindestens 10 Zeichen",
                             }),
                           ],
@@ -730,7 +730,7 @@
                           className:
                             "w-full rounded-full text-base font-medium",
                           style: {
-                            backgroundColor: "#F4991A",
+                            backgroundColor: "#5D5DE9",
                             color: "white",
                             minHeight: "56px",
                           },
@@ -754,7 +754,7 @@
                         }),
                         (0, a.jsx)("p", {
                           className: "text-xs text-center",
-                          style: { color: "rgba(52, 79, 31, 0.5)" },
+                          style: { color: "rgba(44, 51, 64, 0.5)" },
                           children: "* Pflichtfelder",
                         }),
                       ],
@@ -851,12 +851,12 @@
                 children: [
                   (0, a.jsx)("h2", {
                     className: "text-3xl font-bold mb-4",
-                    style: { color: "#344F1F" },
+                    style: { color: "#2C3340" },
                     children: "H\xe4ufig gestellte Fragen",
                   }),
                   (0, a.jsx)("p", {
                     className: "text-lg leading-relaxed",
-                    style: { color: "rgba(52, 79, 31, 0.7)" },
+                    style: { color: "rgba(44, 51, 64, 0.7)" },
                     children:
                       "Hier finden Sie Antworten auf die am h\xe4ufigsten gestellten Fragen zum Kontakt und unseren Services.",
                   }),
@@ -875,19 +875,19 @@
                         value: "item-".concat(s),
                         className: "rounded-xl border px-6",
                         style: {
-                          backgroundColor: "#F9F5F0",
-                          borderColor: "rgba(52, 79, 31, 0.1)",
+                          backgroundColor: "#F7F8FA",
+                          borderColor: "rgba(44, 51, 64, 0.1)",
                         },
                         children: [
                           (0, a.jsx)(l.AccordionTrigger, {
                             className:
                               "text-left font-semibold hover:no-underline py-5",
-                            style: { color: "#344F1F" },
+                            style: { color: "#2C3340" },
                             children: e.question,
                           }),
                           (0, a.jsx)(l.AccordionContent, {
                             className: "text-base leading-relaxed pb-5",
-                            style: { color: "rgba(52, 79, 31, 0.7)" },
+                            style: { color: "rgba(44, 51, 64, 0.7)" },
                             children: e.answer,
                           }),
                         ],
@@ -902,14 +902,14 @@
                 children: [
                   (0, a.jsx)("p", {
                     className: "text-base mb-4",
-                    style: { color: "rgba(52, 79, 31, 0.7)" },
+                    style: { color: "rgba(44, 51, 64, 0.7)" },
                     children: "Haben Sie weitere Fragen?",
                   }),
                   (0, a.jsxs)("a", {
                     href: "mailto:hello@azubi.ma",
                     className:
                       "inline-flex items-center gap-2 text-base font-semibold hover:underline",
-                    style: { color: "#F4991A" },
+                    style: { color: "#5D5DE9" },
                     children: [
                       "Kontaktieren Sie uns direkt",
                       (0, a.jsx)("svg", {
@@ -951,8 +951,8 @@
             "p-6 md:p-8 rounded-xl border transition-all hover:shadow-lg hover:transform hover:-translate-y-1",
           style: {
             backgroundColor: "white",
-            borderColor: "rgba(52, 79, 31, 0.1)",
-            boxShadow: "0 4px 8px rgba(52, 79, 31, 0.06)",
+            borderColor: "rgba(44, 51, 64, 0.1)",
+            boxShadow: "0 4px 8px rgba(44, 51, 64, 0.06)",
           },
           children: (0, a.jsxs)("div", {
             className: "flex flex-col items-center text-center space-y-4",
@@ -960,17 +960,17 @@
               (0, a.jsx)("div", {
                 className:
                   "w-14 h-14 rounded-full flex items-center justify-center",
-                style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                 children: s,
               }),
               (0, a.jsx)("h3", {
                 className: "text-lg font-semibold",
-                style: { color: "#344F1F" },
+                style: { color: "#2C3340" },
                 children: n,
               }),
               (0, a.jsx)("div", {
                 className: "text-base leading-relaxed",
-                style: { color: "rgba(52, 79, 31, 0.7)" },
+                style: { color: "rgba(44, 51, 64, 0.7)" },
                 children: r,
               }),
               t &&
@@ -978,7 +978,7 @@
                   asChild: !0,
                   variant: "ghost",
                   className: "rounded-full mt-2 font-medium",
-                  style: { color: "#F4991A" },
+                  style: { color: "#5D5DE9" },
                   children: t.external
                     ? (0, a.jsx)("a", {
                         href: t.href,
@@ -995,7 +995,7 @@
       function h() {
         return (0, a.jsx)("section", {
           className: "py-12 md:py-16",
-          style: { backgroundColor: "#F9F5F0" },
+          style: { backgroundColor: "#F7F8FA" },
           children: (0, a.jsxs)(r.m, {
             size: "lg",
             children: [
@@ -1004,12 +1004,12 @@
                 children: [
                   (0, a.jsx)("h2", {
                     className: "text-3xl font-bold mb-4",
-                    style: { color: "#344F1F" },
+                    style: { color: "#2C3340" },
                     children: "Kontaktm\xf6glichkeiten",
                   }),
                   (0, a.jsx)("p", {
                     className: "text-lg leading-relaxed",
-                    style: { color: "rgba(52, 79, 31, 0.7)" },
+                    style: { color: "rgba(44, 51, 64, 0.7)" },
                     children:
                       "W\xe4hlen Sie Ihre bevorzugte Kontaktmethode. Wir sind hier, um Ihnen zu helfen.",
                   }),
@@ -1021,7 +1021,7 @@
                   (0, a.jsx)(d, {
                     icon: (0, a.jsx)(t.A, {
                       className: "w-7 h-7",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                     }),
                     title: "E-Mail",
                     content: (0, a.jsxs)("div", {
@@ -1029,7 +1029,7 @@
                       children: [
                         (0, a.jsx)("p", {
                           className: "font-medium",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "hello@azubi.ma",
                         }),
                         (0, a.jsx)("p", {
@@ -1047,7 +1047,7 @@
                   (0, a.jsx)(d, {
                     icon: (0, a.jsx)(i.A, {
                       className: "w-7 h-7",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                     }),
                     title: "Telefon",
                     content: (0, a.jsxs)("div", {
@@ -1055,7 +1055,7 @@
                       children: [
                         (0, a.jsx)("p", {
                           className: "font-medium",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "+212 600 000 000",
                         }),
                         (0, a.jsx)("p", {
@@ -1073,7 +1073,7 @@
                   (0, a.jsx)(d, {
                     icon: (0, a.jsx)(o.A, {
                       className: "w-7 h-7",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                     }),
                     title: "Gesch\xe4ftszeiten",
                     content: (0, a.jsxs)("div", {
@@ -1081,7 +1081,7 @@
                       children: [
                         (0, a.jsx)("p", {
                           className: "font-medium",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Montag - Freitag",
                         }),
                         (0, a.jsx)("p", {
@@ -1090,7 +1090,7 @@
                         }),
                         (0, a.jsx)("p", {
                           className: "text-xs",
-                          style: { color: "rgba(52, 79, 31, 0.6)" },
+                          style: { color: "rgba(44, 51, 64, 0.6)" },
                           children:
                             "Samstag: 10:00 - 15:00 Uhr, Sonntag geschlossen",
                         }),
@@ -1104,7 +1104,7 @@
                 children: [
                   (0, a.jsx)("h3", {
                     className: "text-2xl font-bold text-center mb-8",
-                    style: { color: "#344F1F" },
+                    style: { color: "#2C3340" },
                     children: "Unsere Standorte",
                   }),
                   (0, a.jsxs)("div", {
@@ -1112,25 +1112,25 @@
                     children: [
                       (0, a.jsxs)(l.Zp, {
                         className: "p-8 rounded-2xl",
-                        style: { backgroundColor: "#F2EAD3", border: "none" },
+                        style: { backgroundColor: "#EEF0F4", border: "none" },
                         children: [
                           (0, a.jsxs)("div", {
                             className: "flex items-start gap-3 mb-4",
                             children: [
                               (0, a.jsx)(c.A, {
                                 className: "w-5 h-5 shrink-0 mt-1",
-                                style: { color: "#F4991A" },
+                                style: { color: "#5D5DE9" },
                               }),
                               (0, a.jsx)("h4", {
                                 className: "text-lg font-semibold",
-                                style: { color: "#344F1F" },
+                                style: { color: "#2C3340" },
                                 children: "Marrakesch B\xfcro",
                               }),
                             ],
                           }),
                           (0, a.jsxs)("div", {
                             className: "pl-8 space-y-1",
-                            style: { color: "rgba(52, 79, 31, 0.7)" },
+                            style: { color: "rgba(44, 51, 64, 0.7)" },
                             children: [
                               (0, a.jsx)("p", {
                                 children: "Marrakesch",
@@ -1147,25 +1147,25 @@
                       }),
                       (0, a.jsxs)(l.Zp, {
                         className: "p-8 rounded-2xl",
-                        style: { backgroundColor: "#F2EAD3", border: "none" },
+                        style: { backgroundColor: "#EEF0F4", border: "none" },
                         children: [
                           (0, a.jsxs)("div", {
                             className: "flex items-start gap-3 mb-4",
                             children: [
                               (0, a.jsx)(c.A, {
                                 className: "w-5 h-5 shrink-0 mt-1",
-                                style: { color: "#F4991A" },
+                                style: { color: "#5D5DE9" },
                               }),
                               (0, a.jsx)("h4", {
                                 className: "text-lg font-semibold",
-                                style: { color: "#344F1F" },
+                                style: { color: "#2C3340" },
                                 children: "Rabat B\xfcro",
                               }),
                             ],
                           }),
                           (0, a.jsxs)("div", {
                             className: "pl-8 space-y-1",
-                            style: { color: "rgba(52, 79, 31, 0.7)" },
+                            style: { color: "rgba(44, 51, 64, 0.7)" },
                             children: [
                               (0, a.jsx)("p", {
                                 children: "Rabat",

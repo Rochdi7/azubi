@@ -1,0 +1,111 @@
+/* ============================================
+   Azubi — Brand Typography
+     Display / headings : GT Super Display  (serif)
+     Body / UI          : DM Sans           (sans)
+   Same pairing as the Leapsome reference:
+     --_typography---family--primary:   "Gt Super Display", sans-serif
+     --_typography---family--secondary: "DM Sans", Arial, sans-serif
+   ============================================ */
+
+/* ---------- GT Super Display (headings) ---------- */
+@font-face {
+  font-family: 'GT Super Display';
+  src: url('../fonts/65394e9716391a4e23a20352_GT-Super-Display-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GT Super Display';
+  src: url('../fonts/65394e97b7805494f5736d2d_GT-Super-Display-Medium.woff2') format('woff2');
+  font-weight: 500 700;   /* Medium covers the bold end — no faux-bold jump */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- DM Sans (body / UI) ---------- */
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../fonts/687613300e6ee405de90d7ca_DMSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../fonts/687613c278c4fd0d8c3d8f2a_DMSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../fonts/687613c28dc9a5ca84f64438_DMSans-Medium.woff2') format('woff2');
+  font-weight: 500 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../fonts/6876140a8dc9a5ca84f698dd_DMSans-Bold.woff2') format('woff2');
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Family tokens
+   ============================================ */
+:root {
+  --font-display: 'GT Super Display', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+
+  /* The prebuilt Tailwind CSS resolves body text through var(--font-inter).
+     Redefining it here re-points the whole site at DM Sans without
+     touching a single utility class. */
+  --font-inter: var(--font-body);
+}
+
+/* ---------- Body ---------- */
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- Headings use the display serif ---------- */
+h1, h2, h3, h4, h5, h6,
+.font-display,
+.azubi-display {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+
+/* GT Super is a display face — it wants tighter leading at large sizes */
+h1, .azubi-display { line-height: 1.08; letter-spacing: -0.025em; }
+h2 { line-height: 1.14; }
+h3 { line-height: 1.2; }
+
+/* Tailwind's .font-serif should resolve to the brand serif, not Georgia */
+.font-serif { font-family: var(--font-display); }
+
+/* Keep small structural labels on the sans face even when nested in headings */
+.azubi-eyebrow,
+.font-body,
+.azubi-body {
+  font-family: var(--font-body);
+}
+
+/* Eyebrow / kicker — the uppercase tracked label above headings */
+.azubi-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 700;
+  font-size: 0.8125rem;
+}
+
+/* Buttons and form controls inherit the UI face */
+button, input, optgroup, select, textarea {
+  font-family: var(--font-body);
+}

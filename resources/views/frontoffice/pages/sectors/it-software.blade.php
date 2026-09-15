@@ -26,7 +26,7 @@
                     View IT Sector
                 </a>
                 <a href="{{ route('front.sectors') }}"
-                    class="inline-flex items-center justify-center gap-2 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 rounded-full px-8 text-sm font-semibold transition-all duration-200">
+                    class="inline-flex items-center justify-center gap-2 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 rounded-full px-8 text-sm font-semibold transition-all duration-200">
                     Back to Sectors
                 </a>
             </div>

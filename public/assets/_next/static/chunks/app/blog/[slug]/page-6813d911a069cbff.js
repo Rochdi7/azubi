@@ -494,7 +494,7 @@
                         size: "lg",
                         variant: "outline",
                         className:
-                          "w-full sm:w-auto rounded-full border-2 border-white text-white hover:bg-white hover:text-[#344F1F]",
+                          "w-full sm:w-auto rounded-full border-2 border-white text-white hover:bg-white hover:text-[#2C3340]",
                         children: (0, r.jsx)(i(), { href: d, children: c }),
                       }),
                   ],

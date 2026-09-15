@@ -20,7 +20,7 @@
                 <div class="space-y-6 text-center lg:text-left">
                     <!-- Badge -->
                     <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full"
-                        style="background-color:rgba(244,153,26,0.1);border:1px solid rgba(244,153,26,0.2);">
+                        style="background-color:rgba(93,93,233,0.1);border:1px solid rgba(93,93,233,0.2);">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="w-4 h-4 text-primary">
@@ -43,7 +43,7 @@
                     <div class="grid gap-4 max-w-lg mx-auto lg:mx-0">
                         <div class="flex items-start gap-3 lg:justify-start">
                             <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                                style="background-color:rgba(244,153,26,0.1)">
+                                style="background-color:rgba(93,93,233,0.1)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="h-6 w-6 text-primary">
@@ -59,7 +59,7 @@
                         </div>
                         <div class="flex items-start gap-3 lg:justify-start">
                             <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                                style="background-color:rgba(52,79,31,0.1)">
+                                style="background-color:rgba(44,51,64,0.1)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="h-6 w-6 text-secondary">
@@ -77,7 +77,7 @@
                         </div>
                         <div class="flex items-start gap-3 lg:justify-start">
                             <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                                style="background-color:rgba(244,153,26,0.1)">
+                                style="background-color:rgba(93,93,233,0.1)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="h-6 w-6 text-primary">
@@ -94,9 +94,9 @@
                     </div>
                     <!-- CTA -->
                     <div class="flex justify-center lg:justify-start">
-                        <a href="#contact-form-section"
+                        <a href="#azubi-contact-form-section"
                             class="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 rounded-full px-8 text-base font-semibold transition-all duration-200"
-                            style="background-color:#f4991a;color:white;min-height:48px;">
+                            style="background-color:#5D5DE9;color:white;min-height:48px;">
                             Send Us a Message
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -129,7 +129,7 @@
                         class="text-card-foreground h-full bg-card border-0 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-200 rounded-2xl">
                         <div class="p-6">
                             <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
-                                style="background-color:rgba(244,153,26,0.1)">
+                                style="background-color:rgba(93,93,233,0.1)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-primary">
@@ -159,7 +159,7 @@
                         class="text-card-foreground h-full bg-card border-0 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-200 rounded-2xl">
                         <div class="p-6">
                             <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
-                                style="background-color:rgba(244,153,26,0.1)">
+                                style="background-color:rgba(93,93,233,0.1)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-primary">
@@ -188,7 +188,7 @@
                         class="text-card-foreground h-full bg-card border-0 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-200 rounded-2xl">
                         <div class="p-6">
                             <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
-                                style="background-color:rgba(244,153,26,0.1)">
+                                style="background-color:rgba(93,93,233,0.1)">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-primary">
@@ -221,7 +221,7 @@
                 <div>
                     <div class="text-card-foreground h-full bg-card border-0 shadow-md rounded-2xl overflow-hidden">
                         <div class="p-0">
-                            <div class="p-4" style="background-color:rgba(244,153,26,0.1)">
+                            <div class="p-4" style="background-color:rgba(93,93,233,0.1)">
                                 <div class="flex items-center gap-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -258,7 +258,7 @@
                 <div>
                     <div class="text-card-foreground h-full bg-card border-0 shadow-md rounded-2xl overflow-hidden">
                         <div class="p-0">
-                            <div class="p-4" style="background-color:rgba(244,153,26,0.1)">
+                            <div class="p-4" style="background-color:rgba(93,93,233,0.1)">
                                 <div class="flex items-center gap-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -296,7 +296,7 @@
     </section>
 
     <!-- ====== CONTACT FORM ====== -->
-    <section id="contact-form-section" class="bg-card py-12">
+    <section id="azubi-contact-form-section" class="bg-card py-12">
         <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-7xl py-12">
             <div class="grid lg:grid-cols-[1fr_0.4fr] gap-8 items-start max-w-5xl mx-auto">
                 <div class="text-card-foreground overflow-hidden bg-card shadow-md border-0 rounded-2xl">
@@ -351,7 +351,7 @@
                                                     </svg>
                                                 </span>
                                             </button>
-                                            <div class="h-full w-px bg-beige"></div>
+                                            <div class="h-full w-px azubi-bg-beige"></div>
                                             <input type="tel" placeholder="Phone number" autocomplete="tel"
                                                 class="flex-1 border-0 bg-transparent px-3 py-2 text-sm outline-none placeholder:text-muted-foreground">
                                         </div>
@@ -388,7 +388,7 @@
                             <!-- Submit -->
                             <button
                                 class="inline-flex items-center justify-center gap-2 text-sm font-semibold transition-all duration-200 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full rounded-full"
-                                type="submit" style="background-color:#f4991a;color:white;min-height:48px;">
+                                type="submit" style="background-color:#5D5DE9;color:white;min-height:48px;">
                                 Send Message
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -431,9 +431,9 @@
                 <!-- FAQ 1 -->
                 <div class="flex flex-col">
                     <div
-                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow faq-item-tw">
+                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow azubi-faq-item-tw">
                         <button
-                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all faq-btn-tw"
+                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all azubi-faq-btn-tw"
                             aria-expanded="false">
                             <span class="flex items-start">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -450,11 +450,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 faq-chev-tw">
+                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 azubi-faq-chev-tw">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content-tw" style="display:none;">
+                        <div class="azubi-faq-content-tw" style="display:none;">
                             <div class="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
                                 Getting started is easy! Create a free account on Azubi, complete your
                                 profile, and use our AI-powered tools to find matching Ausbildung positions.
@@ -466,9 +466,9 @@
                 <!-- FAQ 2 -->
                 <div class="flex flex-col">
                     <div
-                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow faq-item-tw">
+                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow azubi-faq-item-tw">
                         <button
-                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all faq-btn-tw"
+                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all azubi-faq-btn-tw"
                             aria-expanded="false">
                             <span class="flex items-start">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -485,11 +485,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 faq-chev-tw">
+                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 azubi-faq-chev-tw">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content-tw" style="display:none;">
+                        <div class="azubi-faq-content-tw" style="display:none;">
                             <div class="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
                                 Creating an account and browsing jobs is completely free. We offer different
                                 service packages for application support, document preparation, and visa
@@ -502,9 +502,9 @@
                 <!-- FAQ 3 -->
                 <div class="flex flex-col">
                     <div
-                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow faq-item-tw">
+                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow azubi-faq-item-tw">
                         <button
-                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all faq-btn-tw"
+                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all azubi-faq-btn-tw"
                             aria-expanded="false">
                             <span class="flex items-start">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -521,11 +521,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 faq-chev-tw">
+                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 azubi-faq-chev-tw">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content-tw" style="display:none;">
+                        <div class="azubi-faq-content-tw" style="display:none;">
                             <div class="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
                                 Most Ausbildung programs require at least B1 level German. However, some
                                 programs in certain sectors accept B2 English with a commitment to learn
@@ -538,9 +538,9 @@
                 <!-- FAQ 4 -->
                 <div class="flex flex-col">
                     <div
-                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow faq-item-tw">
+                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow azubi-faq-item-tw">
                         <button
-                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all faq-btn-tw"
+                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all azubi-faq-btn-tw"
                             aria-expanded="false">
                             <span class="flex items-start">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -557,11 +557,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 faq-chev-tw">
+                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 azubi-faq-chev-tw">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content-tw" style="display:none;">
+                        <div class="azubi-faq-content-tw" style="display:none;">
                             <div class="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
                                 Ausbildung programs typically last between 2 to 3.5 years, depending on the
                                 profession and sector. During this time, you'll combine practical on-the-job
@@ -573,9 +573,9 @@
                 <!-- FAQ 5 -->
                 <div class="flex flex-col">
                     <div
-                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow faq-item-tw">
+                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow azubi-faq-item-tw">
                         <button
-                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all faq-btn-tw"
+                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all azubi-faq-btn-tw"
                             aria-expanded="false">
                             <span class="flex items-start">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -591,11 +591,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 faq-chev-tw">
+                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 azubi-faq-chev-tw">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content-tw" style="display:none;">
+                        <div class="azubi-faq-content-tw" style="display:none;">
                             <div class="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
                                 Yes! Ausbildung is a dual education system, meaning you work and learn
                                 simultaneously. You'll spend part of your week at a company gaining practical
@@ -607,9 +607,9 @@
                 <!-- FAQ 6 -->
                 <div class="flex flex-col">
                     <div
-                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow faq-item-tw">
+                        class="border rounded-xl overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow azubi-faq-item-tw">
                         <button
-                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all faq-btn-tw"
+                            class="w-full flex items-center justify-between p-5 text-left font-medium transition-all azubi-faq-btn-tw"
                             aria-expanded="false">
                             <span class="flex items-start">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -626,11 +626,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 faq-chev-tw">
+                                class="h-5 w-5 text-muted-foreground transition-transform duration-200 azubi-faq-chev-tw">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content-tw" style="display:none;">
+                        <div class="azubi-faq-content-tw" style="display:none;">
                             <div class="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
                                 After completing your Ausbildung, you'll receive a recognized German
                                 qualification. Many companies offer permanent positions to their graduates.
@@ -645,7 +645,7 @@
                 <p class="text-muted-foreground mb-6">Still have questions? We're here to help you navigate
                     every step of your journey.</p>
                 <div class="inline-flex items-center justify-center px-6 py-3 rounded-full text-primary font-medium"
-                    style="background-color:rgba(244,153,26,0.1)">
+                    style="background-color:rgba(93,93,233,0.1)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="h-5 w-5 mr-2">
@@ -682,7 +682,7 @@
                             class="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                             Jobs</a>
                         <a href="#"
-                            class="inline-flex items-center justify-center gap-2 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Book
+                            class="inline-flex items-center justify-center gap-2 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Book
                             Consultation</a>
                     </div>
                 </div>

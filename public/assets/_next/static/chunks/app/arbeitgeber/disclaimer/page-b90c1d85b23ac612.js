@@ -21,7 +21,7 @@
       function j() {
         return (0, n.jsxs)("div", {
           className: "min-h-screen",
-          style: { backgroundColor: "#F9F5F0" },
+          style: { backgroundColor: "#F7F8FA" },
           children: [
             (0, n.jsx)(g.M, {}),
             (0, n.jsx)("section", {
@@ -34,17 +34,17 @@
                     (0, n.jsx)("div", {
                       className:
                         "w-16 h-16 rounded-full flex items-center justify-center shrink-0",
-                      style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                      style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                       children: (0, n.jsx)(l.A, {
                         className: "w-8 h-8",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                     }),
                     (0, n.jsxs)("div", {
                       children: [
                         (0, n.jsx)("h1", {
                           className: "text-3xl md:text-4xl font-bold",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Haftungsausschluss",
                         }),
                         (0, n.jsx)("p", {
@@ -77,20 +77,20 @@
                   (0, n.jsxs)("div", {
                     className: "p-5 rounded-xl flex items-start gap-3",
                     style: {
-                      backgroundColor: "rgba(244, 153, 26, 0.1)",
-                      border: "1px solid rgba(244, 153, 26, 0.2)",
+                      backgroundColor: "rgba(93, 93, 233, 0.1)",
+                      border: "1px solid rgba(93, 93, 233, 0.2)",
                     },
                     children: [
                       (0, n.jsx)(l.A, {
                         className: "w-5 h-5 shrink-0 mt-0.5",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                       (0, n.jsxs)("div", {
                         className: "text-sm",
                         children: [
                           (0, n.jsx)("p", {
                             className: "font-medium mb-1",
-                            style: { color: "#344F1F" },
+                            style: { color: "#2C3340" },
                             children: "Wichtiger Hinweis",
                           }),
                           (0, n.jsx)("p", {
@@ -120,17 +120,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(t.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "1. Vermittlungsplattform",
                                   }),
                                 ],
@@ -141,7 +141,7 @@
                                 children: [
                                   (0, n.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, n.jsxs)("p", {
                                         className: "leading-relaxed mb-3",
@@ -176,7 +176,7 @@
                                   (0, n.jsx)("div", {
                                     className: "p-4 rounded-lg",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: (0, n.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
@@ -203,17 +203,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(a.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "2. Haftung f\xfcr Inhalte",
                                   }),
                                 ],
@@ -234,7 +234,7 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, n.jsx)("h4", {
@@ -259,7 +259,7 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, n.jsx)("h4", {
@@ -284,7 +284,7 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, n.jsx)("h4", {
@@ -317,17 +317,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(l.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "3. Keine Erfolgsgarantie",
                                   }),
                                 ],
@@ -340,7 +340,7 @@
                                     className: "p-5 rounded-xl",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.08)",
+                                        "rgba(93, 93, 233, 0.08)",
                                     },
                                     children: [
                                       (0, n.jsxs)("p", {
@@ -434,7 +434,7 @@
                                   (0, n.jsx)("div", {
                                     className: "p-4 rounded-lg",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: (0, n.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
@@ -461,17 +461,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(i.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "4. Technische Verf\xfcgbarkeit",
                                   }),
                                 ],
@@ -487,7 +487,7 @@
                                   }),
                                   (0, n.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, n.jsx)("p", {
                                         className:
@@ -521,7 +521,7 @@
                                                 className:
                                                   "w-1.5 h-1.5 rounded-full shrink-0 mt-1.5",
                                                 style: {
-                                                  backgroundColor: "#F4991A",
+                                                  backgroundColor: "#5D5DE9",
                                                 },
                                               }),
                                               (0, n.jsx)("span", {
@@ -537,7 +537,7 @@
                                                 className:
                                                   "w-1.5 h-1.5 rounded-full shrink-0 mt-1.5",
                                                 style: {
-                                                  backgroundColor: "#F4991A",
+                                                  backgroundColor: "#5D5DE9",
                                                 },
                                               }),
                                               (0, n.jsx)("span", {
@@ -553,7 +553,7 @@
                                                 className:
                                                   "w-1.5 h-1.5 rounded-full shrink-0 mt-1.5",
                                                 style: {
-                                                  backgroundColor: "#F4991A",
+                                                  backgroundColor: "#5D5DE9",
                                                 },
                                               }),
                                               (0, n.jsx)("span", {
@@ -569,7 +569,7 @@
                                                 className:
                                                   "w-1.5 h-1.5 rounded-full shrink-0 mt-1.5",
                                                 style: {
-                                                  backgroundColor: "#F4991A",
+                                                  backgroundColor: "#5D5DE9",
                                                 },
                                               }),
                                               (0, n.jsx)("span", {
@@ -586,9 +586,9 @@
                                     className: "p-4 rounded-lg",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                       border:
-                                        "1px solid rgba(244, 153, 26, 0.2)",
+                                        "1px solid rgba(93, 93, 233, 0.2)",
                                     },
                                     children: (0, n.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
@@ -615,17 +615,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(d.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "5. Automatische \xdcbersetzungen",
                                   }),
@@ -644,7 +644,7 @@
                                     className: "p-5 rounded-xl",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.08)",
+                                        "rgba(93, 93, 233, 0.08)",
                                     },
                                     children: [
                                       (0, n.jsx)("p", {
@@ -736,7 +736,7 @@
                                   (0, n.jsx)("div", {
                                     className: "p-4 rounded-lg",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: (0, n.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
@@ -763,17 +763,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(c.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "6. Haftung f\xfcr externe Links",
                                   }),
                                 ],
@@ -789,7 +789,7 @@
                                   }),
                                   (0, n.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, n.jsxs)("p", {
                                         className: "leading-relaxed mb-3",
@@ -812,7 +812,7 @@
                                   (0, n.jsx)("div", {
                                     className: "p-4 rounded-lg",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: (0, n.jsx)("p", {
                                       className: "text-sm leading-relaxed",
@@ -834,17 +834,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, n.jsx)(o.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, n.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "7. Keine Rechtsberatung",
                                   }),
                                 ],
@@ -855,7 +855,7 @@
                                 children: (0, n.jsxs)("div", {
                                   className: "p-5 rounded-xl",
                                   style: {
-                                    backgroundColor: "rgba(244, 153, 26, 0.08)",
+                                    backgroundColor: "rgba(93, 93, 233, 0.08)",
                                   },
                                   children: [
                                     (0, n.jsxs)("p", {
@@ -884,7 +884,7 @@
                             children: [
                               (0, n.jsx)("h3", {
                                 className: "text-lg font-semibold mb-4",
-                                style: { color: "#344F1F" },
+                                style: { color: "#2C3340" },
                                 children:
                                   "8. Anwendbares Recht und Gerichtsstand",
                               }),
@@ -894,7 +894,7 @@
                                 children: (0, n.jsxs)("div", {
                                   className: "p-5 rounded-xl",
                                   style: {
-                                    backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                    backgroundColor: "rgba(44, 51, 64, 0.05)",
                                   },
                                   children: [
                                     (0, n.jsxs)("p", {
@@ -936,7 +936,7 @@
                             className: "pt-6 border-t border-border/30",
                             children: (0, n.jsxs)("div", {
                               className: "p-6 rounded-xl",
-                              style: { backgroundColor: "#F2EAD3" },
+                              style: { backgroundColor: "#EEF0F4" },
                               children: [
                                 (0, n.jsx)("p", {
                                   className:
@@ -962,7 +962,7 @@
                                       (0, n.jsx)("a", {
                                         href: "mailto:arbeitgeber@azubi.ma",
                                         className: "hover:underline",
-                                        style: { color: "#F4991A" },
+                                        style: { color: "#5D5DE9" },
                                         children:
                                           "arbeitgeber@azubi.ma",
                                       }),
@@ -983,7 +983,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, n.jsx)(u(), {
                           href: "/arbeitgeber/impressum",
                           children: "Impressum",
@@ -993,7 +993,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, n.jsx)(u(), {
                           href: "/arbeitgeber/datenschutz",
                           children: "Datenschutz",
@@ -1003,7 +1003,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, n.jsx)(u(), {
                           href: "/arbeitgeber/agb",
                           children: "AGB",
@@ -1012,7 +1012,7 @@
                       (0, n.jsx)(x.$, {
                         asChild: !0,
                         className: "rounded-full",
-                        style: { backgroundColor: "#F4991A", color: "white" },
+                        style: { backgroundColor: "#5D5DE9", color: "white" },
                         children: (0, n.jsx)(u(), {
                           href: "/arbeitgeber",
                           children: "Zur\xfcck zur Startseite",

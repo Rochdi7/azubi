@@ -28,7 +28,7 @@
       function y() {
         return (0, l.jsxs)("div", {
           className: "min-h-screen",
-          style: { backgroundColor: "#F9F5F0" },
+          style: { backgroundColor: "#F7F8FA" },
           children: [
             (0, l.jsx)(f.M, {}),
             (0, l.jsx)("section", {
@@ -41,17 +41,17 @@
                     (0, l.jsx)("div", {
                       className:
                         "w-16 h-16 rounded-full flex items-center justify-center shrink-0",
-                      style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                      style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                       children: (0, l.jsx)(n.A, {
                         className: "w-8 h-8",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                     }),
                     (0, l.jsxs)("div", {
                       children: [
                         (0, l.jsx)("h1", {
                           className: "text-3xl md:text-4xl font-bold",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Datenschutzerkl\xe4rung",
                         }),
                         (0, l.jsx)("p", {
@@ -85,20 +85,20 @@
                   (0, l.jsxs)("div", {
                     className: "p-5 rounded-xl flex items-start gap-3",
                     style: {
-                      backgroundColor: "rgba(244, 153, 26, 0.1)",
-                      border: "1px solid rgba(244, 153, 26, 0.2)",
+                      backgroundColor: "rgba(93, 93, 233, 0.1)",
+                      border: "1px solid rgba(93, 93, 233, 0.2)",
                     },
                     children: [
                       (0, l.jsx)(a.A, {
                         className: "w-5 h-5 shrink-0 mt-0.5",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                       (0, l.jsxs)("div", {
                         className: "text-sm",
                         children: [
                           (0, l.jsx)("p", {
                             className: "font-medium mb-1",
-                            style: { color: "#344F1F" },
+                            style: { color: "#2C3340" },
                             children: "Wichtiger Hinweis",
                           }),
                           (0, l.jsx)("p", {
@@ -128,17 +128,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(t.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "1. Verantwortlicher",
                                   }),
                                 ],
@@ -154,11 +154,11 @@
                                   }),
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, l.jsx)("p", {
                                         className: "font-semibold mb-2",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children: "Azubi",
                                       }),
                                       (0, l.jsx)("p", {
@@ -173,14 +173,14 @@
                                         children: [
                                           (0, l.jsx)("span", {
                                             className: "font-medium",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "E-Mail:",
                                           }),
                                           " ",
                                           (0, l.jsx)("a", {
                                             href: "mailto:datenschutz@azubi.ma",
                                             className: "hover:underline",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                             children:
                                               "datenschutz@azubi.ma",
                                           }),
@@ -202,17 +202,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(i.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "2. Erhebung und Speicherung personenbezogener Daten",
                                   }),
@@ -234,12 +234,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("h4", {
                                             className: "font-medium mb-3",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "Unternehmensdaten",
                                           }),
                                           (0, l.jsxs)("ul", {
@@ -252,7 +252,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -267,7 +267,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -282,7 +282,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -297,7 +297,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -313,12 +313,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("h4", {
                                             className: "font-medium mb-3",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "Kontaktdaten",
                                           }),
                                           (0, l.jsxs)("ul", {
@@ -331,7 +331,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -346,7 +346,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -361,7 +361,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children: "E-Mail-Adresse",
@@ -375,7 +375,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -391,12 +391,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("h4", {
                                             className: "font-medium mb-3",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "Plattform-Nutzung",
                                           }),
                                           (0, l.jsxs)("ul", {
@@ -409,7 +409,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -424,7 +424,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -439,7 +439,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -454,7 +454,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -470,12 +470,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("h4", {
                                             className: "font-medium mb-3",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "Technische Daten",
                                           }),
                                           (0, l.jsxs)("ul", {
@@ -488,7 +488,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -503,7 +503,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -518,7 +518,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children:
@@ -533,7 +533,7 @@
                                                   (0, l.jsx)(c.A, {
                                                     className:
                                                       "w-4 h-4 shrink-0 mt-0.5",
-                                                    style: { color: "#F4991A" },
+                                                    style: { color: "#5D5DE9" },
                                                   }),
                                                   (0, l.jsx)("span", {
                                                     children: "Login-Zeiten",
@@ -550,16 +550,16 @@
                                     className: "p-4 rounded-lg mt-4",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.05)",
+                                        "rgba(93, 93, 233, 0.05)",
                                       border:
-                                        "1px solid rgba(244, 153, 26, 0.15)",
+                                        "1px solid rgba(93, 93, 233, 0.15)",
                                     },
                                     children: (0, l.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
                                       children: [
                                         (0, l.jsx)("span", {
                                           className: "font-medium",
-                                          style: { color: "#344F1F" },
+                                          style: { color: "#2C3340" },
                                           children: "Rechtsgrundlage:",
                                         }),
                                         " Die Datenverarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sowie zur Vertragserf\xfcllung (Art. 6 Abs. 1 lit. b DSGVO).",
@@ -580,17 +580,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(d.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "3. Verwendung Ihrer Daten",
                                   }),
                                 ],
@@ -612,19 +612,19 @@
                                           "flex items-start gap-3 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(o.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Bereitstellung der Plattform",
                                               }),
@@ -642,19 +642,19 @@
                                           "flex items-start gap-3 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(o.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Stellenanzeigen-Verwaltung",
                                               }),
@@ -672,19 +672,19 @@
                                           "flex items-start gap-3 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(o.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children: "Bewerbermanagement",
                                               }),
                                               (0, l.jsx)("p", {
@@ -701,19 +701,19 @@
                                           "flex items-start gap-3 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(o.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children: "Kundenservice",
                                               }),
                                               (0, l.jsx)("p", {
@@ -730,19 +730,19 @@
                                           "flex items-start gap-3 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(o.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children: "Abrechnung",
                                               }),
                                               (0, l.jsx)("p", {
@@ -759,19 +759,19 @@
                                           "flex items-start gap-3 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(o.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Plattform-Verbesserung",
                                               }),
@@ -800,17 +800,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(m.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "4. Weitergabe von Daten",
                                   }),
                                 ],
@@ -826,11 +826,11 @@
                                   }),
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, l.jsx)("h4", {
                                         className: "font-semibold mb-3",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children: "An Bewerber (Studenten)",
                                       }),
                                       (0, l.jsx)("p", {
@@ -847,7 +847,7 @@
                                               (0, l.jsx)(c.A, {
                                                 className:
                                                   "w-4 h-4 shrink-0 mt-0.5",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                               }),
                                               (0, l.jsx)("span", {
                                                 children: "Firmenname und Logo",
@@ -860,7 +860,7 @@
                                               (0, l.jsx)(c.A, {
                                                 className:
                                                   "w-4 h-4 shrink-0 mt-0.5",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                               }),
                                               (0, l.jsx)("span", {
                                                 children:
@@ -874,7 +874,7 @@
                                               (0, l.jsx)(c.A, {
                                                 className:
                                                   "w-4 h-4 shrink-0 mt-0.5",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                               }),
                                               (0, l.jsx)("span", {
                                                 children:
@@ -890,7 +890,7 @@
                                     children: [
                                       (0, l.jsx)("h4", {
                                         className: "font-semibold mb-3",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children:
                                           "An Dienstleister (Auftragsverarbeiter)",
                                       }),
@@ -907,12 +907,12 @@
                                             style: {
                                               backgroundColor: "white",
                                               borderColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Supabase (Datenbank)",
                                               }),
@@ -928,12 +928,12 @@
                                             style: {
                                               backgroundColor: "white",
                                               borderColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children: "Vercel (Hosting)",
                                               }),
                                               (0, l.jsx)("p", {
@@ -948,12 +948,12 @@
                                             style: {
                                               backgroundColor: "white",
                                               borderColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Resend (E-Mail-Versand)",
                                               }),
@@ -969,12 +969,12 @@
                                             style: {
                                               backgroundColor: "white",
                                               borderColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children: "Google Analytics",
                                               }),
                                               (0, l.jsx)("p", {
@@ -989,12 +989,12 @@
                                             style: {
                                               backgroundColor: "white",
                                               borderColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children: "Stripe (Zahlungen)",
                                               }),
                                               (0, l.jsx)("p", {
@@ -1010,14 +1010,14 @@
                                         className: "mt-3 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(244, 153, 26, 0.05)",
+                                            "rgba(93, 93, 233, 0.05)",
                                         },
                                         children: (0, l.jsxs)("p", {
                                           className: "text-sm leading-relaxed",
                                           children: [
                                             (0, l.jsx)("span", {
                                               className: "font-medium",
-                                              style: { color: "#344F1F" },
+                                              style: { color: "#2C3340" },
                                               children: "Wichtig:",
                                             }),
                                             " Alle Dienstleister sind vertraglich zur Einhaltung der DSGVO verpflichtet und verarbeiten Daten ausschlie\xdflich nach unseren Weisungen.",
@@ -1029,12 +1029,12 @@
                                   (0, l.jsxs)("div", {
                                     className: "p-4 rounded-xl",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: [
                                       (0, l.jsx)("h4", {
                                         className: "font-semibold mb-2",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children: "An Beh\xf6rden",
                                       }),
                                       (0, l.jsx)("p", {
@@ -1058,17 +1058,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(m.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "5. Internationale Datentransfers",
                                   }),
@@ -1080,7 +1080,7 @@
                                 children: (0, l.jsxs)("div", {
                                   className: "p-5 rounded-xl",
                                   style: {
-                                    backgroundColor: "rgba(244, 153, 26, 0.08)",
+                                    backgroundColor: "rgba(93, 93, 233, 0.08)",
                                   },
                                   children: [
                                     (0, l.jsxs)("p", {
@@ -1088,7 +1088,7 @@
                                       children: [
                                         (0, l.jsx)("span", {
                                           className: "font-semibold",
-                                          style: { color: "#344F1F" },
+                                          style: { color: "#2C3340" },
                                           children: "Wichtige Information:",
                                         }),
                                         " Obwohl unser Unternehmen im K\xf6nigreich Marokko registriert ist, erfolgt die gesamte Datenverarbeitung DSGVO-konform auf Servern in Deutschland.",
@@ -1114,17 +1114,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(h.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "6. Ihre Verantwortlichkeiten als Arbeitgeber",
                                   }),
@@ -1133,11 +1133,11 @@
                               (0, l.jsxs)("div", {
                                 className:
                                   "p-6 rounded-xl space-y-4 text-sm md:text-base",
-                                style: { backgroundColor: "#F2EAD3" },
+                                style: { backgroundColor: "#EEF0F4" },
                                 children: [
                                   (0, l.jsx)("p", {
                                     className: "leading-relaxed font-medium",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "Als Arbeitgeber auf unserer Plattform sind Sie selbst verantwortlich f\xfcr:",
                                   }),
@@ -1152,11 +1152,11 @@
                                               "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                             style: {
                                               backgroundColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: (0, l.jsx)(c.A, {
                                               className: "w-4 h-4",
-                                              style: { color: "#F4991A" },
+                                              style: { color: "#5D5DE9" },
                                             }),
                                           }),
                                           (0, l.jsxs)("p", {
@@ -1181,11 +1181,11 @@
                                               "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                             style: {
                                               backgroundColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: (0, l.jsx)(c.A, {
                                               className: "w-4 h-4",
-                                              style: { color: "#F4991A" },
+                                              style: { color: "#5D5DE9" },
                                             }),
                                           }),
                                           (0, l.jsxs)("p", {
@@ -1210,11 +1210,11 @@
                                               "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                             style: {
                                               backgroundColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: (0, l.jsx)(c.A, {
                                               className: "w-4 h-4",
-                                              style: { color: "#F4991A" },
+                                              style: { color: "#5D5DE9" },
                                             }),
                                           }),
                                           (0, l.jsxs)("p", {
@@ -1239,11 +1239,11 @@
                                               "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                             style: {
                                               backgroundColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: (0, l.jsx)(c.A, {
                                               className: "w-4 h-4",
-                                              style: { color: "#F4991A" },
+                                              style: { color: "#5D5DE9" },
                                             }),
                                           }),
                                           (0, l.jsxs)("p", {
@@ -1268,11 +1268,11 @@
                                               "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                             style: {
                                               backgroundColor:
-                                                "rgba(244, 153, 26, 0.2)",
+                                                "rgba(93, 93, 233, 0.2)",
                                             },
                                             children: (0, l.jsx)(c.A, {
                                               className: "w-4 h-4",
-                                              style: { color: "#F4991A" },
+                                              style: { color: "#5D5DE9" },
                                             }),
                                           }),
                                           (0, l.jsxs)("p", {
@@ -1295,7 +1295,7 @@
                                     className: "mt-4 p-4 rounded-lg",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
@@ -1321,17 +1321,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(i.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "7. Speicherdauer",
                                   }),
                                 ],
@@ -1352,12 +1352,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("p", {
                                             className: "font-medium mb-2",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "W\xe4hrend der Nutzung",
                                           }),
                                           (0, l.jsx)("p", {
@@ -1371,12 +1371,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("p", {
                                             className: "font-medium mb-2",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "Nach Kontol\xf6schung",
                                           }),
                                           (0, l.jsx)("p", {
@@ -1390,12 +1390,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("p", {
                                             className: "font-medium mb-2",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children:
                                               "Rechnungen & Finanzdaten",
                                           }),
@@ -1410,12 +1410,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("p", {
                                             className: "font-medium mb-2",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children:
                                               "Anonymisierte Statistiken",
                                           }),
@@ -1442,17 +1442,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(n.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "8. Ihre Rechte",
                                   }),
                                 ],
@@ -1464,7 +1464,7 @@
                                     className: "p-5 rounded-xl",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.08)",
+                                        "rgba(93, 93, 233, 0.08)",
                                     },
                                     children: [
                                       (0, l.jsx)("p", {
@@ -1482,7 +1482,7 @@
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "✓ Auskunftsrecht (Art. 15 DSGVO)",
                                               }),
@@ -1500,7 +1500,7 @@
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "✓ Berichtigungsrecht (Art. 16 DSGVO)",
                                               }),
@@ -1518,7 +1518,7 @@
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "✓ L\xf6schungsrecht (Art. 17 DSGVO)",
                                               }),
@@ -1536,7 +1536,7 @@
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "✓ Einschr\xe4nkungsrecht (Art. 18 DSGVO)",
                                               }),
@@ -1554,7 +1554,7 @@
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "✓ Daten\xfcbertragbarkeit (Art. 20 DSGVO)",
                                               }),
@@ -1572,7 +1572,7 @@
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "✓ Widerspruchsrecht (Art. 21 DSGVO)",
                                               }),
@@ -1590,7 +1590,7 @@
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium mb-1",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "✓ Beschwerderecht (Art. 77 DSGVO)",
                                               }),
@@ -1608,11 +1608,11 @@
                                   }),
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, l.jsx)("p", {
                                         className: "font-medium mb-2",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children: "Aus\xfcbung Ihrer Rechte",
                                       }),
                                       (0, l.jsx)("p", {
@@ -1626,13 +1626,13 @@
                                         children: [
                                           (0, l.jsx)(x.A, {
                                             className: "w-4 h-4 shrink-0",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsx)("a", {
                                             href: "mailto:datenschutz@azubi.ma",
                                             className:
                                               "font-medium hover:underline",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                             children:
                                               "datenschutz@azubi.ma",
                                           }),
@@ -1649,12 +1649,12 @@
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: [
                                       (0, l.jsx)("p", {
                                         className: "font-medium mb-2",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children:
                                           "Zust\xe4ndige Aufsichtsbeh\xf6rde",
                                       }),
@@ -1677,7 +1677,7 @@
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "hover:underline",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                             children: "www.bfdi.bund.de",
                                           }),
                                         ],
@@ -1698,17 +1698,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(m.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "9. Cookies und Tracking-Technologien",
                                   }),
@@ -1727,7 +1727,7 @@
                                         href: "/arbeitgeber/cookies",
                                         className:
                                           "font-medium hover:underline",
-                                        style: { color: "#F4991A" },
+                                        style: { color: "#5D5DE9" },
                                         children: "Cookie-Richtlinie",
                                       }),
                                       ".",
@@ -1740,12 +1740,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("p", {
                                             className: "font-medium mb-2",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "Notwendige Cookies",
                                           }),
                                           (0, l.jsx)("p", {
@@ -1759,12 +1759,12 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: [
                                           (0, l.jsx)("p", {
                                             className: "font-medium mb-2",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children: "Analyse-Cookies",
                                           }),
                                           (0, l.jsx)("p", {
@@ -1790,17 +1790,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(u.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "10. Datensicherheit",
                                   }),
                                 ],
@@ -1822,19 +1822,19 @@
                                           "flex items-start gap-3 p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(c.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "SSL/TLS-Verschl\xfcsselung",
                                               }),
@@ -1852,19 +1852,19 @@
                                           "flex items-start gap-3 p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(c.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Row-Level Security (RLS)",
                                               }),
@@ -1882,19 +1882,19 @@
                                           "flex items-start gap-3 p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(c.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children: "Zugriffskontrolle",
                                               }),
                                               (0, l.jsx)("p", {
@@ -1911,19 +1911,19 @@
                                           "flex items-start gap-3 p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(c.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Regelm\xe4\xdfige Sicherheitsupdates",
                                               }),
@@ -1941,19 +1941,19 @@
                                           "flex items-start gap-3 p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(c.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Datenspeicherung in Deutschland",
                                               }),
@@ -1971,19 +1971,19 @@
                                           "flex items-start gap-3 p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.03)",
+                                            "rgba(44, 51, 64, 0.03)",
                                         },
                                         children: [
                                           (0, l.jsx)(c.A, {
                                             className:
                                               "w-5 h-5 shrink-0 mt-0.5",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
                                               (0, l.jsx)("p", {
                                                 className: "font-medium",
-                                                style: { color: "#344F1F" },
+                                                style: { color: "#2C3340" },
                                                 children:
                                                   "Regelm\xe4\xdfige Backups",
                                               }),
@@ -2007,7 +2007,7 @@
                             children: [
                               (0, l.jsx)("h3", {
                                 className: "text-lg font-semibold mb-3",
-                                style: { color: "#344F1F" },
+                                style: { color: "#2C3340" },
                                 children:
                                   "11. \xc4nderungen dieser Datenschutzerkl\xe4rung",
                               }),
@@ -2033,11 +2033,11 @@
                             className: "pt-6 border-t border-border/30",
                             children: (0, l.jsxs)("div", {
                               className: "p-6 rounded-xl",
-                              style: { backgroundColor: "#F2EAD3" },
+                              style: { backgroundColor: "#EEF0F4" },
                               children: [
                                 (0, l.jsx)("p", {
                                   className: "font-semibold mb-3",
-                                  style: { color: "#344F1F" },
+                                  style: { color: "#2C3340" },
                                   children: "Fragen zum Datenschutz?",
                                 }),
                                 (0, l.jsx)("p", {
@@ -2054,13 +2054,13 @@
                                       children: [
                                         (0, l.jsx)(x.A, {
                                           className: "w-4 h-4",
-                                          style: { color: "#F4991A" },
+                                          style: { color: "#5D5DE9" },
                                         }),
                                         (0, l.jsx)("a", {
                                           href: "mailto:datenschutz@azubi.ma",
                                           className:
                                             "font-medium hover:underline",
-                                          style: { color: "#F4991A" },
+                                          style: { color: "#5D5DE9" },
                                           children:
                                             "datenschutz@azubi.ma",
                                         }),
@@ -2087,7 +2087,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, l.jsx)(N(), {
                           href: "/arbeitgeber/impressum",
                           children: "Impressum",
@@ -2097,7 +2097,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, l.jsx)(N(), {
                           href: "/arbeitgeber/agb",
                           children: "AGB",
@@ -2107,7 +2107,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, l.jsx)(N(), {
                           href: "/arbeitgeber/cookies",
                           children: "Cookie-Richtlinie",
@@ -2116,7 +2116,7 @@
                       (0, l.jsx)(j.$, {
                         asChild: !0,
                         className: "rounded-full",
-                        style: { backgroundColor: "#F4991A", color: "white" },
+                        style: { backgroundColor: "#5D5DE9", color: "white" },
                         children: (0, l.jsx)(N(), {
                           href: "/arbeitgeber",
                           children: "Zur\xfcck zur Startseite",

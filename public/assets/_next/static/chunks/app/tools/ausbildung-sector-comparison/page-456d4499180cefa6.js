@@ -509,8 +509,8 @@
             },
           ],
           r = [
-            "#F4991A",
-            "#344F1F",
+            "#5D5DE9",
+            "#2C3340",
             "#D4A574",
             "#6B8E4E",
             "#E8B65D",
@@ -635,13 +635,13 @@
                   }),
                   (0, a.jsx)(_.y, {
                     dataKey: "Match",
-                    fill: "#F4991A",
+                    fill: "#5D5DE9",
                     radius: [0, 8, 8, 0],
                     name: "Match Score",
                   }),
                   (0, a.jsx)(_.y, {
                     dataKey: "Demand",
-                    fill: "#344F1F",
+                    fill: "#2C3340",
                     radius: [0, 8, 8, 0],
                     name: "Market Demand",
                   }),
@@ -670,8 +670,8 @@
             z: e.matchScore,
           })),
           t = [
-            "#F4991A",
-            "#344F1F",
+            "#5D5DE9",
+            "#2C3340",
             "#D4A574",
             "#6B8E4E",
             "#E8B65D",

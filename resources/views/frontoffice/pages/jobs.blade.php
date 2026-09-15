@@ -31,7 +31,7 @@
                 data-nimg="fill" class="object-cover object-center"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                 sizes="100vw" src="{{ asset('assets/_next/hamburg-harbor-hero-autumn9127.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0">
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil">
             </div>
             <div class="absolute inset-0 z-0"
                 style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -65,7 +65,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 justify-start"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="Find Your Match" href="#jobs-section"> <span aria-hidden="true"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -111,14 +111,14 @@
                 <div>
                     <div class="flex justify-end mb-4">
                         <div class="inline-flex items-center">
-                            <div class="inline-flex bg-[#F2EAD3] rounded-full p-1 gap-1">
+                            <div class="inline-flex bg-[#EEF0F4] rounded-full p-1 gap-1">
                                 <button
-                                    class="px-3 py-1.5 text-sm font-medium rounded-full transition-all duration-200 text-[#344F1F]/70 hover:text-[#344F1F]"
+                                    class="px-3 py-1.5 text-sm font-medium rounded-full transition-all duration-200 text-[#2C3340]/70 hover:text-[#2C3340]"
                                     aria-label="Switch to German" aria-pressed="false">
                                     DE
                                 </button>
                                 <button
-                                    class="px-3 py-1.5 text-sm font-medium rounded-full transition-all duration-200 bg-[#F4991A] text-white shadow-sm"
+                                    class="px-3 py-1.5 text-sm font-medium rounded-full transition-all duration-200 bg-[#5D5DE9] text-white shadow-sm"
                                     aria-label="Switch to English" aria-pressed="true">
                                     EN
                                 </button>
@@ -127,17 +127,17 @@
                     </div>
                     <div class="w-full overflow-x-hidden">
                         <div
-                            class="bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] p-4 md:p-6 mb-6 md:mb-8">
+                            class="bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] p-4 md:p-6 mb-6 md:mb-8">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mb-3 md:mb-4">
                                 <input type="text" placeholder="Job title or keyword"
-                                    class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(52,79,31,0.12)] bg-[#F9F5F0] px-4 text-sm text-[#344F1F] focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A]" />
+                                    class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(44,51,64,0.12)] bg-[#F7F8FA] px-4 text-sm text-[#2C3340] focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 focus:border-[#5D5DE9]" />
                                 <input type="text" placeholder="City or state"
-                                    class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(52,79,31,0.12)] bg-[#F9F5F0] px-4 text-sm text-[#344F1F] focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:border-[#F4991A]" />
+                                    class="h-10 md:h-11 w-full rounded-full border-2 border-[rgba(44,51,64,0.12)] bg-[#F7F8FA] px-4 text-sm text-[#2C3340] focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 focus:border-[#5D5DE9]" />
                             </div>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
                                 <div>
                                     <select
-                                        class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 text-sm font-medium text-[#344F1F]">
+                                        class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#2C3340]/20 rounded-[12px] px-4 text-sm font-medium text-[#2C3340]">
                                         <option>All sectors</option>
                                         <option>Healthcare</option>
                                         <option>IT &amp; Technology</option>
@@ -146,7 +146,7 @@
                                 </div>
                                 <div>
                                     <select
-                                        class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 text-sm font-medium text-[#344F1F]">
+                                        class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#2C3340]/20 rounded-[12px] px-4 text-sm font-medium text-[#2C3340]">
                                         <option>Any language level</option>
                                         <option>A2</option>
                                         <option>B1</option>
@@ -155,7 +155,7 @@
                                 </div>
                                 <div>
                                     <select
-                                        class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#344F1F]/20 rounded-[12px] px-4 text-sm font-medium text-[#344F1F]">
+                                        class="h-10 md:h-11 w-full bg-white/90 border-2 border-[#2C3340]/20 rounded-[12px] px-4 text-sm font-medium text-[#2C3340]">
                                         <option>Salary range</option>
                                         <option>€850 - €1,000</option>
                                         <option>€1,001 - €1,300</option>
@@ -165,7 +165,7 @@
                         </div>
 
                         <div class="flex flex-wrap items-center gap-1.5 mb-6">
-                            <span class="inline-flex items-center gap-1 text-xs text-[#344F1F]/50 mr-1"> <svg
+                            <span class="inline-flex items-center gap-1 text-xs text-[#2C3340]/50 mr-1"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-trending-up w-3 h-3">
@@ -177,37 +177,37 @@
                                 Popular:
                             </span>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 Healthcare
                             </button>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 IT &amp; Tech
                             </button>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 Engineering
                             </button>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 Hospitality
                             </button>
-                            <span class="text-[#344F1F]/20 mx-1"> |
+                            <span class="text-[#2C3340]/20 mx-1"> |
                             </span>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 Berlin
                             </button>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 Munich
                             </button>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 Hamburg
                             </button>
                             <button
-                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F4991A]/10 hover:text-[#F4991A]">
+                                class="text-xs px-2.5 py-1 rounded-full transition-all duration-150 bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#5D5DE9]/10 hover:text-[#5D5DE9]">
                                 Frankfurt
                             </button>
                         </div>
@@ -215,12 +215,12 @@
                             class="flex flex-col items-center gap-3 mb-6 sm:flex-row sm:items-center sm:justify-between scroll-mt-4">
                             <div class="text-center sm:text-left">
                                 <p
-                                    class="text-base font-medium text-[#344F1F] sm:text-sm sm:font-normal sm:text-[rgba(52,79,31,0.7)]">
+                                    class="text-base font-medium text-[#2C3340] sm:text-sm sm:font-normal sm:text-[rgba(44,51,64,0.7)]">
                                     <span> Showing
-                                        <span class="font-semibold text-[#344F1F]"> 12
+                                        <span class="font-semibold text-[#2C3340]"> 12
                                         </span>
                                         of
-                                        <span class="font-semibold text-[#344F1F]"> 67388
+                                        <span class="font-semibold text-[#2C3340]"> 67388
                                         </span>
                                         jobs
                                     </span>
@@ -229,17 +229,17 @@
                             <div class="flex items-center justify-center gap-2 sm:justify-end sm:gap-3 flex-wrap">
                                 <div class="hidden sm:block">
                                     <div class="flex items-center gap-2">
-                                        <span class="text-sm text-[rgba(52,79,31,0.7)] whitespace-nowrap"> Show:
+                                        <span class="text-sm text-[rgba(44,51,64,0.7)] whitespace-nowrap"> Show:
                                         </span>
                                         <button type="button" role="combobox" aria-controls="radix-R2ce8uslb"
                                             aria-expanded="false" aria-autocomplete="none" dir="ltr"
                                             data-state="closed"
-                                            class="flex items-center justify-between px-3 py-2 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] w-[90px]">
+                                            class="flex items-center justify-between px-3 py-2 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] w-[90px]">
                                             <span style="pointer-events:none">12</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-chevron-down h-4 w-4 text-[#344F1F]/70"
+                                                class="lucide lucide-chevron-down h-4 w-4 text-[#2C3340]/70"
                                                 aria-hidden="true">
                                                 <path d="m6 9 6 6 6-6">
                                                 </path>
@@ -252,12 +252,12 @@
                                 </div>
                                 <button type="button" role="combobox" aria-controls="radix-Rke8uslb"
                                     aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed"
-                                    class="flex items-center justify-between px-4 py-2 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] w-[170px]">
+                                    class="flex items-center justify-between px-4 py-2 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] w-[170px]">
                                     <span style="pointer-events:none">Latest</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-chevron-down h-4 w-4 text-[#344F1F]/70" aria-hidden="true">
+                                        class="lucide lucide-chevron-down h-4 w-4 text-[#2C3340]/70" aria-hidden="true">
                                         <path d="m6 9 6 6 6-6">
                                         </path>
                                     </svg>
@@ -266,9 +266,9 @@
                                     style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
                                 </select>
                                 <div class="inline-flex items-center">
-                                    <div class="inline-flex bg-[#F2EAD3] rounded-full p-1 gap-1">
+                                    <div class="inline-flex bg-[#EEF0F4] rounded-full p-1 gap-1">
                                         <button
-                                            class="p-3 md:p-2 rounded-full transition-all duration-200 bg-[#F4991A] text-white shadow-sm"
+                                            class="p-3 md:p-2 rounded-full transition-all duration-200 bg-[#5D5DE9] text-white shadow-sm"
                                             aria-label="Grid view" aria-pressed="true" title="Grid view">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -285,7 +285,7 @@
                                             </svg>
                                         </button>
                                         <button
-                                            class="p-3 md:p-2 rounded-full transition-all duration-200 text-[#344F1F]/70 hover:text-[#344F1F]"
+                                            class="p-3 md:p-2 rounded-full transition-all duration-200 text-[#2C3340]/70 hover:text-[#2C3340]"
                                             aria-label="List view" aria-pressed="false" title="List view">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -311,11 +311,11 @@
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8">
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Sparkasse KölnBonn" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -327,7 +327,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -342,14 +342,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Dual Study Program Bankkaufmann/-frau (m/w/d)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -365,10 +365,10 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/sparkasse-koelnbonn"> Sparkasse KölnBonn
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -380,17 +380,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -403,7 +403,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -421,15 +421,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Finance
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Dual Study
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Sparkasse KölnBonn! Diese Ausbildung als Duales Studium
                                         Bankkaufmann/-frau (m/w/d) findet in KölnBonn, No...
                                     </p>
@@ -439,12 +439,12 @@
                                         <a class="flex-1"
                                             href="/jobs/sparkasse-koelnbonn/duales-studium-bankkaufmann-frau-mwd-koelnbonn-efa351e9">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -456,11 +456,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Klöpferholz GmbH &amp; Co.KG" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -472,7 +472,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -487,14 +487,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Apprentice (m/f/d) Specialist for Warehouse Logistics
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -510,16 +510,16 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/kloepferholz-gmbh-cokg-4967452e"> Klöpferholz GmbH &amp; Co.KG
                                         </a>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -532,7 +532,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -550,15 +550,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Logistics
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Klöpferholz GmbH &amp; Co.KG! Diese Ausbildung als Azubi (m/w/d)
                                         Fachkraft für Lagerlogistik findet in Garchi...
                                     </p>
@@ -568,12 +568,12 @@
                                         <a class="flex-1"
                                             href="/jobs/kloepferholz-gmbh-cokg-4967452e/azubi-mwd-fachkraft-fuer-lagerlogistik-garching-d2039995">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -585,11 +585,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Deutsche Bahn AG" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -601,7 +601,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -616,14 +616,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Ausbildung as IT Specialist for System Integration (m/f/d)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -639,10 +639,10 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/deutsche-bahn-23eddf32"> Deutsche Bahn AG
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -654,17 +654,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -677,7 +677,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -695,23 +695,23 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             IT &amp; Technology
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Deutsche Bahn AG! Diese Ausbildung als Ausbildung zum
                                         Fachinformatiker für Systemintegration (m/w/d) find...
                                     </p>
-                                    <div class="flex items-center text-sm font-semibold text-[#344F1F] mb-4">
+                                    <div class="flex items-center text-sm font-semibold text-[#2C3340] mb-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#F4991A]">
+                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#5D5DE9]">
                                             <line x1="12" x2="12" y1="2" y2="22">
                                             </line>
                                             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
@@ -726,12 +726,12 @@
                                         <a class="flex-1"
                                             href="/jobs/deutsche-bahn-23eddf32/ausbildung-zum-fachinformatiker-fuer-systemintegration-mwd-berlin-6c8eef17">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -743,11 +743,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Deutsche Bahn AG" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -759,7 +759,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -774,14 +774,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Ausbildung as IT specialist for system integration
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -797,10 +797,10 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/deutsche-bahn-23eddf32"> Deutsche Bahn AG
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -812,17 +812,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -835,7 +835,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -853,23 +853,23 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             IT &amp; Technology
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Deutsche Bahn AG! Diese Ausbildung als Ausbildung zum
                                         Fachinformatiker für Systemintegration findet in Be...
                                     </p>
-                                    <div class="flex items-center text-sm font-semibold text-[#344F1F] mb-4">
+                                    <div class="flex items-center text-sm font-semibold text-[#2C3340] mb-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#F4991A]">
+                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#5D5DE9]">
                                             <line x1="12" x2="12" y1="2" y2="22">
                                             </line>
                                             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
@@ -884,12 +884,12 @@
                                         <a class="flex-1"
                                             href="/jobs/deutsche-bahn-23eddf32/ausbildung-zum-fachinformatiker-fuer-systemintegration-berlin-50c18ebf">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -901,11 +901,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Deutsche Bahn AG" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -917,7 +917,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -932,14 +932,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Ausbildung as an Electronics Technician for Industrial Engineering (m/f/d)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -955,10 +955,10 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/deutsche-bahn-23eddf32"> Deutsche Bahn AG
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -970,17 +970,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -993,7 +993,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1011,23 +1011,23 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Engineering
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Deutsche Bahn AG! Diese Ausbildung als Ausbildung zum Elektroniker
                                         für Betriebstechnik (m/w/d) findet in ...
                                     </p>
-                                    <div class="flex items-center text-sm font-semibold text-[#344F1F] mb-4">
+                                    <div class="flex items-center text-sm font-semibold text-[#2C3340] mb-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#F4991A]">
+                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#5D5DE9]">
                                             <line x1="12" x2="12" y1="2" y2="22">
                                             </line>
                                             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
@@ -1042,12 +1042,12 @@
                                         <a class="flex-1"
                                             href="/jobs/deutsche-bahn-23eddf32/ausbildung-zum-elektroniker-fuer-betriebstechnik-mwd-muenchen-3c3be4fa">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -1059,11 +1059,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Stadtwerke München GmbH" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -1075,7 +1075,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1090,14 +1090,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Ausbildung as IT Specialist for System Integration (m/f/d)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -1113,16 +1113,16 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/stadtwerke-muenchen-gmbh-7b4a510b"> Stadtwerke München GmbH
                                         </a>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -1135,7 +1135,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1153,23 +1153,23 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             IT &amp; Technology
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Stadtwerke München GmbH! Diese Ausbildung als Ausbildung zum
                                         Fachinformatiker für Systemintegration (m/w/...
                                     </p>
-                                    <div class="flex items-center text-sm font-semibold text-[#344F1F] mb-4">
+                                    <div class="flex items-center text-sm font-semibold text-[#2C3340] mb-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#F4991A]">
+                                            class="lucide lucide-dollar-sign w-4 h-4 mr-1 text-[#5D5DE9]">
                                             <line x1="12" x2="12" y1="2" y2="22">
                                             </line>
                                             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
@@ -1184,12 +1184,12 @@
                                         <a class="flex-1"
                                             href="/jobs/stadtwerke-muenchen-gmbh-7b4a510b/ausbildung-zum-fachinformatiker-fuer-systemintegration-mwd-muenchen-fcc6048a">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -1201,11 +1201,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Sparkasse KölnBonn" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -1217,7 +1217,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1232,14 +1232,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Dual Study Program
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -1255,10 +1255,10 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/sparkasse-koelnbonn"> Sparkasse KölnBonn
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1270,17 +1270,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -1293,7 +1293,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1311,15 +1311,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Finance
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Dual Study
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Sparkasse KölnBonn! Diese Ausbildung als Duales Studium findet in
                                         KölnBonn, Nordrhein-Westfalen statt. Di...
                                     </p>
@@ -1328,12 +1328,12 @@
                                     <div class="flex gap-2 flex-wrap">
                                         <a class="flex-1"
                                             href="/jobs/sparkasse-koelnbonn/duales-studium-koelnbonn-58e3f4a5"> <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -1345,11 +1345,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Sparkasse KölnBonn" loading="lazy" width="48"
                                                         height="48" decoding="async" data-nimg="1"
@@ -1361,7 +1361,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1376,14 +1376,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Ausbildung as a Bankkauffrau / Bankkaufmann (m/f/d)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -1399,10 +1399,10 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/sparkasse-koelnbonn"> Sparkasse KölnBonn
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1414,17 +1414,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -1437,7 +1437,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1455,15 +1455,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Finance
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Sparkasse KölnBonn! Diese Ausbildung als Ausbildung zur Bankkauffrau
                                         / zum Bankkaufmann (m/w/d) findet in...
                                     </p>
@@ -1473,12 +1473,12 @@
                                         <a class="flex-1"
                                             href="/jobs/sparkasse-koelnbonn/ausbildung-zur-bankkauffrau-zum-bankkaufmann-mwd-koelnbonn-e28c920a">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -1490,11 +1490,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Goldmann" loading="lazy" width="48" height="48"
                                                         decoding="async" data-nimg="1"
@@ -1506,7 +1506,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1521,15 +1521,15 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Dual Study Program Business Management (Bachelor) and Ausbildung as Wholesale and
                                         Foreign Trade Management Clerk (m/f/d)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -1545,10 +1545,10 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/goldmann"> Goldmann
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1560,17 +1560,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -1584,7 +1584,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-calendar w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-calendar w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path d="M8 2v4">
                                                 </path>
                                                 <path d="M16 2v4">
@@ -1600,7 +1600,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1618,15 +1618,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Manufacturing
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Dual Study
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Gold-Mann! Diese Ausbildung als Duales Studium Business Management
                                         (Bachelor) und Ausbildung zum Kaufmann...
                                     </p>
@@ -1636,12 +1636,12 @@
                                         <a class="flex-1"
                                             href="/jobs/goldmann/duales-studium-business-management-bachelor-und-ausbildung-zum-kaufmann-fuer-gross-und-aussenhandelsmanagement-mwd-bielefeld-810e1bcd">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -1653,11 +1653,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Klöpferholz GmbH &amp; Co.KG" loading="lazy"
                                                         width="48" height="48" decoding="async"
@@ -1669,7 +1669,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1684,14 +1684,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Kauffrau/-mann Groß- und Außenhandelsmanagement
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -1707,16 +1707,16 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/kloepferholz-gmbh-cokg-4967452e"> Klöpferholz GmbH &amp; Co.KG
                                         </a>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -1729,7 +1729,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1747,15 +1747,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Manufacturing
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Klöpferholz GmbH &amp; Co.KG! Diese Ausbildung als Kauffrau/-mann
                                         Groß- und Außenhandelsmanagement findet in ...
                                     </p>
@@ -1765,12 +1765,12 @@
                                         <a class="flex-1"
                                             href="/jobs/kloepferholz-gmbh-cokg-4967452e/kauffrau-mann-gross-und-aussenhandelsmanagement-garching-6dc4e376">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -1782,11 +1782,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Erzieherakademie Heilbronn (Phorms)" loading="lazy"
                                                         width="48" height="48" decoding="async"
@@ -1798,7 +1798,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1813,14 +1813,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Practice-integrated Ausbildung to become an educator (all genders)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -1836,11 +1836,11 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/erzieherakademie-heilbronn"> Erzieherakademie Heilbronn
                                             (Phorms)
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1852,17 +1852,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -1875,7 +1875,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1893,15 +1893,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Education
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Phorms Education! Diese Ausbildung als Praxisintegrierte Ausbildung
                                         zum Erzieher (all genders) findet in ...
                                     </p>
@@ -1911,12 +1911,12 @@
                                         <a class="flex-1"
                                             href="/jobs/erzieherakademie-heilbronn/praxisintegrierte-ausbildung-zum-erzieher-all-genders-dreieich-3c50032e">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -1928,11 +1928,11 @@
                                 </div>
                             </div>
                             <div
-                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] hover:shadow-[0_10px_20px_rgba(52,79,31,0.1),0_4px_8px_rgba(52,79,31,0.06)] hover:-translate-y-1 hover:border-[rgba(52,79,31,0.15)]">
+                                class="text-card-foreground group relative overflow-hidden transition-all duration-200 h-full flex flex-col bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] hover:shadow-[0_10px_20px_rgba(44,51,64,0.1),0_4px_8px_rgba(44,51,64,0.06)] hover:-translate-y-1 hover:border-[rgba(44,51,64,0.15)]">
                                 <div class="relative p-4 pb-3 md:p-6 md:pb-4">
                                     <div class="flex items-start justify-between mb-4">
                                         <div class="flex-shrink-0">
-                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]">
+                                            <div class="w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]">
                                                 <div class="relative overflow-hidden w-full h-full object-cover"> <img
                                                         alt="Erzieherakademie Heilbronn (Phorms)" loading="lazy"
                                                         width="48" height="48" decoding="async"
@@ -1944,7 +1944,7 @@
                                             </div>
                                         </div>
                                         <div
-                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#344F1F] text-[#F9F5F0] border-0 hover:bg-[#344F1F] px-2 py-1 text-xs font-medium">
+                                            class="inline-flex items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#2C3340] text-[#F7F8FA] border-0 hover:bg-[#2C3340] px-2 py-1 text-xs font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1959,14 +1959,14 @@
                                         </div>
                                     </div>
                                     <h3
-                                        class="text-lg font-semibold text-[#344F1F] mb-1 line-clamp-2 leading-tight group-hover:text-[#F4991A] transition-colors">
+                                        class="text-lg font-semibold text-[#2C3340] mb-1 line-clamp-2 leading-tight group-hover:text-[#5D5DE9] transition-colors">
                                         Ausbildungsplatz zum Erzieher (all genders)
                                     </h3>
-                                    <div class="flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)] mb-3">
+                                    <div class="flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)] mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#F4991A]">
+                                            class="lucide lucide-building2 w-3.5 h-3.5 flex-shrink-0 text-[#5D5DE9]">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -1982,11 +1982,11 @@
                                             <path d="M10 18h4">
                                             </path>
                                         </svg>
-                                        <a class="font-medium truncate hover:text-[#F4991A] hover:underline transition-colors"
+                                        <a class="font-medium truncate hover:text-[#5D5DE9] hover:underline transition-colors"
                                             href="/company/erzieherakademie-heilbronn"> Erzieherakademie Heilbronn
                                             (Phorms)
                                         </a>
-                                        <span class="relative group/badge inline-block"> <svg
+                                        <span class="relative group/azubi-badge inline-block"> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1998,17 +1998,17 @@
                                                 </path>
                                             </svg>
                                             <span
-                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#344F1F] text-white text-xs rounded-lg opacity-0 group-hover/badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
+                                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[#2C3340] text-white text-xs rounded-lg opacity-0 group-hover/azubi-badge:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50">
                                                 Verifiziert
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="flex items-center justify-between text-xs text-[rgba(52,79,31,0.7)] mb-4">
+                                    <div class="flex items-center justify-between text-xs text-[rgba(44,51,64,0.7)] mb-4">
                                         <div class="flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-map-pin w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path
                                                     d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                                 </path>
@@ -2022,7 +2022,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-calendar w-3 h-3 mr-1 text-[#F4991A]">
+                                                class="lucide lucide-calendar w-3 h-3 mr-1 text-[#5D5DE9]">
                                                 <path d="M8 2v4">
                                                 </path>
                                                 <path d="M16 2v4">
@@ -2038,7 +2038,7 @@
                                     </div>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <div
-                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F4991A]/10 text-[#F4991A] border border-[#F4991A]/20">
+                                            class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#5D5DE9]/10 text-[#5D5DE9] border border-[#5D5DE9]/20">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2056,15 +2056,15 @@
                                             </span>
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(244,153,26,0.1)] text-[#F4991A] border-0 hover:bg-[rgba(244,153,26,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] border-0 hover:bg-[rgba(93,93,233,0.15)] px-3 py-1 text-xs font-semibold rounded-full">
                                             Education
                                         </div>
                                         <div
-                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#F2EAD3] text-[#344F1F] border-0 hover:bg-[#F2EAD3] px-3 py-1 text-xs font-medium rounded-full">
+                                            class="inline-flex items-center transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#EEF0F4] text-[#2C3340] border-0 hover:bg-[#EEF0F4] px-3 py-1 text-xs font-medium rounded-full">
                                             Apprenticeship
                                         </div>
                                     </div>
-                                    <p class="text-sm text-[rgba(52,79,31,0.7)] line-clamp-3 leading-relaxed mb-4">
+                                    <p class="text-sm text-[rgba(44,51,64,0.7)] line-clamp-3 leading-relaxed mb-4">
                                         Willkommen bei Phorms Education! Diese Ausbildung als Ausbildungsplatz zum Erzieher
                                         (all genders) findet in Berlin Mitte...
                                     </p>
@@ -2074,12 +2074,12 @@
                                         <a class="flex-1"
                                             href="/jobs/erzieherakademie-heilbronn/ausbildungsplatz-zum-erzieher-all-genders-berlin-mitte-7665059b">
                                             <button
-                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/btn bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full shadow-[0_4px_12px_rgba(244,153,26,0.2)] hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)] hover:-translate-y-0.5 min-h-[44px]">
+                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-10 px-6 text-sm w-full transition-all duration-200 group/azubi-btn bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full shadow-[0_4px_12px_rgba(93,93,233,0.2)] hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)] hover:-translate-y-0.5 min-h-[44px]">
                                                 View Details
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/btn:translate-x-1">
+                                                    class="lucide lucide-arrow-right ml-2 w-4 h-4 transition-transform duration-200 group-hover/azubi-btn:translate-x-1">
                                                     <path d="M5 12h14">
                                                     </path>
                                                     <path d="m12 5 7 7-7 7">
@@ -2092,12 +2092,12 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-4 mt-8">
-                            <div class="text-sm text-[rgba(52,79,31,0.7)] font-medium">
+                            <div class="text-sm text-[rgba(44,51,64,0.7)] font-medium">
                                 Page 1 of 5616
                             </div>
                             <div class="flex flex-wrap items-center justify-center gap-2">
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 h-12 transition-all duration-200 bg-white border-2 border-[rgba(52,79,31,0.15)] text-[#344F1F] hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A] rounded-full disabled:opacity-50 disabled:cursor-not-allowed px-3 md:px-4 py-2"
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 h-12 transition-all duration-200 bg-white border-2 border-[rgba(44,51,64,0.15)] text-[#2C3340] hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9] rounded-full disabled:opacity-50 disabled:cursor-not-allowed px-3 md:px-4 py-2"
                                     disabled="">
                                     <span class="hidden sm:inline"> Previous
                                     </span>
@@ -2106,34 +2106,34 @@
                                 </button>
                                 <div class="flex items-center gap-1 md:gap-2">
                                     <button
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-[0_4px_12px_rgba(244,153,26,0.2)]">
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-[0_4px_12px_rgba(93,93,233,0.2)]">
                                         1
                                     </button>
                                     <button
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(52,79,31,0.15)] text-[#344F1F] hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A]">
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(44,51,64,0.15)] text-[#2C3340] hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9]">
                                         2
                                     </button>
                                     <button
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(52,79,31,0.15)] text-[#344F1F] hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A]">
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(44,51,64,0.15)] text-[#2C3340] hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9]">
                                         3
                                     </button>
                                     <button
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(52,79,31,0.15)] text-[#344F1F] hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A]">
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(44,51,64,0.15)] text-[#2C3340] hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9]">
                                         4
                                     </button>
                                     <button
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(52,79,31,0.15)] text-[#344F1F] hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A]">
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 transition-all duration-200 w-11 h-11 md:w-10 md:h-10 rounded-full text-sm md:text-base bg-white border-2 border-[rgba(44,51,64,0.15)] text-[#2C3340] hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9]">
                                         5
                                     </button>
                                 </div>
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 h-12 transition-all duration-200 bg-white border-2 border-[rgba(52,79,31,0.15)] text-[#344F1F] hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A] rounded-full disabled:opacity-50 disabled:cursor-not-allowed px-3 md:px-4 py-2">
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-sm hover:-translate-y-0.5 active:translate-y-0 h-12 transition-all duration-200 bg-white border-2 border-[rgba(44,51,64,0.15)] text-[#2C3340] hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9] rounded-full disabled:opacity-50 disabled:cursor-not-allowed px-3 md:px-4 py-2">
                                     Next
                                 </button>
                             </div>
                         </div>
-                        <div class="mt-12 pt-8 border-t border-[rgba(52,79,31,0.1)]">
-                            <h3 class="text-lg font-semibold text-[#344F1F] mb-6 text-center">
+                        <div class="mt-12 pt-8 border-t border-[rgba(44,51,64,0.1)]">
+                            <h3 class="text-lg font-semibold text-[#2C3340] mb-6 text-center">
                                 Popular Filters
                             </h3>
                             <div class="mb-6">
@@ -2141,7 +2141,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-building2 w-4 h-4 text-[#344F1F]/60">
+                                        class="lucide lucide-building2 w-4 h-4 text-[#2C3340]/60">
                                         <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                         </path>
                                         <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -2157,12 +2157,12 @@
                                         <path d="M10 18h4">
                                         </path>
                                     </svg>
-                                    <span class="text-sm font-medium text-[#344F1F]/70"> By Industry
+                                    <span class="text-sm font-medium text-[#2C3340]/70"> By Industry
                                     </span>
                                 </div>
                                 <div class="flex flex-wrap justify-center gap-2">
                                     <button
-                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2175,7 +2175,7 @@
                                         </span>
                                     </button>
                                     <button
-                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2205,7 +2205,7 @@
                                         </span>
                                     </button>
                                     <button
-                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2218,7 +2218,7 @@
                                         </span>
                                     </button>
                                     <button
-                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2237,7 +2237,7 @@
                                         </span>
                                     </button>
                                     <button
-                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2258,7 +2258,7 @@
                                         </span>
                                     </button>
                                     <button
-                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2280,43 +2280,43 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-map-pin w-4 h-4 text-[#344F1F]/60">
+                                        class="lucide lucide-map-pin w-4 h-4 text-[#2C3340]/60">
                                         <path
                                             d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                         </path>
                                         <circle cx="12" cy="10" r="3">
                                         </circle>
                                     </svg>
-                                    <span class="text-sm font-medium text-[#344F1F]/70"> By City
+                                    <span class="text-sm font-medium text-[#2C3340]/70"> By City
                                     </span>
                                 </div>
                                 <div class="flex flex-wrap justify-center gap-2">
                                     <button
-                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         Berlin
                                     </button>
                                     <button
-                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         Munich
                                     </button>
                                     <button
-                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         Hamburg
                                     </button>
                                     <button
-                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         Frankfurt
                                     </button>
                                     <button
-                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         Cologne
                                     </button>
                                     <button
-                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         Düsseldorf
                                     </button>
                                     <button
-                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 bg-white border border-[rgba(52,79,31,0.12)] text-[#344F1F]/80 hover:border-[#F4991A] hover:text-[#F4991A] hover:bg-[rgba(244,153,26,0.04)]">
+                                        class="inline-flex items-center px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 bg-white border border-[rgba(44,51,64,0.12)] text-[#2C3340]/80 hover:border-[#5D5DE9] hover:text-[#5D5DE9] hover:bg-[rgba(93,93,233,0.04)]">
                                         Stuttgart
                                     </button>
                                 </div>
@@ -2495,12 +2495,12 @@
         <section class="py-16 bg-background">
             <div class="container px-4 md:px-6">
 
-                <section class="relative py-12 overflow-hidden bg-[#F9F5F0]">
+                <section class="relative py-12 overflow-hidden bg-[#F7F8FA]">
                     <div class="container relative z-10 mx-auto px-4">
                         <div class="max-w-7xl mx-auto">
                             <div class="relative" style="opacity:0;transform:translateY(20px)">
                                 <div
-                                    class="text-card-foreground shadow relative bg-[#F4991A] border-2 border-[#F4991A] overflow-hidden rounded-[24px]">
+                                    class="text-card-foreground shadow relative bg-[#5D5DE9] border-2 border-[#5D5DE9] overflow-hidden rounded-[24px]">
                                     <div class="relative p-4 sm:p-6 lg:p-8">
                                         <div class="block lg:hidden space-y-6">
                                             <div class="text-center">
@@ -2604,13 +2604,13 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <div class="bg-white rounded-[24px] border-2 border-[#F4991A]/30 p-4">
+                                                <div class="bg-white rounded-[24px] border-2 border-[#5D5DE9]/30 p-4">
                                                     <div class="space-y-2 mb-4">
-                                                        <h4 class="text-base font-bold text-[#344F1F]">
+                                                        <h4 class="text-base font-bold text-[#2C3340]">
                                                             Get Your Exclusive Analysis
                                                         </h4>
                                                         <div
-                                                            class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#F4991A] bg-[#F4991A]/10 text-[#F4991A] text-xs font-bold rounded-full">
+                                                            class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#5D5DE9] bg-[#5D5DE9]/10 text-[#5D5DE9] text-xs font-bold rounded-full">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -2627,24 +2627,24 @@
                                                     <form class="space-y-3">
                                                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                                             <input
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                placeholder="First Name *" required=""
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                placeholder="First Name *" azubi-required=""
                                                                 value="" />
                                                             <input
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                placeholder="Last Name *" required=""
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                placeholder="Last Name *" azubi-required=""
                                                                 value="" />
                                                         </div>
                                                         <input type="email"
-                                                            class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                            placeholder="Your Email Address *" required=""
+                                                            class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                            placeholder="Your Email Address *" azubi-required=""
                                                             value="" />
                                                         <div class="grid grid-cols-1 gap-3">
                                                             <button type="button" role="combobox"
                                                                 aria-controls="radix-Rbkqguslb" aria-expanded="false"
                                                                 aria-required="true" aria-autocomplete="none"
                                                                 dir="ltr" data-state="closed" data-placeholder=""
-                                                                class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px]">
+                                                                class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px]">
                                                                 <span style="pointer-events:none"> German Level *
                                                                 </span>
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -2657,7 +2657,7 @@
                                                                     </path>
                                                                 </svg>
                                                             </button>
-                                                            <select aria-hidden="true" required="" tabindex="-1"
+                                                            <select aria-hidden="true" azubi-required="" tabindex="-1"
                                                                 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
                                                                 <option value="">
                                                                 </option>
@@ -2666,7 +2666,7 @@
                                                                 aria-controls="radix-Rjkqguslb" aria-expanded="false"
                                                                 aria-required="true" aria-autocomplete="none"
                                                                 dir="ltr" data-state="closed" data-placeholder=""
-                                                                class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px]">
+                                                                class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px]">
                                                                 <span style="pointer-events:none"> Field of Interest *
                                                                 </span>
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -2679,7 +2679,7 @@
                                                                     </path>
                                                                 </svg>
                                                             </button>
-                                                            <select aria-hidden="true" required="" tabindex="-1"
+                                                            <select aria-hidden="true" azubi-required="" tabindex="-1"
                                                                 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
                                                                 <option value="">
                                                                 </option>
@@ -2688,7 +2688,7 @@
                                                                 aria-controls="radix-Rrkqguslb" aria-expanded="false"
                                                                 aria-required="true" aria-autocomplete="none"
                                                                 dir="ltr" data-state="closed" data-placeholder=""
-                                                                class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px]">
+                                                                class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px]">
                                                                 <span style="pointer-events:none"> Current Country *
                                                                 </span>
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -2701,14 +2701,14 @@
                                                                     </path>
                                                                 </svg>
                                                             </button>
-                                                            <select aria-hidden="true" required="" tabindex="-1"
+                                                            <select aria-hidden="true" azubi-required="" tabindex="-1"
                                                                 style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
                                                                 <option value="">
                                                                 </option>
                                                             </select>
                                                         </div>
                                                         <button
-                                                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-12 bg-[#F4991A] hover:bg-[#E5890F] text-white font-bold text-sm rounded-full transition-all duration-300"
+                                                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-12 bg-[#5D5DE9] hover:bg-[#2C3340] text-white font-bold text-sm rounded-full transition-all duration-300"
                                                             type="submit">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
@@ -2736,13 +2736,13 @@
                                                             </svg>
                                                         </button>
                                                         <div
-                                                            class="flex items-center justify-center gap-4 text-xs text-[#344F1F]/70 pt-1">
+                                                            class="flex items-center justify-center gap-4 text-xs text-[#2C3340]/70 pt-1">
                                                             <div class="flex items-center gap-1">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                     height="24" viewBox="0 0 24 24" fill="none"
                                                                     stroke="currentColor" stroke-width="2"
                                                                     stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="lucide lucide-shield w-3 h-3 text-[#344F1F]">
+                                                                    class="lucide lucide-shield w-3 h-3 text-[#2C3340]">
                                                                     <path
                                                                         d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
                                                                     </path>
@@ -2755,7 +2755,7 @@
                                                                     height="24" viewBox="0 0 24 24" fill="none"
                                                                     stroke="currentColor" stroke-width="2"
                                                                     stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="lucide lucide-zap w-3 h-3 text-[#F4991A]">
+                                                                    class="lucide lucide-zap w-3 h-3 text-[#5D5DE9]">
                                                                     <path
                                                                         d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
                                                                     </path>
@@ -2880,13 +2880,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="lg:col-span-5">
-                                                    <div class="bg-white rounded-[24px] border-2 border-[#F4991A]/30 p-4">
+                                                    <div class="bg-white rounded-[24px] border-2 border-[#5D5DE9]/30 p-4">
                                                         <div class="space-y-3 mb-4">
-                                                            <h4 class="text-lg font-bold text-[#344F1F]">
+                                                            <h4 class="text-lg font-bold text-[#2C3340]">
                                                                 Get Your Exclusive Analysis
                                                             </h4>
                                                             <div
-                                                                class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#F4991A] bg-[#F4991A]/10 text-[#F4991A] text-xs font-bold rounded-full">
+                                                                class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#5D5DE9] bg-[#5D5DE9]/10 text-[#5D5DE9] text-xs font-bold rounded-full">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                     height="24" viewBox="0 0 24 24" fill="none"
                                                                     stroke="currentColor" stroke-width="2"
@@ -2903,17 +2903,17 @@
                                                         <form class="space-y-3">
                                                             <div class="grid grid-cols-2 gap-2">
                                                                 <input
-                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                    placeholder="First Name *" required=""
+                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                    placeholder="First Name *" azubi-required=""
                                                                     value="" />
                                                                 <input
-                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                    placeholder="Last Name *" required=""
+                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                    placeholder="Last Name *" azubi-required=""
                                                                     value="" />
                                                             </div>
                                                             <input type="email"
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                placeholder="Your Email Address *" required=""
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                placeholder="Your Email Address *" azubi-required=""
                                                                 value="" />
                                                             <div class="grid grid-cols-3 gap-2">
                                                                 <button type="button" role="combobox"
@@ -2921,7 +2921,7 @@
                                                                     aria-expanded="false" aria-required="true"
                                                                     aria-autocomplete="none" dir="ltr"
                                                                     data-state="closed" data-placeholder=""
-                                                                    class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px]">
+                                                                    class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px]">
                                                                     <span style="pointer-events:none"> German Level *
                                                                     </span>
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -2935,7 +2935,7 @@
                                                                         </path>
                                                                     </svg>
                                                                 </button>
-                                                                <select aria-hidden="true" required=""
+                                                                <select aria-hidden="true" azubi-required=""
                                                                     tabindex="-1"
                                                                     style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
                                                                     <option value="">
@@ -2946,7 +2946,7 @@
                                                                     aria-expanded="false" aria-required="true"
                                                                     aria-autocomplete="none" dir="ltr"
                                                                     data-state="closed" data-placeholder=""
-                                                                    class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px]">
+                                                                    class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px]">
                                                                     <span style="pointer-events:none"> Field *
                                                                     </span>
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -2960,7 +2960,7 @@
                                                                         </path>
                                                                     </svg>
                                                                 </button>
-                                                                <select aria-hidden="true" required=""
+                                                                <select aria-hidden="true" azubi-required=""
                                                                     tabindex="-1"
                                                                     style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
                                                                     <option value="">
@@ -2971,7 +2971,7 @@
                                                                     aria-expanded="false" aria-required="true"
                                                                     aria-autocomplete="none" dir="ltr"
                                                                     data-state="closed" data-placeholder=""
-                                                                    class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px]">
+                                                                    class="flex w-full items-center justify-between px-4 py-3 font-medium ring-offset-background placeholder:text-muted-foreground transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary disabled:cursor-not-allowed disabled:opacity-50 hover:border-primary/50 [&amp;&gt;span]:line-clamp-1 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px]">
                                                                     <span style="pointer-events:none"> Country *
                                                                     </span>
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -2985,7 +2985,7 @@
                                                                         </path>
                                                                     </svg>
                                                                 </button>
-                                                                <select aria-hidden="true" required=""
+                                                                <select aria-hidden="true" azubi-required=""
                                                                     tabindex="-1"
                                                                     style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
                                                                     <option value="">
@@ -2993,7 +2993,7 @@
                                                                 </select>
                                                             </div>
                                                             <button
-                                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-10 bg-[#F4991A] hover:bg-[#E5890F] text-white font-bold text-sm rounded-full transition-all duration-300"
+                                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-10 bg-[#5D5DE9] hover:bg-[#2C3340] text-white font-bold text-sm rounded-full transition-all duration-300"
                                                                 type="submit">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                     height="24" viewBox="0 0 24 24" fill="none"
@@ -3021,14 +3021,14 @@
                                                                 </svg>
                                                             </button>
                                                             <div
-                                                                class="flex items-center justify-center gap-4 text-xs text-[#344F1F]/70 pt-1">
+                                                                class="flex items-center justify-center gap-4 text-xs text-[#2C3340]/70 pt-1">
                                                                 <div class="flex items-center gap-1">
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                                         width="24" height="24"
                                                                         viewBox="0 0 24 24" fill="none"
                                                                         stroke="currentColor" stroke-width="2"
                                                                         stroke-linecap="round" stroke-linejoin="round"
-                                                                        class="lucide lucide-shield w-3 h-3 text-[#344F1F]">
+                                                                        class="lucide lucide-shield w-3 h-3 text-[#2C3340]">
                                                                         <path
                                                                             d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
                                                                         </path>
@@ -3042,7 +3042,7 @@
                                                                         viewBox="0 0 24 24" fill="none"
                                                                         stroke="currentColor" stroke-width="2"
                                                                         stroke-linecap="round" stroke-linejoin="round"
-                                                                        class="lucide lucide-zap w-3 h-3 text-[#F4991A]">
+                                                                        class="lucide lucide-zap w-3 h-3 text-[#5D5DE9]">
                                                                         <path
                                                                             d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
                                                                         </path>

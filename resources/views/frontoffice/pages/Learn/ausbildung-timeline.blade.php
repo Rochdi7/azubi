@@ -29,7 +29,7 @@
                 color: transparent;
               "
                 sizes="100vw" src="{{ asset('assets/_next/north-sea-coast-hero-autumndd79.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0"></div>
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
                 background:
@@ -83,7 +83,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="View Timeline" href="#timeline-overview"><span aria-hidden="true"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -460,7 +460,7 @@
                                 <div>
                                     <span class="font-medium">Language Proficiency</span>
                                     <p class="text-sm text-muted-foreground">
-                                        Ample time to achieve the required B1/B2 German level
+                                        Ample time to achieve the azubi-required B1/B2 German level
                                         that most employers and visa applications require.
                                     </p>
                                 </div>
@@ -536,7 +536,7 @@
                             understand the German apprenticeship system.
                         </p>
                         <div class="space-y-4">
-                            <div class="p-4 bg-beige/5 border border-primary/20 rounded-lg">
+                            <div class="p-4 azubi-bg-beige/5 border border-primary/20 rounded-lg">
                                 <h4 class="font-medium mb-2 flex items-center gap-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -675,7 +675,7 @@
                             </h3>
                             <p class="text-muted-foreground mb-4">
                                 Begin intensive German language learning to reach the
-                                required B1-B2 level for most Ausbildung programs.
+                                azubi-required B1-B2 level for most Ausbildung programs.
                             </p>
                             <div class="space-y-4">
                                 <div>
@@ -849,7 +849,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 p-6 bg-beige/5 border border-primary/20 rounded-xl max-w-3xl mx-auto">
+                <div class="mt-12 p-6 azubi-bg-beige/5 border border-primary/20 rounded-xl max-w-3xl mx-auto">
                     <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -864,20 +864,20 @@
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-start gap-3">
-                            <div class="bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                            <div class="azubi-bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                                 <span class="text-white font-bold text-sm">1</span>
                             </div>
                             <div>
                                 <h4 class="font-medium">Blocked Account Savings</h4>
                                 <p class="text-sm text-muted-foreground">
                                     Only needed if your Ausbildung stipend will be less than
-                                    €992/month. If required, you&#x27;ll need approximately
+                                    €992/month. If azubi-required, you&#x27;ll need approximately
                                     €11,904 (€992 per month for 12 months).
                                 </p>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
-                            <div class="bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                            <div class="azubi-bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                                 <span class="text-white font-bold text-sm">2</span>
                             </div>
                             <div>
@@ -890,7 +890,7 @@
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
-                            <div class="bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                            <div class="azubi-bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                                 <span class="text-white font-bold text-sm">3</span>
                             </div>
                             <div>
@@ -903,7 +903,7 @@
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
-                            <div class="bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                            <div class="azubi-bg-beige/90 w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                                 <span class="text-white font-bold text-sm">4</span>
                             </div>
                             <div>
@@ -1455,7 +1455,7 @@
                                             <span class="text-sm font-medium">Blocked account setup (if needed)</span>
                                             <p class="text-xs text-muted-foreground">
                                                 Only if your stipend is less than €992/month: Open
-                                                and transfer required funds (€11,904)
+                                                and transfer azubi-required funds (€11,904)
                                             </p>
                                         </div>
                                     </li>
@@ -1506,7 +1506,7 @@
                                             <path d="M10 22h4"></path>
                                         </svg><span><strong>Visa Tip:</strong> Apply for health
                                             insurance coverage beginning from your arrival date;
-                                            proof of insurance is required for your visa
+                                            proof of insurance is azubi-required for your visa
                                             application.</span>
                                     </p>
                                 </div>
@@ -1806,7 +1806,7 @@
                                 </svg><span>Health and Insurance</span>
                             </h4>
                             <ul class="space-y-1 text-xs text-muted-foreground list-inside list-disc pl-1">
-                                <li>Complete any required vaccinations</li>
+                                <li>Complete any azubi-required vaccinations</li>
                                 <li>
                                     Obtain prescription medications for initial period
                                 </li>
@@ -2231,7 +2231,7 @@
                     <p class="text-lg text-muted-foreground">
                         Throughout your 2-3.5 year Ausbildung journey, you&#x27;ll
                         progress through several important phases and milestones that
-                        mark your development.
+                        azubi-mark your development.
                     </p>
                 </div>
                 <div class="max-w-4xl mx-auto">
@@ -2604,7 +2604,7 @@
                                     </div>
                                     <div>
                                         <p class="text-sm">
-                                            Completion of training report book and any required
+                                            Completion of training report book and any azubi-required
                                             projects or presentations
                                         </p>
                                     </div>
@@ -2671,7 +2671,7 @@
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
                     src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="
                   background:

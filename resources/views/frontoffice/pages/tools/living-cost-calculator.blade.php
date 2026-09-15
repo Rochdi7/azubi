@@ -28,10 +28,10 @@
                 </button>
             </a>
             <div class="flex items-start gap-4 md:gap-6">
-                <div class="p-3 md:p-4 rounded-xl bg-orange/10 flex-shrink-0" aria-hidden="true">
+                <div class="p-3 md:p-4 rounded-xl azubi-bg-orange/10 flex-shrink-0" aria-hidden="true">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-euro h-8 w-8 md:h-10 md:w-10 text-orange">
+                        class="lucide lucide-euro h-8 w-8 md:h-10 md:w-10 azubi-text-orange">
                         <path d="M4 10h12"></path>
                         <path d="M4 14h9"></path>
                         <path d="M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"></path>
@@ -56,9 +56,9 @@
         <div class="container px-4 md:px-6 max-w-7xl mx-auto">
 
             <!-- Info Banner -->
-            <section class="text-card-foreground shadow p-6 rounded-2xl border-2 bg-cream border-beige mb-6">
+            <section class="text-card-foreground shadow p-6 rounded-2xl border-2 azubi-bg-cream azubi-border-beige mb-6">
                 <div class="flex items-start gap-4">
-                    <div class="p-3 rounded-xl flex-shrink-0 bg-orange text-cream">
+                    <div class="p-3 rounded-xl flex-shrink-0 azubi-bg-orange azubi-text-cream">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-info h-6 w-6">
@@ -68,9 +68,9 @@
                         </svg>
                     </div>
                     <div class="flex-1 space-y-2">
-                        <h2 class="text-xl font-semibold text-green">Official 2026 Cost Data</h2>
-                        <p class="text-green/70 text-sm leading-relaxed">This calculator uses official data from <strong
-                                class="text-orange">DAAD and German Federal Statistical Office (Destatis)</strong> for
+                        <h2 class="text-xl font-semibold azubi-text-green">Official 2026 Cost Data</h2>
+                        <p class="azubi-text-green/70 text-sm leading-relaxed">This calculator uses official data from <strong
+                                class="azubi-text-orange">DAAD and German Federal Statistical Office (Destatis)</strong> for
                             2026-2027. Costs are based on actual student/trainee expenses. The &euro;992/month blocked
                             account requirement is separate from these calculations. First-month setup costs
                             (&euro;2,500-4,500) are not included in monthly calculations.</p>
@@ -79,14 +79,14 @@
             </section>
 
             <!-- Input Form -->
-            <div class="text-card-foreground shadow p-8 rounded-2xl bg-cream border-2 border-beige mb-6">
+            <div class="text-card-foreground shadow p-8 rounded-2xl azubi-bg-cream border-2 azubi-border-beige mb-6">
                 <div class="mb-8">
-                    <h2 class="text-2xl font-bold text-green mb-2">Calculate Your Monthly Costs</h2>
+                    <h2 class="text-2xl font-bold azubi-text-green mb-2">Calculate Your Monthly Costs</h2>
                 </div>
                 <div class="grid md:grid-cols-2 gap-6">
                     <!-- City Select -->
                     <div class="space-y-2">
-                        <label class="text-sm leading-none text-green font-semibold" for="city">German City *</label>
+                        <label class="text-sm leading-none azubi-text-green font-semibold" for="city">German City *</label>
                         <select id="city"
                             class="flex h-12 w-full items-center rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary hover:border-primary/50">
                             <option value="">Select a city</option>
@@ -119,7 +119,7 @@
 
                     <!-- Accommodation Type -->
                     <div class="space-y-2">
-                        <label class="text-sm leading-none text-green font-semibold" for="accommodation">Accommodation Type
+                        <label class="text-sm leading-none azubi-text-green font-semibold" for="accommodation">Accommodation Type
                             *</label>
                         <select id="accommodation"
                             class="flex h-12 w-full items-center rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary hover:border-primary/50">
@@ -134,7 +134,7 @@
 
                     <!-- Lifestyle -->
                     <div class="space-y-2">
-                        <label class="text-sm leading-none text-green font-semibold" for="lifestyle">Lifestyle &amp;
+                        <label class="text-sm leading-none azubi-text-green font-semibold" for="lifestyle">Lifestyle &amp;
                             Spending *</label>
                         <select id="lifestyle"
                             class="flex h-12 w-full items-center rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary hover:border-primary/50">
@@ -148,7 +148,7 @@
 
                     <!-- Ausbildung Sector -->
                     <div class="space-y-2">
-                        <label class="text-sm leading-none text-green font-semibold" for="sector">Ausbildung
+                        <label class="text-sm leading-none azubi-text-green font-semibold" for="sector">Ausbildung
                             Sector</label>
                         <select id="sector"
                             class="flex h-12 w-full items-center rounded-lg border border-input bg-white px-4 py-3 text-sm font-medium ring-offset-background transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary hover:border-primary/50">
@@ -170,7 +170,7 @@
                         <label class="flex items-center gap-3 cursor-pointer">
                             <input type="checkbox" id="includeDependent"
                                 class="w-5 h-5 rounded border-input text-primary focus:ring-primary accent-primary">
-                            <span class="text-sm font-semibold text-green">Include Partner / Dependent</span>
+                            <span class="text-sm font-semibold azubi-text-green">Include Partner / Dependent</span>
                         </label>
                         <p class="text-xs text-muted-foreground ml-8">Adds approximately 40% to total monthly costs</p>
                     </div>
@@ -180,7 +180,7 @@
                 <div class="space-y-4 mt-8">
                     <div class="flex gap-4">
                         <button onclick="calculateCosts()" id="btn-calculate"
-                            class="flex-1 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-orange hover:bg-orange/90 text-white h-11 px-8"
+                            class="flex-1 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 azubi-bg-orange hover:azubi-bg-orange/90 text-white h-11 px-8"
                             disabled>
                             Calculate Living Costs
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -217,18 +217,18 @@
             <div id="results-section" class="hidden">
 
                 <!-- Total Monthly Cost Card -->
-                <div class="text-card-foreground shadow p-8 rounded-2xl border-2 bg-cream border-beige mb-6">
+                <div class="text-card-foreground shadow p-8 rounded-2xl border-2 azubi-bg-cream azubi-border-beige mb-6">
                     <div class="mb-6">
                         <div class="flex items-center gap-3 mb-2">
-                            <div class="p-2 rounded-lg bg-green/10">
+                            <div class="p-2 rounded-lg azubi-bg-green/10">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-green">
+                                    stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 azubi-text-green">
                                     <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                     <path d="m9 11 3 3L22 4"></path>
                                 </svg>
                             </div>
-                            <h2 class="text-2xl font-bold text-green">Your Monthly Cost Breakdown</h2>
+                            <h2 class="text-2xl font-bold azubi-text-green">Your Monthly Cost Breakdown</h2>
                         </div>
                         <p class="text-sm text-muted-foreground" id="results-subtitle"></p>
                     </div>
@@ -242,25 +242,25 @@
 
                     <!-- Summary Cards Row -->
                     <div class="grid md:grid-cols-3 gap-4 mb-6">
-                        <div class="rounded-xl border bg-white p-4 flex items-start gap-3 border-orange/20">
-                            <div class="p-2 rounded-lg bg-orange/10 flex-shrink-0">
+                        <div class="rounded-xl border bg-white p-4 flex items-start gap-3 azubi-border-orange/20">
+                            <div class="p-2 rounded-lg azubi-bg-orange/10 flex-shrink-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="text-orange">
+                                    stroke-linecap="round" stroke-linejoin="round" class="azubi-text-orange">
                                     <line x1="12" x2="12" y1="2" y2="22"></line>
                                     <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                                 </svg>
                             </div>
                             <div>
                                 <p class="text-sm text-muted-foreground">Total Monthly Cost</p>
-                                <p class="text-2xl font-bold text-orange" id="result-total">-</p>
+                                <p class="text-2xl font-bold azubi-text-orange" id="result-total">-</p>
                             </div>
                         </div>
-                        <div class="rounded-xl border bg-white p-4 flex items-start gap-3 border-green/20">
-                            <div class="p-2 rounded-lg bg-green/10 flex-shrink-0">
+                        <div class="rounded-xl border bg-white p-4 flex items-start gap-3 azubi-border-green/20">
+                            <div class="p-2 rounded-lg azubi-bg-green/10 flex-shrink-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="text-green">
+                                    stroke-linecap="round" stroke-linejoin="round" class="azubi-text-green">
                                     <path d="M4 10h12"></path>
                                     <path d="M4 14h9"></path>
                                     <path
@@ -270,7 +270,7 @@
                             </div>
                             <div>
                                 <p class="text-sm text-muted-foreground">Monthly Stipend</p>
-                                <p class="text-2xl font-bold text-green" id="result-stipend">-</p>
+                                <p class="text-2xl font-bold azubi-text-green" id="result-stipend">-</p>
                             </div>
                         </div>
                         <div class="rounded-xl border bg-white p-4 flex items-start gap-3" id="card-balance">
@@ -293,7 +293,7 @@
 
                     <!-- Cost Breakdown -->
                     <div class="mb-6">
-                        <h3 class="text-lg font-bold text-green mb-4">Detailed Cost Breakdown</h3>
+                        <h3 class="text-lg font-bold azubi-text-green mb-4">Detailed Cost Breakdown</h3>
                         <div class="space-y-3" id="cost-breakdown"></div>
                     </div>
 
@@ -325,17 +325,17 @@
                 </div>
 
                 <!-- Part-Time Work Impact -->
-                <div class="text-card-foreground shadow p-8 rounded-2xl bg-cream border-2 border-beige mb-6">
-                    <h3 class="text-xl font-bold text-green mb-2">Part-Time Work Impact</h3>
+                <div class="text-card-foreground shadow p-8 rounded-2xl azubi-bg-cream border-2 azubi-border-beige mb-6">
+                    <h3 class="text-xl font-bold azubi-text-green mb-2">Part-Time Work Impact</h3>
                     <p class="text-sm text-muted-foreground mb-6">Ausbildung trainees can work up to 20 hours/week. Here's
                         how part-time work could improve your balance:</p>
                     <div class="grid md:grid-cols-3 gap-4" id="parttime-cards"></div>
                 </div>
 
                 <!-- Cheaper City Alternatives -->
-                <div class="text-card-foreground shadow p-8 rounded-2xl bg-cream border-2 border-beige mb-6"
+                <div class="text-card-foreground shadow p-8 rounded-2xl azubi-bg-cream border-2 azubi-border-beige mb-6"
                     id="alternatives-section">
-                    <h3 class="text-xl font-bold text-green mb-2">More Affordable Alternatives</h3>
+                    <h3 class="text-xl font-bold azubi-text-green mb-2">More Affordable Alternatives</h3>
                     <p class="text-sm text-muted-foreground mb-6">Consider these cities with lower living costs:</p>
                     <div class="grid md:grid-cols-3 gap-4" id="alternatives-cards"></div>
                 </div>
@@ -356,46 +356,46 @@
 
             <!-- How It Works (shown when no results) -->
             <div id="how-it-works" class="mb-6">
-                <div class="text-card-foreground shadow p-8 rounded-2xl bg-cream border-2 border-beige">
-                    <h2 class="text-2xl font-bold text-green mb-2">How to Use the Living Cost Calculator</h2>
-                    <p class="text-green/70 mb-8">Get a detailed breakdown of monthly living expenses in any major German
+                <div class="text-card-foreground shadow p-8 rounded-2xl azubi-bg-cream border-2 azubi-border-beige">
+                    <h2 class="text-2xl font-bold azubi-text-green mb-2">How to Use the Living Cost Calculator</h2>
+                    <p class="azubi-text-green/70 mb-8">Get a detailed breakdown of monthly living expenses in any major German
                         city. Compare costs and find the best city for your budget.</p>
                     <div class="grid md:grid-cols-3 gap-6">
-                        <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white border-2 border-beige">
-                            <div class="p-3 rounded-xl bg-green/10 mb-4">
+                        <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white border-2 azubi-border-beige">
+                            <div class="p-3 rounded-xl azubi-bg-green/10 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-green">
+                                    stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 azubi-text-green">
                                     <path
                                         d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                     </path>
                                     <circle cx="12" cy="10" r="3"></circle>
                                 </svg>
                             </div>
-                            <h3 class="font-bold text-green mb-2">Select Your City</h3>
-                            <p class="text-sm text-green/70">Choose from 15 German cities across 4 cost tiers, from
+                            <h3 class="font-bold azubi-text-green mb-2">Select Your City</h3>
+                            <p class="text-sm azubi-text-green/70">Choose from 15 German cities across 4 cost tiers, from
                                 affordable Leipzig to expensive Munich.</p>
                         </div>
-                        <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white border-2 border-beige">
-                            <div class="p-3 rounded-xl bg-green/10 mb-4">
+                        <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white border-2 azubi-border-beige">
+                            <div class="p-3 rounded-xl azubi-bg-green/10 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-green">
+                                    stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 azubi-text-green">
                                     <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
                                     <path
                                         d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z">
                                     </path>
                                 </svg>
                             </div>
-                            <h3 class="font-bold text-green mb-2">Choose Living Preferences</h3>
-                            <p class="text-sm text-green/70">Select accommodation type (dormitory, shared, studio,
+                            <h3 class="font-bold azubi-text-green mb-2">Choose Living Preferences</h3>
+                            <p class="text-sm azubi-text-green/70">Select accommodation type (dormitory, shared, studio,
                                 apartment) and lifestyle preferences (budget, moderate, comfortable).</p>
                         </div>
-                        <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white border-2 border-beige">
-                            <div class="p-3 rounded-xl bg-green/10 mb-4">
+                        <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white border-2 azubi-border-beige">
+                            <div class="p-3 rounded-xl azubi-bg-green/10 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-green">
+                                    stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 azubi-text-green">
                                     <rect width="16" height="20" x="4" y="2" rx="2"></rect>
                                     <line x1="8" x2="16" y1="6" y2="6"></line>
                                     <line x1="16" x2="16" y1="14" y2="18"></line>
@@ -408,8 +408,8 @@
                                     <path d="M8 18h.01"></path>
                                 </svg>
                             </div>
-                            <h3 class="font-bold text-green mb-2">Get Cost Breakdown</h3>
-                            <p class="text-sm text-green/70">Receive detailed monthly estimates including rent, food,
+                            <h3 class="font-bold azubi-text-green mb-2">Get Cost Breakdown</h3>
+                            <p class="text-sm azubi-text-green/70">Receive detailed monthly estimates including rent, food,
                                 transport, insurance, utilities, and entertainment.</p>
                         </div>
                     </div>
@@ -417,192 +417,192 @@
             </div>
 
             <!-- FAQ Section -->
-            <div class="text-card-foreground shadow rounded-2xl bg-cream border-2 border-beige mb-6 overflow-hidden">
+            <div class="text-card-foreground shadow rounded-2xl azubi-bg-cream border-2 azubi-border-beige mb-6 overflow-hidden">
                 <div class="p-8 pb-4">
-                    <h2 class="text-2xl font-bold text-green mb-2">Frequently Asked Questions</h2>
+                    <h2 class="text-2xl font-bold azubi-text-green mb-2">Frequently Asked Questions</h2>
                 </div>
                 <div class="divide-y divide-beige" id="faq-container">
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">How much does it cost to live in Germany as an
+                            <span class="font-semibold azubi-text-green pr-4">How much does it cost to live in Germany as an
                                 Ausbildung trainee in 2026?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">Monthly living
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">Monthly living
                             costs range from &euro;800-2,200 depending on city and lifestyle. Affordable cities like Leipzig
                             and Dresden cost &euro;900-1,300/month, while expensive cities like Munich and Frankfurt cost
                             &euro;1,600-2,200/month. The average trainee stipend is &euro;900-1,300/month. The blocked
                             account requirement is &euro;992/month (&euro;11,904/year).</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">Which German cities are most affordable for
+                            <span class="font-semibold azubi-text-green pr-4">Which German cities are most affordable for
                                 Ausbildung trainees?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">The most affordable
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">The most affordable
                             cities include: Leipzig (&euro;900-1,300/month), Dresden (&euro;850-1,250/month), Bochum
                             (&euro;800-1,200/month), Chemnitz (&euro;780-1,180/month), and Erfurt (&euro;850-1,280/month).
                             Rent differences are significant: &euro;300-500 for shared apartments in affordable cities vs
                             &euro;500-800 in Munich.</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">Can I survive on my Ausbildung stipend alone
+                            <span class="font-semibold azubi-text-green pr-4">Can I survive on my Ausbildung stipend alone
                                 without additional income?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">In affordable
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">In affordable
                             cities with &euro;1,000-1,200/month stipend, it covers all basic costs. In moderate-cost cities,
                             it's possible with careful budgeting. In expensive cities, you may face a &euro;200-400 monthly
                             deficit. Part-time work (up to 20 hours/week) can earn you &euro;400-600/month at
                             &euro;12-15/hour.</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">What is included in the &euro;992/month visa
+                            <span class="font-semibold azubi-text-green pr-4">What is included in the &euro;992/month visa
                                 requirement for Germany?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">The &euro;992/month
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">The &euro;992/month
                             blocked account breaks down to: Accommodation (&euro;350-600), Food (&euro;200-300), Health
                             insurance (&euro;120), Transportation (&euro;30-50), and Miscellaneous (&euro;100-200). Note
                             that actual costs often exceed this amount in expensive cities like Munich or Frankfurt.</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">How do living costs vary between Munich and
+                            <span class="font-semibold azubi-text-green pr-4">How do living costs vary between Munich and
                                 Leipzig?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">Munich is 50-80%
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">Munich is 50-80%
                             more expensive overall. Shared apartments: Munich &euro;500-800 vs Leipzig &euro;330-520. Total
                             monthly costs: Munich &euro;1,600-2,200 vs Leipzig &euro;900-1,300. Rent is &euro;300-400
                             higher, food costs 15-20% more, and miscellaneous expenses are 30-40% higher in Munich.</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">Is student accommodation (dormitory) cheaper than
+                            <span class="font-semibold azubi-text-green pr-4">Is student accommodation (dormitory) cheaper than
                                 private apartments?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">Yes, significantly.
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">Yes, significantly.
                             Dormitories cost &euro;180-500/month (cheapest option). Shared apartments (WG) cost
                             &euro;300-800/month. Studio apartments cost &euro;500-1,500/month. However, dormitory waiting
                             lists can be 6-12 months in popular cities, so apply early.</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">What are typical food costs for Ausbildung trainees
+                            <span class="font-semibold azubi-text-green pr-4">What are typical food costs for Ausbildung trainees
                                 in Germany?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">Budget lifestyle
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">Budget lifestyle
                             (home cooking): &euro;125-220/month. Moderate lifestyle (mixed): &euro;175-320/month.
                             Comfortable lifestyle (dining out): &euro;255-450/month. Save money with student Mensas
                             (&euro;2.50-5/meal), discount supermarkets (Aldi, Lidl), and the Too Good To Go app.</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">Can I work part-time during Ausbildung to cover
+                            <span class="font-semibold azubi-text-green pr-4">Can I work part-time during Ausbildung to cover
                                 additional living costs?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">Yes, up to 20
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">Yes, up to 20
                             hours/week (120 full days or 240 half days per year). Wages: &euro;12-15/hour (minimum wage
                             &euro;12.82 in 2026). Potential earnings: &euro;400-600/month. Popular jobs include healthcare
                             shifts (&euro;15-18/hour), retail/hospitality (&euro;12-14/hour), tutoring (&euro;15-25/hour),
                             and delivery (&euro;13-16/hour).</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">What initial costs should I budget for my first
+                            <span class="font-semibold azubi-text-green pr-4">What initial costs should I budget for my first
                                 month in Germany?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">Budget
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">Budget
                             &euro;2,500-4,500 total: Security deposit (&euro;900-2,400), first month rent (&euro;300-800),
                             city registration (&euro;30-50), health insurance first month (&euro;120), residence permit
                             (&euro;100), bedding/kitchenware (&euro;200-400), winter clothing (&euro;150-300), SIM card
                             (&euro;10-30), transport/bike (&euro;30-100), emergency buffer (&euro;300-500).</div>
                     </div>
-                    <div class="faq-item">
+                    <div class="azubi-faq-item">
                         <button
-                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-beige/50 transition-colors"
+                            class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:azubi-bg-beige/50 transition-colors"
                             onclick="toggleFaq(this)">
-                            <span class="font-semibold text-green pr-4">How much should I save before arriving in Germany
+                            <span class="font-semibold azubi-text-green pr-4">How much should I save before arriving in Germany
                                 for Ausbildung?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                class="azubi-faq-chevron text-muted-foreground flex-shrink-0 transition-transform duration-200">
                                 <path d="m6 9 6 6 6-6"></path>
                             </svg>
                         </button>
-                        <div class="faq-content hidden px-6 pb-6 text-sm text-green/70 leading-relaxed">Plan for
+                        <div class="azubi-faq-content hidden px-6 pb-6 text-sm azubi-text-green/70 leading-relaxed">Plan for
                             &euro;14,000-17,000 total: Blocked account (&euro;11,904), first-month setup costs
                             (&euro;2,500-4,500), emergency buffer (&euro;500-1,000), and an additional flexibility fund
                             (&euro;2,000-3,000) for unexpected expenses during your first months.</div>
@@ -630,7 +630,7 @@
         </div>
     </main>
 
-    <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}?v={{ filemtime(public_path('assets/css/global-new-styles.css')) }}">
 
     <script src="{{ asset('assets/js/living-cost-calculator.js') }}"></script>
 @endsection

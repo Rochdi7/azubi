@@ -16,13 +16,13 @@ function selectRadio(field, value, element, progress) {
     // Clear all siblings selection
     const parent = element.parentElement;
     parent.querySelectorAll('.flex.items-start').forEach(el => {
-        el.classList.remove('option-selected');
-        el.querySelector('.radio-circle').classList.remove('selected');
+        el.classList.remove('azubi-option-selected');
+        el.querySelector('.azubi-radio-circle').classList.remove('selected');
     });
 
     // Select this one
-    element.classList.add('option-selected');
-    element.querySelector('.radio-circle').classList.add('selected');
+    element.classList.add('azubi-option-selected');
+    element.querySelector('.azubi-radio-circle').classList.add('selected');
 
     // Training progress display
     if (field === 'trainingProgress' && progress !== undefined) {
@@ -42,11 +42,11 @@ function toggleCheckbox(id, element) {
     if (idx > -1) {
         answers.priorityFactors.splice(idx, 1);
         cb.classList.remove('checked');
-        element.classList.remove('option-selected');
+        element.classList.remove('azubi-option-selected');
     } else {
         answers.priorityFactors.push(id);
         cb.classList.add('checked');
-        element.classList.add('option-selected');
+        element.classList.add('azubi-option-selected');
     }
 
     const count = answers.priorityFactors.length;
@@ -78,7 +78,7 @@ function updateNavButtons() {
 
 function showStep(step) {
     // Hide all steps
-    document.querySelectorAll('.wizard-step').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.azubi-wizard-step').forEach(el => el.classList.add('hidden'));
 
     // Show target step
     const target = document.getElementById('step-' + step);
@@ -136,9 +136,9 @@ function resetWizard() {
     answers.priorityFactors = [];
 
     // Clear all visual selections
-    document.querySelectorAll('.option-selected').forEach(el => el.classList.remove('option-selected'));
-    document.querySelectorAll('.radio-circle.selected').forEach(el => el.classList.remove('selected'));
-    document.querySelectorAll('.checkbox-box.checked').forEach(el => el.classList.remove('checked'));
+    document.querySelectorAll('.azubi-option-selected').forEach(el => el.classList.remove('azubi-option-selected'));
+    document.querySelectorAll('.azubi-radio-circle.selected').forEach(el => el.classList.remove('selected'));
+    document.querySelectorAll('.azubi-checkbox-box.checked').forEach(el => el.classList.remove('checked'));
     document.getElementById('training-progress-display').classList.add('hidden');
     document.getElementById('priority-count').classList.add('hidden');
 

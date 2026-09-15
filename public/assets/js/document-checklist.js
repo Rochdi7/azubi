@@ -110,16 +110,16 @@ function generateChecklist() {
 
         const requiredCount = catDocs.filter(d => d.required).length;
         const catHtml = `
-            <div class="text-card-foreground shadow rounded-2xl bg-cream border-2 border-beige overflow-hidden mb-4">
+            <div class="text-card-foreground shadow rounded-2xl azubi-bg-cream border-2 azubi-border-beige overflow-hidden mb-4">
                 <button class="w-full flex items-center justify-between p-6 hover:bg-beige/30 transition-colors" onclick="toggleCategory(this)">
                     <div class="flex items-center gap-3">
-                        <h3 class="text-lg font-bold text-green">${cat}</h3>
-                        <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-xs bg-beige text-green">${catDocs.length} docs</span>
-                        <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-xs bg-orange/10 text-orange">${requiredCount} required</span>
+                        <h3 class="text-lg font-bold azubi-text-green">${cat}</h3>
+                        <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-xs azubi-bg-beige azubi-text-green">${catDocs.length} docs</span>
+                        <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-xs bg-orange/10 azubi-text-orange">${requiredCount} required</span>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="cat-chevron text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="azubi-cat-chevron text-muted-foreground transition-transform duration-200"><path d="m6 9 6 6 6-6"></path></svg>
                 </button>
-                <div class="cat-content px-6 pb-4 space-y-3">
+                <div class="azubi-cat-content px-6 pb-4 space-y-3">
                     ${catDocs.map(doc => renderDocument(doc)).join('')}
                 </div>
             </div>
@@ -140,10 +140,10 @@ function generateChecklist() {
 
 function renderDocument(doc) {
     const priorityClasses = {
-        urgent: 'bg-orange/10 text-orange border-orange/30',
-        high: 'bg-orange/10 text-orange border-orange/30',
-        medium: 'bg-beige text-green border-beige',
-        low: 'bg-cream text-green/70 border-green/20'
+        urgent: 'bg-orange/10 azubi-text-orange border-orange/30',
+        high: 'bg-orange/10 azubi-text-orange border-orange/30',
+        medium: 'azubi-bg-beige azubi-text-green azubi-border-beige',
+        low: 'azubi-bg-cream azubi-text-green/70 azubi-border-green/20'
     };
     const pClass = priorityClasses[doc.priority] || priorityClasses.medium;
 
@@ -152,15 +152,15 @@ function renderDocument(doc) {
             <div class="flex items-start gap-3">
                 <label class="flex items-center justify-center w-5 h-5 mt-0.5 rounded border-2 border-primary cursor-pointer flex-shrink-0 hover:bg-primary/10 transition-colors">
                     <input type="checkbox" class="sr-only" onchange="toggleDoc('${doc.id}', this.checked)" />
-                    <div class="hidden items-center justify-center w-full h-full bg-primary rounded-sm check-mark">
+                    <div class="hidden items-center justify-center w-full h-full bg-primary rounded-sm azubi-check-mark">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                     </div>
                 </label>
                 <div class="flex-1 min-w-0">
                     <div class="flex items-start justify-between gap-2 mb-1">
-                        <span class="font-semibold text-green doc-name">${doc.name}</span>
+                        <span class="font-semibold azubi-text-green azubi-doc-name">${doc.name}</span>
                         <div class="flex items-center gap-2 flex-shrink-0">
-                            ${doc.required ? '<span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold bg-orange/10 text-orange border-orange/30">Required</span>' : '<span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold bg-beige text-green/70 border-beige">Optional</span>'}
+                            ${doc.required ? '<span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold bg-orange/10 azubi-text-orange border-orange/30">Required</span>' : '<span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold azubi-bg-beige text-green/70 azubi-border-beige">Optional</span>'}
                             <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold ${pClass}">${doc.priority}</span>
                         </div>
                     </div>
@@ -178,8 +178,8 @@ function renderDocument(doc) {
 
 function toggleDoc(docId, checked) {
     const el = document.getElementById('doc-' + docId);
-    const checkMark = el.querySelector('.check-mark');
-    const docName = el.querySelector('.doc-name');
+    const checkMark = el.querySelector('.azubi-check-mark');
+    const docName = el.querySelector('.azubi-doc-name');
 
     if (checked) {
         completedDocs.add(docId);
@@ -206,7 +206,7 @@ function updateProgress(total) {
 
 function toggleCategory(btn) {
     const content = btn.nextElementSibling;
-    const chevron = btn.querySelector('.cat-chevron');
+    const chevron = btn.querySelector('.azubi-cat-chevron');
     content.classList.toggle('hidden');
     chevron.classList.toggle('rotated');
 }
@@ -227,7 +227,7 @@ function resetChecklist() {
 
 function toggleFaq(btn) {
     const content = btn.nextElementSibling;
-    const chevron = btn.querySelector('.faq-chevron');
+    const chevron = btn.querySelector('.azubi-faq-chevron');
     content.classList.toggle('hidden');
     chevron.classList.toggle('rotated');
 }

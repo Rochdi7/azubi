@@ -45,7 +45,7 @@
                 color: transparent;
               "
                 sizes="100vw" src="{{ asset('assets/_next/black-forest-hero-autumnd6b2.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0"></div>
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
                 background:
@@ -98,7 +98,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="Browse Questions" href="#faq-categories"><span aria-hidden="true"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -780,7 +780,7 @@
                                             German language requirements vary by sector:
                                         </div>
                                         <div class="mb-1">
-                                            • Healthcare/Nursing: B2 level required
+                                            • Healthcare/Nursing: B2 level azubi-required
                                         </div>
                                         <div class="mb-1">
                                             • Technical fields (IT, Engineering): B1 level
@@ -950,7 +950,7 @@
                                             2. Get certificates translated by sworn translator
                                         </div>
                                         <div class="mb-1">
-                                            3. Apostille/attestation required for non-EU
+                                            3. Apostille/attestation azubi-required for non-EU
                                             certificates
                                         </div>
                                         <div class="mb-1">4. Processing time: 4-8 weeks</div>
@@ -1383,7 +1383,7 @@
                                         </div>
                                         <div class="mb-1">
                                             • <strong>Language requirement</strong>: A1 German
-                                            level (usually required)
+                                            level (usually azubi-required)
                                         </div>
                                         <div class="mb-1">
                                             • <strong>Exemptions</strong>: EU Blue Card holders,
@@ -1437,7 +1437,7 @@
                                             net income
                                         </div>
                                         <div class="mb-1">
-                                            • <strong>Proof required</strong>: Employment
+                                            • <strong>Proof azubi-required</strong>: Employment
                                             contract, payslips, bank statements
                                         </div>
                                         <br />
@@ -1494,7 +1494,7 @@
                                         <br />
                                         <div class="mb-1"><strong>General Rule:</strong></div>
                                         <div class="mb-1">
-                                            • <strong>No experience required</strong>:
+                                            • <strong>No experience azubi-required</strong>:
                                             Ausbildung is entry-level training
                                         </div>
                                         <div class="mb-1">
@@ -1932,7 +1932,7 @@
                                         <div class="mb-1">University:</div>
                                         <div class="mb-1">• Academic, theoretical focus</div>
                                         <div class="mb-1">
-                                            • Student loans/expenses required
+                                            • Student loans/expenses azubi-required
                                         </div>
                                         <div class="mb-1">• 3-4 years duration</div>
                                         <div class="mb-1">
@@ -2103,7 +2103,7 @@
                                         </div>
                                         <div class="mb-1">
                                             • <strong>Customer interaction</strong>: German
-                                            proficiency required
+                                            proficiency azubi-required
                                         </div>
                                         <div class="mb-1">
                                             • <strong>Legal documents</strong>: All contracts in
@@ -2688,7 +2688,7 @@
                                             certificate, partnership registration)
                                         </div>
                                         <div class="mb-1">
-                                            - <strong>German language</strong> A1 level required
+                                            - <strong>German language</strong> A1 level azubi-required
                                             (some exceptions)
                                         </div>
                                         <div class="mb-1">
@@ -2721,7 +2721,7 @@
                                         </div>
                                         <div class="mb-1">
                                             - <strong>Both parents</strong> must be in Germany
-                                            or consent required
+                                            or consent azubi-required
                                         </div>
                                         <br />
                                         <div class="mb-1">
@@ -2936,7 +2936,7 @@
                                         </div>
                                         <div class="mb-1">
                                             - <strong>Partial Recognition</strong> - some
-                                            additional training/courses required
+                                            additional training/courses azubi-required
                                         </div>
                                         <div class="mb-1">
                                             - <strong>No Recognition</strong> - qualification
@@ -3294,7 +3294,7 @@
                                         </div>
                                         <div class="mb-1">
                                             - <strong>Outcome:</strong> Degree but job search
-                                            required after graduation
+                                            azubi-required after graduation
                                         </div>
                                         <div class="mb-1">
                                             - <strong>Focus:</strong> Theoretical knowledge and
@@ -3905,7 +3905,7 @@
                                         </div>
                                         <div class="mb-1">
                                             - <strong>Medical exams:</strong> 1-2 weeks if
-                                            required
+                                            azubi-required
                                         </div>
                                         <div class="mb-1">
                                             - <strong>Travel arrangements:</strong> 2-3 weeks
@@ -4084,7 +4084,7 @@
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
                     src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="
                   background:
@@ -4130,7 +4130,7 @@
                             <a href="{{ route('front.jobs') }}"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                                 Jobs</a><a href="{{ route('front.tools.eligibility-checker') }}"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
                                 Eligibility</a>
                         </div>
                     </div>

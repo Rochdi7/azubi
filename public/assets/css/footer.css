@@ -11,43 +11,43 @@
   #site-footer { padding: 4rem 0; }
 }
 
-.footer-grid {
+.azubi-footer-grid {
   display: grid;
   gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+  .azubi-footer-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 1024px) {
-  .footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 2rem; }
+  .azubi-footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 2rem; }
 }
 
-.footer-brand {
+.azubi-footer-brand {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.footer-brand .nav-logo img {
+.azubi-footer-brand .azubi-nav-logo img {
   width: 2.5rem;
   height: 2.5rem;
 }
 
-.footer-brand > p {
+.azubi-footer-brand > p {
   font-size: 0.875rem;
   color: var(--text-light);
   line-height: 1.6;
 }
 
-.social-links {
+.azubi-social-links {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
 }
 
-.social-links a {
+.azubi-social-links a {
   width: 2rem;
   height: 2rem;
   border-radius: var(--radius-full);
@@ -57,21 +57,21 @@
   color: var(--text-light);
   transition: var(--transition);
 }
-.social-links a:hover { color: var(--green); background: rgba(0,0,0,0.05); }
+.azubi-social-links a:hover { color: var(--green); background: rgba(0,0,0,0.05); }
 
-.footer-col h3 {
+.azubi-footer-col h3 {
   font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
-.footer-col ul {
+.azubi-footer-col ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.footer-col a {
+.azubi-footer-col a {
   font-size: 0.875rem;
   color: var(--text-light);
   transition: var(--transition);
@@ -79,9 +79,9 @@
   align-items: center;
   gap: 0.5rem;
 }
-.footer-col a:hover { color: var(--green); }
+.azubi-footer-col a:hover { color: var(--green); }
 
-.footer-badge {
+.azubi-footer-badge {
   display: inline-flex;
   align-items: center;
   padding: 0.125rem 0.375rem;
@@ -94,7 +94,7 @@
   min-height: 1rem;
 }
 
-.footer-bottom {
+.azubi-footer-bottom {
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
@@ -105,34 +105,34 @@
   gap: 0.75rem;
 }
 
-.footer-bottom p {
+.azubi-footer-bottom p {
   font-size: 0.875rem;
   color: var(--text-light);
 }
 
-.footer-legal-links {
+.azubi-footer-legal-links {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   font-size: 0.875rem;
 }
 
-.footer-legal-links a {
+.azubi-footer-legal-links a {
   color: var(--text-light);
   transition: var(--transition);
 }
 
-.footer-legal-links a:hover {
+.azubi-footer-legal-links a:hover {
   color: var(--green);
 }
 
-.footer-legal-dot {
+.azubi-footer-legal-dot {
   color: var(--text-light);
   opacity: 0.4;
 }
 
 @media (max-width: 639px) {
-  .footer-bottom {
+  .azubi-footer-bottom {
     flex-direction: column;
     text-align: center;
   }

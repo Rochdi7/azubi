@@ -16,13 +16,13 @@
 @endsection
 
 @section('content')
-    <main class="min-h-screen py-16 md:py-24" style="background-color: #f9f5f0">
+    <main class="min-h-screen py-16 md:py-24" style="background-color: #F7F8FA">
         <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-3xl">
             <div class="mb-12 text-center space-y-4">
-                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #344f1f">
+                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #2C3340">
                     Refund &amp; Cancellation Policy
                 </h1>
-                <p class="text-lg" style="color: rgba(52, 79, 31, 0.7)">
+                <p class="text-lg" style="color: rgba(44, 51, 64, 0.7)">
                     Our terms for refunds and service cancellations
                 </p>
             </div>
@@ -30,11 +30,11 @@
                 style="
                 background-color: #ffffff;
                 box-shadow:
-                  0 4px 8px rgba(52, 79, 31, 0.08),
-                  0 2px 4px rgba(52, 79, 31, 0.04);
+                  0 4px 8px rgba(44, 51, 64, 0.08),
+                  0 2px 4px rgba(44, 51, 64, 0.04);
               ">
-                <div class="legal-prose">
-                    <p class="text-lg" style="color: rgba(52, 79, 31, 0.8)">
+                <div class="azubi-legal-prose">
+                    <p class="text-lg" style="color: rgba(44, 51, 64, 0.8)">
                         <strong>Effective Date:</strong> January 1, 2026<br /><strong>Last Updated:</strong>
                         January 1, 2026
                     </p>
@@ -140,7 +140,7 @@
                     </p>
                     <div
                         style="
-                    background-color: #f9f5f0;
+                    background-color: #F7F8FA;
                     padding: 1rem;
                     border-radius: 8px;
                     margin: 1rem 0;
@@ -396,7 +396,7 @@
                     <ul>
                         <li>Professional verification of educational certificates</li>
                         <li>Document authentication and validation</li>
-                        <li>Verification badge on student profile</li>
+                        <li>Verification azubi-badge on student profile</li>
                     </ul>
                     <p><strong>Refund Policy:</strong></p>
                     <ul>
@@ -1089,7 +1089,7 @@
                         </li>
                         <li>
                             Your account security will be reviewed, password reset
-                            required, and two-factor authentication recommended
+                            azubi-required, and two-factor authentication recommended
                         </li>
                         <li>
                             We may file reports with authorities if fraud or identity
@@ -1277,7 +1277,7 @@
                     </p>
                     <div
                         style="
-                    background-color: #f2ead3;
+                    background-color: #EEF0F4;
                     padding: 1.5rem;
                     border-radius: 12px;
                     margin-top: 1rem;
@@ -1289,18 +1289,18 @@
                         <p style="margin-bottom: 0.75rem">
                             <strong>Billing &amp; Refunds:</strong><br />Email:
                             <a href="#"
-                                style="color: #344f1f; text-decoration: underline"><span class="__cf_email__"
+                                style="color: #2C3340; text-decoration: underline"><span class="__cf_email__"
                                     data-cfemail="5032393c3c393e3710373f31252332393c34253e377e333f3d">[email&#160;protected]</span></a><br /><em
-                                style="font-size: 0.875rem; color: rgba(52, 79, 31, 0.7)">For all refund requests, payment
+                                style="font-size: 0.875rem; color: rgba(44, 51, 64, 0.7)">For all refund requests, payment
                                 disputes, and billing
                                 inquiries</em>
                         </p>
                         <p style="margin-bottom: 0.75rem">
                             <strong>General Support:</strong><br />Email:
                             <a href="#"
-                                style="color: #344f1f; text-decoration: underline"><span class="__cf_email__"
+                                style="color: #2C3340; text-decoration: underline"><span class="__cf_email__"
                                     data-cfemail="eb838e878784ab8c848a9e988982878f9e858cc5888486">[email&#160;protected]</span></a><br /><em
-                                style="font-size: 0.875rem; color: rgba(52, 79, 31, 0.7)">For general questions and platform
+                                style="font-size: 0.875rem; color: rgba(44, 51, 64, 0.7)">For general questions and platform
                                 support</em>
                         </p>
                         <p style="margin-bottom: 0.75rem">
@@ -1389,10 +1389,10 @@
                     </ul>
                     <div
                         style="
-                    border-top: 2px solid #f2ead3;
+                    border-top: 2px solid #EEF0F4;
                     margin-top: 3rem;
                     padding-top: 2rem;
-                    color: rgba(52, 79, 31, 0.7);
+                    color: rgba(44, 51, 64, 0.7);
                     font-size: 0.875rem;
                   ">
                         <p style="margin-bottom: 0.5rem">
@@ -1405,7 +1405,7 @@
                             change. Always review the current version before purchasing
                             paid services. The most recent version is available at
                             <a href="{{ route('front.refund-policy') }}"
-                                style="color: #344f1f; text-decoration: underline">azubi.ma/refund-policy</a>.
+                                style="color: #2C3340; text-decoration: underline">azubi.ma/refund-policy</a>.
                         </p>
                     </div>
                 </div>

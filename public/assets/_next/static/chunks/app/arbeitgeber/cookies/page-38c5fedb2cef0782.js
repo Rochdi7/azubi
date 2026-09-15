@@ -21,7 +21,7 @@
       function b() {
         return (0, l.jsxs)("div", {
           className: "min-h-screen",
-          style: { backgroundColor: "#F9F5F0" },
+          style: { backgroundColor: "#F7F8FA" },
           children: [
             (0, l.jsx)(g.M, {}),
             (0, l.jsx)("section", {
@@ -34,17 +34,17 @@
                     (0, l.jsx)("div", {
                       className:
                         "w-16 h-16 rounded-full flex items-center justify-center shrink-0",
-                      style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                      style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                       children: (0, l.jsx)(t.A, {
                         className: "w-8 h-8",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                     }),
                     (0, l.jsxs)("div", {
                       children: [
                         (0, l.jsx)("h1", {
                           className: "text-3xl md:text-4xl font-bold",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Cookie-Richtlinie",
                         }),
                         (0, l.jsx)("p", {
@@ -77,20 +77,20 @@
                   (0, l.jsxs)("div", {
                     className: "p-5 rounded-xl flex items-start gap-3",
                     style: {
-                      backgroundColor: "rgba(244, 153, 26, 0.1)",
-                      border: "1px solid rgba(244, 153, 26, 0.2)",
+                      backgroundColor: "rgba(93, 93, 233, 0.1)",
+                      border: "1px solid rgba(93, 93, 233, 0.2)",
                     },
                     children: [
                       (0, l.jsx)(n.A, {
                         className: "w-5 h-5 shrink-0 mt-0.5",
-                        style: { color: "#F4991A" },
+                        style: { color: "#5D5DE9" },
                       }),
                       (0, l.jsxs)("div", {
                         className: "text-sm",
                         children: [
                           (0, l.jsx)("p", {
                             className: "font-medium mb-1",
-                            style: { color: "#344F1F" },
+                            style: { color: "#2C3340" },
                             children: "Transparente Cookie-Nutzung",
                           }),
                           (0, l.jsx)("p", {
@@ -120,17 +120,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(n.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "1. Was sind Cookies?",
                                   }),
                                 ],
@@ -146,7 +146,7 @@
                                   }),
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, l.jsx)("p", {
                                         className:
@@ -164,11 +164,11 @@
                                                   "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                                 style: {
                                                   backgroundColor:
-                                                    "rgba(244, 153, 26, 0.2)",
+                                                    "rgba(93, 93, 233, 0.2)",
                                                 },
                                                 children: (0, l.jsx)(a.A, {
                                                   className: "w-4 h-4",
-                                                  style: { color: "#F4991A" },
+                                                  style: { color: "#5D5DE9" },
                                                 }),
                                               }),
                                               (0, l.jsxs)("div", {
@@ -196,11 +196,11 @@
                                                   "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                                 style: {
                                                   backgroundColor:
-                                                    "rgba(244, 153, 26, 0.2)",
+                                                    "rgba(93, 93, 233, 0.2)",
                                                 },
                                                 children: (0, l.jsx)(a.A, {
                                                   className: "w-4 h-4",
-                                                  style: { color: "#F4991A" },
+                                                  style: { color: "#5D5DE9" },
                                                 }),
                                               }),
                                               (0, l.jsxs)("div", {
@@ -228,11 +228,11 @@
                                                   "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                                 style: {
                                                   backgroundColor:
-                                                    "rgba(244, 153, 26, 0.2)",
+                                                    "rgba(93, 93, 233, 0.2)",
                                                 },
                                                 children: (0, l.jsx)(a.A, {
                                                   className: "w-4 h-4",
-                                                  style: { color: "#F4991A" },
+                                                  style: { color: "#5D5DE9" },
                                                 }),
                                               }),
                                               (0, l.jsxs)("div", {
@@ -259,11 +259,11 @@
                                                   "w-6 h-6 rounded-full flex items-center justify-center shrink-0",
                                                 style: {
                                                   backgroundColor:
-                                                    "rgba(244, 153, 26, 0.2)",
+                                                    "rgba(93, 93, 233, 0.2)",
                                                 },
                                                 children: (0, l.jsx)(a.A, {
                                                   className: "w-4 h-4",
-                                                  style: { color: "#F4991A" },
+                                                  style: { color: "#5D5DE9" },
                                                 }),
                                               }),
                                               (0, l.jsxs)("div", {
@@ -301,17 +301,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(t.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "2. Welche Cookies verwenden wir?",
                                   }),
@@ -323,7 +323,7 @@
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: [
                                       (0, l.jsxs)("div", {
@@ -332,7 +332,7 @@
                                         children: [
                                           (0, l.jsx)(d.A, {
                                             className: "w-6 h-6",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
@@ -373,8 +373,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Session",
                                                   }),
@@ -431,8 +431,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Persistent",
                                                   }),
@@ -488,8 +488,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Persistent",
                                                   }),
@@ -535,7 +535,7 @@
                                     className: "p-5 rounded-xl",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.08)",
+                                        "rgba(93, 93, 233, 0.08)",
                                     },
                                     children: [
                                       (0, l.jsxs)("div", {
@@ -544,7 +544,7 @@
                                         children: [
                                           (0, l.jsx)(i.A, {
                                             className: "w-6 h-6",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
@@ -585,8 +585,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Persistent",
                                                   }),
@@ -627,7 +627,7 @@
                                                   "mt-2 p-2 rounded text-xs",
                                                 style: {
                                                   backgroundColor:
-                                                    "rgba(52, 79, 31, 0.05)",
+                                                    "rgba(44, 51, 64, 0.05)",
                                                 },
                                                 children: [
                                                   (0, l.jsx)("strong", {
@@ -656,8 +656,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Persistent",
                                                   }),
@@ -713,8 +713,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Session",
                                                   }),
@@ -758,7 +758,7 @@
                                         className: "mt-4 p-3 rounded-lg",
                                         style: {
                                           backgroundColor:
-                                            "rgba(244, 153, 26, 0.1)",
+                                            "rgba(93, 93, 233, 0.1)",
                                         },
                                         children: (0, l.jsxs)("p", {
                                           className: "text-sm leading-relaxed",
@@ -775,7 +775,7 @@
                                               rel: "noopener noreferrer",
                                               className:
                                                 "font-medium hover:underline",
-                                              style: { color: "#F4991A" },
+                                              style: { color: "#5D5DE9" },
                                               children:
                                                 "Google Analytics Opt-out Browser Add-on",
                                             }),
@@ -787,7 +787,7 @@
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: [
                                       (0, l.jsxs)("div", {
@@ -796,7 +796,7 @@
                                         children: [
                                           (0, l.jsx)(o.A, {
                                             className: "w-6 h-6",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
@@ -838,8 +838,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Persistent",
                                                   }),
@@ -895,8 +895,8 @@
                                                       "text-xs px-2 py-1 rounded-full",
                                                     style: {
                                                       backgroundColor:
-                                                        "rgba(244, 153, 26, 0.1)",
-                                                      color: "#F4991A",
+                                                        "rgba(93, 93, 233, 0.1)",
+                                                      color: "#5D5DE9",
                                                     },
                                                     children: "Persistent",
                                                   }),
@@ -952,17 +952,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(o.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "3. Wie k\xf6nnen Sie Cookies verwalten?",
                                   }),
@@ -979,7 +979,7 @@
                                   }),
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
-                                    style: { backgroundColor: "#F2EAD3" },
+                                    style: { backgroundColor: "#EEF0F4" },
                                     children: [
                                       (0, l.jsx)("p", {
                                         className:
@@ -1010,7 +1010,7 @@
                                                 rel: "noopener noreferrer",
                                                 className:
                                                   "text-sm hover:underline",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                                 children: "Anleitung →",
                                               }),
                                             ],
@@ -1030,7 +1030,7 @@
                                                 rel: "noopener noreferrer",
                                                 className:
                                                   "text-sm hover:underline",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                                 children: "Anleitung →",
                                               }),
                                             ],
@@ -1050,7 +1050,7 @@
                                                 rel: "noopener noreferrer",
                                                 className:
                                                   "text-sm hover:underline",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                                 children: "Anleitung →",
                                               }),
                                             ],
@@ -1070,7 +1070,7 @@
                                                 rel: "noopener noreferrer",
                                                 className:
                                                   "text-sm hover:underline",
-                                                style: { color: "#F4991A" },
+                                                style: { color: "#5D5DE9" },
                                                 children: "Anleitung →",
                                               }),
                                             ],
@@ -1083,9 +1083,9 @@
                                     className: "p-4 rounded-lg",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                       border:
-                                        "1px solid rgba(244, 153, 26, 0.2)",
+                                        "1px solid rgba(93, 93, 233, 0.2)",
                                     },
                                     children: (0, l.jsxs)("p", {
                                       className: "text-sm leading-relaxed",
@@ -1112,17 +1112,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(c.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children:
                                       "4. Drittanbieter-Cookies im Detail",
                                   }),
@@ -1140,7 +1140,7 @@
                                   (0, l.jsxs)("div", {
                                     className: "p-5 rounded-xl",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: [
                                       (0, l.jsxs)("div", {
@@ -1149,7 +1149,7 @@
                                         children: [
                                           (0, l.jsx)(i.A, {
                                             className: "w-6 h-6 shrink-0",
-                                            style: { color: "#F4991A" },
+                                            style: { color: "#5D5DE9" },
                                           }),
                                           (0, l.jsxs)("div", {
                                             children: [
@@ -1196,7 +1196,7 @@
                                                         className:
                                                           "w-4 h-4 shrink-0 mt-0.5",
                                                         style: {
-                                                          color: "#F4991A",
+                                                          color: "#5D5DE9",
                                                         },
                                                       }),
                                                       (0, l.jsx)("span", {
@@ -1213,7 +1213,7 @@
                                                         className:
                                                           "w-4 h-4 shrink-0 mt-0.5",
                                                         style: {
-                                                          color: "#F4991A",
+                                                          color: "#5D5DE9",
                                                         },
                                                       }),
                                                       (0, l.jsx)("span", {
@@ -1230,7 +1230,7 @@
                                                         className:
                                                           "w-4 h-4 shrink-0 mt-0.5",
                                                         style: {
-                                                          color: "#F4991A",
+                                                          color: "#5D5DE9",
                                                         },
                                                       }),
                                                       (0, l.jsx)("span", {
@@ -1247,7 +1247,7 @@
                                             className: "p-3 rounded-lg",
                                             style: {
                                               backgroundColor:
-                                                "rgba(244, 153, 26, 0.1)",
+                                                "rgba(93, 93, 233, 0.1)",
                                             },
                                             children: (0, l.jsxs)("p", {
                                               className: "leading-relaxed",
@@ -1264,7 +1264,7 @@
                                                   rel: "noopener noreferrer",
                                                   className:
                                                     "font-medium hover:underline",
-                                                  style: { color: "#F4991A" },
+                                                  style: { color: "#5D5DE9" },
                                                   children:
                                                     "Datenschutzerkl\xe4rung von Google",
                                                 }),
@@ -1289,17 +1289,17 @@
                                       "w-10 h-10 rounded-full flex items-center justify-center",
                                     style: {
                                       backgroundColor:
-                                        "rgba(244, 153, 26, 0.1)",
+                                        "rgba(93, 93, 233, 0.1)",
                                     },
                                     children: (0, l.jsx)(o.A, {
                                       className: "w-5 h-5",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                     }),
                                   }),
                                   (0, l.jsx)("h2", {
                                     className:
                                       "text-xl md:text-2xl font-semibold",
-                                    style: { color: "#344F1F" },
+                                    style: { color: "#2C3340" },
                                     children: "5. Cookie-Dauer und L\xf6schung",
                                   }),
                                 ],
@@ -1321,7 +1321,7 @@
                                         (0, l.jsx)("thead", {
                                           children: (0, l.jsxs)("tr", {
                                             style: {
-                                              backgroundColor: "#F2EAD3",
+                                              backgroundColor: "#EEF0F4",
                                             },
                                             children: [
                                               (0, l.jsx)("th", {
@@ -1449,7 +1449,7 @@
                                   (0, l.jsx)("div", {
                                     className: "p-4 rounded-lg",
                                     style: {
-                                      backgroundColor: "rgba(52, 79, 31, 0.05)",
+                                      backgroundColor: "rgba(44, 51, 64, 0.05)",
                                     },
                                     children: (0, l.jsx)("p", {
                                       className: "text-sm leading-relaxed",
@@ -1466,7 +1466,7 @@
                             children: [
                               (0, l.jsx)("h3", {
                                 className: "text-lg font-semibold mb-3",
-                                style: { color: "#344F1F" },
+                                style: { color: "#2C3340" },
                                 children:
                                   "6. \xc4nderungen dieser Cookie-Richtlinie",
                               }),
@@ -1492,7 +1492,7 @@
                             className: "pt-6 border-t border-border/30",
                             children: (0, l.jsxs)("div", {
                               className: "p-6 rounded-xl",
-                              style: { backgroundColor: "#F2EAD3" },
+                              style: { backgroundColor: "#EEF0F4" },
                               children: [
                                 (0, l.jsx)("p", {
                                   className:
@@ -1517,7 +1517,7 @@
                                       href: "mailto:datenschutz@azubi.ma",
                                       className:
                                         "text-sm font-medium hover:underline",
-                                      style: { color: "#F4991A" },
+                                      style: { color: "#5D5DE9" },
                                       children: "datenschutz@azubi.ma",
                                     }),
                                   ],
@@ -1536,7 +1536,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, l.jsx)(u(), {
                           href: "/arbeitgeber/impressum",
                           children: "Impressum",
@@ -1546,7 +1546,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, l.jsx)(u(), {
                           href: "/arbeitgeber/datenschutz",
                           children: "Datenschutz",
@@ -1556,7 +1556,7 @@
                         asChild: !0,
                         variant: "outline",
                         className: "rounded-full",
-                        style: { borderColor: "#344F1F", color: "#344F1F" },
+                        style: { borderColor: "#2C3340", color: "#2C3340" },
                         children: (0, l.jsx)(u(), {
                           href: "/arbeitgeber/agb",
                           children: "AGB",
@@ -1565,7 +1565,7 @@
                       (0, l.jsx)(x.$, {
                         asChild: !0,
                         className: "rounded-full",
-                        style: { backgroundColor: "#F4991A", color: "white" },
+                        style: { backgroundColor: "#5D5DE9", color: "white" },
                         children: (0, l.jsx)(u(), {
                           href: "/arbeitgeber",
                           children: "Zur\xfcck zur Startseite",

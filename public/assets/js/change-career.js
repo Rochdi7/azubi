@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // FAQ accordion
   var faqContainer = document.getElementById('changeCareerFaq');
   if (faqContainer) {
-    faqContainer.querySelectorAll('.faq-trigger').forEach(function(trigger) {
+    faqContainer.querySelectorAll('.azubi-faq-trigger').forEach(function(trigger) {
       trigger.addEventListener('click', function() {
-        var item = trigger.closest('.faq-item');
-        var content = item.querySelector('.faq-content');
+        var item = trigger.closest('.azubi-faq-item');
+        var content = item.querySelector('.azubi-faq-content');
         var isOpen = trigger.getAttribute('aria-expanded') === 'true';
         var chevron = trigger.querySelector('svg');
 
@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var form = document.getElementById('switchWizardForm');
   if (!form) return;
 
-  var steps = form.querySelectorAll('.wizard-step[data-wizard-step]');
+  var steps = form.querySelectorAll('.azubi-wizard-step[data-wizard-step]');
   var indicators = document.querySelectorAll('[data-wizard-indicator]');
-  var backBtn = form.querySelector('.wizard-back-btn');
-  var nextBtn = form.querySelector('.wizard-next-btn');
-  var nextText = form.querySelector('.wizard-next-text');
+  var backBtn = form.querySelector('.azubi-wizard-back-btn');
+  var nextBtn = form.querySelector('.azubi-wizard-next-btn');
+  var nextText = form.querySelector('.azubi-wizard-next-text');
   var wizardNav = document.getElementById('wizardNav');
   var currentStep = 0;
   var totalSteps = 4;
@@ -69,25 +69,25 @@ document.addEventListener('DOMContentLoaded', function() {
     // Update indicators
     indicators.forEach(function(ind) {
       var i = parseInt(ind.getAttribute('data-wizard-indicator'));
-      var circle = ind.querySelector('.wizard-step-circle');
-      var label = ind.querySelector('.wizard-step-label');
-      var line = ind.querySelector('.wizard-step-line');
+      var circle = ind.querySelector('.azubi-wizard-step-circle');
+      var label = ind.querySelector('.azubi-wizard-step-label');
+      var line = ind.querySelector('.azubi-wizard-step-line');
 
       if (i < index) {
-        circle.className = 'wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground';
+        circle.className = 'azubi-wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground';
         circle.innerHTML = checkSvg;
-        label.className = 'wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary';
-        if (line) line.className = 'wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-primary';
+        label.className = 'azubi-wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary';
+        if (line) line.className = 'azubi-wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-primary';
       } else if (i === index) {
-        circle.className = 'wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground';
+        circle.className = 'azubi-wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground';
         circle.innerHTML = stepIcons[i];
-        label.className = 'wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary';
-        if (line) line.className = 'wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige';
+        label.className = 'azubi-wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary';
+        if (line) line.className = 'azubi-wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 azubi-bg-beige';
       } else {
-        circle.className = 'wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground';
+        circle.className = 'azubi-wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors azubi-bg-beige text-muted-foreground';
         circle.innerHTML = stepIcons[i];
-        label.className = 'wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground';
-        if (line) line.className = 'wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige';
+        label.className = 'azubi-wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground';
+        if (line) line.className = 'azubi-wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 azubi-bg-beige';
       }
     });
 
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Quick suggestion pills
-  form.querySelectorAll('.wizard-suggestion').forEach(function(btn) {
+  form.querySelectorAll('.azubi-wizard-suggestion').forEach(function(btn) {
     btn.addEventListener('click', function() {
       var textarea = form.querySelector('#reasonForSwitch');
       var text = btn.textContent.trim();

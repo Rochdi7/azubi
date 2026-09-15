@@ -19,7 +19,7 @@
 
 @section('content')
     <script type="application/ld+json">
-          {&#34;@context&#34;:&#34;https://schema.org&#34;,&#34;@graph&#34;:[{&#34;@type&#34;:&#34;FAQPage&#34;,&#34;mainEntity&#34;:[{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I change my Ausbildung after the probation period?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, absolutely. Under Berufsbildungsgesetz (BBiG) §22, you can terminate your training contract after the probation period with proper notice and an important reason. Our team ensures you follow the correct legal procedure, coordinates with IHK/HWK mediators if needed, and helps you secure a new contract before termination to avoid any gaps.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Will I lose the months I already completed in my current Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No, your completed training months are not lost. Keep your Ausbildungsnachweis (training record) and Berufsschule reports updated. New employers typically credit your completed modules, allowing you to continue from where you left off. We help document and transfer your credits to ensure you stay with your original exam cohort.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What happens to my residence permit when switching Ausbildung companies?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Your residence permit remains valid if you handle the transition correctly. You must notify the Ausländerbehörde within 2 weeks, present your new contract, and provide confirmation from your Berufsschule. We prepare all necessary paperwork, guide you through the process, and can accompany you to appointments if needed.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Do I need to repay financial aid (BAB/BAföG) if I switch?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No repayment is required if you continue in an eligible Ausbildung and submit change notifications within 14 days. Our team coordinates directly with Agentur für Arbeit to ensure your financial support continues uninterrupted. Only unplanned dropouts without follow-up plans trigger repayment obligations.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;How quickly can I find a new Ausbildung position?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;With our support, most trainees secure a new contract within 4-8 weeks. We maintain a network of 320+ verified partner companies across various sectors. Our fast-track process includes immediate job matching, interview preparation, and aligned start dates to prevent any gaps in your training.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What if my current company refuses to let me go?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;If your employer refuses termination, we activate mediation through IHK/HWK chambers. These official bodies provide free mediation services for trainees. In cases of serious issues (missing training plan, safety concerns, discrimination), we help document everything for extraordinary termination under BBiG §22.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I switch to a completely different field (e.g., from retail to IT)?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, career pivots are possible and often successful. We assess which of your completed modules can transfer, arrange bridging courses if needed, and match you with employers who value your existing skills and language abilities. Many of our success stories involve complete field changes.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What documents do I need to prepare for switching?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Essential documents include: current training contract, Ausbildungsnachweis (training log), Berufsschule transcripts, residence permit, financial aid documentation, and employment references. We provide a complete checklist and help you compile everything during our initial consultation.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Is there a best time to switch my Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;The easiest time is during the 4-month probation period when termination is simplified. However, switches are possible at any stage. We recommend avoiding exam periods and considering semester breaks at Berufsschule for smoother transitions. Our advisors help you time your switch optimally.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What support do you provide after I start my new Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Our support continues for 90 days after you start your new position. This includes: probation period guidance, conflict resolution support, Berufsschule integration assistance, and regular check-ins. We ensure your transition is successful and sustainable.&#34;}}]},{&#34;@type&#34;:&#34;HowTo&#34;,&#34;name&#34;:&#34;How to Switch Your Ausbildung in Germany&#34;,&#34;description&#34;:&#34;Complete guide for changing your Ausbildung training program in Germany while protecting your visa and financial aid.&#34;,&#34;step&#34;:[{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:1,&#34;name&#34;:&#34;Assess &amp; Document&#34;,&#34;text&#34;:&#34;Comprehensive evaluation of your current situation and documentation preparation.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Free consultation with our advisors&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Review of training log and contracts&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Chamber advisory session booking&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Risk assessment and timeline planning&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:2,&#34;name&#34;:&#34;Notify &amp; Negotiate&#34;,&#34;text&#34;:&#34;Formal termination process and negotiations with all stakeholders.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Draft resignation or release agreement&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Notify Berufsschule and chambers&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Secure employer signatures&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Coordinate with Ausländerbehörde&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:3,&#34;name&#34;:&#34;Secure New Contract&#34;,&#34;text&#34;:&#34;Fast-track placement with verified employers and smooth onboarding.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Interview preparation and coaching&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Employer matching from our network&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Contract review and negotiation&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Berufsschule registration&#34;}]}]},{&#34;@type&#34;:&#34;Service&#34;,&#34;serviceType&#34;:&#34;Ausbildung Career Switching Consultation&#34;,&#34;provider&#34;:{&#34;@type&#34;:&#34;Organization&#34;,&#34;name&#34;:&#34;Azubi&#34;,&#34;url&#34;:&#34;https://azubi.ma&#34;},&#34;areaServed&#34;:&#34;Germany&#34;,&#34;availableLanguage&#34;:[&#34;en&#34;,&#34;de&#34;],&#34;hasOfferCatalog&#34;:{&#34;@type&#34;:&#34;OfferCatalog&#34;,&#34;name&#34;:&#34;Ausbildung Switching Services&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Legal Guidance&#34;,&#34;description&#34;:&#34;BBiG §22 compliance and chamber coordination&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Visa Protection&#34;,&#34;description&#34;:&#34;Maintain residence permit throughout transition&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Employer Matching&#34;,&#34;description&#34;:&#34;Access to 320+ verified partner companies&#34;}}]}},{&#34;@type&#34;:&#34;BreadcrumbList&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:1,&#34;item&#34;:{&#34;@id&#34;:&#34;https://azubi.ma&#34;,&#34;name&#34;:&#34;Home&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:2,&#34;item&#34;:{&#34;@id&#34;:&#34;https://azubi.ma/ausbildung-in-germany&#34;,&#34;name&#34;:&#34;Ausbildung in Germany&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:3,&#34;item&#34;:{&#34;@id&#34;:&#34;https://azubi.ma/ausbildung/change-career&#34;,&#34;name&#34;:&#34;Change Career&#34;}}]}]}
+          {&#34;@context&#34;:&#34;https://schema.org&#34;,&#34;@graph&#34;:[{&#34;@type&#34;:&#34;FAQPage&#34;,&#34;mainEntity&#34;:[{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I change my Ausbildung after the probation period?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, absolutely. Under Berufsbildungsgesetz (BBiG) §22, you can terminate your training contract after the probation period with proper notice and an important reason. Our team ensures you follow the correct legal procedure, coordinates with IHK/HWK mediators if needed, and helps you secure a new contract before termination to avoid any gaps.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Will I lose the months I already completed in my current Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No, your completed training months are not lost. Keep your Ausbildungsnachweis (training record) and Berufsschule reports updated. New employers typically credit your completed modules, allowing you to continue from where you left off. We help document and transfer your credits to ensure you stay with your original exam cohort.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What happens to my residence permit when switching Ausbildung companies?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Your residence permit remains valid if you handle the transition correctly. You must notify the Ausländerbehörde within 2 weeks, present your new contract, and provide confirmation from your Berufsschule. We prepare all necessary paperwork, guide you through the process, and can accompany you to appointments if needed.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Do I need to repay financial aid (BAB/BAföG) if I switch?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;No repayment is azubi-required if you continue in an eligible Ausbildung and submit change notifications within 14 days. Our team coordinates directly with Agentur für Arbeit to ensure your financial support continues uninterrupted. Only unplanned dropouts without follow-up plans trigger repayment obligations.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;How quickly can I find a new Ausbildung position?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;With our support, most trainees secure a new contract within 4-8 weeks. We maintain a network of 320+ verified partner companies across various sectors. Our fast-track process includes immediate job matching, interview preparation, and aligned start dates to prevent any gaps in your training.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What if my current company refuses to let me go?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;If your employer refuses termination, we activate mediation through IHK/HWK chambers. These official bodies provide free mediation services for trainees. In cases of serious issues (missing training plan, safety concerns, discrimination), we help document everything for extraordinary termination under BBiG §22.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Can I switch to a completely different field (e.g., from retail to IT)?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Yes, career pivots are possible and often successful. We assess which of your completed modules can transfer, arrange bridging courses if needed, and match you with employers who value your existing skills and language abilities. Many of our success stories involve complete field changes.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What documents do I need to prepare for switching?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Essential documents include: current training contract, Ausbildungsnachweis (training log), Berufsschule transcripts, residence permit, financial aid documentation, and employment references. We provide a complete checklist and help you compile everything during our initial consultation.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;Is there a best time to switch my Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;The easiest time is during the 4-month probation period when termination is simplified. However, switches are possible at any stage. We recommend avoiding exam periods and considering semester breaks at Berufsschule for smoother transitions. Our advisors help you time your switch optimally.&#34;}},{&#34;@type&#34;:&#34;Question&#34;,&#34;name&#34;:&#34;What support do you provide after I start my new Ausbildung?&#34;,&#34;acceptedAnswer&#34;:{&#34;@type&#34;:&#34;Answer&#34;,&#34;text&#34;:&#34;Our support continues for 90 days after you start your new position. This includes: probation period guidance, conflict resolution support, Berufsschule integration assistance, and regular check-ins. We ensure your transition is successful and sustainable.&#34;}}]},{&#34;@type&#34;:&#34;HowTo&#34;,&#34;name&#34;:&#34;How to Switch Your Ausbildung in Germany&#34;,&#34;description&#34;:&#34;Complete guide for changing your Ausbildung training program in Germany while protecting your visa and financial aid.&#34;,&#34;step&#34;:[{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:1,&#34;name&#34;:&#34;Assess &amp; Document&#34;,&#34;text&#34;:&#34;Comprehensive evaluation of your current situation and documentation preparation.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Free consultation with our advisors&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Review of training log and contracts&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Chamber advisory session booking&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Risk assessment and timeline planning&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:2,&#34;name&#34;:&#34;Notify &amp; Negotiate&#34;,&#34;text&#34;:&#34;Formal termination process and negotiations with all stakeholders.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Draft resignation or release agreement&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Notify Berufsschule and chambers&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Secure employer signatures&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Coordinate with Ausländerbehörde&#34;}]},{&#34;@type&#34;:&#34;HowToStep&#34;,&#34;position&#34;:3,&#34;name&#34;:&#34;Secure New Contract&#34;,&#34;text&#34;:&#34;Fast-track placement with verified employers and smooth onboarding.&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Interview preparation and coaching&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Employer matching from our network&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Contract review and negotiation&#34;},{&#34;@type&#34;:&#34;HowToDirection&#34;,&#34;text&#34;:&#34;Berufsschule registration&#34;}]}]},{&#34;@type&#34;:&#34;Service&#34;,&#34;serviceType&#34;:&#34;Ausbildung Career Switching Consultation&#34;,&#34;provider&#34;:{&#34;@type&#34;:&#34;Organization&#34;,&#34;name&#34;:&#34;Azubi&#34;,&#34;url&#34;:&#34;https://azubi.ma&#34;},&#34;areaServed&#34;:&#34;Germany&#34;,&#34;availableLanguage&#34;:[&#34;en&#34;,&#34;de&#34;],&#34;hasOfferCatalog&#34;:{&#34;@type&#34;:&#34;OfferCatalog&#34;,&#34;name&#34;:&#34;Ausbildung Switching Services&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Legal Guidance&#34;,&#34;description&#34;:&#34;BBiG §22 compliance and chamber coordination&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Visa Protection&#34;,&#34;description&#34;:&#34;Maintain residence permit throughout transition&#34;}},{&#34;@type&#34;:&#34;Offer&#34;,&#34;itemOffered&#34;:{&#34;@type&#34;:&#34;Service&#34;,&#34;name&#34;:&#34;Employer Matching&#34;,&#34;description&#34;:&#34;Access to 320+ verified partner companies&#34;}}]}},{&#34;@type&#34;:&#34;BreadcrumbList&#34;,&#34;itemListElement&#34;:[{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:1,&#34;item&#34;:{&#34;@id&#34;:&#34;https://azubi.ma&#34;,&#34;name&#34;:&#34;Home&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:2,&#34;item&#34;:{&#34;@id&#34;:&#34;https://azubi.ma/ausbildung-in-germany&#34;,&#34;name&#34;:&#34;Ausbildung in Germany&#34;}},{&#34;@type&#34;:&#34;ListItem&#34;,&#34;position&#34;:3,&#34;item&#34;:{&#34;@id&#34;:&#34;https://azubi.ma/ausbildung/change-career&#34;,&#34;name&#34;:&#34;Change Career&#34;}}]}]}
         </script>
     <div class="flex flex-col">
         <section
@@ -28,7 +28,7 @@
                 decoding="async" class="object-cover object-center"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                 src="{{ asset('assets/_next/bavarian-alps-hero-autumn9804.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0">
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil">
             </div>
             <div class="absolute inset-0 z-0"
                 style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -67,7 +67,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="Explore Options" href="#why-change"> <span aria-hidden="true"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -271,7 +271,7 @@
                         forward.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-3">
-                        <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
+                        <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
                             href="#switch-form"> Get Free Assessment
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -282,7 +282,7 @@
                                 </path>
                             </svg>
                         </a>
-                        <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
+                        <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
                             href="#"> Explore All Options
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -705,7 +705,7 @@
                                 </path>
                             </svg>
                         </a>
-                        <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2"
+                        <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base gap-2"
                             href="#"> Compare Alternative Pathways
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1477,7 +1477,7 @@
                     </div>
                 </div>
                 <div class="mt-10 text-center">
-                    <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
+                    <a class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 gap-2"
                         href="#"> Explore All Alternative Pathways
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1824,10 +1824,10 @@
                     </div>
                     <div class="w-full space-y-4" id="changeCareerFaq">
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">Can I change my Ausbildung after the probation
                                         period?</span>
@@ -1839,7 +1839,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">Yes, absolutely. Under Berufsbildungsgesetz (BBiG) &sect;22, you
                                     can terminate your training contract after the probation period with proper notice and
@@ -1849,10 +1849,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">Will I lose the months I already completed in my
                                         current Ausbildung?</span>
@@ -1864,7 +1864,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">No, your completed training months are not lost. Keep your
                                     Ausbildungsnachweis (training record) and Berufsschule reports updated. New employers
@@ -1874,10 +1874,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">What happens to my residence permit when switching
                                         Ausbildung companies?</span>
@@ -1889,7 +1889,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">Your residence permit remains valid if you handle the transition
                                     correctly. You must notify the Ausl&auml;nderbeh&ouml;rde within 2 weeks, present your
@@ -1899,10 +1899,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">Do I need to repay financial aid (BAB/BAf&ouml;G) if I
                                         switch?</span>
@@ -1914,19 +1914,19 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
-                                <div class="pb-4 pt-2">No repayment is required if you continue in an eligible Ausbildung
+                                <div class="pb-4 pt-2">No repayment is azubi-required if you continue in an eligible Ausbildung
                                     and submit change notifications within 14 days. Our team coordinates directly with
                                     Agentur f&uuml;r Arbeit to ensure your financial support continues uninterrupted. Only
                                     unplanned dropouts without follow-up plans trigger repayment obligations.</div>
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">How quickly can I find a new Ausbildung
                                         position?</span>
@@ -1938,7 +1938,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">With our support, most trainees secure a new contract within 4-8
                                     weeks. We maintain a network of 320+ verified partner companies across various sectors.
@@ -1947,10 +1947,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">What if my current company refuses to let me go?</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -1961,7 +1961,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">If your employer refuses termination, we activate mediation through
                                     IHK/HWK chambers. These official bodies provide free mediation services for trainees. In
@@ -1970,10 +1970,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">Can I switch to a completely different field (e.g.,
                                         from retail to IT)?</span>
@@ -1985,7 +1985,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">Yes, career pivots are possible and often successful. We assess
                                     which of your completed modules can transfer, arrange bridging courses if needed, and
@@ -1994,10 +1994,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">What documents do I need to prepare for
                                         switching?</span>
@@ -2009,7 +2009,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">Essential documents include: current training contract,
                                     Ausbildungsnachweis (training log), Berufsschule transcripts, residence permit,
@@ -2018,10 +2018,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">Is there a best time to switch my Ausbildung?</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -2032,7 +2032,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">The easiest time is during the 4-month probation period when
                                     termination is simplified. However, switches are possible at any stage. We recommend
@@ -2041,10 +2041,10 @@
                             </div>
                         </div>
 
-                        <div class="faq-item border-beige border rounded-lg px-6">
+                        <div class="azubi-faq-item azubi-border-beige border rounded-lg px-6">
                             <h3 class="flex">
                                 <button type="button"
-                                    class="faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
+                                    class="azubi-faq-trigger flex flex-1 items-center justify-between text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary text-left py-4"
                                     aria-expanded="false">
                                     <span class="font-medium pr-4">What support do you provide after I start my new
                                         Ausbildung?</span>
@@ -2056,7 +2056,7 @@
                                     </svg>
                                 </button>
                             </h3>
-                            <div class="faq-content overflow-hidden text-sm text-muted-foreground"
+                            <div class="azubi-faq-content overflow-hidden text-sm text-muted-foreground"
                                 style="max-height: 0; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding-bottom: 0;">
                                 <div class="pb-4 pt-2">Our support continues for 90 days after you start your new
                                     position. This includes: probation period guidance, conflict resolution support,
@@ -2111,7 +2111,7 @@
                                     data-wizard-indicator="0">
                                     <div class="relative">
                                         <div
-                                            class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground">
+                                            class="azubi-wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-primary text-primary-foreground">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2121,12 +2121,12 @@
                                             </svg>
                                         </div>
                                         <div
-                                            class="wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige">
+                                            class="azubi-wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 azubi-bg-beige">
                                         </div>
                                     </div>
                                     <div class="text-center">
                                         <div
-                                            class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary">
+                                            class="azubi-wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-primary">
                                             Personal Info</div>
                                         <div class="text-xs text-muted-foreground hidden lg:block">Contact details</div>
                                     </div>
@@ -2136,7 +2136,7 @@
                                     data-wizard-indicator="1">
                                     <div class="relative">
                                         <div
-                                            class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
+                                            class="azubi-wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors azubi-bg-beige text-muted-foreground">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2146,12 +2146,12 @@
                                             </svg>
                                         </div>
                                         <div
-                                            class="wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige">
+                                            class="azubi-wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 azubi-bg-beige">
                                         </div>
                                     </div>
                                     <div class="text-center">
                                         <div
-                                            class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
+                                            class="azubi-wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
                                             Current Situation</div>
                                         <div class="text-xs text-muted-foreground hidden lg:block">Your Ausbildung</div>
                                     </div>
@@ -2161,7 +2161,7 @@
                                     data-wizard-indicator="2">
                                     <div class="relative">
                                         <div
-                                            class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
+                                            class="azubi-wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors azubi-bg-beige text-muted-foreground">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2172,12 +2172,12 @@
                                             </svg>
                                         </div>
                                         <div
-                                            class="wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 bg-beige">
+                                            class="azubi-wizard-step-line absolute h-0.5 top-5 left-[calc(100%+0.25rem)] w-8 sm:w-12 azubi-bg-beige">
                                         </div>
                                     </div>
                                     <div class="text-center">
                                         <div
-                                            class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
+                                            class="azubi-wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
                                             Target Goals</div>
                                         <div class="text-xs text-muted-foreground hidden lg:block">Where you want to go
                                         </div>
@@ -2188,7 +2188,7 @@
                                     data-wizard-indicator="3">
                                     <div class="relative">
                                         <div
-                                            class="wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors bg-beige text-muted-foreground">
+                                            class="azubi-wizard-step-circle w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors azubi-bg-beige text-muted-foreground">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2200,7 +2200,7 @@
                                     </div>
                                     <div class="text-center">
                                         <div
-                                            class="wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
+                                            class="azubi-wizard-step-label font-medium text-xs sm:text-sm whitespace-nowrap text-muted-foreground">
                                             Additional Info</div>
                                         <div class="text-xs text-muted-foreground hidden lg:block">Tell us more</div>
                                     </div>
@@ -2220,7 +2220,7 @@
                                     <div class="min-h-[450px]">
 
                                         <!-- Step 1: Personal Info -->
-                                        <div class="wizard-step h-full" data-wizard-step="0"
+                                        <div class="azubi-wizard-step h-full" data-wizard-step="0"
                                             style="opacity: 1; transform: none;">
                                             <div class="space-y-6">
                                                 <div class="text-center mb-6">
@@ -2249,7 +2249,7 @@
                                                             <input
                                                                 class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30"
                                                                 id="firstName" placeholder="Enter your first name"
-                                                                name="firstName" required />
+                                                                name="firstName" azubi-required />
                                                         </div>
                                                     </div>
                                                     <div class="group">
@@ -2270,7 +2270,7 @@
                                                             <input type="email"
                                                                 class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 backdrop-blur-sm transition-all hover:border-primary/30"
                                                                 id="email" placeholder="your.email@example.com"
-                                                                name="email" required />
+                                                                name="email" azubi-required />
                                                         </div>
                                                     </div>
                                                     <div class="group">
@@ -2295,7 +2295,7 @@
                                                                 <input type="tel" id="phone" name="phone"
                                                                     placeholder="Phone number" autocomplete="tel"
                                                                     class="flex-1 border-0 bg-transparent px-3 py-2 text-sm outline-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-muted-foreground"
-                                                                    required />
+                                                                    azubi-required />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2304,7 +2304,7 @@
                                         </div>
 
                                         <!-- Step 2: Current Situation -->
-                                        <div class="wizard-step h-full hidden" data-wizard-step="1"
+                                        <div class="azubi-wizard-step h-full hidden" data-wizard-step="1"
                                             style="opacity: 0; transform: translateX(20px);">
                                             <div class="space-y-6">
                                                 <div class="text-center mb-6">
@@ -2398,7 +2398,7 @@
                                         </div>
 
                                         <!-- Step 3: Target Goals -->
-                                        <div class="wizard-step h-full hidden" data-wizard-step="2"
+                                        <div class="azubi-wizard-step h-full hidden" data-wizard-step="2"
                                             style="opacity: 0; transform: translateX(20px);">
                                             <div class="space-y-6">
                                                 <div class="text-center mb-6">
@@ -2478,7 +2478,7 @@
                                         </div>
 
                                         <!-- Step 4: Additional Info -->
-                                        <div class="wizard-step h-full hidden" data-wizard-step="3"
+                                        <div class="azubi-wizard-step h-full hidden" data-wizard-step="3"
                                             style="opacity: 0; transform: translateX(20px);">
                                             <div class="space-y-6">
                                                 <div class="text-center mb-6">
@@ -2515,16 +2515,16 @@
                                                             <p class="text-xs text-muted-foreground w-full">Quick
                                                                 suggestions:</p>
                                                             <button type="button"
-                                                                class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Company
+                                                                class="azubi-wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Company
                                                                 Issues</button>
                                                             <button type="button"
-                                                                class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Career
+                                                                class="azubi-wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Career
                                                                 Change</button>
                                                             <button type="button"
-                                                                class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Financial
+                                                                class="azubi-wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Financial
                                                                 Reasons</button>
                                                             <button type="button"
-                                                                class="wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Location
+                                                                class="azubi-wizard-suggestion inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold text-foreground text-xs cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-colors">Location
                                                                 Change</button>
                                                         </div>
                                                     </div>
@@ -2573,7 +2573,7 @@
                                         </div>
 
                                         <!-- Success Step -->
-                                        <div class="wizard-step h-full hidden" data-wizard-step="success"
+                                        <div class="azubi-wizard-step h-full hidden" data-wizard-step="success"
                                             style="opacity: 0; transform: translateX(20px);">
                                             <div
                                                 class="flex flex-col items-center justify-center py-12 text-center space-y-6">
@@ -2622,7 +2622,7 @@
                                         id="wizardNav">
                                         <div class="order-2 sm:order-1">
                                             <button
-                                                class="wizard-back-btn hidden whitespace-nowrap rounded-full text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 items-center justify-center gap-2 transition-all"
+                                                class="azubi-wizard-back-btn hidden whitespace-nowrap rounded-full text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 items-center justify-center gap-2 transition-all"
                                                 type="button">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -2634,9 +2634,9 @@
                                             </button>
                                         </div>
                                         <button
-                                            class="wizard-next-btn whitespace-nowrap rounded-full text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-orange-hover hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:shadow-primary/30 order-1 sm:order-2"
+                                            class="azubi-wizard-next-btn whitespace-nowrap rounded-full text-sm font-semibold duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-orange-hover hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 shadow-lg shadow-primary/20 transition-all hover:shadow-xl hover:shadow-primary/30 order-1 sm:order-2"
                                             type="button">
-                                            <span class="wizard-next-text">Continue</span>
+                                            <span class="azubi-wizard-next-text">Continue</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -2659,7 +2659,7 @@
                 <img alt="Background" loading="lazy" decoding="async" class="object-cover object-center rounded-2xl"
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                     src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl">
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil">
                 </div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -2688,7 +2688,7 @@
                                 Browse Available Jobs
                             </a>
                             <a href="#switch-form"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
                                 Get Switch Consultation
                             </a>
                         </div>

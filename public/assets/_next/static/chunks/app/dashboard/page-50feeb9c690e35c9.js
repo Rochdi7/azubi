@@ -2290,10 +2290,10 @@
               : "",
           O = (e) =>
             e >= 80
-              ? "text-[#344F1F] bg-[rgba(52,79,31,0.1)]"
+              ? "text-[#2C3340] bg-[rgba(44,51,64,0.1)]"
               : e >= 60
-                ? "text-[#F4991A] bg-[rgba(244,153,26,0.1)]"
-                : "text-[rgba(52,79,31,0.7)] bg-[rgba(52,79,31,0.05)]",
+                ? "text-[#5D5DE9] bg-[rgba(93,93,233,0.1)]"
+                : "text-[rgba(44,51,64,0.7)] bg-[rgba(44,51,64,0.05)]",
           q = (e) => {
             var t;
             let s =
@@ -2316,9 +2316,9 @@
         return s
           ? (0, a.jsxs)("div", {
               className: (0, D.cn)(
-                "bg-[#F9F5F0] rounded-xl p-6",
-                "border-2 border-[rgba(52,79,31,0.1)]",
-                "shadow-[0_2px_4px_rgba(52,79,31,0.06)]",
+                "bg-[#F7F8FA] rounded-xl p-6",
+                "border-2 border-[rgba(44,51,64,0.1)]",
+                "shadow-[0_2px_4px_rgba(44,51,64,0.06)]",
               ),
               children: [
                 (0, a.jsxs)("div", {
@@ -2331,14 +2331,14 @@
                 (0, a.jsx)("div", {
                   className: (0, D.cn)(
                     "bg-white rounded-xl overflow-hidden",
-                    "border-2 border-[rgba(52,79,31,0.1)]",
+                    "border-2 border-[rgba(44,51,64,0.1)]",
                   ),
                   children: Array.from({ length: 3 }).map((e, t) =>
                     (0, a.jsxs)(
                       "div",
                       {
                         className:
-                          "flex items-center gap-4 p-4 border-b border-[rgba(52,79,31,0.08)] last:border-b-0",
+                          "flex items-center gap-4 p-4 border-b border-[rgba(44,51,64,0.08)] last:border-b-0",
                         children: [
                           (0, a.jsx)(h.E, {
                             className: "h-12 w-12 rounded-lg flex-shrink-0",
@@ -2364,36 +2364,36 @@
           : x
             ? (0, a.jsx)("div", {
                 className: (0, D.cn)(
-                  "bg-[#F9F5F0] rounded-xl p-6",
-                  "border-2 border-[rgba(244,153,26,0.3)]",
-                  "shadow-[0_2px_4px_rgba(244,153,26,0.1)]",
+                  "bg-[#F7F8FA] rounded-xl p-6",
+                  "border-2 border-[rgba(93,93,233,0.3)]",
+                  "shadow-[0_2px_4px_rgba(93,93,233,0.1)]",
                 ),
                 children: (0, a.jsxs)("div", {
                   className: "text-center py-8",
                   children: [
                     (0, a.jsx)("div", {
                       className:
-                        "mx-auto w-16 h-16 mb-4 rounded-full bg-[rgba(244,153,26,0.15)] flex items-center justify-center",
+                        "mx-auto w-16 h-16 mb-4 rounded-full bg-[rgba(93,93,233,0.15)] flex items-center justify-center",
                       children: (0, a.jsx)(w.A, {
-                        className: "h-8 w-8 text-[#F4991A]",
+                        className: "h-8 w-8 text-[#5D5DE9]",
                       }),
                     }),
                     (0, a.jsx)("h3", {
-                      className: "text-lg font-semibold text-[#344F1F] mb-2",
+                      className: "text-lg font-semibold text-[#2C3340] mb-2",
                       children: k("home.recommendations.error.profileRequired"),
                     }),
                     (0, a.jsx)("p", {
                       className:
-                        "text-sm text-[rgba(52,79,31,0.7)] mb-6 max-w-md mx-auto",
+                        "text-sm text-[rgba(44,51,64,0.7)] mb-6 max-w-md mx-auto",
                       children: x,
                     }),
                     (0, a.jsx)(E.$, {
                       onClick: () => F.push("/dashboard/profile"),
                       className: (0, D.cn)(
-                        "bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                        "bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                         "rounded-full px-6",
-                        "shadow-[0_4px_12px_rgba(244,153,26,0.2)]",
-                        "hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)]",
+                        "shadow-[0_4px_12px_rgba(93,93,233,0.2)]",
+                        "hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)]",
                       ),
                       children: k("home.recommendations.error.completeProfile"),
                     }),
@@ -2403,27 +2403,27 @@
             : 0 === d.length
               ? (0, a.jsx)("div", {
                   className: (0, D.cn)(
-                    "bg-[#F9F5F0] rounded-xl p-6",
-                    "border-2 border-[rgba(52,79,31,0.1)]",
-                    "shadow-[0_2px_4px_rgba(52,79,31,0.06)]",
+                    "bg-[#F7F8FA] rounded-xl p-6",
+                    "border-2 border-[rgba(44,51,64,0.1)]",
+                    "shadow-[0_2px_4px_rgba(44,51,64,0.06)]",
                   ),
                   children: (0, a.jsxs)("div", {
                     className: "text-center py-8",
                     children: [
                       (0, a.jsx)("div", {
                         className:
-                          "mx-auto w-16 h-16 mb-4 rounded-full bg-[rgba(244,153,26,0.15)] flex items-center justify-center",
+                          "mx-auto w-16 h-16 mb-4 rounded-full bg-[rgba(93,93,233,0.15)] flex items-center justify-center",
                         children: (0, a.jsx)(J.A, {
-                          className: "h-8 w-8 text-[#F4991A]",
+                          className: "h-8 w-8 text-[#5D5DE9]",
                         }),
                       }),
                       (0, a.jsx)("h3", {
-                        className: "text-lg font-semibold text-[#344F1F] mb-2",
+                        className: "text-lg font-semibold text-[#2C3340] mb-2",
                         children: k("home.recommendations.empty.title"),
                       }),
                       (0, a.jsx)("p", {
                         className:
-                          "text-sm text-[rgba(52,79,31,0.7)] mb-6 max-w-md mx-auto",
+                          "text-sm text-[rgba(44,51,64,0.7)] mb-6 max-w-md mx-auto",
                         children: k("home.recommendations.empty.description"),
                       }),
                       (0, a.jsxs)("div", {
@@ -2434,9 +2434,9 @@
                             onClick: () => F.push("/dashboard/profile"),
                             variant: "outline",
                             className: (0, D.cn)(
-                              "border-2 border-[rgba(52,79,31,0.15)]",
-                              "text-[#344F1F]",
-                              "hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A]",
+                              "border-2 border-[rgba(44,51,64,0.15)]",
+                              "text-[#2C3340]",
+                              "hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9]",
                               "rounded-full px-6",
                             ),
                             children: k(
@@ -2447,10 +2447,10 @@
                             onClick: P,
                             disabled: f,
                             className: (0, D.cn)(
-                              "bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                              "bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                               "rounded-full px-6",
-                              "shadow-[0_4px_12px_rgba(244,153,26,0.2)]",
-                              "hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)]",
+                              "shadow-[0_4px_12px_rgba(93,93,233,0.2)]",
+                              "hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)]",
                               "disabled:opacity-60",
                             ),
                             children: f
@@ -2478,9 +2478,9 @@
                 })
               : (0, a.jsxs)("div", {
                   className: (0, D.cn)(
-                    "bg-[#F9F5F0] rounded-xl p-6",
-                    "border-2 border-[rgba(52,79,31,0.1)]",
-                    "shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)]",
+                    "bg-[#F7F8FA] rounded-xl p-6",
+                    "border-2 border-[rgba(44,51,64,0.1)]",
+                    "shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)]",
                   ),
                   children: [
                     (0, a.jsxs)("div", {
@@ -2492,8 +2492,8 @@
                             (0, a.jsx)("div", {
                               className: (0, D.cn)(
                                 "p-2 rounded-xl",
-                                "bg-[#F4991A]",
-                                "shadow-[0_2px_4px_rgba(244,153,26,0.2)]",
+                                "bg-[#5D5DE9]",
+                                "shadow-[0_2px_4px_rgba(93,93,233,0.2)]",
                               ),
                               children: (0, a.jsx)(J.A, {
                                 className: "h-5 w-5 text-white",
@@ -2502,12 +2502,12 @@
                             (0, a.jsxs)("div", {
                               children: [
                                 (0, a.jsxs)("h2", {
-                                  className: "text-lg font-bold text-[#344F1F]",
+                                  className: "text-lg font-bold text-[#2C3340]",
                                   children: [
                                     k("home.recommendations.title"),
                                     (0, a.jsx)("span", {
                                       className:
-                                        "ml-2 text-sm font-medium text-[#F4991A]",
+                                        "ml-2 text-sm font-medium text-[#5D5DE9]",
                                       children: k(
                                         "home.recommendations.matchCount",
                                         { count: d.length },
@@ -2517,7 +2517,7 @@
                                 }),
                                 (0, a.jsx)("p", {
                                   className:
-                                    "text-xs text-[rgba(52,79,31,0.6)]",
+                                    "text-xs text-[rgba(44,51,64,0.6)]",
                                   children: k("home.recommendations.subtitle"),
                                 }),
                               ],
@@ -2530,9 +2530,9 @@
                           variant: "outline",
                           size: "sm",
                           className: (0, D.cn)(
-                            "border-2 border-[rgba(52,79,31,0.15)]",
-                            "text-[#344F1F]",
-                            "hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A]",
+                            "border-2 border-[rgba(44,51,64,0.15)]",
+                            "text-[#2C3340]",
+                            "hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9]",
                             "rounded-full gap-2",
                           ),
                           children: [
@@ -2552,9 +2552,9 @@
                     (0, a.jsx)("div", {
                       className: (0, D.cn)(
                         "bg-white",
-                        "border-2 border-[rgba(52,79,31,0.1)]",
+                        "border-2 border-[rgba(44,51,64,0.1)]",
                         "rounded-xl",
-                        "shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)]",
+                        "shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)]",
                         "overflow-hidden",
                       ),
                       children: (j ? d : d.slice(0, 5)).map((e, t) => {
@@ -2588,9 +2588,9 @@
                               className: (0, D.cn)(
                                 "group block transition-all duration-200",
                                 "bg-white",
-                                "border-b border-[rgba(52,79,31,0.08)] last:border-b-0",
-                                "hover:bg-[#F9F5F0]",
-                                e.isSaved && "bg-[rgba(244,153,26,0.02)]",
+                                "border-b border-[rgba(44,51,64,0.08)] last:border-b-0",
+                                "hover:bg-[#F7F8FA]",
+                                e.isSaved && "bg-[rgba(93,93,233,0.02)]",
                               ),
                               children: [
                                 (0, a.jsxs)("div", {
@@ -2602,7 +2602,7 @@
                                       children: u
                                         ? (0, a.jsx)("div", {
                                             className:
-                                              "w-10 h-10 rounded overflow-hidden bg-[#F2EAD3]",
+                                              "w-10 h-10 rounded overflow-hidden bg-[#EEF0F4]",
                                             children: (0, a.jsx)(
                                               es.OptimizedImage,
                                               {
@@ -2620,7 +2620,7 @@
                                           })
                                         : (0, a.jsx)("div", {
                                             className:
-                                              "w-10 h-10 rounded bg-[#F4991A] flex items-center justify-center",
+                                              "w-10 h-10 rounded bg-[#5D5DE9] flex items-center justify-center",
                                             children: (0, a.jsx)(W.A, {
                                               className: "w-5 h-5 text-white",
                                             }),
@@ -2652,7 +2652,7 @@
                                               : r.is_pro_subscriber) &&
                                               (0, a.jsx)("span", {
                                                 className:
-                                                  "px-2 py-0.5 bg-[rgba(244,153,26,0.15)] text-[#F4991A] rounded-full text-xs font-medium",
+                                                  "px-2 py-0.5 bg-[rgba(93,93,233,0.15)] text-[#5D5DE9] rounded-full text-xs font-medium",
                                                 children: k(
                                                   "home.recommendations.premium",
                                                 ),
@@ -2661,12 +2661,12 @@
                                         }),
                                         (0, a.jsx)("h3", {
                                           className:
-                                            "text-sm font-semibold text-[#344F1F] line-clamp-1 mb-0.5 group-hover:text-[#F4991A] transition-colors",
+                                            "text-sm font-semibold text-[#2C3340] line-clamp-1 mb-0.5 group-hover:text-[#5D5DE9] transition-colors",
                                           children: x,
                                         }),
                                         (0, a.jsxs)("div", {
                                           className:
-                                            "flex items-center gap-1.5 text-xs text-[rgba(52,79,31,0.7)] mb-1.5",
+                                            "flex items-center gap-1.5 text-xs text-[rgba(44,51,64,0.7)] mb-1.5",
                                           children: [
                                             (0, a.jsx)("span", {
                                               className: "font-medium truncate",
@@ -2678,13 +2678,13 @@
                                               : n.is_verified) &&
                                               (0, a.jsx)(V.A, {
                                                 className:
-                                                  "w-3 h-3 text-[#F4991A] flex-shrink-0",
+                                                  "w-3 h-3 text-[#5D5DE9] flex-shrink-0",
                                               }),
                                           ],
                                         }),
                                         (0, a.jsxs)("div", {
                                           className:
-                                            "flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[rgba(52,79,31,0.6)]",
+                                            "flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[rgba(44,51,64,0.6)]",
                                           children: [
                                             m.city &&
                                               (0, a.jsxs)("span", {
@@ -2700,7 +2700,7 @@
                                             m.sector &&
                                               (0, a.jsx)("span", {
                                                 className:
-                                                  "px-2 py-0.5 bg-[rgba(244,153,26,0.1)] text-[#F4991A] rounded-full text-xs font-medium",
+                                                  "px-2 py-0.5 bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] rounded-full text-xs font-medium",
                                                 children: m.sector,
                                               }),
                                             b &&
@@ -2719,11 +2719,11 @@
                                         e.recommendation_reason &&
                                           (0, a.jsxs)("div", {
                                             className:
-                                              "mt-2 flex items-start gap-1.5 text-xs text-[rgba(52,79,31,0.6)]",
+                                              "mt-2 flex items-start gap-1.5 text-xs text-[rgba(44,51,64,0.6)]",
                                             children: [
                                               (0, a.jsx)(w.A, {
                                                 className:
-                                                  "w-3 h-3 flex-shrink-0 mt-0.5 text-[#F4991A]",
+                                                  "w-3 h-3 flex-shrink-0 mt-0.5 text-[#5D5DE9]",
                                               }),
                                               (0, a.jsx)("span", {
                                                 className: "line-clamp-1",
@@ -2743,8 +2743,8 @@
                                         className: (0, D.cn)(
                                           "p-2 rounded-full transition-all duration-200",
                                           e.isSaved
-                                            ? "text-[#F4991A]"
-                                            : "text-[#344F1F]/30 hover:text-[#F4991A]",
+                                            ? "text-[#5D5DE9]"
+                                            : "text-[#2C3340]/30 hover:text-[#5D5DE9]",
                                         ),
                                         children: (0, a.jsx)(X.A, {
                                           className: (0, D.cn)(
@@ -2765,7 +2765,7 @@
                                       children: u
                                         ? (0, a.jsx)("div", {
                                             className:
-                                              "w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]",
+                                              "w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]",
                                             children: (0, a.jsx)(
                                               es.OptimizedImage,
                                               {
@@ -2783,7 +2783,7 @@
                                           })
                                         : (0, a.jsx)("div", {
                                             className:
-                                              "w-12 h-12 rounded-lg bg-[#F4991A] flex items-center justify-center",
+                                              "w-12 h-12 rounded-lg bg-[#5D5DE9] flex items-center justify-center",
                                             children: (0, a.jsx)(W.A, {
                                               className: "w-6 h-6 text-white",
                                             }),
@@ -2800,12 +2800,12 @@
                                             children: [
                                               (0, a.jsx)("h3", {
                                                 className:
-                                                  "text-base font-semibold text-[#344F1F] line-clamp-1 mb-0.5 group-hover:text-[#F4991A] transition-colors",
+                                                  "text-base font-semibold text-[#2C3340] line-clamp-1 mb-0.5 group-hover:text-[#5D5DE9] transition-colors",
                                                 children: x,
                                               }),
                                               (0, a.jsxs)("div", {
                                                 className:
-                                                  "flex items-center gap-2 text-sm text-[rgba(52,79,31,0.7)]",
+                                                  "flex items-center gap-2 text-sm text-[rgba(44,51,64,0.7)]",
                                                 children: [
                                                   (0, a.jsx)("span", {
                                                     className: "font-medium",
@@ -2817,7 +2817,7 @@
                                                     : c.is_verified) &&
                                                     (0, a.jsx)(V.A, {
                                                       className:
-                                                        "w-3.5 h-3.5 text-[#F4991A] flex-shrink-0",
+                                                        "w-3.5 h-3.5 text-[#5D5DE9] flex-shrink-0",
                                                     }),
                                                   (null === (d = m.employer) ||
                                                   void 0 === d
@@ -2825,7 +2825,7 @@
                                                     : d.is_pro_subscriber) &&
                                                     (0, a.jsx)("span", {
                                                       className:
-                                                        "px-2 py-0.5 bg-[rgba(244,153,26,0.15)] text-[#F4991A] rounded-full text-xs font-medium",
+                                                        "px-2 py-0.5 bg-[rgba(93,93,233,0.15)] text-[#5D5DE9] rounded-full text-xs font-medium",
                                                       children: k(
                                                         "home.recommendations.premium",
                                                       ),
@@ -2834,7 +2834,7 @@
                                               }),
                                               (0, a.jsxs)("div", {
                                                 className:
-                                                  "flex flex-wrap items-center gap-x-4 gap-y-1 mt-2 text-xs text-[rgba(52,79,31,0.6)]",
+                                                  "flex flex-wrap items-center gap-x-4 gap-y-1 mt-2 text-xs text-[rgba(44,51,64,0.6)]",
                                                 children: [
                                                   m.city &&
                                                     (0, a.jsxs)("span", {
@@ -2843,7 +2843,7 @@
                                                       children: [
                                                         (0, a.jsx)(Z.A, {
                                                           className:
-                                                            "w-3.5 h-3.5 text-[#F4991A]",
+                                                            "w-3.5 h-3.5 text-[#5D5DE9]",
                                                         }),
                                                         m.city,
                                                       ],
@@ -2851,17 +2851,17 @@
                                                   m.sector &&
                                                     (0, a.jsx)("span", {
                                                       className:
-                                                        "px-2 py-0.5 bg-[rgba(244,153,26,0.1)] text-[#F4991A] rounded-full text-xs font-medium",
+                                                        "px-2 py-0.5 bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] rounded-full text-xs font-medium",
                                                       children: m.sector,
                                                     }),
                                                   b &&
                                                     (0, a.jsxs)("span", {
                                                       className:
-                                                        "flex items-center gap-1 font-medium text-[#344F1F]",
+                                                        "flex items-center gap-1 font-medium text-[#2C3340]",
                                                       children: [
                                                         (0, a.jsx)(Q.A, {
                                                           className:
-                                                            "w-3.5 h-3.5 text-[#F4991A]",
+                                                            "w-3.5 h-3.5 text-[#5D5DE9]",
                                                         }),
                                                         b,
                                                       ],
@@ -2873,7 +2873,7 @@
                                                       children: [
                                                         (0, a.jsx)(N.A, {
                                                           className:
-                                                            "w-3.5 h-3.5 text-[#F4991A]",
+                                                            "w-3.5 h-3.5 text-[#5D5DE9]",
                                                         }),
                                                         v,
                                                       ],
@@ -2881,11 +2881,11 @@
                                                   e.recommendation_reason &&
                                                     (0, a.jsxs)("span", {
                                                       className:
-                                                        "flex items-center gap-1 text-[rgba(52,79,31,0.5)]",
+                                                        "flex items-center gap-1 text-[rgba(44,51,64,0.5)]",
                                                       children: [
                                                         (0, a.jsx)(w.A, {
                                                           className:
-                                                            "w-3.5 h-3.5 text-[#F4991A]",
+                                                            "w-3.5 h-3.5 text-[#5D5DE9]",
                                                         }),
                                                         e.recommendation_reason,
                                                       ],
@@ -2920,8 +2920,8 @@
                                                 className: (0, D.cn)(
                                                   "p-2 rounded-full transition-all duration-200",
                                                   e.isSaved
-                                                    ? "text-[#F4991A]"
-                                                    : "text-[#344F1F]/30 hover:text-[#F4991A]",
+                                                    ? "text-[#5D5DE9]"
+                                                    : "text-[#2C3340]/30 hover:text-[#5D5DE9]",
                                                 ),
                                                 children: (0, a.jsx)(X.A, {
                                                   className: (0, D.cn)(
@@ -2933,10 +2933,10 @@
                                               (0, a.jsxs)(E.$, {
                                                 size: "sm",
                                                 className: (0, D.cn)(
-                                                  "bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                                                  "bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                                                   "rounded-full px-4",
-                                                  "shadow-[0_2px_8px_rgba(244,153,26,0.2)]",
-                                                  "hover:shadow-[0_4px_12px_rgba(244,153,26,0.3)]",
+                                                  "shadow-[0_2px_8px_rgba(93,93,233,0.2)]",
+                                                  "hover:shadow-[0_4px_12px_rgba(93,93,233,0.3)]",
                                                   "transition-all duration-200",
                                                   "gap-1.5",
                                                 ),
@@ -2971,10 +2971,10 @@
                           variant: "outline",
                           onClick: () => y(!j),
                           className: (0, D.cn)(
-                            "border-2 border-[rgba(52,79,31,0.15)]",
+                            "border-2 border-[rgba(44,51,64,0.15)]",
                             "bg-white",
-                            "text-[#344F1F]",
-                            "hover:bg-[rgba(244,153,26,0.05)] hover:border-[#F4991A] hover:text-[#F4991A]",
+                            "text-[#2C3340]",
+                            "hover:bg-[rgba(93,93,233,0.05)] hover:border-[#5D5DE9] hover:text-[#5D5DE9]",
                             "rounded-full px-6 gap-2",
                           ),
                           children: j
@@ -2997,8 +2997,8 @@
                         variant: "ghost",
                         onClick: () => F.push("/dashboard/jobs"),
                         className: (0, D.cn)(
-                          "text-[rgba(52,79,31,0.6)]",
-                          "hover:text-[#F4991A] hover:bg-transparent",
+                          "text-[rgba(44,51,64,0.6)]",
+                          "hover:text-[#5D5DE9] hover:bg-transparent",
                           "rounded-full px-4 gap-2 text-sm",
                         ),
                         children: [
@@ -3038,7 +3038,7 @@
             className: m,
             children: (0, a.jsx)("div", {
               className:
-                "relative overflow-hidden rounded-2xl p-6 md:p-8 bg-gradient-to-br from-[#F4991A] to-[#e88a0f]",
+                "relative overflow-hidden rounded-2xl p-6 md:p-8 bg-gradient-to-br from-[#5D5DE9] to-[#e88a0f]",
               children: (0, a.jsxs)("div", {
                 className:
                   "relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6",
@@ -3091,8 +3091,8 @@
               cta: v("home.smartHero.newcomer.cta"),
               href: "/dashboard/profile",
               icon: er.A,
-              gradient: "from-[#344F1F] to-[#4a6b2a]",
-              accentColor: "#F4991A",
+              gradient: "from-[#2C3340] to-[#3F4A5C]",
+              accentColor: "#5D5DE9",
             },
             building: {
               title: v("home.smartHero.building.title"),
@@ -3101,8 +3101,8 @@
               cta: v("home.smartHero.building.cta"),
               href: "/dashboard/tools/eligibility",
               icon: w.A,
-              gradient: "from-[#F4991A] to-[#e88a0f]",
-              accentColor: "#344F1F",
+              gradient: "from-[#5D5DE9] to-[#e88a0f]",
+              accentColor: "#2C3340",
             },
             applying: {
               title: v("home.smartHero.applying.title"),
@@ -3111,8 +3111,8 @@
               cta: v("home.smartHero.applying.cta"),
               href: "/dashboard/jobs",
               icon: el.A,
-              gradient: "from-[#F4991A] to-[#e88a0f]",
-              accentColor: "#344F1F",
+              gradient: "from-[#5D5DE9] to-[#e88a0f]",
+              accentColor: "#2C3340",
             },
             ready: {
               title: v("home.smartHero.ready.title"),
@@ -3123,8 +3123,8 @@
               cta: v("home.smartHero.ready.cta"),
               href: "/dashboard/jobs",
               icon: y.A,
-              gradient: "from-[#344F1F] to-[#4a6b2a]",
-              accentColor: "#F4991A",
+              gradient: "from-[#2C3340] to-[#3F4A5C]",
+              accentColor: "#5D5DE9",
             },
             active: {
               title:
@@ -3144,8 +3144,8 @@
               ),
               href: "#recommendations",
               icon: J.A,
-              gradient: "from-[#F4991A] to-[#e88a0f]",
-              accentColor: "#344F1F",
+              gradient: "from-[#5D5DE9] to-[#e88a0f]",
+              accentColor: "#2C3340",
             },
           }[j],
           F = N.icon;
@@ -3302,9 +3302,9 @@
                             "group-hover:scale-105",
                           ),
                           style: {
-                            color: N.gradient.includes("#344F1F")
-                              ? "#344F1F"
-                              : "#F4991A",
+                            color: N.gradient.includes("#2C3340")
+                              ? "#2C3340"
+                              : "#5D5DE9",
                           },
                           children: [
                             N.cta,
@@ -3338,11 +3338,11 @@
               "relative flex flex-col items-center justify-center p-3 md:p-4",
               "rounded-xl overflow-hidden",
               "min-h-[85px] md:min-h-[95px]",
-              "bg-gradient-to-br from-[#F4991A] via-[#F5A733] to-[#E5890F]",
-              "shadow-md shadow-[#F4991A]/20",
+              "bg-gradient-to-br from-[#5D5DE9] via-[#F5A733] to-[#2C3340]",
+              "shadow-md shadow-[#5D5DE9]/20",
               "transition-all duration-300 ease-out",
               l &&
-                "cursor-pointer hover:shadow-lg hover:shadow-[#F4991A]/30 hover:scale-[1.02] hover:-translate-y-0.5",
+                "cursor-pointer hover:shadow-lg hover:shadow-[#5D5DE9]/30 hover:scale-[1.02] hover:-translate-y-0.5",
             ),
             children: [
               (0, a.jsx)("div", {
@@ -3462,7 +3462,7 @@
               description: n("home.quickActionsGrid.browseJobs.description"),
               icon: y.A,
               href: "/dashboard/jobs",
-              color: "#F4991A",
+              color: "#5D5DE9",
             },
             {
               id: "application-kit",
@@ -3472,7 +3472,7 @@
               ),
               icon: el.A,
               href: "/dashboard/applications",
-              color: "#344F1F",
+              color: "#2C3340",
             },
             {
               id: "build-cv",
@@ -3480,7 +3480,7 @@
               description: n("home.quickActionsGrid.buildCv.description"),
               icon: H.A,
               href: "/dashboard/cv-builder",
-              color: "#344F1F",
+              color: "#2C3340",
               featureKey: "cvBuilder",
               threshold: eu.EU.CV_BUILDER,
             },
@@ -3490,7 +3490,7 @@
               description: n("home.quickActionsGrid.improveGerman.description"),
               icon: j.A,
               href: "/dashboard/german",
-              color: "#F4991A",
+              color: "#5D5DE9",
               featureKey: "germanLearning",
               threshold: eu.EU.GERMAN_LEARNING,
             },
@@ -3512,11 +3512,11 @@
                     className: "relative h-full",
                     children: (0, a.jsxs)(eh.Zp, {
                       className: (0, D.cn)(
-                        "p-5 transition-all border-[rgba(52,79,31,0.08)] group h-full",
+                        "p-5 transition-all border-[rgba(44,51,64,0.08)] group h-full",
                         "min-h-[130px] flex flex-col justify-center",
                         o
                           ? "cursor-not-allowed opacity-60"
-                          : "hover:shadow-lg cursor-pointer hover:border-[#F4991A]/30 hover:bg-[#F9F5F0]/50",
+                          : "hover:shadow-lg cursor-pointer hover:border-[#5D5DE9]/30 hover:bg-[#F7F8FA]/50",
                       ),
                       children: [
                         o &&
@@ -3526,15 +3526,15 @@
                             children: [
                               (0, a.jsx)("div", {
                                 className:
-                                  "p-2.5 rounded-full bg-[#F2EAD3] mb-2",
+                                  "p-2.5 rounded-full bg-[#EEF0F4] mb-2",
                                 children: (0, a.jsx)(ex.A, {
                                   className:
-                                    "h-4 w-4 text-[rgba(52,79,31,0.4)]",
+                                    "h-4 w-4 text-[rgba(44,51,64,0.4)]",
                                 }),
                               }),
                               (0, a.jsx)("span", {
                                 className:
-                                  "text-xs font-medium text-[rgba(52,79,31,0.5)] text-center px-2",
+                                  "text-xs font-medium text-[rgba(44,51,64,0.5)] text-center px-2",
                                 children: n(
                                   "home.quickActionsGrid.locked.percentToUnlock",
                                   { percent: c },
@@ -3564,12 +3564,12 @@
                               children: [
                                 (0, a.jsx)("p", {
                                   className:
-                                    "font-semibold text-[#344F1F] mb-0.5 text-sm",
+                                    "font-semibold text-[#2C3340] mb-0.5 text-sm",
                                   children: e.title,
                                 }),
                                 (0, a.jsx)("p", {
                                   className:
-                                    "text-xs text-[rgba(52,79,31,0.6)] leading-tight",
+                                    "text-xs text-[rgba(44,51,64,0.6)] leading-tight",
                                   children: e.description,
                                 }),
                               ],
@@ -3622,7 +3622,7 @@
       var eb = s(59827);
       let ef = [
         { key: "preparing", label: "Prep", color: "#6B7280" },
-        { key: "applied", label: "Applied", color: "#F4991A" },
+        { key: "applied", label: "Applied", color: "#5D5DE9" },
         { key: "waiting", label: "Wait", color: "#3B82F6" },
         { key: "interview", label: "Interview", color: "#8B5CF6" },
         { key: "accepted", label: "Offer", color: "#10B981" },
@@ -3638,7 +3638,7 @@
               className: r,
               children: (0, a.jsx)(eh.Zp, {
                 className:
-                  "p-6 border-[rgba(52,79,31,0.08)] bg-gradient-to-br from-white to-[#F9F5F0]/30",
+                  "p-6 border-[rgba(44,51,64,0.08)] bg-gradient-to-br from-white to-[#F7F8FA]/30",
                 children: (0, a.jsxs)("div", {
                   className:
                     "flex flex-col md:flex-row md:items-center md:justify-between gap-4",
@@ -3647,21 +3647,21 @@
                       className: "flex items-center gap-4",
                       children: [
                         (0, a.jsx)("div", {
-                          className: "p-3 rounded-xl bg-[#F4991A]/10",
+                          className: "p-3 rounded-xl bg-[#5D5DE9]/10",
                           children: (0, a.jsx)(el.A, {
-                            className: "h-6 w-6 text-[#F4991A]",
+                            className: "h-6 w-6 text-[#5D5DE9]",
                           }),
                         }),
                         (0, a.jsxs)("div", {
                           children: [
                             (0, a.jsx)("h3", {
-                              className: "font-semibold text-[#344F1F] mb-1",
+                              className: "font-semibold text-[#2C3340] mb-1",
                               children: n(
                                 "home.applicationsOverview.emptyTitle",
                               ),
                             }),
                             (0, a.jsx)("p", {
-                              className: "text-sm text-[rgba(52,79,31,0.6)]",
+                              className: "text-sm text-[rgba(44,51,64,0.6)]",
                               children: n(
                                 "home.applicationsOverview.emptyDescription",
                               ),
@@ -3674,7 +3674,7 @@
                       href: "/dashboard/jobs",
                       children: (0, a.jsxs)(E.$, {
                         className:
-                          "bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full px-6",
+                          "bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full px-6",
                         children: [
                           (0, a.jsx)(y.A, { className: "h-4 w-4 mr-2" }),
                           n("home.applicationsOverview.browseJobs"),
@@ -3691,7 +3691,7 @@
               transition: { duration: 0.4, delay: 0.15 },
               className: r,
               children: (0, a.jsxs)(eh.Zp, {
-                className: "p-6 border-[rgba(52,79,31,0.08)]",
+                className: "p-6 border-[rgba(44,51,64,0.08)]",
                 children: [
                   (0, a.jsxs)("div", {
                     className: "flex items-center justify-between mb-5",
@@ -3700,19 +3700,19 @@
                         className: "flex items-center gap-3",
                         children: [
                           (0, a.jsx)("div", {
-                            className: "p-2.5 rounded-xl bg-[#344F1F]/10",
+                            className: "p-2.5 rounded-xl bg-[#2C3340]/10",
                             children: (0, a.jsx)(el.A, {
-                              className: "h-5 w-5 text-[#344F1F]",
+                              className: "h-5 w-5 text-[#2C3340]",
                             }),
                           }),
                           (0, a.jsxs)("div", {
                             children: [
                               (0, a.jsx)("h3", {
-                                className: "font-semibold text-[#344F1F]",
+                                className: "font-semibold text-[#2C3340]",
                                 children: n("home.applicationsOverview.title"),
                               }),
                               (0, a.jsx)("p", {
-                                className: "text-xs text-[rgba(52,79,31,0.5)]",
+                                className: "text-xs text-[rgba(44,51,64,0.5)]",
                                 children: n(
                                   "home.applicationsOverview.subtitle",
                                   { count: i },
@@ -3725,7 +3725,7 @@
                       (0, a.jsxs)(g(), {
                         href: "/dashboard/applications",
                         className:
-                          "flex items-center gap-1.5 text-sm font-medium text-[#F4991A] hover:text-[#E5890F] transition-colors",
+                          "flex items-center gap-1.5 text-sm font-medium text-[#5D5DE9] hover:text-[#2C3340] transition-colors",
                         children: [
                           n("home.applicationsOverview.viewAll"),
                           (0, a.jsx)(ee.A, { className: "h-4 w-4" }),
@@ -3791,8 +3791,8 @@
                                 className: (0, D.cn)(
                                   "text-[10px] font-medium text-center",
                                   r
-                                    ? "text-[#344F1F]"
-                                    : "text-[rgba(52,79,31,0.4)]",
+                                    ? "text-[#2C3340]"
+                                    : "text-[rgba(44,51,64,0.4)]",
                                 ),
                                 children: e.label,
                               }),
@@ -3806,13 +3806,13 @@
                   s > 0 &&
                     (0, a.jsxs)("div", {
                       className:
-                        "flex items-center gap-2 mb-5 p-3 rounded-lg bg-[#F4991A]/10 border border-[#F4991A]/20",
+                        "flex items-center gap-2 mb-5 p-3 rounded-lg bg-[#5D5DE9]/10 border border-[#5D5DE9]/20",
                       children: [
                         (0, a.jsx)(k.A, {
-                          className: "h-4 w-4 text-[#F4991A] flex-shrink-0",
+                          className: "h-4 w-4 text-[#5D5DE9] flex-shrink-0",
                         }),
                         (0, a.jsxs)("p", {
-                          className: "text-sm text-[#344F1F]",
+                          className: "text-sm text-[#2C3340]",
                           children: [
                             (0, a.jsx)("span", {
                               className: "font-medium",
@@ -3837,7 +3837,7 @@
                         children: (0, a.jsxs)(E.$, {
                           variant: "default",
                           className:
-                            "w-full bg-[#344F1F] hover:bg-[#2a3f19] text-white rounded-full",
+                            "w-full bg-[#2C3340] hover:bg-[#1E242E] text-white rounded-full",
                           children: [
                             (0, a.jsx)(y.A, { className: "h-4 w-4 mr-2" }),
                             n("home.applicationsOverview.applyNew"),
@@ -3850,7 +3850,7 @@
                         children: (0, a.jsxs)(E.$, {
                           variant: "outline",
                           className:
-                            "w-full border-[#344F1F]/20 text-[#344F1F] hover:bg-[#344F1F]/5 rounded-full",
+                            "w-full border-[#2C3340]/20 text-[#2C3340] hover:bg-[#2C3340]/5 rounded-full",
                           children: [
                             (0, a.jsx)(eb.A, { className: "h-4 w-4 mr-2" }),
                             n("home.applicationsOverview.trackExternal"),
@@ -4057,20 +4057,20 @@
                           children: (0, a.jsxs)("div", {
                             className: (0, D.cn)(
                               "flex items-center gap-3 px-4 py-2.5 rounded-full",
-                              "bg-white border border-[rgba(52,79,31,0.1)]",
+                              "bg-white border border-[rgba(44,51,64,0.1)]",
                               "shadow-sm hover:shadow-md transition-all cursor-pointer",
-                              "hover:border-[#F4991A]/30",
+                              "hover:border-[#5D5DE9]/30",
                             ),
                             children: [
                               (0, a.jsxs)("div", {
                                 className: "flex items-center gap-2",
                                 children: [
                                   (0, a.jsx)(n.A, {
-                                    className: "h-4 w-4 text-[#F4991A]",
+                                    className: "h-4 w-4 text-[#5D5DE9]",
                                   }),
                                   (0, a.jsx)("span", {
                                     className:
-                                      "text-sm font-medium text-[#344F1F]",
+                                      "text-sm font-medium text-[#2C3340]",
                                     children: X("home.page.profile"),
                                   }),
                                 ],
@@ -4094,10 +4094,10 @@
                                         children: [
                                           (0, a.jsx)("div", {
                                             className:
-                                              "w-20 h-2 bg-[#F2EAD3] rounded-full overflow-hidden",
+                                              "w-20 h-2 bg-[#EEF0F4] rounded-full overflow-hidden",
                                             children: (0, a.jsx)("div", {
                                               className:
-                                                "h-full bg-[#F4991A] rounded-full transition-all duration-500",
+                                                "h-full bg-[#5D5DE9] rounded-full transition-all duration-500",
                                               style: {
                                                 width: "".concat(Z, "%"),
                                               },
@@ -4105,14 +4105,14 @@
                                           }),
                                           (0, a.jsxs)("span", {
                                             className:
-                                              "text-sm font-semibold text-[#344F1F] min-w-[36px]",
+                                              "text-sm font-semibold text-[#2C3340] min-w-[36px]",
                                             children: [Z, "%"],
                                           }),
                                         ],
                                       }),
                                       Z >= 80 &&
                                         (0, a.jsx)(o.A, {
-                                          className: "h-4 w-4 text-[#344F1F]",
+                                          className: "h-4 w-4 text-[#2C3340]",
                                         }),
                                     ],
                                   }),
@@ -4157,7 +4157,7 @@
                             (0, a.jsx)(m.D, {
                               level: 3,
                               size: "compact",
-                              className: "text-[#344F1F]",
+                              className: "text-[#2C3340]",
                               children: X("home.page.quickActions"),
                             }),
                             (0, a.jsx)(x.f, {
@@ -4175,7 +4175,7 @@
                       animate: { opacity: 1 },
                       transition: { duration: 0.4, delay: 0.4 },
                       className:
-                        "border-t border-[rgba(52,79,31,0.08)] pt-6 mt-4",
+                        "border-t border-[rgba(44,51,64,0.08)] pt-6 mt-4",
                       children: (0, a.jsxs)("div", {
                         className:
                           "flex flex-wrap items-center justify-between gap-4",
@@ -4211,7 +4211,7 @@
                                   href: e.href,
                                   target: "_blank",
                                   className:
-                                    "text-xs text-[rgba(52,79,31,0.5)] hover:text-[#F4991A] transition-colors",
+                                    "text-xs text-[rgba(44,51,64,0.5)] hover:text-[#5D5DE9] transition-colors",
                                   children: X(e.labelKey),
                                 },
                                 e.href,

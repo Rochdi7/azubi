@@ -71,10 +71,10 @@
                         delay: 0.1,
                       },
                       className:
-                        "inline-flex items-center gap-2 mb-4 p-3 rounded-xl bg-gradient-to-br from-[#344F1F] to-[#2a3f19] shadow-lg",
+                        "inline-flex items-center gap-2 mb-4 p-3 rounded-xl bg-gradient-to-br from-[#2C3340] to-[#1E242E] shadow-lg",
                       children: [
                         (0, s.jsx)("div", {
-                          className: "p-2 rounded-lg bg-[#F4991A] shadow-md",
+                          className: "p-2 rounded-lg bg-[#5D5DE9] shadow-md",
                           children: (0, s.jsx)(d.A, {
                             className: "h-5 w-5 text-white",
                           }),
@@ -103,7 +103,7 @@
                     transition: { delay: 0.2, duration: 0.4 },
                     children: (0, s.jsx)(c.Zp, {
                       className:
-                        "border border-[#F2EAD3] bg-white shadow-md mb-6",
+                        "border border-[#EEF0F4] bg-white shadow-md mb-6",
                       children: (0, s.jsx)(c.Wu, {
                         className: "p-4",
                         children: (0, s.jsxs)("div", {
@@ -111,7 +111,7 @@
                           children: [
                             (0, s.jsx)("div", {
                               className:
-                                "p-2.5 rounded-lg bg-gradient-to-br from-[#F4991A] to-[#e08915] shadow-sm flex-shrink-0",
+                                "p-2.5 rounded-lg bg-gradient-to-br from-[#5D5DE9] to-[#2C3340] shadow-sm flex-shrink-0",
                               children: (0, s.jsx)(d.A, {
                                 className: "h-5 w-5 text-white",
                               }),
@@ -121,7 +121,7 @@
                               children: [
                                 (0, s.jsx)("h3", {
                                   className:
-                                    "font-semibold text-sm text-[#344F1F] mb-1.5 break-words",
+                                    "font-semibold text-sm text-[#2C3340] mb-1.5 break-words",
                                   children: l.original_filename,
                                 }),
                                 (0, s.jsxs)("div", {
@@ -129,7 +129,7 @@
                                   children: [
                                     (0, s.jsxs)("div", {
                                       className:
-                                        "flex items-center gap-1.5 text-[#344F1F]/60",
+                                        "flex items-center gap-1.5 text-[#2C3340]/60",
                                       children: [
                                         (0, s.jsx)(m.A, {
                                           className: "h-3.5 w-3.5",
@@ -147,7 +147,7 @@
                                     }),
                                     (0, s.jsxs)("div", {
                                       className:
-                                        "flex items-center gap-1.5 text-[#344F1F]/60",
+                                        "flex items-center gap-1.5 text-[#2C3340]/60",
                                       children: [
                                         (0, s.jsx)(d.A, {
                                           className: "h-3.5 w-3.5",
@@ -184,7 +184,7 @@
                     className: "text-center mb-6",
                     children: [
                       (0, s.jsx)("h3", {
-                        className: "text-xl font-bold text-[#344F1F] mb-1",
+                        className: "text-xl font-bold text-[#2C3340] mb-1",
                         children: S("cvBuilder.welcome.howToProceed"),
                       }),
                       (0, s.jsx)("p", {
@@ -203,7 +203,7 @@
                         onClick: y,
                         disabled: a,
                         className:
-                          "h-auto py-4 px-4 rounded-full bg-gradient-to-r from-[#F4991A] to-[#e08915] hover:from-[#e08915] hover:to-[#d67f14] text-white font-bold shadow-lg hover:shadow-xl transition-all border-0",
+                          "h-auto py-4 px-4 rounded-full bg-gradient-to-r from-[#5D5DE9] to-[#2C3340] hover:from-[#2C3340] hover:to-[#d67f14] text-white font-bold shadow-lg hover:shadow-xl transition-all border-0",
                         children: (0, s.jsxs)("div", {
                           className: "flex flex-col items-center gap-2",
                           children: [
@@ -236,13 +236,13 @@
                         disabled: a,
                         variant: "outline",
                         className:
-                          "h-auto py-4 px-4 rounded-full border-2 border-[#344F1F] text-[#344F1F] hover:bg-[#344F1F] hover:text-white font-bold shadow-md hover:shadow-lg transition-all group",
+                          "h-auto py-4 px-4 rounded-full border-2 border-[#2C3340] text-[#2C3340] hover:bg-[#2C3340] hover:text-white font-bold shadow-md hover:shadow-lg transition-all group",
                         children: (0, s.jsxs)("div", {
                           className: "flex flex-col items-center gap-2",
                           children: [
                             (0, s.jsx)("div", {
                               className:
-                                "p-2 rounded-full bg-[#F2EAD3] group-hover:bg-white/20 transition-colors",
+                                "p-2 rounded-full bg-[#EEF0F4] group-hover:bg-white/20 transition-colors",
                               children: (0, s.jsx)(h.A, {
                                 className: "h-4 w-4",
                               }),
@@ -273,13 +273,13 @@
                         disabled: a,
                         variant: "outline",
                         className:
-                          "h-auto py-4 px-4 rounded-full border-2 border-[#344F1F] text-[#344F1F] hover:bg-[#344F1F] hover:text-white font-bold shadow-md hover:shadow-lg transition-all group",
+                          "h-auto py-4 px-4 rounded-full border-2 border-[#2C3340] text-[#2C3340] hover:bg-[#2C3340] hover:text-white font-bold shadow-md hover:shadow-lg transition-all group",
                         children: (0, s.jsxs)("div", {
                           className: "flex flex-col items-center gap-2",
                           children: [
                             (0, s.jsx)("div", {
                               className:
-                                "p-2 rounded-full bg-[#F2EAD3] group-hover:bg-white/20 transition-colors",
+                                "p-2 rounded-full bg-[#EEF0F4] group-hover:bg-white/20 transition-colors",
                               children: (0, s.jsx)(u.A, {
                                 className: "h-4 w-4",
                               }),
@@ -308,23 +308,23 @@
                     animate: { opacity: 1 },
                     transition: { delay: 0.5 },
                     className:
-                      "bg-gradient-to-r from-[#F2EAD3]/50 to-[#F9F5F0] rounded-xl p-4 border border-[#F4991A]/20",
+                      "bg-gradient-to-r from-[#EEF0F4]/50 to-[#F7F8FA] rounded-xl p-4 border border-[#5D5DE9]/20",
                     children: (0, s.jsxs)("div", {
                       className: "flex items-start gap-2.5",
                       children: [
                         (0, s.jsx)("div", {
                           className:
-                            "p-1.5 rounded-lg bg-[#F4991A]/10 mt-0.5 flex-shrink-0",
+                            "p-1.5 rounded-lg bg-[#5D5DE9]/10 mt-0.5 flex-shrink-0",
                           children: (0, s.jsx)(p.A, {
-                            className: "h-3.5 w-3.5 text-[#F4991A]",
+                            className: "h-3.5 w-3.5 text-[#5D5DE9]",
                           }),
                         }),
                         (0, s.jsxs)("p", {
                           className:
-                            "text-xs text-[#344F1F]/80 leading-relaxed",
+                            "text-xs text-[#2C3340]/80 leading-relaxed",
                           children: [
                             (0, s.jsx)("strong", {
-                              className: "text-[#344F1F]",
+                              className: "text-[#2C3340]",
                               children: S("cvBuilder.welcome.smartParsing"),
                             }),
                             " ",
@@ -650,18 +650,18 @@
                       children: [
                         (0, s.jsxs)("div", {
                           className:
-                            "bg-gradient-to-br from-[#F9F5F0] to-[#F2EAD3] border-2 border-[#F4991A] rounded-xl p-6 mb-4",
+                            "bg-gradient-to-br from-[#F7F8FA] to-[#EEF0F4] border-2 border-[#5D5DE9] rounded-xl p-6 mb-4",
                           children: [
                             (0, s.jsxs)("div", {
                               className:
                                 "flex items-center justify-center gap-2 mb-3",
                               children: [
                                 (0, s.jsx)(d.A, {
-                                  className: "h-5 w-5 text-[#F4991A]",
+                                  className: "h-5 w-5 text-[#5D5DE9]",
                                 }),
                                 (0, s.jsx)("p", {
                                   className:
-                                    "font-semibold text-[#344F1F] text-lg",
+                                    "font-semibold text-[#2C3340] text-lg",
                                   children: S(
                                     "cvBuilder.welcome.freeTierIncludes",
                                   ),
@@ -669,14 +669,14 @@
                               ],
                             }),
                             (0, s.jsxs)("div", {
-                              className: "space-y-2 text-sm text-[#344F1F]",
+                              className: "space-y-2 text-sm text-[#2C3340]",
                               children: [
                                 (0, s.jsxs)("div", {
                                   className:
                                     "flex items-center justify-center gap-2",
                                   children: [
                                     (0, s.jsx)("span", {
-                                      className: "text-[#F4991A]",
+                                      className: "text-[#5D5DE9]",
                                       children: "✓",
                                     }),
                                     (0, s.jsx)("span", {
@@ -691,7 +691,7 @@
                                     "flex items-center justify-center gap-2",
                                   children: [
                                     (0, s.jsx)("span", {
-                                      className: "text-[#F4991A]",
+                                      className: "text-[#5D5DE9]",
                                       children: "✓",
                                     }),
                                     (0, s.jsx)("span", {
@@ -706,7 +706,7 @@
                                     "flex items-center justify-center gap-2",
                                   children: [
                                     (0, s.jsx)("span", {
-                                      className: "text-[#F4991A]",
+                                      className: "text-[#5D5DE9]",
                                       children: "✓",
                                     }),
                                     (0, s.jsx)("span", {
@@ -722,7 +722,7 @@
                         }),
                         (0, s.jsxs)("div", {
                           className:
-                            "bg-gradient-to-r from-[#F4991A] to-[#e08915] rounded-lg p-4 text-white",
+                            "bg-gradient-to-r from-[#5D5DE9] to-[#2C3340] rounded-lg p-4 text-white",
                           children: [
                             (0, s.jsxs)("div", {
                               className:
@@ -743,7 +743,7 @@
                             (0, s.jsxs)("button", {
                               onClick: () => D(!0),
                               className:
-                                "inline-flex items-center justify-center w-full bg-white text-[#F4991A] px-4 py-2 rounded-full text-sm font-semibold hover:bg-[#F9F5F0] transition-colors",
+                                "inline-flex items-center justify-center w-full bg-white text-[#5D5DE9] px-4 py-2 rounded-full text-sm font-semibold hover:bg-[#F7F8FA] transition-colors",
                               children: [
                                 "Explore Apply For Me",
                                 (0, s.jsx)(j.A, { className: "ml-2 h-4 w-4" }),
@@ -1304,7 +1304,7 @@
           onOpenChange: () => {},
           children: (0, s.jsx)(T.Cf, {
             className:
-              "sm:max-w-[600px] max-w-[95vw] border-none bg-[#F9F5F0] p-0 gap-0 overflow-hidden",
+              "sm:max-w-[600px] max-w-[95vw] border-none bg-[#F7F8FA] p-0 gap-0 overflow-hidden",
             children: (0, s.jsxs)("div", {
               className: "px-6 py-8 space-y-6",
               children: [
@@ -1313,13 +1313,13 @@
                   children: [
                     (0, s.jsx)("div", {
                       className:
-                        "inline-flex items-center justify-center p-4 rounded-2xl bg-gradient-to-br from-[#F4991A] to-[#e08915] shadow-lg mb-4",
+                        "inline-flex items-center justify-center p-4 rounded-2xl bg-gradient-to-br from-[#5D5DE9] to-[#2C3340] shadow-lg mb-4",
                       children: (0, s.jsx)(d.A, {
                         className: "h-8 w-8 text-white",
                       }),
                     }),
                     (0, s.jsx)("h2", {
-                      className: "text-2xl font-bold text-[#344F1F] mb-2",
+                      className: "text-2xl font-bold text-[#2C3340] mb-2",
                       children: h(
                         a
                           ? "cvBuilder.analysis.analyzing"
@@ -1327,7 +1327,7 @@
                       ),
                     }),
                     (0, s.jsx)("p", {
-                      className: "text-[#344F1F]/60",
+                      className: "text-[#2C3340]/60",
                       children: h(
                         a
                           ? "cvBuilder.toast.extractingData"
@@ -1352,7 +1352,7 @@
                           className:
                             "flex items-center gap-3 p-3 rounded-lg transition-colors ".concat(
                               i
-                                ? "bg-[#F4991A]/10 border border-[#F4991A]/30"
+                                ? "bg-[#5D5DE9]/10 border border-[#5D5DE9]/30"
                                 : "bg-white/50",
                             ),
                           children: [
@@ -1362,8 +1362,8 @@
                                   l
                                     ? "bg-green-500"
                                     : i
-                                      ? "bg-[#F4991A]"
-                                      : "bg-[#344F1F]/10",
+                                      ? "bg-[#5D5DE9]"
+                                      : "bg-[#2C3340]/10",
                                 ),
                               children: l
                                 ? (0, s.jsx)(U.A, {
@@ -1375,12 +1375,12 @@
                                         "h-5 w-5 text-white animate-spin",
                                     })
                                   : (0, s.jsx)(a, {
-                                      className: "h-5 w-5 text-[#344F1F]/50",
+                                      className: "h-5 w-5 text-[#2C3340]/50",
                                     }),
                             }),
                             (0, s.jsx)("span", {
                               className: "font-medium ".concat(
-                                i ? "text-[#344F1F]" : "text-[#344F1F]/50",
+                                i ? "text-[#2C3340]" : "text-[#2C3340]/50",
                               ),
                               children: e.label,
                             }),
@@ -1411,7 +1411,7 @@
                                 children: [
                                   (0, s.jsx)("p", {
                                     className:
-                                      "text-sm font-medium text-[#344F1F]/60 mb-1",
+                                      "text-sm font-medium text-[#2C3340]/60 mb-1",
                                     children: h(
                                       "cvBuilder.analysis.completionScore",
                                       { score: l },
@@ -1439,11 +1439,11 @@
                             ],
                           }),
                           (0, s.jsxs)("div", {
-                            className: "space-y-2 pt-4 border-[#344F1F]/10",
+                            className: "space-y-2 pt-4 border-[#2C3340]/10",
                             children: [
                               (0, s.jsx)("p", {
                                 className:
-                                  "text-sm font-medium text-[#344F1F] mb-3",
+                                  "text-sm font-medium text-[#2C3340] mb-3",
                                 children: h("cvBuilder.toast.extractingData"),
                               }),
                               (0, s.jsxs)("div", {
@@ -1455,10 +1455,10 @@
                                         "flex items-center gap-2 text-sm",
                                       children: [
                                         (0, s.jsx)(I.A, {
-                                          className: "h-4 w-4 text-[#F4991A]",
+                                          className: "h-4 w-4 text-[#5D5DE9]",
                                         }),
                                         (0, s.jsx)("span", {
-                                          className: "text-[#344F1F]/70",
+                                          className: "text-[#2C3340]/70",
                                           children: h(
                                             "cvBuilder.analysis.personalInfoExtracted",
                                           ),
@@ -1476,10 +1476,10 @@
                                         "flex items-center gap-2 text-sm",
                                       children: [
                                         (0, s.jsx)($.A, {
-                                          className: "h-4 w-4 text-[#F4991A]",
+                                          className: "h-4 w-4 text-[#5D5DE9]",
                                         }),
                                         (0, s.jsx)("span", {
-                                          className: "text-[#344F1F]/70",
+                                          className: "text-[#2C3340]/70",
                                           children: h(
                                             "cvBuilder.analysis.workExperienceExtracted",
                                           ),
@@ -1497,10 +1497,10 @@
                                         "flex items-center gap-2 text-sm",
                                       children: [
                                         (0, s.jsx)(L.A, {
-                                          className: "h-4 w-4 text-[#F4991A]",
+                                          className: "h-4 w-4 text-[#5D5DE9]",
                                         }),
                                         (0, s.jsx)("span", {
-                                          className: "text-[#344F1F]/70",
+                                          className: "text-[#2C3340]/70",
                                           children: h(
                                             "cvBuilder.analysis.educationExtracted",
                                           ),
@@ -1518,10 +1518,10 @@
                                         "flex items-center gap-2 text-sm",
                                       children: [
                                         (0, s.jsx)(D.A, {
-                                          className: "h-4 w-4 text-[#F4991A]",
+                                          className: "h-4 w-4 text-[#5D5DE9]",
                                         }),
                                         (0, s.jsx)("span", {
-                                          className: "text-[#344F1F]/70",
+                                          className: "text-[#2C3340]/70",
                                           children: h(
                                             "cvBuilder.analysis.skillsExtracted",
                                           ),
@@ -1539,10 +1539,10 @@
                                         "flex items-center gap-2 text-sm",
                                       children: [
                                         (0, s.jsx)(Y.A, {
-                                          className: "h-4 w-4 text-[#F4991A]",
+                                          className: "h-4 w-4 text-[#5D5DE9]",
                                         }),
                                         (0, s.jsx)("span", {
-                                          className: "text-[#344F1F]/70",
+                                          className: "text-[#2C3340]/70",
                                           children: h(
                                             "cvBuilder.analysis.languagesExtracted",
                                           ),
@@ -1567,20 +1567,20 @@
                     animate: { opacity: 1 },
                     transition: { delay: 0.3 },
                     className:
-                      "bg-gradient-to-r from-[#F2EAD3]/50 to-[#F9F5F0] rounded-xl p-4 border border-[#F4991A]/20",
+                      "bg-gradient-to-r from-[#EEF0F4]/50 to-[#F7F8FA] rounded-xl p-4 border border-[#5D5DE9]/20",
                     children: (0, s.jsxs)("div", {
                       className: "flex items-start gap-3",
                       children: [
                         (0, s.jsx)("div", {
                           className:
-                            "p-2 rounded-lg bg-[#F4991A]/10 mt-0.5 flex-shrink-0",
+                            "p-2 rounded-lg bg-[#5D5DE9]/10 mt-0.5 flex-shrink-0",
                           children: (0, s.jsx)(p.A, {
-                            className: "h-4 w-4 text-[#F4991A]",
+                            className: "h-4 w-4 text-[#5D5DE9]",
                           }),
                         }),
                         (0, s.jsx)("p", {
                           className:
-                            "text-sm text-[#344F1F]/80 leading-relaxed",
+                            "text-sm text-[#2C3340]/80 leading-relaxed",
                           children: h("cvBuilder.toast.allExtractionComplete"),
                         }),
                       ],
@@ -1597,13 +1597,13 @@
                         onClick: x,
                         variant: "outline",
                         className:
-                          "flex-1 rounded-full border-2 border-[#344F1F]/30 text-[#344F1F] hover:bg-[#344F1F]/5",
+                          "flex-1 rounded-full border-2 border-[#2C3340]/30 text-[#2C3340] hover:bg-[#2C3340]/5",
                         children: h("cvBuilder.buttons.cancel"),
                       }),
                       (0, s.jsxs)(n.$, {
                         onClick: m,
                         className:
-                          "flex-1 rounded-full bg-gradient-to-r from-[#F4991A] to-[#e08915] hover:from-[#e08915] hover:to-[#d67f14] text-white font-bold shadow-lg hover:shadow-xl transition-all border-0",
+                          "flex-1 rounded-full bg-gradient-to-r from-[#5D5DE9] to-[#2C3340] hover:from-[#2C3340] hover:to-[#d67f14] text-white font-bold shadow-lg hover:shadow-xl transition-all border-0",
                         children: [
                           (0, s.jsx)("span", {
                             children: h("cvBuilder.analysis.proceed"),

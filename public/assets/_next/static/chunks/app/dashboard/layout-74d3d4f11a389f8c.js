@@ -150,7 +150,7 @@
               children: (0, r.jsxs)("button", {
                 className: (0, d.cn)(
                   "relative p-2 rounded-full transition-colors",
-                  "hover:bg-[#F2EAD3] focus:outline-none focus:ring-2 focus:ring-[#F4991A] focus:ring-offset-2",
+                  "hover:bg-[#EEF0F4] focus:outline-none focus:ring-2 focus:ring-[#5D5DE9] focus:ring-offset-2",
                   "min-w-[40px] min-h-[40px] flex items-center justify-center",
                   "border border-border",
                 ),
@@ -158,13 +158,13 @@
                   t > 0 ? " (".concat(t, " unread)") : "",
                 ),
                 children: [
-                  (0, r.jsx)(y.A, { className: "h-5 w-5 text-[#344F1F]" }),
+                  (0, r.jsx)(y.A, { className: "h-5 w-5 text-[#2C3340]" }),
                   t > 0 &&
                     (0, r.jsx)(o.P.span, {
                       initial: { scale: 0 },
                       animate: { scale: 1 },
                       className:
-                        "absolute -top-1 -right-1 h-5 w-5 rounded-full bg-[#F4991A] text-white text-xs font-bold flex items-center justify-center",
+                        "absolute -top-1 -right-1 h-5 w-5 rounded-full bg-[#5D5DE9] text-white text-xs font-bold flex items-center justify-center",
                       children: t > 9 ? "9+" : t,
                     }),
                 ],
@@ -173,14 +173,14 @@
             (0, r.jsxs)(g.SQ, {
               align: "end",
               className:
-                "w-80 sm:w-96 max-h-[32rem] overflow-hidden p-0 bg-[#F9F5F0] border-2 border-[#F2EAD3]",
+                "w-80 sm:w-96 max-h-[32rem] overflow-hidden p-0 bg-[#F7F8FA] border-2 border-[#EEF0F4]",
               children: [
                 (0, r.jsxs)("div", {
                   className:
-                    "sticky top-0 bg-[#F2EAD3] border-b-2 border-[#344F1F]/10 px-4 py-3 flex items-center justify-between",
+                    "sticky top-0 bg-[#EEF0F4] border-b-2 border-[#2C3340]/10 px-4 py-3 flex items-center justify-between",
                   children: [
                     (0, r.jsx)("h3", {
-                      className: "font-semibold text-[#344F1F]",
+                      className: "font-semibold text-[#2C3340]",
                       children: "Notifications",
                     }),
                     t > 0 &&
@@ -189,7 +189,7 @@
                         size: "sm",
                         onClick: A,
                         className:
-                          "h-8 text-xs text-[#344F1F] hover:bg-[#F9F5F0] rounded-full",
+                          "h-8 text-xs text-[#2C3340] hover:bg-[#F7F8FA] rounded-full",
                         children: [
                           (0, r.jsx)(j.A, { className: "h-3.5 w-3.5 mr-1" }),
                           "Mark all read",
@@ -205,10 +205,10 @@
                         children: [
                           (0, r.jsx)("div", {
                             className:
-                              "inline-block h-6 w-6 animate-spin rounded-full border-2 border-[#F4991A] border-t-transparent",
+                              "inline-block h-6 w-6 animate-spin rounded-full border-2 border-[#5D5DE9] border-t-transparent",
                           }),
                           (0, r.jsx)("p", {
-                            className: "mt-2 text-sm text-[#344F1F]/70",
+                            className: "mt-2 text-sm text-[#2C3340]/70",
                             children: "Loading...",
                           }),
                         ],
@@ -219,14 +219,14 @@
                           children: [
                             (0, r.jsx)(y.A, {
                               className:
-                                "h-12 w-12 mx-auto text-[#344F1F]/20 mb-2",
+                                "h-12 w-12 mx-auto text-[#2C3340]/20 mb-2",
                             }),
                             (0, r.jsx)("p", {
-                              className: "text-sm text-[#344F1F]/70",
+                              className: "text-sm text-[#2C3340]/70",
                               children: "No notifications yet",
                             }),
                             (0, r.jsx)("p", {
-                              className: "text-xs text-[#344F1F]/50 mt-1",
+                              className: "text-xs text-[#2C3340]/50 mt-1",
                               children:
                                 "We'll notify you about profile updates",
                             }),
@@ -246,9 +246,9 @@
                                       href: e.link,
                                       onClick: () => F(e),
                                       className: (0, d.cn)(
-                                        "block px-4 py-3 border-b border-[#F2EAD3] transition-colors",
-                                        "hover:bg-[#F2EAD3]",
-                                        !e.read_at && "bg-[#F4991A]/5",
+                                        "block px-4 py-3 border-b border-[#EEF0F4] transition-colors",
+                                        "hover:bg-[#EEF0F4]",
+                                        !e.read_at && "bg-[#5D5DE9]/5",
                                       ),
                                       children: (0, r.jsx)(C, {
                                         notification: e,
@@ -257,9 +257,9 @@
                                   : (0, r.jsx)("div", {
                                       onClick: () => F(e),
                                       className: (0, d.cn)(
-                                        "block px-4 py-3 border-b border-[#F2EAD3] cursor-pointer transition-colors",
-                                        "hover:bg-[#F2EAD3]",
-                                        !e.read_at && "bg-[#F4991A]/5",
+                                        "block px-4 py-3 border-b border-[#EEF0F4] cursor-pointer transition-colors",
+                                        "hover:bg-[#EEF0F4]",
+                                        !e.read_at && "bg-[#5D5DE9]/5",
                                       ),
                                       children: (0, r.jsx)(C, {
                                         notification: e,
@@ -274,11 +274,11 @@
                 e.length > 0 &&
                   (0, r.jsx)("div", {
                     className:
-                      "sticky bottom-0 bg-[#F2EAD3] border-t-2 border-[#344F1F]/10 px-4 py-2",
+                      "sticky bottom-0 bg-[#EEF0F4] border-t-2 border-[#2C3340]/10 px-4 py-2",
                     children: (0, r.jsx)("button", {
                       onClick: () => c(!1),
                       className:
-                        "w-full text-center text-sm text-[#344F1F] hover:text-[#F4991A] transition-colors py-1 rounded-full hover:bg-[#F9F5F0]",
+                        "w-full text-center text-sm text-[#2C3340] hover:text-[#5D5DE9] transition-colors py-1 rounded-full hover:bg-[#F7F8FA]",
                       children: "Close",
                     }),
                   }),
@@ -304,22 +304,22 @@
                   children: [
                     (0, r.jsx)("p", {
                       className:
-                        "font-medium text-sm text-[#344F1F] line-clamp-1",
+                        "font-medium text-sm text-[#2C3340] line-clamp-1",
                       children: s.title,
                     }),
                     !s.read_at &&
                       (0, r.jsx)("span", {
                         className:
-                          "h-2 w-2 rounded-full bg-[#F4991A] flex-shrink-0 mt-1.5",
+                          "h-2 w-2 rounded-full bg-[#5D5DE9] flex-shrink-0 mt-1.5",
                       }),
                   ],
                 }),
                 (0, r.jsx)("p", {
-                  className: "text-xs text-[#344F1F]/70 mt-0.5 line-clamp-2",
+                  className: "text-xs text-[#2C3340]/70 mt-0.5 line-clamp-2",
                   children: s.message,
                 }),
                 (0, r.jsx)("p", {
-                  className: "text-xs text-[#344F1F]/50 mt-1",
+                  className: "text-xs text-[#2C3340]/50 mt-1",
                   children: (0, N.m)(new Date(s.created_at), { addSuffix: !0 }),
                 }),
               ],
@@ -711,7 +711,7 @@
                   }),
                 ],
               });
-        let u = i >= 70 ? "#344F1F" : "#F4991A",
+        let u = i >= 70 ? "#2C3340" : "#5D5DE9",
           p = i >= 100;
         return p
           ? null
@@ -802,7 +802,7 @@
                           "text-xs text-muted-foreground truncate mt-0.5",
                         children: p
                           ? (0, r.jsx)("span", {
-                              className: "text-[#344F1F] font-medium",
+                              className: "text-[#2C3340] font-medium",
                               children: m("layout.sidebar.profile.complete"),
                             })
                           : m("layout.sidebar.profile.tapToComplete"),
@@ -1071,7 +1071,7 @@
                                                 (0, r.jsx)(s, {
                                                   size: 16,
                                                   className:
-                                                    "mr-2 text-[#F4991A]",
+                                                    "mr-2 text-[#5D5DE9]",
                                                 }),
                                                 A(e.labelKey),
                                                 e.isNew &&
@@ -1335,7 +1335,7 @@
                                       "absolute inset-0 z-10 pointer-events-none animate-shimmer",
                                     children: (0, r.jsx)("div", {
                                       className:
-                                        "h-full w-16 bg-gradient-to-r from-transparent via-[#F4991A]/30 to-transparent skew-x-[-20deg]",
+                                        "h-full w-16 bg-gradient-to-r from-transparent via-[#5D5DE9]/30 to-transparent skew-x-[-20deg]",
                                     }),
                                   }),
                                   (0, r.jsxs)("a", {
@@ -1536,7 +1536,7 @@
                                         (0, r.jsx)(s, {
                                           size: 16,
                                           className: (0, d.cn)(
-                                            "transition-all flex-shrink-0 text-[#F4991A]",
+                                            "transition-all flex-shrink-0 text-[#5D5DE9]",
                                             !x && "mr-2",
                                           ),
                                         }),
@@ -1820,7 +1820,7 @@
                                     "absolute inset-0 z-10 pointer-events-none animate-shimmer",
                                   children: (0, r.jsx)("div", {
                                     className:
-                                      "h-full w-16 bg-gradient-to-r from-transparent via-[#F4991A]/30 to-transparent skew-x-[-20deg]",
+                                      "h-full w-16 bg-gradient-to-r from-transparent via-[#5D5DE9]/30 to-transparent skew-x-[-20deg]",
                                   }),
                                 }),
                                 (0, r.jsxs)("a", {
@@ -2248,7 +2248,7 @@
                     children: [
                       (0, r.jsx)("div", {
                         className:
-                          "w-24 h-24 md:w-32 md:h-32 rounded-full bg-[#F4991A] flex items-center justify-center",
+                          "w-24 h-24 md:w-32 md:h-32 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                         children: (0, r.jsx)(e_.A, {
                           className: "w-12 h-12 md:w-16 h-16 text-white",
                         }),
@@ -2262,7 +2262,7 @@
                         },
                         className: "absolute -top-2 -right-2",
                         children: (0, r.jsx)(eS.A, {
-                          className: "w-8 h-8 text-[#F4991A]",
+                          className: "w-8 h-8 text-[#5D5DE9]",
                         }),
                       }),
                     ],
@@ -2273,16 +2273,16 @@
                   children: [
                     (0, r.jsx)(eT.Zp, {
                       className:
-                        "border-2 border-[#F4991A] bg-[#F2EAD3] hover:bg-[#F9F5F0] transition-colors cursor-pointer",
+                        "border-2 border-[#5D5DE9] bg-[#EEF0F4] hover:bg-[#F7F8FA] transition-colors cursor-pointer",
                       children: (0, r.jsx)(eT.Wu, {
                         className: "p-6",
                         children: (0, r.jsxs)("div", {
                           className: "flex items-start gap-4",
                           children: [
                             (0, r.jsx)("div", {
-                              className: "p-3 rounded-full bg-[#F9F5F0]",
+                              className: "p-3 rounded-full bg-[#F7F8FA]",
                               children: (0, r.jsx)(e_.A, {
-                                className: "w-6 h-6 text-[#F4991A]",
+                                className: "w-6 h-6 text-[#5D5DE9]",
                               }),
                             }),
                             (0, r.jsxs)("div", {
@@ -2301,7 +2301,7 @@
                                 (0, r.jsxs)(w.$, {
                                   onClick: l,
                                   className:
-                                    "w-full rounded-full bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                                    "w-full rounded-full bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                                   size: "lg",
                                   children: [
                                     (0, r.jsx)(e_.A, {
@@ -2320,16 +2320,16 @@
                     }),
                     (0, r.jsx)(eT.Zp, {
                       className:
-                        "border border-border hover:border-[#344F1F] hover:bg-[#F2EAD3] transition-colors cursor-pointer",
+                        "border border-border hover:border-[#2C3340] hover:bg-[#EEF0F4] transition-colors cursor-pointer",
                       children: (0, r.jsx)(eT.Wu, {
                         className: "p-6",
                         children: (0, r.jsxs)("div", {
                           className: "flex items-start gap-4",
                           children: [
                             (0, r.jsx)("div", {
-                              className: "p-3 rounded-full bg-[#F9F5F0]",
+                              className: "p-3 rounded-full bg-[#F7F8FA]",
                               children: (0, r.jsx)(m.A, {
-                                className: "w-6 h-6 text-[#344F1F]",
+                                className: "w-6 h-6 text-[#2C3340]",
                               }),
                             }),
                             (0, r.jsxs)("div", {
@@ -2349,7 +2349,7 @@
                                   onClick: n,
                                   variant: "outline",
                                   className:
-                                    "w-full rounded-full border-[#344F1F]",
+                                    "w-full rounded-full border-[#2C3340]",
                                   size: "lg",
                                   children: [
                                     (0, r.jsx)(m.A, {
@@ -2367,7 +2367,7 @@
                     i.username &&
                       (0, r.jsxs)("div", {
                         className:
-                          "flex items-center gap-2 p-4 bg-[#F9F5F0] rounded-lg border border-border",
+                          "flex items-center gap-2 p-4 bg-[#F7F8FA] rounded-lg border border-border",
                         children: [
                           (0, r.jsx)(ew.A, {
                             className:
@@ -2533,7 +2533,7 @@
                 children: [
                   (0, r.jsxs)("div", {
                     className:
-                      "p-4 bg-[#F2EAD3] border-2 border-[#F4991A] rounded-xl",
+                      "p-4 bg-[#EEF0F4] border-2 border-[#5D5DE9] rounded-xl",
                     children: [
                       (0, r.jsx)("p", {
                         className: "text-sm text-muted-foreground mb-2",
@@ -2541,10 +2541,10 @@
                       }),
                       (0, r.jsxs)("div", {
                         className:
-                          "flex items-center gap-2 p-3 bg-[#F9F5F0] rounded-lg border",
+                          "flex items-center gap-2 p-3 bg-[#F7F8FA] rounded-lg border",
                         children: [
                           (0, r.jsx)(ew.A, {
-                            className: "w-4 h-4 text-[#F4991A] flex-shrink-0",
+                            className: "w-4 h-4 text-[#5D5DE9] flex-shrink-0",
                           }),
                           (0, r.jsx)("code", {
                             className: "text-sm font-mono flex-1 truncate",
@@ -2560,7 +2560,7 @@
                         className: "font-semibold mb-3 flex items-center gap-2",
                         children: [
                           (0, r.jsx)(ey.A, {
-                            className: "w-5 h-5 text-[#344F1F]",
+                            className: "w-5 h-5 text-[#2C3340]",
                           }),
                           "What happens when you make your profile public:",
                         ],
@@ -2573,7 +2573,7 @@
                             children: [
                               (0, r.jsx)(ey.A, {
                                 className:
-                                  "w-4 h-4 text-[#344F1F] flex-shrink-0 mt-0.5",
+                                  "w-4 h-4 text-[#2C3340] flex-shrink-0 mt-0.5",
                               }),
                               (0, r.jsx)("span", {
                                 children:
@@ -2586,7 +2586,7 @@
                             children: [
                               (0, r.jsx)(ey.A, {
                                 className:
-                                  "w-4 h-4 text-[#344F1F] flex-shrink-0 mt-0.5",
+                                  "w-4 h-4 text-[#2C3340] flex-shrink-0 mt-0.5",
                               }),
                               (0, r.jsx)("span", {
                                 children:
@@ -2599,7 +2599,7 @@
                             children: [
                               (0, r.jsx)(ey.A, {
                                 className:
-                                  "w-4 h-4 text-[#344F1F] flex-shrink-0 mt-0.5",
+                                  "w-4 h-4 text-[#2C3340] flex-shrink-0 mt-0.5",
                               }),
                               (0, r.jsx)("span", {
                                 children:
@@ -2612,7 +2612,7 @@
                             children: [
                               (0, r.jsx)(ey.A, {
                                 className:
-                                  "w-4 h-4 text-[#344F1F] flex-shrink-0 mt-0.5",
+                                  "w-4 h-4 text-[#2C3340] flex-shrink-0 mt-0.5",
                               }),
                               (0, r.jsx)("span", {
                                 children:
@@ -2632,14 +2632,14 @@
                       }),
                       (0, r.jsx)("div", {
                         className:
-                          "grid grid-cols-1 gap-2 max-h-[200px] overflow-y-auto p-3 bg-[#F9F5F0] rounded-lg border",
+                          "grid grid-cols-1 gap-2 max-h-[200px] overflow-y-auto p-3 bg-[#F7F8FA] rounded-lg border",
                         children: x.map((e) =>
                           (0, r.jsxs)(
                             "div",
                             {
                               className: (0, d.cn)(
                                 "flex items-center justify-between p-2 rounded-md",
-                                e.visible ? "bg-[#F2EAD3]" : "bg-white",
+                                e.visible ? "bg-[#EEF0F4]" : "bg-white",
                               ),
                               children: [
                                 (0, r.jsxs)("span", {
@@ -2647,7 +2647,7 @@
                                   children: [
                                     e.visible
                                       ? (0, r.jsx)(ew.A, {
-                                          className: "w-4 h-4 text-[#344F1F]",
+                                          className: "w-4 h-4 text-[#2C3340]",
                                         })
                                       : (0, r.jsx)(eI.A, {
                                           className:
@@ -2661,7 +2661,7 @@
                                   className: (0, d.cn)(
                                     "text-xs",
                                     e.visible
-                                      ? "bg-[#344F1F]"
+                                      ? "bg-[#2C3340]"
                                       : "bg-muted-foreground",
                                   ),
                                   children: e.visible ? "Visible" : "Hidden",
@@ -2703,7 +2703,7 @@
                           (0, r.jsx)("a", {
                             href: "/dashboard/settings",
                             className:
-                              "underline text-[#F4991A] hover:text-[#E5890F]",
+                              "underline text-[#5D5DE9] hover:text-[#2C3340]",
                             children: "privacy settings",
                           }),
                           ". Making your profile private again is just one click away.",
@@ -2726,7 +2726,7 @@
                   (0, r.jsx)(w.$, {
                     onClick: p,
                     className:
-                      "rounded-full w-full sm:w-auto bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                      "rounded-full w-full sm:w-auto bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                     disabled: o,
                     children: o
                       ? (0, r.jsxs)(r.Fragment, {
@@ -3285,7 +3285,7 @@
                           "absolute bottom-full right-0 mb-3 w-[280px] md:w-[320px] z-50",
                         children: (0, r.jsxs)("div", {
                           className:
-                            "bg-[#F4991A] text-white p-4 rounded-xl shadow-2xl relative",
+                            "bg-[#5D5DE9] text-white p-4 rounded-xl shadow-2xl relative",
                           children: [
                             (0, r.jsx)("button", {
                               onClick: () => {
@@ -3332,7 +3332,7 @@
                             }),
                             (0, r.jsx)("div", {
                               className:
-                                "absolute -bottom-2 right-6 w-4 h-4 bg-[#F4991A] transform rotate-45",
+                                "absolute -bottom-2 right-6 w-4 h-4 bg-[#5D5DE9] transform rotate-45",
                             }),
                           ],
                         }),
@@ -3497,7 +3497,7 @@
                 children: [
                   (0, r.jsx)("div", {
                     className:
-                      "mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-[#F4991A] to-[#344F1F] rounded-2xl flex items-center justify-center",
+                      "mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-[#5D5DE9] to-[#2C3340] rounded-2xl flex items-center justify-center",
                     children: (0, r.jsx)(eG.A, {
                       className: "w-8 h-8 text-white",
                     }),
@@ -3592,7 +3592,7 @@
                     onClick: u,
                     disabled: d,
                     className:
-                      "flex-1 bg-gradient-to-r from-[#F4991A] to-[#344F1F] hover:opacity-90",
+                      "flex-1 bg-gradient-to-r from-[#5D5DE9] to-[#2C3340] hover:opacity-90",
                     children: d
                       ? (0, r.jsxs)(r.Fragment, {
                           children: [

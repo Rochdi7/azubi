@@ -121,11 +121,11 @@
               (0, t.jsxs)(D.c7, {
                 children: [
                   (0, t.jsx)(D.L3, {
-                    className: "text-2xl font-bold text-[#344F1F]",
+                    className: "text-2xl font-bold text-[#2C3340]",
                     children: i("german.jobPostings.sectors.modalTitle"),
                   }),
                   (0, t.jsx)(D.rr, {
-                    className: "text-base text-[#344F1F]/70",
+                    className: "text-base text-[#2C3340]/70",
                     children: i("german.jobPostings.sectors.modalDescription"),
                   }),
                 ],
@@ -165,12 +165,12 @@
                               children: [
                                 (0, t.jsx)("h3", {
                                   className:
-                                    "font-semibold text-base text-[#344F1F] mb-1 leading-tight",
+                                    "font-semibold text-base text-[#2C3340] mb-1 leading-tight",
                                   children: i(e.nameKey),
                                 }),
                                 (0, t.jsx)("p", {
                                   className:
-                                    "text-sm text-[#344F1F]/70 leading-snug",
+                                    "text-sm text-[#2C3340]/70 leading-snug",
                                   children: i(e.descriptionKey),
                                 }),
                               ],
@@ -207,14 +207,14 @@
                       variant: "outline",
                       disabled: m,
                       className:
-                        "w-full h-12 rounded-full border-2 border-beige bg-transparent hover:bg-beige/20 text-[#344F1F] font-medium",
+                        "w-full h-12 rounded-full border-2 border-beige bg-transparent hover:bg-beige/20 text-[#2C3340] font-medium",
                       size: "lg",
                       children: i("german.jobPostings.sectors.skipForNow"),
                     }),
                 ],
               }),
               (0, t.jsx)("p", {
-                className: "text-xs text-[#344F1F]/60 text-center mt-2",
+                className: "text-xs text-[#2C3340]/60 text-center mt-2",
                 children: i("german.jobPostings.sectors.helperText"),
               }),
             ],
@@ -230,10 +230,10 @@
           hospitality: Z.A,
         },
         O = {
-          A1: "bg-[#344F1F]/10 text-[#344F1F] border-[#344F1F]/20",
+          A1: "bg-[#2C3340]/10 text-[#2C3340] border-[#2C3340]/20",
           A2: "bg-primary/10 text-primary border-primary/20",
           B1: "bg-primary text-white border-primary",
-          B2: "bg-[#344F1F] text-white border-[#344F1F]",
+          B2: "bg-[#2C3340] text-white border-[#2C3340]",
         };
       function R(e) {
         var s;
@@ -342,7 +342,7 @@
             e("german.page.sections.workplaceGermanDesc").split(" - ")[1] ||
             e("german.page.sections.workplaceGermanDesc"),
           icon: T.A,
-          color: "text-[#344F1F]",
+          color: "text-[#2C3340]",
         },
         {
           id: "ausbildung_prep",
@@ -382,7 +382,7 @@
                             className: "h-5 w-5 text-primary",
                           }),
                           (0, t.jsx)("h3", {
-                            className: "font-semibold text-[#344F1F]",
+                            className: "font-semibold text-[#2C3340]",
                             children: l("german.page.stats.overallProgress"),
                           }),
                         ],
@@ -405,16 +405,16 @@
                   i = e.icon,
                   o =
                     (s = r.progress) >= 70
-                      ? "text-[#344F1F]"
+                      ? "text-[#2C3340]"
                       : s >= 40
                         ? "text-primary"
-                        : "text-[#344F1F]/60",
+                        : "text-[#2C3340]/60",
                   d =
                     (a = r.progress) >= 70
-                      ? "bg-[#344F1F]"
+                      ? "bg-[#2C3340]"
                       : a >= 40
                         ? "bg-primary"
-                        : "bg-[#344F1F]/40";
+                        : "bg-[#2C3340]/40";
                 return (0, t.jsxs)(
                   c.Zp,
                   {
@@ -431,11 +431,11 @@
                               children: [
                                 (0, t.jsx)(c.ZB, {
                                   className:
-                                    "text-base font-semibold text-[#344F1F] mb-1",
+                                    "text-base font-semibold text-[#2C3340] mb-1",
                                   children: e.title,
                                 }),
                                 (0, t.jsx)("p", {
-                                  className: "text-xs text-[#344F1F]/70",
+                                  className: "text-xs text-[#2C3340]/70",
                                   children: e.subtitle,
                                 }),
                               ],
@@ -460,7 +460,7 @@
                                   "flex items-center justify-between mb-1.5",
                                 children: [
                                   (0, t.jsx)("span", {
-                                    className: "text-xs text-[#344F1F]/70",
+                                    className: "text-xs text-[#2C3340]/70",
                                     children: l(
                                       "german.assessmentShared.progressBar.progress",
                                     ),
@@ -489,13 +489,13 @@
                               "flex items-center justify-between text-xs",
                             children: [
                               (0, t.jsx)("span", {
-                                className: "text-[#344F1F]/70",
+                                className: "text-[#2C3340]/70",
                                 children: l(
                                   "german.assessment.testInfo.modules",
                                 ),
                               }),
                               (0, t.jsxs)("span", {
-                                className: "font-semibold text-[#344F1F]",
+                                className: "font-semibold text-[#2C3340]",
                                 children: [
                                   r.modules_completed,
                                   " / ",
@@ -518,7 +518,7 @@
       var J = a(72982);
       let Q = {
         core_skills: "bg-primary/10 text-primary border-primary/20",
-        workplace_german: "bg-[#344F1F]/10 text-[#344F1F] border-[#344F1F]/20",
+        workplace_german: "bg-[#2C3340]/10 text-[#2C3340] border-[#2C3340]/20",
         ausbildung_prep: "bg-primary/10 text-primary border-primary/20",
       };
       function U(e) {
@@ -545,7 +545,7 @@
                   children: [
                     (0, t.jsx)(J.A, { className: "h-5 w-5 text-primary" }),
                     (0, t.jsx)("h2", {
-                      className: "text-lg font-bold text-[#344F1F]",
+                      className: "text-lg font-bold text-[#2C3340]",
                       children: r("german.components.recommendations.title"),
                     }),
                   ],
@@ -583,7 +583,7 @@
                               }),
                               (0, t.jsx)(c.ZB, {
                                 className:
-                                  "text-base font-bold text-[#344F1F] leading-tight",
+                                  "text-base font-bold text-[#2C3340] leading-tight",
                                 children: e.module_name,
                               }),
                             ],
@@ -593,7 +593,7 @@
                             children: [
                               (0, t.jsx)("p", {
                                 className:
-                                  "text-sm text-[#344F1F]/70 mb-4 leading-snug",
+                                  "text-sm text-[#2C3340]/70 mb-4 leading-snug",
                                 children: e.reason,
                               }),
                               (0, t.jsxs)(o.$, {
@@ -621,7 +621,7 @@
                 s.length > 1 &&
                   (0, t.jsxs)("p", {
                     className:
-                      "text-xs text-[#344F1F]/60 text-center md:hidden",
+                      "text-xs text-[#2C3340]/60 text-center md:hidden",
                     children: [
                       r("german.components.recommendations.subtitle"),
                       " →",
@@ -635,14 +635,14 @@
                 className: "p-6 text-center",
                 children: [
                   (0, t.jsx)(F.A, {
-                    className: "h-12 w-12 text-[#344F1F]/40 mx-auto mb-3",
+                    className: "h-12 w-12 text-[#2C3340]/40 mx-auto mb-3",
                   }),
                   (0, t.jsx)("p", {
-                    className: "text-[#344F1F] font-semibold mb-1",
+                    className: "text-[#2C3340] font-semibold mb-1",
                     children: r("german.progress.goals.yourGoals"),
                   }),
                   (0, t.jsx)("p", {
-                    className: "text-sm text-[#344F1F]/70",
+                    className: "text-sm text-[#2C3340]/70",
                     children: r("german.progress.achievements.startPracticing"),
                   }),
                 ],
@@ -896,7 +896,7 @@
                                         className:
                                           "jsx-a7f9ab7c02f698b4 p-2.5 rounded-lg bg-white",
                                         children: (0, t.jsx)(j.A, {
-                                          className: "h-5 w-5 text-[#344F1F]",
+                                          className: "h-5 w-5 text-[#2C3340]",
                                         }),
                                       }),
                                       (0, t.jsxs)("div", {
@@ -958,7 +958,7 @@
                                         className:
                                           "jsx-a7f9ab7c02f698b4 p-2.5 rounded-lg bg-white",
                                         children: (0, t.jsx)(N.A, {
-                                          className: "h-5 w-5 text-[#344F1F]",
+                                          className: "h-5 w-5 text-[#2C3340]",
                                         }),
                                       }),
                                       (0, t.jsxs)("div", {
@@ -1050,7 +1050,7 @@
                           ],
                         }),
                         (0, t.jsx)(x.f, {
-                          className: "text-sm text-[#344F1F]/70 mb-6",
+                          className: "text-sm text-[#2C3340]/70 mb-6",
                           children: a("german.page.sections.coreSkillsDesc"),
                         }),
                         (0, t.jsx)("div", {
@@ -1105,7 +1105,7 @@
                                               "jsx-a7f9ab7c02f698b4 p-3 rounded-lg bg-white shadow-md",
                                             children: (0, t.jsx)(e.icon, {
                                               className:
-                                                "h-5 w-5 text-[#344F1F]",
+                                                "h-5 w-5 text-[#2C3340]",
                                             }),
                                           }),
                                         ],
@@ -1264,7 +1264,7 @@
                                       }),
                                       (0, t.jsxs)(o.$, {
                                         className:
-                                          "w-full group-hover:shadow-lg transition-all bg-[#344F1F] hover:bg-[#2a3f19] text-white",
+                                          "w-full group-hover:shadow-lg transition-all bg-[#2C3340] hover:bg-[#1E242E] text-white",
                                         children: [
                                           a(
                                             "german.page.buttons.startTraining",
@@ -1294,13 +1294,13 @@
                           className: "mb-6 flex items-center gap-2",
                           children: [
                             (0, t.jsx)(v.A, {
-                              className: "h-5 w-5 text-[#344F1F]",
+                              className: "h-5 w-5 text-[#2C3340]",
                             }),
                             a("german.page.sections.workplaceGerman"),
                           ],
                         }),
                         (0, t.jsx)(x.f, {
-                          className: "text-sm text-[#344F1F]/70 mb-6",
+                          className: "text-sm text-[#2C3340]/70 mb-6",
                           children: a(
                             "german.page.sections.workplaceGermanDesc",
                           ),
@@ -1328,7 +1328,7 @@
                                     }),
                                     (0, t.jsx)(x.f, {
                                       size: "sm",
-                                      className: "text-[#344F1F]/70",
+                                      className: "text-[#2C3340]/70",
                                       children: a(
                                         "german.page.workplaceScenarios.description",
                                       ),
@@ -1366,7 +1366,7 @@
                           ],
                         }),
                         (0, t.jsx)(x.f, {
-                          className: "text-sm text-[#344F1F]/70 mb-6",
+                          className: "text-sm text-[#2C3340]/70 mb-6",
                           children: a(
                             "german.page.sections.ausbildungPrepDesc",
                           ),
@@ -1388,7 +1388,7 @@
                                     children: [
                                       (0, t.jsx)("div", {
                                         className:
-                                          "jsx-a7f9ab7c02f698b4 p-3 rounded-xl bg-[#344F1F]",
+                                          "jsx-a7f9ab7c02f698b4 p-3 rounded-xl bg-[#2C3340]",
                                         children: (0, t.jsx)(k.A, {
                                           className: "h-5 w-5 text-white",
                                         }),
@@ -1406,7 +1406,7 @@
                                           }),
                                           (0, t.jsx)(x.f, {
                                             size: "sm",
-                                            className: "text-[#344F1F]/70",
+                                            className: "text-[#2C3340]/70",
                                             children: a(
                                               "german.page.formFilling.description",
                                             ),
@@ -1422,7 +1422,7 @@
                                       (0, t.jsx)(d.E, {
                                         variant: "outline",
                                         className:
-                                          "bg-beige text-[#344F1F] border-beige text-xs",
+                                          "bg-beige text-[#2C3340] border-beige text-xs",
                                         children: a(
                                           "german.page.formFilling.badges.essentialForms",
                                         ),
@@ -1430,7 +1430,7 @@
                                       (0, t.jsx)(d.E, {
                                         variant: "outline",
                                         className:
-                                          "bg-beige text-[#344F1F] border-beige text-xs",
+                                          "bg-beige text-[#2C3340] border-beige text-xs",
                                         children: a(
                                           "german.page.formFilling.badges.fieldHelpers",
                                         ),
@@ -1438,7 +1438,7 @@
                                       (0, t.jsx)(d.E, {
                                         variant: "outline",
                                         className:
-                                          "bg-beige text-[#344F1F] border-beige text-xs",
+                                          "bg-beige text-[#2C3340] border-beige text-xs",
                                         children: a(
                                           "german.page.formFilling.badges.exampleData",
                                         ),
@@ -1490,7 +1490,7 @@
                                           }),
                                           (0, t.jsx)(x.f, {
                                             size: "sm",
-                                            className: "text-[#344F1F]/70",
+                                            className: "text-[#2C3340]/70",
                                             children: a(
                                               "german.page.jobPosting.description",
                                             ),
@@ -1506,7 +1506,7 @@
                                       (0, t.jsx)(d.E, {
                                         variant: "outline",
                                         className:
-                                          "bg-beige text-[#344F1F] border-beige text-xs",
+                                          "bg-beige text-[#2C3340] border-beige text-xs",
                                         children: a(
                                           "german.page.jobPosting.badges.completeJobs",
                                         ),
@@ -1514,7 +1514,7 @@
                                       (0, t.jsx)(d.E, {
                                         variant: "outline",
                                         className:
-                                          "bg-beige text-[#344F1F] border-beige text-xs",
+                                          "bg-beige text-[#2C3340] border-beige text-xs",
                                         children: a(
                                           "german.page.jobPosting.badges.germanEnglish",
                                         ),
@@ -1522,7 +1522,7 @@
                                       (0, t.jsx)(d.E, {
                                         variant: "outline",
                                         className:
-                                          "bg-beige text-[#344F1F] border-beige text-xs",
+                                          "bg-beige text-[#2C3340] border-beige text-xs",
                                         children: a(
                                           "german.page.jobPosting.badges.vocabularyHelp",
                                         ),
@@ -1599,7 +1599,7 @@
                                   (0, t.jsxs)(o.$, {
                                     size: "lg",
                                     className:
-                                      "bg-[#344F1F] hover:bg-[#2a3f19] text-white shadow-lg hover:shadow-xl transition-all rounded-full px-8",
+                                      "bg-[#2C3340] hover:bg-[#1E242E] text-white shadow-lg hover:shadow-xl transition-all rounded-full px-8",
                                     children: [
                                       a("german.page.buttons.startAssessment"),
                                       (0, t.jsx)(w.A, {
@@ -1615,7 +1615,7 @@
                                 children: [
                                   (0, t.jsxs)("div", {
                                     className:
-                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#E5890F] rounded-xl p-4 min-w-[140px]",
+                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#2C3340] rounded-xl p-4 min-w-[140px]",
                                     children: [
                                       (0, t.jsx)(u.A, {
                                         className: "w-6 h-6 text-white",
@@ -1631,7 +1631,7 @@
                                   }),
                                   (0, t.jsxs)("div", {
                                     className:
-                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#E5890F] rounded-xl p-4 min-w-[140px]",
+                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#2C3340] rounded-xl p-4 min-w-[140px]",
                                     children: [
                                       (0, t.jsx)(v.A, {
                                         className: "w-6 h-6 text-white",
@@ -1647,7 +1647,7 @@
                                   }),
                                   (0, t.jsxs)("div", {
                                     className:
-                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#E5890F] rounded-xl p-4 min-w-[140px]",
+                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#2C3340] rounded-xl p-4 min-w-[140px]",
                                     children: [
                                       (0, t.jsx)(N.A, {
                                         className: "w-6 h-6 text-white",
@@ -1663,7 +1663,7 @@
                                   }),
                                   (0, t.jsxs)("div", {
                                     className:
-                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#E5890F] rounded-xl p-4 min-w-[140px]",
+                                      "jsx-a7f9ab7c02f698b4 flex flex-col items-center gap-2 bg-[#2C3340] rounded-xl p-4 min-w-[140px]",
                                     children: [
                                       (0, t.jsx)(A.A, {
                                         className: "w-6 h-6 text-white",

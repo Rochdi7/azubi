@@ -532,11 +532,11 @@
               children: [
                 (0, s.jsx)("div", {
                   className:
-                    "absolute left-[10%] top-[20%] w-96 h-96 rounded-full bg-[#F4991A]/5 blur-3xl",
+                    "absolute left-[10%] top-[20%] w-96 h-96 rounded-full bg-[#5D5DE9]/5 blur-3xl",
                 }),
                 (0, s.jsx)("div", {
                   className:
-                    "absolute right-[10%] bottom-[20%] w-80 h-80 rounded-full bg-[#344F1F]/5 blur-3xl",
+                    "absolute right-[10%] bottom-[20%] w-80 h-80 rounded-full bg-[#2C3340]/5 blur-3xl",
                 }),
               ],
             }),

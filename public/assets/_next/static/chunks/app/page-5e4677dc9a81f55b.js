@@ -28,7 +28,7 @@
       function d() {
         let [e, t] = (0, a.useState)(!1);
         return (0, i.jsx)("section", {
-          className: "py-12 sm:py-16 bg-[#F9F5F0]",
+          className: "py-12 sm:py-16 bg-[#F7F8FA]",
           children: (0, i.jsx)("div", {
             className: "container mx-auto px-4",
             children: (0, i.jsxs)("div", {
@@ -81,7 +81,7 @@
                               "aria-label": "Play video",
                               children: (0, i.jsx)("div", {
                                 className:
-                                  "w-20 h-20 rounded-full bg-[#F4991A] flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300",
+                                  "w-20 h-20 rounded-full bg-[#5D5DE9] flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300",
                                 children: (0, i.jsx)(n.A, {
                                   className: "h-10 w-10 text-white ml-1",
                                   fill: "currentColor",
@@ -153,7 +153,7 @@
         s)
           ? (0, i.jsxs)("section", {
               className:
-                "relative py-16 sm:py-20 md:py-24 bg-[#F9F5F0] overflow-hidden",
+                "relative py-16 sm:py-20 md:py-24 bg-[#F7F8FA] overflow-hidden",
               children: [
                 (0, i.jsxs)("div", {
                   className:
@@ -161,11 +161,11 @@
                   children: [
                     (0, i.jsx)("div", {
                       className:
-                        "absolute left-1/4 top-0 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl",
+                        "absolute left-1/4 top-0 w-96 h-96 bg-[#5D5DE9]/5 rounded-full blur-3xl",
                     }),
                     (0, i.jsx)("div", {
                       className:
-                        "absolute right-1/4 bottom-0 w-80 h-80 bg-[#344F1F]/5 rounded-full blur-3xl",
+                        "absolute right-1/4 bottom-0 w-80 h-80 bg-[#2C3340]/5 rounded-full blur-3xl",
                     }),
                   ],
                 }),
@@ -187,7 +187,7 @@
                           "div",
                           {
                             className:
-                              "bg-white rounded-2xl border-2 border-[#344F1F]/10 p-6 animate-pulse",
+                              "bg-white rounded-2xl border-2 border-[#2C3340]/10 p-6 animate-pulse",
                             children: [
                               (0, i.jsxs)("div", {
                                 className: "flex items-start gap-4 mb-4",
@@ -274,7 +274,7 @@
             ? null
             : (0, i.jsxs)("section", {
                 className:
-                  "relative py-16 sm:py-20 md:py-24 bg-[#F9F5F0] overflow-hidden",
+                  "relative py-16 sm:py-20 md:py-24 bg-[#F7F8FA] overflow-hidden",
                 children: [
                   (0, i.jsxs)("div", {
                     className:
@@ -282,11 +282,11 @@
                     children: [
                       (0, i.jsx)("div", {
                         className:
-                          "absolute left-1/4 top-0 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl",
+                          "absolute left-1/4 top-0 w-96 h-96 bg-[#5D5DE9]/5 rounded-full blur-3xl",
                       }),
                       (0, i.jsx)("div", {
                         className:
-                          "absolute right-1/4 bottom-0 w-80 h-80 bg-[#344F1F]/5 rounded-full blur-3xl",
+                          "absolute right-1/4 bottom-0 w-80 h-80 bg-[#2C3340]/5 rounded-full blur-3xl",
                       }),
                     ],
                   }),
@@ -335,10 +335,10 @@
                             size: "lg",
                             className: (0, h.cn)(
                               "transition-all duration-200 group",
-                              "bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                              "bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                               "rounded-full",
-                              "shadow-[0_4px_12px_rgba(244,153,26,0.2)]",
-                              "hover:shadow-[0_8px_20px_rgba(244,153,26,0.25)]",
+                              "shadow-[0_4px_12px_rgba(93,93,233,0.2)]",
+                              "hover:shadow-[0_8px_20px_rgba(93,93,233,0.25)]",
                               "hover:-translate-y-1",
                               "px-8 h-12 text-base font-semibold",
                             ),
@@ -406,7 +406,7 @@
         } = e;
         return (0, i.jsxs)("section", {
           className: (0, n.cn)(
-            "py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F2EAD3]",
+            "py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#EEF0F4]",
             g,
           ),
           children: [
@@ -416,11 +416,11 @@
               children: [
                 (0, i.jsx)("div", {
                   className:
-                    "absolute right-1/4 top-10 w-80 h-80 rounded-full bg-[#F4991A]/5 blur-3xl",
+                    "absolute right-1/4 top-10 w-80 h-80 rounded-full bg-[#5D5DE9]/5 blur-3xl",
                 }),
                 (0, i.jsx)("div", {
                   className:
-                    "absolute left-1/4 bottom-10 w-80 h-80 rounded-full bg-[#344F1F]/5 blur-3xl",
+                    "absolute left-1/4 bottom-10 w-80 h-80 rounded-full bg-[#2C3340]/5 blur-3xl",
                 }),
               ],
             }),
@@ -464,33 +464,33 @@
                               children: [
                                 (0, i.jsx)("div", {
                                   className:
-                                    "absolute -left-2 -top-2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#F4991A] border-2 border-white flex items-center justify-center text-xs sm:text-sm font-bold text-white z-20 shadow-md",
+                                    "absolute -left-2 -top-2 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#5D5DE9] border-2 border-white flex items-center justify-center text-xs sm:text-sm font-bold text-white z-20 shadow-md",
                                   children: t + 1,
                                 }),
                                 (0, i.jsx)(h.P.div, {
                                   whileHover: { scale: 1.05 },
                                   className:
-                                    "w-16 h-16 sm:w-20 sm:h-20 rounded-2xl flex items-center justify-center relative z-10 shadow-md bg-[#F4991A]/10 border-2 border-[#F4991A]/30 text-[#F4991A] group-hover:bg-[#F4991A]/15 transition-all duration-300",
+                                    "w-16 h-16 sm:w-20 sm:h-20 rounded-2xl flex items-center justify-center relative z-10 shadow-md bg-[#5D5DE9]/10 border-2 border-[#5D5DE9]/30 text-[#5D5DE9] group-hover:bg-[#5D5DE9]/15 transition-all duration-300",
                                   children: e.icon,
                                 }),
                                 (0, i.jsx)("div", {
                                   className:
-                                    "absolute inset-0 rounded-2xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 bg-[#F4991A]/50",
+                                    "absolute inset-0 rounded-2xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 bg-[#5D5DE9]/50",
                                 }),
                               ],
                             }),
                             (0, i.jsxs)("div", {
                               className:
-                                "bg-white/90 backdrop-blur-sm p-4 sm:p-6 rounded-2xl border border-[#344F1F]/10 group-hover:border-[#F4991A]/20 group-hover:shadow-lg transition-all duration-300 w-full h-full flex flex-col",
+                                "bg-white/90 backdrop-blur-sm p-4 sm:p-6 rounded-2xl border border-[#2C3340]/10 group-hover:border-[#5D5DE9]/20 group-hover:shadow-lg transition-all duration-300 w-full h-full flex flex-col",
                               children: [
                                 (0, i.jsx)("h3", {
                                   className:
-                                    "text-base sm:text-lg font-semibold mb-2 sm:mb-3 text-[#344F1F]",
+                                    "text-base sm:text-lg font-semibold mb-2 sm:mb-3 text-[#2C3340]",
                                   children: e.title,
                                 }),
                                 (0, i.jsx)("p", {
                                   className:
-                                    "text-[#344F1F]/70 text-xs sm:text-sm leading-relaxed flex-grow",
+                                    "text-[#2C3340]/70 text-xs sm:text-sm leading-relaxed flex-grow",
                                   children: e.description,
                                 }),
                               ],
@@ -513,7 +513,7 @@
                       asChild: !0,
                       size: "lg",
                       className:
-                        "bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full px-8 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300",
+                        "bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full px-8 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300",
                       style: { minHeight: "48px" },
                       children: (0, i.jsxs)(m(), {
                         href: x.href,
@@ -631,18 +631,18 @@
           ];
         return (0, i.jsxs)("section", {
           className:
-            "py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F9F5F0]",
+            "py-16 sm:py-20 md:py-24 relative overflow-hidden bg-[#F7F8FA]",
           children: [
             (0, i.jsxs)("div", {
               className: "absolute inset-0 -z-10 pointer-events-none",
               children: [
                 (0, i.jsx)("div", {
                   className:
-                    "absolute top-0 left-1/4 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl",
+                    "absolute top-0 left-1/4 w-96 h-96 bg-[#5D5DE9]/5 rounded-full blur-3xl",
                 }),
                 (0, i.jsx)("div", {
                   className:
-                    "absolute bottom-0 right-1/4 w-96 h-96 bg-[#344F1F]/5 rounded-full blur-3xl",
+                    "absolute bottom-0 right-1/4 w-96 h-96 bg-[#2C3340]/5 rounded-full blur-3xl",
                 }),
               ],
             }),
@@ -678,14 +678,14 @@
                           href: e.href,
                           children: (0, i.jsxs)("div", {
                             className:
-                              "group relative h-full p-6 rounded-2xl bg-white border-2 border-[#344F1F]/10 hover:border-[#F4991A]/30 hover:shadow-xl transition-all duration-300",
+                              "group relative h-full p-6 rounded-2xl bg-white border-2 border-[#2C3340]/10 hover:border-[#5D5DE9]/30 hover:shadow-xl transition-all duration-300",
                             onMouseEnter: () => t(e.id),
                             onMouseLeave: () => t(null),
                             children: [
                               e.badge &&
                                 (0, i.jsx)(v.E, {
                                   className:
-                                    "absolute -top-3 right-6 text-xs px-3 py-1 font-semibold bg-[#F4991A] text-white border-0 shadow-md",
+                                    "absolute -top-3 right-6 text-xs px-3 py-1 font-semibold bg-[#5D5DE9] text-white border-0 shadow-md",
                                   children: e.badge,
                                 }),
                               (0, i.jsxs)("div", {
@@ -695,19 +695,19 @@
                                     className: (0, y.cn)(
                                       "w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center mb-3 sm:mb-4 shadow-sm",
                                       s % 2 == 0
-                                        ? "bg-[#F4991A]/10 text-[#F4991A]"
-                                        : "bg-[#344F1F]/10 text-[#344F1F]",
+                                        ? "bg-[#5D5DE9]/10 text-[#5D5DE9]"
+                                        : "bg-[#2C3340]/10 text-[#2C3340]",
                                     ),
                                     children: e.icon,
                                   }),
                                   (0, i.jsx)("h3", {
                                     className:
-                                      "font-bold text-base sm:text-lg mb-2 text-[#344F1F]",
+                                      "font-bold text-base sm:text-lg mb-2 text-[#2C3340]",
                                     children: e.title,
                                   }),
                                   (0, i.jsx)("p", {
                                     className:
-                                      "text-xs sm:text-sm text-[#344F1F]/70 mb-3 sm:mb-4 font-medium leading-relaxed",
+                                      "text-xs sm:text-sm text-[#2C3340]/70 mb-3 sm:mb-4 font-medium leading-relaxed",
                                     children: e.description,
                                   }),
                                   (0, i.jsxs)("div", {
@@ -716,12 +716,12 @@
                                     children: [
                                       (0, i.jsx)("span", {
                                         className:
-                                          "text-xs text-[#344F1F]/50 font-medium",
+                                          "text-xs text-[#2C3340]/50 font-medium",
                                         children: e.highlight,
                                       }),
                                       (0, i.jsxs)("div", {
                                         className:
-                                          "flex items-center text-xs font-semibold text-[#F4991A] opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+                                          "flex items-center text-xs font-semibold text-[#5D5DE9] opacity-0 group-hover:opacity-100 transition-opacity duration-300",
                                         children: [
                                           (0, i.jsx)("span", {
                                             children: "Try Now",
@@ -749,7 +749,7 @@
                   viewport: { once: !0 },
                   transition: { duration: 0.5, delay: 0.3 },
                   className:
-                    "flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-sm text-[#344F1F]/60 mb-12",
+                    "flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-sm text-[#2C3340]/60 mb-12",
                   children: f.map((e, t) =>
                     (0, i.jsxs)(
                       "div",
@@ -757,7 +757,7 @@
                         className: "flex items-center gap-2",
                         children: [
                           (0, i.jsx)("span", {
-                            className: "text-[#F4991A]",
+                            className: "text-[#5D5DE9]",
                             children: e.icon,
                           }),
                           (0, i.jsx)("span", {
@@ -778,7 +778,7 @@
                   className: "text-center",
                   children: [
                     (0, i.jsx)("p", {
-                      className: "text-sm text-[#344F1F]/60 mb-6 font-medium",
+                      className: "text-sm text-[#2C3340]/60 mb-6 font-medium",
                       children:
                         "Join 15,000+ students already applying smarter",
                     }),
@@ -787,7 +787,7 @@
                       children: (0, i.jsxs)(b.$, {
                         size: "lg",
                         className:
-                          "bg-[#F4991A] hover:bg-[#E5890F] text-white rounded-full px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300",
+                          "bg-[#5D5DE9] hover:bg-[#2C3340] text-white rounded-full px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300",
                         children: [
                           "Start Applying",
                           (0, i.jsx)(g.A, { className: "w-5 h-5 ml-2" }),
@@ -909,11 +909,11 @@
                                 "absolute inset-[3px] rounded-[114px] bg-white z-0",
                             }),
                             (0, i.jsx)(n.A, {
-                              className: "w-5 h-5 text-[#344F1F] relative z-10",
+                              className: "w-5 h-5 text-[#2C3340] relative z-10",
                             }),
                             (0, i.jsx)("span", {
                               className:
-                                "relative z-10 text-base md:text-lg font-medium text-[#344F1F]",
+                                "relative z-10 text-base md:text-lg font-medium text-[#2C3340]",
                               style: {
                                 fontWeight: 500,
                                 letterSpacing: "-0.04em",
@@ -964,7 +964,7 @@
                             className: "text-sm text-white/90 font-medium",
                             children: [
                               (0, i.jsx)("span", {
-                                className: "text-[#F4991A] font-semibold",
+                                className: "text-[#5D5DE9] font-semibold",
                                 children: "Apply For Me:",
                               }),
                               " Expert service",
@@ -1088,7 +1088,7 @@
           [s, m] = (0, a.useState)(0);
         return (0, i.jsxs)("section", {
           className: (0, d.cn)(
-            "py-12 sm:py-16 md:py-20 relative overflow-hidden bg-[#F2EAD3]",
+            "py-12 sm:py-16 md:py-20 relative overflow-hidden bg-[#EEF0F4]",
             t,
           ),
           children: [
@@ -1098,11 +1098,11 @@
               children: [
                 (0, i.jsx)("div", {
                   className:
-                    "absolute left-1/4 top-1/4 w-96 h-96 bg-[#F4991A]/5 rounded-full blur-3xl",
+                    "absolute left-1/4 top-1/4 w-96 h-96 bg-[#5D5DE9]/5 rounded-full blur-3xl",
                 }),
                 (0, i.jsx)("div", {
                   className:
-                    "absolute right-1/4 bottom-1/4 w-80 h-80 bg-[#344F1F]/5 rounded-full blur-3xl",
+                    "absolute right-1/4 bottom-1/4 w-80 h-80 bg-[#2C3340]/5 rounded-full blur-3xl",
                 }),
               ],
             }),
@@ -1126,22 +1126,22 @@
                         "div",
                         {
                           className:
-                            "rounded-[24px] border-2 border-[#344F1F]/10 bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[#F4991A]/20",
+                            "rounded-[24px] border-2 border-[#2C3340]/10 bg-white/80 backdrop-blur-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[#5D5DE9]/20",
                           children: [
                             (0, i.jsxs)("button", {
                               className:
-                                "w-full text-left p-4 sm:p-6 flex items-center justify-between group focus:outline-none focus:ring-2 focus:ring-[#F4991A]/20 focus:ring-inset rounded-[24px]",
+                                "w-full text-left p-4 sm:p-6 flex items-center justify-between group focus:outline-none focus:ring-2 focus:ring-[#5D5DE9]/20 focus:ring-inset rounded-[24px]",
                               onClick: () => m(s === t ? null : t),
                               "aria-expanded": s === t,
                               children: [
                                 (0, i.jsx)("h3", {
                                   className:
-                                    "text-base sm:text-lg font-semibold pr-4 sm:pr-8 text-[#344F1F] group-hover:text-[#F4991A] transition-colors",
+                                    "text-base sm:text-lg font-semibold pr-4 sm:pr-8 text-[#2C3340] group-hover:text-[#5D5DE9] transition-colors",
                                   children: e.question,
                                 }),
                                 (0, i.jsx)(r.A, {
                                   className: (0, d.cn)(
-                                    "h-5 w-5 text-[#344F1F]/70 transition-transform duration-300 flex-shrink-0",
+                                    "h-5 w-5 text-[#2C3340]/70 transition-transform duration-300 flex-shrink-0",
                                     s === t && "rotate-180",
                                   ),
                                 }),
@@ -1158,10 +1158,10 @@
                                 className: "px-4 sm:px-6 pb-4 sm:pb-6",
                                 children: (0, i.jsx)("div", {
                                   className:
-                                    "border-t border-[#344F1F]/10 pt-3 sm:pt-4",
+                                    "border-t border-[#2C3340]/10 pt-3 sm:pt-4",
                                   children: (0, i.jsx)("p", {
                                     className:
-                                      "text-xs sm:text-sm md:text-base text-[#344F1F]/80 leading-relaxed",
+                                      "text-xs sm:text-sm md:text-base text-[#2C3340]/80 leading-relaxed",
                                     children: e.answer,
                                   }),
                                 }),
@@ -1178,7 +1178,7 @@
                   className: "text-center mt-12",
                   children: [
                     (0, i.jsx)("p", {
-                      className: "text-[#344F1F]/70 mb-4 font-medium",
+                      className: "text-[#2C3340]/70 mb-4 font-medium",
                       children:
                         "Ready to start your Ausbildung journey? Create your free account today",
                     }),
@@ -1189,7 +1189,7 @@
                         (0, i.jsxs)("a", {
                           href: "/auth?signup",
                           className:
-                            "inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 rounded-full bg-[#F4991A] text-white text-sm sm:text-base font-semibold hover:bg-[#E5890F] hover:shadow-lg transition-all duration-300",
+                            "inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 rounded-full bg-[#5D5DE9] text-white text-sm sm:text-base font-semibold hover:bg-[#2C3340] hover:shadow-lg transition-all duration-300",
                           children: [
                             (0, i.jsx)(l.A, { className: "h-4 w-4 mr-2" }),
                             "Get Started Free",
@@ -1198,7 +1198,7 @@
                         (0, i.jsx)("a", {
                           href: "/ausbildung-faq",
                           className:
-                            "inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 rounded-full border-2 border-[#F4991A]/30 bg-[#F4991A]/5 text-[#F4991A] text-sm sm:text-base font-semibold hover:bg-[#F4991A]/10 transition-all duration-300",
+                            "inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 rounded-full border-2 border-[#5D5DE9]/30 bg-[#5D5DE9]/5 text-[#5D5DE9] text-sm sm:text-base font-semibold hover:bg-[#5D5DE9]/10 transition-all duration-300",
                           children: "View All FAQs",
                         }),
                       ],

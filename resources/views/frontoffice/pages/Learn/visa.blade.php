@@ -1,33 +1,33 @@
-﻿@extends('frontoffice.layouts.app')
+@extends('frontoffice.layouts.app')
 
-@section('title', 'Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing | Azubi')
+@section('title', 'Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing | Azubi')
 
 @section('meta')
     <meta name="description"
-        content="Complete Ausbildung visa guide: â‚¬75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside." />
+        content="Complete Ausbildung visa guide: €75 fee, 8-12 week processing, azubi-required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside." />
     <meta name="keywords"
         content="ausbildung visa germany,german visa vocational training,visa application germany,d visa germany,ausbildung visa requirements,blocked account germany" />
     <meta name="pinterest:pinnable" content="true" />
     <meta name="pinterest:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <meta name="linkedin:image" content="https://images.azubi.ma/og-images/default-og.png" />
     <link rel="canonical" href="{{ route('front.visa') }}" />
-    <meta property="og:title" content="Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing" />
+    <meta property="og:title" content="Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing" />
     <meta property="og:description"
-        content="Complete Ausbildung visa guide: â‚¬75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside." />
+        content="Complete Ausbildung visa guide: €75 fee, 8-12 week processing, azubi-required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside." />
     <meta property="og:url" content="https://azubi.ma/visa" />
     <meta property="og:site_name" content="Azubi" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:image" content="https://images.azubi.ma/og-images/visa.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing" />
+    <meta property="og:image:alt" content="Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@Azubi" />
     <meta name="twitter:creator" content="@Azubi" />
-    <meta name="twitter:title" content="Ausbildung Visa Germany 2026: â‚¬75 Fee, 8-12 Weeks Processing" />
+    <meta name="twitter:title" content="Ausbildung Visa Germany 2026: €75 Fee, 8-12 Weeks Processing" />
     <meta name="twitter:description"
-        content="Complete Ausbildung visa guide: â‚¬75 fee, 8-12 week processing, required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside." />
+        content="Complete Ausbildung visa guide: €75 fee, 8-12 week processing, azubi-required documents checklist, embassy interview tips, and blocked account alternatives. Free document checklist inside." />
     <meta name="twitter:image" content="https://images.azubi.ma/og-images/default-og.png" />
 @endsection
 
@@ -48,7 +48,7 @@
                 color: transparent;
               "
                 sizes="100vw" src="{{ asset('assets/_next/bavarian-alps-hero-autumn9804.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0"></div>
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
                 background:
@@ -101,7 +101,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="Check Documents" href="#"><span
                                 aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -223,7 +223,7 @@
                                         <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                         <path d="m9 11 3 3L22 4"></path>
                                     </svg><span>Applied for at the local Foreigners&#x27; Office
-                                        (AuslÃ¤nderbehÃ¶rde)</span>
+                                        (Ausländerbehörde)</span>
                                 </li>
                                 <li class="flex items-start gap-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -349,7 +349,7 @@
                                 <p class="text-muted-foreground">
                                     Upon arrival, register your address (Anmeldung) and
                                     apply for your residence permit at the local
-                                    Foreigners&#x27; Office (AuslÃ¤nderbehÃ¶rde) within 90
+                                    Foreigners&#x27; Office (Ausländerbehörde) within 90
                                     days.
                                 </p>
                             </div>
@@ -506,9 +506,9 @@
                                         class="lucide lucide-circle-check-big h-5 w-5 text-green-500 shrink-0 mt-0.5">
                                         <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                         <path d="m9 11 3 3L22 4"></path>
-                                    </svg><span>Proof of blocked account (Sperrkonto) with â‚¬11,904
+                                    </svg><span>Proof of blocked account (Sperrkonto) with €11,904
                                         (only if your Ausbildung stipend is less than
-                                        â‚¬992/month)</span>
+                                        €992/month)</span>
                                 </li>
                                 <li class="flex items-start gap-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -518,7 +518,7 @@
                                         <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                                         <path d="m9 11 3 3L22 4"></path>
                                     </svg><span>Proof of visa application fee payment (approximately
-                                        â‚¬75)</span>
+                                        €75)</span>
                                 </li>
                                 <li class="flex items-start gap-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -604,7 +604,7 @@
                                 Within 2 weeks of arrival, register your address at the
                                 local Residents&#x27; Registration Office
                                 (Einwohnermeldeamt). You&#x27;ll need your passport, visa,
-                                and a landlord confirmation (WohnungsgeberbestÃ¤tigung).
+                                and a landlord confirmation (Wohnungsgeberbestätigung).
                             </p>
                         </div>
                         <div class="bg-secondary border border-primary/10 rounded-lg p-4">
@@ -623,7 +623,7 @@
                             </h3>
                             <p class="text-sm text-white/90">
                                 Within 90 days, visit the local Foreigners&#x27; Office
-                                (AuslÃ¤nderbehÃ¶rde) to convert your visa into a residence
+                                (Ausländerbehörde) to convert your visa into a residence
                                 permit. Bring your passport, visa, address registration,
                                 Ausbildung contract, biometric photos, and proof of health
                                 insurance.
@@ -662,7 +662,7 @@
                             </h3>
                             <p class="text-sm text-white/90">
                                 You&#x27;ll automatically receive a tax ID by mail after
-                                registering your address. This is required for your
+                                registering your address. This is azubi-required for your
                                 employer to process your salary payments correctly.
                             </p>
                         </div>
@@ -676,10 +676,10 @@
                     Common Visa Questions
                 </h2>
                 <div class="bg-card border border-primary/10 rounded-xl" data-orientation="vertical">
-                    <div data-state="closed" data-orientation="vertical" class="border-b border-beige">
+                    <div data-state="closed" data-orientation="vertical" class="border-b azubi-border-beige">
                         <h3 data-orientation="vertical" data-state="closed" class="flex">
-                            <button type="button" aria-controls="radix-Â«R2duslbÂ»" aria-expanded="false"
-                                data-state="closed" data-orientation="vertical" id="radix-Â«RduslbÂ»"
+                            <button type="button" aria-controls="radix-«R2duslb»" aria-expanded="false"
+                                data-state="closed" data-orientation="vertical" id="radix-«Rduslb»"
                                 class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                                 data-radix-collection-item="">
                                 How long does the visa application process take?<svg xmlns="http://www.w3.org/2000/svg"
@@ -691,8 +691,8 @@
                                 </svg>
                             </button>
                         </h3>
-                        <div data-state="closed" id="radix-Â«R2duslbÂ»" hidden="" role="region"
-                            aria-labelledby="radix-Â«RduslbÂ»" data-orientation="vertical"
+                        <div data-state="closed" id="radix-«R2duslb»" hidden="" role="region"
+                            aria-labelledby="radix-«Rduslb»" data-orientation="vertical"
                             class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                             style="
                       --radix-accordion-content-height: var(
@@ -715,10 +715,10 @@
                             </div>
                         </div>
                     </div>
-                    <div data-state="closed" data-orientation="vertical" class="border-b border-beige">
+                    <div data-state="closed" data-orientation="vertical" class="border-b azubi-border-beige">
                         <h3 data-orientation="vertical" data-state="closed" class="flex">
-                            <button type="button" aria-controls="radix-Â«R2luslbÂ»" aria-expanded="false"
-                                data-state="closed" data-orientation="vertical" id="radix-Â«RluslbÂ»"
+                            <button type="button" aria-controls="radix-«R2luslb»" aria-expanded="false"
+                                data-state="closed" data-orientation="vertical" id="radix-«Rluslb»"
                                 class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                                 data-radix-collection-item="">
                                 Do I need to speak German for the visa interview?<svg xmlns="http://www.w3.org/2000/svg"
@@ -730,8 +730,8 @@
                                 </svg>
                             </button>
                         </h3>
-                        <div data-state="closed" id="radix-Â«R2luslbÂ»" hidden="" role="region"
-                            aria-labelledby="radix-Â«RluslbÂ»" data-orientation="vertical"
+                        <div data-state="closed" id="radix-«R2luslb»" hidden="" role="region"
+                            aria-labelledby="radix-«Rluslb»" data-orientation="vertical"
                             class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                             style="
                       --radix-accordion-content-height: var(
@@ -754,10 +754,10 @@
                             </div>
                         </div>
                     </div>
-                    <div data-state="closed" data-orientation="vertical" class="border-b border-beige">
+                    <div data-state="closed" data-orientation="vertical" class="border-b azubi-border-beige">
                         <h3 data-orientation="vertical" data-state="closed" class="flex">
-                            <button type="button" aria-controls="radix-Â«R2tuslbÂ»" aria-expanded="false"
-                                data-state="closed" data-orientation="vertical" id="radix-Â«RtuslbÂ»"
+                            <button type="button" aria-controls="radix-«R2tuslb»" aria-expanded="false"
+                                data-state="closed" data-orientation="vertical" id="radix-«Rtuslb»"
                                 class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                                 data-radix-collection-item="">
                                 What is a blocked account (Sperrkonto) and why do I need
@@ -769,8 +769,8 @@
                                 </svg>
                             </button>
                         </h3>
-                        <div data-state="closed" id="radix-Â«R2tuslbÂ»" hidden="" role="region"
-                            aria-labelledby="radix-Â«RtuslbÂ»" data-orientation="vertical"
+                        <div data-state="closed" id="radix-«R2tuslb»" hidden="" role="region"
+                            aria-labelledby="radix-«Rtuslb»" data-orientation="vertical"
                             class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                             style="
                       --radix-accordion-content-height: var(
@@ -793,10 +793,10 @@
                             </div>
                         </div>
                     </div>
-                    <div data-state="closed" data-orientation="vertical" class="border-b border-beige">
+                    <div data-state="closed" data-orientation="vertical" class="border-b azubi-border-beige">
                         <h3 data-orientation="vertical" data-state="closed" class="flex">
-                            <button type="button" aria-controls="radix-Â«R35uslbÂ»" aria-expanded="false"
-                                data-state="closed" data-orientation="vertical" id="radix-Â«R15uslbÂ»"
+                            <button type="button" aria-controls="radix-«R35uslb»" aria-expanded="false"
+                                data-state="closed" data-orientation="vertical" id="radix-«R15uslb»"
                                 class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                                 data-radix-collection-item="">
                                 Can my visa be rejected and why?<svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -807,8 +807,8 @@
                                 </svg>
                             </button>
                         </h3>
-                        <div data-state="closed" id="radix-Â«R35uslbÂ»" hidden="" role="region"
-                            aria-labelledby="radix-Â«R15uslbÂ»" data-orientation="vertical"
+                        <div data-state="closed" id="radix-«R35uslb»" hidden="" role="region"
+                            aria-labelledby="radix-«R15uslb»" data-orientation="vertical"
                             class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                             style="
                       --radix-accordion-content-height: var(
@@ -831,10 +831,10 @@
                             </div>
                         </div>
                     </div>
-                    <div data-state="closed" data-orientation="vertical" class="border-b border-beige">
+                    <div data-state="closed" data-orientation="vertical" class="border-b azubi-border-beige">
                         <h3 data-orientation="vertical" data-state="closed" class="flex">
-                            <button type="button" aria-controls="radix-Â«R3duslbÂ»" aria-expanded="false"
-                                data-state="closed" data-orientation="vertical" id="radix-Â«R1duslbÂ»"
+                            <button type="button" aria-controls="radix-«R3duslb»" aria-expanded="false"
+                                data-state="closed" data-orientation="vertical" id="radix-«R1duslb»"
                                 class="flex flex-1 items-center justify-between py-4 text-sm font-semibold text-foreground transition-all duration-200 hover:text-primary [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]]:text-primary px-6"
                                 data-radix-collection-item="">
                                 Can I bring my family with me on an Ausbildung visa?<svg xmlns="http://www.w3.org/2000/svg"
@@ -846,8 +846,8 @@
                                 </svg>
                             </button>
                         </h3>
-                        <div data-state="closed" id="radix-Â«R3duslbÂ»" hidden="" role="region"
-                            aria-labelledby="radix-Â«R1duslbÂ»" data-orientation="vertical"
+                        <div data-state="closed" id="radix-«R3duslb»" hidden="" role="region"
+                            aria-labelledby="radix-«R1duslb»" data-orientation="vertical"
                             class="overflow-hidden text-sm text-muted-foreground transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down px-6"
                             style="
                       --radix-accordion-content-height: var(
@@ -876,12 +876,12 @@
         </section>
         <section class="py-16 bg-background">
             <div class="container px-4 md:px-6">
-                <section class="relative py-12 overflow-hidden bg-[#F9F5F0]">
+                <section class="relative py-12 overflow-hidden bg-[#F7F8FA]">
                     <div class="container relative z-10 mx-auto px-4">
                         <div class="max-w-7xl mx-auto">
                             <div class="relative">
                                 <div
-                                    class="text-card-foreground shadow relative bg-[#F4991A] border-2 border-[#F4991A] overflow-hidden rounded-[24px]">
+                                    class="text-card-foreground shadow relative bg-[#5D5DE9] border-2 border-[#5D5DE9] overflow-hidden rounded-[24px]">
                                     <div class="relative p-4 sm:p-6 lg:p-8">
                                         <div class="block lg:hidden space-y-6">
                                             <div class="text-center">
@@ -907,7 +907,7 @@
                                                 </h3>
                                                 <p class="text-sm text-white/90 mb-4 font-medium">
                                                     EXCLUSIVE: How Germany systematically recruits
-                                                    international talent - â‚¬47B crisis revealed!
+                                                    international talent - €47B crisis revealed!
                                                 </p>
                                                 <div class="flex items-center justify-center gap-4 text-xs mb-4">
                                                     <div class="flex items-center gap-1">
@@ -969,13 +969,13 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <div class="bg-white rounded-[24px] border-2 border-[#F4991A]/30 p-4">
+                                                <div class="bg-white rounded-[24px] border-2 border-[#5D5DE9]/30 p-4">
                                                     <div class="space-y-2 mb-4">
-                                                        <h4 class="text-base font-bold text-[#344F1F]">
+                                                        <h4 class="text-base font-bold text-[#2C3340]">
                                                             Get Your Exclusive Analysis
                                                         </h4>
                                                         <div
-                                                            class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#F4991A] bg-[#F4991A]/10 text-[#F4991A] text-xs font-bold rounded-full">
+                                                            class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#5D5DE9] bg-[#5D5DE9]/10 text-[#5D5DE9] text-xs font-bold rounded-full">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
@@ -989,20 +989,20 @@
                                                     <form class="space-y-3">
                                                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                                             <input
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                placeholder="First Name *" required=""
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                placeholder="First Name *" azubi-required=""
                                                                 value="" /><input
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                placeholder="Last Name *" required=""
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                placeholder="Last Name *" azubi-required=""
                                                                 value="" />
                                                         </div>
                                                         <input type="email"
-                                                            class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                            placeholder="Your Email Address *" required=""
+                                                            class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                            placeholder="Your Email Address *" azubi-required=""
                                                             value="" />
                                                         <div class="grid grid-cols-1 gap-3">
-                                                            <select name="german_level" required
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]">
+                                                            <select name="german_level" azubi-required
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]">
                                                                 <option value="">German Level *</option>
                                                                 <option value="none">No German yet</option>
                                                                 <option value="a1">A1</option>
@@ -1010,8 +1010,8 @@
                                                                 <option value="b1">B1</option>
                                                                 <option value="b2_or_higher">B2 or higher</option>
                                                             </select>
-                                                            <select name="field_of_interest" required
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]">
+                                                            <select name="field_of_interest" azubi-required
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]">
                                                                 <option value="">Field of Interest *</option>
                                                                 <option value="healthcare_nursing">Healthcare &amp; Nursing
                                                                 </option>
@@ -1021,15 +1021,15 @@
                                                                 <option value="hospitality">Hospitality</option>
                                                                 <option value="logistics">Logistics</option>
                                                             </select>
-                                                            <select name="current_country" required
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-10 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]">
+                                                            <select name="current_country" azubi-required
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-10 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]">
                                                                 <option value="">Current Country *</option>
                                                                 <option value="morocco">Morocco</option>
                                                                 <option value="germany">Germany</option>
                                                             </select>
                                                         </div>
                                                         <button
-                                                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-12 bg-[#F4991A] hover:bg-[#E5890F] text-white font-bold text-sm rounded-full transition-all duration-300"
+                                                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-12 bg-[#5D5DE9] hover:bg-[#2C3340] text-white font-bold text-sm rounded-full transition-all duration-300"
                                                             type="submit">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
@@ -1051,13 +1051,13 @@
                                                             </svg>
                                                         </button>
                                                         <div
-                                                            class="flex items-center justify-center gap-4 text-xs text-[#344F1F]/70 pt-1">
+                                                            class="flex items-center justify-center gap-4 text-xs text-[#2C3340]/70 pt-1">
                                                             <div class="flex items-center gap-1">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                     height="24" viewBox="0 0 24 24" fill="none"
                                                                     stroke="currentColor" stroke-width="2"
                                                                     stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="lucide lucide-shield w-3 h-3 text-[#344F1F]">
+                                                                    class="lucide lucide-shield w-3 h-3 text-[#2C3340]">
                                                                     <path
                                                                         d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
                                                                     </path>
@@ -1068,7 +1068,7 @@
                                                                     height="24" viewBox="0 0 24 24" fill="none"
                                                                     stroke="currentColor" stroke-width="2"
                                                                     stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="lucide lucide-zap w-3 h-3 text-[#F4991A]">
+                                                                    class="lucide lucide-zap w-3 h-3 text-[#5D5DE9]">
                                                                     <path
                                                                         d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
                                                                     </path>
@@ -1112,7 +1112,7 @@
                                                     </h3>
                                                     <p class="text-sm text-white/90 font-medium">
                                                         EXCLUSIVE: How Germany systematically recruits
-                                                        international talent - â‚¬47B crisis revealed!
+                                                        international talent - €47B crisis revealed!
                                                     </p>
                                                     <div class="flex items-center gap-4 text-xs">
                                                         <div class="flex items-center gap-1">
@@ -1174,13 +1174,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="lg:col-span-5">
-                                                    <div class="bg-white rounded-[24px] border-2 border-[#F4991A]/30 p-4">
+                                                    <div class="bg-white rounded-[24px] border-2 border-[#5D5DE9]/30 p-4">
                                                         <div class="space-y-3 mb-4">
-                                                            <h4 class="text-lg font-bold text-[#344F1F]">
+                                                            <h4 class="text-lg font-bold text-[#2C3340]">
                                                                 Get Your Exclusive Analysis
                                                             </h4>
                                                             <div
-                                                                class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#F4991A] bg-[#F4991A]/10 text-[#F4991A] text-xs font-bold rounded-full">
+                                                                class="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#5D5DE9] bg-[#5D5DE9]/10 text-[#5D5DE9] text-xs font-bold rounded-full">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                     height="24" viewBox="0 0 24 24" fill="none"
                                                                     stroke="currentColor" stroke-width="2"
@@ -1194,28 +1194,28 @@
                                                         <form class="space-y-3">
                                                             <div class="grid grid-cols-2 gap-2">
                                                                 <input
-                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                    placeholder="First Name *" required=""
+                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                    placeholder="First Name *" azubi-required=""
                                                                     value="" /><input
-                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                    placeholder="Last Name *" required=""
+                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                    placeholder="Last Name *" azubi-required=""
                                                                     value="" />
                                                             </div>
                                                             <input type="email"
-                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]"
-                                                                placeholder="Your Email Address *" required=""
+                                                                class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]"
+                                                                placeholder="Your Email Address *" azubi-required=""
                                                                 value="" />
                                                             <div class="grid grid-cols-3 gap-2">
-                                                                <select name="german_level" required
-                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]">
+                                                                <select name="german_level" azubi-required
+                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]">
                                                                     <option value="">German Level *</option>
                                                                     <option value="a1">A1</option>
                                                                     <option value="a2">A2</option>
                                                                     <option value="b1">B1</option>
                                                                     <option value="b2_or_higher">B2+</option>
                                                                 </select>
-                                                                <select name="field" required
-                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]">
+                                                                <select name="field" azubi-required
+                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]">
                                                                     <option value="">Field *</option>
                                                                     <option value="healthcare">Healthcare</option>
                                                                     <option value="it">IT</option>
@@ -1223,15 +1223,15 @@
                                                                     <option value="sales">Sales</option>
                                                                     <option value="hospitality">Hospitality</option>
                                                                 </select>
-                                                                <select name="country" required
-                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#344F1F]/20 h-9 text-[#344F1F] text-sm rounded-[12px] focus:border-[#F4991A]">
+                                                                <select name="country" azubi-required
+                                                                    class="flex w-full px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 bg-white/90 border-2 border-[#2C3340]/20 h-9 text-[#2C3340] text-sm rounded-[12px] focus:border-[#5D5DE9]">
                                                                     <option value="">Country *</option>
                                                                     <option value="morocco">Morocco</option>
                                                                     <option value="germany">Germany</option>
                                                                 </select>
                                                             </div>
                                                             <button
-                                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-10 bg-[#F4991A] hover:bg-[#E5890F] text-white font-bold text-sm rounded-full transition-all duration-300"
+                                                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-6 w-full h-10 bg-[#5D5DE9] hover:bg-[#2C3340] text-white font-bold text-sm rounded-full transition-all duration-300"
                                                                 type="submit">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                     height="24" viewBox="0 0 24 24" fill="none"
@@ -1254,14 +1254,14 @@
                                                                 </svg>
                                                             </button>
                                                             <div
-                                                                class="flex items-center justify-center gap-4 text-xs text-[#344F1F]/70 pt-1">
+                                                                class="flex items-center justify-center gap-4 text-xs text-[#2C3340]/70 pt-1">
                                                                 <div class="flex items-center gap-1">
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                                         width="24" height="24"
                                                                         viewBox="0 0 24 24" fill="none"
                                                                         stroke="currentColor" stroke-width="2"
                                                                         stroke-linecap="round" stroke-linejoin="round"
-                                                                        class="lucide lucide-shield w-3 h-3 text-[#344F1F]">
+                                                                        class="lucide lucide-shield w-3 h-3 text-[#2C3340]">
                                                                         <path
                                                                             d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
                                                                         </path>
@@ -1273,7 +1273,7 @@
                                                                         viewBox="0 0 24 24" fill="none"
                                                                         stroke="currentColor" stroke-width="2"
                                                                         stroke-linecap="round" stroke-linejoin="round"
-                                                                        class="lucide lucide-zap w-3 h-3 text-[#F4991A]">
+                                                                        class="lucide lucide-zap w-3 h-3 text-[#5D5DE9]">
                                                                         <path
                                                                             d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
                                                                         </path>
@@ -1309,7 +1309,7 @@
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
                     src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="
                   background:
@@ -1351,7 +1351,7 @@
                             <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                                 60K+ Jobs</a><a href="#"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Check
                                 Eligibility</a>
                         </div>
                     </div>

@@ -53,17 +53,17 @@
                         children: [
                           (0, r.jsxs)("h2", {
                             className:
-                              "text-2xl sm:text-3xl font-bold text-[#344F1F] mb-1 flex items-center gap-3",
+                              "text-2xl sm:text-3xl font-bold text-[#2C3340] mb-1 flex items-center gap-3",
                             children: [
                               (0, r.jsx)(o.A, {
                                 className:
-                                  "h-7 w-7 sm:h-8 sm:w-8 text-[#F4991A]",
+                                  "h-7 w-7 sm:h-8 sm:w-8 text-[#5D5DE9]",
                               }),
                               "Videos",
                             ],
                           }),
                           (0, r.jsxs)("p", {
-                            className: "text-[#344F1F]/70 text-sm sm:text-base",
+                            className: "text-[#2C3340]/70 text-sm sm:text-base",
                             children: [
                               "Learn more about ",
                               d,
@@ -78,7 +78,7 @@
                           target: "_blank",
                           rel: "noopener noreferrer",
                           className:
-                            "inline-flex items-center gap-2 px-4 py-2 bg-[#344F1F] text-white rounded-full text-sm font-medium hover:bg-[#344F1F]/90 transition-colors",
+                            "inline-flex items-center gap-2 px-4 py-2 bg-[#2C3340] text-white rounded-full text-sm font-medium hover:bg-[#2C3340]/90 transition-colors",
                           children: [
                             (0, r.jsx)(o.A, { className: "h-4 w-4" }),
                             "YouTube Channel",
@@ -102,12 +102,12 @@
                       i.Zp,
                       {
                         className:
-                          "border-[#F2EAD3]/60 rounded-xl bg-white overflow-hidden hover:shadow-lg transition-all group cursor-pointer",
+                          "border-[#EEF0F4]/60 rounded-xl bg-white overflow-hidden hover:shadow-lg transition-all group cursor-pointer",
                         onClick: () => u(t),
                         children: (0, r.jsx)(i.Wu, {
                           className: "p-0",
                           children: (0, r.jsxs)("div", {
-                            className: "relative aspect-video bg-[#F2EAD3]",
+                            className: "relative aspect-video bg-[#EEF0F4]",
                             children: [
                               (0, r.jsx)("img", {
                                 src: "https://img.youtube.com/vi/".concat(
@@ -123,7 +123,7 @@
                                   "absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors",
                                 children: (0, r.jsx)("div", {
                                   className:
-                                    "w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#F4991A] flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform",
+                                    "w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#5D5DE9] flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform",
                                   children: (0, r.jsx)(n.A, {
                                     className:
                                       "h-6 w-6 sm:h-7 sm:w-7 text-white fill-white ml-1",

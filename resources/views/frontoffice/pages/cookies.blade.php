@@ -19,13 +19,13 @@
 @endsection
 
 @section('content')
-    <main class="min-h-screen py-16 md:py-24" style="background-color: #f9f5f0">
+    <main class="min-h-screen py-16 md:py-24" style="background-color: #F7F8FA">
         <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-3xl">
             <div class="mb-12 text-center space-y-4">
-                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #344f1f">
+                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #2C3340">
                     Cookie Policy
                 </h1>
-                <p class="text-lg" style="color: rgba(52, 79, 31, 0.7)">
+                <p class="text-lg" style="color: rgba(44, 51, 64, 0.7)">
                     How we use cookies and tracking technologies
                 </p>
             </div>
@@ -33,11 +33,11 @@
                 style="
                 background-color: #ffffff;
                 box-shadow:
-                  0 4px 8px rgba(52, 79, 31, 0.08),
-                  0 2px 4px rgba(52, 79, 31, 0.04);
+                  0 4px 8px rgba(44, 51, 64, 0.08),
+                  0 2px 4px rgba(44, 51, 64, 0.04);
               ">
-                <div class="legal-prose">
-                    <p class="text-lg" style="color: rgba(52, 79, 31, 0.8)">
+                <div class="azubi-legal-prose">
+                    <p class="text-lg" style="color: rgba(44, 51, 64, 0.8)">
                         <strong>Effective Date:</strong> January 1, 2026<br /><strong>Last Updated:</strong>
                         January 1, 2026
                     </p>
@@ -239,7 +239,7 @@
                     <h2>6. Detailed Cookie List</h2>
                     <div
                         style="
-                    background-color: #f9f5f0;
+                    background-color: #F7F8FA;
                     padding: 1.5rem;
                     border-radius: 12px;
                     margin-top: 1rem;
@@ -253,7 +253,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Cookie Name
                                     </th>
@@ -261,7 +261,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Provider
                                     </th>
@@ -269,7 +269,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Purpose
                                     </th>
@@ -277,7 +277,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Duration
                                     </th>
@@ -288,28 +288,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         sb-access-token
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Supabase
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Authentication
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         7 days
                                     </td>
@@ -318,28 +318,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         sb-refresh-token
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Supabase
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Session refresh
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         30 days
                                     </td>
@@ -348,28 +348,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         __cf_bm
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Cloudflare
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Bot management
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         30 minutes
                                     </td>
@@ -385,7 +385,7 @@
                     </div>
                     <div
                         style="
-                    background-color: #f9f5f0;
+                    background-color: #F7F8FA;
                     padding: 1.5rem;
                     border-radius: 12px;
                     margin-bottom: 1.5rem;
@@ -398,7 +398,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Cookie Name
                                     </th>
@@ -406,7 +406,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Provider
                                     </th>
@@ -414,7 +414,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Purpose
                                     </th>
@@ -422,7 +422,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Duration
                                     </th>
@@ -433,28 +433,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         _ga
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Google Analytics
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         User identification
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         2 years
                                     </td>
@@ -463,28 +463,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         _gid
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Google Analytics
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         User identification
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         24 hours
                                     </td>
@@ -500,7 +500,7 @@
                     </div>
                     <div
                         style="
-                    background-color: #f9f5f0;
+                    background-color: #F7F8FA;
                     padding: 1.5rem;
                     border-radius: 12px;
                     margin-bottom: 1.5rem;
@@ -513,7 +513,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Cookie Name
                                     </th>
@@ -521,7 +521,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Provider
                                     </th>
@@ -529,7 +529,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Purpose
                                     </th>
@@ -537,7 +537,7 @@
                                         style="
                             text-align: left;
                             padding: 0.5rem;
-                            border-bottom: 2px solid #344f1f;
+                            border-bottom: 2px solid #2C3340;
                           ">
                                         Duration
                                     </th>
@@ -548,28 +548,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         _fbp
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Facebook
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Browser identification
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         3 months
                                     </td>
@@ -578,28 +578,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         fr
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Facebook
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Ad delivery and targeting
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         3 months
                                     </td>
@@ -608,28 +608,28 @@
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         IDE
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Google Ads
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         Ad personalization
                                     </td>
                                     <td
                                         style="
                             padding: 0.5rem;
-                            border-bottom: 1px solid #f2ead3;
+                            border-bottom: 1px solid #EEF0F4;
                           ">
                                         13 months
                                     </td>
@@ -779,7 +779,7 @@
                         <li>
                             Notify you via email or prominent notice on our Platform
                         </li>
-                        <li>Request your consent again if required by law</li>
+                        <li>Request your consent again if azubi-required by law</li>
                     </ul>
                     <p>
                         We encourage you to review this Cookie Policy periodically to
@@ -792,7 +792,7 @@
                     </p>
                     <div
                         style="
-                    background-color: #f2ead3;
+                    background-color: #EEF0F4;
                     padding: 1.5rem;
                     border-radius: 12px;
                     margin-top: 1rem;
@@ -815,10 +815,10 @@
                     </div>
                     <div
                         style="
-                    border-top: 2px solid #f2ead3;
+                    border-top: 2px solid #EEF0F4;
                     margin-top: 3rem;
                     padding-top: 2rem;
-                    color: rgba(52, 79, 31, 0.7);
+                    color: rgba(44, 51, 64, 0.7);
                     font-size: 0.875rem;
                   ">
                         <p>

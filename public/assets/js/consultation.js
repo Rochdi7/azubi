@@ -8,24 +8,24 @@
     ready(function() {
         var stepsContainer = document.getElementById('how-it-works-steps');
         if (!stepsContainer) return;
-        var steps = stepsContainer.querySelectorAll('.hiw-step');
-        var cards = document.querySelectorAll('.hiw-card');
+        var steps = stepsContainer.querySelectorAll('.azubi-hiw-step');
+        var cards = document.querySelectorAll('.azubi-hiw-card');
         if (!steps.length) return;
 
         function setHIW(n) {
             steps.forEach(function(c) {
-                c.classList.toggle('hiw-step--active', c.getAttribute('data-step') === String(
+                c.classList.toggle('azubi-hiw-step--active', c.getAttribute('data-step') === String(
                     n));
             });
             cards.forEach(function(c) {
                 var match = c.getAttribute('data-hiw-card') === String(n);
-                c.classList.toggle('hiw-card--visible', match);
-                c.classList.toggle('hiw-card--hidden', !match);
+                c.classList.toggle('azubi-hiw-card--visible', match);
+                c.classList.toggle('azubi-hiw-card--hidden', !match);
             });
         }
         cards.forEach(function(c) {
-            c.classList.add(c.getAttribute('data-hiw-card') === '1' ? 'hiw-card--visible' :
-                'hiw-card--hidden');
+            c.classList.add(c.getAttribute('data-hiw-card') === '1' ? 'azubi-hiw-card--visible' :
+                'azubi-hiw-card--hidden');
         });
         steps.forEach(function(c) {
             c.addEventListener('mouseenter', function() {
@@ -38,18 +38,18 @@
     ready(function() {
         var section = document.querySelector('[data-dash-section]');
         if (!section) return;
-        var cards = section.querySelectorAll('.dash-card');
-        var visuals = section.querySelectorAll('.dash-visual');
+        var cards = section.querySelectorAll('.azubi-dash-card');
+        var visuals = section.querySelectorAll('.azubi-dash-visual');
 
         function setDash(n) {
             cards.forEach(function(c) {
-                c.classList.toggle('dash-card--active', c.getAttribute('data-dash') === String(
+                c.classList.toggle('azubi-dash-card--active', c.getAttribute('data-dash') === String(
                     n));
             });
             visuals.forEach(function(v) {
                 var match = v.getAttribute('data-dash-visual') === String(n);
-                v.classList.toggle('dash-visual--visible', match);
-                v.classList.toggle('dash-visual--hidden', !match);
+                v.classList.toggle('azubi-dash-visual--visible', match);
+                v.classList.toggle('azubi-dash-visual--hidden', !match);
             });
         }
         setDash(1);
@@ -68,7 +68,7 @@
 
         articles.forEach(function(article) {
             var btn = article.querySelector('button');
-            var content = article.querySelector('.faq-content');
+            var content = article.querySelector('.azubi-faq-content');
             if (!btn || !content) return;
 
             btn.addEventListener('click', function() {
@@ -77,22 +77,22 @@
                 // Close all
                 articles.forEach(function(a) {
                     var b = a.querySelector('button');
-                    var c = a.querySelector('.faq-content');
-                    var chevron = a.querySelector('.faq-chevron');
+                    var c = a.querySelector('.azubi-faq-content');
+                    var chevron = a.querySelector('.azubi-faq-chevron');
                     if (b) b.setAttribute('aria-expanded', 'false');
                     if (c) {
                         c.style.height = '0px';
                         c.style.opacity = '0';
                     }
-                    a.classList.remove('border-[#F4991A]/50', 'bg-[#F4991A]/5');
-                    a.classList.add('border-[#F2EAD3]', 'bg-white');
+                    a.classList.remove('border-[#5D5DE9]/50', 'bg-[#5D5DE9]/5');
+                    a.classList.add('border-[#EEF0F4]', 'bg-white');
                     if (chevron) {
-                        chevron.classList.remove('rotate-180', 'bg-[#F4991A]');
-                        chevron.classList.add('bg-[#F9F5F0]');
+                        chevron.classList.remove('rotate-180', 'bg-[#5D5DE9]');
+                        chevron.classList.add('bg-[#F7F8FA]');
                         var svg = chevron.querySelector('svg');
                         if (svg) {
                             svg.classList.remove('text-white');
-                            svg.classList.add('text-[#344F1F]');
+                            svg.classList.add('text-[#2C3340]');
                         }
                     }
                 });
@@ -102,16 +102,16 @@
                     btn.setAttribute('aria-expanded', 'true');
                     content.style.height = content.scrollHeight + 'px';
                     content.style.opacity = '1';
-                    article.classList.add('border-[#F4991A]/50', 'bg-[#F4991A]/5');
-                    article.classList.remove('border-[#F2EAD3]', 'bg-white');
-                    var chevron = article.querySelector('.faq-chevron');
+                    article.classList.add('border-[#5D5DE9]/50', 'bg-[#5D5DE9]/5');
+                    article.classList.remove('border-[#EEF0F4]', 'bg-white');
+                    var chevron = article.querySelector('.azubi-faq-chevron');
                     if (chevron) {
-                        chevron.classList.add('rotate-180', 'bg-[#F4991A]');
-                        chevron.classList.remove('bg-[#F9F5F0]');
+                        chevron.classList.add('rotate-180', 'bg-[#5D5DE9]');
+                        chevron.classList.remove('bg-[#F7F8FA]');
                         var svg = chevron.querySelector('svg');
                         if (svg) {
                             svg.classList.add('text-white');
-                            svg.classList.remove('text-[#344F1F]');
+                            svg.classList.remove('text-[#2C3340]');
                         }
                     }
                 }
@@ -123,11 +123,11 @@
     ready(function() {
         var container = document.getElementById('testimonials-carousel');
         if (!container) return;
-        var track = container.querySelector('.carousel-track');
+        var track = container.querySelector('.azubi-carousel-track');
         var prevBtn = container.closest('section').querySelector(
         '[aria-label="Previous testimonials"]');
         var nextBtn = container.closest('section').querySelector('[aria-label="Next testimonials"]');
-        var dots = container.closest('section').querySelectorAll('.carousel-dot');
+        var dots = container.closest('section').querySelectorAll('.azubi-carousel-dot');
         var currentPage = 0;
         var totalPages = 2;
 
@@ -136,11 +136,11 @@
             track.style.transform = 'translateX(-' + (page * 100) + '%)';
             dots.forEach(function(d, i) {
                 if (i === page) {
-                    d.classList.add('w-6', 'bg-[#F4991A]');
-                    d.classList.remove('w-2', 'bg-[#F2EAD3]');
+                    d.classList.add('w-6', 'bg-[#5D5DE9]');
+                    d.classList.remove('w-2', 'bg-[#EEF0F4]');
                 } else {
-                    d.classList.remove('w-6', 'bg-[#F4991A]');
-                    d.classList.add('w-2', 'bg-[#F2EAD3]');
+                    d.classList.remove('w-6', 'bg-[#5D5DE9]');
+                    d.classList.add('w-2', 'bg-[#EEF0F4]');
                 }
             });
         }

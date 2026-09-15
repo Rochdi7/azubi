@@ -19,17 +19,17 @@
         applications.
     </p>
     <div class="grid md:grid-cols-3 gap-6 mb-6">
-        <div class="p-4 rounded-xl bg-cream border border-border">
+        <div class="p-4 rounded-xl azubi-bg-cream border border-border">
             <p class="text-sm text-muted-foreground mb-1">Length</p>
             <p class="text-lg font-semibold text-secondary">
                 2-3 pages maximum
             </p>
         </div>
-        <div class="p-4 rounded-xl bg-cream border border-border">
+        <div class="p-4 rounded-xl azubi-bg-cream border border-border">
             <p class="text-sm text-muted-foreground mb-1">Photo</p>
-            <p class="text-lg font-semibold text-orange">Required</p>
+            <p class="text-lg font-semibold azubi-text-orange">Required</p>
         </div>
-        <div class="p-4 rounded-xl bg-cream border border-border">
+        <div class="p-4 rounded-xl azubi-bg-cream border border-border">
             <p class="text-sm text-muted-foreground mb-1">Format</p>
             <p class="text-lg font-semibold text-secondary">
                 DIN 5008
@@ -41,9 +41,9 @@
             Required Sections (in order):
         </h3>
         <div class="grid md:grid-cols-2 gap-4">
-            <div class="flex items-center gap-3 p-4 rounded-xl bg-cream">
+            <div class="flex items-center gap-3 p-4 rounded-xl azubi-bg-cream">
                 <span
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-beige text-orange font-semibold text-sm">1</span>
+                    class="flex items-center justify-center w-8 h-8 rounded-full azubi-bg-beige azubi-text-orange font-semibold text-sm">1</span>
                 <div>
                     <p class="font-medium text-secondary text-sm">
                         Professional Photo
@@ -53,9 +53,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 p-4 rounded-xl bg-cream">
+            <div class="flex items-center gap-3 p-4 rounded-xl azubi-bg-cream">
                 <span
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-beige text-orange font-semibold text-sm">2</span>
+                    class="flex items-center justify-center w-8 h-8 rounded-full azubi-bg-beige azubi-text-orange font-semibold text-sm">2</span>
                 <div>
                     <p class="font-medium text-secondary text-sm">
                         Personal Information
@@ -65,9 +65,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 p-4 rounded-xl bg-cream">
+            <div class="flex items-center gap-3 p-4 rounded-xl azubi-bg-cream">
                 <span
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-beige text-orange font-semibold text-sm">3</span>
+                    class="flex items-center justify-center w-8 h-8 rounded-full azubi-bg-beige azubi-text-orange font-semibold text-sm">3</span>
                 <div>
                     <p class="font-medium text-secondary text-sm">
                         Work Experience
@@ -77,9 +77,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 p-4 rounded-xl bg-cream">
+            <div class="flex items-center gap-3 p-4 rounded-xl azubi-bg-cream">
                 <span
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-beige text-orange font-semibold text-sm">4</span>
+                    class="flex items-center justify-center w-8 h-8 rounded-full azubi-bg-beige azubi-text-orange font-semibold text-sm">4</span>
                 <div>
                     <p class="font-medium text-secondary text-sm">
                         Education
@@ -89,9 +89,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 p-4 rounded-xl bg-cream">
+            <div class="flex items-center gap-3 p-4 rounded-xl azubi-bg-cream">
                 <span
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-beige text-orange font-semibold text-sm">5</span>
+                    class="flex items-center justify-center w-8 h-8 rounded-full azubi-bg-beige azubi-text-orange font-semibold text-sm">5</span>
                 <div>
                     <p class="font-medium text-secondary text-sm">
                         Skills
@@ -101,9 +101,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 p-4 rounded-xl bg-cream">
+            <div class="flex items-center gap-3 p-4 rounded-xl azubi-bg-cream">
                 <span
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-beige text-orange font-semibold text-sm">6</span>
+                    class="flex items-center justify-center w-8 h-8 rounded-full azubi-bg-beige azubi-text-orange font-semibold text-sm">6</span>
                 <div>
                     <p class="font-medium text-secondary text-sm">
                         Languages
@@ -113,9 +113,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 p-4 rounded-xl bg-cream">
+            <div class="flex items-center gap-3 p-4 rounded-xl azubi-bg-cream">
                 <span
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-beige text-orange font-semibold text-sm">8</span>
+                    class="flex items-center justify-center w-8 h-8 rounded-full azubi-bg-beige azubi-text-orange font-semibold text-sm">8</span>
                 <div>
                     <p class="font-medium text-secondary text-sm">
                         Date and Signature
@@ -144,7 +144,7 @@
                       "
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
                 src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
+            <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
             <div class="absolute inset-0 z-[1] rounded-2xl"
                 style="
                         background:
@@ -186,7 +186,7 @@
                         <a href="{{ route('front.jobs') }}"
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                             Live Positions</a><a href="{{ route('front.consultation') }}"
-                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Build
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Build
                             Your CV</a>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                 <button
                     class="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-muted/50 transition-colors"
                     aria-expanded="false">
-                    <span class="font-semibold text-foreground pr-4">Is a photo required on a German CV?</span><svg
+                    <span class="font-semibold text-foreground pr-4">Is a photo azubi-required on a German CV?</span><svg
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
@@ -212,7 +212,7 @@
                 <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
                     <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Yes, a professional photo (Bewerbungsfoto) is expected
-                        on German CVs, though not legally required. It should
+                        on German CVs, though not legally azubi-required. It should
                         be a high-quality, passport-style photo (4.5 x 6 cm)
                         placed in the top-right corner or header. The photo
                         should show you in professional attire with a neutral
@@ -471,7 +471,7 @@
                     <div class="p-4 md:p-5 pt-0 md:pt-0 text-sm md:text-base text-muted-foreground leading-relaxed">
                         Top 10 mistakes: 1) Omitting professional photo or
                         using casual selfies. 2) Not including birthdate
-                        (required in Germany). 3) Using creative/colorful
+                        (azubi-required in Germany). 3) Using creative/colorful
                         designs instead of conservative DIN 5008 format. 4)
                         Leaving employment gaps unexplained. 5) Using wrong
                         date format (MM/DD/YYYY instead of DD.MM.YYYY). 6)

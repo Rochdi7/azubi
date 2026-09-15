@@ -4,127 +4,127 @@
    ============================================= */
 
 /* === Consultation Page: How It Works Step Cards === */
-.hiw-step {
+.azubi-hiw-step {
     transition: background 300ms ease, box-shadow 300ms ease, transform 300ms ease;
 }
 
-.hiw-step--active {
+.azubi-hiw-step--active {
     background: #fff !important;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1) !important;
     transform: scale(1.02) !important;
 }
 
-.hiw-step:not(.hiw-step--active) {
+.azubi-hiw-step:not(.azubi-hiw-step--active) {
     background: rgba(255, 255, 255, 0.6) !important;
     box-shadow: none !important;
     transform: scale(1) !important;
 }
 
-.hiw-step--active .hiw-badge {
-    background: rgba(244, 153, 26, 0.1) !important;
-    color: #F4991A !important;
-    border: 1px solid rgba(244, 153, 26, 0.2) !important;
+.azubi-hiw-step--active .azubi-hiw-badge {
+    background: rgba(93, 93, 233, 0.1) !important;
+    color: #5D5DE9 !important;
+    border: 1px solid rgba(93, 93, 233, 0.2) !important;
 }
 
-.hiw-step:not(.hiw-step--active) .hiw-badge {
+.azubi-hiw-step:not(.azubi-hiw-step--active) .azubi-hiw-badge {
     background: #e5e7eb !important;
     color: #4b5563 !important;
     border: none !important;
 }
 
-.hiw-step--active .hiw-title {
-    color: #344F1F !important;
+.azubi-hiw-step--active .azubi-hiw-title {
+    color: #2C3340 !important;
 }
 
-.hiw-step:not(.hiw-step--active) .hiw-title {
+.azubi-hiw-step:not(.azubi-hiw-step--active) .azubi-hiw-title {
     color: #374151 !important;
 }
 
-.hiw-step--active .hiw-desc {
-    color: rgba(52, 79, 31, 0.7) !important;
+.azubi-hiw-step--active .azubi-hiw-desc {
+    color: rgba(44, 51, 64, 0.7) !important;
 }
 
-.hiw-step:not(.hiw-step--active) .hiw-desc {
+.azubi-hiw-step:not(.azubi-hiw-step--active) .azubi-hiw-desc {
     color: #6b7280 !important;
 }
 
-.hiw-step--active .hiw-indicator {
+.azubi-hiw-step--active .azubi-hiw-indicator {
     opacity: 1 !important;
 }
 
-.hiw-step:not(.hiw-step--active) .hiw-indicator {
+.azubi-hiw-step:not(.azubi-hiw-step--active) .azubi-hiw-indicator {
     opacity: 0 !important;
 }
 
-.hiw-card {
+.azubi-hiw-card {
     transition: opacity 500ms ease, transform 500ms ease;
 }
 
-.hiw-card--visible {
+.azubi-hiw-card--visible {
     opacity: 1 !important;
     transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(1) !important;
 }
 
-.hiw-card--hidden {
+.azubi-hiw-card--hidden {
     opacity: 0 !important;
     transform: translateX(-38%) translateY(-52%) rotate(4deg) scale(0.85) !important;
     pointer-events: none;
 }
 
 /* === Consultation Page: Dashboard Card Hover === */
-.dash-card {
+.azubi-dash-card {
     transition: background 300ms ease, box-shadow 300ms ease, transform 300ms ease, border-color 300ms ease;
     border: 2px solid transparent;
 }
 
-.dash-card--active {
-    background: #F9F5F0 !important;
+.azubi-dash-card--active {
+    background: #F7F8FA !important;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
     transform: scale(1.02) !important;
-    border-color: rgba(52, 79, 31, 0.2) !important;
+    border-color: rgba(44, 51, 64, 0.2) !important;
 }
 
-.dash-card:not(.dash-card--active) {
+.azubi-dash-card:not(.azubi-dash-card--active) {
     background: #fff !important;
     box-shadow: none !important;
     transform: scale(1) !important;
-    border-color: #F2EAD3 !important;
+    border-color: #EEF0F4 !important;
 }
 
-.dash-card:not(.dash-card--active):hover {
-    background: #F9F5F0 !important;
+.azubi-dash-card:not(.azubi-dash-card--active):hover {
+    background: #F7F8FA !important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
 }
 
-.dash-card--active .dash-icon {
+.azubi-dash-card--active .azubi-dash-icon {
     transform: scale(1.1) !important;
 }
 
-.dash-card:not(.dash-card--active) .dash-icon {
+.azubi-dash-card:not(.azubi-dash-card--active) .azubi-dash-icon {
     transform: scale(1) !important;
 }
 
-.dash-card--active .dash-title {
-    color: #344F1F !important;
+.azubi-dash-card--active .azubi-dash-title {
+    color: #2C3340 !important;
 }
 
-.dash-card:not(.dash-card--active) .dash-title {
+.azubi-dash-card:not(.azubi-dash-card--active) .azubi-dash-title {
     color: #374151 !important;
 }
 
-.dash-card--active .dash-desc {
-    color: rgba(52, 79, 31, 0.7) !important;
+.azubi-dash-card--active .azubi-dash-desc {
+    color: rgba(44, 51, 64, 0.7) !important;
 }
 
-.dash-card:not(.dash-card--active) .dash-desc {
+.azubi-dash-card:not(.azubi-dash-card--active) .azubi-dash-desc {
     color: #6b7280 !important;
 }
 
-.dash-card--active .dash-indicator {
+.azubi-dash-card--active .azubi-dash-indicator {
     opacity: 1 !important;
 }
 
-.dash-card:not(.dash-card--active) .dash-indicator {
+.azubi-dash-card:not(.azubi-dash-card--active) .azubi-dash-indicator {
     opacity: 0 !important;
 }
 
@@ -133,7 +133,7 @@
     position: relative;
 }
 
-.dash-visual {
+.azubi-dash-visual {
     position: absolute;
     inset: 0;
     display: flex;
@@ -143,13 +143,13 @@
     padding: 1rem;
 }
 
-.dash-visual--visible {
+.azubi-dash-visual--visible {
     opacity: 1 !important;
     transform: none !important;
     z-index: 1;
 }
 
-.dash-visual--hidden {
+.azubi-dash-visual--hidden {
     opacity: 0 !important;
     transform: translateY(10px) !important;
     pointer-events: none;
@@ -157,7 +157,7 @@
 }
 
 /* === Consultation Page: FAQ Accordion === */
-.faq-content {
+.azubi-faq-content {
     transition: height 300ms ease, opacity 300ms ease;
 }
 
@@ -172,7 +172,7 @@
     100% { transform: translateX(0); }
 }
 
-.stories-marquee-track:hover {
+.azubi-stories-marquee-track:hover {
     animation-play-state: paused;
 }
 
@@ -208,29 +208,29 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* === Tools: FAQ Chevron Rotation === */
-.faq-chevron.rotated {
+.azubi-faq-chevron.rotated {
     transform: rotate(180deg);
 }
 
 /* === Tools: Living Cost Calculator - Cost Bar === */
-.cost-bar {
+.azubi-cost-bar {
     height: 12px;
     border-radius: 6px;
     transition: width 0.6s ease;
 }
 
 /* === Tools: Document Checklist === */
-.doc-checkbox:checked + .doc-checkmark { display: flex; }
-.doc-checkbox:checked ~ .doc-label { text-decoration: line-through; opacity: 0.6; }
-.category-content { transition: max-height 0.3s ease; }
+.azubi-doc-checkbox:checked + .azubi-doc-checkmark { display: flex; }
+.azubi-doc-checkbox:checked ~ .azubi-doc-label { text-decoration: line-through; opacity: 0.6; }
+.azubi-category-content { transition: max-height 0.3s ease; }
 
 /* === Tools: Career Pathway Decision === */
-.radio-circle.selected {
+.azubi-radio-circle.selected {
     background-color: hsl(var(--primary));
     border-color: hsl(var(--primary));
 }
 
-.radio-circle.selected::after {
+.azubi-radio-circle.selected::after {
     content: '';
     width: 6px;
     height: 6px;
@@ -238,12 +238,12 @@ input[type="range"]::-moz-range-thumb {
     background: white;
 }
 
-.checkbox-box.checked {
+.azubi-checkbox-box.checked {
     background-color: hsl(var(--primary));
     border-color: hsl(var(--primary));
 }
 
-.checkbox-box.checked::after {
+.azubi-checkbox-box.checked::after {
     content: '';
     width: 8px;
     height: 5px;
@@ -253,12 +253,12 @@ input[type="range"]::-moz-range-thumb {
     margin-top: -2px;
 }
 
-.option-selected {
+.azubi-option-selected {
     border-color: hsl(var(--primary)) !important;
     background-color: hsl(var(--primary) / 0.05) !important;
 }
 
-.wizard-step {
+.azubi-wizard-step {
     animation: fadeIn 0.3s ease-out;
 }
 

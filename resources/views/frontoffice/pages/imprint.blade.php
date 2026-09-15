@@ -16,13 +16,13 @@
 @endsection
 
 @section('content')
-    <main class="min-h-screen py-16 md:py-24" style="background-color: #f9f5f0">
+    <main class="min-h-screen py-16 md:py-24" style="background-color: #F7F8FA">
         <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-3xl">
             <div class="mb-12 text-center space-y-4">
-                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #344f1f">
+                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #2C3340">
                     Imprint
                 </h1>
-                <p class="text-lg" style="color: rgba(52, 79, 31, 0.7)">
+                <p class="text-lg" style="color: rgba(44, 51, 64, 0.7)">
                     Legal disclosure and company information
                 </p>
             </div>
@@ -30,11 +30,11 @@
                 style="
                 background-color: #ffffff;
                 box-shadow:
-                  0 4px 8px rgba(52, 79, 31, 0.08),
-                  0 2px 4px rgba(52, 79, 31, 0.04);
+                  0 4px 8px rgba(44, 51, 64, 0.08),
+                  0 2px 4px rgba(44, 51, 64, 0.04);
               ">
-                <div class="legal-prose">
-                    <p class="text-lg" style="color: rgba(52, 79, 31, 0.8)">
+                <div class="azubi-legal-prose">
+                    <p class="text-lg" style="color: rgba(44, 51, 64, 0.8)">
                         <strong>Effective Date:</strong> January 1, 2026<br /><strong>Last Updated:</strong>
                         January 1, 2026
                     </p>
@@ -187,13 +187,13 @@
                     <p>
                         We are willing to participate in dispute resolution
                         proceedings before a consumer arbitration board, where
-                        required by law.
+                        azubi-required by law.
                     </p>
                     <h3>8.2 Consumer Information</h3>
                     <p>
                         We are not obliged and not willing to participate in dispute
                         resolution proceedings before a consumer arbitration board,
-                        except where specifically required by applicable law.
+                        except where specifically azubi-required by applicable law.
                     </p>
                     <h2>9. Intellectual Property Rights</h2>
                     <p>

@@ -1,4 +1,4 @@
-﻿// Convert static Radix combobox exports into native selects (global)
+// Convert static Radix combobox exports into native selects (global)
 (function() {
   function runWhenReady(fn) {
     if (document.readyState === 'loading') {
@@ -161,7 +161,7 @@
   }
 
   function closeAllDropdowns(exceptNode) {
-    document.querySelectorAll('.ga-custom-select.open').forEach(function(node) {
+    document.querySelectorAll('.azubi-ga-custom-select.open').forEach(function(node) {
       if (exceptNode && node === exceptNode) return;
       if (typeof node._gaCloseDropdown === 'function') {
         node._gaCloseDropdown();
@@ -272,37 +272,37 @@
     }
 
     var wrapper = document.createElement('div');
-    wrapper.className = 'ga-custom-select';
-    if (hasSmallHeight(select)) wrapper.classList.add('ga-custom-select--sm');
-    if (hasTallHeight(select)) wrapper.classList.add('ga-custom-select--lg');
+    wrapper.className = 'azubi-ga-custom-select';
+    if (hasSmallHeight(select)) wrapper.classList.add('azubi-ga-custom-select--sm');
+    if (hasTallHeight(select)) wrapper.classList.add('azubi-ga-custom-select--lg');
     var selectName = (select.getAttribute('name') || '').toLowerCase();
     var isWideSelect = selectName === 'field' || selectName === 'field_of_interest';
-    if (isWideSelect) wrapper.classList.add('ga-custom-select--wide');
+    if (isWideSelect) wrapper.classList.add('azubi-ga-custom-select--wide');
 
     select.parentNode.insertBefore(wrapper, select);
     wrapper.appendChild(select);
 
-    select.classList.add('ga-custom-select-native');
+    select.classList.add('azubi-ga-custom-select-native');
     select.dataset.gaCustomSelect = '1';
 
     var trigger = document.createElement('button');
     trigger.type = 'button';
-    trigger.className = 'ga-custom-select-trigger';
+    trigger.className = 'azubi-ga-custom-select-trigger';
     trigger.setAttribute('aria-haspopup', 'listbox');
     trigger.setAttribute('aria-expanded', 'false');
 
     var label = document.createElement('span');
-    label.className = 'ga-custom-select-label';
+    label.className = 'azubi-ga-custom-select-label';
 
     var chevron = document.createElement('span');
-    chevron.className = 'ga-custom-select-chevron';
+    chevron.className = 'azubi-ga-custom-select-chevron';
     chevron.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>';
 
     trigger.appendChild(label);
     trigger.appendChild(chevron);
 
     var menu = document.createElement('div');
-    menu.className = 'ga-custom-select-menu';
+    menu.className = 'azubi-ga-custom-select-menu';
     menu.setAttribute('role', 'listbox');
 
     wrapper.appendChild(trigger);
@@ -319,14 +319,14 @@
     function attachMenuToBody() {
       if (menu.parentElement === document.body) return;
       document.body.appendChild(menu);
-      menu.classList.add('ga-custom-select-menu--portal');
+      menu.classList.add('azubi-ga-custom-select-menu--portal');
     }
 
     function restoreMenuToWrapper() {
       if (menu.parentElement !== wrapper) {
         wrapper.appendChild(menu);
       }
-      menu.classList.remove('ga-custom-select-menu--portal');
+      menu.classList.remove('azubi-ga-custom-select-menu--portal');
       menu.style.left = '';
       menu.style.top = '';
       menu.style.width = '';
@@ -343,7 +343,7 @@
     }
 
     function refreshSelectedState() {
-      menu.querySelectorAll('.ga-custom-select-option').forEach(function(item) {
+      menu.querySelectorAll('.azubi-ga-custom-select-option').forEach(function(item) {
         var isSelected = item.getAttribute('data-value') === select.value;
         item.classList.toggle('is-selected', isSelected);
         item.setAttribute('aria-selected', isSelected ? 'true' : 'false');
@@ -353,7 +353,7 @@
     function buildOptionButton(option, index) {
       var item = document.createElement('button');
       item.type = 'button';
-      item.className = 'ga-custom-select-option';
+      item.className = 'azubi-ga-custom-select-option';
       item.setAttribute('role', 'option');
       item.setAttribute('data-value', option.value);
       item.textContent = option.textContent.trim();
@@ -395,7 +395,7 @@
           var child = children[c];
           if (child.tagName === 'OPTGROUP') {
             var groupHeader = document.createElement('div');
-            groupHeader.className = 'ga-custom-select-group-label';
+            groupHeader.className = 'azubi-ga-custom-select-group-label';
             groupHeader.textContent = child.label || '';
             menu.appendChild(groupHeader);
 
@@ -479,7 +479,7 @@
     getSelectTargets().forEach(buildCustomSelect);
 
     document.addEventListener('click', function(event) {
-      if (!event.target.closest('.ga-custom-select') && !event.target.closest('.ga-custom-select-menu--portal')) {
+      if (!event.target.closest('.azubi-ga-custom-select') && !event.target.closest('.azubi-ga-custom-select-menu--portal')) {
         closeAllDropdowns();
       }
     });

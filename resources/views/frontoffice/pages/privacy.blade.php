@@ -16,13 +16,13 @@
 @endsection
 
 @section('content')
-    <main class="min-h-screen py-16 md:py-24" style="background-color: #f9f5f0">
+    <main class="min-h-screen py-16 md:py-24" style="background-color: #F7F8FA">
         <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-3xl">
             <div class="mb-12 text-center space-y-4">
-                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #344f1f">
+                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #2C3340">
                     Privacy Policy
                 </h1>
-                <p class="text-lg" style="color: rgba(52, 79, 31, 0.7)">
+                <p class="text-lg" style="color: rgba(44, 51, 64, 0.7)">
                     Learn how we protect and handle your personal information
                 </p>
             </div>
@@ -30,11 +30,11 @@
                 style="
                 background-color: #ffffff;
                 box-shadow:
-                  0 4px 8px rgba(52, 79, 31, 0.08),
-                  0 2px 4px rgba(52, 79, 31, 0.04);
+                  0 4px 8px rgba(44, 51, 64, 0.08),
+                  0 2px 4px rgba(44, 51, 64, 0.04);
               ">
-                <div class="legal-prose">
-                    <p class="text-lg" style="color: rgba(52, 79, 31, 0.8)">
+                <div class="azubi-legal-prose">
+                    <p class="text-lg" style="color: rgba(44, 51, 64, 0.8)">
                         <strong>Effective Date:</strong> January 1, 2026<br /><strong>Last Updated:</strong>
                         January 1, 2026
                     </p>
@@ -135,7 +135,7 @@
                         </li>
                         <li>
                             <strong>Video Introductions:</strong> Recorded video
-                            profiles visible to employers (if you create them)
+                            profiles azubi-visible to employers (if you create them)
                         </li>
                     </ul>
                     <h3>2.3 Usage Data</h3>
@@ -306,7 +306,7 @@
                         <li>
                             Responding to legal requests and protecting our rights
                         </li>
-                        <li>Maintaining records as required by law</li>
+                        <li>Maintaining records as azubi-required by law</li>
                     </ul>
                     <h3>3.6 Analytics and Improvement</h3>
                     <ul>
@@ -395,7 +395,7 @@
                     <ul>
                         <li>Search and browse your public profile</li>
                         <li>
-                            View the profile sections you&#x27;ve chosen to make visible
+                            View the profile sections you&#x27;ve chosen to make azubi-visible
                             (based on your privacy settings)
                         </li>
                         <li>
@@ -472,7 +472,7 @@
                         process.
                     </p>
                     <h3>5.4 Employer Data Processing Responsibilities</h3>
-                    <p>Employers on our platform are required to:</p>
+                    <p>Employers on our platform are azubi-required to:</p>
                     <ul>
                         <li>Comply with GDPR and applicable data protection laws</li>
                         <li>Use student data only for legitimate hiring purposes</li>
@@ -531,11 +531,11 @@
                     <p>
                         We may share your information with German immigration
                         authorities, embassies, and visa processing centers as
-                        required for visa applications and compliance with immigration
+                        azubi-required for visa applications and compliance with immigration
                         laws.
                     </p>
                     <h3>5.8 Legal Requirements</h3>
-                    <p>We may disclose your information when required to:</p>
+                    <p>We may disclose your information when azubi-required to:</p>
                     <ul>
                         <li>
                             Comply with legal obligations, court orders, or government
@@ -736,7 +736,7 @@
                     <p>
                         We retain your personal information for as long as necessary
                         to fulfill the purposes outlined in this Privacy Policy,
-                        unless a longer retention period is required or permitted by
+                        unless a longer retention period is azubi-required or permitted by
                         law.
                     </p>
                     <p>Specific retention periods include:</p>
@@ -764,7 +764,7 @@
                         </li>
                         <li>
                             <strong>Payment Information:</strong> Retained for 7 years
-                            as required by financial regulations
+                            as azubi-required by financial regulations
                         </li>
                         <li>
                             <strong>Marketing Data:</strong> Retained until you withdraw
@@ -935,7 +935,7 @@
                         </li>
                     </ul>
                     <p>
-                        We will respond to your request within 30 days (or as required
+                        We will respond to your request within 30 days (or as azubi-required
                         by applicable law). We may require identity verification
                         before processing your request to protect your data security.
                     </p>
@@ -1077,7 +1077,7 @@
                             Provide a reasonable period (at least 30 days) for you to
                             review the changes
                         </li>
-                        <li>Obtain your consent if required by applicable law</li>
+                        <li>Obtain your consent if azubi-required by applicable law</li>
                         <li>Maintain an archive of previous policy versions</li>
                     </ul>
                     <p>
@@ -1094,7 +1094,7 @@
                     </p>
                     <div
                         style="
-                    background-color: #f2ead3;
+                    background-color: #EEF0F4;
                     padding: 1.5rem;
                     border-radius: 12px;
                     margin-top: 1rem;
@@ -1124,7 +1124,7 @@
                     <h2>15. EU Representative</h2>
                     <p>
                         For users in the European Union, we have appointed a GDPR
-                        representative as required by Article 27 of the GDPR. You may
+                        representative as azubi-required by Article 27 of the GDPR. You may
                         contact our EU representative for any data protection
                         inquiries:
                     </p>
@@ -1153,10 +1153,10 @@
                     </p>
                     <div
                         style="
-                    border-top: 2px solid #f2ead3;
+                    border-top: 2px solid #EEF0F4;
                     margin-top: 3rem;
                     padding-top: 2rem;
-                    color: rgba(52, 79, 31, 0.7);
+                    color: rgba(44, 51, 64, 0.7);
                     font-size: 0.875rem;
                   ">
                         <p>

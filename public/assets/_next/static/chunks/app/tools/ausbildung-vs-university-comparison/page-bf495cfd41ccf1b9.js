@@ -832,19 +832,19 @@
                   (0, n.jsx)(H.N, {
                     type: "monotone",
                     dataKey: "ausbildung",
-                    stroke: "#F4991A",
+                    stroke: "#5D5DE9",
                     strokeWidth: 3,
                     name: "Ausbildung",
-                    dot: { fill: "#F4991A", r: 5 },
+                    dot: { fill: "#5D5DE9", r: 5 },
                     activeDot: { r: 7 },
                   }),
                   (0, n.jsx)(H.N, {
                     type: "monotone",
                     dataKey: "university",
-                    stroke: "#344F1F",
+                    stroke: "#2C3340",
                     strokeWidth: 3,
                     name: "University",
-                    dot: { fill: "#344F1F", r: 5 },
+                    dot: { fill: "#2C3340", r: 5 },
                     activeDot: { r: 7 },
                   }),
                 ],
@@ -919,13 +919,13 @@
                   (0, n.jsx)(z.e, { y: 0, stroke: "#6B7280", strokeWidth: 2 }),
                   (0, n.jsx)(V.y, {
                     dataKey: "ausbildung",
-                    fill: "#F4991A",
+                    fill: "#5D5DE9",
                     name: "Ausbildung",
                     radius: [8, 8, 0, 0],
                   }),
                   (0, n.jsx)(V.y, {
                     dataKey: "university",
-                    fill: "#344F1F",
+                    fill: "#2C3340",
                     name: "University",
                     radius: [8, 8, 0, 0],
                   }),
@@ -2414,7 +2414,7 @@
                   className: "flex items-start gap-4",
                   children: [
                     (0, n.jsx)("div", {
-                      className: "p-3 bg-[#344F1F] rounded-xl",
+                      className: "p-3 bg-[#2C3340] rounded-xl",
                       "aria-hidden": "true",
                       children: (0, n.jsx)(y.A, {
                         className: "h-6 w-6 text-cream",
@@ -2466,12 +2466,12 @@
                               className: "p-3 bg-beige rounded-xl",
                               "aria-hidden": "true",
                               children: (0, n.jsx)(h.A, {
-                                className: "h-6 w-6 text-[#F4991A]",
+                                className: "h-6 w-6 text-[#5D5DE9]",
                               }),
                             }),
                             (0, n.jsx)("h2", {
                               className:
-                                "text-2xl font-semibold text-[#344F1F]",
+                                "text-2xl font-semibold text-[#2C3340]",
                               children: "Executive Summary",
                             }),
                           ],
@@ -2488,7 +2488,7 @@
                               }),
                               (0, n.jsx)("h3", {
                                 className:
-                                  "text-3xl font-bold text-[#F4991A] mb-2 capitalize",
+                                  "text-3xl font-bold text-[#5D5DE9] mb-2 capitalize",
                                 children:
                                   "ausbildung" === t.scores.recommendation
                                     ? "Ausbildung (Vocational Training)"
@@ -2526,7 +2526,7 @@
                                     children: [
                                       (0, n.jsx)("span", {
                                         className:
-                                          "flex-shrink-0 w-6 h-6 bg-beige text-[#F4991A] rounded-full flex items-center justify-center text-sm font-semibold",
+                                          "flex-shrink-0 w-6 h-6 bg-beige text-[#5D5DE9] rounded-full flex items-center justify-center text-sm font-semibold",
                                         "aria-hidden": "true",
                                         children: i + 1,
                                       }),
@@ -2573,7 +2573,7 @@
                                 "div",
                                 {
                                   className:
-                                    "text-center p-4 bg-[#F9F5F0] rounded-xl",
+                                    "text-center p-4 bg-[#F7F8FA] rounded-xl",
                                   children: [
                                     (0, n.jsx)("p", {
                                       className:
@@ -2590,7 +2590,7 @@
                                           children: [
                                             (0, n.jsx)("div", {
                                               className:
-                                                "text-lg font-bold text-[#F4991A]",
+                                                "text-lg font-bold text-[#5D5DE9]",
                                               children: a.ausbildung,
                                             }),
                                             (0, n.jsx)("div", {
@@ -2610,7 +2610,7 @@
                                           children: [
                                             (0, n.jsx)("div", {
                                               className:
-                                                "text-lg font-bold text-[#344F1F]",
+                                                "text-lg font-bold text-[#2C3340]",
                                               children: a.university,
                                             }),
                                             (0, n.jsx)("div", {
@@ -2664,7 +2664,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#F4991A] mb-4",
+                                      "font-semibold text-[#5D5DE9] mb-4",
                                     children: "Ausbildung",
                                   }),
                                   (0, n.jsxs)("div", {
@@ -2679,7 +2679,7 @@
                                           }),
                                           (0, n.jsxs)("span", {
                                             className:
-                                              "font-bold text-[#344F1F]",
+                                              "font-bold text-[#2C3340]",
                                             children: [
                                               "€",
                                               t.financial.ausbildung.totalInvestment.toLocaleString(),
@@ -2762,7 +2762,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#344F1F] mb-4",
+                                      "font-semibold text-[#2C3340] mb-4",
                                     children: "University",
                                   }),
                                   (0, n.jsxs)("div", {
@@ -2777,7 +2777,7 @@
                                           }),
                                           (0, n.jsxs)("span", {
                                             className:
-                                              "font-bold text-[#F4991A]",
+                                              "font-bold text-[#5D5DE9]",
                                             children: [
                                               "€",
                                               t.financial.university.totalInvestment.toLocaleString(),
@@ -2873,7 +2873,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#F4991A] mb-3",
+                                      "font-semibold text-[#5D5DE9] mb-3",
                                     children: "Ausbildung Timeline",
                                   }),
                                   (0, n.jsxs)("div", {
@@ -2884,7 +2884,7 @@
                                           "div",
                                           {
                                             className:
-                                              "flex justify-between items-center p-3 bg-[#F9F5F0] rounded-lg",
+                                              "flex justify-between items-center p-3 bg-[#F7F8FA] rounded-lg",
                                             children: [
                                               (0, n.jsx)("span", {
                                                 className: "text-sm",
@@ -2923,7 +2923,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#344F1F] mb-3",
+                                      "font-semibold text-[#2C3340] mb-3",
                                     children: "University Timeline",
                                   }),
                                   (0, n.jsxs)("div", {
@@ -2934,7 +2934,7 @@
                                           "div",
                                           {
                                             className:
-                                              "flex justify-between items-center p-3 bg-[#F9F5F0] rounded-lg",
+                                              "flex justify-between items-center p-3 bg-[#F7F8FA] rounded-lg",
                                             children: [
                                               (0, n.jsx)("span", {
                                                 className: "text-sm",
@@ -3048,7 +3048,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#F4991A] mb-3",
+                                      "font-semibold text-[#5D5DE9] mb-3",
                                     children: "Ausbildung Career Path",
                                   }),
                                   (0, n.jsxs)("div", {
@@ -3116,7 +3116,7 @@
                                               "w-full bg-gray-200 rounded-full h-2",
                                             children: (0, n.jsx)("div", {
                                               className:
-                                                "bg-[#F4991A] h-2 rounded-full",
+                                                "bg-[#5D5DE9] h-2 rounded-full",
                                               style: {
                                                 width: "".concat(
                                                   t.career.ausbildung
@@ -3145,7 +3145,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#344F1F] mb-3",
+                                      "font-semibold text-[#2C3340] mb-3",
                                     children: "University Career Path",
                                   }),
                                   (0, n.jsxs)("div", {
@@ -3213,7 +3213,7 @@
                                               "w-full bg-gray-200 rounded-full h-2",
                                             children: (0, n.jsx)("div", {
                                               className:
-                                                "bg-[#344F1F] h-2 rounded-full",
+                                                "bg-[#2C3340] h-2 rounded-full",
                                               style: {
                                                 width: "".concat(
                                                   t.career.university
@@ -3254,7 +3254,7 @@
                               "bg-beige border-2 border-border rounded-xl p-6",
                             children: [
                               (0, n.jsx)("h4", {
-                                className: "font-semibold text-[#F4991A] mb-4",
+                                className: "font-semibold text-[#5D5DE9] mb-4",
                                 children: "Ausbildung Visa",
                               }),
                               (0, n.jsxs)("div", {
@@ -3317,7 +3317,7 @@
                               "bg-beige border-2 border-border rounded-xl p-6",
                             children: [
                               (0, n.jsx)("h4", {
-                                className: "font-semibold text-[#344F1F] mb-4",
+                                className: "font-semibold text-[#2C3340] mb-4",
                                 children: "University Visa",
                               }),
                               (0, n.jsxs)("div", {
@@ -3387,7 +3387,7 @@
                           (0, n.jsxs)("div", {
                             children: [
                               (0, n.jsx)("h4", {
-                                className: "font-semibold text-[#F4991A] mb-3",
+                                className: "font-semibold text-[#5D5DE9] mb-3",
                                 children: "Ausbildung Lifestyle",
                               }),
                               (0, n.jsx)("div", {
@@ -3435,7 +3435,7 @@
                                             "w-full bg-gray-200 rounded-full h-2",
                                           children: (0, n.jsx)("div", {
                                             className:
-                                              "bg-[#F4991A] h-2 rounded-full",
+                                              "bg-[#5D5DE9] h-2 rounded-full",
                                             style: {
                                               width: "".concat(e.value, "%"),
                                             },
@@ -3452,7 +3452,7 @@
                           (0, n.jsxs)("div", {
                             children: [
                               (0, n.jsx)("h4", {
-                                className: "font-semibold text-[#344F1F] mb-3",
+                                className: "font-semibold text-[#2C3340] mb-3",
                                 children: "University Lifestyle",
                               }),
                               (0, n.jsx)("div", {
@@ -3500,7 +3500,7 @@
                                             "w-full bg-gray-200 rounded-full h-2",
                                           children: (0, n.jsx)("div", {
                                             className:
-                                              "bg-[#344F1F] h-2 rounded-full",
+                                              "bg-[#2C3340] h-2 rounded-full",
                                             style: {
                                               width: "".concat(e.value, "%"),
                                             },
@@ -3528,7 +3528,7 @@
                               "bg-beige border-2 border-border rounded-xl p-6",
                             children: [
                               (0, n.jsx)("h4", {
-                                className: "font-semibold text-[#F4991A] mb-4",
+                                className: "font-semibold text-[#5D5DE9] mb-4",
                                 children: "Ausbildung",
                               }),
                               (0, n.jsx)("p", {
@@ -3544,7 +3544,7 @@
                                     children: [
                                       (0, n.jsxs)("div", {
                                         className:
-                                          "text-2xl font-bold text-[#F4991A]",
+                                          "text-2xl font-bold text-[#5D5DE9]",
                                         children: [
                                           t.learning.ausbildung
                                             .practicalPercent,
@@ -3595,7 +3595,7 @@
                               "bg-beige border-2 border-border rounded-xl p-6",
                             children: [
                               (0, n.jsx)("h4", {
-                                className: "font-semibold text-[#344F1F] mb-4",
+                                className: "font-semibold text-[#2C3340] mb-4",
                                 children: "University",
                               }),
                               (0, n.jsx)("p", {
@@ -3629,7 +3629,7 @@
                                     children: [
                                       (0, n.jsxs)("div", {
                                         className:
-                                          "text-2xl font-bold text-[#344F1F]",
+                                          "text-2xl font-bold text-[#2C3340]",
                                         children: [
                                           t.learning.university
                                             .theoreticalPercent,
@@ -3668,7 +3668,7 @@
                           className: "flex items-center gap-4 mb-6",
                           children: [
                             (0, n.jsx)("div", {
-                              className: "p-3 bg-[#344F1F] rounded-xl",
+                              className: "p-3 bg-[#2C3340] rounded-xl",
                               "aria-hidden": "true",
                               children: (0, n.jsx)(x.A, {
                                 className: "h-6 w-6 text-cream",
@@ -3678,7 +3678,7 @@
                               children: [
                                 (0, n.jsx)("h3", {
                                   className:
-                                    "text-xl font-semibold text-[#344F1F]",
+                                    "text-xl font-semibold text-[#2C3340]",
                                   children: "Your Personalized Action Plan",
                                 }),
                                 (0, n.jsx)("p", {
@@ -3695,7 +3695,7 @@
                             onClick: C,
                             disabled: A,
                             className:
-                              "w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-cream font-semibold py-4 px-6 rounded-full transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed",
+                              "w-full bg-[#2C3340] hover:bg-[#2C3340]/90 text-cream font-semibold py-4 px-6 rounded-full transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed",
                             children: A
                               ? "Generating Your Plan..."
                               : "Generate My Personalized Action Plan",
@@ -3711,7 +3711,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#F4991A] mb-4",
+                                      "font-semibold text-[#5D5DE9] mb-4",
                                     children: "Next 30 Days - Quick Wins",
                                   }),
                                   (0, n.jsx)("div", {
@@ -3725,15 +3725,15 @@
                                               "div",
                                               {
                                                 className:
-                                                  "flex items-start gap-3 p-3 bg-[#F9F5F0] rounded-xl",
+                                                  "flex items-start gap-3 p-3 bg-[#F7F8FA] rounded-xl",
                                                 children: [
                                                   (0, n.jsx)("div", {
                                                     className:
                                                       "mt-0.5 w-2 h-2 rounded-full flex-shrink-0 ".concat(
                                                         "high" === e.priority
-                                                          ? "bg-[#F4991A]"
+                                                          ? "bg-[#5D5DE9]"
                                                           : (e.priority,
-                                                            "bg-[#344F1F]"),
+                                                            "bg-[#2C3340]"),
                                                       ),
                                                     "aria-hidden": "true",
                                                   }),
@@ -3767,7 +3767,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#F4991A] mb-4",
+                                      "font-semibold text-[#5D5DE9] mb-4",
                                     children: "Next 3 Months - Key Milestones",
                                   }),
                                   (0, n.jsx)("div", {
@@ -3782,7 +3782,7 @@
                                               "div",
                                               {
                                                 className:
-                                                  "border-l-4 border-[#344F1F] pl-4",
+                                                  "border-l-4 border-[#2C3340] pl-4",
                                                 children: [
                                                   (0, n.jsxs)("div", {
                                                     className:
@@ -3795,7 +3795,7 @@
                                                       }),
                                                       (0, n.jsx)("span", {
                                                         className:
-                                                          "text-xs text-gray-600 bg-[#F9F5F0] px-2 py-1 rounded-full",
+                                                          "text-xs text-gray-600 bg-[#F7F8FA] px-2 py-1 rounded-full",
                                                         children: e.deadline,
                                                       }),
                                                     ],
@@ -3818,7 +3818,7 @@
                                                                     "span",
                                                                     {
                                                                       className:
-                                                                        "text-[#F4991A] mt-0.5",
+                                                                        "text-[#5D5DE9] mt-0.5",
                                                                       "aria-hidden":
                                                                         "true",
                                                                       children:
@@ -3852,7 +3852,7 @@
                                 children: [
                                   (0, n.jsx)("h4", {
                                     className:
-                                      "font-semibold text-[#F4991A] mb-4",
+                                      "font-semibold text-[#5D5DE9] mb-4",
                                     children: "Next 6-12 Months - Major Goals",
                                   }),
                                   (0, n.jsx)("div", {
@@ -3871,7 +3871,7 @@
                                                 children: [
                                                   (0, n.jsx)("h5", {
                                                     className:
-                                                      "font-semibold text-[#344F1F] mb-3",
+                                                      "font-semibold text-[#2C3340] mb-3",
                                                     children: e.goal,
                                                   }),
                                                   (0, n.jsxs)("div", {
@@ -3896,7 +3896,7 @@
                                                                     "span",
                                                                     {
                                                                       className:
-                                                                        "text-[#344F1F] font-bold",
+                                                                        "text-[#2C3340] font-bold",
                                                                       children:
                                                                         [
                                                                           i + 1,
@@ -3963,7 +3963,7 @@
                                   children: [
                                     (0, n.jsx)("h4", {
                                       className:
-                                        "font-semibold text-[#F4991A] mb-3",
+                                        "font-semibold text-[#5D5DE9] mb-3",
                                       children: "Common Pitfalls to Avoid",
                                     }),
                                     (0, n.jsx)("ul", {
@@ -3977,7 +3977,7 @@
                                             children: [
                                               (0, n.jsx)("span", {
                                                 className:
-                                                  "text-[#F4991A] mt-1",
+                                                  "text-[#5D5DE9] mt-1",
                                                 "aria-hidden": "true",
                                                 children: "•",
                                               }),
@@ -4006,7 +4006,7 @@
                               (0, n.jsx)("button", {
                                 onClick: C,
                                 className:
-                                  "mt-4 bg-[#344F1F] hover:bg-[#344F1F]/90 text-cream font-semibold py-2 px-6 rounded-full transition-colors duration-200",
+                                  "mt-4 bg-[#2C3340] hover:bg-[#2C3340]/90 text-cream font-semibold py-2 px-6 rounded-full transition-colors duration-200",
                                 children: "Try Again",
                               }),
                             ],

@@ -525,7 +525,7 @@
                               children: (0, i.jsx)(l.$, {
                                 size: "default",
                                 className:
-                                  "bg-primary hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-4 sm:px-6 font-semibold text-sm sm:text-base whitespace-nowrap",
+                                  "bg-primary hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-4 sm:px-6 font-semibold text-sm sm:text-base whitespace-nowrap",
                                 children: "Kostenlos starten",
                               }),
                             }),
@@ -615,7 +615,7 @@
                       "relative overflow-hidden rounded-[24px] md:rounded-[32px] max-w-5xl w-full",
                     style: {
                       background:
-                        "linear-gradient(135deg, #F4991A 0%, #E5890F 50%, #F4991A 100%)",
+                        "linear-gradient(135deg, #5D5DE9 0%, #2C3340 50%, #5D5DE9 100%)",
                     },
                     children: [
                       (0, i.jsx)("button", {
@@ -1320,12 +1320,12 @@
               cx: "12",
               cy: "12",
               r: "10",
-              fill: "#344F1F",
+              fill: "#2C3340",
               fillOpacity: "0.1",
             }),
             (0, i.jsx)("path", {
               d: "M8 12.5L10.5 15L16 9.5",
-              stroke: "#344F1F",
+              stroke: "#2C3340",
               strokeWidth: "2",
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -2370,7 +2370,7 @@
                             children: (0, i.jsx)(l.$, {
                               size: "lg",
                               className:
-                                "bg-primary hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-8 h-14 text-base font-semibold hover:-translate-y-1",
+                                "bg-primary hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-8 h-14 text-base font-semibold hover:-translate-y-1",
                               children: "Kostenlos registrieren",
                             }),
                           }),

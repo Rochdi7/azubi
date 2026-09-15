@@ -55,7 +55,7 @@
         };
       function h() {
         return (0, i.jsx)("div", {
-          className: "relative w-full px-4 py-16 md:py-20 bg-[#F2EAD3]",
+          className: "relative w-full px-4 py-16 md:py-20 bg-[#EEF0F4]",
           children: (0, i.jsxs)("div", {
             className: "max-w-7xl mx-auto",
             children: [
@@ -68,12 +68,12 @@
                 children: [
                   (0, i.jsx)("h2", {
                     className:
-                      "text-3xl md:text-4xl lg:text-5xl font-bold text-[#344F1F]",
+                      "text-3xl md:text-4xl lg:text-5xl font-bold text-[#2C3340]",
                     children: "Azubi in Zahlen",
                   }),
                   (0, i.jsx)("p", {
                     className:
-                      "text-lg md:text-xl text-[#344F1F]/70 max-w-2xl mx-auto",
+                      "text-lg md:text-xl text-[#2C3340]/70 max-w-2xl mx-auto",
                     children:
                       "Vertrauen Sie auf eine Plattform, die bereits hunderte Unternehmen erfolgreich unterst\xfctzt",
                   }),
@@ -95,27 +95,27 @@
                       className: "relative group",
                       children: (0, i.jsxs)("div", {
                         className:
-                          "h-full p-6 md:p-8 rounded-2xl bg-white border-2 border-[#344F1F]/10 hover:border-[#F4991A]/30 transition-all duration-300 hover:shadow-lg",
+                          "h-full p-6 md:p-8 rounded-2xl bg-white border-2 border-[#2C3340]/10 hover:border-[#5D5DE9]/30 transition-all duration-300 hover:shadow-lg",
                         children: [
                           (0, i.jsx)("div", {
                             className:
-                              "flex items-center justify-center w-14 h-14 rounded-full bg-[#F4991A]/10 mb-6 group-hover:bg-[#F4991A]/20 transition-colors duration-300",
+                              "flex items-center justify-center w-14 h-14 rounded-full bg-[#5D5DE9]/10 mb-6 group-hover:bg-[#5D5DE9]/20 transition-colors duration-300",
                             children: (0, i.jsx)(t, {
-                              className: "w-7 h-7 text-[#F4991A]",
+                              className: "w-7 h-7 text-[#5D5DE9]",
                             }),
                           }),
                           (0, i.jsx)("div", {
                             className:
-                              "text-4xl md:text-5xl font-bold text-[#344F1F] mb-2",
+                              "text-4xl md:text-5xl font-bold text-[#2C3340] mb-2",
                             children: e.value,
                           }),
                           (0, i.jsx)("div", {
                             className:
-                              "text-lg md:text-xl font-semibold text-[#344F1F] mb-2",
+                              "text-lg md:text-xl font-semibold text-[#2C3340] mb-2",
                             children: e.label,
                           }),
                           (0, i.jsx)("div", {
-                            className: "text-sm md:text-base text-[#344F1F]/60",
+                            className: "text-sm md:text-base text-[#2C3340]/60",
                             children: e.description,
                           }),
                         ],
@@ -133,7 +133,7 @@
                 className: "text-center pt-12",
                 children: (0, i.jsxs)("p", {
                   className:
-                    "text-base md:text-lg text-[#344F1F]/60 max-w-3xl mx-auto",
+                    "text-base md:text-lg text-[#2C3340]/60 max-w-3xl mx-auto",
                   children: [
                     "Zahlen aktualisiert am ",
                     new Date().toLocaleDateString("de-DE", {
@@ -214,12 +214,12 @@
                 children: [
                   (0, i.jsx)("h2", {
                     className:
-                      "text-3xl md:text-4xl lg:text-5xl font-bold text-[#344F1F]",
+                      "text-3xl md:text-4xl lg:text-5xl font-bold text-[#2C3340]",
                     children: "H\xe4ufig gestellte Fragen",
                   }),
                   (0, i.jsx)("p", {
                     className:
-                      "text-lg md:text-xl text-[#344F1F]/70 max-w-2xl mx-auto",
+                      "text-lg md:text-xl text-[#2C3340]/70 max-w-2xl mx-auto",
                     children:
                       "Alles, was Sie \xfcber den Prozess wissen m\xfcssen",
                   }),
@@ -240,16 +240,16 @@
                       {
                         value: "item-".concat(s),
                         className:
-                          "border-2 border-[#344F1F]/10 rounded-2xl px-6 bg-[#F9F5F0] hover:bg-[#F2EAD3] hover:border-[#F4991A]/30 transition-all duration-300",
+                          "border-2 border-[#2C3340]/10 rounded-2xl px-6 bg-[#F7F8FA] hover:bg-[#EEF0F4] hover:border-[#5D5DE9]/30 transition-all duration-300",
                         children: [
                           (0, i.jsx)(l.AccordionTrigger, {
                             className:
-                              "text-left font-semibold text-[#344F1F] hover:text-[#F4991A] hover:no-underline py-5 text-base md:text-lg",
+                              "text-left font-semibold text-[#2C3340] hover:text-[#5D5DE9] hover:no-underline py-5 text-base md:text-lg",
                             children: e.question,
                           }),
                           (0, i.jsx)(l.AccordionContent, {
                             className:
-                              "text-[#344F1F]/70 leading-relaxed pb-5 text-sm md:text-base",
+                              "text-[#2C3340]/70 leading-relaxed pb-5 text-sm md:text-base",
                             children: e.answer,
                           }),
                         ],
@@ -267,15 +267,15 @@
                 className: "text-center pt-12",
                 children: [
                   (0, i.jsx)("p", {
-                    className: "text-base md:text-lg text-[#344F1F]/70 mb-4",
+                    className: "text-base md:text-lg text-[#2C3340]/70 mb-4",
                     children: "Haben Sie weitere Fragen?",
                   }),
                   (0, i.jsx)("a", {
                     href: "/arbeitgeber/kontakt",
                     className:
-                      "inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white hover:bg-[#F2EAD3] transition-all duration-300 border-2 border-[#344F1F]/10 hover:border-[#F4991A]/30",
+                      "inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white hover:bg-[#EEF0F4] transition-all duration-300 border-2 border-[#2C3340]/10 hover:border-[#5D5DE9]/30",
                     children: (0, i.jsx)("span", {
-                      className: "text-base font-semibold text-[#344F1F]",
+                      className: "text-base font-semibold text-[#2C3340]",
                       children: "Kontaktieren Sie uns",
                     }),
                   }),
@@ -398,12 +398,12 @@
                 children: [
                   (0, i.jsx)("h2", {
                     className:
-                      "text-3xl md:text-4xl lg:text-5xl font-bold text-[#344F1F]",
+                      "text-3xl md:text-4xl lg:text-5xl font-bold text-[#2C3340]",
                     children: "Der komplette Prozess im Detail",
                   }),
                   (0, i.jsx)("p", {
                     className:
-                      "text-lg md:text-xl text-[#344F1F]/70 max-w-3xl mx-auto",
+                      "text-lg md:text-xl text-[#2C3340]/70 max-w-3xl mx-auto",
                     children:
                       "Von der Anmeldung bis zur erfolgreichen Einstellung – transparent und unkompliziert",
                   }),
@@ -438,19 +438,19 @@
                                   children: [
                                     (0, i.jsx)("div", {
                                       className:
-                                        "flex items-center justify-center w-12 h-12 rounded-full bg-[#F4991A] text-white font-bold text-xl",
+                                        "flex items-center justify-center w-12 h-12 rounded-full bg-[#5D5DE9] text-white font-bold text-xl",
                                       children: e.stepNumber,
                                     }),
                                     (0, i.jsxs)("div", {
                                       className:
-                                        "flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#F2EAD3]",
+                                        "flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#EEF0F4]",
                                       children: [
                                         (0, i.jsx)(x.A, {
-                                          className: "w-4 h-4 text-[#344F1F]",
+                                          className: "w-4 h-4 text-[#2C3340]",
                                         }),
                                         (0, i.jsx)("span", {
                                           className:
-                                            "text-sm font-medium text-[#344F1F]",
+                                            "text-sm font-medium text-[#2C3340]",
                                           children: e.timeEstimate,
                                         }),
                                       ],
@@ -462,12 +462,12 @@
                                   children: [
                                     (0, i.jsx)("h3", {
                                       className:
-                                        "text-2xl lg:text-3xl font-bold text-[#344F1F]",
+                                        "text-2xl lg:text-3xl font-bold text-[#2C3340]",
                                       children: e.title,
                                     }),
                                     (0, i.jsx)("p", {
                                       className:
-                                        "text-base lg:text-lg text-[#344F1F]/70",
+                                        "text-base lg:text-lg text-[#2C3340]/70",
                                       children: e.description,
                                     }),
                                   ],
@@ -482,11 +482,11 @@
                                         children: [
                                           (0, i.jsx)(m.A, {
                                             className:
-                                              "w-5 h-5 text-[#F4991A] flex-shrink-0 mt-0.5",
+                                              "w-5 h-5 text-[#5D5DE9] flex-shrink-0 mt-0.5",
                                           }),
                                           (0, i.jsx)("span", {
                                             className:
-                                              "text-sm lg:text-base text-[#344F1F]/80",
+                                              "text-sm lg:text-base text-[#2C3340]/80",
                                             children: e,
                                           }),
                                         ],
@@ -505,7 +505,7 @@
                                 className: "relative",
                                 children: (0, i.jsxs)("div", {
                                   className:
-                                    "w-full max-w-[400px] mx-auto rounded-3xl bg-white border-2 border-[#344F1F]/10 p-6 shadow-lg",
+                                    "w-full max-w-[400px] mx-auto rounded-3xl bg-white border-2 border-[#2C3340]/10 p-6 shadow-lg",
                                   children: [
                                     1 === e.stepNumber &&
                                       (0, i.jsxs)("div", {
@@ -517,11 +517,11 @@
                                             children: [
                                               (0, i.jsx)(t, {
                                                 className:
-                                                  "w-10 h-10 text-[#F4991A]",
+                                                  "w-10 h-10 text-[#5D5DE9]",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-lg font-bold text-[#344F1F]",
+                                                  "text-lg font-bold text-[#2C3340]",
                                                 children: "Registrierung",
                                               }),
                                             ],
@@ -533,17 +533,17 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children: "E-Mail-Adresse",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-10 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                      "h-10 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                     children: (0, i.jsx)(
                                                       "div",
                                                       {
                                                         className:
-                                                          "text-sm text-[#344F1F]/40",
+                                                          "text-sm text-[#2C3340]/40",
                                                         children:
                                                           "firma@beispiel.de",
                                                       },
@@ -555,12 +555,12 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children: "Passwort",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-10 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                      "h-10 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                     children: (0, i.jsxs)(
                                                       "div",
                                                       {
@@ -568,19 +568,19 @@
                                                         children: [
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "w-2 h-2 rounded-full bg-[#344F1F]/40",
+                                                              "w-2 h-2 rounded-full bg-[#2C3340]/40",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "w-2 h-2 rounded-full bg-[#344F1F]/40",
+                                                              "w-2 h-2 rounded-full bg-[#2C3340]/40",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "w-2 h-2 rounded-full bg-[#344F1F]/40",
+                                                              "w-2 h-2 rounded-full bg-[#2C3340]/40",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "w-2 h-2 rounded-full bg-[#344F1F]/40",
+                                                              "w-2 h-2 rounded-full bg-[#2C3340]/40",
                                                           }),
                                                         ],
                                                       },
@@ -592,17 +592,17 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children: "Firmenname",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-10 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                      "h-10 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                     children: (0, i.jsx)(
                                                       "div",
                                                       {
                                                         className:
-                                                          "text-sm text-[#344F1F]/40",
+                                                          "text-sm text-[#2C3340]/40",
                                                         children:
                                                           "Musterfirma GmbH",
                                                       },
@@ -614,7 +614,7 @@
                                                 className: "pt-2",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "h-10 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                                    "h-10 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                                   children: (0, i.jsx)("div", {
                                                     className:
                                                       "text-sm font-semibold text-white",
@@ -636,11 +636,11 @@
                                             children: [
                                               (0, i.jsx)(t, {
                                                 className:
-                                                  "w-10 h-10 text-[#F4991A]",
+                                                  "w-10 h-10 text-[#5D5DE9]",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-lg font-bold text-[#344F1F]",
+                                                  "text-lg font-bold text-[#2C3340]",
                                                 children: "Firmenprofil",
                                               }),
                                             ],
@@ -654,15 +654,15 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "w-16 h-16 rounded-xl bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center justify-center",
+                                                      "w-16 h-16 rounded-xl bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center justify-center",
                                                     children: (0, i.jsx)(r.A, {
                                                       className:
-                                                        "w-8 h-8 text-[#F4991A]/40",
+                                                        "w-8 h-8 text-[#5D5DE9]/40",
                                                     }),
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs text-[#F4991A] font-medium",
+                                                      "text-xs text-[#5D5DE9] font-medium",
                                                     children: "Logo hochladen",
                                                   }),
                                                 ],
@@ -671,12 +671,12 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children: "\xdcber uns",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-20 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 p-2",
+                                                      "h-20 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 p-2",
                                                     children: (0, i.jsxs)(
                                                       "div",
                                                       {
@@ -684,15 +684,15 @@
                                                         children: [
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-full rounded bg-[#344F1F]/10",
+                                                              "h-1.5 w-full rounded bg-[#2C3340]/10",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-full rounded bg-[#344F1F]/10",
+                                                              "h-1.5 w-full rounded bg-[#2C3340]/10",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-3/4 rounded bg-[#344F1F]/10",
+                                                              "h-1.5 w-3/4 rounded bg-[#2C3340]/10",
                                                           }),
                                                         ],
                                                       },
@@ -708,12 +708,12 @@
                                                     children: [
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                          "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                         children: "Branche",
                                                       }),
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "h-8 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10",
+                                                          "h-8 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10",
                                                       }),
                                                     ],
                                                   }),
@@ -721,12 +721,12 @@
                                                     children: [
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                          "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                         children: "Gr\xf6\xdfe",
                                                       }),
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "h-8 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10",
+                                                          "h-8 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10",
                                                       }),
                                                     ],
                                                   }),
@@ -746,11 +746,11 @@
                                             children: [
                                               (0, i.jsx)(t, {
                                                 className:
-                                                  "w-10 h-10 text-[#F4991A]",
+                                                  "w-10 h-10 text-[#5D5DE9]",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-lg font-bold text-[#344F1F]",
+                                                  "text-lg font-bold text-[#2C3340]",
                                                 children: "Stellenanzeige",
                                               }),
                                             ],
@@ -762,18 +762,18 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children:
                                                       "Ausbildungsberuf",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-10 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                      "h-10 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                     children: (0, i.jsx)(
                                                       "div",
                                                       {
                                                         className:
-                                                          "text-sm text-[#344F1F]/40",
+                                                          "text-sm text-[#2C3340]/40",
                                                         children:
                                                           "Pflegefachmann/-frau",
                                                       },
@@ -785,13 +785,13 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children:
                                                       "Stellenbeschreibung",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-24 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 p-2",
+                                                      "h-24 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 p-2",
                                                     children: (0, i.jsxs)(
                                                       "div",
                                                       {
@@ -799,19 +799,19 @@
                                                         children: [
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-full rounded bg-[#344F1F]/10",
+                                                              "h-1.5 w-full rounded bg-[#2C3340]/10",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-full rounded bg-[#344F1F]/10",
+                                                              "h-1.5 w-full rounded bg-[#2C3340]/10",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-full rounded bg-[#344F1F]/10",
+                                                              "h-1.5 w-full rounded bg-[#2C3340]/10",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-2/3 rounded bg-[#344F1F]/10",
+                                                              "h-1.5 w-2/3 rounded bg-[#2C3340]/10",
                                                           }),
                                                         ],
                                                       },
@@ -821,11 +821,11 @@
                                               }),
                                               (0, i.jsxs)("div", {
                                                 className:
-                                                  "flex items-center gap-2 text-xs text-[#F4991A]",
+                                                  "flex items-center gap-2 text-xs text-[#5D5DE9]",
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "w-3 h-3 rounded bg-[#F4991A]/20 flex items-center justify-center",
+                                                      "w-3 h-3 rounded bg-[#5D5DE9]/20 flex items-center justify-center",
                                                     children: (0, i.jsx)(
                                                       "div",
                                                       {
@@ -845,7 +845,7 @@
                                                 className: "pt-2",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "h-10 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                                    "h-10 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                                   children: (0, i.jsx)("div", {
                                                     className:
                                                       "text-sm font-semibold text-white",
@@ -872,18 +872,18 @@
                                                 children: [
                                                   (0, i.jsx)(t, {
                                                     className:
-                                                      "w-10 h-10 text-[#F4991A]",
+                                                      "w-10 h-10 text-[#5D5DE9]",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-lg font-bold text-[#344F1F]",
+                                                      "text-lg font-bold text-[#2C3340]",
                                                     children: "Bewerbungen",
                                                   }),
                                                 ],
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "w-6 h-6 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                                  "w-6 h-6 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                                 children: (0, i.jsx)("div", {
                                                   className:
                                                     "text-xs font-bold text-white",
@@ -899,16 +899,16 @@
                                                 "div",
                                                 {
                                                   className:
-                                                    "flex items-center gap-3 p-3 rounded-xl bg-[#F9F5F0] border border-[#344F1F]/10",
+                                                    "flex items-center gap-3 p-3 rounded-xl bg-[#F7F8FA] border border-[#2C3340]/10",
                                                   children: [
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "w-10 h-10 rounded-full bg-[#F4991A]/20 flex items-center justify-center",
+                                                        "w-10 h-10 rounded-full bg-[#5D5DE9]/20 flex items-center justify-center",
                                                       children: (0, i.jsx)(
                                                         c.A,
                                                         {
                                                           className:
-                                                            "w-5 h-5 text-[#F4991A]",
+                                                            "w-5 h-5 text-[#5D5DE9]",
                                                         },
                                                       ),
                                                     }),
@@ -918,17 +918,17 @@
                                                       children: [
                                                         (0, i.jsx)("div", {
                                                           className:
-                                                            "h-2 w-24 rounded bg-[#344F1F]/20",
+                                                            "h-2 w-24 rounded bg-[#2C3340]/20",
                                                         }),
                                                         (0, i.jsx)("div", {
                                                           className:
-                                                            "h-1.5 w-16 rounded bg-[#344F1F]/10",
+                                                            "h-1.5 w-16 rounded bg-[#2C3340]/10",
                                                         }),
                                                       ],
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "text-xs font-medium text-[#F4991A]",
+                                                        "text-xs font-medium text-[#5D5DE9]",
                                                       children: "Neu",
                                                     }),
                                                   ],
@@ -942,19 +942,19 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "flex-1 h-8 rounded-full border-2 border-[#344F1F]/10 flex items-center justify-center",
+                                                  "flex-1 h-8 rounded-full border-2 border-[#2C3340]/10 flex items-center justify-center",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "text-xs font-medium text-[#344F1F]",
+                                                    "text-xs font-medium text-[#2C3340]",
                                                   children: "Filter",
                                                 }),
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "flex-1 h-8 rounded-full bg-[#F4991A]/10 flex items-center justify-center",
+                                                  "flex-1 h-8 rounded-full bg-[#5D5DE9]/10 flex items-center justify-center",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "text-xs font-medium text-[#F4991A]",
+                                                    "text-xs font-medium text-[#5D5DE9]",
                                                   children: "Favoriten",
                                                 }),
                                               }),
@@ -972,11 +972,11 @@
                                             children: [
                                               (0, i.jsx)(t, {
                                                 className:
-                                                  "w-10 h-10 text-[#F4991A]",
+                                                  "w-10 h-10 text-[#5D5DE9]",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-lg font-bold text-[#344F1F]",
+                                                  "text-lg font-bold text-[#2C3340]",
                                                 children: "Kandidaten",
                                               }),
                                             ],
@@ -986,7 +986,7 @@
                                             children: [
                                               (0, i.jsxs)("div", {
                                                 className:
-                                                  "p-4 rounded-xl bg-[#F9F5F0] border-2 border-[#F4991A]/30",
+                                                  "p-4 rounded-xl bg-[#F7F8FA] border-2 border-[#5D5DE9]/30",
                                                 children: [
                                                   (0, i.jsxs)("div", {
                                                     className:
@@ -994,12 +994,12 @@
                                                     children: [
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "w-12 h-12 rounded-full bg-[#F4991A]/20 flex items-center justify-center",
+                                                          "w-12 h-12 rounded-full bg-[#5D5DE9]/20 flex items-center justify-center",
                                                         children: (0, i.jsx)(
                                                           c.A,
                                                           {
                                                             className:
-                                                              "w-6 h-6 text-[#F4991A]",
+                                                              "w-6 h-6 text-[#5D5DE9]",
                                                           },
                                                         ),
                                                       }),
@@ -1008,17 +1008,17 @@
                                                         children: [
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-2 w-32 rounded bg-[#344F1F]/30 mb-1",
+                                                              "h-2 w-32 rounded bg-[#2C3340]/30 mb-1",
                                                           }),
                                                           (0, i.jsx)("div", {
                                                             className:
-                                                              "h-1.5 w-20 rounded bg-[#344F1F]/20",
+                                                              "h-1.5 w-20 rounded bg-[#2C3340]/20",
                                                           }),
                                                         ],
                                                       }),
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "text-xs font-bold text-[#F4991A]",
+                                                          "text-xs font-bold text-[#5D5DE9]",
                                                         children: "★ 4.8",
                                                       }),
                                                     ],
@@ -1028,12 +1028,12 @@
                                                     children: [
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "px-2 py-1 rounded-full bg-white text-xs font-medium text-[#344F1F]",
+                                                          "px-2 py-1 rounded-full bg-white text-xs font-medium text-[#2C3340]",
                                                         children: "B2 Deutsch",
                                                       }),
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "px-2 py-1 rounded-full bg-white text-xs font-medium text-[#344F1F]",
+                                                          "px-2 py-1 rounded-full bg-white text-xs font-medium text-[#2C3340]",
                                                         children: "Verifiziert",
                                                       }),
                                                     ],
@@ -1046,19 +1046,19 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-10 rounded-full border-2 border-[#344F1F]/10 flex items-center justify-center",
+                                                      "h-10 rounded-full border-2 border-[#2C3340]/10 flex items-center justify-center",
                                                     children: (0, i.jsx)(
                                                       "div",
                                                       {
                                                         className:
-                                                          "text-xs font-medium text-[#344F1F]",
+                                                          "text-xs font-medium text-[#2C3340]",
                                                         children: "Chat",
                                                       },
                                                     ),
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-10 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                                      "h-10 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                                     children: (0, i.jsx)(
                                                       "div",
                                                       {
@@ -1076,7 +1076,7 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60",
+                                                      "text-xs font-medium text-[#2C3340]/60",
                                                     children:
                                                       "Visa-Unterst\xfctzung verf\xfcgbar",
                                                   }),
@@ -1095,17 +1095,17 @@
                                                           children: [
                                                             (0, i.jsx)("div", {
                                                               className:
-                                                                "w-3 h-3 rounded-sm bg-[#F4991A]/20 flex items-center justify-center",
+                                                                "w-3 h-3 rounded-sm bg-[#5D5DE9]/20 flex items-center justify-center",
                                                               children: (0,
                                                               i.jsx)("div", {
                                                                 className:
-                                                                  "text-[8px] text-[#F4991A]",
+                                                                  "text-[8px] text-[#5D5DE9]",
                                                                 children: "✓",
                                                               }),
                                                             }),
                                                             (0, i.jsx)("div", {
                                                               className:
-                                                                "text-[10px] text-[#344F1F]/60",
+                                                                "text-[10px] text-[#2C3340]/60",
                                                               children: e,
                                                             }),
                                                           ],
@@ -1134,19 +1134,19 @@
                               children: [
                                 (0, i.jsx)("div", {
                                   className:
-                                    "flex items-center justify-center w-12 h-12 rounded-full bg-[#F4991A] text-white font-bold text-xl",
+                                    "flex items-center justify-center w-12 h-12 rounded-full bg-[#5D5DE9] text-white font-bold text-xl",
                                   children: e.stepNumber,
                                 }),
                                 (0, i.jsxs)("div", {
                                   className:
-                                    "flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#F2EAD3]",
+                                    "flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#EEF0F4]",
                                   children: [
                                     (0, i.jsx)(x.A, {
-                                      className: "w-4 h-4 text-[#344F1F]",
+                                      className: "w-4 h-4 text-[#2C3340]",
                                     }),
                                     (0, i.jsx)("span", {
                                       className:
-                                        "text-sm font-medium text-[#344F1F]",
+                                        "text-sm font-medium text-[#2C3340]",
                                       children: e.timeEstimate,
                                     }),
                                   ],
@@ -1155,7 +1155,7 @@
                             }),
                             (0, i.jsxs)("div", {
                               className:
-                                "w-full rounded-3xl bg-white border-2 border-[#344F1F]/10 p-4 shadow-lg",
+                                "w-full rounded-3xl bg-white border-2 border-[#2C3340]/10 p-4 shadow-lg",
                               children: [
                                 1 === e.stepNumber &&
                                   (0, i.jsxs)("div", {
@@ -1166,11 +1166,11 @@
                                           "flex items-center gap-2 mb-4",
                                         children: [
                                           (0, i.jsx)(t, {
-                                            className: "w-8 h-8 text-[#F4991A]",
+                                            className: "w-8 h-8 text-[#5D5DE9]",
                                           }),
                                           (0, i.jsx)("div", {
                                             className:
-                                              "text-base font-bold text-[#344F1F]",
+                                              "text-base font-bold text-[#2C3340]",
                                             children: "Registrierung",
                                           }),
                                         ],
@@ -1182,15 +1182,15 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                  "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                 children: "E-Mail-Adresse",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-9 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                  "h-9 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "text-xs text-[#344F1F]/40",
+                                                    "text-xs text-[#2C3340]/40",
                                                   children: "firma@beispiel.de",
                                                 }),
                                               }),
@@ -1200,26 +1200,26 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                  "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                 children: "Passwort",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-9 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                  "h-9 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                 children: (0, i.jsxs)("div", {
                                                   className: "flex gap-1",
                                                   children: [
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "w-1.5 h-1.5 rounded-full bg-[#344F1F]/40",
+                                                        "w-1.5 h-1.5 rounded-full bg-[#2C3340]/40",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "w-1.5 h-1.5 rounded-full bg-[#344F1F]/40",
+                                                        "w-1.5 h-1.5 rounded-full bg-[#2C3340]/40",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "w-1.5 h-1.5 rounded-full bg-[#344F1F]/40",
+                                                        "w-1.5 h-1.5 rounded-full bg-[#2C3340]/40",
                                                     }),
                                                   ],
                                                 }),
@@ -1230,15 +1230,15 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                  "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                 children: "Firmenname",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-9 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                  "h-9 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "text-xs text-[#344F1F]/40",
+                                                    "text-xs text-[#2C3340]/40",
                                                   children: "Musterfirma GmbH",
                                                 }),
                                               }),
@@ -1248,7 +1248,7 @@
                                             className: "pt-1",
                                             children: (0, i.jsx)("div", {
                                               className:
-                                                "h-9 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                                "h-9 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                               children: (0, i.jsx)("div", {
                                                 className:
                                                   "text-xs font-semibold text-white",
@@ -1269,11 +1269,11 @@
                                           "flex items-center gap-2 mb-4",
                                         children: [
                                           (0, i.jsx)(t, {
-                                            className: "w-8 h-8 text-[#F4991A]",
+                                            className: "w-8 h-8 text-[#5D5DE9]",
                                           }),
                                           (0, i.jsx)("div", {
                                             className:
-                                              "text-base font-bold text-[#344F1F]",
+                                              "text-base font-bold text-[#2C3340]",
                                             children: "Firmenprofil",
                                           }),
                                         ],
@@ -1287,15 +1287,15 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "w-12 h-12 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center justify-center",
+                                                  "w-12 h-12 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center justify-center",
                                                 children: (0, i.jsx)(r.A, {
                                                   className:
-                                                    "w-6 h-6 text-[#F4991A]/40",
+                                                    "w-6 h-6 text-[#5D5DE9]/40",
                                                 }),
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs text-[#F4991A] font-medium",
+                                                  "text-xs text-[#5D5DE9] font-medium",
                                                 children: "Logo hochladen",
                                               }),
                                             ],
@@ -1304,26 +1304,26 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                  "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                 children: "\xdcber uns",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-16 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 p-2",
+                                                  "h-16 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 p-2",
                                                 children: (0, i.jsxs)("div", {
                                                   className: "space-y-1",
                                                   children: [
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-full rounded bg-[#344F1F]/10",
+                                                        "h-1 w-full rounded bg-[#2C3340]/10",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-full rounded bg-[#344F1F]/10",
+                                                        "h-1 w-full rounded bg-[#2C3340]/10",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-3/4 rounded bg-[#344F1F]/10",
+                                                        "h-1 w-3/4 rounded bg-[#2C3340]/10",
                                                     }),
                                                   ],
                                                 }),
@@ -1337,12 +1337,12 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children: "Branche",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-7 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10",
+                                                      "h-7 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10",
                                                   }),
                                                 ],
                                               }),
@@ -1350,12 +1350,12 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                      "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                     children: "Gr\xf6\xdfe",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "h-7 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10",
+                                                      "h-7 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10",
                                                   }),
                                                 ],
                                               }),
@@ -1374,11 +1374,11 @@
                                           "flex items-center gap-2 mb-4",
                                         children: [
                                           (0, i.jsx)(t, {
-                                            className: "w-8 h-8 text-[#F4991A]",
+                                            className: "w-8 h-8 text-[#5D5DE9]",
                                           }),
                                           (0, i.jsx)("div", {
                                             className:
-                                              "text-base font-bold text-[#344F1F]",
+                                              "text-base font-bold text-[#2C3340]",
                                             children: "Stellenanzeige",
                                           }),
                                         ],
@@ -1390,15 +1390,15 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                  "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                 children: "Ausbildungsberuf",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-9 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 flex items-center px-3",
+                                                  "h-9 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 flex items-center px-3",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "text-xs text-[#344F1F]/40",
+                                                    "text-xs text-[#2C3340]/40",
                                                   children:
                                                     "Pflegefachmann/-frau",
                                                 }),
@@ -1409,30 +1409,30 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs font-medium text-[#344F1F]/60 mb-1",
+                                                  "text-xs font-medium text-[#2C3340]/60 mb-1",
                                                 children: "Stellenbeschreibung",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-20 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10 p-2",
+                                                  "h-20 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10 p-2",
                                                 children: (0, i.jsxs)("div", {
                                                   className: "space-y-1",
                                                   children: [
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-full rounded bg-[#344F1F]/10",
+                                                        "h-1 w-full rounded bg-[#2C3340]/10",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-full rounded bg-[#344F1F]/10",
+                                                        "h-1 w-full rounded bg-[#2C3340]/10",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-full rounded bg-[#344F1F]/10",
+                                                        "h-1 w-full rounded bg-[#2C3340]/10",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-2/3 rounded bg-[#344F1F]/10",
+                                                        "h-1 w-2/3 rounded bg-[#2C3340]/10",
                                                     }),
                                                   ],
                                                 }),
@@ -1441,11 +1441,11 @@
                                           }),
                                           (0, i.jsxs)("div", {
                                             className:
-                                              "flex items-center gap-1 text-xs text-[#F4991A]",
+                                              "flex items-center gap-1 text-xs text-[#5D5DE9]",
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "w-3 h-3 rounded bg-[#F4991A]/20 flex items-center justify-center text-[8px]",
+                                                  "w-3 h-3 rounded bg-[#5D5DE9]/20 flex items-center justify-center text-[8px]",
                                                 children: "✨",
                                               }),
                                               (0, i.jsx)("span", {
@@ -1459,7 +1459,7 @@
                                             className: "pt-1",
                                             children: (0, i.jsx)("div", {
                                               className:
-                                                "h-9 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                                "h-9 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                               children: (0, i.jsx)("div", {
                                                 className:
                                                   "text-xs font-semibold text-white",
@@ -1486,18 +1486,18 @@
                                             children: [
                                               (0, i.jsx)(t, {
                                                 className:
-                                                  "w-8 h-8 text-[#F4991A]",
+                                                  "w-8 h-8 text-[#5D5DE9]",
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-base font-bold text-[#344F1F]",
+                                                  "text-base font-bold text-[#2C3340]",
                                                 children: "Bewerbungen",
                                               }),
                                             ],
                                           }),
                                           (0, i.jsx)("div", {
                                             className:
-                                              "w-5 h-5 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                              "w-5 h-5 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                             children: (0, i.jsx)("div", {
                                               className:
                                                 "text-xs font-bold text-white",
@@ -1513,14 +1513,14 @@
                                             "div",
                                             {
                                               className:
-                                                "flex items-center gap-2 p-2 rounded-lg bg-[#F9F5F0] border border-[#344F1F]/10",
+                                                "flex items-center gap-2 p-2 rounded-lg bg-[#F7F8FA] border border-[#2C3340]/10",
                                               children: [
                                                 (0, i.jsx)("div", {
                                                   className:
-                                                    "w-8 h-8 rounded-full bg-[#F4991A]/20 flex items-center justify-center",
+                                                    "w-8 h-8 rounded-full bg-[#5D5DE9]/20 flex items-center justify-center",
                                                   children: (0, i.jsx)(c.A, {
                                                     className:
-                                                      "w-4 h-4 text-[#F4991A]",
+                                                      "w-4 h-4 text-[#5D5DE9]",
                                                   }),
                                                 }),
                                                 (0, i.jsxs)("div", {
@@ -1528,17 +1528,17 @@
                                                   children: [
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1.5 w-20 rounded bg-[#344F1F]/20",
+                                                        "h-1.5 w-20 rounded bg-[#2C3340]/20",
                                                     }),
                                                     (0, i.jsx)("div", {
                                                       className:
-                                                        "h-1 w-14 rounded bg-[#344F1F]/10",
+                                                        "h-1 w-14 rounded bg-[#2C3340]/10",
                                                     }),
                                                   ],
                                                 }),
                                                 (0, i.jsx)("div", {
                                                   className:
-                                                    "text-[10px] font-medium text-[#F4991A]",
+                                                    "text-[10px] font-medium text-[#5D5DE9]",
                                                   children: "Neu",
                                                 }),
                                               ],
@@ -1552,19 +1552,19 @@
                                         children: [
                                           (0, i.jsx)("div", {
                                             className:
-                                              "flex-1 h-7 rounded-full border-2 border-[#344F1F]/10 flex items-center justify-center",
+                                              "flex-1 h-7 rounded-full border-2 border-[#2C3340]/10 flex items-center justify-center",
                                             children: (0, i.jsx)("div", {
                                               className:
-                                                "text-xs font-medium text-[#344F1F]",
+                                                "text-xs font-medium text-[#2C3340]",
                                               children: "Filter",
                                             }),
                                           }),
                                           (0, i.jsx)("div", {
                                             className:
-                                              "flex-1 h-7 rounded-full bg-[#F4991A]/10 flex items-center justify-center",
+                                              "flex-1 h-7 rounded-full bg-[#5D5DE9]/10 flex items-center justify-center",
                                             children: (0, i.jsx)("div", {
                                               className:
-                                                "text-xs font-medium text-[#F4991A]",
+                                                "text-xs font-medium text-[#5D5DE9]",
                                               children: "Favoriten",
                                             }),
                                           }),
@@ -1581,11 +1581,11 @@
                                           "flex items-center gap-2 mb-4",
                                         children: [
                                           (0, i.jsx)(t, {
-                                            className: "w-8 h-8 text-[#F4991A]",
+                                            className: "w-8 h-8 text-[#5D5DE9]",
                                           }),
                                           (0, i.jsx)("div", {
                                             className:
-                                              "text-base font-bold text-[#344F1F]",
+                                              "text-base font-bold text-[#2C3340]",
                                             children: "Kandidaten",
                                           }),
                                         ],
@@ -1595,7 +1595,7 @@
                                         children: [
                                           (0, i.jsxs)("div", {
                                             className:
-                                              "p-3 rounded-lg bg-[#F9F5F0] border-2 border-[#F4991A]/30",
+                                              "p-3 rounded-lg bg-[#F7F8FA] border-2 border-[#5D5DE9]/30",
                                             children: [
                                               (0, i.jsxs)("div", {
                                                 className:
@@ -1603,10 +1603,10 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "w-10 h-10 rounded-full bg-[#F4991A]/20 flex items-center justify-center",
+                                                      "w-10 h-10 rounded-full bg-[#5D5DE9]/20 flex items-center justify-center",
                                                     children: (0, i.jsx)(c.A, {
                                                       className:
-                                                        "w-5 h-5 text-[#F4991A]",
+                                                        "w-5 h-5 text-[#5D5DE9]",
                                                     }),
                                                   }),
                                                   (0, i.jsxs)("div", {
@@ -1614,17 +1614,17 @@
                                                     children: [
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "h-1.5 w-24 rounded bg-[#344F1F]/30 mb-1",
+                                                          "h-1.5 w-24 rounded bg-[#2C3340]/30 mb-1",
                                                       }),
                                                       (0, i.jsx)("div", {
                                                         className:
-                                                          "h-1 w-16 rounded bg-[#344F1F]/20",
+                                                          "h-1 w-16 rounded bg-[#2C3340]/20",
                                                       }),
                                                     ],
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "text-xs font-bold text-[#F4991A]",
+                                                      "text-xs font-bold text-[#5D5DE9]",
                                                     children: "★ 4.8",
                                                   }),
                                                 ],
@@ -1634,12 +1634,12 @@
                                                 children: [
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "px-2 py-0.5 rounded-full bg-white text-[10px] font-medium text-[#344F1F]",
+                                                      "px-2 py-0.5 rounded-full bg-white text-[10px] font-medium text-[#2C3340]",
                                                     children: "B2 Deutsch",
                                                   }),
                                                   (0, i.jsx)("div", {
                                                     className:
-                                                      "px-2 py-0.5 rounded-full bg-white text-[10px] font-medium text-[#344F1F]",
+                                                      "px-2 py-0.5 rounded-full bg-white text-[10px] font-medium text-[#2C3340]",
                                                     children: "Verifiziert",
                                                   }),
                                                 ],
@@ -1651,16 +1651,16 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-9 rounded-full border-2 border-[#344F1F]/10 flex items-center justify-center",
+                                                  "h-9 rounded-full border-2 border-[#2C3340]/10 flex items-center justify-center",
                                                 children: (0, i.jsx)("div", {
                                                   className:
-                                                    "text-xs font-medium text-[#344F1F]",
+                                                    "text-xs font-medium text-[#2C3340]",
                                                   children: "Chat",
                                                 }),
                                               }),
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "h-9 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                                  "h-9 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                                                 children: (0, i.jsx)("div", {
                                                   className:
                                                     "text-xs font-semibold text-white",
@@ -1674,7 +1674,7 @@
                                             children: [
                                               (0, i.jsx)("div", {
                                                 className:
-                                                  "text-xs font-medium text-[#344F1F]/60",
+                                                  "text-xs font-medium text-[#2C3340]/60",
                                                 children:
                                                   "Visa-Unterst\xfctzung",
                                               }),
@@ -1694,12 +1694,12 @@
                                                       children: [
                                                         (0, i.jsx)("div", {
                                                           className:
-                                                            "w-2.5 h-2.5 rounded-sm bg-[#F4991A]/20 flex items-center justify-center text-[8px] text-[#F4991A]",
+                                                            "w-2.5 h-2.5 rounded-sm bg-[#5D5DE9]/20 flex items-center justify-center text-[8px] text-[#5D5DE9]",
                                                           children: "✓",
                                                         }),
                                                         (0, i.jsx)("div", {
                                                           className:
-                                                            "text-[10px] text-[#344F1F]/60",
+                                                            "text-[10px] text-[#2C3340]/60",
                                                           children: e,
                                                         }),
                                                       ],
@@ -1720,11 +1720,11 @@
                               className: "space-y-3",
                               children: [
                                 (0, i.jsx)("h3", {
-                                  className: "text-xl font-bold text-[#344F1F]",
+                                  className: "text-xl font-bold text-[#2C3340]",
                                   children: e.title,
                                 }),
                                 (0, i.jsx)("p", {
-                                  className: "text-base text-[#344F1F]/70",
+                                  className: "text-base text-[#2C3340]/70",
                                   children: e.description,
                                 }),
                               ],
@@ -1739,10 +1739,10 @@
                                     children: [
                                       (0, i.jsx)(m.A, {
                                         className:
-                                          "w-5 h-5 text-[#F4991A] flex-shrink-0 mt-0.5",
+                                          "w-5 h-5 text-[#5D5DE9] flex-shrink-0 mt-0.5",
                                       }),
                                       (0, i.jsx)("span", {
-                                        className: "text-sm text-[#344F1F]/80",
+                                        className: "text-sm text-[#2C3340]/80",
                                         children: e,
                                       }),
                                     ],
@@ -1756,7 +1756,7 @@
                         s < h.length - 1 &&
                           (0, i.jsx)("div", {
                             className:
-                              "hidden md:block absolute left-1/2 -translate-x-1/2 w-0.5 h-16 bg-[#F4991A]/20 top-full mt-8",
+                              "hidden md:block absolute left-1/2 -translate-x-1/2 w-0.5 h-16 bg-[#5D5DE9]/20 top-full mt-8",
                           }),
                       ],
                     },
@@ -1772,13 +1772,13 @@
                 className: "text-center pt-16",
                 children: [
                   (0, i.jsx)("p", {
-                    className: "text-lg md:text-xl text-[#344F1F]/70 mb-6",
+                    className: "text-lg md:text-xl text-[#2C3340]/70 mb-6",
                     children: "Bereit, loszulegen?",
                   }),
                   (0, i.jsxs)("a", {
                     href: "/arbeitgeber/auth/anmeldung",
                     className:
-                      "inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#F4991A] hover:bg-[#e08915] transition-all duration-300 shadow-lg hover:shadow-xl",
+                      "inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#5D5DE9] hover:bg-[#2C3340] transition-all duration-300 shadow-lg hover:shadow-xl",
                     children: [
                       (0, i.jsx)(l.A, { className: "w-5 h-5 text-white" }),
                       (0, i.jsx)("span", {

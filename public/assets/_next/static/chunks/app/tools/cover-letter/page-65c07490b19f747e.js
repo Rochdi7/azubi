@@ -29,48 +29,48 @@
           };
         return (0, a.jsx)("main", {
           className:
-            "min-h-screen bg-gradient-to-br from-[#F9F5F0] to-[#F2EAD3] flex items-center justify-center py-12 px-4",
+            "min-h-screen bg-gradient-to-br from-[#F7F8FA] to-[#EEF0F4] flex items-center justify-center py-12 px-4",
           children: (0, a.jsxs)("div", {
             className: "max-w-2xl w-full text-center",
             children: [
               (0, a.jsx)("div", {
                 className:
-                  "inline-flex items-center justify-center w-20 h-20 bg-[#F4991A] rounded-full mb-6",
+                  "inline-flex items-center justify-center w-20 h-20 bg-[#5D5DE9] rounded-full mb-6",
                 children: (0, a.jsx)(n.A, {
                   className: "w-10 h-10 text-white",
                 }),
               }),
               (0, a.jsx)("h1", {
-                className: "text-4xl md:text-5xl font-bold text-[#344F1F] mb-4",
+                className: "text-4xl md:text-5xl font-bold text-[#2C3340] mb-4",
                 children: "Free AI Cover Letter Generator",
               }),
               (0, a.jsx)("p", {
-                className: "text-lg text-[#344F1F]/80 mb-8",
+                className: "text-lg text-[#2C3340]/80 mb-8",
                 children:
                   "Generate professional German cover letters in 30 seconds with AI",
               }),
               (0, a.jsxs)("div", {
                 className:
-                  "flex flex-wrap items-center justify-center gap-6 mb-8 text-sm text-[#344F1F]/70",
+                  "flex flex-wrap items-center justify-center gap-6 mb-8 text-sm text-[#2C3340]/70",
                 children: [
                   (0, a.jsxs)("div", {
                     className: "flex items-center gap-2",
                     children: [
-                      (0, a.jsx)(i.A, { className: "w-4 h-4 text-[#F4991A]" }),
+                      (0, a.jsx)(i.A, { className: "w-4 h-4 text-[#5D5DE9]" }),
                       (0, a.jsx)("span", { children: "Smart Generation" }),
                     ],
                   }),
                   (0, a.jsxs)("div", {
                     className: "flex items-center gap-2",
                     children: [
-                      (0, a.jsx)(c.A, { className: "w-4 h-4 text-[#F4991A]" }),
+                      (0, a.jsx)(c.A, { className: "w-4 h-4 text-[#5D5DE9]" }),
                       (0, a.jsx)("span", { children: "Professional Quality" }),
                     ],
                   }),
                   (0, a.jsxs)("div", {
                     className: "flex items-center gap-2",
                     children: [
-                      (0, a.jsx)(x.A, { className: "w-4 h-4 text-[#F4991A]" }),
+                      (0, a.jsx)(x.A, { className: "w-4 h-4 text-[#5D5DE9]" }),
                       (0, a.jsx)("span", { children: "AI-Powered Generation" }),
                     ],
                   }),
@@ -78,14 +78,14 @@
               }),
               (0, a.jsxs)("div", {
                 className:
-                  "bg-white/80 backdrop-blur-sm border-2 border-[#F4991A] rounded-xl p-8 mb-6",
+                  "bg-white/80 backdrop-blur-sm border-2 border-[#5D5DE9] rounded-xl p-8 mb-6",
                 children: [
                   (0, a.jsx)("h2", {
-                    className: "text-2xl font-semibold text-[#344F1F] mb-4",
+                    className: "text-2xl font-semibold text-[#2C3340] mb-4",
                     children: "Generate Your Professional Cover Letter",
                   }),
                   (0, a.jsx)("p", {
-                    className: "text-[#344F1F]/70 mb-6",
+                    className: "text-[#2C3340]/70 mb-6",
                     children:
                       "Create a professional German cover letter (Anschreiben) tailored to your experience and the job you're applying for.",
                   }),
@@ -93,7 +93,7 @@
                     onClick: p,
                     disabled: t,
                     className:
-                      "inline-flex items-center gap-2 bg-[#F4991A] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#e08915] transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
+                      "inline-flex items-center gap-2 bg-[#5D5DE9] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#2C3340] transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
                     children: t
                       ? (0, a.jsxs)(a.Fragment, {
                           children: [
@@ -111,7 +111,7 @@
                         }),
                   }),
                   (0, a.jsx)("p", {
-                    className: "text-sm text-[#344F1F]/60 mt-4",
+                    className: "text-sm text-[#2C3340]/60 mt-4",
                     children:
                       "Free account required • AI-powered • 1 free generation",
                   }),
@@ -121,17 +121,17 @@
                 className: "text-left bg-white/60 rounded-lg p-6 space-y-3",
                 children: [
                   (0, a.jsx)("h3", {
-                    className: "font-semibold text-[#344F1F] mb-3",
+                    className: "font-semibold text-[#2C3340] mb-3",
                     children: "With a free account, you get:",
                   }),
                   (0, a.jsxs)("ul", {
-                    className: "space-y-2 text-sm text-[#344F1F]/70",
+                    className: "space-y-2 text-sm text-[#2C3340]/70",
                     children: [
                       (0, a.jsxs)("li", {
                         className: "flex items-start gap-2",
                         children: [
                           (0, a.jsx)("span", {
-                            className: "text-[#F4991A] mt-0.5",
+                            className: "text-[#5D5DE9] mt-0.5",
                             children: "✓",
                           }),
                           (0, a.jsx)("span", {
@@ -144,7 +144,7 @@
                         className: "flex items-start gap-2",
                         children: [
                           (0, a.jsx)("span", {
-                            className: "text-[#F4991A] mt-0.5",
+                            className: "text-[#5D5DE9] mt-0.5",
                             children: "✓",
                           }),
                           (0, a.jsx)("span", {
@@ -157,7 +157,7 @@
                         className: "flex items-start gap-2",
                         children: [
                           (0, a.jsx)("span", {
-                            className: "text-[#F4991A] mt-0.5",
+                            className: "text-[#5D5DE9] mt-0.5",
                             children: "✓",
                           }),
                           (0, a.jsx)("span", {
@@ -170,7 +170,7 @@
                         className: "flex items-start gap-2",
                         children: [
                           (0, a.jsx)("span", {
-                            className: "text-[#F4991A] mt-0.5",
+                            className: "text-[#5D5DE9] mt-0.5",
                             children: "✓",
                           }),
                           (0, a.jsx)("span", {
@@ -183,7 +183,7 @@
                         className: "flex items-start gap-2",
                         children: [
                           (0, a.jsx)("span", {
-                            className: "text-[#F4991A] mt-0.5",
+                            className: "text-[#5D5DE9] mt-0.5",
                             children: "✓",
                           }),
                           (0, a.jsx)("span", {
@@ -195,7 +195,7 @@
                         className: "flex items-start gap-2",
                         children: [
                           (0, a.jsx)("span", {
-                            className: "text-[#F4991A] mt-0.5",
+                            className: "text-[#5D5DE9] mt-0.5",
                             children: "✓",
                           }),
                           (0, a.jsx)("span", {
@@ -206,15 +206,15 @@
                     ],
                   }),
                   (0, a.jsx)("div", {
-                    className: "pt-4 border-t border-[#344F1F]/10 mt-4",
+                    className: "pt-4 border-t border-[#2C3340]/10 mt-4",
                     children: (0, a.jsxs)("p", {
-                      className: "text-xs text-[#344F1F]/60",
+                      className: "text-xs text-[#2C3340]/60",
                       children: [
                         "Want expert help? ",
                         (0, a.jsx)("a", {
                           href: "/consultation",
                           className:
-                            "text-[#F4991A] hover:underline font-semibold",
+                            "text-[#5D5DE9] hover:underline font-semibold",
                           children: "Apply For Me",
                         }),
                         " - our experts craft native German applications for you",

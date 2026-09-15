@@ -56,7 +56,7 @@
       function m() {
         return (0, t.jsx)("section", {
           className: "py-16 md:py-24",
-          style: { backgroundColor: "#F9F5F0" },
+          style: { backgroundColor: "#F7F8FA" },
           children: (0, t.jsxs)(a.m, {
             size: "lg",
             children: [
@@ -72,15 +72,15 @@
                     (0, t.jsxs)("div", {
                       className:
                         "inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6",
-                      style: { backgroundColor: "#F2EAD3" },
+                      style: { backgroundColor: "#EEF0F4" },
                       children: [
                         (0, t.jsx)(d.A, {
                           className: "w-4 h-4",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                         }),
                         (0, t.jsx)("span", {
                           className: "text-sm font-medium",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Die Herausforderung",
                         }),
                       ],
@@ -88,12 +88,12 @@
                     (0, t.jsx)("h2", {
                       className:
                         "text-3xl md:text-4xl lg:text-5xl font-bold mb-6",
-                      style: { color: "#344F1F" },
+                      style: { color: "#2C3340" },
                       children: "Recruiting ist schwieriger denn je",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-lg md:text-xl leading-relaxed",
-                      style: { color: "#344F1F", opacity: 0.8 },
+                      style: { color: "#2C3340", opacity: 0.8 },
                       children:
                         "Deutsche Unternehmen stehen vor beispiellosen Herausforderungen bei der Suche nach qualifizierten Auszubildenden. Die Fakten sprechen f\xfcr sich.",
                     }),
@@ -121,11 +121,11 @@
                             className:
                               "w-12 h-12 rounded-full flex items-center justify-center mb-4",
                             style: {
-                              backgroundColor: "rgba(244, 153, 26, 0.1)",
+                              backgroundColor: "rgba(93, 93, 233, 0.1)",
                             },
                             children: (0, t.jsx)(i, {
                               className: "w-6 h-6",
-                              style: { color: "#F4991A" },
+                              style: { color: "#5D5DE9" },
                             }),
                           }),
                           (0, t.jsxs)("div", {
@@ -134,19 +134,19 @@
                               (0, t.jsx)("p", {
                                 className:
                                   "text-2xl md:text-3xl font-bold mb-1",
-                                style: { color: "#344F1F" },
+                                style: { color: "#2C3340" },
                                 children: e.stat,
                               }),
                               (0, t.jsx)("p", {
                                 className: "text-sm font-semibold",
-                                style: { color: "#F4991A" },
+                                style: { color: "#5D5DE9" },
                                 children: e.label,
                               }),
                             ],
                           }),
                           (0, t.jsx)("p", {
                             className: "text-sm leading-relaxed",
-                            style: { color: "#344F1F", opacity: 0.8 },
+                            style: { color: "#2C3340", opacity: 0.8 },
                             children: e.description,
                           }),
                         ],
@@ -169,18 +169,18 @@
                   children: [
                     (0, t.jsx)("h3", {
                       className: "text-2xl md:text-3xl font-bold mb-4",
-                      style: { color: "#344F1F" },
+                      style: { color: "#2C3340" },
                       children: "Internationale Talente bleiben unentdeckt",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-lg leading-relaxed mb-6",
-                      style: { color: "#344F1F", opacity: 0.8 },
+                      style: { color: "#2C3340", opacity: 0.8 },
                       children:
                         "W\xe4hrend deutsche Unternehmen h\xe4nderingend nach Auszubildenden suchen, gibt es weltweit tausende motivierte junge Menschen mit Deutschkenntnissen, die eine Ausbildung in Deutschland machen m\xf6chten.",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-lg font-semibold",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                       children:
                         "Das Problem? Diese beiden Seiten finden nicht zueinander.",
                     }),
@@ -232,8 +232,8 @@
               children: (0, t.jsx)(n.Zp, {
                 className: "p-10 md:p-14 text-center rounded-3xl border-0",
                 style: {
-                  backgroundColor: "#F9F5F0",
-                  boxShadow: "0 20px 40px rgba(52, 79, 31, 0.08)",
+                  backgroundColor: "#F7F8FA",
+                  boxShadow: "0 20px 40px rgba(44, 51, 64, 0.08)",
                 },
                 children: (0, t.jsxs)("div", {
                   className: "max-w-3xl mx-auto space-y-8",
@@ -242,17 +242,17 @@
                       className:
                         "inline-flex items-center gap-2 px-4 py-2 rounded-full mx-auto",
                       style: {
-                        backgroundColor: "rgba(244, 153, 26, 0.1)",
-                        border: "1px solid rgba(244, 153, 26, 0.2)",
+                        backgroundColor: "rgba(93, 93, 233, 0.1)",
+                        border: "1px solid rgba(93, 93, 233, 0.2)",
                       },
                       children: [
                         (0, t.jsx)(r.A, {
                           className: "w-4 h-4",
-                          style: { color: "#F4991A" },
+                          style: { color: "#5D5DE9" },
                         }),
                         (0, t.jsx)("span", {
                           className: "text-sm font-medium",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Powered by Innovation",
                         }),
                       ],
@@ -260,12 +260,12 @@
                     (0, t.jsx)("h2", {
                       className:
                         "text-3xl sm:text-4xl font-bold tracking-tight",
-                      style: { color: "#344F1F" },
+                      style: { color: "#2C3340" },
                       children: "Eine Initiative von Azubi",
                     }),
                     (0, t.jsxs)("p", {
                       className: "text-lg leading-relaxed",
-                      style: { color: "#344F1F", opacity: 0.8 },
+                      style: { color: "#2C3340", opacity: 0.8 },
                       children: [
                         "Azubi wird stolz unterst\xfctzt von",
                         " ",
@@ -275,8 +275,8 @@
                           rel: "noopener noreferrer",
                           className: "font-semibold underline decoration-2",
                           style: {
-                            color: "#F4991A",
-                            textDecorationColor: "#F4991A",
+                            color: "#5D5DE9",
+                            textDecorationColor: "#5D5DE9",
                           },
                           children: "Azubi",
                         }),
@@ -288,24 +288,24 @@
                       children: [
                         (0, t.jsxs)("div", {
                           className: "p-8 rounded-2xl text-left",
-                          style: { backgroundColor: "#F2EAD3" },
+                          style: { backgroundColor: "#EEF0F4" },
                           children: [
                             (0, t.jsxs)("div", {
                               className: "flex items-start gap-3 mb-4",
                               children: [
                                 (0, t.jsx)(d.A, {
                                   className: "w-5 h-5 shrink-0 mt-1",
-                                  style: { color: "#F4991A" },
+                                  style: { color: "#5D5DE9" },
                                 }),
                                 (0, t.jsx)("h3", {
                                   className: "text-lg font-semibold",
-                                  style: { color: "#344F1F" },
+                                  style: { color: "#2C3340" },
                                   children: "Marrakech Office",
                                 }),
                               ],
                             }),
                             (0, t.jsxs)("p", {
-                              style: { color: "#344F1F", opacity: 0.8 },
+                              style: { color: "#2C3340", opacity: 0.8 },
                               children: [
                                 "Marrakech",
                                 (0, t.jsx)("br", {}),
@@ -318,24 +318,24 @@
                         }),
                         (0, t.jsxs)("div", {
                           className: "p-8 rounded-2xl text-left",
-                          style: { backgroundColor: "#F2EAD3" },
+                          style: { backgroundColor: "#EEF0F4" },
                           children: [
                             (0, t.jsxs)("div", {
                               className: "flex items-start gap-3 mb-4",
                               children: [
                                 (0, t.jsx)(d.A, {
                                   className: "w-5 h-5 shrink-0 mt-1",
-                                  style: { color: "#F4991A" },
+                                  style: { color: "#5D5DE9" },
                                 }),
                                 (0, t.jsx)("h3", {
                                   className: "text-lg font-semibold",
-                                  style: { color: "#344F1F" },
+                                  style: { color: "#2C3340" },
                                   children: "Rabat Office",
                                 }),
                               ],
                             }),
                             (0, t.jsxs)("p", {
-                              style: { color: "#344F1F", opacity: 0.8 },
+                              style: { color: "#2C3340", opacity: 0.8 },
                               children: [
                                 "Rabat",
                                 (0, t.jsx)("br", {}),
@@ -357,8 +357,8 @@
                         className:
                           "rounded-full px-8 text-base font-medium transition-all hover:shadow-lg",
                         style: {
-                          borderColor: "#344F1F",
-                          color: "#344F1F",
+                          borderColor: "#2C3340",
+                          color: "#2C3340",
                           minHeight: "48px",
                         },
                         children: (0, t.jsxs)(m(), {
@@ -437,29 +437,29 @@
                   className:
                     "inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6",
                   style: {
-                    backgroundColor: "rgba(244, 153, 26, 0.1)",
-                    border: "1px solid rgba(244, 153, 26, 0.2)",
+                    backgroundColor: "rgba(93, 93, 233, 0.1)",
+                    border: "1px solid rgba(93, 93, 233, 0.2)",
                   },
                   children: [
                     (0, t.jsx)(o.A, {
                       className: "w-4 h-4",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                     }),
                     (0, t.jsx)("span", {
                       className: "text-sm font-semibold",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                       children: "Das Dream Team",
                     }),
                   ],
                 }),
                 (0, t.jsx)("h3", {
                   className: "text-3xl md:text-4xl lg:text-5xl font-bold mb-4",
-                  style: { color: "#344F1F" },
+                  style: { color: "#2C3340" },
                   children: "Lernen Sie unser F\xfchrungsteam kennen",
                 }),
                 (0, t.jsx)("p", {
                   className: "text-lg md:text-xl max-w-2xl mx-auto",
-                  style: { color: "#344F1F", opacity: 0.7 },
+                  style: { color: "#2C3340", opacity: 0.7 },
                   children:
                     "Die Vision\xe4re hinter Azubi, die Unternehmen und Talente zusammenbringen",
                 }),
@@ -477,7 +477,7 @@
                     children: (0, t.jsxs)("div", {
                       className:
                         "relative overflow-hidden rounded-2xl shadow-lg",
-                      style: { backgroundColor: "#344F1F" },
+                      style: { backgroundColor: "#2C3340" },
                       children: [
                         (0, t.jsx)("div", {
                           className: "relative aspect-[3/4] overflow-hidden",
@@ -506,7 +506,7 @@
                               children: [
                                 (0, t.jsx)("div", {
                                   className: "h-0.5 w-8",
-                                  style: { backgroundColor: "#F4991A" },
+                                  style: { backgroundColor: "#5D5DE9" },
                                 }),
                                 (0, t.jsx)("p", {
                                   className:
@@ -532,7 +532,7 @@
               className: "text-center",
               children: (0, t.jsx)("p", {
                 className: "text-sm italic",
-                style: { color: "#344F1F", opacity: 0.5 },
+                style: { color: "#2C3340", opacity: 0.5 },
                 children:
                   "Gemeinsam haben wir \xfcber 95 au\xdfergew\xf6hnliche Projekte in 15+ L\xe4ndern geliefert",
               }),
@@ -700,7 +700,7 @@
                         "absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500",
                       style: {
                         background:
-                          "linear-gradient(to bottom right, rgba(244, 153, 26, 0.2), transparent)",
+                          "linear-gradient(to bottom right, rgba(93, 93, 233, 0.2), transparent)",
                       },
                     }),
                     (0, t.jsxs)("div", {
@@ -710,11 +710,11 @@
                       children: [
                         (0, t.jsx)(n.A, {
                           className: "w-4 h-4",
-                          style: { color: "#F4991A" },
+                          style: { color: "#5D5DE9" },
                         }),
                         (0, t.jsx)("span", {
                           className: "text-sm font-semibold",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Award Winners",
                         }),
                       ],
@@ -770,11 +770,11 @@
                       children: [
                         (0, t.jsx)(r.A, {
                           className: "w-4 h-4",
-                          style: { color: "#F4991A" },
+                          style: { color: "#5D5DE9" },
                         }),
                         (0, t.jsx)("span", {
                           className: "text-sm font-semibold",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children: "Team Building",
                         }),
                       ],
@@ -852,12 +852,12 @@
                   children: [
                     (0, t.jsx)("div", {
                       className: "text-3xl md:text-4xl font-bold mb-2",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                       children: "25+",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-sm md:text-base font-medium",
-                      style: { color: "#344F1F", opacity: 0.7 },
+                      style: { color: "#2C3340", opacity: 0.7 },
                       children: "Teammitglieder",
                     }),
                   ],
@@ -868,12 +868,12 @@
                   children: [
                     (0, t.jsx)("div", {
                       className: "text-3xl md:text-4xl font-bold mb-2",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                       children: "3",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-sm md:text-base font-medium",
-                      style: { color: "#344F1F", opacity: 0.7 },
+                      style: { color: "#2C3340", opacity: 0.7 },
                       children: "Globale B\xfcros",
                     }),
                   ],
@@ -884,12 +884,12 @@
                   children: [
                     (0, t.jsx)("div", {
                       className: "text-3xl md:text-4xl font-bold mb-2",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                       children: "95+",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-sm md:text-base font-medium",
-                      style: { color: "#344F1F", opacity: 0.7 },
+                      style: { color: "#2C3340", opacity: 0.7 },
                       children: "Projekte geliefert",
                     }),
                   ],
@@ -900,12 +900,12 @@
                   children: [
                     (0, t.jsx)("div", {
                       className: "text-3xl md:text-4xl font-bold mb-2",
-                      style: { color: "#F4991A" },
+                      style: { color: "#5D5DE9" },
                       children: "15+",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-sm md:text-base font-medium",
-                      style: { color: "#344F1F", opacity: 0.7 },
+                      style: { color: "#2C3340", opacity: 0.7 },
                       children: "L\xe4nder bedient",
                     }),
                   ],
@@ -1003,15 +1003,15 @@
                         (0, t.jsxs)("div", {
                           className:
                             "inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6",
-                          style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                          style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                           children: [
                             (0, t.jsx)(m.A, {
                               className: "w-4 h-4",
-                              style: { color: "#F4991A" },
+                              style: { color: "#5D5DE9" },
                             }),
                             (0, t.jsx)("span", {
                               className: "text-sm font-medium",
-                              style: { color: "#344F1F" },
+                              style: { color: "#2C3340" },
                               children: "Die L\xf6sung",
                             }),
                           ],
@@ -1019,19 +1019,19 @@
                         (0, t.jsx)("h2", {
                           className:
                             "text-3xl md:text-4xl lg:text-5xl font-bold mb-6",
-                          style: { color: "#344F1F" },
+                          style: { color: "#2C3340" },
                           children:
                             "Azubi: Die kostenlose Recruiting-Plattform",
                         }),
                         (0, t.jsx)("p", {
                           className: "text-lg leading-relaxed mb-6",
-                          style: { color: "#344F1F", opacity: 0.8 },
+                          style: { color: "#2C3340", opacity: 0.8 },
                           children:
                             "Wir haben Azubi entwickelt, um die L\xfccke zwischen deutschen Unternehmen und internationalen Talenten zu schlie\xdfen – ohne die hohen Kosten traditioneller Personalvermittlung.",
                         }),
                         (0, t.jsx)("p", {
                           className: "text-lg leading-relaxed mb-8",
-                          style: { color: "#344F1F", opacity: 0.8 },
+                          style: { color: "#2C3340", opacity: 0.8 },
                           children:
                             "Unsere Mission ist es, qualifizierte Auszubildende zug\xe4nglich zu machen – f\xfcr jedes Unternehmen, unabh\xe4ngig von Gr\xf6\xdfe oder Budget.",
                         }),
@@ -1043,7 +1043,7 @@
                               size: "lg",
                               className:
                                 "rounded-full px-8 text-white font-semibold shadow-lg hover:shadow-xl transition-all",
-                              style: { backgroundColor: "#F4991A" },
+                              style: { backgroundColor: "#5D5DE9" },
                               children: (0, t.jsx)(g(), {
                                 href: "/arbeitgeber/auth/anmeldung",
                                 children: "Kostenlos starten",
@@ -1056,8 +1056,8 @@
                               className:
                                 "rounded-full px-8 font-semibold border-2 transition-all",
                               style: {
-                                borderColor: "#344F1F",
-                                color: "#344F1F",
+                                borderColor: "#2C3340",
+                                color: "#2C3340",
                                 backgroundColor: "transparent",
                               },
                               children: (0, t.jsx)(g(), {
@@ -1104,27 +1104,27 @@
                       {
                         className:
                           "p-6 rounded-xl transition-all hover:shadow-lg",
-                        style: { backgroundColor: "#F9F5F0" },
+                        style: { backgroundColor: "#F7F8FA" },
                         children: [
                           (0, t.jsx)("div", {
                             className:
                               "w-12 h-12 rounded-full flex items-center justify-center mb-4",
                             style: {
-                              backgroundColor: "rgba(244, 153, 26, 0.1)",
+                              backgroundColor: "rgba(93, 93, 233, 0.1)",
                             },
                             children: (0, t.jsx)(i, {
                               className: "w-6 h-6",
-                              style: { color: "#F4991A" },
+                              style: { color: "#5D5DE9" },
                             }),
                           }),
                           (0, t.jsx)("h3", {
                             className: "text-lg font-bold mb-3",
-                            style: { color: "#344F1F" },
+                            style: { color: "#2C3340" },
                             children: e.title,
                           }),
                           (0, t.jsx)("p", {
                             className: "text-sm leading-relaxed",
-                            style: { color: "#344F1F", opacity: 0.8 },
+                            style: { color: "#2C3340", opacity: 0.8 },
                             children: e.description,
                           }),
                         ],
@@ -1143,17 +1143,17 @@
                 className: "mt-16 text-center",
                 children: (0, t.jsxs)("div", {
                   className: "inline-block p-8 rounded-xl max-w-3xl",
-                  style: { backgroundColor: "#F2EAD3" },
+                  style: { backgroundColor: "#EEF0F4" },
                   children: [
                     (0, t.jsx)("p", {
                       className: "text-xl font-semibold mb-2",
-                      style: { color: "#344F1F" },
+                      style: { color: "#2C3340" },
                       children:
                         "\xdcber 500 deutsche Unternehmen vertrauen bereits auf Azubi",
                     }),
                     (0, t.jsx)("p", {
                       className: "text-lg",
-                      style: { color: "#344F1F", opacity: 0.8 },
+                      style: { color: "#2C3340", opacity: 0.8 },
                       children:
                         "Werden auch Sie Teil unserer wachsenden Community",
                     }),

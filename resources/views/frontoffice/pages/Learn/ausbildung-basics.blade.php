@@ -42,7 +42,7 @@
                 data-nimg="fill" class="object-cover object-center"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                 sizes="100vw" src="{{ asset('assets/_next/brandenburg-gate-hero-autumn77fb.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0">
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil">
             </div>
             <div class="absolute inset-0 z-0"
                 style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -78,7 +78,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="Check Eligibility" href="#"> <span aria-hidden="true"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1091,7 +1091,7 @@
                 <div class="mb-16">
                     <div dir="ltr" data-orientation="horizontal" class="w-full">
                         <div role="tablist" aria-orientation="horizontal"
-                            class="min-h-[3rem] items-center justify-start rounded-xl bg-beige p-1.5 text-muted-foreground shadow-sm overflow-x-auto overflow-y-hidden scrollbar-none [-webkit-overflow-scrolling:touch] [&amp;::-webkit-scrollbar]:hidden grid w-full grid-cols-1 sm:grid-cols-2 mb-8 h-auto"
+                            class="min-h-[3rem] items-center justify-start rounded-xl azubi-bg-beige p-1.5 text-muted-foreground shadow-sm overflow-x-auto overflow-y-hidden scrollbar-none [-webkit-overflow-scrolling:touch] [&amp;::-webkit-scrollbar]:hidden grid w-full grid-cols-1 sm:grid-cols-2 mb-8 h-auto"
                             tabindex="-1" data-orientation="horizontal" style="outline:none">
                             <button type="button" role="tab" aria-selected="true"
                                 aria-controls="radix-«Rijqslb»-content-dual" data-state="active"
@@ -1467,7 +1467,7 @@
             <div class="container px-4 md:px-6">
                 <div class="text-center mb-12">
                     <div
-                        class="inline-flex items-center border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 px-3 py-1 rounded-md mb-4 bg-beige/10 text-primary border-primary/20">
+                        class="inline-flex items-center border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 px-3 py-1 rounded-md mb-4 azubi-bg-beige/10 text-primary border-primary/20">
                         Eligibility
                     </div>
                     <h2 class="text-3xl font-bold tracking-tight mb-4">
@@ -1866,7 +1866,7 @@
             <div class="container px-4 md:px-6">
                 <div class="text-center mb-12">
                     <div
-                        class="inline-flex items-center border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 px-3 py-1 rounded-md mb-4 bg-beige/10 text-indigo-500 border-indigo-500/20">
+                        class="inline-flex items-center border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 px-3 py-1 rounded-md mb-4 azubi-bg-beige/10 text-indigo-500 border-indigo-500/20">
                         Application
                     </div>
                     <h2 class="text-3xl font-bold tracking-tight mb-4">
@@ -2016,7 +2016,7 @@
                                                 <path d="m9 11 3 3L22 4">
                                                 </path>
                                             </svg>
-                                            <span class="text-muted-foreground"> Include all required certificates and
+                                            <span class="text-muted-foreground"> Include all azubi-required certificates and
                                                 documents
                                             </span>
                                         </li>
@@ -2062,7 +2062,7 @@
                                             </svg>
                                         </li>
                                         <li class="flex items-start gap-2 md:justify-end">
-                                            <span class="text-muted-foreground"> Complete assessment tests if required
+                                            <span class="text-muted-foreground"> Complete assessment tests if azubi-required
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -2150,7 +2150,7 @@
                                                 <path d="m9 11 3 3L22 4">
                                                 </path>
                                             </svg>
-                                            <span class="text-muted-foreground"> Open a blocked account with required
+                                            <span class="text-muted-foreground"> Open a blocked account with azubi-required
                                                 funds (€11,904/year)
                                             </span>
                                         </li>
@@ -2165,7 +2165,7 @@
                                                 </path>
                                             </svg>
                                             <span class="text-muted-foreground"> Book a visa appointment and gather all
-                                                required documents
+                                                azubi-required documents
                                             </span>
                                         </li>
                                     </ul>
@@ -2261,7 +2261,7 @@
                     </h3>
                     <div class="grid md:grid-cols-3 gap-6">
                         <div class="bg-muted/20 p-5 rounded-lg">
-                            <div class="bg-beige/10 rounded-full w-10 h-10 flex items-center justify-center mb-3">
+                            <div class="azubi-bg-beige/10 rounded-full w-10 h-10 flex items-center justify-center mb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -2285,7 +2285,7 @@
                             </p>
                         </div>
                         <div class="bg-muted/20 p-5 rounded-lg">
-                            <div class="bg-beige/10 rounded-full w-10 h-10 flex items-center justify-center mb-3">
+                            <div class="azubi-bg-beige/10 rounded-full w-10 h-10 flex items-center justify-center mb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -2313,7 +2313,7 @@
                             </p>
                         </div>
                         <div class="bg-muted/20 p-5 rounded-lg">
-                            <div class="bg-beige/10 rounded-full w-10 h-10 flex items-center justify-center mb-3">
+                            <div class="azubi-bg-beige/10 rounded-full w-10 h-10 flex items-center justify-center mb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -2636,7 +2636,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-beige rounded-xl p-6 md:p-8 border border-border">
+                <div class="azubi-bg-beige rounded-xl p-6 md:p-8 border border-border">
                     <h3 class="text-xl font-semibold mb-4 text-center">
                         Cost-Benefit Analysis
                     </h3>
@@ -3724,7 +3724,7 @@
                         <div class="p-5 border border-border/30 rounded-lg bg-muted/20">
                             <div class="mb-4 flex justify-between items-start">
                                 <div
-                                    class="bg-beige/10 text-primary rounded-full w-10 h-10 flex items-center justify-center">
+                                    class="azubi-bg-beige/10 text-primary rounded-full w-10 h-10 flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -3755,7 +3755,7 @@
                                     </svg>
                                 </div>
                                 <div
-                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 bg-beige/10 text-primary border-primary/20">
+                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 azubi-bg-beige/10 text-primary border-primary/20">
                                     Year 2+
                                 </div>
                             </div>
@@ -4361,7 +4361,7 @@
                                 Our experts can guide you through every step of your Ausbildung journey, from application to
                                 arrival in Germany.
                             </p>
-                            <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full"
+                            <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full"
                                 href="#"> Explore Our Tools
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -4593,7 +4593,7 @@
                             </path>
                         </svg>
                     </a>
-                    <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base rounded-full"
+                    <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-10 text-base rounded-full"
                         href="#"> Browse Jobs
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -4614,7 +4614,7 @@
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
                     src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl">
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil">
                 </div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -4638,7 +4638,7 @@
                                 Browse Live Positions
                             </a>
                             <a href="#"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
                                 Check Eligibility
                             </a>
                         </div>

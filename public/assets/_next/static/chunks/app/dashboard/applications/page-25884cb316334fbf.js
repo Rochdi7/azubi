@@ -99,7 +99,7 @@
               (0, a.jsx)("div", {
                 className: (0, c.cn)(
                   "absolute inset-0",
-                  "bg-gradient-to-br from-[#F4991A] via-[#F5A733] to-[#E5890F]",
+                  "bg-gradient-to-br from-[#5D5DE9] via-[#F5A733] to-[#2C3340]",
                 ),
               }),
               (0, a.jsx)("div", {
@@ -171,7 +171,7 @@
                             size: "sm",
                             className: (0, c.cn)(
                               "rounded-full h-10 px-4",
-                              "bg-white hover:bg-white/90 text-[#F4991A]",
+                              "bg-white hover:bg-white/90 text-[#5D5DE9]",
                               "shadow-lg shadow-black/10",
                               "font-semibold text-sm",
                             ),
@@ -240,7 +240,7 @@
                       onClick: l,
                       className: (0, c.cn)(
                         "w-full rounded-full h-12",
-                        "bg-white hover:bg-white/90 text-[#F4991A]",
+                        "bg-white hover:bg-white/90 text-[#5D5DE9]",
                         "shadow-lg shadow-black/10",
                         "font-semibold text-base",
                       ),
@@ -394,18 +394,18 @@
           href: "/dashboard/applications/".concat(b.id),
           className: (0, c.cn)(
             "group block bg-white rounded-2xl border-2 p-4 sm:p-5 transition-all duration-200",
-            "hover:shadow-[0_8px_24px_rgba(52,79,31,0.08)] hover:-translate-y-0.5",
+            "hover:shadow-[0_8px_24px_rgba(44,51,64,0.08)] hover:-translate-y-0.5",
             "active:translate-y-0 active:shadow-sm",
             (null === (x = b.attention) || void 0 === x
               ? void 0
               : x.priority) === "high" &&
-              "border-[#F4991A] shadow-[0_4px_12px_rgba(244,153,26,0.15)] bg-gradient-to-r from-white to-[rgba(244,153,26,0.02)]",
+              "border-[#5D5DE9] shadow-[0_4px_12px_rgba(93,93,233,0.15)] bg-gradient-to-r from-white to-[rgba(93,93,233,0.02)]",
             (null === (h = b.attention) || void 0 === h
               ? void 0
               : h.priority) === "medium" &&
-              "border-[#F4991A]/40 shadow-[0_2px_8px_rgba(244,153,26,0.08)]",
+              "border-[#5D5DE9]/40 shadow-[0_2px_8px_rgba(93,93,233,0.08)]",
             !b.attention &&
-              "border-[#344F1F]/8 shadow-[0_2px_8px_rgba(52,79,31,0.04)]",
+              "border-[#2C3340]/8 shadow-[0_2px_8px_rgba(44,51,64,0.04)]",
           ),
           children: (0, a.jsxs)("div", {
             className: "flex items-start gap-3 sm:gap-4",
@@ -422,12 +422,12 @@
                           width: 56,
                           height: 56,
                           className:
-                            "w-12 h-12 sm:w-14 sm:h-14 rounded-xl object-contain bg-white border border-[#344F1F]/10 p-1",
+                            "w-12 h-12 sm:w-14 sm:h-14 rounded-xl object-contain bg-white border border-[#2C3340]/10 p-1",
                         }),
                         U &&
                           (0, a.jsx)("div", {
                             className:
-                              "absolute -bottom-1 -right-1 w-5 h-5 bg-[#F4991A] rounded-full flex items-center justify-center shadow-sm",
+                              "absolute -bottom-1 -right-1 w-5 h-5 bg-[#5D5DE9] rounded-full flex items-center justify-center shadow-sm",
                             children: (0, a.jsx)(d.A, {
                               className: "w-2.5 h-2.5 text-white",
                             }),
@@ -439,16 +439,16 @@
                       children: [
                         (0, a.jsx)("div", {
                           className:
-                            "w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gradient-to-br from-[#F2EAD3] to-[#F9F5F0] flex items-center justify-center border border-[#344F1F]/5",
+                            "w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gradient-to-br from-[#EEF0F4] to-[#F7F8FA] flex items-center justify-center border border-[#2C3340]/5",
                           children: (0, a.jsx)(J.A, {
                             className:
-                              "w-6 h-6 sm:w-7 sm:h-7 text-[#344F1F]/50",
+                              "w-6 h-6 sm:w-7 sm:h-7 text-[#2C3340]/50",
                           }),
                         }),
                         U &&
                           (0, a.jsx)("div", {
                             className:
-                              "absolute -bottom-1 -right-1 w-5 h-5 bg-[#F4991A] rounded-full flex items-center justify-center shadow-sm",
+                              "absolute -bottom-1 -right-1 w-5 h-5 bg-[#5D5DE9] rounded-full flex items-center justify-center shadow-sm",
                             children: (0, a.jsx)(d.A, {
                               className: "w-2.5 h-2.5 text-white",
                             }),
@@ -467,12 +467,12 @@
                         children: [
                           (0, a.jsx)("h3", {
                             className:
-                              "font-semibold text-base sm:text-lg text-[#344F1F] truncate leading-tight group-hover:text-[#F4991A] transition-colors",
+                              "font-semibold text-base sm:text-lg text-[#2C3340] truncate leading-tight group-hover:text-[#5D5DE9] transition-colors",
                             children: k,
                           }),
                           (0, a.jsx)("p", {
                             className:
-                              "text-sm text-[#344F1F]/60 truncate mt-0.5",
+                              "text-sm text-[#2C3340]/60 truncate mt-0.5",
                             children: y,
                           }),
                         ],
@@ -490,14 +490,14 @@
                   }),
                   (0, a.jsxs)("div", {
                     className:
-                      "flex flex-wrap items-center gap-x-4 gap-y-1.5 mt-3 text-xs text-[#344F1F]/60",
+                      "flex flex-wrap items-center gap-x-4 gap-y-1.5 mt-3 text-xs text-[#2C3340]/60",
                     children: [
                       S &&
                         (0, a.jsxs)("span", {
                           className: "flex items-center gap-1.5",
                           children: [
                             (0, a.jsx)(P.A, {
-                              className: "w-3.5 h-3.5 text-[#F4991A]",
+                              className: "w-3.5 h-3.5 text-[#5D5DE9]",
                             }),
                             S,
                           ],
@@ -507,7 +507,7 @@
                           className: "flex items-center gap-1.5",
                           children: [
                             (0, a.jsx)(B.A, {
-                              className: "w-3.5 h-3.5 text-[#344F1F]/40",
+                              className: "w-3.5 h-3.5 text-[#2C3340]/40",
                             }),
                             W(b.applied_at),
                           ],
@@ -516,7 +516,7 @@
                         "interview" === b.status &&
                         (0, a.jsxs)("span", {
                           className:
-                            "flex items-center gap-1.5 text-[#F4991A] font-medium",
+                            "flex items-center gap-1.5 text-[#5D5DE9] font-medium",
                           children: [
                             (0, a.jsx)(m.A, { className: "w-3.5 h-3.5" }),
                             v.interviewOn,
@@ -527,7 +527,7 @@
                       G &&
                         (0, a.jsx)("span", {
                           className:
-                            "px-2 py-0.5 bg-[#F9F5F0] rounded-full text-[#344F1F]/50 text-[10px] font-medium",
+                            "px-2 py-0.5 bg-[#F7F8FA] rounded-full text-[#2C3340]/50 text-[10px] font-medium",
                           children: v.external,
                         }),
                     ],
@@ -537,11 +537,11 @@
                       className: (0, c.cn)(
                         "mt-3 px-3 py-2 rounded-xl text-xs flex items-center gap-2 font-medium",
                         "high" === b.attention.priority &&
-                          "bg-gradient-to-r from-[rgba(244,153,26,0.15)] to-[rgba(244,153,26,0.08)] text-[#F4991A] border border-[#F4991A]/20",
+                          "bg-gradient-to-r from-[rgba(93,93,233,0.15)] to-[rgba(93,93,233,0.08)] text-[#5D5DE9] border border-[#5D5DE9]/20",
                         "medium" === b.attention.priority &&
-                          "bg-[rgba(244,153,26,0.08)] text-[#F4991A]/90",
+                          "bg-[rgba(93,93,233,0.08)] text-[#5D5DE9]/90",
                         "low" === b.attention.priority &&
-                          "bg-[#F9F5F0] text-[#344F1F]/60",
+                          "bg-[#F7F8FA] text-[#2C3340]/60",
                       ),
                       children: [
                         (0, a.jsx)(R.A, { className: "w-4 h-4 flex-shrink-0" }),
@@ -577,10 +577,10 @@
                 children: [
                   (0, a.jsx)("div", {
                     className:
-                      "hidden sm:flex items-center justify-center w-10 h-10 rounded-full bg-[#F9F5F0] opacity-0 group-hover:opacity-100 transition-all group-hover:bg-[rgba(244,153,26,0.1)]",
+                      "hidden sm:flex items-center justify-center w-10 h-10 rounded-full bg-[#F7F8FA] opacity-0 group-hover:opacity-100 transition-all group-hover:bg-[rgba(93,93,233,0.1)]",
                     children: (0, a.jsx)(z.A, {
                       className:
-                        "w-5 h-5 text-[#344F1F]/40 group-hover:text-[#F4991A] transition-colors",
+                        "w-5 h-5 text-[#2C3340]/40 group-hover:text-[#5D5DE9] transition-colors",
                     }),
                   }),
                   (0, a.jsxs)(T.rI, {
@@ -592,7 +592,7 @@
                           size: "sm",
                           className: "h-9 w-9 p-0 rounded-full",
                           children: (0, a.jsx)(I.A, {
-                            className: "w-4 h-4 text-[#344F1F]/60",
+                            className: "w-4 h-4 text-[#2C3340]/60",
                           }),
                         }),
                       }),
@@ -633,7 +633,7 @@
                               onClick: () => Y("applied"),
                               children: [
                                 (0, a.jsx)(A.A, {
-                                  className: "w-4 h-4 mr-2 text-[#F4991A]",
+                                  className: "w-4 h-4 mr-2 text-[#5D5DE9]",
                                 }),
                                 v.markAsApplied,
                               ],
@@ -657,10 +657,10 @@
                           "withdrawn" === b.status &&
                             (0, a.jsxs)(T._2, {
                               onClick: () => Y("applied"),
-                              className: "text-[#344F1F]",
+                              className: "text-[#2C3340]",
                               children: [
                                 (0, a.jsx)(q.A, {
-                                  className: "w-4 h-4 mr-2 text-[#F4991A]",
+                                  className: "w-4 h-4 mr-2 text-[#5D5DE9]",
                                 }),
                                 v.reactivate,
                               ],
@@ -676,7 +676,7 @@
                                 (0, a.jsx)(T.mB, {}),
                                 (0, a.jsxs)(T._2, {
                                   onClick: () => Y("withdrawn"),
-                                  className: "text-[#344F1F]/60",
+                                  className: "text-[#2C3340]/60",
                                   children: [
                                     (0, a.jsx)(_.A, {
                                       className: "w-4 h-4 mr-2",
@@ -749,15 +749,15 @@
               children: [
                 (0, a.jsx)(V.A, {
                   className:
-                    "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#344F1F]/50 flex-shrink-0",
+                    "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#2C3340]/50 flex-shrink-0",
                 }),
                 (0, a.jsxs)("button", {
                   onClick: () => l("all"),
                   className: (0, c.cn)(
                     "px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-medium transition-all whitespace-nowrap min-h-[32px] sm:min-h-[36px] active:scale-95",
                     "all" === t
-                      ? "bg-[#344F1F] text-white"
-                      : "bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F2EAD3] active:bg-[#F2EAD3]",
+                      ? "bg-[#2C3340] text-white"
+                      : "bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#EEF0F4] active:bg-[#EEF0F4]",
                   ),
                   children: [
                     o.all,
@@ -788,7 +788,7 @@
                               "ring-2 ring-offset-1",
                               s.borderColor.replace("border-", "ring-"),
                             )
-                          : "bg-[#F9F5F0] text-[#344F1F]/70 hover:bg-[#F2EAD3] active:bg-[#F2EAD3]",
+                          : "bg-[#F7F8FA] text-[#2C3340]/70 hover:bg-[#EEF0F4] active:bg-[#EEF0F4]",
                       ),
                       children: [
                         "de" === r ? s.label_de : s.label,
@@ -811,7 +811,7 @@
                     size: "sm",
                     onClick: () => l("all"),
                     className:
-                      "h-7 w-7 sm:h-8 sm:w-8 p-0 rounded-full text-[#344F1F]/50 hover:text-[#344F1F] flex-shrink-0",
+                      "h-7 w-7 sm:h-8 sm:w-8 p-0 rounded-full text-[#2C3340]/50 hover:text-[#2C3340] flex-shrink-0",
                     children: (0, a.jsx)(k.A, {
                       className: "w-3.5 h-3.5 sm:w-4 sm:h-4",
                     }),
@@ -823,7 +823,7 @@
               children: [
                 (0, a.jsx)(W.A, {
                   className:
-                    "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#344F1F]/50 flex-shrink-0",
+                    "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#2C3340]/50 flex-shrink-0",
                 }),
                 (0, a.jsxs)(U.l6, {
                   value: s,
@@ -831,7 +831,7 @@
                   children: [
                     (0, a.jsx)(U.bq, {
                       className:
-                        "w-full sm:w-[160px] rounded-full border-[#344F1F]/20 text-xs sm:text-sm h-8 sm:h-10",
+                        "w-full sm:w-[160px] rounded-full border-[#2C3340]/20 text-xs sm:text-sm h-8 sm:h-10",
                       children: (0, a.jsx)(U.yv, { placeholder: o.sortBy }),
                     }),
                     (0, a.jsxs)(U.gC, {
@@ -944,24 +944,24 @@
           r = t.length > 3;
         return (0, a.jsxs)("div", {
           className:
-            "bg-[rgba(244,153,26,0.08)] rounded-xl sm:rounded-2xl border border-[#F4991A]/20 p-3 sm:p-4",
+            "bg-[rgba(93,93,233,0.08)] rounded-xl sm:rounded-2xl border border-[#5D5DE9]/20 p-3 sm:p-4",
           children: [
             (0, a.jsxs)("div", {
               className: "flex items-center justify-between mb-2 sm:mb-3",
               children: [
                 (0, a.jsxs)("h3", {
                   className:
-                    "font-semibold text-sm sm:text-base text-[#344F1F] flex items-center gap-1.5 sm:gap-2",
+                    "font-semibold text-sm sm:text-base text-[#2C3340] flex items-center gap-1.5 sm:gap-2",
                   children: [
                     (0, a.jsx)(R.A, {
-                      className: "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#F4991A]",
+                      className: "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#5D5DE9]",
                     }),
                     l.title,
                   ],
                 }),
                 r &&
                   (0, a.jsxs)("span", {
-                    className: "text-[10px] sm:text-xs text-[#F4991A]",
+                    className: "text-[10px] sm:text-xs text-[#5D5DE9]",
                     children: ["+", t.length - 3, " more"],
                   }),
               ],
@@ -977,24 +977,24 @@
                     href: "/dashboard/applications/".concat(e.id),
                     className: (0, c.cn)(
                       "flex items-center gap-2 sm:gap-3 p-2.5 sm:p-3 rounded-lg sm:rounded-xl bg-white transition-all",
-                      "hover:shadow-md active:scale-[0.99] active:bg-[#F9F5F0]/50",
+                      "hover:shadow-md active:scale-[0.99] active:bg-[#F7F8FA]/50",
                       "high" === e.attention.priority &&
-                        "ring-1 ring-[#F4991A]/30",
+                        "ring-1 ring-[#5D5DE9]/30",
                     ),
                     children: [
                       (0, a.jsx)("div", {
                         className: (0, c.cn)(
                           "w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center flex-shrink-0",
                           "high" === e.attention.priority
-                            ? "bg-[rgba(244,153,26,0.2)]"
-                            : "bg-[#F9F5F0]",
+                            ? "bg-[rgba(93,93,233,0.2)]"
+                            : "bg-[#F7F8FA]",
                         ),
                         children: (0, a.jsx)(s, {
                           className: (0, c.cn)(
                             "w-4 h-4 sm:w-5 sm:h-5",
                             "high" === e.attention.priority
-                              ? "text-[#F4991A]"
-                              : "text-[#344F1F]/60",
+                              ? "text-[#5D5DE9]"
+                              : "text-[#2C3340]/60",
                           ),
                         }),
                       }),
@@ -1003,19 +1003,19 @@
                         children: [
                           (0, a.jsx)("p", {
                             className:
-                              "font-medium text-xs sm:text-sm text-[#344F1F] truncate",
+                              "font-medium text-xs sm:text-sm text-[#2C3340] truncate",
                             children: t.title,
                           }),
                           (0, a.jsx)("p", {
                             className:
-                              "text-[10px] sm:text-xs text-[#344F1F]/60 truncate",
+                              "text-[10px] sm:text-xs text-[#2C3340]/60 truncate",
                             children: t.subtitle,
                           }),
                         ],
                       }),
                       (0, a.jsx)(z.A, {
                         className:
-                          "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#344F1F]/30 flex-shrink-0",
+                          "w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#2C3340]/30 flex-shrink-0",
                       }),
                     ],
                   },
@@ -1129,26 +1129,26 @@
               children: [
                 (0, a.jsx)("div", {
                   className:
-                    "w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-[#F9F5F0] flex items-center justify-center mx-auto mb-3 sm:mb-4",
+                    "w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-[#F7F8FA] flex items-center justify-center mx-auto mb-3 sm:mb-4",
                   children: (0, a.jsx)(et.A, {
-                    className: "w-6 h-6 sm:w-8 sm:h-8 text-[#344F1F]/40",
+                    className: "w-6 h-6 sm:w-8 sm:h-8 text-[#2C3340]/40",
                   }),
                 }),
                 (0, a.jsx)("h3", {
                   className:
-                    "text-base sm:text-lg font-semibold text-[#344F1F] mb-1.5 sm:mb-2",
+                    "text-base sm:text-lg font-semibold text-[#2C3340] mb-1.5 sm:mb-2",
                   children: m.noResults,
                 }),
                 (0, a.jsx)("p", {
                   className:
-                    "text-xs sm:text-sm text-[#344F1F]/60 mb-4 sm:mb-6 max-w-sm mx-auto",
+                    "text-xs sm:text-sm text-[#2C3340]/60 mb-4 sm:mb-6 max-w-sm mx-auto",
                   children: m.noResultsDesc,
                 }),
                 (0, a.jsx)(g.$, {
                   variant: "outline",
                   onClick: s,
                   className:
-                    "rounded-full min-h-[40px] sm:min-h-[44px] border-2 border-[#344F1F]/20 text-[#344F1F] text-sm",
+                    "rounded-full min-h-[40px] sm:min-h-[44px] border-2 border-[#2C3340]/20 text-[#2C3340] text-sm",
                   children: m.clearFilters,
                 }),
               ],
@@ -1158,7 +1158,7 @@
               children: [
                 (0, a.jsxs)("div", {
                   className:
-                    "relative overflow-hidden bg-gradient-to-br from-[#344F1F] via-[#3d5f24] to-[#2a3f19] rounded-2xl p-6 sm:p-8 text-white",
+                    "relative overflow-hidden bg-gradient-to-br from-[#2C3340] via-[#3d5f24] to-[#1E242E] rounded-2xl p-6 sm:p-8 text-white",
                   children: [
                     (0, a.jsx)("div", {
                       className:
@@ -1170,7 +1170,7 @@
                     }),
                     (0, a.jsx)("div", {
                       className:
-                        "absolute top-1/2 right-1/4 w-20 h-20 bg-[#F4991A]/10 rounded-full",
+                        "absolute top-1/2 right-1/4 w-20 h-20 bg-[#5D5DE9]/10 rounded-full",
                     }),
                     (0, a.jsxs)("div", {
                       className: "relative z-10",
@@ -1180,7 +1180,7 @@
                           children: [
                             (0, a.jsx)("div", {
                               className:
-                                "w-10 h-10 rounded-full bg-[#F4991A] flex items-center justify-center",
+                                "w-10 h-10 rounded-full bg-[#5D5DE9] flex items-center justify-center",
                               children: (0, a.jsx)(es.A, {
                                 className: "w-5 h-5 text-white",
                               }),
@@ -1205,9 +1205,9 @@
                               onClick: n,
                               className: (0, c.cn)(
                                 "rounded-full min-h-[48px] px-6 w-full sm:w-auto",
-                                "bg-[#F4991A] hover:bg-[#E5890F] text-white font-semibold",
-                                "shadow-[0_4px_16px_rgba(244,153,26,0.3)]",
-                                "hover:shadow-[0_6px_24px_rgba(244,153,26,0.4)]",
+                                "bg-[#5D5DE9] hover:bg-[#2C3340] text-white font-semibold",
+                                "shadow-[0_4px_16px_rgba(93,93,233,0.3)]",
+                                "hover:shadow-[0_6px_24px_rgba(93,93,233,0.4)]",
                                 "transition-all duration-200",
                               ),
                               children: [
@@ -1233,20 +1233,20 @@
                 }),
                 (0, a.jsxs)("div", {
                   className:
-                    "bg-white rounded-xl border-2 border-[#344F1F]/10 overflow-hidden",
+                    "bg-white rounded-xl border-2 border-[#2C3340]/10 overflow-hidden",
                   children: [
                     (0, a.jsxs)("div", {
                       className:
-                        "p-4 sm:p-5 border-b border-[#344F1F]/10 flex items-center justify-between",
+                        "p-4 sm:p-5 border-b border-[#2C3340]/10 flex items-center justify-between",
                       children: [
                         (0, a.jsxs)("div", {
                           className: "flex items-center gap-2",
                           children: [
                             (0, a.jsx)(ei.A, {
-                              className: "w-5 h-5 text-[#F4991A]",
+                              className: "w-5 h-5 text-[#5D5DE9]",
                             }),
                             (0, a.jsx)("h3", {
-                              className: "font-semibold text-[#344F1F]",
+                              className: "font-semibold text-[#2C3340]",
                               children: m.recommended,
                             }),
                           ],
@@ -1254,7 +1254,7 @@
                         (0, a.jsxs)(C(), {
                           href: "/dashboard/jobs",
                           className:
-                            "text-xs text-[#F4991A] font-medium hover:underline flex items-center gap-1",
+                            "text-xs text-[#5D5DE9] font-medium hover:underline flex items-center gap-1",
                           children: [
                             m.viewAll,
                             (0, a.jsx)(z.A, { className: "w-3.5 h-3.5" }),
@@ -1270,10 +1270,10 @@
                             children: [
                               (0, a.jsx)(en.A, {
                                 className:
-                                  "w-6 h-6 animate-spin text-[#F4991A]",
+                                  "w-6 h-6 animate-spin text-[#5D5DE9]",
                               }),
                               (0, a.jsx)("span", {
-                                className: "ml-2 text-sm text-[#344F1F]/60",
+                                className: "ml-2 text-sm text-[#2C3340]/60",
                                 children: m.loadingRecommendations,
                               }),
                             ],
@@ -1283,7 +1283,7 @@
                               className: "text-center py-6",
                               children: [
                                 (0, a.jsx)("p", {
-                                  className: "text-sm text-[#344F1F]/60 mb-4",
+                                  className: "text-sm text-[#2C3340]/60 mb-4",
                                   children: m.noRecommendations,
                                 }),
                                 (0, a.jsx)(C(), {
@@ -1291,7 +1291,7 @@
                                   children: (0, a.jsx)(g.$, {
                                     variant: "outline",
                                     className:
-                                      "rounded-full border-2 border-[#F4991A] text-[#F4991A] hover:bg-[#F4991A] hover:text-white",
+                                      "rounded-full border-2 border-[#5D5DE9] text-[#5D5DE9] hover:bg-[#5D5DE9] hover:text-white",
                                     children: m.completeProfile,
                                   }),
                                 }),
@@ -1302,7 +1302,7 @@
                                 className: "text-center py-6",
                                 children: [
                                   (0, a.jsx)("p", {
-                                    className: "text-sm text-[#344F1F]/60 mb-4",
+                                    className: "text-sm text-[#2C3340]/60 mb-4",
                                     children: m.noRecommendations,
                                   }),
                                   (0, a.jsx)(C(), {
@@ -1310,7 +1310,7 @@
                                     children: (0, a.jsx)(g.$, {
                                       variant: "outline",
                                       className:
-                                        "rounded-full border-2 border-[#344F1F]/20 text-[#344F1F]",
+                                        "rounded-full border-2 border-[#2C3340]/20 text-[#2C3340]",
                                       children: m.browseJobs,
                                     }),
                                   }),
@@ -1338,8 +1338,8 @@
                                         null == r ? void 0 : r(l),
                                       className: (0, c.cn)(
                                         "group flex items-center gap-3 p-3 rounded-xl",
-                                        "bg-[#F9F5F0] hover:bg-[#F2EAD3]",
-                                        "border border-transparent hover:border-[#F4991A]/30",
+                                        "bg-[#F7F8FA] hover:bg-[#EEF0F4]",
+                                        "border border-transparent hover:border-[#5D5DE9]/30",
                                         "cursor-pointer transition-all duration-200",
                                       ),
                                       children: [
@@ -1367,7 +1367,7 @@
                                             })
                                           : (0, a.jsx)("div", {
                                               className:
-                                                "w-10 h-10 rounded-lg bg-[#F4991A] flex items-center justify-center flex-shrink-0",
+                                                "w-10 h-10 rounded-lg bg-[#5D5DE9] flex items-center justify-center flex-shrink-0",
                                               children: (0, a.jsx)(J.A, {
                                                 className: "w-5 h-5 text-white",
                                               }),
@@ -1377,12 +1377,12 @@
                                           children: [
                                             (0, a.jsx)("h4", {
                                               className:
-                                                "font-medium text-[#344F1F] text-sm line-clamp-1 group-hover:text-[#F4991A] transition-colors",
+                                                "font-medium text-[#2C3340] text-sm line-clamp-1 group-hover:text-[#5D5DE9] transition-colors",
                                               children: i,
                                             }),
                                             (0, a.jsxs)("div", {
                                               className:
-                                                "flex items-center gap-2 text-[11px] text-[#344F1F]/60 mt-0.5",
+                                                "flex items-center gap-2 text-[11px] text-[#2C3340]/60 mt-0.5",
                                               children: [
                                                 (0, a.jsxs)("span", {
                                                   className:
@@ -1415,7 +1415,7 @@
                                           children: [
                                             (0, a.jsxs)(X.E, {
                                               className:
-                                                "bg-[#344F1F] text-white text-[10px] px-2 py-0.5",
+                                                "bg-[#2C3340] text-white text-[10px] px-2 py-0.5",
                                               children: [
                                                 (0, a.jsx)(er.A, {
                                                   className:
@@ -1427,7 +1427,7 @@
                                             }),
                                             (0, a.jsx)(z.A, {
                                               className:
-                                                "w-4 h-4 text-[#344F1F]/30 group-hover:text-[#F4991A] group-hover:translate-x-0.5 transition-all",
+                                                "w-4 h-4 text-[#2C3340]/30 group-hover:text-[#5D5DE9] group-hover:translate-x-0.5 transition-all",
                                             }),
                                           ],
                                         }),
@@ -1441,16 +1441,16 @@
                   ],
                 }),
                 (0, a.jsxs)("div", {
-                  className: "bg-[#F9F5F0] rounded-xl p-5 sm:p-6",
+                  className: "bg-[#F7F8FA] rounded-xl p-5 sm:p-6",
                   children: [
                     (0, a.jsxs)("div", {
                       className: "flex items-center gap-2 mb-4",
                       children: [
                         (0, a.jsx)(eo.A, {
-                          className: "w-5 h-5 text-[#F4991A]",
+                          className: "w-5 h-5 text-[#5D5DE9]",
                         }),
                         (0, a.jsx)("h3", {
-                          className: "font-semibold text-[#344F1F]",
+                          className: "font-semibold text-[#2C3340]",
                           children: m.quickStart,
                         }),
                       ],
@@ -1465,11 +1465,11 @@
                             children: [
                               (0, a.jsx)("div", {
                                 className:
-                                  "w-6 h-6 rounded-full bg-[#F4991A]/20 text-[#F4991A] text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5",
+                                  "w-6 h-6 rounded-full bg-[#5D5DE9]/20 text-[#5D5DE9] text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5",
                                 children: t + 1,
                               }),
                               (0, a.jsx)("p", {
-                                className: "text-sm text-[#344F1F]/70",
+                                className: "text-sm text-[#2C3340]/70",
                                 children: e,
                               }),
                             ],
@@ -1482,7 +1482,7 @@
                       onClick: n,
                       className: (0, c.cn)(
                         "w-full mt-5 rounded-full min-h-[44px]",
-                        "bg-[#344F1F] hover:bg-[#2a3f19] text-white",
+                        "bg-[#2C3340] hover:bg-[#1E242E] text-white",
                       ),
                       children: [
                         m.getStarted,
@@ -1493,20 +1493,20 @@
                 }),
                 (0, a.jsxs)("div", {
                   className:
-                    "flex items-start gap-3 p-4 bg-white rounded-xl border-2 border-dashed border-[#F4991A]/30",
+                    "flex items-start gap-3 p-4 bg-white rounded-xl border-2 border-dashed border-[#5D5DE9]/30",
                   children: [
                     (0, a.jsx)("div", {
                       className:
-                        "w-8 h-8 rounded-full bg-[#F4991A]/10 flex items-center justify-center flex-shrink-0",
+                        "w-8 h-8 rounded-full bg-[#5D5DE9]/10 flex items-center justify-center flex-shrink-0",
                       children: (0, a.jsx)(d.A, {
-                        className: "w-4 h-4 text-[#F4991A]",
+                        className: "w-4 h-4 text-[#5D5DE9]",
                       }),
                     }),
                     (0, a.jsxs)("p", {
-                      className: "text-xs text-[#344F1F]/70",
+                      className: "text-xs text-[#2C3340]/70",
                       children: [
                         (0, a.jsx)("strong", {
-                          className: "text-[#344F1F]",
+                          className: "text-[#2C3340]",
                           children: "Pro tip:",
                         }),
                         " ",
@@ -1646,17 +1646,17 @@
                 children: [
                   (0, a.jsxs)(ep.L3, {
                     className:
-                      "text-[#344F1F] flex items-center gap-2 text-base sm:text-lg",
+                      "text-[#2C3340] flex items-center gap-2 text-base sm:text-lg",
                     children: [
                       (0, a.jsx)(J.A, {
                         className:
-                          "w-4 h-4 sm:w-5 sm:h-5 text-[#F4991A] flex-shrink-0",
+                          "w-4 h-4 sm:w-5 sm:h-5 text-[#5D5DE9] flex-shrink-0",
                       }),
                       o.title,
                     ],
                   }),
                   (0, a.jsx)(ep.rr, {
-                    className: "text-[#344F1F]/60 text-xs sm:text-sm",
+                    className: "text-[#2C3340]/60 text-xs sm:text-sm",
                     children: o.description,
                   }),
                 ],
@@ -1670,7 +1670,7 @@
                     children: [
                       (0, a.jsxs)(eg.J, {
                         htmlFor: "company",
-                        className: "text-[#344F1F] text-sm",
+                        className: "text-[#2C3340] text-sm",
                         children: [o.company, " *"],
                       }),
                       (0, a.jsxs)("div", {
@@ -1678,14 +1678,14 @@
                         children: [
                           (0, a.jsx)(J.A, {
                             className:
-                              "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#344F1F]/40",
+                              "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#2C3340]/40",
                           }),
                           (0, a.jsx)(eu.p, {
                             id: "company",
                             ...p("company"),
                             placeholder: o.companyPlaceholder,
                             className: (0, c.cn)(
-                              "pl-10 rounded-lg border-[#344F1F]/20 min-h-[44px] text-sm",
+                              "pl-10 rounded-lg border-[#2C3340]/20 min-h-[44px] text-sm",
                               b.company && "border-red-500",
                             ),
                           }),
@@ -1703,7 +1703,7 @@
                     children: [
                       (0, a.jsxs)(eg.J, {
                         htmlFor: "title",
-                        className: "text-[#344F1F] text-sm",
+                        className: "text-[#2C3340] text-sm",
                         children: [o.jobTitle, " *"],
                       }),
                       (0, a.jsxs)("div", {
@@ -1711,14 +1711,14 @@
                         children: [
                           (0, a.jsx)(ej.A, {
                             className:
-                              "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#344F1F]/40",
+                              "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#2C3340]/40",
                           }),
                           (0, a.jsx)(eu.p, {
                             id: "title",
                             ...p("title"),
                             placeholder: o.jobTitlePlaceholder,
                             className: (0, c.cn)(
-                              "pl-10 rounded-lg border-[#344F1F]/20 min-h-[44px] text-sm",
+                              "pl-10 rounded-lg border-[#2C3340]/20 min-h-[44px] text-sm",
                               b.title && "border-red-500",
                             ),
                           }),
@@ -1736,7 +1736,7 @@
                     children: [
                       (0, a.jsx)(eg.J, {
                         htmlFor: "url",
-                        className: "text-[#344F1F] text-sm",
+                        className: "text-[#2C3340] text-sm",
                         children: o.url,
                       }),
                       (0, a.jsxs)("div", {
@@ -1744,14 +1744,14 @@
                         children: [
                           (0, a.jsx)(ef.A, {
                             className:
-                              "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#344F1F]/40",
+                              "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#2C3340]/40",
                           }),
                           (0, a.jsx)(eu.p, {
                             id: "url",
                             ...p("url"),
                             placeholder: o.urlPlaceholder,
                             className: (0, c.cn)(
-                              "pl-10 rounded-lg border-[#344F1F]/20 min-h-[44px] text-sm",
+                              "pl-10 rounded-lg border-[#2C3340]/20 min-h-[44px] text-sm",
                               b.url && "border-red-500",
                             ),
                           }),
@@ -1769,7 +1769,7 @@
                     children: [
                       (0, a.jsx)(eg.J, {
                         htmlFor: "description",
-                        className: "text-[#344F1F] text-sm",
+                        className: "text-[#2C3340] text-sm",
                         children: o.jobDescription,
                       }),
                       (0, a.jsxs)("div", {
@@ -1777,14 +1777,14 @@
                         children: [
                           (0, a.jsx)(d.A, {
                             className:
-                              "absolute left-3 top-3 w-4 h-4 text-[#344F1F]/40",
+                              "absolute left-3 top-3 w-4 h-4 text-[#2C3340]/40",
                           }),
                           (0, a.jsx)(eb.T, {
                             id: "description",
                             ...p("description"),
                             placeholder: o.jobDescriptionPlaceholder,
                             className:
-                              "pl-10 rounded-lg border-[#344F1F]/20 min-h-[80px] sm:min-h-[100px] resize-none text-sm",
+                              "pl-10 rounded-lg border-[#2C3340]/20 min-h-[80px] sm:min-h-[100px] resize-none text-sm",
                           }),
                         ],
                       }),
@@ -1792,7 +1792,7 @@
                   }),
                   (0, a.jsxs)("div", {
                     className:
-                      "flex items-center gap-2.5 sm:gap-3 p-2.5 sm:p-3 bg-[#F9F5F0] rounded-lg min-h-[44px]",
+                      "flex items-center gap-2.5 sm:gap-3 p-2.5 sm:p-3 bg-[#F7F8FA] rounded-lg min-h-[44px]",
                     children: [
                       (0, a.jsx)(ew.S, {
                         id: "alreadyApplied",
@@ -1803,7 +1803,7 @@
                       (0, a.jsx)(eg.J, {
                         htmlFor: "alreadyApplied",
                         className:
-                          "text-xs sm:text-sm text-[#344F1F]/70 cursor-pointer",
+                          "text-xs sm:text-sm text-[#2C3340]/70 cursor-pointer",
                         children: o.alreadyApplied,
                       }),
                     ],
@@ -1817,7 +1817,7 @@
                         variant: "outline",
                         onClick: () => s(!1),
                         className:
-                          "w-full sm:flex-1 rounded-full min-h-[44px] border-2 border-[#344F1F]/20 text-[#344F1F] text-sm",
+                          "w-full sm:flex-1 rounded-full min-h-[44px] border-2 border-[#2C3340]/20 text-[#2C3340] text-sm",
                         disabled: m,
                         children: o.cancel,
                       }),
@@ -1826,8 +1826,8 @@
                         disabled: m,
                         className: (0, c.cn)(
                           "w-full sm:flex-1 rounded-full min-h-[44px] text-sm",
-                          "bg-[#F4991A] hover:bg-[#E5890F] text-white",
-                          "shadow-[0_4px_12px_rgba(244,153,26,0.2)]",
+                          "bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
+                          "shadow-[0_4px_12px_rgba(93,93,233,0.2)]",
                           "active:scale-[0.98]",
                         ),
                         children: m
@@ -1995,7 +1995,7 @@
                 "ul",
                 {
                   className:
-                    "list-disc list-inside space-y-1.5 text-sm text-[#344F1F]/70",
+                    "list-disc list-inside space-y-1.5 text-sm text-[#2C3340]/70",
                   children: e.map((e, t) =>
                     (0, a.jsx)("li", { children: e }, t),
                   ),
@@ -2006,7 +2006,7 @@
             return (0, a.jsx)(
               "p",
               {
-                className: "text-sm text-[#344F1F]/70 leading-relaxed",
+                className: "text-sm text-[#2C3340]/70 leading-relaxed",
                 children: s,
               },
               t,
@@ -2123,13 +2123,13 @@
               children: (0, a.jsxs)(e_.h, {
                 side: "right",
                 className: (0, c.cn)(
-                  "w-full sm:max-w-[560px] p-0 bg-[#F9F5F0] border-l border-[#344F1F]/10",
+                  "w-full sm:max-w-[560px] p-0 bg-[#F7F8FA] border-l border-[#2C3340]/10",
                   "flex flex-col h-full",
                 ),
                 children: [
                   (0, a.jsxs)("div", {
                     className:
-                      "flex-shrink-0 bg-gradient-to-br from-[#F4991A] via-[#F5A733] to-[#E5890F] p-6 relative overflow-hidden",
+                      "flex-shrink-0 bg-gradient-to-br from-[#5D5DE9] via-[#F5A733] to-[#2C3340] p-6 relative overflow-hidden",
                     children: [
                       (0, a.jsx)("div", {
                         className:
@@ -2171,7 +2171,7 @@
                                 className:
                                   "w-16 h-16 rounded-xl bg-white shadow-lg flex items-center justify-center flex-shrink-0",
                                 children: (0, a.jsx)(J.A, {
-                                  className: "w-8 h-8 text-[#F4991A]",
+                                  className: "w-8 h-8 text-[#5D5DE9]",
                                 }),
                               }),
                           (0, a.jsxs)("div", {
@@ -2234,7 +2234,7 @@
                     ],
                   }),
                   (0, a.jsx)("div", {
-                    className: "flex-shrink-0 bg-[#F2EAD3] px-6 py-3",
+                    className: "flex-shrink-0 bg-[#EEF0F4] px-6 py-3",
                     children: (0, a.jsxs)("div", {
                       className: "grid grid-cols-2 gap-2",
                       children: [
@@ -2244,21 +2244,21 @@
                           children: [
                             (0, a.jsx)("div", {
                               className:
-                                "w-7 h-7 bg-[#F4991A]/10 rounded-lg flex items-center justify-center flex-shrink-0",
+                                "w-7 h-7 bg-[#5D5DE9]/10 rounded-lg flex items-center justify-center flex-shrink-0",
                               children: (0, a.jsx)(B.A, {
-                                className: "w-3.5 h-3.5 text-[#F4991A]",
+                                className: "w-3.5 h-3.5 text-[#5D5DE9]",
                               }),
                             }),
                             (0, a.jsxs)("div", {
                               className: "min-w-0",
                               children: [
                                 (0, a.jsx)("p", {
-                                  className: "text-[10px] text-[#344F1F]/60",
+                                  className: "text-[10px] text-[#2C3340]/60",
                                   children: j.startDate,
                                 }),
                                 (0, a.jsx)("p", {
                                   className:
-                                    "text-xs font-semibold text-[#344F1F] truncate",
+                                    "text-xs font-semibold text-[#2C3340] truncate",
                                   children: (x = u.start_date)
                                     ? new Date(x).toLocaleDateString(
                                         "de" === b ? "de-DE" : "en-US",
@@ -2276,21 +2276,21 @@
                           children: [
                             (0, a.jsx)("div", {
                               className:
-                                "w-7 h-7 bg-[#344F1F]/10 rounded-lg flex items-center justify-center flex-shrink-0",
+                                "w-7 h-7 bg-[#2C3340]/10 rounded-lg flex items-center justify-center flex-shrink-0",
                               children: (0, a.jsx)(m.A, {
-                                className: "w-3.5 h-3.5 text-[#344F1F]",
+                                className: "w-3.5 h-3.5 text-[#2C3340]",
                               }),
                             }),
                             (0, a.jsxs)("div", {
                               className: "min-w-0",
                               children: [
                                 (0, a.jsx)("p", {
-                                  className: "text-[10px] text-[#344F1F]/60",
+                                  className: "text-[10px] text-[#2C3340]/60",
                                   children: j.duration,
                                 }),
                                 (0, a.jsxs)("p", {
                                   className:
-                                    "text-xs font-semibold text-[#344F1F] truncate",
+                                    "text-xs font-semibold text-[#2C3340] truncate",
                                   children: [
                                     u.duration_months || 36,
                                     " ",
@@ -2307,21 +2307,21 @@
                           children: [
                             (0, a.jsx)("div", {
                               className:
-                                "w-7 h-7 bg-[#F4991A]/10 rounded-lg flex items-center justify-center flex-shrink-0",
+                                "w-7 h-7 bg-[#5D5DE9]/10 rounded-lg flex items-center justify-center flex-shrink-0",
                               children: (0, a.jsx)(ej.A, {
-                                className: "w-3.5 h-3.5 text-[#F4991A]",
+                                className: "w-3.5 h-3.5 text-[#5D5DE9]",
                               }),
                             }),
                             (0, a.jsxs)("div", {
                               className: "min-w-0",
                               children: [
                                 (0, a.jsx)("p", {
-                                  className: "text-[10px] text-[#344F1F]/60",
+                                  className: "text-[10px] text-[#2C3340]/60",
                                   children: j.sector,
                                 }),
                                 (0, a.jsx)("p", {
                                   className:
-                                    "text-xs font-semibold text-[#344F1F] truncate",
+                                    "text-xs font-semibold text-[#2C3340] truncate",
                                   children: u.sector,
                                 }),
                               ],
@@ -2334,21 +2334,21 @@
                           children: [
                             (0, a.jsx)("div", {
                               className:
-                                "w-7 h-7 bg-[#344F1F]/10 rounded-lg flex items-center justify-center flex-shrink-0",
+                                "w-7 h-7 bg-[#2C3340]/10 rounded-lg flex items-center justify-center flex-shrink-0",
                               children: (0, a.jsx)(eT.A, {
-                                className: "w-3.5 h-3.5 text-[#344F1F]",
+                                className: "w-3.5 h-3.5 text-[#2C3340]",
                               }),
                             }),
                             (0, a.jsxs)("div", {
                               className: "min-w-0",
                               children: [
                                 (0, a.jsx)("p", {
-                                  className: "text-[10px] text-[#344F1F]/60",
+                                  className: "text-[10px] text-[#2C3340]/60",
                                   children: j.salary,
                                 }),
                                 (0, a.jsx)("p", {
                                   className:
-                                    "text-xs font-semibold text-[#344F1F] truncate",
+                                    "text-xs font-semibold text-[#2C3340] truncate",
                                   children:
                                     u.salary_min && u.salary_max
                                       ? "€"
@@ -2374,11 +2374,11 @@
                         q &&
                           (0, a.jsxs)("div", {
                             className:
-                              "bg-white rounded-xl p-4 border border-[#344F1F]/10",
+                              "bg-white rounded-xl p-4 border border-[#2C3340]/10",
                             children: [
                               (0, a.jsx)("h3", {
                                 className:
-                                  "text-sm font-semibold text-[#344F1F] mb-3",
+                                  "text-sm font-semibold text-[#2C3340] mb-3",
                                 children: j.aboutJob,
                               }),
                               eG(q),
@@ -2387,11 +2387,11 @@
                         M &&
                           (0, a.jsxs)("div", {
                             className:
-                              "bg-white rounded-xl p-4 border border-[#344F1F]/10",
+                              "bg-white rounded-xl p-4 border border-[#2C3340]/10",
                             children: [
                               (0, a.jsx)("h3", {
                                 className:
-                                  "text-sm font-semibold text-[#344F1F] mb-3",
+                                  "text-sm font-semibold text-[#2C3340] mb-3",
                                 children: j.requirements,
                               }),
                               eG(M),
@@ -2400,11 +2400,11 @@
                         K &&
                           (0, a.jsxs)("div", {
                             className:
-                              "bg-[#F2EAD3] rounded-xl p-4 border border-[#F4991A]/20",
+                              "bg-[#EEF0F4] rounded-xl p-4 border border-[#5D5DE9]/20",
                             children: [
                               (0, a.jsx)("h3", {
                                 className:
-                                  "text-sm font-semibold text-[#344F1F] mb-3",
+                                  "text-sm font-semibold text-[#2C3340] mb-3",
                                 children: j.benefits,
                               }),
                               eG(K),
@@ -2481,59 +2481,59 @@
                           );
                           return (0, a.jsxs)("div", {
                             className:
-                              "bg-white rounded-xl border border-[#344F1F]/10 overflow-hidden",
+                              "bg-white rounded-xl border border-[#2C3340]/10 overflow-hidden",
                             children: [
                               (0, a.jsxs)("button", {
                                 onClick: () => C(!E),
                                 className:
-                                  "w-full p-4 flex items-center justify-between hover:bg-[#F9F5F0] transition-colors",
+                                  "w-full p-4 flex items-center justify-between hover:bg-[#F7F8FA] transition-colors",
                                 children: [
                                   (0, a.jsxs)("div", {
                                     className: "flex items-center gap-3",
                                     children: [
                                       (0, a.jsx)("div", {
                                         className:
-                                          "w-8 h-8 bg-[#F4991A]/10 rounded-lg flex items-center justify-center",
+                                          "w-8 h-8 bg-[#5D5DE9]/10 rounded-lg flex items-center justify-center",
                                         children: (0, a.jsx)(eJ.A, {
-                                          className: "w-4 h-4 text-[#F4991A]",
+                                          className: "w-4 h-4 text-[#5D5DE9]",
                                         }),
                                       }),
                                       (0, a.jsx)("span", {
                                         className:
-                                          "text-sm font-semibold text-[#344F1F]",
+                                          "text-sm font-semibold text-[#2C3340]",
                                         children: j.whatToExpect,
                                       }),
                                     ],
                                   }),
                                   E
                                     ? (0, a.jsx)(eP.A, {
-                                        className: "w-5 h-5 text-[#344F1F]/60",
+                                        className: "w-5 h-5 text-[#2C3340]/60",
                                       })
                                     : (0, a.jsx)(eB.A, {
-                                        className: "w-5 h-5 text-[#344F1F]/60",
+                                        className: "w-5 h-5 text-[#2C3340]/60",
                                       }),
                                 ],
                               }),
                               E &&
                                 (0, a.jsxs)("div", {
                                   className:
-                                    "px-4 pb-4 space-y-4 border-t border-[#344F1F]/10",
+                                    "px-4 pb-4 space-y-4 border-t border-[#2C3340]/10",
                                   children: [
                                     (0, a.jsxs)("div", {
                                       className: "grid grid-cols-3 gap-2 pt-4",
                                       children: [
                                         (0, a.jsxs)("div", {
                                           className:
-                                            "text-center p-2 bg-[#F9F5F0] rounded-lg",
+                                            "text-center p-2 bg-[#F7F8FA] rounded-lg",
                                           children: [
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-[10px] text-[#344F1F]/60 uppercase tracking-wide",
+                                                "text-[10px] text-[#2C3340]/60 uppercase tracking-wide",
                                               children: j.applicationMethod,
                                             }),
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-xs font-semibold text-[#344F1F] mt-1",
+                                                "text-xs font-semibold text-[#2C3340] mt-1",
                                               children:
                                                 "de" === b
                                                   ? t.method_label_de
@@ -2543,16 +2543,16 @@
                                         }),
                                         (0, a.jsxs)("div", {
                                           className:
-                                            "text-center p-2 bg-[#F9F5F0] rounded-lg",
+                                            "text-center p-2 bg-[#F7F8FA] rounded-lg",
                                           children: [
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-[10px] text-[#344F1F]/60 uppercase tracking-wide",
+                                                "text-[10px] text-[#2C3340]/60 uppercase tracking-wide",
                                               children: j.estimatedTime,
                                             }),
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-xs font-semibold text-[#344F1F] mt-1",
+                                                "text-xs font-semibold text-[#2C3340] mt-1",
                                               children:
                                                 "de" === b
                                                   ? t.estimated_time_de
@@ -2562,16 +2562,16 @@
                                         }),
                                         (0, a.jsxs)("div", {
                                           className:
-                                            "text-center p-2 bg-[#F9F5F0] rounded-lg",
+                                            "text-center p-2 bg-[#F7F8FA] rounded-lg",
                                           children: [
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-[10px] text-[#344F1F]/60 uppercase tracking-wide",
+                                                "text-[10px] text-[#2C3340]/60 uppercase tracking-wide",
                                               children: j.responseTime,
                                             }),
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-xs font-semibold text-[#F4991A] mt-1",
+                                                "text-xs font-semibold text-[#5D5DE9] mt-1",
                                               children:
                                                 "de" === b
                                                   ? t.response_time_de
@@ -2585,7 +2585,7 @@
                                       children: [
                                         (0, a.jsx)("h4", {
                                           className:
-                                            "text-xs font-semibold text-[#344F1F] mb-2",
+                                            "text-xs font-semibold text-[#2C3340] mb-2",
                                           children: j.youWillNeed,
                                         }),
                                         (0, a.jsx)("div", {
@@ -2601,17 +2601,17 @@
                                                     e.required
                                                       ? (0, a.jsx)(eR.A, {
                                                           className:
-                                                            "w-4 h-4 text-[#344F1F]",
+                                                            "w-4 h-4 text-[#2C3340]",
                                                         })
                                                       : (0, a.jsx)(ez.A, {
                                                           className:
-                                                            "w-4 h-4 text-[#344F1F]/40",
+                                                            "w-4 h-4 text-[#2C3340]/40",
                                                         }),
                                                     (0, a.jsx)("span", {
                                                       className: (0, c.cn)(
-                                                        "text-[#344F1F]",
+                                                        "text-[#2C3340]",
                                                         !e.required &&
-                                                          "text-[#344F1F]/60",
+                                                          "text-[#2C3340]/60",
                                                       ),
                                                       children:
                                                         "de" === b
@@ -2621,7 +2621,7 @@
                                                     !e.required &&
                                                       (0, a.jsxs)("span", {
                                                         className:
-                                                          "text-[10px] text-[#344F1F]/40",
+                                                          "text-[10px] text-[#2C3340]/40",
                                                         children: [
                                                           "(",
                                                           j.recommended,
@@ -2639,11 +2639,11 @@
                                     t.tips.length > 0 &&
                                       (0, a.jsxs)("div", {
                                         className:
-                                          "pt-3 border-t border-[#344F1F]/10",
+                                          "pt-3 border-t border-[#2C3340]/10",
                                         children: [
                                           (0, a.jsx)("h4", {
                                             className:
-                                              "text-xs font-semibold text-[#344F1F] mb-2",
+                                              "text-xs font-semibold text-[#2C3340] mb-2",
                                             children: j.tips,
                                           }),
                                           (0, a.jsx)("ul", {
@@ -2659,7 +2659,7 @@
                                                   "li",
                                                   {
                                                     className:
-                                                      "text-xs text-[#344F1F]/70 pl-3 border-l-2 border-[#F4991A]/30",
+                                                      "text-xs text-[#2C3340]/70 pl-3 border-l-2 border-[#5D5DE9]/30",
                                                     children: e,
                                                   },
                                                   t,
@@ -2675,7 +2675,7 @@
                                         children: [
                                           (0, a.jsx)("span", {
                                             className:
-                                              "text-[10px] text-[#344F1F]/50",
+                                              "text-[10px] text-[#2C3340]/50",
                                             children:
                                               "de" === b
                                                 ? "Bewerbungssystem:"
@@ -2684,7 +2684,7 @@
                                           (0, a.jsx)(X.E, {
                                             variant: "outline",
                                             className:
-                                              "text-[10px] border-[#344F1F]/20 text-[#344F1F]/70",
+                                              "text-[10px] border-[#2C3340]/20 text-[#2C3340]/70",
                                             children: t.ats_platform,
                                           }),
                                         ],
@@ -2696,11 +2696,11 @@
                         })(),
                         (0, a.jsxs)("div", {
                           className:
-                            "bg-white rounded-xl p-4 border border-[#344F1F]/10",
+                            "bg-white rounded-xl p-4 border border-[#2C3340]/10",
                           children: [
                             (0, a.jsx)("h3", {
                               className:
-                                "text-sm font-semibold text-[#344F1F] mb-3",
+                                "text-sm font-semibold text-[#2C3340] mb-3",
                               children: j.company,
                             }),
                             (0, a.jsxs)("div", {
@@ -2711,11 +2711,11 @@
                                     "flex items-center justify-between text-sm",
                                   children: [
                                     (0, a.jsx)("span", {
-                                      className: "text-[#344F1F]/60",
+                                      className: "text-[#2C3340]/60",
                                       children: j.company,
                                     }),
                                     (0, a.jsx)("span", {
-                                      className: "text-[#344F1F] font-medium",
+                                      className: "text-[#2C3340] font-medium",
                                       children: L,
                                     }),
                                   ],
@@ -2726,11 +2726,11 @@
                                       "flex items-center justify-between text-sm",
                                     children: [
                                       (0, a.jsx)("span", {
-                                        className: "text-[#344F1F]/60",
+                                        className: "text-[#2C3340]/60",
                                         children: j.location,
                                       }),
                                       (0, a.jsxs)("span", {
-                                        className: "text-[#344F1F] font-medium",
+                                        className: "text-[#2C3340] font-medium",
                                         children: [
                                           u.city,
                                           u.state ? ", ".concat(u.state) : "",
@@ -2746,11 +2746,11 @@
                                       "flex items-center justify-between text-sm",
                                     children: [
                                       (0, a.jsx)("span", {
-                                        className: "text-[#344F1F]/60",
+                                        className: "text-[#2C3340]/60",
                                         children: j.companySize,
                                       }),
                                       (0, a.jsxs)("span", {
-                                        className: "text-[#344F1F] font-medium",
+                                        className: "text-[#2C3340] font-medium",
                                         children: [
                                           u.employer.company_size,
                                           " ",
@@ -2768,22 +2768,22 @@
                                 : n.company_website)) &&
                               (0, a.jsxs)("div", {
                                 className:
-                                  "mt-4 pt-4 border-t border-[#344F1F]/10 space-y-2",
+                                  "mt-4 pt-4 border-t border-[#2C3340]/10 space-y-2",
                                 children: [
                                   (0, a.jsx)("h4", {
                                     className:
-                                      "text-xs font-semibold text-[#344F1F] mb-2",
+                                      "text-xs font-semibold text-[#2C3340] mb-2",
                                     children: j.contact,
                                   }),
                                   u.contact_email &&
                                     (0, a.jsxs)("a", {
                                       href: "mailto:".concat(u.contact_email),
                                       className:
-                                        "flex items-center gap-2 text-xs text-[#344F1F] hover:text-[#F4991A] transition-colors",
+                                        "flex items-center gap-2 text-xs text-[#2C3340] hover:text-[#5D5DE9] transition-colors",
                                       children: [
                                         (0, a.jsx)(eI.A, {
                                           className:
-                                            "w-3.5 h-3.5 text-[#F4991A]",
+                                            "w-3.5 h-3.5 text-[#5D5DE9]",
                                         }),
                                         u.contact_email,
                                       ],
@@ -2792,11 +2792,11 @@
                                     (0, a.jsxs)("a", {
                                       href: "tel:".concat(u.contact_phone),
                                       className:
-                                        "flex items-center gap-2 text-xs text-[#344F1F] hover:text-[#F4991A] transition-colors",
+                                        "flex items-center gap-2 text-xs text-[#2C3340] hover:text-[#5D5DE9] transition-colors",
                                       children: [
                                         (0, a.jsx)(eO.A, {
                                           className:
-                                            "w-3.5 h-3.5 text-[#F4991A]",
+                                            "w-3.5 h-3.5 text-[#5D5DE9]",
                                         }),
                                         u.contact_phone,
                                       ],
@@ -2809,11 +2809,11 @@
                                       target: "_blank",
                                       rel: "noopener noreferrer",
                                       className:
-                                        "flex items-center gap-2 text-xs text-[#344F1F] hover:text-[#F4991A] transition-colors",
+                                        "flex items-center gap-2 text-xs text-[#2C3340] hover:text-[#5D5DE9] transition-colors",
                                       children: [
                                         (0, a.jsx)(el.A, {
                                           className:
-                                            "w-3.5 h-3.5 text-[#F4991A]",
+                                            "w-3.5 h-3.5 text-[#5D5DE9]",
                                         }),
                                         u.employer.company_website
                                           .replace(/^https?:\/\/(www\.)?/, "")
@@ -2829,7 +2829,7 @@
                   }),
                   (0, a.jsxs)("div", {
                     className:
-                      "flex-shrink-0 p-4 bg-white border-t border-[#344F1F]/10 space-y-2",
+                      "flex-shrink-0 p-4 bg-white border-t border-[#2C3340]/10 space-y-2",
                     children: [
                       (0, a.jsxs)("div", {
                         className: "flex gap-2",
@@ -2847,8 +2847,8 @@
                                 },
                                 className: (0, c.cn)(
                                   "flex-1 h-12 rounded-full",
-                                  "bg-[#344F1F] hover:bg-[#2a3f19] text-white font-semibold",
-                                  "shadow-[0_4px_12px_rgba(52,79,31,0.3)]",
+                                  "bg-[#2C3340] hover:bg-[#1E242E] text-white font-semibold",
+                                  "shadow-[0_4px_12px_rgba(44,51,64,0.3)]",
                                   "transition-all duration-200",
                                 ),
                                 children: [
@@ -2865,8 +2865,8 @@
                                 onClick: () => S(!0),
                                 className: (0, c.cn)(
                                   "flex-1 h-12 rounded-full",
-                                  "bg-[#F4991A] hover:bg-[#E5890F] text-white font-semibold",
-                                  "shadow-[0_4px_12px_rgba(244,153,26,0.3)]",
+                                  "bg-[#5D5DE9] hover:bg-[#2C3340] text-white font-semibold",
+                                  "shadow-[0_4px_12px_rgba(93,93,233,0.3)]",
                                   "transition-all duration-200",
                                 ),
                                 children: [
@@ -2887,8 +2887,8 @@
                               "h-12 w-12 rounded-full p-0 flex-shrink-0",
                               "border-2 transition-all duration-200",
                               v
-                                ? "bg-[#F4991A] border-[#F4991A] text-white hover:bg-[#E5890F] hover:border-[#E5890F] hover:text-white"
-                                : "border-[#344F1F]/20 text-[#344F1F] hover:border-[#F4991A] hover:text-[#F4991A]",
+                                ? "bg-[#5D5DE9] border-[#5D5DE9] text-white hover:bg-[#2C3340] hover:border-[#2C3340] hover:text-white"
+                                : "border-[#2C3340]/20 text-[#2C3340] hover:border-[#5D5DE9] hover:text-[#5D5DE9]",
                             ),
                             children: y
                               ? (0, a.jsx)(en.A, {
@@ -2911,8 +2911,8 @@
                             ),
                           className: (0, c.cn)(
                             "w-full h-10 rounded-full",
-                            "border-2 border-[#344F1F]/20 text-[#344F1F]",
-                            "hover:border-[#344F1F] hover:bg-[#344F1F] hover:text-white",
+                            "border-2 border-[#2C3340]/20 text-[#2C3340]",
+                            "hover:border-[#2C3340] hover:bg-[#2C3340] hover:text-white",
                             "transition-all duration-200 text-sm",
                           ),
                           children: [
@@ -3154,8 +3154,8 @@
               initial: { opacity: 0, y: 10 },
               animate: { opacity: 1, y: 0 },
               className: (0, c.cn)(
-                "group relative bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl p-4",
-                "hover:border-[#F4991A]/50 hover:shadow-[0_4px_12px_rgba(244,153,26,0.1)]",
+                "group relative bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl p-4",
+                "hover:border-[#5D5DE9]/50 hover:shadow-[0_4px_12px_rgba(93,93,233,0.1)]",
                 "transition-all duration-200 cursor-pointer",
               ),
               onClick: () => es(e),
@@ -3172,7 +3172,7 @@
                       )
                         ? (0, a.jsx)("div", {
                             className:
-                              "w-12 h-12 rounded-lg overflow-hidden bg-[#F2EAD3]",
+                              "w-12 h-12 rounded-lg overflow-hidden bg-[#EEF0F4]",
                             children: (0, a.jsx)(ee.OptimizedImage, {
                               src: e.employer.company_logo_url,
                               alt: r,
@@ -3183,7 +3183,7 @@
                           })
                         : (0, a.jsx)("div", {
                             className:
-                              "w-12 h-12 rounded-lg bg-[#F4991A] flex items-center justify-center",
+                              "w-12 h-12 rounded-lg bg-[#5D5DE9] flex items-center justify-center",
                             children: (0, a.jsx)(J.A, {
                               className: "w-6 h-6 text-white",
                             }),
@@ -3197,13 +3197,13 @@
                           children: [
                             (0, a.jsx)("h4", {
                               className:
-                                "font-semibold text-[#344F1F] text-sm line-clamp-1 group-hover:text-[#F4991A] transition-colors",
+                                "font-semibold text-[#2C3340] text-sm line-clamp-1 group-hover:text-[#5D5DE9] transition-colors",
                               children: n,
                             }),
                             t &&
                               (0, a.jsxs)(X.E, {
                                 className:
-                                  "bg-[#344F1F] text-white text-[10px] px-2 py-0.5 flex-shrink-0",
+                                  "bg-[#2C3340] text-white text-[10px] px-2 py-0.5 flex-shrink-0",
                                 children: [
                                   (0, a.jsx)(er.A, {
                                     className: "w-2.5 h-2.5 mr-1 fill-current",
@@ -3216,17 +3216,17 @@
                         }),
                         (0, a.jsxs)("p", {
                           className:
-                            "text-xs text-[#344F1F]/70 mt-0.5 flex items-center gap-1",
+                            "text-xs text-[#2C3340]/70 mt-0.5 flex items-center gap-1",
                           children: [
                             (0, a.jsx)(J.A, {
-                              className: "w-3 h-3 text-[#F4991A]",
+                              className: "w-3 h-3 text-[#5D5DE9]",
                             }),
                             r,
                           ],
                         }),
                         (0, a.jsxs)("div", {
                           className:
-                            "flex items-center gap-3 mt-2 text-[10px] text-[#344F1F]/60",
+                            "flex items-center gap-3 mt-2 text-[10px] text-[#2C3340]/60",
                           children: [
                             e.city &&
                               (0, a.jsxs)("span", {
@@ -3248,7 +3248,7 @@
                               (0, a.jsx)(X.E, {
                                 variant: "secondary",
                                 className:
-                                  "text-[10px] px-1.5 py-0 h-4 bg-[#F2EAD3] text-[#344F1F]",
+                                  "text-[10px] px-1.5 py-0 h-4 bg-[#EEF0F4] text-[#2C3340]",
                                 children: (function (e) {
                                   let t =
                                     arguments.length > 1 &&
@@ -3266,27 +3266,27 @@
                       className: "flex items-center",
                       children: (0, a.jsx)(z.A, {
                         className:
-                          "w-5 h-5 text-[#344F1F]/30 group-hover:text-[#F4991A] group-hover:translate-x-1 transition-all",
+                          "w-5 h-5 text-[#2C3340]/30 group-hover:text-[#5D5DE9] group-hover:translate-x-1 transition-all",
                       }),
                     }),
                   ],
                 }),
                 (0, a.jsxs)("div", {
                   className:
-                    "mt-3 pt-3 border-t border-[#344F1F]/10 flex items-center justify-between gap-2",
+                    "mt-3 pt-3 border-t border-[#2C3340]/10 flex items-center justify-between gap-2",
                   children: [
                     (0, a.jsxs)("div", {
                       className: "flex items-center gap-2",
                       children: [
                         (0, a.jsx)(X.E, {
                           className:
-                            "bg-[rgba(244,153,26,0.1)] text-[#F4991A] text-[10px] sm:text-[11px] px-2 py-0.5 flex-shrink-0",
+                            "bg-[rgba(93,93,233,0.1)] text-[#5D5DE9] text-[10px] sm:text-[11px] px-2 py-0.5 flex-shrink-0",
                           children: e.sector,
                         }),
                         $[e.id] &&
                           (0, a.jsxs)(X.E, {
                             className:
-                              "bg-[#344F1F]/10 text-[#344F1F] text-[10px] px-2 py-0.5 flex items-center gap-1",
+                              "bg-[#2C3340]/10 text-[#2C3340] text-[10px] px-2 py-0.5 flex items-center gap-1",
                             children: [
                               (0, a.jsx)(eE.A, { className: "w-3 h-3" }),
                               x.applied,
@@ -3308,7 +3308,7 @@
                           },
                           className: (0, c.cn)(
                             "h-8 sm:h-7 px-3 sm:px-2.5 rounded-full text-[11px] sm:text-[10px] font-medium",
-                            "bg-[#344F1F] hover:bg-[#2a3f19] text-white",
+                            "bg-[#2C3340] hover:bg-[#1E242E] text-white",
                             "shadow-sm hover:shadow-md transition-all",
                             "min-w-[44px]",
                           ),
@@ -3332,7 +3332,7 @@
                           onClick: (t) => eo(e, t),
                           className: (0, c.cn)(
                             "h-8 sm:h-7 px-3 sm:px-2.5 rounded-full text-[11px] sm:text-[10px] font-medium",
-                            "bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                            "bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                             "shadow-sm hover:shadow-md transition-all",
                             "min-w-[44px]",
                           ),
@@ -3364,14 +3364,14 @@
               children: (0, a.jsxs)(e_.h, {
                 side: "right",
                 className: (0, c.cn)(
-                  "w-full sm:max-w-[540px] p-0 bg-[#F9F5F0] border-l border-[#344F1F]/10",
+                  "w-full sm:max-w-[540px] p-0 bg-[#F7F8FA] border-l border-[#2C3340]/10",
                   "flex flex-col h-full",
                   "[&>button]:hidden",
                 ),
                 children: [
                   (0, a.jsxs)("div", {
                     className:
-                      "flex-shrink-0 p-6 pb-4 bg-gradient-to-br from-[#344F1F] to-[#2a3f19] relative",
+                      "flex-shrink-0 p-6 pb-4 bg-gradient-to-br from-[#2C3340] to-[#1E242E] relative",
                     children: [
                       (0, a.jsx)("button", {
                         onClick: () => i(!1),
@@ -3422,14 +3422,14 @@
                     children: [
                       (0, a.jsxs)(ek.TabsList, {
                         className:
-                          "flex-shrink-0 mx-6 mt-4 bg-white rounded-full p-1 h-auto border border-[#344F1F]/10",
+                          "flex-shrink-0 mx-6 mt-4 bg-white rounded-full p-1 h-auto border border-[#2C3340]/10",
                         children: [
                           (0, a.jsxs)(ek.TabsTrigger, {
                             value: "recommended",
                             className: (0, c.cn)(
                               "flex-1 rounded-full py-2 text-xs font-medium transition-all",
-                              "data-[state=active]:bg-[#F4991A] data-[state=active]:text-white",
-                              "data-[state=inactive]:text-[#344F1F]/60",
+                              "data-[state=active]:bg-[#5D5DE9] data-[state=active]:text-white",
+                              "data-[state=inactive]:text-[#2C3340]/60",
                             ),
                             children: [
                               (0, a.jsx)(ei.A, {
@@ -3442,8 +3442,8 @@
                             value: "browse",
                             className: (0, c.cn)(
                               "flex-1 rounded-full py-2 text-xs font-medium transition-all",
-                              "data-[state=active]:bg-[#F4991A] data-[state=active]:text-white",
-                              "data-[state=inactive]:text-[#344F1F]/60",
+                              "data-[state=active]:bg-[#5D5DE9] data-[state=active]:text-white",
+                              "data-[state=inactive]:text-[#2C3340]/60",
                             ),
                             children: [
                               (0, a.jsx)(et.A, {
@@ -3456,8 +3456,8 @@
                             value: "external",
                             className: (0, c.cn)(
                               "flex-1 rounded-full py-2 text-xs font-medium transition-all",
-                              "data-[state=active]:bg-[#F4991A] data-[state=active]:text-white",
-                              "data-[state=inactive]:text-[#344F1F]/60",
+                              "data-[state=active]:bg-[#5D5DE9] data-[state=active]:text-white",
+                              "data-[state=inactive]:text-[#2C3340]/60",
                             ),
                             children: [
                               (0, a.jsx)(el.A, {
@@ -3486,11 +3486,11 @@
                                       children: [
                                         (0, a.jsx)(en.A, {
                                           className:
-                                            "w-8 h-8 animate-spin text-[#F4991A] mb-3",
+                                            "w-8 h-8 animate-spin text-[#5D5DE9] mb-3",
                                         }),
                                         (0, a.jsx)("p", {
                                           className:
-                                            "text-sm text-[#344F1F]/60",
+                                            "text-sm text-[#2C3340]/60",
                                           children: x.loadingRecommendations,
                                         }),
                                       ],
@@ -3498,29 +3498,29 @@
                                   : y
                                     ? (0, a.jsxs)("div", {
                                         className:
-                                          "text-center py-8 px-4 bg-white rounded-xl border-2 border-dashed border-[#F4991A]/30",
+                                          "text-center py-8 px-4 bg-white rounded-xl border-2 border-dashed border-[#5D5DE9]/30",
                                         children: [
                                           (0, a.jsx)("div", {
                                             className:
-                                              "w-16 h-16 rounded-full bg-[#F4991A]/10 flex items-center justify-center mx-auto mb-4",
+                                              "w-16 h-16 rounded-full bg-[#5D5DE9]/10 flex items-center justify-center mx-auto mb-4",
                                             children: (0, a.jsx)(R.A, {
                                               className:
-                                                "w-8 h-8 text-[#F4991A]",
+                                                "w-8 h-8 text-[#5D5DE9]",
                                             }),
                                           }),
                                           (0, a.jsx)("h3", {
                                             className:
-                                              "font-semibold text-[#344F1F] mb-2",
+                                              "font-semibold text-[#2C3340] mb-2",
                                             children: x.noRecommendations,
                                           }),
                                           (0, a.jsx)("p", {
                                             className:
-                                              "text-sm text-[#344F1F]/60 mb-4",
+                                              "text-sm text-[#2C3340]/60 mb-4",
                                             children: x.noRecommendationsDesc,
                                           }),
                                           (0, a.jsxs)(g.$, {
                                             className:
-                                              "rounded-full bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                                              "rounded-full bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                                             onClick: () => {
                                               (i(!1),
                                                 (window.location.href =
@@ -3541,20 +3541,20 @@
                                           children: [
                                             (0, a.jsx)("div", {
                                               className:
-                                                "w-16 h-16 rounded-full bg-[#F2EAD3] flex items-center justify-center mx-auto mb-4",
+                                                "w-16 h-16 rounded-full bg-[#EEF0F4] flex items-center justify-center mx-auto mb-4",
                                               children: (0, a.jsx)(ei.A, {
                                                 className:
-                                                  "w-8 h-8 text-[#344F1F]/40",
+                                                  "w-8 h-8 text-[#2C3340]/40",
                                               }),
                                             }),
                                             (0, a.jsx)("h3", {
                                               className:
-                                                "font-semibold text-[#344F1F] mb-2",
+                                                "font-semibold text-[#2C3340] mb-2",
                                               children: x.noRecommendations,
                                             }),
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-sm text-[#344F1F]/60",
+                                                "text-sm text-[#2C3340]/60",
                                               children: x.noRecommendationsDesc,
                                             }),
                                           ],
@@ -3567,11 +3567,11 @@
                                               children: [
                                                 (0, a.jsx)(h.A, {
                                                   className:
-                                                    "w-4 h-4 text-[#F4991A]",
+                                                    "w-4 h-4 text-[#5D5DE9]",
                                                 }),
                                                 (0, a.jsx)("span", {
                                                   className:
-                                                    "text-sm font-semibold text-[#344F1F]",
+                                                    "text-sm font-semibold text-[#2C3340]",
                                                   children: x.topMatches,
                                                 }),
                                               ],
@@ -3609,7 +3609,7 @@
                                     children: [
                                       (0, a.jsx)(et.A, {
                                         className:
-                                          "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#344F1F]/40",
+                                          "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#2C3340]/40",
                                       }),
                                       (0, a.jsx)(eu.p, {
                                         placeholder: x.searchPlaceholder,
@@ -3617,9 +3617,9 @@
                                         onChange: (e) => k(e.target.value),
                                         className: (0, c.cn)(
                                           "pl-10 pr-4 h-11 rounded-full",
-                                          "bg-white border-2 border-[#344F1F]/10",
-                                          "focus:border-[#F4991A] focus:ring-[#F4991A]/20",
-                                          "text-sm placeholder:text-[#344F1F]/40",
+                                          "bg-white border-2 border-[#2C3340]/10",
+                                          "focus:border-[#5D5DE9] focus:ring-[#5D5DE9]/20",
+                                          "text-sm placeholder:text-[#2C3340]/40",
                                         ),
                                       }),
                                     ],
@@ -3627,7 +3627,7 @@
                                   T > 0 &&
                                     (0, a.jsxs)("p", {
                                       className:
-                                        "text-xs text-[#344F1F]/60 mt-2",
+                                        "text-xs text-[#2C3340]/60 mt-2",
                                       children: [
                                         T.toLocaleString(),
                                         " ",
@@ -3649,11 +3649,11 @@
                                         children: [
                                           (0, a.jsx)(en.A, {
                                             className:
-                                              "w-8 h-8 animate-spin text-[#F4991A] mb-3",
+                                              "w-8 h-8 animate-spin text-[#5D5DE9] mb-3",
                                           }),
                                           (0, a.jsx)("p", {
                                             className:
-                                              "text-sm text-[#344F1F]/60",
+                                              "text-sm text-[#2C3340]/60",
                                             children: x.loadingJobs,
                                           }),
                                         ],
@@ -3664,20 +3664,20 @@
                                           children: [
                                             (0, a.jsx)("div", {
                                               className:
-                                                "w-16 h-16 rounded-full bg-[#F2EAD3] flex items-center justify-center mx-auto mb-4",
+                                                "w-16 h-16 rounded-full bg-[#EEF0F4] flex items-center justify-center mx-auto mb-4",
                                               children: (0, a.jsx)(et.A, {
                                                 className:
-                                                  "w-8 h-8 text-[#344F1F]/40",
+                                                  "w-8 h-8 text-[#2C3340]/40",
                                               }),
                                             }),
                                             (0, a.jsx)("h3", {
                                               className:
-                                                "font-semibold text-[#344F1F] mb-2",
+                                                "font-semibold text-[#2C3340] mb-2",
                                               children: x.noJobsFound,
                                             }),
                                             (0, a.jsx)("p", {
                                               className:
-                                                "text-sm text-[#344F1F]/60 mb-4",
+                                                "text-sm text-[#2C3340]/60 mb-4",
                                               children: x.noJobsFoundDesc,
                                             }),
                                             _ &&
@@ -3697,11 +3697,11 @@
                                               children: [
                                                 (0, a.jsx)(m.A, {
                                                   className:
-                                                    "w-4 h-4 text-[#F4991A]",
+                                                    "w-4 h-4 text-[#5D5DE9]",
                                                 }),
                                                 (0, a.jsx)("span", {
                                                   className:
-                                                    "text-sm font-semibold text-[#344F1F]",
+                                                    "text-sm font-semibold text-[#2C3340]",
                                                   children: x.recentJobs,
                                                 }),
                                               ],
@@ -3716,7 +3716,7 @@
                                             (0, a.jsxs)(g.$, {
                                               variant: "outline",
                                               className:
-                                                "w-full rounded-full border-2 border-[#344F1F]/20 text-[#344F1F] mt-4",
+                                                "w-full rounded-full border-2 border-[#2C3340]/20 text-[#2C3340] mt-4",
                                               onClick: () => {
                                                 (i(!1),
                                                   (window.location.href =
@@ -3745,28 +3745,28 @@
                                 className: "p-6",
                                 children: (0, a.jsxs)("div", {
                                   className:
-                                    "text-center py-8 px-4 bg-white rounded-xl border-2 border-dashed border-[#344F1F]/20",
+                                    "text-center py-8 px-4 bg-white rounded-xl border-2 border-dashed border-[#2C3340]/20",
                                   children: [
                                     (0, a.jsx)("div", {
                                       className:
-                                        "w-16 h-16 rounded-full bg-[#F2EAD3] flex items-center justify-center mx-auto mb-4",
+                                        "w-16 h-16 rounded-full bg-[#EEF0F4] flex items-center justify-center mx-auto mb-4",
                                       children: (0, a.jsx)(el.A, {
-                                        className: "w-8 h-8 text-[#344F1F]",
+                                        className: "w-8 h-8 text-[#2C3340]",
                                       }),
                                     }),
                                     (0, a.jsx)("h3", {
                                       className:
-                                        "font-semibold text-[#344F1F] mb-2",
+                                        "font-semibold text-[#2C3340] mb-2",
                                       children: x.external,
                                     }),
                                     (0, a.jsx)("p", {
                                       className:
-                                        "text-sm text-[#344F1F]/60 mb-6",
+                                        "text-sm text-[#2C3340]/60 mb-6",
                                       children: x.externalDesc,
                                     }),
                                     (0, a.jsxs)(g.$, {
                                       className:
-                                        "rounded-full bg-[#F4991A] hover:bg-[#E5890F] text-white",
+                                        "rounded-full bg-[#5D5DE9] hover:bg-[#2C3340] text-white",
                                       onClick: () => M(!0),
                                       children: [
                                         (0, a.jsx)(b.A, {
@@ -3871,7 +3871,7 @@
               children: [
                 (0, a.jsx)("div", {
                   className:
-                    "absolute inset-0 bg-gradient-to-br from-[#F4991A] via-[#F5A733] to-[#E5890F]",
+                    "absolute inset-0 bg-gradient-to-br from-[#5D5DE9] via-[#F5A733] to-[#2C3340]",
                 }),
                 (0, a.jsx)("div", {
                   className:
@@ -3977,7 +3977,7 @@
                   children: [
                     (0, a.jsx)(e$.E, {
                       className:
-                        "h-8 w-8 rounded-lg bg-[#344F1F]/10 flex-shrink-0",
+                        "h-8 w-8 rounded-lg bg-[#2C3340]/10 flex-shrink-0",
                     }),
                     [1, 2, 3, 4, 5, 6].map((e) =>
                       (0, a.jsx)(
@@ -3986,8 +3986,8 @@
                           className: (0, c.cn)(
                             "h-8 rounded-full flex-shrink-0",
                             1 === e
-                              ? "w-16 bg-[#344F1F]/20"
-                              : "w-20 bg-[#344F1F]/10",
+                              ? "w-16 bg-[#2C3340]/20"
+                              : "w-20 bg-[#2C3340]/10",
                           ),
                         },
                         e,
@@ -3997,7 +3997,7 @@
                 }),
                 (0, a.jsx)(e$.E, {
                   className:
-                    "h-9 w-32 rounded-lg bg-[#344F1F]/10 hidden sm:block",
+                    "h-9 w-32 rounded-lg bg-[#2C3340]/10 hidden sm:block",
                 }),
               ],
             }),
@@ -4014,7 +4014,7 @@
         let { delay: t = 0 } = e;
         return (0, a.jsx)("div", {
           className: (0, c.cn)(
-            "bg-white rounded-xl border-2 border-[#344F1F]/10 p-4 sm:p-5",
+            "bg-white rounded-xl border-2 border-[#2C3340]/10 p-4 sm:p-5",
             "animate-in fade-in slide-in-from-bottom-2",
           ),
           style: { animationDelay: "".concat(t, "ms") },
@@ -4023,7 +4023,7 @@
             children: [
               (0, a.jsx)(e$.E, {
                 className:
-                  "w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-[#F2EAD3] flex-shrink-0",
+                  "w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-[#EEF0F4] flex-shrink-0",
               }),
               (0, a.jsxs)("div", {
                 className: "flex-1 min-w-0",
@@ -4036,17 +4036,17 @@
                         children: [
                           (0, a.jsx)(e$.E, {
                             className:
-                              "h-5 sm:h-6 w-3/4 max-w-[280px] bg-[#344F1F]/10 rounded",
+                              "h-5 sm:h-6 w-3/4 max-w-[280px] bg-[#2C3340]/10 rounded",
                           }),
                           (0, a.jsx)(e$.E, {
                             className:
-                              "h-4 w-1/2 max-w-[180px] bg-[#344F1F]/8 rounded",
+                              "h-4 w-1/2 max-w-[180px] bg-[#2C3340]/8 rounded",
                           }),
                         ],
                       }),
                       (0, a.jsx)(e$.E, {
                         className:
-                          "h-6 w-20 rounded-full bg-[#F4991A]/20 flex-shrink-0",
+                          "h-6 w-20 rounded-full bg-[#5D5DE9]/20 flex-shrink-0",
                       }),
                     ],
                   }),
@@ -4054,29 +4054,29 @@
                     className: "flex items-center gap-3 mt-3",
                     children: [
                       (0, a.jsx)(e$.E, {
-                        className: "h-3.5 w-24 bg-[#344F1F]/8 rounded",
+                        className: "h-3.5 w-24 bg-[#2C3340]/8 rounded",
                       }),
                       (0, a.jsx)(e$.E, {
-                        className: "h-3.5 w-20 bg-[#344F1F]/8 rounded",
+                        className: "h-3.5 w-20 bg-[#2C3340]/8 rounded",
                       }),
                     ],
                   }),
                   (0, a.jsxs)("div", {
-                    className: "mt-3 pt-3 border-t border-[#344F1F]/10",
+                    className: "mt-3 pt-3 border-t border-[#2C3340]/10",
                     children: [
                       (0, a.jsxs)("div", {
                         className: "flex items-center justify-between mb-1.5",
                         children: [
                           (0, a.jsx)(e$.E, {
-                            className: "h-3 w-24 bg-[#344F1F]/8 rounded",
+                            className: "h-3 w-24 bg-[#2C3340]/8 rounded",
                           }),
                           (0, a.jsx)(e$.E, {
-                            className: "h-3 w-8 bg-[#344F1F]/8 rounded",
+                            className: "h-3 w-8 bg-[#2C3340]/8 rounded",
                           }),
                         ],
                       }),
                       (0, a.jsx)(e$.E, {
-                        className: "h-1.5 w-full bg-[#344F1F]/10 rounded-full",
+                        className: "h-1.5 w-full bg-[#2C3340]/10 rounded-full",
                       }),
                     ],
                   }),
@@ -4084,7 +4084,7 @@
               }),
               (0, a.jsx)(e$.E, {
                 className:
-                  "w-8 h-8 rounded-lg bg-[#344F1F]/8 flex-shrink-0 hidden sm:block",
+                  "w-8 h-8 rounded-lg bg-[#2C3340]/8 flex-shrink-0 hidden sm:block",
               }),
             ],
           }),
@@ -4229,7 +4229,7 @@
                       }
                     },
                     className:
-                      "bg-white hover:bg-[#F9F5F0] text-[#344F1F] border border-[#344F1F]/20 rounded-full px-3",
+                      "bg-white hover:bg-[#F7F8FA] text-[#2C3340] border border-[#2C3340]/20 rounded-full px-3",
                     children: [
                       (0, a.jsx)(i.A, { className: "w-3.5 h-3.5 mr-1.5" }),
                       "de" === T ? "R\xfcckg\xe4ngig" : "Undo",

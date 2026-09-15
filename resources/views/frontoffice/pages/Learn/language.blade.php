@@ -4,12 +4,12 @@
 
 @section('meta')
     <meta name="description"
-        content="B1 German is required for Ausbildung. See exact timelines (A1→B2), accepted certifications (Goethe, telc), costs, and free learning resources. Start today.">
+        content="B1 German is azubi-required for Ausbildung. See exact timelines (A1→B2), accepted certifications (Goethe, telc), costs, and free learning resources. Start today.">
     <meta name="keywords"
         content="german language ausbildung, B1 german requirement, german for vocational training, goethe certificate ausbildung, telc german exam, learn german for ausbildung">
     <meta property="og:title" content="German for Ausbildung: A1 to B1 in 6 Months (2026 Guide)">
     <meta property="og:description"
-        content="B1 German is required for Ausbildung. See exact timelines (A1→B2), accepted certifications (Goethe, telc), costs, and free learning resources. Start today.">
+        content="B1 German is azubi-required for Ausbildung. See exact timelines (A1→B2), accepted certifications (Goethe, telc), costs, and free learning resources. Start today.">
 @endsection
 
 @section('content')
@@ -29,7 +29,7 @@
                 color: transparent;
               "
                 src="{{ asset('assets/_next/rhine-valley-hero-autumn77a4.jpeg') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0"></div>
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
                 background:
@@ -85,7 +85,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="Start Learning" href="#"><span aria-hidden="true"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -223,7 +223,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="p-4 rounded-lg border relative bg-beige text-secondary">
+                                <div class="p-4 rounded-lg border relative azubi-bg-beige text-secondary">
                                     <div
                                         class="absolute -top-3 -right-3 bg-primary px-3 py-1 text-primary-foreground text-xs rounded-full">
                                         Recommended
@@ -244,7 +244,7 @@
                                                 </div>
                                             </h3>
                                             <p class="text-sm mb-1">
-                                                More fluent communication required for healthcare
+                                                More fluent communication azubi-required for healthcare
                                                 and specialized fields.
                                             </p>
                                             <p class="text-xs">
@@ -482,7 +482,7 @@
                                 Language Programs
                             </h3>
                             <div class="space-y-6">
-                                <div class="bg-cream border-primary/20 border rounded-lg p-4">
+                                <div class="azubi-bg-cream border-primary/20 border rounded-lg p-4">
                                     <h4
                                         class="tracking-tight font-semibold sm:text-base text-secondary text-base mb-2 flex items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -575,7 +575,7 @@
                                         </li>
                                     </ul>
                                     <a href="{{ route('front.contact') }}?program=b1-to-b2"
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full">Learn
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full">Learn
                                         More</a>
                                 </div>
                                 <div class="border-t border-primary/10 pt-4">
@@ -587,7 +587,7 @@
                                         and prepare you specifically for the test format.
                                     </p>
                                     <a href="{{ route('front.contact') }}?inquiry=exam-registration"
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full">Exam
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-10 px-6 text-sm w-full">Exam
                                         Information</a>
                                 </div>
                             </div>
@@ -638,28 +638,28 @@
                                         <div class="flex justify-between">
                                             <span>IT &amp; Technology:</span>
                                             <div
-                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 bg-cream border-primary/10">
+                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 azubi-bg-cream border-primary/10">
                                                 <span class="text-primary font-medium text-xs">B1</span>
                                             </div>
                                         </div>
                                         <div class="flex justify-between">
                                             <span>Business &amp; Admin:</span>
                                             <div
-                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 bg-cream border-primary/10">
+                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 azubi-bg-cream border-primary/10">
                                                 <span class="text-primary font-medium text-xs">B1-B2</span>
                                             </div>
                                         </div>
                                         <div class="flex justify-between">
                                             <span>Healthcare:</span>
                                             <div
-                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 bg-cream border-primary/10">
+                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 azubi-bg-cream border-primary/10">
                                                 <span class="text-primary font-medium text-xs">B2</span>
                                             </div>
                                         </div>
                                         <div class="flex justify-between">
                                             <span>Engineering:</span>
                                             <div
-                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 bg-cream border-primary/10">
+                                                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-foreground hover:bg-primary/80 azubi-bg-cream border-primary/10">
                                                 <span class="text-primary font-medium text-xs">B1-B2</span>
                                             </div>
                                         </div>
@@ -1212,7 +1212,7 @@
                   color: transparent;
                 "
                     src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="
                   background:
@@ -1254,7 +1254,7 @@
                             <a href="#"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                                 60K+ Jobs</a><a href="#"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Practice
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Practice
                                 German First</a>
                         </div>
                     </div>

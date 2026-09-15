@@ -157,13 +157,13 @@
     var hasFilter = currentCategory !== 'all';
 
     // Remove old badge
-    var oldBadge = filterBtn.querySelector('.faq-filter-badge');
+    var oldBadge = filterBtn.querySelector('.azubi-faq-filter-badge');
     if (oldBadge) oldBadge.remove();
 
     if (hasFilter) {
       filterBtn.classList.add('bg-primary/10', 'text-primary');
       var badge = document.createElement('span');
-      badge.className = 'faq-filter-badge ml-1.5 h-5 min-w-[20px] p-0 bg-primary text-primary-foreground text-xs flex items-center justify-center rounded-full';
+      badge.className = 'azubi-faq-filter-badge ml-1.5 h-5 min-w-[20px] p-0 bg-primary text-primary-foreground text-xs flex items-center justify-center rounded-full';
       badge.textContent = '1';
       filterBtn.appendChild(badge);
     } else {

@@ -1,0 +1,249 @@
+/* ============================================
+   Azubi — Brand Gradients
+   Palette derived from the Leapsome reference:
+     --brand-primary / purple-400  #5D5DE9
+     --purple-500                  #4A4ADA
+     --purple-600                  #4317C0
+     --purple-300                  #7F7FF1
+     --purple-200                  #A5A5FF
+     --purple-100                  #CFCFFF
+     --dark-grey                   #2C3340
+     --neutral-100                 #F8FAFF
+     --neutral-200                 #E6EAF5
+     --peach / orange accents used ONLY as far-edge tints
+   ============================================ */
+
+:root {
+  /* --- core brand ramp --- */
+  --brand-primary: #5d5de9;
+  --purple-100: #cfcfff;
+  --purple-200: #a5a5ff;
+  --purple-300: #7f7ff1;
+  --purple-400: #5d5de9;
+  --purple-500: #4a4ada;
+  --purple-600: #4317c0;
+
+  --dark-grey: #2c3340;
+  --neutral-100: #f8faff;
+  --neutral-200: #e6eaf5;
+  --neutral-400: #7b88a8;
+  --neutral-600: #2d3958;
+
+  /* --- soft accent tints (edge washes only, never fills) --- */
+  --peach-100: #fdb5ad;
+  --peach-300: #f3887c;
+  --orange-100: #fdeee4;
+  --blue-100: #c7ebfc;
+  --blue-200: #a6e0fa;
+
+  /* ---------- 1. Page / section washes ----------
+     The Leapsome look: near-white base, faint purple at one corner,
+     a whisper of peach at the opposite edge. */
+  --grad-page-soft:
+    radial-gradient(1200px 600px at 12% 0%, rgba(93, 93, 233, 0.10) 0%, transparent 60%),
+    radial-gradient(1000px 520px at 88% 12%, rgba(253, 181, 173, 0.16) 0%, transparent 62%),
+    linear-gradient(180deg, #ffffff 0%, var(--neutral-100) 100%);
+
+  --grad-section-mist:
+    radial-gradient(900px 480px at 50% 0%, rgba(93, 93, 233, 0.08) 0%, transparent 65%),
+    linear-gradient(180deg, var(--neutral-100) 0%, #ffffff 100%);
+
+  --grad-aurora:
+    radial-gradient(760px 420px at 18% 22%, rgba(127, 127, 241, 0.22) 0%, transparent 60%),
+    radial-gradient(680px 400px at 82% 18%, rgba(253, 181, 173, 0.20) 0%, transparent 60%),
+    radial-gradient(720px 460px at 50% 92%, rgba(165, 165, 255, 0.20) 0%, transparent 62%),
+    linear-gradient(180deg, #ffffff 0%, var(--neutral-100) 100%);
+
+  /* ---------- 2. Brand fills (buttons, badges, bars) ---------- */
+  --grad-brand:        linear-gradient(135deg, var(--purple-400) 0%, var(--purple-500) 100%);
+  --grad-brand-deep:   linear-gradient(135deg, var(--purple-500) 0%, var(--purple-600) 100%);
+  --grad-brand-bright: linear-gradient(135deg, var(--purple-300) 0%, var(--purple-400) 100%);
+  --grad-brand-ink:    linear-gradient(135deg, var(--purple-400) 0%, var(--dark-grey) 100%);
+
+  /* ---------- 3. Hero overlays (sit ON TOP of a photo) ----------
+     Replaces the old flat black scrim: tints the image toward the
+     brand instead of just darkening it. */
+  --grad-hero-veil:
+    linear-gradient(180deg, rgba(44, 51, 64, 0.62) 0%, rgba(44, 51, 64, 0.38) 45%, rgba(44, 51, 64, 0.70) 100%),
+    linear-gradient(115deg, rgba(93, 93, 233, 0.55) 0%, rgba(67, 23, 192, 0.30) 55%, rgba(44, 51, 64, 0.35) 100%);
+
+  --grad-hero-veil-soft:
+    linear-gradient(180deg, rgba(44, 51, 64, 0.45) 0%, rgba(44, 51, 64, 0.25) 50%, rgba(44, 51, 64, 0.55) 100%),
+    linear-gradient(115deg, rgba(93, 93, 233, 0.38) 0%, rgba(44, 51, 64, 0.28) 100%);
+
+  /* vignette to keep hero text legible at the edges */
+  --grad-hero-vignette:
+    radial-gradient(ellipse at center, transparent 0%, transparent 42%, rgba(30, 36, 46, 0.45) 100%),
+    linear-gradient(to top, rgba(30, 36, 46, 0.55) 0%, transparent 32%);
+
+  /* ---------- 4. Card / surface ---------- */
+  --grad-card:
+    linear-gradient(180deg, #ffffff 0%, var(--neutral-100) 100%);
+  --grad-card-hover:
+    linear-gradient(180deg, #ffffff 0%, var(--neutral-200) 100%);
+  --grad-glass:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.86) 0%, rgba(248, 250, 255, 0.62) 100%);
+
+  /* ---------- 5. Hairlines & text ---------- */
+  --grad-rule: linear-gradient(90deg, transparent 0%, var(--purple-200) 50%, transparent 100%);
+  --grad-text: linear-gradient(120deg, var(--purple-500) 0%, var(--purple-300) 55%, var(--peach-300) 100%);
+}
+
+/* =========================================================
+   Utility classes
+   ========================================================= */
+
+.azubi-grad-page      { background: var(--grad-page-soft); }
+.azubi-grad-mist      { background: var(--grad-section-mist); }
+.azubi-grad-aurora    { background: var(--grad-aurora); }
+
+.azubi-grad-brand     { background: var(--grad-brand); }
+.azubi-grad-brand-deep{ background: var(--grad-brand-deep); }
+.azubi-grad-brand-ink { background: var(--grad-brand-ink); }
+
+.azubi-grad-card      { background: var(--grad-card); }
+.azubi-grad-glass     { background: var(--grad-glass); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+
+/* Gradient text — needs a transparent fill to show through */
+.azubi-grad-text {
+  background: var(--grad-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hairline divider */
+.azubi-grad-rule { height: 1px; border: 0; background: var(--grad-rule); }
+
+/* Soft glow blob — position with top/left/right/bottom at the call site */
+.azubi-glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(64px);
+  pointer-events: none;
+  z-index: 0;
+}
+.azubi-glow--purple { background: rgba(93, 93, 233, 0.30); width: 26rem; height: 26rem; }
+.azubi-glow--violet { background: rgba(127, 127, 241, 0.26); width: 22rem; height: 22rem; }
+.azubi-glow--peach  { background: rgba(253, 181, 173, 0.28); width: 20rem; height: 20rem; }
+.azubi-glow--blue   { background: rgba(166, 224, 250, 0.26); width: 20rem; height: 20rem; }
+
+/* =========================================================
+   Hero overlay — retints the existing autumn photos.
+   The markup already renders:
+       <div class="absolute inset-0 bg-black/30 z-0"></div>
+   so we override that flat scrim in place. Add
+   `azubi-hero-veil` to opt a hero in.
+   ========================================================= */
+.azubi-hero-veil {
+  background: var(--grad-hero-veil) !important;
+}
+.azubi-hero-veil--soft {
+  background: var(--grad-hero-veil-soft) !important;
+}
+
+/* Respect reduced-motion / contrast preferences */
+@media (prefers-contrast: more) {
+  .azubi-hero-veil { background: var(--grad-hero-veil) , rgba(30, 36, 46, 0.25) !important; }
+}
+
+/* =========================================================
+   Section washes — the Leapsome scroll rhythm
+   ---------------------------------------------------------
+   RHYTHM RULE: a wash only reads as a wash if the band next to
+   it is clean. So exactly ONE of each alternating pair gets a
+   gradient; its neighbour stays a flat surface.
+
+       .azubi-bg-beige / bg-[#EEF0F4]  -> WASHED  (deeper band)
+       .azubi-bg-cream / bg-[#F7F8FA]  -> clean   (lighter band)
+       bg-background / bg-muted        -> clean   (neutral band)
+       bare sections                   -> WASHED on odd only
+
+   background-image layers over the existing background-color,
+   so the /10 /30 /50 opacity variants keep working untouched.
+   ========================================================= */
+
+section.azubi-bg-beige,
+section[class*="azubi-bg-beige/"],
+section.bg-\[\#EEF0F4\] {
+  background-image:
+    radial-gradient(1100px 520px at 8% 0%, rgba(93, 93, 233, 0.13) 0%, transparent 62%),
+    radial-gradient(900px 460px at 92% 8%, rgba(253, 181, 173, 0.15) 0%, transparent 60%);
+  background-repeat: no-repeat;
+}
+
+/* Bare sections: wash the odd ones so washed/clear interleave. */
+main .flex.flex-col > section:not([class*="bg-"]):not([class*="azubi-bg-"]):nth-of-type(odd),
+main > div > section:not([class*="bg-"]):not([class*="azubi-bg-"]):nth-of-type(odd) {
+  background-image:
+    radial-gradient(1100px 520px at 88% 0%, rgba(93, 93, 233, 0.09) 0%, transparent 62%),
+    radial-gradient(880px 440px at 8% 14%, rgba(199, 235, 252, 0.13) 0%, transparent 58%);
+  background-repeat: no-repeat;
+}
+
+/* A bare washed section directly after a washed band would run
+   the two together — clear it so the rhythm keeps its beat. */
+section.azubi-bg-beige + section:not([class*="bg-"]):not([class*="azubi-bg-"]),
+section[class*="azubi-bg-beige/"] + section:not([class*="bg-"]):not([class*="azubi-bg-"]),
+section.bg-\[\#EEF0F4\] + section:not([class*="bg-"]):not([class*="azubi-bg-"]) {
+  background-image: none;
+}
+
+/* Never wash a hero, an image band, or a dark band. */
+main section:has(.azubi-hero-veil),
+main section:has(> img),
+section.bg-primary,
+section.bg-secondary,
+section[class*="bg-[#2C3340]"],
+section[class*="bg-[#1E242E]"] {
+  background-image: none !important;
+}
+
+/* Opt-in accents for individual sections */
+.azubi-wash-aurora { background-image: var(--grad-aurora) !important; background-repeat: no-repeat; }
+.azubi-wash-peach {
+  background-image:
+    radial-gradient(1000px 500px at 100% 50%, rgba(253, 181, 173, 0.28) 0%, transparent 60%),
+    radial-gradient(800px 400px at 0% 20%, rgba(93, 93, 233, 0.10) 0%, transparent 60%) !important;
+  background-repeat: no-repeat;
+}
+.azubi-wash-violet {
+  background-image:
+    linear-gradient(180deg, rgba(207, 207, 255, 0.55) 0%, rgba(248, 250, 255, 0) 70%) !important;
+  background-repeat: no-repeat;
+}
+
+/* =========================================================
+   Glow tints — upgrade the existing hand-rolled blobs
+   ---------------------------------------------------------
+   The markup already ships 34 blob divs shaped like:
+     <div class="absolute left-1/4 top-0 w-96 h-96
+                 bg-[#5D5DE9]/5 rounded-full blur-3xl"></div>
+   sitting in an `absolute inset-0 -z-10 pointer-events-none`
+   container. Geometry and blur are already right; only the
+   colour was too faint to see (5% -> ~2 RGB points of delta).
+
+   These classes override ONLY the colour, so each blob keeps
+   its own w-72/80/96 size and corner position.
+   ========================================================= */
+
+.azubi-glow-tint--purple { background-color: rgba(93, 93, 233, 0.40) !important; }
+.azubi-glow-tint--violet { background-color: rgba(127, 127, 241, 0.38) !important; }
+.azubi-glow-tint--peach  { background-color: rgba(253, 181, 173, 0.42) !important; }
+.azubi-glow-tint--blue   { background-color: rgba(166, 224, 250, 0.40) !important; }
+.azubi-glow-tint--ink    { background-color: rgba(45, 57, 88, 0.18)   !important; }
+
+/* Slightly wider spread so the light reads as ambient, not as a disc */
+.azubi-glow-tint--purple,
+.azubi-glow-tint--violet,
+.azubi-glow-tint--peach,
+.azubi-glow-tint--blue,
+.azubi-glow-tint--ink { filter: blur(60px) !important; }
+
+@media (prefers-reduced-transparency: reduce) {
+  .azubi-glow-tint--purple,
+  .azubi-glow-tint--violet,
+  .azubi-glow-tint--peach,
+  .azubi-glow-tint--blue,
+  .azubi-glow-tint--ink { opacity: 0.5; }
+}

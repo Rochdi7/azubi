@@ -98,11 +98,11 @@ function calculateROI() {
 
     const monthlyEl = document.getElementById('result-monthly');
     monthlyEl.textContent = (monthlyBalance >= 0 ? '+' : '') + '\u20AC' + Math.round(monthlyBalance).toLocaleString();
-    monthlyEl.className = 'text-xl font-bold ' + (monthlyBalance >= 0 ? 'text-green' : 'text-orange');
+    monthlyEl.className = 'text-xl font-bold ' + (monthlyBalance >= 0 ? 'azubi-text-green' : 'azubi-text-orange');
 
     const afterEl = document.getElementById('result-after');
     afterEl.textContent = (netPosition >= 0 ? '+' : '') + '\u20AC' + netPosition.toLocaleString();
-    afterEl.className = 'text-xl font-bold ' + (netPosition >= 0 ? 'text-green' : 'text-orange');
+    afterEl.className = 'text-xl font-bold ' + (netPosition >= 0 ? 'azubi-text-green' : 'azubi-text-orange');
 
     document.getElementById('result-time').textContent = timeToROI;
     document.getElementById('result-salary').textContent = '\u20AC' + startingSalary.toLocaleString() + '/mo';
@@ -136,7 +136,7 @@ function resetCalculator() {
 
 function toggleFaq(btn) {
     const content = btn.nextElementSibling;
-    const chevron = btn.querySelector('.faq-chevron');
+    const chevron = btn.querySelector('.azubi-faq-chevron');
     content.classList.toggle('hidden');
     chevron.classList.toggle('rotated');
 }

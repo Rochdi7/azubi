@@ -88,7 +88,7 @@ class HomeController extends Controller
 
     public function ausbildungGermany()
     {
-        return view('frontoffice.pages.Learn.ausbildung-basics');
+        return view('frontoffice.pages.Learn.ausbildung-germany');
     }
 
     public function programs()

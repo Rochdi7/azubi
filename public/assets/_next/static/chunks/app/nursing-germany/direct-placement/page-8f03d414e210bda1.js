@@ -661,7 +661,7 @@
                             }),
                             (0, l.jsxs)("div", {
                               className:
-                                "bg-[#F2EAD3] p-6 rounded-lg text-center border-2 border-[#344F1F]/20",
+                                "bg-[#EEF0F4] p-6 rounded-lg text-center border-2 border-[#2C3340]/20",
                               children: [
                                 (0, l.jsx)("h3", {
                                   className: "text-lg font-medium mb-2",

@@ -316,7 +316,7 @@
           children: [
             (0, l.jsxs)("div", {
               className:
-                "bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] p-6 mb-8",
+                "bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] p-6 mb-8",
               children: [
                 (0, l.jsxs)("div", {
                   className: "grid grid-cols-1 md:grid-cols-2 gap-4 mb-4",
@@ -346,7 +346,7 @@
                   "div",
                   {
                     className:
-                      "bg-white border-2 border-[rgba(52,79,31,0.1)] rounded-xl shadow-[0_2px_4px_rgba(52,79,31,0.06),0_1px_2px_rgba(52,79,31,0.04)] p-6 flex flex-col h-full",
+                      "bg-white border-2 border-[rgba(44,51,64,0.1)] rounded-xl shadow-[0_2px_4px_rgba(44,51,64,0.06),0_1px_2px_rgba(44,51,64,0.04)] p-6 flex flex-col h-full",
                     children: [
                       (0, l.jsxs)("div", {
                         className: "flex items-start justify-between mb-4",

@@ -1,4 +1,4 @@
-﻿@extends('frontoffice.layouts.app')
+@extends('frontoffice.layouts.app')
 
 @section('title', 'Automotive & Transportation Ausbildung Jobs Germany | Azubi | Azubi')
 
@@ -414,10 +414,10 @@
                                 </div>
                                 <img src="{{ asset('assets/_next/mascot_engineering75c1.jpeg') }}"
                                     alt="Automotive &amp; Transportation mascot welcoming you to Ausbildung training"
-                                    class="relative w-full h-auto drop-shadow-[0_8px_20px_rgba(52,79,31,0.2)]" />
+                                    class="relative w-full h-auto drop-shadow-[0_8px_20px_rgba(44,51,64,0.2)]" />
                             </div>
                             <div class="grid grid-cols-2 gap-3 w-full max-w-sm">
-                                <div class="bg-beige/50 rounded-lg p-3 border border-border/50">
+                                <div class="azubi-bg-beige/50 rounded-lg p-3 border border-border/50">
                                     <div class="flex items-center gap-2 mb-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -439,7 +439,7 @@
                                         €950-1400
                                     </p>
                                 </div>
-                                <div class="bg-beige/50 rounded-lg p-3 border border-border/50">
+                                <div class="azubi-bg-beige/50 rounded-lg p-3 border border-border/50">
                                     <div class="flex items-center gap-2 mb-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -458,7 +458,7 @@
                                         3-3.5 years
                                     </p>
                                 </div>
-                                <div class="bg-beige/50 rounded-lg p-3 border border-border/50">
+                                <div class="azubi-bg-beige/50 rounded-lg p-3 border border-border/50">
                                     <div class="flex items-center gap-2 mb-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -480,7 +480,7 @@
                                         12th with Mathematics and Physics
                                     </p>
                                 </div>
-                                <div class="bg-beige/50 rounded-lg p-3 border border-border/50">
+                                <div class="azubi-bg-beige/50 rounded-lg p-3 border border-border/50">
                                     <div class="flex items-center gap-2 mb-1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -515,15 +515,15 @@
         </section>
         <section class="py-8 px-4 bg-background">
             <div class="max-w-6xl mx-auto">
-                <div class="bg-white rounded-xl border border-[#344F1F]/10 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center justify-between px-4 py-3 sm:px-6 sm:py-4 border-b border-[#344F1F]/5">
+                <div class="bg-white rounded-xl border border-[#2C3340]/10 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex items-center justify-between px-4 py-3 sm:px-6 sm:py-4 border-b border-[#2C3340]/5">
                         <div class="flex items-center gap-2 sm:gap-3">
                             <div
-                                class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-[#F4991A]/10 flex items-center justify-center flex-shrink-0">
+                                class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-[#5D5DE9]/10 flex items-center justify-center flex-shrink-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-chart-column w-4 h-4 sm:w-5 sm:h-5 text-[#F4991A]">
+                                    class="lucide lucide-chart-column w-4 h-4 sm:w-5 sm:h-5 text-[#5D5DE9]">
                                     <path d="M3 3v16a2 2 0 0 0 2 2h16">
                                     </path>
                                     <path d="M18 17V9">
@@ -534,52 +534,52 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h3 class="font-semibold text-sm sm:text-base text-[#344F1F]">
+                            <h3 class="font-semibold text-sm sm:text-base text-[#2C3340]">
                                 Automotive &amp; Transportation Intelligence
                             </h3>
                         </div>
                         <div
-                            class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-xs border-[#344F1F]/20 text-[#344F1F]/70">
+                            class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-xs border-[#2C3340]/20 text-[#2C3340]/70">
                             Moderate
                         </div>
                     </div>
                     <div class="p-4 sm:p-6">
                         <div class="grid gap-3 sm:gap-4 grid-cols-2 sm:grid-cols-4">
-                            <div class="bg-[#F9F5F0] rounded-xl p-3 sm:p-4">
+                            <div class="bg-[#F7F8FA] rounded-xl p-3 sm:p-4">
                                 <div class="flex items-center gap-2 mb-1 sm:mb-2">
                                     <div
-                                        class="rounded-lg bg-[#F4991A]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
+                                        class="rounded-lg bg-[#5D5DE9]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-briefcase text-[#F4991A] w-4 h-4 sm:w-5 sm:h-5">
+                                            class="lucide lucide-briefcase text-[#5D5DE9] w-4 h-4 sm:w-5 sm:h-5">
                                             <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16">
                                             </path>
                                             <rect width="20" height="14" x="2" y="6" rx="2">
                                             </rect>
                                         </svg>
                                     </div>
-                                    <span class="font-medium text-[#344F1F]/70 uppercase tracking-wide text-xs sm:text-sm">
+                                    <span class="font-medium text-[#2C3340]/70 uppercase tracking-wide text-xs sm:text-sm">
                                         Jobs
                                     </span>
                                 </div>
-                                <div class="font-bold text-[#344F1F] text-xl sm:text-2xl">
+                                <div class="font-bold text-[#2C3340] text-xl sm:text-2xl">
                                     0
                                 </div>
                                 <div class="flex items-center gap-2 mt-1">
-                                    <span class="text-[#344F1F]/60 text-xs">
+                                    <span class="text-[#2C3340]/60 text-xs">
                                         positions
                                     </span>
                                 </div>
                             </div>
-                            <div class="bg-[#F9F5F0] rounded-xl p-3 sm:p-4">
+                            <div class="bg-[#F7F8FA] rounded-xl p-3 sm:p-4">
                                 <div class="flex items-center gap-2 mb-1 sm:mb-2">
                                     <div
-                                        class="rounded-lg bg-[#F4991A]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
+                                        class="rounded-lg bg-[#5D5DE9]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-building2 text-[#F4991A] w-4 h-4 sm:w-5 sm:h-5">
+                                            class="lucide lucide-building2 text-[#5D5DE9] w-4 h-4 sm:w-5 sm:h-5">
                                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z">
                                             </path>
                                             <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
@@ -596,27 +596,27 @@
                                             </path>
                                         </svg>
                                     </div>
-                                    <span class="font-medium text-[#344F1F]/70 uppercase tracking-wide text-xs sm:text-sm">
+                                    <span class="font-medium text-[#2C3340]/70 uppercase tracking-wide text-xs sm:text-sm">
                                         Companies
                                     </span>
                                 </div>
-                                <div class="font-bold text-[#344F1F] text-xl sm:text-2xl">
+                                <div class="font-bold text-[#2C3340] text-xl sm:text-2xl">
                                     31
                                 </div>
                                 <div class="flex items-center gap-2 mt-1">
-                                    <span class="text-[#344F1F]/60 text-xs">
+                                    <span class="text-[#2C3340]/60 text-xs">
                                         hiring
                                     </span>
                                 </div>
                             </div>
-                            <div class="bg-[#F9F5F0] rounded-xl p-3 sm:p-4">
+                            <div class="bg-[#F7F8FA] rounded-xl p-3 sm:p-4">
                                 <div class="flex items-center gap-2 mb-1 sm:mb-2">
                                     <div
-                                        class="rounded-lg bg-[#F4991A]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
+                                        class="rounded-lg bg-[#5D5DE9]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-euro text-[#F4991A] w-4 h-4 sm:w-5 sm:h-5">
+                                            class="lucide lucide-euro text-[#5D5DE9] w-4 h-4 sm:w-5 sm:h-5">
                                             <path d="M4 10h12">
                                             </path>
                                             <path d="M4 14h9">
@@ -626,27 +626,27 @@
                                             </path>
                                         </svg>
                                     </div>
-                                    <span class="font-medium text-[#344F1F]/70 uppercase tracking-wide text-xs sm:text-sm">
+                                    <span class="font-medium text-[#2C3340]/70 uppercase tracking-wide text-xs sm:text-sm">
                                         Salary
                                     </span>
                                 </div>
-                                <div class="font-bold text-[#344F1F] text-xl sm:text-2xl">
+                                <div class="font-bold text-[#2C3340] text-xl sm:text-2xl">
                                     €1.2-1.5K
                                 </div>
                                 <div class="flex items-center gap-2 mt-1">
-                                    <span class="text-[#344F1F]/60 text-xs">
+                                    <span class="text-[#2C3340]/60 text-xs">
                                         /month
                                     </span>
                                 </div>
                             </div>
-                            <div class="bg-[#F9F5F0] rounded-xl p-3 sm:p-4">
+                            <div class="bg-[#F7F8FA] rounded-xl p-3 sm:p-4">
                                 <div class="flex items-center gap-2 mb-1 sm:mb-2">
                                     <div
-                                        class="rounded-lg bg-[#F4991A]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
+                                        class="rounded-lg bg-[#5D5DE9]/10 flex items-center justify-center flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-map-pin text-[#F4991A] w-4 h-4 sm:w-5 sm:h-5">
+                                            class="lucide lucide-map-pin text-[#5D5DE9] w-4 h-4 sm:w-5 sm:h-5">
                                             <path
                                                 d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                                             </path>
@@ -654,29 +654,29 @@
                                             </circle>
                                         </svg>
                                     </div>
-                                    <span class="font-medium text-[#344F1F]/70 uppercase tracking-wide text-xs sm:text-sm">
+                                    <span class="font-medium text-[#2C3340]/70 uppercase tracking-wide text-xs sm:text-sm">
                                         Cities
                                     </span>
                                 </div>
-                                <div class="font-bold text-[#344F1F] text-xl sm:text-2xl">
+                                <div class="font-bold text-[#2C3340] text-xl sm:text-2xl">
                                     51
                                 </div>
                                 <div class="flex items-center gap-2 mt-1">
-                                    <span class="text-[#344F1F]/60 text-xs">
+                                    <span class="text-[#2C3340]/60 text-xs">
                                         locations
                                     </span>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-4">
-                            <p class="text-xs font-medium text-[#344F1F]/70 uppercase tracking-wide mb-2">
+                            <p class="text-xs font-medium text-[#2C3340]/70 uppercase tracking-wide mb-2">
                                 Top Hiring Companies
                             </p>
                             <div class="flex flex-wrap gap-2">
-                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
+                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F7F8FA] hover:bg-[#EEF0F4] rounded-full text-xs text-[#2C3340] transition-colors"
                                     href="/company/porsche-53b2396c">
                                     Porsche AG
-                                    <span class="ml-1 text-[#344F1F]/50">
+                                    <span class="ml-1 text-[#2C3340]/50">
                                         (
                                         <!-- -->
                                         328
@@ -684,10 +684,10 @@
                                         )
                                     </span>
                                 </a>
-                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
+                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F7F8FA] hover:bg-[#EEF0F4] rounded-full text-xs text-[#2C3340] transition-colors"
                                     href="/company/bmw-bfbab720">
                                     BMW AG
-                                    <span class="ml-1 text-[#344F1F]/50">
+                                    <span class="ml-1 text-[#2C3340]/50">
                                         (
                                         <!-- -->
                                         114
@@ -695,10 +695,10 @@
                                         )
                                     </span>
                                 </a>
-                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
+                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F7F8FA] hover:bg-[#EEF0F4] rounded-full text-xs text-[#2C3340] transition-colors"
                                     href="/company/emil-frey">
                                     Emil Frey Deutschland
-                                    <span class="ml-1 text-[#344F1F]/50">
+                                    <span class="ml-1 text-[#2C3340]/50">
                                         (
                                         <!-- -->
                                         86
@@ -706,10 +706,10 @@
                                         )
                                     </span>
                                 </a>
-                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-full text-xs text-[#344F1F] transition-colors"
+                                <a class="inline-flex items-center px-2.5 py-1 bg-[#F7F8FA] hover:bg-[#EEF0F4] rounded-full text-xs text-[#2C3340] transition-colors"
                                     href="/company/daimler-truck-f3e74b22">
                                     Daimler Truck AG
-                                    <span class="ml-1 text-[#344F1F]/50">
+                                    <span class="ml-1 text-[#2C3340]/50">
                                         (
                                         <!-- -->
                                         73
@@ -717,7 +717,7 @@
                                         )
                                     </span>
                                 </a>
-                                <span class="inline-flex items-center px-2.5 py-1 text-xs text-[#344F1F]/60">
+                                <span class="inline-flex items-center px-2.5 py-1 text-xs text-[#2C3340]/60">
                                     +
                                     <!-- -->
                                     1
@@ -728,12 +728,12 @@
                             </div>
                         </div>
                         <div class="mt-4">
-                            <p class="text-xs font-medium text-[#344F1F]/70 uppercase tracking-wide mb-2">
+                            <p class="text-xs font-medium text-[#2C3340]/70 uppercase tracking-wide mb-2">
                                 Top Cities
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <div
-                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#344F1F]/20 text-[#344F1F]/70">
+                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#2C3340]/20 text-[#2C3340]/70">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -753,7 +753,7 @@
                                     )
                                 </div>
                                 <div
-                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#344F1F]/20 text-[#344F1F]/70">
+                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#2C3340]/20 text-[#2C3340]/70">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -773,7 +773,7 @@
                                     )
                                 </div>
                                 <div
-                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#344F1F]/20 text-[#344F1F]/70">
+                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#2C3340]/20 text-[#2C3340]/70">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -793,7 +793,7 @@
                                     )
                                 </div>
                                 <div
-                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#344F1F]/20 text-[#344F1F]/70">
+                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#2C3340]/20 text-[#2C3340]/70">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -813,7 +813,7 @@
                                     )
                                 </div>
                                 <div
-                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#344F1F]/20 text-[#344F1F]/70">
+                                    class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-[#2C3340]/20 text-[#2C3340]/70">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -835,25 +835,25 @@
                             </div>
                         </div>
                         <div class="mt-4">
-                            <p class="text-xs font-medium text-[#344F1F]/70 uppercase tracking-wide mb-3">
+                            <p class="text-xs font-medium text-[#2C3340]/70 uppercase tracking-wide mb-3">
                                 Featured Positions
                             </p>
                             <div class="space-y-2">
-                                <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
+                                <a class="block p-3 bg-[#F7F8FA] hover:bg-[#EEF0F4] rounded-xl transition-colors group"
                                     href="/jobs/edeka-zentrale-80b1eba0/ausbildung-zum-kfz-mechatroniker-fachrichtung-nutzfahrzeugtechnik-mwd-2026-heddesheim-c958f58a?from=%2Fsectors%2Fautomotive">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
-                                                class="font-medium text-sm text-[#344F1F] truncate group-hover:text-[#F4991A] transition-colors">
+                                                class="font-medium text-sm text-[#2C3340] truncate group-hover:text-[#5D5DE9] transition-colors">
                                                 Ausbildung as a Automotive Mechatronics Technician specializing in
                                                 Commercial Vehicle Technology (m/f/d) - 2026
                                             </h4>
-                                            <p class="text-xs text-[#344F1F]/60 mt-0.5 truncate">
+                                            <p class="text-xs text-[#2C3340]/60 mt-0.5 truncate">
                                                 Edeka-Zentrale AG &amp; Co. KG
                                             </p>
                                         </div>
                                         <div class="flex items-center gap-2 flex-shrink-0">
-                                            <span class="text-xs text-[#344F1F]/50 flex items-center gap-1">
+                                            <span class="text-xs text-[#2C3340]/50 flex items-center gap-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -869,13 +869,13 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-chevron-right w-4 h-4 text-[#344F1F]/30 group-hover:text-[#F4991A] transition-colors">
+                                                class="lucide lucide-chevron-right w-4 h-4 text-[#2C3340]/30 group-hover:text-[#5D5DE9] transition-colors">
                                                 <path d="m9 18 6-6-6-6">
                                                 </path>
                                             </svg>
                                         </div>
                                     </div>
-                                    <p class="text-xs text-[#F4991A] font-medium mt-1">
+                                    <p class="text-xs text-[#5D5DE9] font-medium mt-1">
                                         €
                                         <!-- -->
                                         1,320
@@ -887,21 +887,21 @@
                                         /month
                                     </p>
                                 </a>
-                                <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
+                                <a class="block p-3 bg-[#F7F8FA] hover:bg-[#EEF0F4] rounded-xl transition-colors group"
                                     href="/jobs/edeka-zentrale-80b1eba0/ausbildung-zum-kfz-mechatroniker-fachrichtung-nutzfahrzeugtechnik-mwd-2026-offenburg-f7d48315?from=%2Fsectors%2Fautomotive">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
-                                                class="font-medium text-sm text-[#344F1F] truncate group-hover:text-[#F4991A] transition-colors">
+                                                class="font-medium text-sm text-[#2C3340] truncate group-hover:text-[#5D5DE9] transition-colors">
                                                 Ausbildung as a Automotive Mechatronics Technician specializing in
                                                 Commercial Vehicle Technology (m/f/d) - 2026
                                             </h4>
-                                            <p class="text-xs text-[#344F1F]/60 mt-0.5 truncate">
+                                            <p class="text-xs text-[#2C3340]/60 mt-0.5 truncate">
                                                 Edeka-Zentrale AG &amp; Co. KG
                                             </p>
                                         </div>
                                         <div class="flex items-center gap-2 flex-shrink-0">
-                                            <span class="text-xs text-[#344F1F]/50 flex items-center gap-1">
+                                            <span class="text-xs text-[#2C3340]/50 flex items-center gap-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -917,13 +917,13 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-chevron-right w-4 h-4 text-[#344F1F]/30 group-hover:text-[#F4991A] transition-colors">
+                                                class="lucide lucide-chevron-right w-4 h-4 text-[#2C3340]/30 group-hover:text-[#5D5DE9] transition-colors">
                                                 <path d="m9 18 6-6-6-6">
                                                 </path>
                                             </svg>
                                         </div>
                                     </div>
-                                    <p class="text-xs text-[#F4991A] font-medium mt-1">
+                                    <p class="text-xs text-[#5D5DE9] font-medium mt-1">
                                         €
                                         <!-- -->
                                         1,320
@@ -935,21 +935,21 @@
                                         /month
                                     </p>
                                 </a>
-                                <a class="block p-3 bg-[#F9F5F0] hover:bg-[#F2EAD3] rounded-xl transition-colors group"
+                                <a class="block p-3 bg-[#F7F8FA] hover:bg-[#EEF0F4] rounded-xl transition-colors group"
                                     href="/jobs/edeka-zentrale-80b1eba0/ausbildung-zum-kfz-mechatroniker-fachrichtung-nutzfahrzeugtechnik-mwd-2026-balingen-59551898?from=%2Fsectors%2Fautomotive">
                                     <div class="flex items-start justify-between gap-3">
                                         <div class="min-w-0 flex-1">
                                             <h4
-                                                class="font-medium text-sm text-[#344F1F] truncate group-hover:text-[#F4991A] transition-colors">
+                                                class="font-medium text-sm text-[#2C3340] truncate group-hover:text-[#5D5DE9] transition-colors">
                                                 Ausbildung as a Automotive Mechatronics Technician specializing in
                                                 Commercial Vehicle Technology (m/f/d) - 2026
                                             </h4>
-                                            <p class="text-xs text-[#344F1F]/60 mt-0.5 truncate">
+                                            <p class="text-xs text-[#2C3340]/60 mt-0.5 truncate">
                                                 Edeka-Zentrale AG &amp; Co. KG
                                             </p>
                                         </div>
                                         <div class="flex items-center gap-2 flex-shrink-0">
-                                            <span class="text-xs text-[#344F1F]/50 flex items-center gap-1">
+                                            <span class="text-xs text-[#2C3340]/50 flex items-center gap-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -965,13 +965,13 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-chevron-right w-4 h-4 text-[#344F1F]/30 group-hover:text-[#F4991A] transition-colors">
+                                                class="lucide lucide-chevron-right w-4 h-4 text-[#2C3340]/30 group-hover:text-[#5D5DE9] transition-colors">
                                                 <path d="m9 18 6-6-6-6">
                                                 </path>
                                             </svg>
                                         </div>
                                     </div>
-                                    <p class="text-xs text-[#F4991A] font-medium mt-1">
+                                    <p class="text-xs text-[#5D5DE9] font-medium mt-1">
                                         €
                                         <!-- -->
                                         1,320
@@ -988,7 +988,7 @@
                         <div class="mt-5">
                             <a href="/jobs/automotive">
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#344F1F] hover:bg-[#344F1F]/90 text-white rounded-full h-11">
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 px-8 py-3 w-full bg-[#2C3340] hover:bg-[#2C3340]/90 text-white rounded-full h-11">
                                     Browse All Automotive &amp; Transportation Jobs
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1006,7 +1006,7 @@
                 </div>
             </div>
         </section>
-        <section class="py-12 px-4 bg-beige/20">
+        <section class="py-12 px-4 azubi-bg-beige/20">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-8">
                     <div
@@ -1020,52 +1020,102 @@
                     </h2>
                 </div>
                 <div class="space-y-4">
-                    <div class="bg-card border border-border rounded-xl p-5">
-                        <h3 class="font-semibold text-foreground mb-2">
-                            What is Automotive &amp; Transportation Ausbildung?
-                        </h3>
-                        <p class="text-muted-foreground text-sm">
-                            Automotive &amp; Transportation Ausbildung is a German vocational training program that combines
+                    <div class="bg-card border border-border rounded-xl overflow-hidden">
+                        <button type="button"
+                            class="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-muted/50 transition-colors"
+                            aria-expanded="false">
+                            <span class="font-semibold text-foreground pr-4">What is Automotive &amp; Transportation Ausbildung?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                            <p class="px-5 pb-5 text-muted-foreground text-sm">
+                                Automotive &amp; Transportation Ausbildung is a German vocational training program that combines
                             theoretical education with practical work experience. Training typically lasts 3-3.5 years and
                             includes a monthly stipend of €950-1400.
-                        </p>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-card border border-border rounded-xl p-5">
-                        <h3 class="font-semibold text-foreground mb-2">
-                            How many Automotive &amp; Transportation jobs are available in Germany?
-                        </h3>
-                        <p class="text-muted-foreground text-sm">
-                            There are currently 0+ Automotive &amp; Transportation Ausbildung positions available across 51+
+                    <div class="bg-card border border-border rounded-xl overflow-hidden">
+                        <button type="button"
+                            class="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-muted/50 transition-colors"
+                            aria-expanded="false">
+                            <span class="font-semibold text-foreground pr-4">How many Automotive &amp; Transportation jobs are available in Germany?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                            <p class="px-5 pb-5 text-muted-foreground text-sm">
+                                There are currently 0+ Automotive &amp; Transportation Ausbildung positions available across 51+
                             cities in Germany, with 31+ companies actively hiring.
-                        </p>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-card border border-border rounded-xl p-5">
-                        <h3 class="font-semibold text-foreground mb-2">
-                            What is the salary for Automotive &amp; Transportation Ausbildung?
-                        </h3>
-                        <p class="text-muted-foreground text-sm">
-                            During Automotive &amp; Transportation Ausbildung training, you receive a monthly stipend of
+                    <div class="bg-card border border-border rounded-xl overflow-hidden">
+                        <button type="button"
+                            class="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-muted/50 transition-colors"
+                            aria-expanded="false">
+                            <span class="font-semibold text-foreground pr-4">What is the salary for Automotive &amp; Transportation Ausbildung?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                            <p class="px-5 pb-5 text-muted-foreground text-sm">
+                                During Automotive &amp; Transportation Ausbildung training, you receive a monthly stipend of
                             €1242-€1452. After completing your training, salaries typically increase to €2,500-€3,500/month
                             depending on the role.
-                        </p>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-card border border-border rounded-xl p-5">
-                        <h3 class="font-semibold text-foreground mb-2">
-                            What are the requirements for Automotive &amp; Transportation Ausbildung?
-                        </h3>
-                        <p class="text-muted-foreground text-sm">
-                            Requirements include: 12th with Mathematics and Physics, B1 German, and a valid visa for non-EU
+                    <div class="bg-card border border-border rounded-xl overflow-hidden">
+                        <button type="button"
+                            class="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-muted/50 transition-colors"
+                            aria-expanded="false">
+                            <span class="font-semibold text-foreground pr-4">What are the requirements for Automotive &amp; Transportation Ausbildung?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                            <p class="px-5 pb-5 text-muted-foreground text-sm">
+                                Requirements include: 12th with Mathematics and Physics, B1 German, and a valid visa for non-EU
                             applicants. Most programs welcome international applicants.
-                        </p>
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-card border border-border rounded-xl p-5">
-                        <h3 class="font-semibold text-foreground mb-2">
-                            Which cities have the most Automotive &amp; Transportation jobs?
-                        </h3>
-                        <p class="text-muted-foreground text-sm">
-                            The top cities for Automotive &amp; Transportation Ausbildung are: Weissach (107 jobs),
+                    <div class="bg-card border border-border rounded-xl overflow-hidden">
+                        <button type="button"
+                            class="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-muted/50 transition-colors"
+                            aria-expanded="false">
+                            <span class="font-semibold text-foreground pr-4">Which cities have the most Automotive &amp; Transportation jobs?</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-chevron-down h-5 w-5 text-muted-foreground flex-shrink-0 transition-transform duration-200">
+                                <path d="m6 9 6 6 6-6"></path>
+                            </svg>
+                        </button>
+                        <div class="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0">
+                            <p class="px-5 pb-5 text-muted-foreground text-sm">
+                                The top cities for Automotive &amp; Transportation Ausbildung are: Weissach (107 jobs),
                             Stuttgart-Zuffenhausen (91 jobs), Leipzig (37 jobs), Stuttgart (35 jobs), Berlin (30 jobs).
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1114,7 +1164,7 @@
                             €2,800-3,500 after training
                         </p>
                         <div class="grid grid-cols-3 gap-3 md:gap-4">
-                            <div class="text-center p-3 md:p-4 bg-beige/50 rounded-xl border border-border/50">
+                            <div class="text-center p-3 md:p-4 azubi-bg-beige/50 rounded-xl border border-border/50">
                                 <p class="text-xl md:text-2xl font-bold text-primary">
                                     95%
                                 </p>
@@ -1122,7 +1172,7 @@
                                     Placement Rate
                                 </p>
                             </div>
-                            <div class="text-center p-3 md:p-4 bg-beige/50 rounded-xl border border-border/50">
+                            <div class="text-center p-3 md:p-4 azubi-bg-beige/50 rounded-xl border border-border/50">
                                 <p class="text-xl md:text-2xl font-bold text-secondary">
                                     3-5 Years
                                 </p>
@@ -1130,7 +1180,7 @@
                                     Career Growth
                                 </p>
                             </div>
-                            <div class="text-center p-3 md:p-4 bg-beige/50 rounded-xl border border-border/50">
+                            <div class="text-center p-3 md:p-4 azubi-bg-beige/50 rounded-xl border border-border/50">
                                 <p class="text-xl md:text-2xl font-bold text-primary">
                                     €2.5K+
                                 </p>
@@ -1275,7 +1325,7 @@
                             </div>
                             <a href="/programs/automotive-mechatronics-technician">
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1291,7 +1341,7 @@
                         </div>
                     </div>
                     <div
-                        class="rounded-xl text-card-foreground shadow relative h-full border border-border shadow-soft hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-beige/40">
+                        class="rounded-xl text-card-foreground shadow relative h-full border border-border shadow-soft hover:shadow-lg transition-all duration-300 hover:-translate-y-1 azubi-bg-beige/40">
                         <div class="p-6">
                             <div class="mb-4">
                                 <div
@@ -1406,7 +1456,7 @@
                             </div>
                             <a href="/programs/automotive-sales-professional">
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1541,7 +1591,7 @@
                             </div>
                             <a href="/programs/vehicle-body-mechanic">
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1557,7 +1607,7 @@
                         </div>
                     </div>
                     <div
-                        class="rounded-xl text-card-foreground shadow relative h-full border border-border shadow-soft hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-beige/40">
+                        class="rounded-xl text-card-foreground shadow relative h-full border border-border shadow-soft hover:shadow-lg transition-all duration-300 hover:-translate-y-1 azubi-bg-beige/40">
                         <div class="p-6">
                             <div class="mb-4">
                                 <div
@@ -1674,7 +1724,7 @@
                             </div>
                             <a href="/programs/vehicle-painter">
                                 <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 w-full group">
                                     Explore Program
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1699,7 +1749,7 @@
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
                     src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl">
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil">
                 </div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="background:radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0,0,0,0.4) 100%),
@@ -1723,7 +1773,7 @@
                                 View Available Positions
                             </a>
                             <a href="{{ route('front.tools.eligibility-checker') }}"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">
                                 Check Eligibility
                             </a>
                         </div>

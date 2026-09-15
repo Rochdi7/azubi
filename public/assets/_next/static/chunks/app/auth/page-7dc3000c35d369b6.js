@@ -778,11 +778,11 @@
                   children: [
                     (0, a.jsx)("div", {
                       className:
-                        "absolute left-[10%] top-[20%] w-96 h-96 rounded-full bg-[#F4991A]/5 blur-3xl",
+                        "absolute left-[10%] top-[20%] w-96 h-96 rounded-full bg-[#5D5DE9]/5 blur-3xl",
                     }),
                     (0, a.jsx)("div", {
                       className:
-                        "absolute right-[10%] bottom-[20%] w-80 h-80 rounded-full bg-[#344F1F]/5 blur-3xl",
+                        "absolute right-[10%] bottom-[20%] w-80 h-80 rounded-full bg-[#2C3340]/5 blur-3xl",
                     }),
                   ],
                 }),
@@ -797,9 +797,9 @@
                         children: [
                           (0, a.jsx)("div", {
                             className:
-                              "mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#F4991A]/10",
+                              "mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#5D5DE9]/10",
                             children: (0, a.jsx)(d.A, {
-                              className: "h-8 w-8 text-[#F4991A]",
+                              className: "h-8 w-8 text-[#5D5DE9]",
                             }),
                           }),
                           (0, a.jsx)(b.L3, {
@@ -865,7 +865,7 @@
                             (D(!1), X(""), M(""));
                           },
                           className:
-                            "w-full sm:w-auto bg-[#F4991A] hover:bg-[#F4991A]/90 text-white font-medium px-8 py-2.5 rounded-full",
+                            "w-full sm:w-auto bg-[#5D5DE9] hover:bg-[#5D5DE9]/90 text-white font-medium px-8 py-2.5 rounded-full",
                           children: "OK, Got It",
                         }),
                       }),

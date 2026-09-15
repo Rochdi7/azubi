@@ -33,8 +33,8 @@
           className: (0, o.cn)(
             "relative bg-white rounded-xl p-4 border-2 transition-all duration-200 cursor-pointer active:scale-[0.98] shadow-sm",
             l
-              ? "border-[#F4991A] bg-[#F4991A]/5"
-              : "border-[#344F1F]/10 hover:border-[#F4991A]/30 hover:shadow-md",
+              ? "border-[#5D5DE9] bg-[#5D5DE9]/5"
+              : "border-[#2C3340]/10 hover:border-[#5D5DE9]/30 hover:shadow-md",
           ),
           children: [
             !s.is_viewed &&
@@ -42,7 +42,7 @@
                 className: "absolute top-3 right-3",
                 children: (0, a.jsx)("span", {
                   className:
-                    "inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-[#F4991A] text-white",
+                    "inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-[#5D5DE9] text-white",
                   children: "Neu",
                 }),
               }),
@@ -56,9 +56,9 @@
                     children: [
                       (0, a.jsx)("div", {
                         className:
-                          "w-10 h-10 rounded-full bg-[#F2EAD3] flex items-center justify-center flex-shrink-0",
+                          "w-10 h-10 rounded-full bg-[#EEF0F4] flex items-center justify-center flex-shrink-0",
                         children: (0, a.jsx)(F.A, {
-                          className: "h-5 w-5 text-[#344F1F]",
+                          className: "h-5 w-5 text-[#2C3340]",
                         }),
                       }),
                       (0, a.jsxs)("div", {
@@ -66,12 +66,12 @@
                         children: [
                           (0, a.jsx)("h3", {
                             className:
-                              "font-semibold text-[#344F1F] truncate text-sm",
+                              "font-semibold text-[#2C3340] truncate text-sm",
                             children: s.student_name,
                           }),
                           s.student_location &&
                             (0, a.jsx)("p", {
-                              className: "text-xs text-[#344F1F]/50 truncate",
+                              className: "text-xs text-[#2C3340]/50 truncate",
                               children: s.student_location,
                             }),
                         ],
@@ -89,10 +89,10 @@
                   className: "flex items-start gap-2",
                   children: [
                     (0, a.jsx)(j.A, {
-                      className: "h-4 w-4 text-[#F4991A] flex-shrink-0 mt-0.5",
+                      className: "h-4 w-4 text-[#5D5DE9] flex-shrink-0 mt-0.5",
                     }),
                     (0, a.jsx)("p", {
-                      className: "text-sm text-[#344F1F] line-clamp-2 flex-1",
+                      className: "text-sm text-[#2C3340] line-clamp-2 flex-1",
                       children: s.job_title,
                     }),
                   ],
@@ -102,10 +102,10 @@
                     className: "flex items-center gap-2",
                     children: [
                       (0, a.jsx)(w.A, {
-                        className: "h-4 w-4 text-[#F4991A] flex-shrink-0",
+                        className: "h-4 w-4 text-[#5D5DE9] flex-shrink-0",
                       }),
                       (0, a.jsx)("p", {
-                        className: "text-sm text-[#344F1F]/70",
+                        className: "text-sm text-[#2C3340]/70",
                         children: s.german_level,
                       }),
                     ],
@@ -114,10 +114,10 @@
                   className: "flex items-center gap-2",
                   children: [
                     (0, a.jsx)(f.A, {
-                      className: "h-4 w-4 text-[#F4991A] flex-shrink-0",
+                      className: "h-4 w-4 text-[#5D5DE9] flex-shrink-0",
                     }),
                     (0, a.jsxs)("p", {
-                      className: "text-xs text-[#344F1F]/70",
+                      className: "text-xs text-[#2C3340]/70",
                       children: [
                         "Beworben am ",
                         new Date(s.created_at).toLocaleDateString("de-DE", {
@@ -134,7 +134,7 @@
             s.internal_rating &&
               s.internal_rating > 0 &&
               (0, a.jsx)("div", {
-                className: "mt-3 pt-3 border-t border-[#344F1F]/10",
+                className: "mt-3 pt-3 border-t border-[#2C3340]/10",
                 children: (0, a.jsxs)("div", {
                   className: "flex items-center gap-1",
                   children: [
@@ -145,15 +145,15 @@
                           className: (0, o.cn)(
                             "w-4 h-4 rounded-full",
                             t < s.internal_rating
-                              ? "bg-[#F4991A]"
-                              : "bg-[#344F1F]/10",
+                              ? "bg-[#5D5DE9]"
+                              : "bg-[#2C3340]/10",
                           ),
                         },
                         t,
                       ),
                     ),
                     (0, a.jsxs)("span", {
-                      className: "ml-2 text-xs text-[#344F1F]/70",
+                      className: "ml-2 text-xs text-[#2C3340]/70",
                       children: [s.internal_rating, "/5"],
                     }),
                   ],
@@ -296,19 +296,19 @@
                     children: [
                       (0, a.jsx)("span", {
                         className:
-                          "text-sm font-semibold text-[#344F1F] whitespace-nowrap",
+                          "text-sm font-semibold text-[#2C3340] whitespace-nowrap",
                         children: e.student_name,
                       }),
                       !e.is_viewed &&
                         (0, a.jsx)("span", {
                           className:
-                            "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-[#F4991A] text-white whitespace-nowrap",
+                            "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-[#5D5DE9] text-white whitespace-nowrap",
                           children: "Neu",
                         }),
                       e.student_location &&
                         (0, a.jsxs)("span", {
                           className:
-                            "text-xs text-[#344F1F]/50 whitespace-nowrap",
+                            "text-xs text-[#2C3340]/50 whitespace-nowrap",
                           children: ["\xb7 ", e.student_location],
                         }),
                     ],
@@ -364,7 +364,7 @@
                 truncate: !1,
                 render: (e) =>
                   (0, a.jsx)("span", {
-                    className: "text-sm text-[#344F1F]/70 whitespace-nowrap",
+                    className: "text-sm text-[#2C3340]/70 whitespace-nowrap",
                     children: M(e.created_at),
                   }),
                 accessor: (e) => new Date(e.created_at).getTime(),
@@ -374,7 +374,7 @@
           );
         return F
           ? (0, a.jsx)("div", {
-              className: "min-h-screen bg-[#F9F5F0] py-8 px-4 sm:px-6 lg:px-8",
+              className: "min-h-screen bg-[#F7F8FA] py-8 px-4 sm:px-6 lg:px-8",
               children: (0, a.jsx)("div", {
                 className: "max-w-7xl mx-auto",
                 children: (0, a.jsx)(v.Fe, {}),
@@ -384,7 +384,7 @@
             ? A
               ? (0, a.jsx)("div", {
                   className:
-                    "min-h-screen bg-[#F9F5F0] py-8 px-4 sm:px-6 lg:px-8",
+                    "min-h-screen bg-[#F7F8FA] py-8 px-4 sm:px-6 lg:px-8",
                   children: (0, a.jsx)("div", {
                     className: "max-w-7xl mx-auto",
                     children: (0, a.jsx)(v.Fe, {}),
@@ -392,7 +392,7 @@
                 })
               : (0, a.jsx)("div", {
                   className:
-                    "min-h-screen bg-[#F9F5F0] py-8 px-4 sm:px-6 lg:px-8",
+                    "min-h-screen bg-[#F7F8FA] py-8 px-4 sm:px-6 lg:px-8",
                   children: (0, a.jsxs)("div", {
                     className: "max-w-7xl mx-auto",
                     children: [
@@ -400,11 +400,11 @@
                         className: "mb-8",
                         children: [
                           (0, a.jsx)("h1", {
-                            className: "text-3xl font-bold text-[#344F1F] mb-2",
+                            className: "text-3xl font-bold text-[#2C3340] mb-2",
                             children: "Bewerbungen",
                           }),
                           (0, a.jsx)("p", {
-                            className: "text-[#344F1F]/70",
+                            className: "text-[#2C3340]/70",
                             children:
                               "Verwalten Sie alle eingehenden Bewerbungen f\xfcr Ihre Stellenangebote",
                           }),
@@ -415,56 +415,56 @@
                         children: [
                           (0, a.jsxs)("div", {
                             className:
-                              "bg-white rounded-xl p-6 border border-[#344F1F]/10",
+                              "bg-white rounded-xl p-6 border border-[#2C3340]/10",
                             children: [
                               (0, a.jsx)("p", {
-                                className: "text-sm text-[#344F1F]/70 mb-1",
+                                className: "text-sm text-[#2C3340]/70 mb-1",
                                 children: "Gesamt",
                               }),
                               (0, a.jsx)("p", {
-                                className: "text-3xl font-bold text-[#344F1F]",
+                                className: "text-3xl font-bold text-[#2C3340]",
                                 children: O.all,
                               }),
                             ],
                           }),
                           (0, a.jsxs)("div", {
                             className:
-                              "bg-white rounded-xl p-6 border border-[#344F1F]/10",
+                              "bg-white rounded-xl p-6 border border-[#2C3340]/10",
                             children: [
                               (0, a.jsx)("p", {
-                                className: "text-sm text-[#344F1F]/70 mb-1",
+                                className: "text-sm text-[#2C3340]/70 mb-1",
                                 children: "Neu eingereicht",
                               }),
                               (0, a.jsx)("p", {
-                                className: "text-3xl font-bold text-[#F4991A]",
+                                className: "text-3xl font-bold text-[#5D5DE9]",
                                 children: O.submitted,
                               }),
                             ],
                           }),
                           (0, a.jsxs)("div", {
                             className:
-                              "bg-white rounded-xl p-6 border border-[#344F1F]/10",
+                              "bg-white rounded-xl p-6 border border-[#2C3340]/10",
                             children: [
                               (0, a.jsx)("p", {
-                                className: "text-sm text-[#344F1F]/70 mb-1",
+                                className: "text-sm text-[#2C3340]/70 mb-1",
                                 children: "In Pr\xfcfung",
                               }),
                               (0, a.jsx)("p", {
-                                className: "text-3xl font-bold text-[#F4991A]",
+                                className: "text-3xl font-bold text-[#5D5DE9]",
                                 children: O.under_review,
                               }),
                             ],
                           }),
                           (0, a.jsxs)("div", {
                             className:
-                              "bg-white rounded-xl p-6 border border-[#344F1F]/10",
+                              "bg-white rounded-xl p-6 border border-[#2C3340]/10",
                             children: [
                               (0, a.jsx)("p", {
-                                className: "text-sm text-[#344F1F]/70 mb-1",
+                                className: "text-sm text-[#2C3340]/70 mb-1",
                                 children: "Vorauswahl",
                               }),
                               (0, a.jsx)("p", {
-                                className: "text-3xl font-bold text-[#344F1F]",
+                                className: "text-3xl font-bold text-[#2C3340]",
                                 children: O.shortlisted,
                               }),
                             ],
@@ -473,7 +473,7 @@
                       }),
                       (0, a.jsx)("div", {
                         className:
-                          "bg-white rounded-xl p-6 border border-[#344F1F]/10 mb-6",
+                          "bg-white rounded-xl p-6 border border-[#2C3340]/10 mb-6",
                         children: (0, a.jsxs)("div", {
                           className: "flex flex-col md:flex-row gap-4",
                           children: [
@@ -484,7 +484,7 @@
                                 children: [
                                   (0, a.jsx)(x.A, {
                                     className:
-                                      "absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-[#344F1F]/50",
+                                      "absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-[#2C3340]/50",
                                   }),
                                   (0, a.jsx)(c.p, {
                                     type: "text",
@@ -493,7 +493,7 @@
                                     value: z,
                                     onChange: (e) => D(e.target.value),
                                     className:
-                                      "pl-10 bg-[#F9F5F0] rounded-lg border-[#344F1F]/15 focus:border-[#F4991A] focus:ring-[#F4991A]/40",
+                                      "pl-10 bg-[#F7F8FA] rounded-lg border-[#2C3340]/15 focus:border-[#5D5DE9] focus:ring-[#5D5DE9]/40",
                                   }),
                                 ],
                               }),
@@ -506,7 +506,7 @@
                                 children: [
                                   (0, a.jsxs)(d.bq, {
                                     className:
-                                      "bg-[#F9F5F0] rounded-lg border-[#344F1F]/15 focus:border-[#F4991A] focus:ring-[#F4991A]/40",
+                                      "bg-[#F7F8FA] rounded-lg border-[#2C3340]/15 focus:border-[#5D5DE9] focus:ring-[#5D5DE9]/40",
                                     children: [
                                       (0, a.jsx)(h.A, {
                                         className: "h-4 w-4 mr-2",
@@ -518,7 +518,7 @@
                                   }),
                                   (0, a.jsxs)(d.gC, {
                                     className:
-                                      "bg-white rounded-xl border-[#344F1F]/15",
+                                      "bg-white rounded-xl border-[#2C3340]/15",
                                     children: [
                                       (0, a.jsxs)(d.eb, {
                                         value: "all",
@@ -591,7 +591,7 @@
                       k.size > 0 &&
                         (0, a.jsxs)("div", {
                           className:
-                            "bg-[#F4991A] rounded-xl p-4 mb-6 flex items-center justify-between flex-wrap gap-3",
+                            "bg-[#5D5DE9] rounded-xl p-4 mb-6 flex items-center justify-between flex-wrap gap-3",
                           children: [
                             (0, a.jsxs)("p", {
                               className: "text-white font-semibold",
@@ -609,8 +609,8 @@
                                   onClick: () => I("mark_viewed"),
                                   disabled: W,
                                   className: (0, o.cn)(
-                                    "rounded-full bg-white text-[#F4991A] px-6",
-                                    "hover:bg-[#F2EAD3] transition-all duration-200",
+                                    "rounded-full bg-white text-[#5D5DE9] px-6",
+                                    "hover:bg-[#EEF0F4] transition-all duration-200",
                                   ),
                                   size: "sm",
                                   children: [
@@ -624,8 +624,8 @@
                                   onClick: () => I("shortlist"),
                                   disabled: W,
                                   className: (0, o.cn)(
-                                    "rounded-full bg-white text-[#344F1F] px-6",
-                                    "hover:bg-[#F2EAD3] transition-all duration-200",
+                                    "rounded-full bg-white text-[#2C3340] px-6",
+                                    "hover:bg-[#EEF0F4] transition-all duration-200",
                                   ),
                                   size: "sm",
                                   children: [
@@ -640,7 +640,7 @@
                                   disabled: W,
                                   className: (0, o.cn)(
                                     "rounded-full bg-white text-[#EF4444] px-6",
-                                    "hover:bg-[#F2EAD3] transition-all duration-200",
+                                    "hover:bg-[#EEF0F4] transition-all duration-200",
                                   ),
                                   size: "sm",
                                   children: [
@@ -661,9 +661,9 @@
                               0 === f.length
                                 ? (0, a.jsx)("div", {
                                     className:
-                                      "bg-white rounded-xl p-12 border border-[#344F1F]/10 text-center",
+                                      "bg-white rounded-xl p-12 border border-[#2C3340]/10 text-center",
                                     children: (0, a.jsx)("p", {
-                                      className: "text-[#344F1F]/70",
+                                      className: "text-[#2C3340]/70",
                                       children:
                                         z || "all" !== S
                                           ? "Keine Bewerbungen gefunden"
@@ -699,7 +699,7 @@
                             onRowClick: (s) =>
                               e.push("/arbeitgeber/bewerbungen/".concat(s.id)),
                             rowClassName: (e) =>
-                              e.is_viewed ? "" : "bg-[#F4991A]/5",
+                              e.is_viewed ? "" : "bg-[#5D5DE9]/5",
                             selectable: !0,
                             selectedRows: k,
                             onSelectionChange: E,

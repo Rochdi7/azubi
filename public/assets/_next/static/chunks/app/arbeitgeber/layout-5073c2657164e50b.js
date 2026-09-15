@@ -80,7 +80,7 @@
                         "relative shadow-2xl rounded-2xl overflow-hidden",
                       style: {
                         backgroundColor: "white",
-                        border: "1px solid rgba(52, 79, 31, 0.1)",
+                        border: "1px solid rgba(44, 51, 64, 0.1)",
                       },
                       children: [
                         (0, n.jsx)("button", {
@@ -109,7 +109,7 @@
                                       }),
                                       (0, n.jsx)("h3", {
                                         className: "text-xl font-semibold",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children:
                                           "Cookie-Einstellungen anpassen",
                                       }),
@@ -122,7 +122,7 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: (0, n.jsxs)("div", {
                                           className:
@@ -146,8 +146,8 @@
                                                         "text-xs px-2 py-0.5 rounded-full",
                                                       style: {
                                                         backgroundColor:
-                                                          "rgba(52, 79, 31, 0.1)",
-                                                        color: "#344F1F",
+                                                          "rgba(44, 51, 64, 0.1)",
+                                                        color: "#2C3340",
                                                       },
                                                       children: "Immer aktiv",
                                                     }),
@@ -165,7 +165,7 @@
                                               className:
                                                 "w-12 h-6 rounded-full flex items-center px-1 shrink-0",
                                               style: {
-                                                backgroundColor: "#F4991A",
+                                                backgroundColor: "#5D5DE9",
                                               },
                                               children: (0, n.jsx)("div", {
                                                 className:
@@ -179,7 +179,7 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: (0, n.jsxs)("div", {
                                           className:
@@ -212,7 +212,7 @@
                                                 "w-12 h-6 rounded-full flex items-center px-1 shrink-0 transition-colors",
                                               style: {
                                                 backgroundColor: t.analytics
-                                                  ? "#F4991A"
+                                                  ? "#5D5DE9"
                                                   : "#e5e7eb",
                                               },
                                               "aria-label": t.analytics
@@ -235,7 +235,7 @@
                                         className: "p-4 rounded-xl",
                                         style: {
                                           backgroundColor:
-                                            "rgba(52, 79, 31, 0.05)",
+                                            "rgba(44, 51, 64, 0.05)",
                                         },
                                         children: (0, n.jsxs)("div", {
                                           className:
@@ -269,7 +269,7 @@
                                                 "w-12 h-6 rounded-full flex items-center px-1 shrink-0 transition-colors",
                                               style: {
                                                 backgroundColor: t.functional
-                                                  ? "#F4991A"
+                                                  ? "#5D5DE9"
                                                   : "#e5e7eb",
                                               },
                                               "aria-label": t.functional
@@ -300,7 +300,7 @@
                                         },
                                         className: "rounded-full flex-1",
                                         style: {
-                                          backgroundColor: "#F4991A",
+                                          backgroundColor: "#5D5DE9",
                                           color: "white",
                                         },
                                         children: "Auswahl speichern",
@@ -310,8 +310,8 @@
                                         variant: "outline",
                                         className: "rounded-full flex-1",
                                         style: {
-                                          borderColor: "#344F1F",
-                                          color: "#344F1F",
+                                          borderColor: "#2C3340",
+                                          color: "#2C3340",
                                         },
                                         children: "Alle akzeptieren",
                                       }),
@@ -329,7 +329,7 @@
                                           href: "/arbeitgeber/cookies",
                                           className:
                                             "font-medium hover:underline",
-                                          style: { color: "#F4991A" },
+                                          style: { color: "#5D5DE9" },
                                           children: "Cookie-Richtlinie",
                                         }),
                                         ".",
@@ -349,11 +349,11 @@
                                           "w-12 h-12 rounded-full flex items-center justify-center shrink-0",
                                         style: {
                                           backgroundColor:
-                                            "rgba(244, 153, 26, 0.1)",
+                                            "rgba(93, 93, 233, 0.1)",
                                         },
                                         children: (0, n.jsx)(u.A, {
                                           className: "w-6 h-6",
-                                          style: { color: "#F4991A" },
+                                          style: { color: "#5D5DE9" },
                                         }),
                                       }),
                                       (0, n.jsxs)("div", {
@@ -361,7 +361,7 @@
                                           (0, n.jsx)("h3", {
                                             className:
                                               "text-xl font-semibold mb-2",
-                                            style: { color: "#344F1F" },
+                                            style: { color: "#2C3340" },
                                             children:
                                               "Ihre Cookie-Einstellungen",
                                           }),
@@ -384,7 +384,7 @@
                                         className:
                                           "rounded-full flex-1 sm:flex-initial",
                                         style: {
-                                          backgroundColor: "#F4991A",
+                                          backgroundColor: "#5D5DE9",
                                           color: "white",
                                         },
                                         children: "Alle akzeptieren",
@@ -395,8 +395,8 @@
                                         className:
                                           "rounded-full flex-1 sm:flex-initial",
                                         style: {
-                                          borderColor: "#344F1F",
-                                          color: "#344F1F",
+                                          borderColor: "#2C3340",
+                                          color: "#2C3340",
                                         },
                                         children: "Nur notwendige",
                                       }),
@@ -405,7 +405,7 @@
                                         variant: "ghost",
                                         className:
                                           "rounded-full flex-1 sm:flex-initial",
-                                        style: { color: "#344F1F" },
+                                        style: { color: "#2C3340" },
                                         children: [
                                           (0, n.jsx)(x.A, {
                                             className: "w-4 h-4 mr-2",
@@ -427,7 +427,7 @@
                                           href: "/arbeitgeber/cookies",
                                           className:
                                             "font-medium hover:underline",
-                                          style: { color: "#F4991A" },
+                                          style: { color: "#5D5DE9" },
                                           children: "Cookie-Richtlinie",
                                         }),
                                         " ",
@@ -437,7 +437,7 @@
                                           href: "/arbeitgeber/datenschutz",
                                           className:
                                             "font-medium hover:underline",
-                                          style: { color: "#F4991A" },
+                                          style: { color: "#5D5DE9" },
                                           children: "Datenschutzerkl\xe4rung",
                                         }),
                                         ".",

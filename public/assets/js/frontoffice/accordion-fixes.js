@@ -1,4 +1,4 @@
-﻿// FAQ accordion toggle (global)
+// FAQ accordion toggle (global)
 (function() {
   var faqButtons = Array.prototype.filter.call(
     document.querySelectorAll('main button[aria-expanded]'),

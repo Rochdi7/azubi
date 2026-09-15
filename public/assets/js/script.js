@@ -13,14 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
   if (menuToggle && menuOverlay && menuClose) {
     const openMenu = () => {
       scrollPosition = window.pageYOffset;
-      document.body.classList.add('menu-open');
+      document.body.classList.add('azubi-menu-open');
       document.body.style.top = `-${scrollPosition}px`;
       menuOverlay.classList.add('active');
     };
 
     const closeMenu = () => {
       menuOverlay.classList.remove('active');
-      document.body.classList.remove('menu-open');
+      document.body.classList.remove('azubi-menu-open');
       document.body.style.top = '';
       window.scrollTo(0, scrollPosition);
     };
@@ -32,12 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Close on link click (but not accordion triggers)
-    menuOverlay.querySelectorAll('.mobile-menu-link').forEach(link => {
-      if (!link.classList.contains('mobile-accordion-trigger')) {
+    menuOverlay.querySelectorAll('.azubi-mobile-menu-link').forEach(link => {
+      if (!link.classList.contains('azubi-mobile-accordion-trigger')) {
         link.addEventListener('click', closeMenu);
       }
     });
-    menuOverlay.querySelectorAll('.mobile-sub-link').forEach(link => {
+    menuOverlay.querySelectorAll('.azubi-mobile-sub-link').forEach(link => {
       link.addEventListener('click', closeMenu);
     });
 
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---- Desktop Dropdown Hover (with open/close delay) ----
   const OPEN_DELAY = 100;
   const CLOSE_DELAY = 50;
-  const dropdownItems = document.querySelectorAll('.nav-has-dropdown');
+  const dropdownItems = document.querySelectorAll('.azubi-nav-has-dropdown');
 
   dropdownItems.forEach(item => {
     let openTimer = null;
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Keep open when hovering on panel
-    const panel = item.querySelector('.nav-dropdown-panel');
+    const panel = item.querySelector('.azubi-nav-dropdown-panel');
     if (panel) {
       panel.addEventListener('mouseenter', () => {
         clearTimeout(closeTimer);
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Also support click/touch for the trigger button
-    const trigger = item.querySelector('.nav-dropdown-trigger');
+    const trigger = item.querySelector('.azubi-nav-dropdown-trigger');
     if (trigger) {
       trigger.addEventListener('click', (e) => {
         e.preventDefault();
@@ -121,12 +121,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ---- More Button Dropdown ----
-  const moreBtn = document.querySelector('.nav-more-btn');
-  const moreDropdown = document.querySelector('.nav-more-dropdown');
+  const moreBtn = document.querySelector('.azubi-nav-more-btn');
+  const moreDropdown = document.querySelector('.azubi-nav-more-dropdown');
 
   if (moreBtn && moreDropdown) {
     let moreCloseTimer = null;
-    const moreItem = moreBtn.closest('.nav-item');
+    const moreItem = moreBtn.closest('.azubi-nav-item');
 
     moreBtn.addEventListener('click', (e) => {
       e.preventDefault();
@@ -148,10 +148,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ---- Close Dropdowns on Outside Click ----
   document.addEventListener('click', (e) => {
-    if (!e.target.closest('.nav-has-dropdown')) {
+    if (!e.target.closest('.azubi-nav-has-dropdown')) {
       dropdownItems.forEach(item => item.classList.remove('open'));
     }
-    if (moreDropdown && !e.target.closest('.nav-item-more')) {
+    if (moreDropdown && !e.target.closest('.azubi-nav-item-more')) {
       moreDropdown.classList.remove('open');
     }
   });
@@ -165,10 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ---- Mobile Accordion Submenus ----
-  const mobileAccordions = document.querySelectorAll('.mobile-accordion');
+  const mobileAccordions = document.querySelectorAll('.azubi-mobile-accordion');
 
   mobileAccordions.forEach(accordion => {
-    const trigger = accordion.querySelector('.mobile-accordion-trigger');
+    const trigger = accordion.querySelector('.azubi-mobile-accordion-trigger');
     if (!trigger) return;
 
     trigger.addEventListener('click', (e) => {
@@ -186,13 +186,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ---- Scroll Animations (Intersection Observer) ----
-  const animatedElements = document.querySelectorAll('.animate-on-scroll');
+  const animatedElements = document.querySelectorAll('.azubi-animate-on-scroll');
 
   if (animatedElements.length > 0 && 'IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
+          entry.target.classList.add('azubi-visible');
           observer.unobserve(entry.target);
         }
       });
@@ -204,14 +204,14 @@ document.addEventListener('DOMContentLoaded', () => {
     animatedElements.forEach(el => observer.observe(el));
   } else {
     // Fallback: show everything
-    animatedElements.forEach(el => el.classList.add('visible'));
+    animatedElements.forEach(el => el.classList.add('azubi-visible'));
   }
 
   // ---- FAQ Accordion ----
-  const faqItems = document.querySelectorAll('.faq-item');
+  const faqItems = document.querySelectorAll('.azubi-faq-item');
 
   faqItems.forEach(item => {
-    const btn = item.querySelector('.faq-question');
+    const btn = item.querySelector('.azubi-faq-question');
     if (!btn) return;
 
     btn.addEventListener('click', () => {
@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Close all
       faqItems.forEach(other => {
         other.classList.remove('active');
-        const otherBtn = other.querySelector('.faq-question');
+        const otherBtn = other.querySelector('.azubi-faq-question');
         if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
       });
 
@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ---- Success Stories Marquee (clone tracks for seamless loop) ----
-  document.querySelectorAll('.stories-marquee-track').forEach(track => {
+  document.querySelectorAll('.azubi-stories-marquee-track').forEach(track => {
     const clone = track.innerHTML;
     track.innerHTML += clone;
   });

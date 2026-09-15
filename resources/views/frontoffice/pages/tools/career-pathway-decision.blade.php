@@ -28,10 +28,10 @@
                 </button>
             </a>
             <div class="flex items-start gap-4 md:gap-6">
-                <div class="p-3 md:p-4 rounded-xl bg-orange/10 flex-shrink-0" aria-hidden="true">
+                <div class="p-3 md:p-4 rounded-xl azubi-bg-orange/10 flex-shrink-0" aria-hidden="true">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-compass h-8 w-8 md:h-10 md:w-10 text-orange">
+                        class="lucide lucide-compass h-8 w-8 md:h-10 md:w-10 azubi-text-orange">
                         <path
                             d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z">
                         </path>
@@ -58,7 +58,7 @@
             <article>
                 <div class="rounded-xl border bg-card text-card-foreground shadow w-full max-w-3xl mx-auto bg-white">
                     <div class="p-6 md:p-8">
-                        <!-- Progress Bar (visible during questions) -->
+                        <!-- Progress Bar (azubi-visible during questions) -->
                         <div id="progress-bar" class="mb-6 hidden">
                             <div class="flex items-center justify-between mb-2">
                                 <span class="text-sm text-muted-foreground">Question <span id="current-question">1</span> of
@@ -75,7 +75,7 @@
                         <!-- Step Container -->
                         <div id="wizard-container">
                             <!-- Step 0: Welcome -->
-                            <div id="step-0" class="wizard-step">
+                            <div id="step-0" class="azubi-wizard-step">
                                 <div class="text-center py-8">
                                     <div class="mb-6 flex justify-center">
                                         <img src="{{ asset('assets/_next/mascot_welcomingfad6.jpeg') }}"
@@ -142,7 +142,7 @@
                             </div>
 
                             <!-- Step 1: Reason for Change -->
-                            <div id="step-1" class="wizard-step hidden">
+                            <div id="step-1" class="azubi-wizard-step hidden">
                                 <div class="space-y-6">
                                     <div>
                                         <h2 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-2">What's
@@ -154,7 +154,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('reasonForChange','company-issues', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Company or workplace issues</div>
@@ -165,7 +165,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('reasonForChange','wrong-career', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Wrong career choice</div>
@@ -176,7 +176,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('reasonForChange','higher-qualification', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Want higher qualification</div>
@@ -187,7 +187,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('reasonForChange','personal-circumstances', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Personal circumstances changed</div>
@@ -198,7 +198,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('reasonForChange','better-opportunities', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Better opportunities available</div>
@@ -207,7 +207,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-2 p-4 bg-beige rounded-lg">
+                                    <div class="flex items-start gap-2 p-4 azubi-bg-beige rounded-lg">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -223,7 +223,7 @@
                             </div>
 
                             <!-- Step 2: Training Progress -->
-                            <div id="step-2" class="wizard-step hidden">
+                            <div id="step-2" class="azubi-wizard-step hidden">
                                 <div class="space-y-6">
                                     <div>
                                         <h2 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-2">How
@@ -247,7 +247,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('trainingProgress','not-started', this, 0)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Haven't started yet</div>
@@ -258,7 +258,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('trainingProgress','probation', this, 10)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">In probation period (first 4 months)</div>
@@ -269,7 +269,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('trainingProgress','less-than-25', this, 25)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Less than 25% complete</div>
@@ -280,7 +280,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('trainingProgress','25-to-50', this, 40)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">25-50% complete</div>
@@ -291,7 +291,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('trainingProgress','50-to-75', this, 65)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">50-75% complete</div>
@@ -302,7 +302,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('trainingProgress','more-than-75', this, 85)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">More than 75% complete</div>
@@ -329,7 +329,7 @@
                             </div>
 
                             <!-- Step 3: Work Experience -->
-                            <div id="step-3" class="wizard-step hidden">
+                            <div id="step-3" class="azubi-wizard-step hidden">
                                 <div class="space-y-6">
                                     <div>
                                         <h2 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-2">What's
@@ -341,7 +341,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('workExperience','no-experience', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">No significant work experience</div>
@@ -352,7 +352,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('workExperience','internships', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Internships or part-time work</div>
@@ -363,7 +363,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('workExperience','related-field', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Experience in related field</div>
@@ -374,7 +374,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('workExperience','unrelated-field', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Experience in unrelated field</div>
@@ -385,7 +385,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('workExperience','extensive-experience', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Extensive work experience</div>
@@ -394,7 +394,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-2 p-4 bg-beige rounded-xl">
+                                    <div class="flex items-start gap-2 p-4 azubi-bg-beige rounded-xl">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -410,7 +410,7 @@
                             </div>
 
                             <!-- Step 4: Education Background -->
-                            <div id="step-4" class="wizard-step hidden">
+                            <div id="step-4" class="azubi-wizard-step hidden">
                                 <div class="space-y-6">
                                     <div>
                                         <h2 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-2">What's
@@ -422,7 +422,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('educationBackground','hauptschule', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Hauptschulabschluss or equivalent</div>
@@ -433,7 +433,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('educationBackground','realschule', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Mittlere Reife / Realschulabschluss</div>
@@ -444,7 +444,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('educationBackground','fachabitur', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Fachabitur / Fachhochschulreife</div>
@@ -455,7 +455,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('educationBackground','abitur', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Abitur / Allgemeine Hochschulreife</div>
@@ -466,7 +466,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('educationBackground','foreign-qualification', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Foreign qualification</div>
@@ -477,7 +477,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('educationBackground','university-degree', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">University degree</div>
@@ -486,7 +486,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-2 p-4 bg-beige rounded-lg">
+                                    <div class="flex items-start gap-2 p-4 azubi-bg-beige rounded-lg">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -501,7 +501,7 @@
                             </div>
 
                             <!-- Step 5: Financial Situation -->
-                            <div id="step-5" class="wizard-step hidden">
+                            <div id="step-5" class="azubi-wizard-step hidden">
                                 <div class="space-y-6">
                                     <div>
                                         <h2 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-2">What's
@@ -513,7 +513,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('financialSituation','need-continuous-income', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Need continuous income</div>
@@ -524,7 +524,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('financialSituation','manage-with-bab', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Can manage with training allowance</div>
@@ -535,7 +535,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('financialSituation','have-savings', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Have savings buffer</div>
@@ -546,7 +546,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('financialSituation','family-support', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Family support available</div>
@@ -557,7 +557,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('financialSituation','flexible', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Financially flexible</div>
@@ -566,7 +566,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-2 p-4 bg-beige rounded-lg">
+                                    <div class="flex items-start gap-2 p-4 azubi-bg-beige rounded-lg">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -584,7 +584,7 @@
                             </div>
 
                             <!-- Step 6: German Language Level -->
-                            <div id="step-6" class="wizard-step hidden">
+                            <div id="step-6" class="azubi-wizard-step hidden">
                                 <div class="space-y-6">
                                     <div>
                                         <h2 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-2">What's
@@ -596,7 +596,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('germanLevel','a1-a2', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">A1-A2 (Basic)</div>
@@ -609,7 +609,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('germanLevel','b1', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">B1 (Intermediate)</div>
@@ -622,7 +622,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('germanLevel','b2', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">B2 (Upper Intermediate)</div>
@@ -635,7 +635,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('germanLevel','c1', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">C1 (Advanced)</div>
@@ -648,7 +648,7 @@
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="selectRadio('germanLevel','native', this)">
                                             <div
-                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center radio-circle">
+                                                class="mt-1 w-4 h-4 rounded-full border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-radio-circle">
                                             </div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Native German speaker</div>
@@ -659,7 +659,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-2 p-4 bg-beige rounded-xl">
+                                    <div class="flex items-start gap-2 p-4 azubi-bg-beige rounded-xl">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -672,13 +672,13 @@
                                             <path d="M14 18h6"></path>
                                         </svg>
                                         <p class="text-sm text-primary">Free Berufssprachkurse (vocational language
-                                            courses) can help you reach the required level for your chosen field.</p>
+                                            courses) can help you reach the azubi-required level for your chosen field.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Step 7: Priority Factors (multi-select) -->
-                            <div id="step-7" class="wizard-step hidden">
+                            <div id="step-7" class="azubi-wizard-step hidden">
                                 <div class="space-y-6">
                                     <div>
                                         <h2 class="tracking-tight font-bold text-xl sm:text-2xl text-secondary mb-2">What
@@ -689,7 +689,7 @@
                                     <div class="space-y-3" id="priority-options">
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('quick-completion', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-quick-completion"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Quick completion</div>
@@ -699,7 +699,7 @@
                                         </div>
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('financial-stability', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-financial-stability"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Financial stability</div>
@@ -709,7 +709,7 @@
                                         </div>
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('career-growth', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-career-growth"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Career growth potential</div>
@@ -719,7 +719,7 @@
                                         </div>
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('visa-security', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-visa-security"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Visa security</div>
@@ -729,7 +729,7 @@
                                         </div>
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('work-life-balance', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-work-life-balance"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Work-life balance</div>
@@ -739,7 +739,7 @@
                                         </div>
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('academic-degree', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-academic-degree"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Academic degree</div>
@@ -749,7 +749,7 @@
                                         </div>
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('industry-change', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-industry-change"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Industry change</div>
@@ -759,7 +759,7 @@
                                         </div>
                                         <div class="flex items-start space-x-3 p-4 rounded-lg border hover:bg-white transition-colors cursor-pointer"
                                             onclick="toggleCheckbox('location-flexibility', this)">
-                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center checkbox-box"
+                                            <div class="mt-1 w-4 h-4 rounded border-2 border-primary flex-shrink-0 flex items-center justify-center azubi-checkbox-box"
                                                 id="cb-location-flexibility"></div>
                                             <div class="flex-1 cursor-pointer">
                                                 <div class="font-semibold">Location flexibility</div>
@@ -786,12 +786,12 @@
                             </div>
 
                             <!-- Step 8: Results -->
-                            <div id="step-8" class="wizard-step hidden">
+                            <div id="step-8" class="azubi-wizard-step hidden">
                                 <div class="space-y-6" id="results-container"></div>
                             </div>
                         </div>
 
-                        <!-- Navigation Buttons (visible during questions) -->
+                        <!-- Navigation Buttons (azubi-visible during questions) -->
                         <div id="nav-buttons" class="flex items-center justify-between mt-8 hidden">
                             <button onclick="prevStep()" id="btn-prev"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">
@@ -821,7 +821,7 @@
         </div>
     </main>
 
-    <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}?v={{ filemtime(public_path('assets/css/global-new-styles.css')) }}">
     <div id="career-pathway-config" class="hidden"
         data-mascot-url="{{ asset('assets/_next/mascot_welcomingfad6.jpeg') }}" data-jobs-url="{{ route('front.jobs') }}"
         data-consultation-url="{{ route('front.consultation') }}"></div>

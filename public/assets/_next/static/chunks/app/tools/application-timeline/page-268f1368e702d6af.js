@@ -115,7 +115,7 @@
               layout: "vertical",
               margin: { top: 20, right: 30, left: 150, bottom: 20 },
               children: [
-                (0, s.jsx)(N.d, { strokeDasharray: "3 3", stroke: "#F2EAD3" }),
+                (0, s.jsx)(N.d, { strokeDasharray: "3 3", stroke: "#EEF0F4" }),
                 (0, s.jsx)(w.W, {
                   type: "number",
                   domain: [0, t + 1],
@@ -123,15 +123,15 @@
                     value: "Months from Start",
                     position: "insideBottom",
                     offset: -10,
-                    style: { fill: "#344F1F" },
+                    style: { fill: "#2C3340" },
                   },
-                  tick: { fill: "#344F1F" },
+                  tick: { fill: "#2C3340" },
                 }),
                 (0, s.jsx)(S.h, {
                   type: "category",
                   dataKey: "name",
                   width: 140,
-                  tick: { fill: "#344F1F", fontSize: 14 },
+                  tick: { fill: "#2C3340", fontSize: 14 },
                 }),
                 (0, s.jsx)(k.m, {
                   content: (0, s.jsx)((e) => {
@@ -194,16 +194,16 @@
                     }
                     return null;
                   }, {}),
-                  cursor: { fill: "rgba(52, 79, 31, 0.1)" },
+                  cursor: { fill: "rgba(44, 51, 64, 0.1)" },
                 }),
                 (0, s.jsx)(C.y, {
                   dataKey: "duration",
-                  fill: "#344F1F",
+                  fill: "#2C3340",
                   radius: [0, 8, 8, 0],
                   children: n.map((e, a) =>
                     (0, s.jsx)(
                       A.f,
-                      { fill: e.color, stroke: "#344F1F", strokeWidth: 2 },
+                      { fill: e.color, stroke: "#2C3340", strokeWidth: 2 },
                       "cell-".concat(a),
                     ),
                   ),
@@ -222,13 +222,13 @@
         let { phase: n, phaseNumber: i, totalPhases: r } = e;
         return (0, s.jsx)(T.Zp, {
           className: "p-6 rounded-2xl border-2 ".concat(
-            "#344F1F" === (a = n.color)
+            "#2C3340" === (a = n.color)
               ? "bg-cream border-green"
-              : "#F4991A" === a
+              : "#5D5DE9" === a
                 ? "bg-beige border-orange"
-                : "#F9F5F0" === a
+                : "#F7F8FA" === a
                   ? "bg-cream border-beige"
-                  : "#F2EAD3" === a
+                  : "#EEF0F4" === a
                     ? "bg-beige border-beige"
                     : "bg-cream border-green",
             " transition-all hover:shadow-lg",
@@ -241,11 +241,11 @@
                 children: (0, s.jsx)("div", {
                   className:
                     "w-12 h-12 rounded-full border-2 border-current ".concat(
-                      "#344F1F" === (t = n.color)
+                      "#2C3340" === (t = n.color)
                         ? "text-green"
-                        : "#F4991A" === t
+                        : "#5D5DE9" === t
                           ? "text-orange"
-                          : "#F9F5F0" === t || "#F2EAD3" === t
+                          : "#F7F8FA" === t || "#EEF0F4" === t
                             ? "text-green/70"
                             : "text-green",
                       " flex items-center justify-center font-bold text-lg",

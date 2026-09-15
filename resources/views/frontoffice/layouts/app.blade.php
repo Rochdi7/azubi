@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,14 +9,26 @@
     @yield('meta')
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Azubi">
-    <link rel="icon" href="{{ asset('favicon.ico') }}">
-    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/081a0afca5a9bd20.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/d9109d77acd75b7b.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/e2c84361ea1dce8b.css') }}">
+    <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicons/favicon-16x16.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/images/favicons/favicon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="512x512" href="{{ asset('assets/images/favicons/favicon-512x512.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicons/apple-touch-icon.png') }}">
+    <meta name="theme-color" content="#5D5DE9">
+    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/081a0afca5a9bd20.css') }}?v={{ filemtime(public_path('assets/_next/static/css/081a0afca5a9bd20.css')) }}">
+    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/d9109d77acd75b7b.css') }}?v={{ filemtime(public_path('assets/_next/static/css/d9109d77acd75b7b.css')) }}">
+    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/e2c84361ea1dce8b.css') }}?v={{ filemtime(public_path('assets/_next/static/css/e2c84361ea1dce8b.css')) }}">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ asset('assets/fonts/687613c278c4fd0d8c3d8f2a_DMSans-Regular.woff2') }}">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ asset('assets/fonts/65394e97b7805494f5736d2d_GT-Super-Display-Medium.woff2') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/brand-fonts.css') }}?v={{ filemtime(public_path('assets/css/brand-fonts.css')) }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/brand-gradients.css') }}?v={{ filemtime(public_path('assets/css/brand-gradients.css')) }}">
     @stack('styles')
     <style>
         :root {
-            --font-inter: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+            /* Body/UI face. The prebuilt Tailwind CSS resolves every sans stack
+               through this token, so pointing it at DM Sans re-fonts the site. */
+            --font-inter: 'DM Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
         }
     </style>
 </head>

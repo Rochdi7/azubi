@@ -60,7 +60,7 @@
                 /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&amp;w=2048&amp;q=85 2048w
               "
                 src="{{ asset('assets/_next/brandenburg-gate-hero-autumn77fb.jpeg?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&amp;w=2048&amp;q=85') }}" />
-            <div class="absolute inset-0 bg-black/30 z-0"></div>
+            <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
                 background:
@@ -117,7 +117,7 @@
                     </p>
                     <nav class="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 mt-2 w-full max-w-md mx-auto justify-center"
                         aria-label="Primary navigation">
-                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#F4991A] hover:bg-[#E5890F] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
+                        <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 active:translate-y-0 h-14 bg-[#5D5DE9] hover:bg-[#2C3340] text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 sm:px-7 py-5 text-base font-semibold w-full sm:w-auto hover:-translate-y-1 inline-flex items-center justify-center"
                             aria-label="Get Started" href="#partner-benefits"><span aria-hidden="true"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -145,10 +145,10 @@
         <section id="partner-benefits" class="py-16 md:py-24 bg-muted/20">
             <div class="container px-4 md:px-6">
                 <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
-                    <h2 class="font-bold tracking-tight text-[#344F1F] text-2xl sm:text-3xl md:text-4xl">
+                    <h2 class="font-bold tracking-tight text-[#2C3340] text-2xl sm:text-3xl md:text-4xl">
                         Why Partner with Azubi?
                     </h2>
-                    <p class="text-base sm:text-lg text-[#344F1F]/70 font-medium leading-relaxed max-w-3xl">
+                    <p class="text-base sm:text-lg text-[#2C3340]/70 font-medium leading-relaxed max-w-3xl">
                         Join our network of successful education partners helping
                         international students achieve their German Ausbildung goals.
                     </p>
@@ -278,10 +278,10 @@
         <section class="py-16 md:py-24">
             <div class="container px-4 md:px-6">
                 <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
-                    <h2 class="font-bold tracking-tight text-[#344F1F] text-2xl sm:text-3xl md:text-4xl">
+                    <h2 class="font-bold tracking-tight text-[#2C3340] text-2xl sm:text-3xl md:text-4xl">
                         Partnership Process
                     </h2>
-                    <p class="text-base sm:text-lg text-[#344F1F]/70 font-medium leading-relaxed max-w-3xl">
+                    <p class="text-base sm:text-lg text-[#2C3340]/70 font-medium leading-relaxed max-w-3xl">
                         Get started with our streamlined 4-step partnership process
                         designed to get you onboarded quickly.
                     </p>
@@ -333,10 +333,10 @@
         <section id="partner-form" class="py-24 bg-muted/30">
             <div class="container px-4 md:px-6">
                 <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
-                    <h2 class="font-bold tracking-tight text-[#344F1F] text-2xl sm:text-3xl md:text-4xl">
+                    <h2 class="font-bold tracking-tight text-[#2C3340] text-2xl sm:text-3xl md:text-4xl">
                         Apply for Partnership
                     </h2>
-                    <p class="text-base sm:text-lg text-[#344F1F]/70 font-medium leading-relaxed max-w-3xl">
+                    <p class="text-base sm:text-lg text-[#2C3340]/70 font-medium leading-relaxed max-w-3xl">
                         Ready to partner with us? Fill out our application form and
                         we&#x27;ll get back to you within 48 hours.
                     </p>
@@ -358,10 +358,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="h-0.5 w-12 shrink-0 mx-2 mt-[-20px] bg-beige"></div>
+                            <div class="h-0.5 w-12 shrink-0 mx-2 mt-[-20px] azubi-bg-beige"></div>
                             <div class="flex flex-col items-center">
                                 <div
-                                    class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors shrink-0 bg-beige text-muted-foreground">
+                                    class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors shrink-0 azubi-bg-beige text-muted-foreground">
                                     2
                                 </div>
                                 <div class="text-center">
@@ -373,10 +373,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="h-0.5 w-12 shrink-0 mx-2 mt-[-20px] bg-beige"></div>
+                            <div class="h-0.5 w-12 shrink-0 mx-2 mt-[-20px] azubi-bg-beige"></div>
                             <div class="flex flex-col items-center">
                                 <div
-                                    class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors shrink-0 bg-beige text-muted-foreground">
+                                    class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium mb-2 transition-colors shrink-0 azubi-bg-beige text-muted-foreground">
                                     3
                                 </div>
                                 <div class="text-center">
@@ -503,7 +503,7 @@
                                 </div>
                                 <div class="flex flex-col sm:flex-row justify-between gap-4 pt-8 border-t">
                                     <button
-                                        class="whitespace-nowrap rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 py-3 flex items-center justify-center gap-2 h-12 px-6 text-base font-medium order-2 sm:order-1"
+                                        class="whitespace-nowrap rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 py-3 flex items-center justify-center gap-2 h-12 px-6 text-base font-medium order-2 sm:order-1"
                                         type="button" disabled="">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -531,10 +531,10 @@
             <div class="container px-4 md:px-6">
                 <div class="max-w-4xl mx-auto">
                     <div class="flex flex-col space-y-4 max-w-4xl mx-auto mb-12 sm:mb-16 text-center items-center">
-                        <h3 class="font-bold tracking-tight text-[#344F1F] text-xl sm:text-2xl md:text-3xl">
+                        <h3 class="font-bold tracking-tight text-[#2C3340] text-xl sm:text-2xl md:text-3xl">
                             Partnership Requirements
                         </h3>
-                        <p class="text-base sm:text-lg text-[#344F1F]/70 font-medium leading-relaxed max-w-3xl">
+                        <p class="text-base sm:text-lg text-[#2C3340]/70 font-medium leading-relaxed max-w-3xl">
                             We partner with organizations that share our commitment to
                             student success.
                         </p>
@@ -614,7 +614,7 @@
                   /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85 2048w
                 "
                     src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85') }}" />
-                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
+                <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="
                   background:
@@ -660,7 +660,7 @@
                             <a href="#partner-form"
                                 class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Start
                                 Partnership Application</a><a href="{{ route('front.contact') }}"
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Contact
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Contact
                                 Us</a>
                         </div>
                     </div>

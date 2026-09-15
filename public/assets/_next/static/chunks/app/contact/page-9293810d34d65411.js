@@ -48,7 +48,7 @@
                             className:
                               "w-12 h-12 rounded-xl flex items-center justify-center mb-4",
                             style: {
-                              backgroundColor: "rgba(244, 153, 26, 0.1)",
+                              backgroundColor: "rgba(93, 93, 233, 0.1)",
                             },
                             children: (0, a.jsx)(l.A, {
                               className: "w-6 h-6 text-primary",
@@ -95,7 +95,7 @@
                             className:
                               "w-12 h-12 rounded-xl flex items-center justify-center mb-4",
                             style: {
-                              backgroundColor: "rgba(244, 153, 26, 0.1)",
+                              backgroundColor: "rgba(93, 93, 233, 0.1)",
                             },
                             children: (0, a.jsx)(c.A, {
                               className: "w-6 h-6 text-primary",
@@ -144,7 +144,7 @@
                             className:
                               "w-12 h-12 rounded-xl flex items-center justify-center mb-4",
                             style: {
-                              backgroundColor: "rgba(244, 153, 26, 0.1)",
+                              backgroundColor: "rgba(93, 93, 233, 0.1)",
                             },
                             children: (0, a.jsx)(d.A, {
                               className: "w-6 h-6 text-primary",
@@ -208,7 +208,7 @@
                           (0, a.jsx)("div", {
                             className: "p-4",
                             style: {
-                              backgroundColor: "rgba(244, 153, 26, 0.1)",
+                              backgroundColor: "rgba(93, 93, 233, 0.1)",
                             },
                             children: (0, a.jsxs)("div", {
                               className: "flex items-center gap-3",
@@ -294,7 +294,7 @@
                           (0, a.jsx)("div", {
                             className: "p-4",
                             style: {
-                              backgroundColor: "rgba(244, 153, 26, 0.1)",
+                              backgroundColor: "rgba(93, 93, 233, 0.1)",
                             },
                             children: (0, a.jsxs)("div", {
                               className: "flex items-center gap-3",
@@ -530,7 +530,7 @@
                   (0, a.jsxs)("div", {
                     className:
                       "inline-flex items-center justify-center px-6 py-3 rounded-full text-primary font-medium",
-                    style: { backgroundColor: "rgba(244, 153, 26, 0.1)" },
+                    style: { backgroundColor: "rgba(93, 93, 233, 0.1)" },
                     children: [
                       (0, a.jsx)(d.A, { className: "h-5 w-5 mr-2" }),
                       "Email us at\xa0",
@@ -589,8 +589,8 @@
                       className:
                         "inline-flex items-center gap-2 px-4 py-2 rounded-full",
                       style: {
-                        backgroundColor: "rgba(244, 153, 26, 0.1)",
-                        border: "1px solid rgba(244, 153, 26, 0.2)",
+                        backgroundColor: "rgba(93, 93, 233, 0.1)",
+                        border: "1px solid rgba(93, 93, 233, 0.2)",
                       },
                       children: [
                         (0, a.jsx)(n.A, { className: "w-4 h-4 text-primary" }),
@@ -638,7 +638,7 @@
                               className:
                                 "w-12 h-12 rounded-xl flex items-center justify-center shrink-0",
                               style: {
-                                backgroundColor: "rgba(244, 153, 26, 0.1)",
+                                backgroundColor: "rgba(93, 93, 233, 0.1)",
                               },
                               children: (0, a.jsx)(l.A, {
                                 className: "h-6 w-6 text-primary",
@@ -668,7 +668,7 @@
                               className:
                                 "w-12 h-12 rounded-xl flex items-center justify-center shrink-0",
                               style: {
-                                backgroundColor: "rgba(52, 79, 31, 0.1)",
+                                backgroundColor: "rgba(44, 51, 64, 0.1)",
                               },
                               children: (0, a.jsx)(o.A, {
                                 className: "h-6 w-6 text-secondary",
@@ -699,7 +699,7 @@
                               className:
                                 "w-12 h-12 rounded-xl flex items-center justify-center shrink-0",
                               style: {
-                                backgroundColor: "rgba(244, 153, 26, 0.1)",
+                                backgroundColor: "rgba(93, 93, 233, 0.1)",
                               },
                               children: (0, a.jsx)(n.A, {
                                 className: "h-6 w-6 text-primary",
@@ -730,7 +730,7 @@
                         size: "lg",
                         className: "rounded-full px-8 text-base font-semibold",
                         style: {
-                          backgroundColor: "#F4991A",
+                          backgroundColor: "#5D5DE9",
                           color: "white",
                           minHeight: "48px",
                         },
@@ -1294,7 +1294,7 @@
                             type: "submit",
                             className: "w-full rounded-full",
                             style: {
-                              backgroundColor: "#F4991A",
+                              backgroundColor: "#5D5DE9",
                               color: "white",
                               minHeight: "48px",
                             },

@@ -14,12 +14,12 @@
     <main role="main" class="py-8 md:py-12">
         <div class="container px-4 md:px-6 max-w-7xl mx-auto">
             <main role="main">
-                <section class="bg-beige border-2 border-border rounded-2xl p-6 mb-8">
+                <section class="azubi-bg-beige border-2 border-border rounded-2xl p-6 mb-8">
                     <div class="flex items-start gap-4">
-                        <div class="p-3 bg-[#344F1F] rounded-xl" aria-hidden="true">
+                        <div class="p-3 bg-[#2C3340] rounded-xl" aria-hidden="true">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-scale h-6 w-6 text-cream">
+                                stroke-linejoin="round" class="lucide lucide-scale h-6 w-6 azubi-text-cream">
                                 <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
                                 <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
                                 <path d="M7 21h10"></path>
@@ -156,7 +156,7 @@
                         </div>
                         <div class="flex gap-4 mt-8">
                             <button
-                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 flex-1 bg-primary hover:bg-primary/90 text-cream rounded-full"
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-12 px-8 py-3 flex-1 bg-primary hover:bg-primary/90 azubi-text-cream rounded-full"
                                 disabled="">
                                 Next<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -171,9 +171,9 @@
                     <div class="flex justify-center"></div>
                 </div>
                 <div class="mt-8 mb-8 space-y-6">
-                    <div class="bg-beige border-2 border-border rounded-2xl p-6">
+                    <div class="azubi-bg-beige border-2 border-border rounded-2xl p-6">
                         <div class="flex items-start gap-4">
-                            <div class="p-3 bg-orange rounded-xl flex-shrink-0">
+                            <div class="p-3 azubi-bg-orange rounded-xl flex-shrink-0">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -184,10 +184,10 @@
                                 </svg>
                             </div>
                             <div class="flex-1">
-                                <h2 class="text-2xl font-bold text-green mb-2">
+                                <h2 class="text-2xl font-bold azubi-text-green mb-2">
                                     How to Use the Comparison Tool
                                 </h2>
-                                <p class="text-green/70">
+                                <p class="azubi-text-green/70">
                                     Compare Ausbildung and university pathways based on
                                     your profile, priorities, and career goals. Get a
                                     personalized recommendation.
@@ -195,23 +195,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-cream border-2 border-beige rounded-2xl p-6">
-                        <h3 class="text-xl font-bold text-green mb-6">
+                    <div class="azubi-bg-cream border-2 azubi-border-beige rounded-2xl p-6">
+                        <h3 class="text-xl font-bold azubi-text-green mb-6">
                             How It Works
                         </h3>
                         <div class="grid gap-4">
                             <div
-                                class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200">
+                                class="bg-white border-2 azubi-border-beige rounded-xl p-5 hover:azubi-border-orange transition-colors duration-200">
                                 <div class="flex items-start gap-4">
                                     <div
-                                        class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
+                                        class="w-10 h-10 rounded-full azubi-bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
                                         1
                                     </div>
                                     <div class="flex-1">
-                                        <h4 class="font-bold text-green text-lg mb-2">
+                                        <h4 class="font-bold azubi-text-green text-lg mb-2">
                                             Complete Your Profile
                                         </h4>
-                                        <p class="text-green/70 leading-relaxed">
+                                        <p class="azubi-text-green/70 leading-relaxed">
                                             Enter your age, education level, and field of
                                             interest to help us understand your background and
                                             aspirations.
@@ -221,7 +221,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-arrow-right w-5 h-5 text-orange/50">
+                                            class="lucide lucide-arrow-right w-5 h-5 azubi-text-orange/50">
                                             <path d="M5 12h14"></path>
                                             <path d="m12 5 7 7-7 7"></path>
                                         </svg>
@@ -229,17 +229,17 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200">
+                                class="bg-white border-2 azubi-border-beige rounded-xl p-5 hover:azubi-border-orange transition-colors duration-200">
                                 <div class="flex items-start gap-4">
                                     <div
-                                        class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
+                                        class="w-10 h-10 rounded-full azubi-bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
                                         2
                                     </div>
                                     <div class="flex-1">
-                                        <h4 class="font-bold text-green text-lg mb-2">
+                                        <h4 class="font-bold azubi-text-green text-lg mb-2">
                                             Set Your Priorities
                                         </h4>
-                                        <p class="text-green/70 leading-relaxed">
+                                        <p class="azubi-text-green/70 leading-relaxed">
                                             Tell us what matters most to you - career goals,
                                             financial situation, German language level, and
                                             work-life balance preferences.
@@ -249,7 +249,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
-                                            class="lucide lucide-arrow-right w-5 h-5 text-orange/50">
+                                            class="lucide lucide-arrow-right w-5 h-5 azubi-text-orange/50">
                                             <path d="M5 12h14"></path>
                                             <path d="m12 5 7 7-7 7"></path>
                                         </svg>
@@ -257,17 +257,17 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-white border-2 border-beige rounded-xl p-5 hover:border-orange transition-colors duration-200">
+                                class="bg-white border-2 azubi-border-beige rounded-xl p-5 hover:azubi-border-orange transition-colors duration-200">
                                 <div class="flex items-start gap-4">
                                     <div
-                                        class="w-10 h-10 rounded-full bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
+                                        class="w-10 h-10 rounded-full azubi-bg-orange text-white flex items-center justify-center font-bold text-lg flex-shrink-0">
                                         3
                                     </div>
                                     <div class="flex-1">
-                                        <h4 class="font-bold text-green text-lg mb-2">
+                                        <h4 class="font-bold azubi-text-green text-lg mb-2">
                                             Get Recommendation
                                         </h4>
-                                        <p class="text-green/70 leading-relaxed">
+                                        <p class="azubi-text-green/70 leading-relaxed">
                                             Receive a detailed comparison with personalized
                                             recommendation, financial analysis, timeline
                                             breakdown, and career prospects for both pathways.
@@ -278,9 +278,9 @@
                         </div>
                     </div>
                     <div class="grid lg:grid-cols-2 gap-6">
-                        <div class="bg-cream border-2 border-beige rounded-2xl p-6">
+                        <div class="azubi-bg-cream border-2 azubi-border-beige rounded-2xl p-6">
                             <div class="flex items-center gap-3 mb-6">
-                                <div class="p-2 bg-orange rounded-lg">
+                                <div class="p-2 azubi-bg-orange rounded-lg">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -290,19 +290,19 @@
                                         <path d="M12 8h.01"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-green">
+                                <h3 class="text-xl font-bold azubi-text-green">
                                     What You Provide
                                 </h3>
                             </div>
                             <div class="space-y-4">
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-calendar w-5 h-5 text-orange">
+                                                class="lucide lucide-calendar w-5 h-5 azubi-text-orange">
                                                 <path d="M8 2v4"></path>
                                                 <path d="M16 2v4"></path>
                                                 <rect width="18" height="18" x="3" y="4" rx="2"></rect>
@@ -310,8 +310,8 @@
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">Age</h4>
-                                            <p class="text-sm text-green/70">
+                                            <h4 class="font-bold azubi-text-green mb-1">Age</h4>
+                                            <p class="text-sm azubi-text-green/70">
                                                 Your current age (affects timeline and
                                                 opportunities)
                                             </p>
@@ -319,13 +319,13 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-graduation-cap w-5 h-5 text-orange">
+                                                class="lucide lucide-graduation-cap w-5 h-5 azubi-text-orange">
                                                 <path
                                                     d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
                                                 </path>
@@ -334,68 +334,68 @@
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Education Level
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Highest completed education qualification
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-briefcase w-5 h-5 text-orange">
+                                                class="lucide lucide-briefcase w-5 h-5 azubi-text-orange">
                                                 <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                                                 <rect width="20" height="14" x="2" y="6" rx="2"></rect>
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Field of Interest
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Your preferred career sector or field
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-target w-5 h-5 text-orange">
+                                                class="lucide lucide-target w-5 h-5 azubi-text-orange">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <circle cx="12" cy="12" r="6"></circle>
                                                 <circle cx="12" cy="12" r="2"></circle>
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Career Goal
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Immediate employment vs long-term research
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-euro w-5 h-5 text-orange">
+                                                class="lucide lucide-euro w-5 h-5 azubi-text-orange">
                                                 <path d="M4 10h12"></path>
                                                 <path d="M4 14h9"></path>
                                                 <path
@@ -404,10 +404,10 @@
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Available Funds
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Financial resources for education and living
                                                 costs
                                             </p>
@@ -415,13 +415,13 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-languages w-5 h-5 text-orange">
+                                                class="lucide lucide-languages w-5 h-5 azubi-text-orange">
                                                 <path d="m5 8 6 6"></path>
                                                 <path d="m4 14 6-6 2-3"></path>
                                                 <path d="M2 5h12"></path>
@@ -431,32 +431,32 @@
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 German Level
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Current German language proficiency (A1-C2)
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-clock w-5 h-5 text-orange">
+                                                class="lucide lucide-clock w-5 h-5 azubi-text-orange">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <polyline points="12 6 12 12 16 14"></polyline>
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Work-Life Balance Priority
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 How important is work-life balance to you
                                             </p>
                                         </div>
@@ -464,9 +464,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-cream border-2 border-beige rounded-2xl p-6">
+                        <div class="azubi-bg-cream border-2 azubi-border-beige rounded-2xl p-6">
                             <div class="flex items-center gap-3 mb-6">
-                                <div class="p-2 bg-green rounded-lg">
+                                <div class="p-2 azubi-bg-green rounded-lg">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
@@ -476,19 +476,19 @@
                                         <path d="M12 8h.01"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-xl font-bold text-green">
+                                <h3 class="text-xl font-bold azubi-text-green">
                                     What You Get
                                 </h3>
                             </div>
                             <div class="space-y-4">
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-award w-5 h-5 text-green">
+                                                class="lucide lucide-award w-5 h-5 azubi-text-green">
                                                 <path
                                                     d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
                                                 </path>
@@ -496,10 +496,10 @@
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Recommendation
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Personalized pathway recommendation (Ausbildung,
                                                 University, or Hybrid)
                                             </p>
@@ -507,13 +507,13 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-chart-no-axes-column-increasing w-5 h-5 text-green">
+                                                class="lucide lucide-chart-no-axes-column-increasing w-5 h-5 azubi-text-green">
                                                 <line x1="12" x2="12" y1="20" y2="10">
                                                 </line>
                                                 <line x1="18" x2="18" y1="20" y2="4">
@@ -523,10 +523,10 @@
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Confidence Score
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 How confident we are in the recommendation
                                                 (0-100%)
                                             </p>
@@ -534,13 +534,13 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-euro w-5 h-5 text-green">
+                                                class="lucide lucide-euro w-5 h-5 azubi-text-green">
                                                 <path d="M4 10h12"></path>
                                                 <path d="M4 14h9"></path>
                                                 <path
@@ -549,10 +549,10 @@
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Financial Comparison
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Complete cost breakdown, ROI timeline, and
                                                 5-year net worth projection
                                             </p>
@@ -560,22 +560,22 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-clock w-5 h-5 text-green">
+                                                class="lucide lucide-clock w-5 h-5 azubi-text-green">
                                                 <circle cx="12" cy="12" r="10"></circle>
                                                 <polyline points="12 6 12 12 16 14"></polyline>
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Time Comparison
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Duration breakdown for each pathway and age
                                                 impact analysis
                                             </p>
@@ -583,22 +583,22 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="bg-white border-2 border-beige rounded-xl p-4 hover:border-orange transition-colors duration-200">
+                                    class="bg-white border-2 azubi-border-beige rounded-xl p-4 hover:azubi-border-orange transition-colors duration-200">
                                     <div class="flex items-start gap-3">
-                                        <div class="p-2 bg-beige rounded-lg flex-shrink-0">
+                                        <div class="p-2 azubi-bg-beige rounded-lg flex-shrink-0">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                class="lucide lucide-trending-up w-5 h-5 text-green">
+                                                class="lucide lucide-trending-up w-5 h-5 azubi-text-green">
                                                 <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
                                                 <polyline points="16 7 22 7 22 13"></polyline>
                                             </svg>
                                         </div>
                                         <div class="flex-1">
-                                            <h4 class="font-bold text-green mb-1">
+                                            <h4 class="font-bold azubi-text-green mb-1">
                                                 Career Analysis
                                             </h4>
-                                            <p class="text-sm text-green/70">
+                                            <p class="text-sm azubi-text-green/70">
                                                 Salary ranges, growth projections, and job
                                                 market demand comparison
                                             </p>
@@ -608,17 +608,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-orange/10 border-2 border-orange/20 rounded-2xl p-5">
+                    <div class="azubi-bg-orange/10 border-2 azubi-border-orange/20 rounded-2xl p-5">
                         <div class="flex items-start gap-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="lucide lucide-info w-5 h-5 text-orange flex-shrink-0 mt-0.5">
+                                class="lucide lucide-info w-5 h-5 azubi-text-orange flex-shrink-0 mt-0.5">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <path d="M12 16v-4"></path>
                                 <path d="M12 8h.01"></path>
                             </svg>
-                            <p class="text-green/80 leading-relaxed">
+                            <p class="azubi-text-green/80 leading-relaxed">
                                 Recommendations are based on your unique profile, German
                                 education system requirements, and 2026 labor market
                                 projections.
@@ -662,7 +662,7 @@
                                         a thesis, but earn no income during studies.
                                         Ausbildung takes 2-3 years and leads directly to
                                         employment, while University takes 3-6 years
-                                        (Bachelor + Master) with job search required
+                                        (Bachelor + Master) with job search azubi-required
                                         afterward. Ausbildung requires German B1 level;
                                         University typically requires B2-C1. Both pathways
                                         can lead to successful careers and permanent
@@ -823,7 +823,7 @@
                                         for daily life. Strictness: Both pathways verify
                                         language through TestDaF, Goethe-Zertifikat, or telc
                                         exams. Consulates check certificates carefully
-                                        during visa interviews. Without the required level,
+                                        during visa interviews. Without the azubi-required level,
                                         your visa will be rejected. Important: B1 to B2 is a
                                         significant jump requiring 200-300 additional study
                                         hours. If time is limited, Ausbildung&#x27;s B1
@@ -1206,39 +1206,39 @@
                 </section>
                 <section class="mb-8">
                     <div class="mb-6">
-                        <h2 class="text-2xl font-bold text-green mb-2">
+                        <h2 class="text-2xl font-bold azubi-text-green mb-2">
                             Related Tools You Might Need
                         </h2>
-                        <p class="text-green/70">
+                        <p class="azubi-text-green/70">
                             Continue planning your Ausbildung journey with these
                             helpful tools
                         </p>
                     </div>
                     <div class="grid md:grid-cols-3 gap-6 mb-6">
-                        <a class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                        <a class="group relative azubi-bg-cream border-2 azubi-border-beige rounded-2xl p-6 hover:azubi-border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
                             href="{{ route('front.tools.ausbildung-sector-comparison') }}">
                             <div class="mb-4">
                                 <div
-                                    class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
+                                    class="inline-flex p-3 rounded-xl azubi-bg-orange/10 group-hover:azubi-bg-orange transition-colors">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-target w-6 h-6 text-orange group-hover:text-white transition-colors">
+                                        class="lucide lucide-target w-6 h-6 azubi-text-orange group-hover:text-white transition-colors">
                                         <circle cx="12" cy="12" r="10"></circle>
                                         <circle cx="12" cy="12" r="6"></circle>
                                         <circle cx="12" cy="12" r="2"></circle>
                                     </svg>
                                 </div>
                             </div>
-                            <h3 class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors">
+                            <h3 class="text-lg font-bold azubi-text-green mb-2 group-hover:azubi-text-orange transition-colors">
                                 Sector Comparison
                             </h3>
-                            <p class="text-sm text-green/70 leading-relaxed mb-4">
+                            <p class="text-sm azubi-text-green/70 leading-relaxed mb-4">
                                 Find the best Ausbildung sector based on your skills and
                                 interests
                             </p>
                             <div
-                                class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all">
+                                class="flex items-center gap-2 azubi-text-orange font-semibold text-sm group-hover:gap-3 transition-all">
                                 <span>Try it free</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1249,32 +1249,32 @@
                             </div>
                             <div class="absolute top-4 right-4">
                                 <span
-                                    class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize">comparison</span>
+                                    class="inline-block px-2 py-1 text-xs font-medium azubi-bg-beige azubi-text-green rounded-full capitalize">comparison</span>
                             </div>
                         </a><a
-                            class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            class="group relative azubi-bg-cream border-2 azubi-border-beige rounded-2xl p-6 hover:azubi-border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
                             href="{{ route('front.tools.career-pathway-decision') }}">
                             <div class="mb-4">
                                 <div
-                                    class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
+                                    class="inline-flex p-3 rounded-xl azubi-bg-orange/10 group-hover:azubi-bg-orange transition-colors">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-briefcase w-6 h-6 text-orange group-hover:text-white transition-colors">
+                                        class="lucide lucide-briefcase w-6 h-6 azubi-text-orange group-hover:text-white transition-colors">
                                         <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                                         <rect width="20" height="14" x="2" y="6" rx="2"></rect>
                                     </svg>
                                 </div>
                             </div>
-                            <h3 class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors">
+                            <h3 class="text-lg font-bold azubi-text-green mb-2 group-hover:azubi-text-orange transition-colors">
                                 Career Pathway Decision
                             </h3>
-                            <p class="text-sm text-green/70 leading-relaxed mb-4">
+                            <p class="text-sm azubi-text-green/70 leading-relaxed mb-4">
                                 Get personalized career pathway recommendations based on
                                 your goals
                             </p>
                             <div
-                                class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all">
+                                class="flex items-center gap-2 azubi-text-orange font-semibold text-sm group-hover:gap-3 transition-all">
                                 <span>Try it free</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1285,18 +1285,18 @@
                             </div>
                             <div class="absolute top-4 right-4">
                                 <span
-                                    class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize">comparison</span>
+                                    class="inline-block px-2 py-1 text-xs font-medium azubi-bg-beige azubi-text-green rounded-full capitalize">comparison</span>
                             </div>
                         </a><a
-                            class="group relative bg-cream border-2 border-beige rounded-2xl p-6 hover:border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            class="group relative azubi-bg-cream border-2 azubi-border-beige rounded-2xl p-6 hover:azubi-border-orange hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
                             href="{{ route('front.tools.cv-comparison') }}">
                             <div class="mb-4">
                                 <div
-                                    class="inline-flex p-3 rounded-xl bg-orange/10 group-hover:bg-orange transition-colors">
+                                    class="inline-flex p-3 rounded-xl azubi-bg-orange/10 group-hover:azubi-bg-orange transition-colors">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         stroke-linecap="round" stroke-linejoin="round"
-                                        class="lucide lucide-file-text w-6 h-6 text-orange group-hover:text-white transition-colors">
+                                        class="lucide lucide-file-text w-6 h-6 azubi-text-orange group-hover:text-white transition-colors">
                                         <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
                                         <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
                                         <path d="M10 9H8"></path>
@@ -1305,15 +1305,15 @@
                                     </svg>
                                 </div>
                             </div>
-                            <h3 class="text-lg font-bold text-green mb-2 group-hover:text-orange transition-colors">
+                            <h3 class="text-lg font-bold azubi-text-green mb-2 group-hover:azubi-text-orange transition-colors">
                                 CV Comparison
                             </h3>
-                            <p class="text-sm text-green/70 leading-relaxed mb-4">
+                            <p class="text-sm azubi-text-green/70 leading-relaxed mb-4">
                                 Compare your CV to German standards and get improvement
                                 recommendations
                             </p>
                             <div
-                                class="flex items-center gap-2 text-orange font-semibold text-sm group-hover:gap-3 transition-all">
+                                class="flex items-center gap-2 azubi-text-orange font-semibold text-sm group-hover:gap-3 transition-all">
                                 <span>Try it free</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1324,12 +1324,12 @@
                             </div>
                             <div class="absolute top-4 right-4">
                                 <span
-                                    class="inline-block px-2 py-1 text-xs font-medium bg-beige text-green rounded-full capitalize">comparison</span>
+                                    class="inline-block px-2 py-1 text-xs font-medium azubi-bg-beige azubi-text-green rounded-full capitalize">comparison</span>
                             </div>
                         </a>
                     </div>
                     <div class="text-center">
-                        <a class="inline-flex items-center gap-2 px-6 py-3 bg-orange hover:bg-orange-hover text-white rounded-full font-semibold transition-colors"
+                        <a class="inline-flex items-center gap-2 px-6 py-3 azubi-bg-orange hover:bg-orange-hover text-white rounded-full font-semibold transition-colors"
                             href="{{ route('front.tools') }}">Browse All Tools<svg xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -1397,7 +1397,7 @@
                                     <a href="{{ route('front.jobs') }}"
                                         class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow-md hover:bg-orange-hover hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Browse
                                         Jobs</a><a href="{{ route('front.contact') }}"
-                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F9F5F0] hover:text-[#344F1F] hover:border-[#344F1F]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Book
+                                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border-2 border-primary bg-transparent text-primary shadow-sm hover:bg-[#F7F8FA] hover:text-[#2C3340] hover:border-[#2C3340]/30 hover:-translate-y-0.5 active:translate-y-0 h-14 px-8 py-6 text-lg font-medium rounded-full transition-all duration-300">Book
                                         Consultation</a>
                                 </div>
                             </div>

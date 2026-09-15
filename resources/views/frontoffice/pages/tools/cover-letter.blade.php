@@ -45,9 +45,9 @@
                 },
             ]);
         </script>
-        <main class="min-h-screen bg-gradient-to-br from-[#F9F5F0] to-[#F2EAD3] flex items-center justify-center py-12 px-4">
+        <main class="min-h-screen bg-gradient-to-br from-[#F7F8FA] to-[#EEF0F4] flex items-center justify-center py-12 px-4">
             <div class="max-w-2xl w-full text-center">
-                <div class="inline-flex items-center justify-center w-20 h-20 bg-[#F4991A] rounded-full mb-6">
+                <div class="inline-flex items-center justify-center w-20 h-20 bg-[#5D5DE9] rounded-full mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="lucide lucide-lock w-10 h-10 text-white">
@@ -55,17 +55,17 @@
                         <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                     </svg>
                 </div>
-                <h1 class="text-4xl md:text-5xl font-bold text-[#344F1F] mb-4">
+                <h1 class="text-4xl md:text-5xl font-bold text-[#2C3340] mb-4">
                     Free AI Cover Letter Generator
                 </h1>
-                <p class="text-lg text-[#344F1F]/80 mb-8">
+                <p class="text-lg text-[#2C3340]/80 mb-8">
                     Generate professional German cover letters in 30 seconds with AI
                 </p>
-                <div class="flex flex-wrap items-center justify-center gap-6 mb-8 text-sm text-[#344F1F]/70">
+                <div class="flex flex-wrap items-center justify-center gap-6 mb-8 text-sm text-[#2C3340]/70">
                     <div class="flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-pen-tool w-4 h-4 text-[#F4991A]">
+                            stroke-linejoin="round" class="lucide lucide-pen-tool w-4 h-4 text-[#5D5DE9]">
                             <path
                                 d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z">
                             </path>
@@ -79,7 +79,7 @@
                     <div class="flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-brain w-4 h-4 text-[#F4991A]">
+                            stroke-linejoin="round" class="lucide lucide-brain w-4 h-4 text-[#5D5DE9]">
                             <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z">
                             </path>
                             <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z">
@@ -96,7 +96,7 @@
                     <div class="flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4 text-[#F4991A]">
+                            stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4 text-[#5D5DE9]">
                             <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
                             <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
                             <path d="M10 9H8"></path>
@@ -105,16 +105,16 @@
                         </svg><span>AI-Powered Generation</span>
                     </div>
                 </div>
-                <div class="bg-white/80 backdrop-blur-sm border-2 border-[#F4991A] rounded-xl p-8 mb-6">
-                    <h2 class="text-2xl font-semibold text-[#344F1F] mb-4">
+                <div class="bg-white/80 backdrop-blur-sm border-2 border-[#5D5DE9] rounded-xl p-8 mb-6">
+                    <h2 class="text-2xl font-semibold text-[#2C3340] mb-4">
                         Generate Your Professional Cover Letter
                     </h2>
-                    <p class="text-[#344F1F]/70 mb-6">
+                    <p class="text-[#2C3340]/70 mb-6">
                         Create a professional German cover letter (Anschreiben) tailored
                         to your experience and the job you&#x27;re applying for.
                     </p>
                     <button
-                        class="inline-flex items-center gap-2 bg-[#F4991A] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#e08915] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        class="inline-flex items-center gap-2 bg-[#5D5DE9] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#2C3340] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
                         Start Now<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5">
@@ -122,44 +122,44 @@
                             <path d="m12 5 7 7-7 7"></path>
                         </svg>
                     </button>
-                    <p class="text-sm text-[#344F1F]/60 mt-4">
-                        Free account required • AI-powered • 1 free generation
+                    <p class="text-sm text-[#2C3340]/60 mt-4">
+                        Free account azubi-required • AI-powered • 1 free generation
                     </p>
                 </div>
                 <div class="text-left bg-white/60 rounded-lg p-6 space-y-3">
-                    <h3 class="font-semibold text-[#344F1F] mb-3">
+                    <h3 class="font-semibold text-[#2C3340] mb-3">
                         With a free account, you get:
                     </h3>
-                    <ul class="space-y-2 text-sm text-[#344F1F]/70">
+                    <ul class="space-y-2 text-sm text-[#2C3340]/70">
                         <li class="flex items-start gap-2">
-                            <span class="text-[#F4991A] mt-0.5">✓</span><span>Unlimited generated cover letters to preview
+                            <span class="text-[#5D5DE9] mt-0.5">✓</span><span>Unlimited generated cover letters to preview
                                 and
                                 refine</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="text-[#F4991A] mt-0.5">✓</span><span>Edit and iterate until you&#x27;re 100%
+                            <span class="text-[#5D5DE9] mt-0.5">✓</span><span>Edit and iterate until you&#x27;re 100%
                                 satisfied</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="text-[#F4991A] mt-0.5">✓</span><span>Export your final version as PDF (1 free
+                            <span class="text-[#5D5DE9] mt-0.5">✓</span><span>Export your final version as PDF (1 free
                                 export)</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="text-[#F4991A] mt-0.5">✓</span><span>Access to 20,100+ Ausbildung jobs in
+                            <span class="text-[#5D5DE9] mt-0.5">✓</span><span>Access to 20,100+ Ausbildung jobs in
                                 Germany</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="text-[#F4991A] mt-0.5">✓</span><span>German language learning tools</span>
+                            <span class="text-[#5D5DE9] mt-0.5">✓</span><span>German language learning tools</span>
                         </li>
                         <li class="flex items-start gap-2">
-                            <span class="text-[#F4991A] mt-0.5">✓</span><span>Interview preparation resources</span>
+                            <span class="text-[#5D5DE9] mt-0.5">✓</span><span>Interview preparation resources</span>
                         </li>
                     </ul>
-                    <div class="pt-4 border-t border-[#344F1F]/10 mt-4">
-                        <p class="text-xs text-[#344F1F]/60">
+                    <div class="pt-4 border-t border-[#2C3340]/10 mt-4">
+                        <p class="text-xs text-[#2C3340]/60">
                             Want expert help?
                             <a href="{{ route('front.consultation') }}"
-                                class="text-[#F4991A] hover:underline font-semibold">Apply For Me</a>
+                                class="text-[#5D5DE9] hover:underline font-semibold">Apply For Me</a>
                             - our experts craft native German applications for you
                         </p>
                     </div>

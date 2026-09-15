@@ -3,12 +3,12 @@
    ============================================ */
 
 /* --- Desktop Navbar --- */
-.nav-spacer {
+.azubi-nav-spacer {
   height: 6rem;
   transition: var(--transition);
 }
 
-.navbar {
+.azubi-navbar {
   position: fixed;
   left: 0;
   right: 0;
@@ -18,11 +18,11 @@
   transition: padding 0.3s ease;
 }
 
-.navbar.scrolled {
+.azubi-navbar.scrolled {
   padding: 0.5rem 0;
 }
 
-.nav-pill-row {
+.azubi-nav-pill-row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,10 +31,10 @@
 }
 
 @media (min-width: 768px) {
-  .nav-pill-row { gap: 0.75rem; }
+  .azubi-nav-pill-row { gap: 0.75rem; }
 }
 
-.nav-pill {
+.azubi-nav-pill {
   display: flex;
   align-items: center;
   gap: 0.25rem;
@@ -50,11 +50,11 @@
 }
 
 @media (min-width: 768px) {
-  .nav-pill { gap: 0.75rem; padding: 0.125rem 0.375rem; }
+  .azubi-nav-pill { gap: 0.75rem; padding: 0.125rem 0.375rem; }
 }
 
 /* --- Logo --- */
-.nav-logo {
+.azubi-nav-logo {
   display: flex;
   align-items: center;
   gap: 2px;
@@ -63,17 +63,17 @@
 }
 
 @media (min-width: 768px) {
-  .nav-logo { padding: 0 0.5rem; }
+  .azubi-nav-logo { padding: 0 0.5rem; }
 }
 
-.nav-logo img {
+.azubi-nav-logo img {
   width: 2.5rem;
   height: 2.5rem;
   object-fit: contain;
   border-radius: var(--radius-sm);
 }
 
-.logo-text {
+.azubi-logo-text {
   font-weight: 700;
   color: var(--green);
   font-size: 1.125rem;
@@ -81,17 +81,17 @@
 }
 
 /* --- Nav Items & Links --- */
-.nav-item {
+.azubi-nav-item {
   position: relative;
 }
 
-.nav-link {
+.azubi-nav-link {
   position: relative;
   font-size: 0.875rem;
   font-weight: 600;
   padding: 0.5rem 0.75rem;
   border-radius: var(--radius-full);
-  color: rgba(52, 79, 31, 0.8);
+  color: rgba(44, 51, 64, 0.8);
   transition: color 0.2s ease, background 0.2s ease;
   display: flex;
   align-items: center;
@@ -101,25 +101,25 @@
 }
 
 @media (min-width: 768px) {
-  .nav-link { padding: 0.5rem 1.5rem; }
+  .azubi-nav-link { padding: 0.5rem 1.5rem; }
 }
 
-.nav-link:hover,
-.nav-link.active {
+.azubi-nav-link:hover,
+.azubi-nav-link.active {
   color: var(--green);
 }
 
 /* Active "lamp" indicator */
-.nav-active-lamp {
+.azubi-nav-active-lamp {
   position: absolute;
   inset: 0;
-  background: rgba(52, 79, 31, 0.05);
+  background: rgba(44, 51, 64, 0.05);
   border-radius: var(--radius-full);
   z-index: -1;
   pointer-events: none;
 }
 
-.lamp-bar {
+.azubi-lamp-bar {
   position: absolute;
   top: -2px;
   left: 50%;
@@ -131,26 +131,26 @@
 }
 
 /* Active state applied via JS or class */
-.nav-link.active {
+.azubi-nav-link.active {
   color: var(--green);
 }
 
-.nav-link:not(.active) .nav-active-lamp {
+.azubi-nav-link:not(.active) .azubi-nav-active-lamp {
   display: none;
 }
 
 /* Chevron icon rotation when dropdown is open */
-.nav-has-dropdown.open .chevron-icon {
+.azubi-nav-has-dropdown.open .azubi-chevron-icon {
   transform: rotate(180deg);
 }
 
-.chevron-icon {
+.azubi-chevron-icon {
   transition: transform 0.2s ease;
   flex-shrink: 0;
 }
 
 /* --- Dropdown Panels --- */
-.nav-dropdown-panel {
+.azubi-nav-dropdown-panel {
   position: absolute;
   top: calc(100% + 10px);
   left: 50%;
@@ -169,34 +169,34 @@
   z-index: 100;
 }
 
-.nav-has-dropdown.open .nav-dropdown-panel {
+.azubi-nav-has-dropdown.open .azubi-nav-dropdown-panel {
   opacity: 1;
-  visibility: visible;
+  visibility: azubi-visible;
   pointer-events: auto;
   transform: translateX(-50%) translateY(0);
 }
 
-.dropdown-header {
+.azubi-dropdown-header {
   padding: 0.375rem 0.5rem 0.25rem;
 }
 
-.dropdown-header h4 {
+.azubi-dropdown-header h4 {
   font-size: 0.875rem;
   font-weight: 500;
-  color: rgba(52, 79, 31, 0.8);
+  color: rgba(44, 51, 64, 0.8);
   margin-bottom: 0.125rem;
 }
 
-.dropdown-grid {
+.azubi-dropdown-grid {
   display: grid;
   gap: 0.25rem;
 }
 
-.dropdown-grid.cols-2 {
+.azubi-dropdown-grid.cols-2 {
   grid-template-columns: 1fr 1fr;
 }
 
-.dropdown-item {
+.azubi-dropdown-item {
   display: flex;
   align-items: center;
   gap: 0.625rem;
@@ -208,11 +208,11 @@
   transition: background 0.15s ease;
 }
 
-.dropdown-item:hover {
-  background: rgba(52, 79, 31, 0.05);
+.azubi-dropdown-item:hover {
+  background: rgba(44, 51, 64, 0.05);
 }
 
-.dropdown-icon {
+.azubi-dropdown-icon {
   width: 1.75rem;
   height: 1.75rem;
   border-radius: var(--radius-sm);
@@ -225,18 +225,18 @@
 }
 
 /* Colored icon variants for Learn dropdown */
-.dropdown-icon.bg-green { background: #22c55e; }
-.dropdown-icon.bg-teal { background: #14b8a6; }
-.dropdown-icon.bg-amber { background: #f59e0b; }
-.dropdown-icon.bg-rose { background: #f43f5e; }
-.dropdown-icon.bg-orange { background: var(--orange); }
-.dropdown-icon.bg-cyan { background: #06b6d4; }
+.azubi-dropdown-icon.azubi-bg-green { background: #22c55e; }
+.azubi-dropdown-icon.bg-teal { background: #14b8a6; }
+.azubi-dropdown-icon.bg-amber { background: #f59e0b; }
+.azubi-dropdown-icon.bg-rose { background: #f43f5e; }
+.azubi-dropdown-icon.azubi-bg-orange { background: var(--orange); }
+.azubi-dropdown-icon.bg-cyan { background: #06b6d4; }
 
-.dropdown-footer {
+.azubi-dropdown-footer {
   padding: 0.5rem 0.5rem 0.375rem;
 }
 
-.dropdown-view-all {
+.azubi-dropdown-view-all {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -250,17 +250,17 @@
   transition: background 0.2s ease;
 }
 
-.dropdown-view-all:hover {
-  background: rgba(52, 79, 31, 0.9);
+.azubi-dropdown-view-all:hover {
+  background: rgba(44, 51, 64, 0.9);
 }
 
 /* --- More button (ellipsis, below xl) --- */
-.desktop-below-xl { display: flex; }
+.azubi-desktop-below-xl { display: flex; }
 @media (min-width: 1280px) {
-  .desktop-below-xl { display: none; }
+  .azubi-desktop-below-xl { display: none; }
 }
 
-.nav-more-dropdown {
+.azubi-nav-more-dropdown {
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
@@ -277,13 +277,13 @@
   z-index: 100;
 }
 
-.nav-more-btn.open .nav-more-dropdown {
+.azubi-nav-more-btn.open .azubi-nav-more-dropdown {
   opacity: 1;
-  visibility: visible;
+  visibility: azubi-visible;
   pointer-events: auto;
 }
 
-.more-dropdown-item {
+.azubi-more-dropdown-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -295,25 +295,25 @@
   transition: background 0.15s ease;
 }
 
-.more-dropdown-item:hover {
-  background: rgba(52, 79, 31, 0.05);
+.azubi-more-dropdown-item:hover {
+  background: rgba(44, 51, 64, 0.05);
 }
 
 /* --- CTA Buttons in Nav --- */
-.nav-cta {
+.azubi-nav-cta {
   margin-left: 0.5rem;
 }
 
-.nav-cta:hover {
+.azubi-nav-cta:hover {
   transform: none;
 }
 
 @media (min-width: 768px) {
-  .nav-cta { margin-left: 0.75rem; }
+  .azubi-nav-cta { margin-left: 0.75rem; }
 }
 
 /* --- Language Flag --- */
-.nav-lang-flag {
+.azubi-nav-lang-flag {
   width: 2.25rem;
   height: 2.25rem;
   border-radius: 50%;
@@ -329,11 +329,11 @@
   margin-left: 0.25rem;
 }
 
-.nav-lang-flag:hover {
+.azubi-nav-lang-flag:hover {
   transform: scale(1.1);
 }
 
-.nav-lang-flag svg {
+.azubi-nav-lang-flag svg {
   width: 2.25rem;
   height: 2.25rem;
   border-radius: 50%;
@@ -343,7 +343,7 @@
 /* ============================================
    MOBILE NAVBAR
    ============================================ */
-.navbar-mobile {
+.azubi-navbar-mobile {
   position: fixed;
   left: 0;
   right: 0;
@@ -352,11 +352,11 @@
   transition: var(--transition);
 }
 
-.mobile-only .nav-spacer {
+.azubi-mobile-only .azubi-nav-spacer {
   height: 96px;
 }
 
-.mobile-nav-pill {
+.azubi-mobile-nav-pill {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -373,7 +373,7 @@
   margin-right: auto;
 }
 
-.mobile-menu-btn {
+.azubi-mobile-menu-btn {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: var(--radius-full);
@@ -383,9 +383,9 @@
   transition: var(--transition);
   flex-shrink: 0;
 }
-.mobile-menu-btn:hover { background: rgba(0,0,0,0.05); }
+.azubi-mobile-menu-btn:hover { background: rgba(0,0,0,0.05); }
 
-.mobile-logo {
+.azubi-mobile-logo {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -393,14 +393,14 @@
   justify-content: center;
 }
 
-.mobile-logo img {
+.azubi-mobile-logo img {
   width: 2rem;
   height: 2rem;
   object-fit: contain;
   border-radius: var(--radius-sm);
 }
 
-.mobile-cta {
+.azubi-mobile-cta {
   flex-shrink: 0;
   padding: 0.4rem 0.75rem;
   font-size: 0.75rem;
@@ -408,7 +408,7 @@
 }
 
 /* --- Mobile Menu Overlay --- */
-.mobile-menu-overlay {
+.azubi-mobile-menu-overlay {
   position: fixed;
   inset: 0;
   z-index: 100;
@@ -424,22 +424,22 @@
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.mobile-menu-overlay.active {
+.azubi-mobile-menu-overlay.active {
   opacity: 1;
-  visibility: visible;
+  visibility: azubi-visible;
 }
 
 /* Glass panel card */
-.mobile-menu-content {
+.azubi-mobile-menu-content {
   width: 100%;
   max-width: 380px;
   max-height: calc(100vh - 120px);
   overflow-y: auto;
   border-radius: 1.5rem;
-  border: 1px solid rgb(242 234 211);
+  border: 1px solid rgb(238 240 244);
   background: rgba(255, 255, 255, 0.95);
   padding: 0.75rem;
-  box-shadow: 0 28px 60px -24px rgba(244, 153, 26, 0.3);
+  box-shadow: 0 28px 60px -24px rgba(93, 93, 233, 0.3);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
   transform: scale(0.95) translateY(-20px);
@@ -448,32 +448,32 @@
   margin: 0 1rem;
 }
 
-.mobile-menu-overlay.active .mobile-menu-content {
+.azubi-mobile-menu-overlay.active .azubi-mobile-menu-content {
   transform: scale(1) translateY(0);
   opacity: 1;
 }
 
 /* Custom scrollbar for the panel */
-.mobile-menu-content::-webkit-scrollbar {
+.azubi-mobile-menu-content::-webkit-scrollbar {
   width: 6px;
 }
-.mobile-menu-content::-webkit-scrollbar-track {
+.azubi-mobile-menu-content::-webkit-scrollbar-track {
   background: transparent;
 }
-.mobile-menu-content::-webkit-scrollbar-thumb {
-  background: rgba(244, 153, 26, 0.3);
+.azubi-mobile-menu-content::-webkit-scrollbar-thumb {
+  background: rgba(93, 93, 233, 0.3);
   border-radius: 3px;
 }
-.mobile-menu-content::-webkit-scrollbar-thumb:hover {
-  background: rgba(244, 153, 26, 0.5);
+.azubi-mobile-menu-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(93, 93, 233, 0.5);
 }
 /* Firefox scrollbar */
-.mobile-menu-content {
+.azubi-mobile-menu-content {
   scrollbar-width: thin;
-  scrollbar-color: rgba(244, 153, 26, 0.3) transparent;
+  scrollbar-color: rgba(93, 93, 233, 0.3) transparent;
 }
 
-.mobile-menu-header {
+.azubi-mobile-menu-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -481,7 +481,7 @@
   padding: 0.5rem;
 }
 
-.mobile-menu-close {
+.azubi-mobile-menu-close {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: var(--radius-full);
@@ -489,16 +489,16 @@
   align-items: center;
   justify-content: center;
 }
-.mobile-menu-close:hover { background: rgba(0,0,0,0.05); }
+.azubi-mobile-menu-close:hover { background: rgba(0,0,0,0.05); }
 
-.mobile-menu-links {
+.azubi-mobile-menu-links {
   display: flex;
   flex-direction: column;
   gap: 0.125rem;
   margin-bottom: 0.5rem;
 }
 
-.mobile-menu-link {
+.azubi-mobile-menu-link {
   display: flex;
   align-items: center;
   gap: 0.625rem;
@@ -510,24 +510,24 @@
   width: 100%;
   text-align: left;
 }
-.mobile-menu-link:hover {
-  background: rgba(244, 153, 26, 0.05);
+.azubi-mobile-menu-link:hover {
+  background: rgba(93, 93, 233, 0.05);
   color: var(--green);
   transform: translateY(-1px);
-  box-shadow: 0 18px 30px -22px rgba(244, 153, 26, 0.3);
+  box-shadow: 0 18px 30px -22px rgba(93, 93, 233, 0.3);
 }
-.mobile-menu-link.active {
-  background: rgba(244, 153, 26, 0.08);
+.azubi-mobile-menu-link.active {
+  background: rgba(93, 93, 233, 0.08);
   color: var(--green);
-  box-shadow: 0 18px 40px -22px rgba(244, 153, 26, 0.4);
+  box-shadow: 0 18px 40px -22px rgba(93, 93, 233, 0.4);
 }
 
 /* Icon box inside mobile menu links */
-.mobile-link-icon {
+.azubi-mobile-link-icon {
   width: 2rem;
   height: 2rem;
   border-radius: 0.5rem;
-  background: rgba(52, 79, 31, 0.9);
+  background: rgba(44, 51, 64, 0.9);
   color: #fff;
   display: flex;
   align-items: center;
@@ -536,67 +536,67 @@
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.mobile-link-label {
+.azubi-mobile-link-label {
   flex: 1;
   text-align: left;
 }
 
 /* Chevron stays at the right end */
-.mobile-accordion-trigger .mobile-chev {
+.azubi-mobile-accordion-trigger .azubi-mobile-chev {
   margin-left: auto;
 }
 
 /* Mobile chevron icon */
-.mobile-chev {
+.azubi-mobile-chev {
   transition: transform 0.2s ease;
   flex-shrink: 0;
   color: var(--text-muted);
 }
 
-.mobile-accordion.open .mobile-chev {
+.azubi-mobile-accordion.open .azubi-mobile-chev {
   transform: rotate(180deg);
 }
 
 /* Mobile accordion panel */
-.mobile-accordion-panel {
+.azubi-mobile-accordion-panel {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
 }
 
-.mobile-accordion.open .mobile-accordion-panel {
+.azubi-mobile-accordion.open .azubi-mobile-accordion-panel {
   max-height: 340px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
   border-radius: 1rem;
-  background: rgba(242, 234, 211, 0.3);
+  background: rgba(238, 240, 244, 0.3);
   padding: 0.5rem;
   margin-top: 0.5rem;
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 
 /* Submenu scrollbar */
-.mobile-accordion.open .mobile-accordion-panel::-webkit-scrollbar {
+.azubi-mobile-accordion.open .azubi-mobile-accordion-panel::-webkit-scrollbar {
   width: 6px;
 }
-.mobile-accordion.open .mobile-accordion-panel::-webkit-scrollbar-track {
+.azubi-mobile-accordion.open .azubi-mobile-accordion-panel::-webkit-scrollbar-track {
   background: transparent;
 }
-.mobile-accordion.open .mobile-accordion-panel::-webkit-scrollbar-thumb {
-  background: rgba(244, 153, 26, 0.3);
+.azubi-mobile-accordion.open .azubi-mobile-accordion-panel::-webkit-scrollbar-thumb {
+  background: rgba(93, 93, 233, 0.3);
   border-radius: 3px;
 }
-.mobile-accordion.open .mobile-accordion-panel::-webkit-scrollbar-thumb:hover {
-  background: rgba(244, 153, 26, 0.5);
+.azubi-mobile-accordion.open .azubi-mobile-accordion-panel::-webkit-scrollbar-thumb:hover {
+  background: rgba(93, 93, 233, 0.5);
 }
-.mobile-accordion-panel {
+.azubi-mobile-accordion-panel {
   scrollbar-width: thin;
-  scrollbar-color: rgba(244, 153, 26, 0.3) transparent;
+  scrollbar-color: rgba(93, 93, 233, 0.3) transparent;
 }
 
-.mobile-sub-link {
+.azubi-mobile-sub-link {
   display: block;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -605,12 +605,12 @@
   border-radius: var(--radius-sm);
   transition: var(--transition);
 }
-.mobile-sub-link:hover {
-  background: rgba(244, 153, 26, 0.05);
+.azubi-mobile-sub-link:hover {
+  background: rgba(93, 93, 233, 0.05);
   color: var(--orange);
 }
 
-.mobile-menu-actions {
+.azubi-mobile-menu-actions {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -618,7 +618,7 @@
 }
 
 /* Body scroll lock when menu is open */
-body.menu-open {
+body.azubi-menu-open {
   overflow: hidden;
   position: fixed;
   width: 100%;

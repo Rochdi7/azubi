@@ -33,13 +33,13 @@
 
 
 @section('content')
-    <main class="min-h-screen py-16 md:py-24" style="background-color: #f9f5f0">
+    <main class="min-h-screen py-16 md:py-24" style="background-color: #F7F8FA">
         <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-3xl">
             <div class="mb-12 text-center space-y-4">
-                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #344f1f">
+                <h1 class="text-4xl md:text-5xl font-semibold tracking-tight" style="color: #2C3340">
                     Terms of Service
                 </h1>
-                <p class="text-lg" style="color: rgba(52, 79, 31, 0.7)">
+                <p class="text-lg" style="color: rgba(44, 51, 64, 0.7)">
                     Please read these terms carefully before using our services
                 </p>
             </div>
@@ -47,10 +47,10 @@
                 style="
                 background-color: #ffffff;
                 box-shadow:
-                  0 4px 8px rgba(52, 79, 31, 0.08),
-                  0 2px 4px rgba(52, 79, 31, 0.04);
+                  0 4px 8px rgba(44, 51, 64, 0.08),
+                  0 2px 4px rgba(44, 51, 64, 0.04);
               ">
-                <div class="legal-prose">
+                <div class="azubi-legal-prose">
                     <p class="lead">
                         Last updated:
                         <!-- -->January 9, 2026
@@ -83,7 +83,7 @@
                         </li>
                         <li>
                             <strong>Student Profiles:</strong> Create and manage
-                            professional profiles visible to employers
+                            professional profiles azubi-visible to employers
                         </li>
                         <li>
                             <strong>Application Management:</strong> Submit job
@@ -1090,7 +1090,7 @@
                         </li>
                         <li>
                             <strong>Protect Your Own Privacy:</strong> Review your
-                            privacy settings and control what information is visible on
+                            privacy settings and control what information is azubi-visible on
                             your public profile.
                         </li>
                     </ul>
@@ -1732,7 +1732,7 @@
                     <h3>12.1 Free Platform (No Refunds Applicable)</h3>
                     <p>
                         All core platform features are completely free. Since no
-                        payment is required for these features, no refund policy
+                        payment is azubi-required for these features, no refund policy
                         applies to:
                     </p>
                     <ul>
@@ -1858,7 +1858,7 @@
                     <h4>Model Withdrawal Form (EU/Germany)</h4>
                     <div
                         style="
-                    background-color: #f9f5f0;
+                    background-color: #F7F8FA;
                     padding: 1rem;
                     border-radius: 8px;
                     margin-top: 0.5rem;

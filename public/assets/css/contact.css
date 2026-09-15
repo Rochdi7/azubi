@@ -3,7 +3,7 @@
    ============================================ */
 
 /* ---------- Hero ---------- */
-.contact-hero {
+.azubi-contact-hero {
   position: relative;
   min-height: 70vh;
   display: flex;
@@ -14,10 +14,10 @@
 }
 
 @media (min-width: 768px) {
-  .contact-hero { padding: 8rem 0 4rem; }
+  .azubi-contact-hero { padding: 8rem 0 4rem; }
 }
 
-.contact-hero-bg {
+.azubi-contact-hero-bg {
   position: absolute;
   inset: 0;
   z-index: 0;
@@ -25,23 +25,23 @@
   pointer-events: none;
 }
 
-.contact-hero-bg .blob {
+.azubi-contact-hero-bg .azubi-blob {
   position: absolute;
   border-radius: 50%;
   filter: blur(80px);
 }
 
 /* ---------- Info Cards ---------- */
-.contact-info-grid {
+.azubi-contact-info-grid {
   display: grid;
   gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  .contact-info-grid { grid-template-columns: repeat(3, 1fr); }
+  .azubi-contact-info-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
-.contact-info-card {
+.azubi-contact-info-card {
   padding: 1.5rem;
   border-radius: 1.5rem;
   border: 1px solid var(--border);
@@ -51,13 +51,13 @@
   text-align: center;
 }
 
-.contact-info-card:hover {
+.azubi-contact-info-card:hover {
   box-shadow: var(--shadow-lg);
-  border-color: rgba(244, 153, 26, 0.2);
+  border-color: rgba(93, 93, 233, 0.2);
   transform: translateY(-4px);
 }
 
-.contact-info-icon {
+.azubi-contact-info-icon {
   width: 3rem;
   height: 3rem;
   border-radius: 0.75rem;
@@ -67,42 +67,42 @@
   margin: 0 auto 1rem;
 }
 
-.contact-info-icon.orange { background: rgba(244, 153, 26, 0.1); color: var(--orange); }
-.contact-info-icon.green { background: rgba(52, 79, 31, 0.1); color: var(--green); }
-.contact-info-icon.blue { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+.azubi-contact-info-icon.orange { background: rgba(93, 93, 233, 0.1); color: var(--orange); }
+.azubi-contact-info-icon.green { background: rgba(44, 51, 64, 0.1); color: var(--green); }
+.azubi-contact-info-icon.blue { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
 
-.contact-info-card h3 {
+.azubi-contact-info-card h3 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--green);
   margin-bottom: 0.5rem;
 }
 
-.contact-info-card p {
+.azubi-contact-info-card p {
   font-size: 0.875rem;
   color: var(--text-light);
   line-height: 1.6;
 }
 
-.contact-info-card a {
+.azubi-contact-info-card a {
   color: var(--orange);
   font-weight: 500;
   transition: var(--transition);
 }
 
-.contact-info-card a:hover { color: var(--orange-hover); }
+.azubi-contact-info-card a:hover { color: var(--orange-hover); }
 
 /* ---------- Locations ---------- */
-.locations-grid {
+.azubi-locations-grid {
   display: grid;
   gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  .locations-grid { grid-template-columns: repeat(2, 1fr); }
+  .azubi-locations-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-.location-card {
+.azubi-location-card {
   padding: 2rem;
   border-radius: 1.5rem;
   border: 1px solid var(--border);
@@ -111,12 +111,12 @@
   transition: var(--transition);
 }
 
-.location-card:hover {
+.azubi-location-card:hover {
   box-shadow: var(--shadow-lg);
-  border-color: rgba(244, 153, 26, 0.2);
+  border-color: rgba(93, 93, 233, 0.2);
 }
 
-.location-card h3 {
+.azubi-location-card h3 {
   font-size: 1.125rem;
   font-weight: 700;
   color: var(--green);
@@ -126,7 +126,7 @@
   gap: 0.5rem;
 }
 
-.location-detail {
+.azubi-location-detail {
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
@@ -136,26 +136,26 @@
   line-height: 1.6;
 }
 
-.location-detail svg {
+.azubi-location-detail svg {
   flex-shrink: 0;
   margin-top: 0.125rem;
   color: var(--orange);
 }
 
-.location-detail a {
+.azubi-location-detail a {
   color: var(--orange);
   font-weight: 500;
   transition: var(--transition);
 }
 
-.location-detail a:hover { color: var(--orange-hover); }
+.azubi-location-detail a:hover { color: var(--orange-hover); }
 
 /* ---------- Contact Form ---------- */
-.contact-form-section {
+.azubi-contact-form-section {
   background: var(--warm);
 }
 
-.contact-form-wrap {
+.azubi-contact-form-wrap {
   max-width: 48rem;
   margin: 0 auto;
   padding: 2rem;
@@ -166,39 +166,39 @@
 }
 
 @media (min-width: 640px) {
-  .contact-form-wrap { padding: 2.5rem; }
+  .azubi-contact-form-wrap { padding: 2.5rem; }
 }
 
-.form-row {
+.azubi-form-row {
   display: grid;
   gap: 1rem;
 }
 
 @media (min-width: 640px) {
-  .form-row-2 { grid-template-columns: 1fr 1fr; }
+  .azubi-form-row-2 { grid-template-columns: 1fr 1fr; }
 }
 
-.form-group {
+.azubi-form-group {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.form-group label {
+.azubi-form-group label {
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--green);
 }
 
-.form-group label .required {
+.azubi-form-group label .azubi-required {
   color: #ef4444;
   margin-left: 0.125rem;
 }
 
-.form-input,
-.form-select,
-.form-textarea {
+.azubi-form-input,
+.azubi-form-select,
+.azubi-form-textarea {
   width: 100%;
   height: 2.75rem;
   padding: 0.5rem 0.75rem;
@@ -212,25 +212,25 @@
   transition: var(--transition);
 }
 
-.form-input:focus,
-.form-select:focus,
-.form-textarea:focus {
+.azubi-form-input:focus,
+.azubi-form-select:focus,
+.azubi-form-textarea:focus {
   border-color: var(--orange);
-  box-shadow: 0 0 0 3px rgba(244, 153, 26, 0.1);
+  box-shadow: 0 0 0 3px rgba(93, 93, 233, 0.1);
 }
 
-.form-input::placeholder,
-.form-textarea::placeholder {
+.azubi-form-input::placeholder,
+.azubi-form-textarea::placeholder {
   color: var(--text-muted);
 }
 
-.form-textarea {
+.azubi-form-textarea {
   height: auto;
   min-height: 120px;
   resize: vertical;
 }
 
-.form-phone-row {
+.azubi-form-phone-row {
   display: flex;
   border: 1px solid var(--border);
   border-radius: 0.75rem;
@@ -239,12 +239,12 @@
   transition: var(--transition);
 }
 
-.form-phone-row:focus-within {
+.azubi-form-phone-row:focus-within {
   border-color: var(--orange);
-  box-shadow: 0 0 0 3px rgba(244, 153, 26, 0.1);
+  box-shadow: 0 0 0 3px rgba(93, 93, 233, 0.1);
 }
 
-.form-phone-prefix {
+.azubi-form-phone-prefix {
   display: flex;
   align-items: center;
   gap: 0.25rem;
@@ -257,13 +257,13 @@
   cursor: pointer;
 }
 
-.form-phone-prefix svg {
+.azubi-form-phone-prefix svg {
   width: 0.75rem;
   height: 0.75rem;
   color: var(--text-muted);
 }
 
-.form-phone-input {
+.azubi-form-phone-input {
   flex: 1;
   border: none;
   padding: 0.5rem 0.75rem;
@@ -274,14 +274,14 @@
   background: transparent;
 }
 
-.form-phone-input::placeholder { color: var(--text-muted); }
+.azubi-form-phone-input::placeholder { color: var(--text-muted); }
 
-.form-submit {
+.azubi-form-submit {
   width: 100%;
   margin-top: 0.5rem;
 }
 
-.form-privacy {
+.azubi-form-privacy {
   margin-top: 1rem;
   font-size: 0.75rem;
   color: var(--text-muted);
@@ -289,19 +289,19 @@
   line-height: 1.5;
 }
 
-.honeypot { position: absolute; left: -9999px; opacity: 0; }
+.azubi-honeypot { position: absolute; left: -9999px; opacity: 0; }
 
 /* ---------- FAQ ---------- */
-.contact-faq .faq-answer-inner p {
+.azubi-contact-faq .azubi-faq-answer-inner p {
   border-top: 1px solid var(--border);
   padding-top: 0.75rem;
   font-size: 0.875rem;
-  color: rgba(52, 79, 31, 0.8);
+  color: rgba(44, 51, 64, 0.8);
   line-height: 1.7;
 }
 
 /* ---------- CTA ---------- */
-.contact-cta {
+.azubi-contact-cta {
   position: relative;
   border-radius: 1.5rem;
   overflow: hidden;
@@ -311,10 +311,10 @@
 }
 
 @media (min-width: 768px) {
-  .contact-cta { padding: 4rem 2rem; border-radius: 2rem; }
+  .azubi-contact-cta { padding: 4rem 2rem; border-radius: 2rem; }
 }
 
-.contact-cta-bg {
+.azubi-contact-cta-bg {
   position: absolute;
   inset: 0;
   z-index: 0;
@@ -322,7 +322,7 @@
   pointer-events: none;
 }
 
-.contact-cta h2 {
+.azubi-contact-cta h2 {
   position: relative;
   z-index: 10;
   font-size: 1.5rem;
@@ -331,10 +331,10 @@
   margin-bottom: 1rem;
 }
 
-@media (min-width: 640px) { .contact-cta h2 { font-size: 1.875rem; } }
-@media (min-width: 768px) { .contact-cta h2 { font-size: 2.25rem; } }
+@media (min-width: 640px) { .azubi-contact-cta h2 { font-size: 1.875rem; } }
+@media (min-width: 768px) { .azubi-contact-cta h2 { font-size: 2.25rem; } }
 
-.contact-cta > p {
+.azubi-contact-cta > p {
   position: relative;
   z-index: 10;
   font-size: 1rem;
@@ -344,9 +344,9 @@
   line-height: 1.7;
 }
 
-@media (min-width: 640px) { .contact-cta > p { font-size: 1.125rem; } }
+@media (min-width: 640px) { .azubi-contact-cta > p { font-size: 1.125rem; } }
 
-.contact-cta-buttons {
+.azubi-contact-cta-buttons {
   position: relative;
   z-index: 10;
   display: flex;
@@ -357,5 +357,5 @@
 }
 
 @media (min-width: 640px) {
-  .contact-cta-buttons { flex-direction: row; }
+  .azubi-contact-cta-buttons { flex-direction: row; }
 }

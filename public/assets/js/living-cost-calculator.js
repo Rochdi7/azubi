@@ -130,8 +130,8 @@ const sectorStipends = {
 
 // ── Cost category colors ──
 const categoryColors = {
-    accommodation: '#F4991A',
-    food: '#344F1F',
+    accommodation: '#5D5DE9',
+    food: '#2C3340',
     transportation: '#8B7355',
     insurance: '#D4841A',
     utilities: '#5A7A3A',
@@ -212,9 +212,9 @@ function calculateCosts() {
 
     // Affordability level
     let affordability, affordColor;
-    if (balance >= 200) { affordability = 'Comfortable'; affordColor = 'text-green'; }
-    else if (balance >= 50) { affordability = 'Manageable'; affordColor = 'text-green'; }
-    else if (balance >= -100) { affordability = 'Tight Budget'; affordColor = 'text-orange'; }
+    if (balance >= 200) { affordability = 'Comfortable'; affordColor = 'azubi-text-green'; }
+    else if (balance >= 50) { affordability = 'Manageable'; affordColor = 'azubi-text-green'; }
+    else if (balance >= -100) { affordability = 'Tight Budget'; affordColor = 'azubi-text-orange'; }
     else { affordability = 'Difficult'; affordColor = 'text-red-500'; }
 
     // Subtitle
@@ -227,7 +227,7 @@ function calculateCosts() {
 
     const balanceEl = document.getElementById('result-balance');
     balanceEl.textContent = (balance >= 0 ? '+' : '') + '\u20AC' + balance.toLocaleString() + '/mo';
-    balanceEl.className = 'text-xl font-bold ' + (balance >= 0 ? 'text-green' : 'text-orange');
+    balanceEl.className = 'text-xl font-bold ' + (balance >= 0 ? 'azubi-text-green' : 'azubi-text-orange');
 
     const affordEl = document.getElementById('result-affordability');
     affordEl.textContent = affordability;
@@ -240,12 +240,12 @@ function calculateCosts() {
     balanceIconBg.className = 'p-2 rounded-lg flex-shrink-0 ' + (balance >= 0 ? 'bg-green/10' : 'bg-orange/10');
 
     const balanceIcon = document.getElementById('balance-icon');
-    balanceIcon.className = balance >= 0 ? 'text-green' : 'text-orange';
+    balanceIcon.className = balance >= 0 ? 'azubi-text-green' : 'azubi-text-orange';
 
     // Annual
     const annualEl = document.getElementById('result-annual');
     annualEl.textContent = (annualBalance >= 0 ? '+' : '') + '\u20AC' + annualBalance.toLocaleString();
-    annualEl.className = 'text-xl font-bold ' + (annualBalance >= 0 ? 'text-green' : 'text-orange');
+    annualEl.className = 'text-xl font-bold ' + (annualBalance >= 0 ? 'azubi-text-green' : 'azubi-text-orange');
     document.getElementById('result-annual-cost').textContent = '\u20AC' + annualCost.toLocaleString();
 
     // Cost breakdown bars
@@ -273,8 +273,8 @@ function calculateCosts() {
                     <span class="text-sm font-medium text-secondary">${cat.icon} ${cat.label}</span>
                     <span class="text-sm font-bold text-secondary">\u20AC${val.toLocaleString()}</span>
                 </div>
-                <div class="w-full bg-beige rounded-full h-3">
-                    <div class="cost-bar" style="width: ${pct}%; background-color: ${color};"></div>
+                <div class="w-full azubi-bg-beige rounded-full h-3">
+                    <div class="azubi-cost-bar" style="width: ${pct}%; background-color: ${color};"></div>
                 </div>
             </div>`;
     }
@@ -285,7 +285,7 @@ function calculateCosts() {
     const alertText = document.getElementById('financial-alert-text');
     if (balance < 0) {
         alertEl.classList.remove('hidden');
-        alertEl.className = 'rounded-xl p-4 mb-6 flex items-start gap-3 bg-orange/10 border border-orange/20 text-orange';
+        alertEl.className = 'rounded-xl p-4 mb-6 flex items-start gap-3 bg-orange/10 border border-orange/20 azubi-text-orange';
         alertText.innerHTML = '<p class="font-semibold mb-1">Your stipend doesn\'t fully cover living costs</p><p class="text-sm">You have a monthly deficit of <strong>\u20AC' + Math.abs(balance) + '</strong>. Consider part-time work, a more affordable city, or cheaper accommodation to balance your budget.</p>';
     } else {
         alertEl.classList.add('hidden');
@@ -305,12 +305,12 @@ function calculateCosts() {
             <div class="rounded-xl border bg-white p-4">
                 <div class="flex items-center gap-2 mb-2">
                     <div class="p-1.5 rounded-lg bg-green/10">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="azubi-text-green"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                     </div>
-                    <span class="text-sm font-semibold text-green">${pt.hours}h/week @ \u20AC${pt.rate}/hr</span>
+                    <span class="text-sm font-semibold azubi-text-green">${pt.hours}h/week @ \u20AC${pt.rate}/hr</span>
                 </div>
                 <p class="text-lg font-bold text-secondary mb-1">+\u20AC${earnings.toLocaleString()}/mo</p>
-                <p class="text-xs ${newBalance >= 0 ? 'text-green' : 'text-orange'}">New balance: ${newBalance >= 0 ? '+' : ''}\u20AC${newBalance.toLocaleString()}/mo</p>
+                <p class="text-xs ${newBalance >= 0 ? 'azubi-text-green' : 'azubi-text-orange'}">New balance: ${newBalance >= 0 ? '+' : ''}\u20AC${newBalance.toLocaleString()}/mo</p>
             </div>`;
     }).join('');
 
@@ -337,10 +337,10 @@ function calculateCosts() {
             const altTotal = hasDependent ? Math.round(alt.total * 1.4) : alt.total;
             return `
                 <div class="rounded-xl border bg-white p-4">
-                    <h4 class="font-bold text-green mb-1">${alt.name}</h4>
+                    <h4 class="font-bold azubi-text-green mb-1">${alt.name}</h4>
                     <p class="text-xs text-muted-foreground mb-3">${alt.tier}</p>
                     <p class="text-lg font-bold text-secondary mb-1">\u20AC${altTotal.toLocaleString()}/mo</p>
-                    <p class="text-xs text-green font-semibold">Save \u20AC${savings.toLocaleString()}/mo vs ${city.name}</p>
+                    <p class="text-xs azubi-text-green font-semibold">Save \u20AC${savings.toLocaleString()}/mo vs ${city.name}</p>
                 </div>`;
         }).join('');
     } else {
@@ -372,7 +372,7 @@ function resetCalculator() {
 // ── FAQ toggle ──
 function toggleFaq(btn) {
     const content = btn.nextElementSibling;
-    const chevron = btn.querySelector('.faq-chevron');
+    const chevron = btn.querySelector('.azubi-faq-chevron');
     content.classList.toggle('hidden');
     chevron.classList.toggle('rotated');
 }
