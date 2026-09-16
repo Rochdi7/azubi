@@ -1482,7 +1482,7 @@
                     <div
                         class="rounded-xl border text-card-foreground shadow bg-background border-primary/10 overflow-hidden">
                         <div class="p-0">
-                            <div class="bg-beige0 p-4">
+                            <div class="bg-primary p-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -1561,7 +1561,7 @@
                     <div
                         class="rounded-xl border text-card-foreground shadow bg-background border-primary/10 overflow-hidden">
                         <div class="p-0">
-                            <div class="bg-beige0 p-4">
+                            <div class="bg-primary p-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"
@@ -1631,7 +1631,7 @@
                     <div
                         class="rounded-xl border text-card-foreground shadow bg-background border-primary/10 overflow-hidden">
                         <div class="p-0">
-                            <div class="bg-beige0 p-4">
+                            <div class="bg-primary p-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round"

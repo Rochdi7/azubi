@@ -1,7 +1,7 @@
       <footer class="border-t bg-background">
           <div class="container py-12 md:py-16">
-              <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr_1fr] lg:gap-8">
-                  <div class="space-y-2">
+              <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr_1fr] lg:gap-8">
+                  <div class="col-span-2 sm:col-span-3 md:col-span-2 lg:col-span-1 space-y-2">
                       <a class="inline-flex items-center select-none gap-[2px]" href="{{ route('front.index') }}"><img
                               alt="Azubi logo" fetchpriority="high" loading="eager" width="56" height="56"
                               decoding="async" data-nimg="1" class="object-contain flex-shrink-0 mt-[2px] h-10 w-10"
@@ -186,7 +186,7 @@
                           <!-- -->2026<!-- -->
                           Azubi. All rights reserved.
                       </p>
-                      <div class="flex items-center space-x-4">
+                      <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 md:justify-start">
                           <a class="hover:text-foreground transition-colors"
                               href="{{ route('front.privacy') }}">Privacy</a><span
                               class="text-muted-foreground/60">•</span><a

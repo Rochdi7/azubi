@@ -18,7 +18,7 @@
                               </a>
                           </div>
                           <div class="relative ml-2 md:ml-3">
-                              <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors hover:text-primary bg-muted text-primary px-3 md:px-6"
+                              <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors {{ request()->routeIs('front.index') ? 'bg-muted text-primary' : 'text-foreground/80' }} hover:text-primary px-3 md:px-6"
                                   href="{{ route('front.index') }}">
                                   <span>Home</span>
                                   <div class="absolute inset-0 w-full bg-primary/5 rounded-full -z-10"
@@ -30,7 +30,7 @@
                               </a>
                           </div>
                           <div class="relative">
-                              <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors text-foreground/80 hover:text-primary px-3 md:px-6"
+                              <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors {{ request()->routeIs('front.jobs') ? 'bg-muted text-primary' : 'text-foreground/80' }} hover:text-primary px-3 md:px-6"
                                   href="{{ route('front.jobs') }}"><span>Jobs</span></a>
                           </div>
                           {{-- Tools dropdown commented out for now
@@ -175,7 +175,7 @@
                           --}}
                           <div class="hidden xl:block azubi-nav-has-dropdown">
                               <button
-                                  class="azubi-nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
+                                  class="azubi-nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center {{ request()->routeIs('front.sectors','front.sector') ? 'bg-muted text-primary' : 'text-foreground/80' }} hover:text-primary px-3 md:px-6">
                                   <span>Sectors</span>
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -300,7 +300,7 @@
                           </div>
                           <div class="azubi-nav-has-dropdown">
                               <button
-                                  class="azubi-nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center text-foreground/80 hover:text-primary px-3 md:px-6">
+                                  class="azubi-nav-dropdown-trigger relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors flex items-center {{ request()->routeIs('front.ausbildung-germany','front.ausbildung-basics','front.why-ausbildung','front.programs','front.requirements','front.language','front.costs','front.visa','front.application','front.housing','front.daily-life','front.faq','front.cultural-integration','front.trainee-rights','front.change-career','front.after-ausbildung','front.ausbildung-timeline') ? 'bg-muted text-primary' : 'text-foreground/80' }} hover:text-primary px-3 md:px-6">
                                   <span>Learn</span>
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -587,7 +587,7 @@
                               </div>
                           </div>
                           <div class="relative">
-                              <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors text-foreground/80 hover:text-primary px-3 md:px-6"
+                              <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors {{ request()->routeIs('front.contact') ? 'bg-muted text-primary' : 'text-foreground/80' }} hover:text-primary px-3 md:px-6"
                                   href="{{ route('front.contact') }}"><span>Contact</span></a>
                           </div>
                           <div class="block xl:hidden">
@@ -683,7 +683,7 @@
                               </svg>
                           </button>
                           <nav class="flex flex-col gap-1.5">
-                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-[#5D5DE9]/10 text-[#5D5DE9] shadow-[0_18px_40px_-22px_rgba(93,93,233,0.4)]"
+                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] {{ request()->routeIs('front.index') ? 'bg-[#5D5DE9]/10 text-[#5D5DE9] shadow-[0_18px_40px_-22px_rgba(93,93,233,0.4)]' : 'text-[#2C3340] bg-white/80 hover:bg-[#EEF0F4]/50' }}"
                                   href="{{ route('front.index') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
                                       style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
@@ -699,7 +699,7 @@
                                   </div>
                                   <span class="flex-1 text-left">Home</span>
                               </a>
-                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#2C3340] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-white/80 hover:bg-[#EEF0F4]/50"
+                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] {{ request()->routeIs('front.jobs') ? 'bg-[#5D5DE9]/10 text-[#5D5DE9] shadow-[0_18px_40px_-22px_rgba(93,93,233,0.4)]' : 'text-[#2C3340] bg-white/80 hover:bg-[#EEF0F4]/50' }}"
                                   href="{{ route('front.jobs') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
                                       style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
@@ -1282,7 +1282,7 @@
                                       </a>
                                   </div>
                               </div>
-                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 text-[#2C3340] hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] bg-white/80 hover:bg-[#EEF0F4]/50"
+                              <a class="azubi-mobile-menu-link group relative flex items-center gap-2.5 rounded-2xl px-4 py-2.5 text-[15px] font-semibold transition-all duration-200 hover:-translate-y-[1px] hover:shadow-[0_18px_30px_-22px_rgba(93,93,233,0.3)] {{ request()->routeIs('front.contact') ? 'bg-[#5D5DE9]/10 text-[#5D5DE9] shadow-[0_18px_40px_-22px_rgba(93,93,233,0.4)]' : 'text-[#2C3340] bg-white/80 hover:bg-[#EEF0F4]/50' }}"
                                   href="{{ route('front.contact') }}">
                                   <div class="flex h-8 w-8 items-center justify-center rounded-full shrink-0"
                                       style="background-color:rgba(93,93,233,0.1); border: 1.5px solid #5D5DE9; color: #5D5DE9;">
