@@ -107,23 +107,23 @@
                             <div class="flex -space-x-3">
                                 <div
                                     class="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white overflow-hidden">
-                                    <img src="{{ asset('assets/images/hero-avatar-1.webp') }}" alt=""
+                                    <img src="{{ asset('assets/images/avatars/hero-avatar-1.webp') }}" alt=""
                                         class="w-full h-full object-cover" loading="lazy" width="44" height="44" />
                                 </div>
                                 <div
                                     class="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white overflow-hidden">
-                                    <img src="{{ asset('assets/images/hero-avatar-2.webp') }}" alt=""
+                                    <img src="{{ asset('assets/images/avatars/hero-avatar-2.webp') }}" alt=""
                                         class="w-full h-full object-cover" loading="lazy" width="44" height="44" />
                                 </div>
                                 <div
                                     class="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white overflow-hidden">
-                                    <img src="{{ asset('assets/images/hero-avatar-3.webp') }}" alt=""
+                                    <img src="{{ asset('assets/images/avatars/hero-avatar-3.webp') }}" alt=""
                                         class="w-full h-full object-cover" loading="lazy" width="44"
                                         height="44" />
                                 </div>
                                 <div
                                     class="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full border-2 border-white overflow-hidden">
-                                    <img src="{{ asset('assets/images/hero-avatar-4.webp') }}" alt=""
+                                    <img src="{{ asset('assets/images/avatars/hero-avatar-4.webp') }}" alt=""
                                         class="w-full h-full object-cover" loading="lazy" width="44"
                                         height="44" />
                                 </div>
@@ -3766,19 +3766,19 @@
                     <div class="flex flex-col items-center gap-3 mb-10" style="opacity: 0; transform: translateY(20px)">
                         <div class="flex -space-x-3">
                             <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
-                                <img src="{{ asset('assets/images/hero-avatar-1.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/avatars/hero-avatar-1.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
                             <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
-                                <img src="{{ asset('assets/images/hero-avatar-2.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/avatars/hero-avatar-2.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
                             <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
-                                <img src="{{ asset('assets/images/hero-avatar-3.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/avatars/hero-avatar-3.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
                             <div class="w-10 h-10 rounded-full border-2 border-[#2C3340] overflow-hidden">
-                                <img src="{{ asset('assets/images/hero-avatar-4.webp') }}" alt=""
+                                <img src="{{ asset('assets/images/avatars/hero-avatar-4.webp') }}" alt=""
                                     class="w-full h-full object-cover" loading="lazy" />
                             </div>
                             <div
