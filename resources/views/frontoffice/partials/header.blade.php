@@ -21,12 +21,14 @@
                               <a class="relative cursor-pointer text-sm font-semibold py-2 rounded-full transition-colors {{ request()->routeIs('front.index') ? 'bg-muted text-primary' : 'text-foreground/80' }} hover:text-primary px-3 md:px-6"
                                   href="{{ route('front.index') }}">
                                   <span>Home</span>
-                                  <div class="absolute inset-0 w-full bg-primary/5 rounded-full -z-10"
-                                      style="transform: none; transform-origin: 50% 50% 0px; opacity: 1;">
-                                      <div
-                                          class="absolute -top-2 left-1/2 -translate-x-1/2 w-8 h-1 bg-primary rounded-t-full">
+                                  @if (request()->routeIs('front.index'))
+                                      <div class="absolute inset-0 w-full bg-primary/5 rounded-full -z-10"
+                                          style="transform: none; transform-origin: 50% 50% 0px; opacity: 1;">
+                                          <div
+                                              class="absolute -top-2 left-1/2 -translate-x-1/2 w-8 h-1 bg-primary rounded-t-full">
+                                          </div>
                                       </div>
-                                  </div>
+                                  @endif
                               </a>
                           </div>
                           <div class="relative">
