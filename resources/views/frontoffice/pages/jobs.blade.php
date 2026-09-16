@@ -30,7 +30,7 @@
             <img alt="Hamburg harbor in autumn - Germany&#39;s business and port city" loading="eager" decoding="async"
                 data-nimg="fill" class="object-cover object-center"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                sizes="100vw" src="{{ asset('assets/_next/hamburg-harbor-hero-autumn9127.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/hamburg-harbor-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil">
             </div>
             <div class="absolute inset-0 z-0"
@@ -2773,7 +2773,7 @@
                                                 <div
                                                     class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                                     <div class="relative">
-                                                        <img src="{{ asset('assets/_next/mascot_pointing_male8bc3.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/mascots/pointing-male.jpeg') }}"
                                                             alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                                     </div>
                                                 </div>

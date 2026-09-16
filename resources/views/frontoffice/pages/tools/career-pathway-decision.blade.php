@@ -78,7 +78,7 @@
                             <div id="step-0" class="azubi-wizard-step">
                                 <div class="text-center py-8">
                                     <div class="mb-6 flex justify-center">
-                                        <img src="{{ asset('assets/_next/mascot_welcomingfad6.jpeg') }}"
+                                        <img src="{{ asset('assets/images/mascots/welcoming-3.jpeg') }}"
                                             alt="Young Oak mascot welcoming you to find your career path" width="200"
                                             height="200" class="animate-float-slow" />
                                     </div>
@@ -823,7 +823,7 @@
 
     <link rel="stylesheet" href="{{ asset('assets/css/global-new-styles.css') }}?v={{ filemtime(public_path('assets/css/global-new-styles.css')) }}">
     <div id="career-pathway-config" class="hidden"
-        data-mascot-url="{{ asset('assets/_next/mascot_welcomingfad6.jpeg') }}" data-jobs-url="{{ route('front.jobs') }}"
+        data-mascot-url="{{ asset('assets/images/mascots/welcoming-3.jpeg') }}" data-jobs-url="{{ route('front.jobs') }}"
         data-consultation-url="{{ route('front.consultation') }}"></div>
     <script src="{{ asset('assets/js/career-pathway-decision.js') }}"></script>
 @endsection

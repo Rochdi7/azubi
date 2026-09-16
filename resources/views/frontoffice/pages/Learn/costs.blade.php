@@ -48,7 +48,7 @@
                 color: transparent;
               "
                 sizes="100vw"
-                src="{{ asset('assets/_next/black-forest-hero-autumnd6b2.jpeg?url=%2Fimages%2Fhero-backgrounds%2Fblack-forest-hero-autumn.webp&amp;w=2048&amp;q=85') }}" />
+                src="{{ asset('assets/images/heroes/black-forest-hero-autumn.jpeg?url=%2Fimages%2Fhero-backgrounds%2Fblack-forest-hero-autumn.webp&amp;w=2048&amp;q=85') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -853,7 +853,7 @@
                                     <div class="grid lg:grid-cols-12 gap-6 items-center">
                                         <div class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                             <div class="relative">
-                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                                                <img src="{{ asset('assets/images/mascots/pointing-male-2.jpeg') }}"
                                                     alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                             </div>
                                         </div>
@@ -1991,7 +1991,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

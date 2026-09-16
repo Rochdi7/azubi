@@ -27,7 +27,7 @@
             <img alt="Bavarian Alps in autumn - representing new heights and career changes" loading="eager"
                 decoding="async" class="object-cover object-center"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                src="{{ asset('assets/_next/bavarian-alps-hero-autumn9804.jpeg') }}" />
+                src="{{ asset('assets/images/heroes/bavarian-alps-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil">
             </div>
             <div class="absolute inset-0 z-0"
@@ -2658,7 +2658,7 @@
                 class="relative py-16 md:py-20 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-b from-primary/5 to-background">
                 <img alt="Background" loading="lazy" decoding="async" class="object-cover object-center rounded-2xl"
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil">
                 </div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"

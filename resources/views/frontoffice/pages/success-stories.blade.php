@@ -35,7 +35,7 @@
                     bottom: 0;
                     color: transparent;
                   "
-                        sizes="100vw" src="{{ asset('assets/_next/mascot_celebrating_femaledd5e.jpeg') }}" />
+                        sizes="100vw" src="{{ asset('assets/images/mascots/celebrating-female.jpeg') }}" />
                 </div>
                 <div class="flex flex-col items-center gap-2">
                     <h1
@@ -95,7 +95,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/VpPnmWGMXiFYS8GvznecpZnq-mcSgYwoDqc3Ljp74-Qb07d.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-07.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -151,7 +151,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/FYSofF1jcG6iwDNRhCb7Nl61N8lvSHl7rcdOlFhWY2gd649.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-05.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -207,7 +207,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/UAwbjRc-lZoWwur4NAzUSLcP6lqa5N99o-uZQMcv_mY6356.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-06.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -264,7 +264,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/BQQqDJSWJC0s9H3exCdLFED1EBCDza5bzccuZlmfDcQ03f8.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-04.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -320,7 +320,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/8IBXcPyh5jk-DvpV4U-Ez0zKcSHT5yi-IBY-KgkT_Ckbf2f.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-03.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -377,7 +377,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/lhCMLs30hJRLqmREBHZejlsZg0FOUxF4a2uZTAA3dmEd119.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-12.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -433,7 +433,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/0BcTVfdEIoHDaZfIQEM4igUceF4KG5dc26MjPbxDeHQ6533.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-02.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -489,7 +489,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/YwqsAsXp-dyvzFm_yMzjcLC8YtvS31EcSzig1zMggW0950f.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-09.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -546,7 +546,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/fdZ3En8UhvgWDART-7MU8STZ8abVTRa-qK80X8SFflkce87.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-11.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -602,7 +602,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/cC82zE2OJQoP-wrd_klRtwfgDKMMSgtjmiOLQFnVpS8547b.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-10.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -658,7 +658,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/-xEqDwnCVHNOrfXUoUuRrWcHByFu44fSeYNKG6GeP6I8cfe.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-01.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -714,7 +714,7 @@
                                   color: transparent;
                                 "
                                                     sizes="100vw"
-                                                    src="{{ asset('assets/_next/XlsF2BkC7VT1n8kDKQHUB-XsLLokr9w44bMTi_PnroU90d8.jpeg') }}" />
+                                                    src="{{ asset('assets/images/testimonials/success-story-08.jpeg') }}" />
                                             </div>
                                         </div>
                                     </div>
@@ -1015,7 +1015,7 @@
                                     <div class="grid lg:grid-cols-12 gap-6 items-center">
                                         <div class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                             <div class="relative">
-                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                                                <img src="{{ asset('assets/images/mascots/pointing-male-2.jpeg') }}"
                                                     alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                             </div>
                                         </div>
@@ -1292,7 +1292,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

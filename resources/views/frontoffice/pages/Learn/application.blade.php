@@ -104,7 +104,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/cologne-cathedral-hero-autumn80a2.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/cologne-cathedral-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -987,7 +987,7 @@
                                     <div class="grid lg:grid-cols-12 gap-6 items-center">
                                         <div class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                             <div class="relative">
-                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                                                <img src="{{ asset('assets/images/mascots/pointing-male-2.jpeg') }}"
                                                     alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                             </div>
                                         </div>
@@ -1915,7 +1915,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/hero-background-germany-natural-autumn.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

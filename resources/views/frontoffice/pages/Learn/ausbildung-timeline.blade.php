@@ -28,7 +28,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/north-sea-coast-hero-autumndd79.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/north-sea-coast-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -408,7 +408,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/heroc4bc.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/heroes/hero-2.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 Careful planning and preparation over 18 months will set
@@ -647,7 +647,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/preparation1771.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/preparation.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 Thorough research and preparation 18 months before your
@@ -966,7 +966,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/application49f8.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/application.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 The application phase requires careful preparation to
@@ -1526,7 +1526,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/departure5381.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/departure.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 Careful preparation in the months before departure ensures
@@ -1850,7 +1850,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/training550a.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/training.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 Completing important administrative tasks within your
@@ -2670,7 +2670,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

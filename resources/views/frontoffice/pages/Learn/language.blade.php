@@ -28,7 +28,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                src="{{ asset('assets/_next/rhine-valley-hero-autumn77a4.jpeg') }}" />
+                src="{{ asset('assets/images/heroes/rhine-valley-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -1211,7 +1211,7 @@
                   bottom: 0;
                   color: transparent;
                 "
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

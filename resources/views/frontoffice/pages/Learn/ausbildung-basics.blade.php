@@ -41,7 +41,7 @@
             <img alt="Brandenburg Gate in autumn - iconic symbol of Berlin and Germany" loading="eager" decoding="async"
                 data-nimg="fill" class="object-cover object-center"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                sizes="100vw" src="{{ asset('assets/_next/brandenburg-gate-hero-autumn77fb.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/brandenburg-gate-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil">
             </div>
             <div class="absolute inset-0 z-0"
@@ -248,7 +248,7 @@
                         <div class="relative rounded-xl overflow-hidden mb-6 shadow-xl">
                             <img alt="Practical training during Ausbildung" loading="lazy" width="800" height="600"
                                 decoding="async" data-nimg="1" class="w-full h-auto" style="color:transparent"
-                                src="{{ asset('assets/_next/dual-training67f9.jpeg') }}" />
+                                src="{{ asset('assets/images/content/dual-training.jpeg') }}" />
                             <div
                                 class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end">
                                 <p class="text-white p-4 text-sm">
@@ -734,7 +734,7 @@
                         <img alt="International students in Germany" loading="lazy" decoding="async" data-nimg="fill"
                             class="object-cover"
                             style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                            sizes="100vw" src="{{ asset('assets/_next/international-students99a4.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/international-students.jpeg') }}" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
                         </div>
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
@@ -1017,7 +1017,7 @@
                                 <div class="w-12 h-12 rounded-full overflow-hidden bg-muted-foreground/20 relative">
                                     <img alt="Mehdi from Morocco" loading="lazy" decoding="async"
                                         class="w-full h-full object-cover"
-                                        src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-1.jpeg') }}" />
                                 </div>
                             </div>
                             <div>
@@ -1039,7 +1039,7 @@
                                 <div class="w-12 h-12 rounded-full overflow-hidden bg-muted-foreground/20 relative">
                                     <img alt="Nadia from Morocco" loading="lazy" decoding="async"
                                         class="w-full h-full object-cover"
-                                        src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-2.jpeg') }}" />
                                 </div>
                             </div>
                             <div>
@@ -2853,19 +2853,19 @@
                             <img alt="Work-life balance during Ausbildung" loading="lazy" decoding="async"
                                 data-nimg="fill" class="object-cover"
                                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                sizes="100vw" src="{{ asset('assets/_next/work-life-balancef493.png') }}" />
+                                sizes="100vw" src="{{ asset('assets/images/content/work-life-balance.png') }}" />
                         </div>
                         <div class="aspect-square rounded-lg overflow-hidden relative">
                             <img alt="Students at vocational school in Germany" loading="lazy" decoding="async"
                                 data-nimg="fill" class="object-cover"
                                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                sizes="100vw" src="{{ asset('assets/_next/vocational-schoolb9e6.png') }}" />
+                                sizes="100vw" src="{{ asset('assets/images/content/vocational-school.png') }}" />
                         </div>
                         <div class="aspect-square rounded-lg overflow-hidden relative">
                             <img alt="Leisure activities in Germany" loading="lazy" decoding="async"
                                 data-nimg="fill" class="object-cover"
                                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                sizes="100vw" src="{{ asset('assets/_next/leisure-time3fe0.png') }}" />
+                                sizes="100vw" src="{{ asset('assets/images/content/leisure-time.png') }}" />
                         </div>
                     </div>
                 </div>
@@ -3789,7 +3789,7 @@
                                     class="w-14 h-14 rounded-full overflow-hidden bg-muted-foreground/20 relative flex-shrink-0">
                                     <img alt="Youssef from Morocco" loading="lazy" decoding="async"
                                         class="w-full h-full object-cover"
-                                        src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-3.jpeg') }}" />
                                 </div>
                                 <div>
                                     <h4 class="font-medium">
@@ -3828,7 +3828,7 @@
                                     class="w-14 h-14 rounded-full overflow-hidden bg-muted-foreground/20 relative flex-shrink-0">
                                     <img alt="Maria from Colombia" loading="lazy" decoding="async"
                                         class="w-full h-full object-cover"
-                                        src="{{ asset('assets/_next/hero-avatar-4ec14.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-4.jpeg') }}" />
                                 </div>
                                 <div>
                                     <h4 class="font-medium">
@@ -3867,7 +3867,7 @@
                                     class="w-14 h-14 rounded-full overflow-hidden bg-muted-foreground/20 relative flex-shrink-0">
                                     <img alt="Karim from Morocco" loading="lazy" decoding="async"
                                         class="w-full h-full object-cover"
-                                        src="{{ asset('assets/_next/hero-avatar-58f5b.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-5.jpeg') }}" />
                                 </div>
                                 <div>
                                     <h4 class="font-medium">
@@ -4613,7 +4613,7 @@
                     class="object-cover object-center rounded-2xl"
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil">
                 </div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"

@@ -28,7 +28,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/rothenburg-hero-autumna965.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/rothenburg-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -250,7 +250,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/workplace-culture4a92.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/workplace-culture.jpeg') }}" />
                         <div class="absolute inset-x-0 bottom-0 bg-black/80 p-4">
                             <p class="text-white text-sm">
                                 Understanding German workplace communication styles helps
@@ -274,7 +274,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/herobc74.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/heroes/hero.jpeg') }}" />
                         <div class="absolute inset-x-0 bottom-0 bg-black/80 p-4">
                             <p class="text-white text-sm">
                                 Respecting workplace hierarchy and professional boundaries
@@ -965,7 +965,7 @@
                                     <div class="grid lg:grid-cols-12 gap-6 items-center">
                                         <div class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                             <div class="relative">
-                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                                                <img src="{{ asset('assets/images/mascots/pointing-male-2.jpeg') }}"
                                                     alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                             </div>
                                         </div>
@@ -1256,7 +1256,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/building-network1e85.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/building-network.jpeg') }}" />
                         <div class="absolute inset-x-0 bottom-0 bg-black/80 p-4">
                             <p class="text-white text-sm">
                                 Understanding German social customs helps build positive
@@ -1768,7 +1768,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/culture-shock-phasescfef.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/culture-shock-phases.jpeg') }}" />
                         <div class="absolute inset-x-0 bottom-0 bg-black/80 p-4">
                             <p class="text-white text-sm">
                                 Understanding the culture shock process helps you
@@ -2604,7 +2604,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

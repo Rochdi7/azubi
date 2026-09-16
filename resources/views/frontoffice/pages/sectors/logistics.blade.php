@@ -350,7 +350,7 @@
                         <div class="flex flex-col gap-4 items-center lg:items-end">
                             <div class="relative w-full max-w-xs lg:max-w-sm">
                                 <div class="absolute inset-0 bg-primary/5 rounded-full blur-3xl azubi-glow-tint--peach"></div>
-                                <img src="{{ asset('assets/_next/mascot_logistics757f.jpeg') }}"
+                                <img src="{{ asset('assets/images/mascots/logistics.jpeg') }}"
                                     alt="Logistics &amp; Transportation mascot welcoming you to Ausbildung training"
                                     class="relative w-full h-auto drop-shadow-[0_8px_20px_rgba(44,51,64,0.2)]" />
                             </div>
@@ -1319,7 +1319,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/hero-background-germany-natural-autumn.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

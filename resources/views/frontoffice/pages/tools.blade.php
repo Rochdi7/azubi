@@ -35,7 +35,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/rothenburg-hero-autumna965.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/rothenburg-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="

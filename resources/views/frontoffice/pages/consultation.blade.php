@@ -19,7 +19,7 @@
             <div class="container mx-auto px-4 lg:px-6">
                 <div class="relative overflow-hidden rounded-2xl sm:rounded-3xl shadow-xl">
                     <div class="absolute inset-0">
-                        <img src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}"
+                        <img src="{{ asset('assets/images/heroes/hero-background-germany-natural-autumn.jpeg') }}"
                             alt="Azubi Apply For Me Service" class="w-full h-full object-cover" loading="eager"
                             fetchpriority="high" width="1920" height="1080" />
                         <div class="absolute inset-0 bg-black/50 azubi-hero-veil"></div>
@@ -850,7 +850,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_documents_male64d7.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/documents-male-2.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -884,7 +884,7 @@
                                             decoding="async" data-nimg="1"
                                             class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                             style="color: transparent"
-                                            src="{{ asset('assets/_next/mascot_thinking_female7bb0.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/thinking-female-2.jpeg') }}" />
                                     </div>
                                 </div>
                             </div>
@@ -919,7 +919,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_studying_malec6d7.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/studying-male-2.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -951,7 +951,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_graduate_female94ff.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/graduate-female-3.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -964,19 +964,19 @@
                                             <img alt="Student 1" loading="lazy" width="48" height="48"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-1.jpeg') }}" />
                                         </div>
                                         <div class="w-12 h-12 rounded-full border-[3px] border-white overflow-hidden">
                                             <img alt="Student 2" loading="lazy" width="48" height="48"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-2.jpeg') }}" />
                                         </div>
                                         <div class="w-12 h-12 rounded-full border-[3px] border-white overflow-hidden">
                                             <img alt="Student 3" loading="lazy" width="48" height="48"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-3.jpeg') }}" />
                                         </div>
                                     </div>
                                     <span class="text-lg font-semibold">Get Started Now</span>
@@ -1021,7 +1021,7 @@
                                         height="160" decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_excited_female2376.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/excited-female.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1054,7 +1054,7 @@
                                             decoding="async" data-nimg="1"
                                             class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                             style="color: transparent"
-                                            src="{{ asset('assets/_next/support-mascot210b.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/support-2.jpeg') }}" />
                                     </div>
                                 </div>
                             </div>
@@ -1090,7 +1090,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_documents_male3289.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/documents-male.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1123,7 +1123,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_thinking_female7a6f.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/thinking-female.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1157,7 +1157,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_studying_male647e.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/studying-male.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1189,7 +1189,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_graduate_female6ffb.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/graduate-female-2.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1221,7 +1221,7 @@
                                         height="160" decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_excited_female2376.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/excited-female.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1253,7 +1253,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/support-mascotcb8c.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/support-3.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1266,19 +1266,19 @@
                                             <img alt="Student 1" loading="lazy" width="40" height="40"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-1.jpeg') }}" />
                                         </div>
                                         <div class="w-10 h-10 rounded-full border-[3px] border-white overflow-hidden">
                                             <img alt="Student 2" loading="lazy" width="40" height="40"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-2.jpeg') }}" />
                                         </div>
                                         <div class="w-10 h-10 rounded-full border-[3px] border-white overflow-hidden">
                                             <img alt="Student 3" loading="lazy" width="40" height="40"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-3.jpeg') }}" />
                                         </div>
                                     </div>
                                     <span class="text-base font-semibold">Get Started Now</span>
@@ -1323,7 +1323,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_documents_maleebd2.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/documents-male-3.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1356,7 +1356,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_thinking_female8891.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/thinking-female-3.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1390,7 +1390,7 @@
                                         height="128" decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_studying_malec9f9.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/studying-male-3.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1422,7 +1422,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_graduate_female2fd4.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/graduate-female.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1454,7 +1454,7 @@
                                         height="128" decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/mascot_excited_female2395.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/excited-female-2.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1486,7 +1486,7 @@
                                         decoding="async" data-nimg="1"
                                         class="object-contain w-full h-full transition-transform duration-500 hover:scale-110"
                                         style="color: transparent"
-                                        src="{{ asset('assets/_next/support-mascot142f.jpeg') }}" />
+                                        src="{{ asset('assets/images/mascots/support.jpeg') }}" />
                                 </div>
                             </div>
                         </div>
@@ -1499,19 +1499,19 @@
                                             <img alt="Student 1" loading="lazy" width="40" height="40"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-1.jpeg') }}" />
                                         </div>
                                         <div class="w-10 h-10 rounded-full border-[3px] border-white overflow-hidden">
                                             <img alt="Student 2" loading="lazy" width="40" height="40"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-2.jpeg') }}" />
                                         </div>
                                         <div class="w-10 h-10 rounded-full border-[3px] border-white overflow-hidden">
                                             <img alt="Student 3" loading="lazy" width="40" height="40"
                                                 decoding="async" data-nimg="1" class="w-full h-full object-cover"
                                                 style="color: transparent"
-                                                src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
+                                                src="{{ asset('assets/images/avatars/hero-avatar-3.jpeg') }}" />
                                         </div>
                                     </div>
                                     <span class="text-base font-semibold">Get Started Now</span>

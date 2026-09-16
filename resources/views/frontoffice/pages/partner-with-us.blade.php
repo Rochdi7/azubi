@@ -59,7 +59,7 @@
                 /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&amp;w=1920&amp;q=85 1920w,
                 /_next/image?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&amp;w=2048&amp;q=85 2048w
               "
-                src="{{ asset('assets/_next/brandenburg-gate-hero-autumn77fb.jpeg?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&amp;w=2048&amp;q=85') }}" />
+                src="{{ asset('assets/images/heroes/brandenburg-gate-hero-autumn.jpeg?url=%2Fimages%2Fhero-backgrounds%2Fbrandenburg-gate-hero-autumn.webp&amp;w=2048&amp;q=85') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -613,7 +613,7 @@
                   /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=1920&amp;q=85 1920w,
                   /_next/image?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85 2048w
                 "
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg?url=%2Fimages%2Farbeitgeber-hero-background.webp&amp;w=2048&amp;q=85') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

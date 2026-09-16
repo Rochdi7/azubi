@@ -154,7 +154,7 @@
             class="relative text-foreground py-16 sm:py-20 md:py-24 lg:py-32 min-h-[600px] sm:min-h-[700px] lg:min-h-[800px] overflow-hidden w-full flex items-center justify-center -mt-24 pt-40 sm:pt-44 md:pt-48">
             <img alt="Beautiful autumn landscape in Germany" decoding="async"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
+                src="{{ asset('assets/images/heroes/hero-background-germany-natural-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -212,27 +212,27 @@
                             <div class="relative h-10 w-10">
                                 <img alt="Avatar 1" loading="eager" width="40" height="40" decoding="async"
                                     class="rounded-full border-2 border-white"
-                                    src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}" />
+                                    src="{{ asset('assets/images/avatars/hero-avatar-1.jpeg') }}" />
                             </div>
                             <div class="relative h-10 w-10">
                                 <img alt="Avatar 2" loading="eager" width="40" height="40" decoding="async"
                                     class="rounded-full border-2 border-white"
-                                    src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}" />
+                                    src="{{ asset('assets/images/avatars/hero-avatar-2.jpeg') }}" />
                             </div>
                             <div class="relative h-10 w-10">
                                 <img alt="Avatar 3" loading="lazy" width="40" height="40" decoding="async"
                                     class="rounded-full border-2 border-white"
-                                    src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
+                                    src="{{ asset('assets/images/avatars/hero-avatar-3.jpeg') }}" />
                             </div>
                             <div class="relative h-10 w-10">
                                 <img alt="Avatar 4" loading="lazy" width="40" height="40" decoding="async"
                                     class="rounded-full border-2 border-white"
-                                    src="{{ asset('assets/_next/hero-avatar-4ec14.jpeg') }}" />
+                                    src="{{ asset('assets/images/avatars/hero-avatar-4.jpeg') }}" />
                             </div>
                             <div class="relative h-10 w-10">
                                 <img alt="Avatar 5" loading="lazy" width="40" height="40" decoding="async"
                                     class="rounded-full border-2 border-white"
-                                    src="{{ asset('assets/_next/hero-avatar-58f5b.jpeg') }}" />
+                                    src="{{ asset('assets/images/avatars/hero-avatar-5.jpeg') }}" />
                             </div>
                             <div
                                 class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white azubi-bg-green text-center text-xs font-medium text-white z-20">
@@ -335,7 +335,7 @@
                             class="relative p-6 sm:p-8 rounded-2xl border-2 border-[#2C3340]/15 overflow-hidden animate-fade-in-left">
                             <img alt="Traditional university education" loading="lazy" decoding="async"
                                 class="absolute inset-0 w-full h-full object-cover object-center rounded-2xl"
-                                src="{{ asset('assets/_next/university-card-background-winter-v2d699.jpeg') }}" />
+                                src="{{ asset('assets/images/backgrounds/university-card-background-winter-v2.jpeg') }}" />
                             <div class="absolute inset-0 bg-white/85 backdrop-blur-[0.5px] rounded-2xl"></div>
                             <div class="relative z-10">
                                 <div class="absolute top-0 right-0">
@@ -399,7 +399,7 @@
                             class="relative p-6 sm:p-8 rounded-2xl border-2 border-[#5D5DE9]/30 overflow-hidden shadow-lg animate-fade-in-right animation-delay-100">
                             <img alt="German Ausbildung vocational training" loading="lazy" decoding="async"
                                 class="absolute inset-0 w-full h-full object-cover object-center rounded-2xl"
-                                src="{{ asset('assets/_next/ausbildung-card-background004b.jpeg') }}" />
+                                src="{{ asset('assets/images/backgrounds/ausbildung-card-background.jpeg') }}" />
                             <div
                                 class="absolute inset-0 bg-gradient-to-br from-white/90 via-white/88 to-[#5D5DE9]/10 backdrop-blur-[0.5px] rounded-2xl">
                             </div>
@@ -1432,7 +1432,7 @@
                         <div class="aspect-video relative">
                             <img alt="Ausbildung Video Guide Cover" loading="lazy" decoding="async"
                                 class="absolute inset-0 w-full h-full object-cover"
-                                src="{{ asset('assets/_next/ausbildung-video-cover-v2a712.jpeg') }}" /><button
+                                src="{{ asset('assets/images/content/ausbildung-video-cover-v2.jpeg') }}" /><button
                                 class="absolute inset-0 flex items-center justify-center group cursor-pointer bg-black/20 hover:bg-black/30 transition-all duration-300"
                                 aria-label="Play video">
                                 <div
@@ -1488,7 +1488,7 @@
                                         <img alt="Healthcare &amp; Nursing mascot" loading="lazy" width="224"
                                             height="224" decoding="async"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
-                                            src="{{ asset('assets/_next/mascot_healthcaredcc0.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/healthcare.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Healthcare &amp; Nursing
@@ -1519,7 +1519,7 @@
                                         <img alt="IT &amp; Software mascot" loading="lazy" width="224"
                                             height="224" decoding="async"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
-                                            src="{{ asset('assets/_next/mascot_itc3c5.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/it.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         IT &amp; Software
@@ -1552,7 +1552,7 @@
                                         <img alt="Engineering &amp; Technical mascot" loading="lazy" width="224"
                                             height="224" decoding="async"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
-                                            src="{{ asset('assets/_next/mascot_engineering75c1.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/engineering.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Engineering &amp; Technical
@@ -1584,7 +1584,7 @@
                                         <img alt="Hospitality &amp; Tourism mascot" loading="lazy" width="224"
                                             height="224" decoding="async"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
-                                            src="{{ asset('assets/_next/mascot_hospitality08bf.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/hospitality.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Hospitality &amp; Tourism
@@ -1616,7 +1616,7 @@
                                         <img alt="Logistics &amp; Transportation mascot" loading="lazy" width="224"
                                             height="224" decoding="async"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
-                                            src="{{ asset('assets/_next/mascot_logistics757f.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/logistics.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Logistics &amp; Transportation
@@ -1648,7 +1648,7 @@
                                         <img alt="Sales &amp; Retail mascot" loading="lazy" width="224"
                                             height="224" decoding="async"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
-                                            src="{{ asset('assets/_next/mascot_sales9644.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/sales.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Sales &amp; Retail
@@ -2062,7 +2062,7 @@
                 <div class="relative overflow-hidden rounded-[24px] md:rounded-[32px] px-6 py-8 md:py-12">
                     <img alt="Professional German workplace environment" loading="lazy" decoding="async"
                         class="absolute inset-0 w-full h-full object-cover object-center rounded-[24px] md:rounded-[32px]"
-                        src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                        src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                     <div class="absolute inset-0 bg-black/30 z-0 rounded-[24px] md:rounded-[32px] azubi-hero-veil"></div>
                     <div class="absolute inset-0 z-[1] rounded-[24px] md:rounded-[32px]"
                         style="

@@ -16,9 +16,9 @@
     <link rel="icon" type="image/png" sizes="512x512" href="{{ asset('assets/images/favicons/favicon-512x512.png') }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicons/apple-touch-icon.png') }}">
     <meta name="theme-color" content="#5D5DE9">
-    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/081a0afca5a9bd20.css') }}?v={{ filemtime(public_path('assets/_next/static/css/081a0afca5a9bd20.css')) }}">
-    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/d9109d77acd75b7b.css') }}?v={{ filemtime(public_path('assets/_next/static/css/d9109d77acd75b7b.css')) }}">
-    <link rel="stylesheet" href="{{ asset('assets/_next/static/css/e2c84361ea1dce8b.css') }}?v={{ filemtime(public_path('assets/_next/static/css/e2c84361ea1dce8b.css')) }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/inter-fontface.css') }}?v={{ filemtime(public_path('assets/css/inter-fontface.css')) }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/tailwind.css') }}?v={{ filemtime(public_path('assets/css/tailwind.css')) }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/legal-prose.css') }}?v={{ filemtime(public_path('assets/css/legal-prose.css')) }}">
     <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ asset('assets/fonts/687613c278c4fd0d8c3d8f2a_DMSans-Regular.woff2') }}">
     <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ asset('assets/fonts/65394e97b7805494f5736d2d_GT-Super-Display-Medium.woff2') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/brand-fonts.css') }}?v={{ filemtime(public_path('assets/css/brand-fonts.css')) }}">

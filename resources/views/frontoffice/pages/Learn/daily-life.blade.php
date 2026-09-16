@@ -35,7 +35,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/rhine-valley-hero-autumn77a4.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/rhine-valley-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -150,7 +150,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/daily-schedule859b.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/daily-schedule.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 Ausbildung students typically follow a structured weekly
@@ -1045,7 +1045,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/student-socialfe90.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/student-social.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 Building a social network during your Ausbildung helps
@@ -1862,7 +1862,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/leisure-germany89ef.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/leisure-germany.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                             <p class="text-white text-sm">
                                 Germany offers numerous affordable leisure activities for
@@ -2174,7 +2174,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

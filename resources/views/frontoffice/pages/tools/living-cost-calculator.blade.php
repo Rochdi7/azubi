@@ -235,7 +235,7 @@
 
                     <!-- Mascot -->
                     <div class="flex justify-center mb-8" aria-hidden="true">
-                        <img src="{{ asset('assets/_next/mascot_welcomingfad6.jpeg') }}"
+                        <img src="{{ asset('assets/images/mascots/welcoming-3.jpeg') }}"
                             alt="Young Oak mascot showing your cost results" width="150" height="150"
                             class="animate-float-slow" />
                     </div>

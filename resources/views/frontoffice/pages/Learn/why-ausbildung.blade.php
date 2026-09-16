@@ -47,7 +47,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/heidelberg-castle-hero-autumn35bd.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/heidelberg-castle-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -145,7 +145,7 @@
                         bottom: 0;
                         color: transparent;
                       "
-                                sizes="100vw" src="{{ asset('assets/_next/earn-while-learn6466.jpeg') }}" />
+                                sizes="100vw" src="{{ asset('assets/images/content/earn-while-learn.jpeg') }}" />
                             <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                                 <p class="text-white text-sm">
                                     Ausbildung trainees earn a monthly salary while gaining
@@ -425,7 +425,7 @@
                         bottom: 0;
                         color: transparent;
                       "
-                                sizes="100vw" src="{{ asset('assets/_next/university-comparisonc52a.jpeg') }}" />
+                                sizes="100vw" src="{{ asset('assets/images/content/university-comparison.jpeg') }}" />
                             <div class="absolute bottom-0 left-0 right-0 bg-secondary/95 p-4">
                                 <p class="text-white text-sm">
                                     Traditional university education focuses on theoretical
@@ -1010,7 +1010,7 @@
                                     <div class="grid lg:grid-cols-12 gap-6 items-center">
                                         <div class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                             <div class="relative">
-                                                <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                                                <img src="{{ asset('assets/images/mascots/pointing-male-2.jpeg') }}"
                                                     alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                             </div>
                                         </div>
@@ -1484,7 +1484,7 @@
                             class="relative h-24 w-24 rounded-full overflow-hidden border-4 border-primary/10 flex-shrink-0">
                             <img alt="Success story profile" loading="lazy" width="200" height="200"
                                 decoding="async" data-nimg="1" class="object-cover" style="color: transparent"
-                                src="{{ asset('assets/_next/success-story-profile068e.jpeg') }}" />
+                                src="{{ asset('assets/images/testimonials/success-story-profile.jpeg') }}" />
                         </div>
                         <div>
                             <h3 class="tracking-tight font-semibold text-base sm:text-lg text-secondary mb-1">
@@ -1532,7 +1532,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

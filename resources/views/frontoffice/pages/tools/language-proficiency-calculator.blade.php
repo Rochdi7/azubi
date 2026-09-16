@@ -1015,7 +1015,7 @@
                       color: transparent;
                     "
                         sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                        src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
+                        src="{{ asset('assets/images/heroes/hero-background-germany-natural-autumn.jpeg') }}" />
                     <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                     <div class="absolute inset-0 z-[1] rounded-2xl"
                         style="

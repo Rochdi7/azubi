@@ -41,7 +41,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/saxon-switzerland-hero-autumndb61.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/saxon-switzerland-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -153,7 +153,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/housing-germany6e22.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/housing-germany.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-card/95 border-t border-primary/10 p-4">
                             <p class="text-foreground text-sm">
                                 Finding suitable accommodation is one of the first
@@ -744,7 +744,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/housing-rentald80e.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/housing-rental.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-card/95 border-t border-primary/10 p-4">
                             <p class="text-foreground text-sm">
                                 The rental process in Germany involves several steps and
@@ -1084,7 +1084,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            sizes="100vw" src="{{ asset('assets/_next/housing-costs-mapac7a.jpeg') }}" />
+                            sizes="100vw" src="{{ asset('assets/images/content/housing-costs-map.jpeg') }}" />
                         <div class="absolute bottom-0 left-0 right-0 bg-card/95 border-t border-primary/10 p-4">
                             <p class="text-foreground text-sm">
                                 Housing costs can significantly impact your monthly budget
@@ -1944,7 +1944,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

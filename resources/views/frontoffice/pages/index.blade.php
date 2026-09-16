@@ -165,7 +165,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
+                src="{{ asset('assets/images/heroes/hero-background-germany-natural-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -225,7 +225,7 @@
                                     <source type="image/webp" />
                                     <img alt="Avatar 1" loading="eager" width="40" height="40" decoding="async"
                                         data-nimg="1" class="rounded-full border-2 border-white" style="color: transparent"
-                                        src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-1.jpeg') }}" />
                                 </picture>
                             </div>
                             <div class="relative h-10 w-10">
@@ -233,7 +233,7 @@
                                     <source type="image/webp" />
                                     <img alt="Avatar 2" loading="eager" width="40" height="40" decoding="async"
                                         data-nimg="1" class="rounded-full border-2 border-white" style="color: transparent"
-                                        src="{{ asset('assets/_next/hero-avatar-2235b.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-2.jpeg') }}" />
                                 </picture>
                             </div>
                             <div class="relative h-10 w-10">
@@ -241,7 +241,7 @@
                                     <source type="image/webp" />
                                     <img alt="Avatar 3" loading="lazy" width="40" height="40" decoding="async"
                                         data-nimg="1" class="rounded-full border-2 border-white" style="color: transparent"
-                                        src="{{ asset('assets/_next/hero-avatar-33eed.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-3.jpeg') }}" />
                                 </picture>
                             </div>
                             <div class="relative h-10 w-10">
@@ -249,7 +249,7 @@
                                     <source type="image/webp" />
                                     <img alt="Avatar 4" loading="lazy" width="40" height="40" decoding="async"
                                         data-nimg="1" class="rounded-full border-2 border-white" style="color: transparent"
-                                        src="{{ asset('assets/_next/hero-avatar-4ec14.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-4.jpeg') }}" />
                                 </picture>
                             </div>
                             <div class="relative h-10 w-10">
@@ -257,7 +257,7 @@
                                     <source type="image/webp" />
                                     <img alt="Avatar 5" loading="lazy" width="40" height="40" decoding="async"
                                         data-nimg="1" class="rounded-full border-2 border-white" style="color: transparent"
-                                        src="{{ asset('assets/_next/hero-avatar-58f5b.jpeg') }}" />
+                                        src="{{ asset('assets/images/avatars/hero-avatar-5.jpeg') }}" />
                                 </picture>
                             </div>
                             <div
@@ -371,7 +371,7 @@
                         bottom: 0;
                         color: transparent;
                       "
-                                src="{{ asset('assets/_next/university-card-background-winter-v2d699.jpeg') }}" />
+                                src="{{ asset('assets/images/backgrounds/university-card-background-winter-v2.jpeg') }}" />
                             <div class="absolute inset-0 bg-white/85 backdrop-blur-[0.5px] rounded-2xl"></div>
                             <div class="relative z-10">
                                 <div class="absolute top-0 right-0">
@@ -445,7 +445,7 @@
                         bottom: 0;
                         color: transparent;
                       "
-                                src="{{ asset('assets/_next/ausbildung-card-background004b.jpeg') }}" />
+                                src="{{ asset('assets/images/backgrounds/ausbildung-card-background.jpeg') }}" />
                             <div
                                 class="absolute inset-0 bg-gradient-to-br from-white/90 via-white/88 to-[#5D5DE9]/10 backdrop-blur-[0.5px] rounded-2xl">
                             </div>
@@ -1987,7 +1987,7 @@
                         bottom: 0;
                         color: transparent;
                       "
-                                src="{{ asset('assets/_next/ausbildung-video-cover-v2a712.jpeg') }}" /><button
+                                src="{{ asset('assets/images/content/ausbildung-video-cover-v2.jpeg') }}" /><button
                                 class="absolute inset-0 flex items-center justify-center group cursor-pointer bg-black/20 hover:bg-black/30 transition-all duration-300"
                                 aria-label="Play video">
                                 <div
@@ -2076,7 +2076,7 @@
                                             height="224" decoding="async" data-nimg="1"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
                                             style="color: transparent"
-                                            src="{{ asset('assets/_next/mascot_itc3c5.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/it.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         IT &amp; Software
@@ -2110,7 +2110,7 @@
                                             height="224" decoding="async" data-nimg="1"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
                                             style="color: transparent"
-                                            src="{{ asset('assets/_next/mascot_engineering75c1.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/engineering.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Engineering &amp; Technical
@@ -2143,7 +2143,7 @@
                                             height="224" decoding="async" data-nimg="1"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
                                             style="color: transparent"
-                                            src="{{ asset('assets/_next/mascot_hospitality08bf.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/hospitality.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Hospitality &amp; Tourism
@@ -2176,7 +2176,7 @@
                                             height="224" decoding="async" data-nimg="1"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
                                             style="color: transparent"
-                                            src="{{ asset('assets/_next/mascot_logistics757f.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/logistics.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Logistics &amp; Transportation
@@ -2209,7 +2209,7 @@
                                             height="224" decoding="async" data-nimg="1"
                                             class="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(44,51,64,0.15)] transition-transform duration-300 group-hover:scale-105"
                                             style="color: transparent"
-                                            src="{{ asset('assets/_next/mascot_sales9644.jpeg') }}" />
+                                            src="{{ asset('assets/images/mascots/sales.jpeg') }}" />
                                     </div>
                                     <h3 class="text-xl font-semibold text-[#2C3340] mb-3 leading-tight">
                                         Sales &amp; Retail
@@ -2327,7 +2327,7 @@
                                     <div class="flex items-start gap-3">
                                         <div class="w-12 h-12 rounded-full overflow-hidden bg-[#5D5DE9]/10 flex-shrink-0">
                                             <img alt="Bhagat" class="w-full h-full object-cover"
-                                                src="{{ asset('assets/_next/hero-avatar-1c9d9.jpeg') }}">
+                                                src="{{ asset('assets/images/avatars/hero-avatar-1.jpeg') }}">
                                         </div>
                                         <div class="flex-1 min-w-0">
                                             <h3 class="font-semibold text-base truncate mb-0.5 text-[#2C3340]">Bhagat</h3>
@@ -3478,7 +3478,7 @@
                     bottom: 0;
                     color: transparent;
                   "
-                        src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                        src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                     <div class="absolute inset-0 bg-black/30 z-0 rounded-[24px] md:rounded-[32px] azubi-hero-veil"></div>
                     <div class="absolute inset-0 z-[1] rounded-[24px] md:rounded-[32px]"
                         style="

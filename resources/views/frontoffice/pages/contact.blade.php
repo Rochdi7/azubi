@@ -111,7 +111,7 @@
                 <div class="hidden lg:flex relative justify-center items-center min-h-[500px]">
                     <div class="relative w-full max-w-lg">
                         <img alt="Azubi mascot welcoming you" width="600" height="600" class="w-full h-auto"
-                            src="{{ asset('assets/_next/mascot_welcominge50a.jpeg') }}">
+                            src="{{ asset('assets/images/mascots/welcoming-2.jpeg') }}">
                     </div>
                 </div>
             </div>
@@ -406,7 +406,7 @@
                 </div>
                 <!-- Mascot sidebar -->
                 <div class="hidden lg:flex flex-col items-center space-y-4">
-                    <img src="{{ asset('assets/_next/mascot_studying_malec9f9.jpeg') }}"
+                    <img src="{{ asset('assets/images/mascots/studying-male-3.jpeg') }}"
                         alt="Azubi mascot encouraging you" class="w-full max-w-[280px] h-auto">
                     <div class="text-center max-w-[240px]">
                         <p class="text-sm text-muted-foreground italic">"We're here to help you succeed!
@@ -664,7 +664,7 @@
         <section class="relative py-16 md:py-20 rounded-2xl overflow-hidden shadow-lg">
             <img alt="Background" loading="lazy" decoding="async" class="object-cover object-center rounded-2xl"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent;"
-                src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}">
+                src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}">
             <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
             <div class="absolute inset-0 z-[1] rounded-2xl"
                 style="background:radial-gradient(ellipse at center,transparent 0%,transparent 40%,rgba(0,0,0,0.4) 100%),linear-gradient(to top,rgba(0,0,0,0.5) 0%,transparent 30%),linear-gradient(to right,rgba(0,0,0,0.3) 0%,transparent 15%),linear-gradient(to left,rgba(0,0,0,0.3) 0%,transparent 15%);">

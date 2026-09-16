@@ -1354,7 +1354,7 @@
                         color: transparent;
                       "
                             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                            src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                            src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                         <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl"></div>
                         <div class="absolute inset-0 z-[1] rounded-2xl"
                             style="

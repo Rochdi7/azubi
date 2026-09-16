@@ -13,7 +13,7 @@
         <div class="mx-auto w-full max-w-2xl px-4 sm:px-6 lg:px-8 text-center space-y-6">
             <div
                 class="mx-auto h-20 w-20 rounded-3xl bg-primary/10 border border-primary/20 flex items-center justify-center overflow-hidden">
-                <img src="{{ asset('assets/_next/mascot_itc3c5.jpeg') }}" alt="IT & Software mascot"
+                <img src="{{ asset('assets/images/mascots/it.jpeg') }}" alt="IT & Software mascot"
                     class="h-16 w-16 object-contain" width="64" height="64" loading="lazy" />
             </div>
             <h1 class="text-3xl md:text-4xl font-bold text-secondary tracking-tight">IT &amp; Software</h1>

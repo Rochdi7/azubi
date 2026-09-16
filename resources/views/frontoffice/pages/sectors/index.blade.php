@@ -32,7 +32,7 @@
             <img alt="Hamburg harbor in autumn - Germany&#39;s business and port city" loading="eager" decoding="async"
                 class="object-cover object-center"
                 style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                src="{{ asset('assets/_next/hamburg-harbor-hero-autumn9127.jpeg') }}" />
+                src="{{ asset('assets/images/heroes/hamburg-harbor-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil">
             </div>
             <div class="absolute inset-0 z-0"
@@ -111,97 +111,97 @@
                     'slug' => 'agriculture',
                     'title' => 'Agriculture & Environment',
                     'description' => 'Agriculture, farming, forestry, and environmental careers',
-                    'image' => 'assets/_next/mascot_welcomingfad6.jpeg',
+                    'image' => 'assets/images/mascots/welcoming-3.jpeg',
                 ],
                 [
                     'slug' => 'automotive',
                     'title' => 'Automotive & Transportation',
                     'description' => 'Automotive manufacturing, repair, and transportation careers',
-                    'image' => 'assets/_next/mascot_engineering75c1.jpeg',
+                    'image' => 'assets/images/mascots/engineering.jpeg',
                 ],
                 [
                     'slug' => 'construction',
                     'title' => 'Construction & Trades',
                     'description' => 'Construction, skilled trades, and craftsmanship careers',
-                    'image' => 'assets/_next/mascot_pointing_malee75a.jpeg',
+                    'image' => 'assets/images/mascots/pointing-male-2.jpeg',
                 ],
                 [
                     'slug' => 'education',
                     'title' => 'Education & Training',
                     'description' => 'Teaching, training, and educational services careers',
-                    'image' => 'assets/_next/mascot_graduate_female94ff.jpeg',
+                    'image' => 'assets/images/mascots/graduate-female-3.jpeg',
                 ],
                 [
                     'slug' => 'energy',
                     'title' => 'Energy & Utilities',
                     'description' => 'Energy production, utilities, and renewable energy careers',
-                    'image' => 'assets/_next/mascot_studying_malec9f9.jpeg',
+                    'image' => 'assets/images/mascots/studying-male-3.jpeg',
                 ],
                 [
                     'slug' => 'engineering',
                     'title' => 'Engineering & Technical',
                     'description' =>
                         "Build your career in Germany's world-renowned engineering and manufacturing industries.",
-                    'image' => 'assets/_next/mascot_engineering75c1.jpeg',
+                    'image' => 'assets/images/mascots/engineering.jpeg',
                 ],
                 [
                     'slug' => 'finance',
                     'title' => 'Finance & Banking',
                     'description' => 'Banking, accounting, insurance, and financial services careers',
-                    'image' => 'assets/_next/mascot_documents_maleebd2.jpeg',
+                    'image' => 'assets/images/mascots/documents-male-3.jpeg',
                 ],
                 [
                     'slug' => 'healthcare',
                     'title' => 'Healthcare & Nursing',
                     'description' =>
                         "Train in one of Germany's most in-demand sectors with excellent career prospects and earning potential.",
-                    'image' => 'assets/_next/mascot_healthcaredcc0.jpeg',
+                    'image' => 'assets/images/mascots/healthcare.jpeg',
                 ],
                 [
                     'slug' => 'hospitality',
                     'title' => 'Hospitality & Tourism',
                     'description' =>
                         "Launch your career in Germany's vibrant hospitality industry with international experience.",
-                    'image' => 'assets/_next/mascot_hospitality08bf.jpeg',
+                    'image' => 'assets/images/mascots/hospitality.jpeg',
                 ],
                 [
                     'slug' => 'it',
                     'title' => 'IT & Software',
                     'description' =>
                         'Start your tech career in Germany with practical training in programming, systems administration, and digital solutions.',
-                    'image' => 'assets/_next/mascot_itc3c5.jpeg',
+                    'image' => 'assets/images/mascots/it.jpeg',
                 ],
                 [
                     'slug' => 'logistics',
                     'title' => 'Logistics & Transportation',
                     'description' =>
                         "Train in Germany's sophisticated logistics sector, managing the flow of goods in Europe's largest economy.",
-                    'image' => 'assets/_next/mascot_logistics757f.jpeg',
+                    'image' => 'assets/images/mascots/logistics.jpeg',
                 ],
                 [
                     'slug' => 'media',
                     'title' => 'Media & Communications',
                     'description' => 'Media, communications, marketing, and creative careers',
-                    'image' => 'assets/_next/mascot_excited_female2395.jpeg',
+                    'image' => 'assets/images/mascots/excited-female-2.jpeg',
                 ],
                 [
                     'slug' => 'other',
                     'title' => 'Other Services',
                     'description' => 'Other professional services and miscellaneous careers',
-                    'image' => 'assets/_next/mascot_thinking_femalee589.jpeg',
+                    'image' => 'assets/images/mascots/thinking-female-4.jpeg',
                 ],
                 [
                     'slug' => 'public-service',
                     'title' => 'Public Service & Administration',
                     'description' => 'Government, public administration, and civil service careers',
-                    'image' => 'assets/_next/mascot_documents_malef502.jpeg',
+                    'image' => 'assets/images/mascots/documents-male-4.jpeg',
                 ],
                 [
                     'slug' => 'sales',
                     'title' => 'Sales & Retail',
                     'description' =>
                         "Develop professional sales and customer service skills in Germany's diverse retail landscape.",
-                    'image' => 'assets/_next/mascot_sales9644.jpeg',
+                    'image' => 'assets/images/mascots/sales.jpeg',
                 ],
             ];
         @endphp
@@ -550,7 +550,7 @@
                                                 <div
                                                     class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                                     <div class="relative">
-                                                        <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/mascots/pointing-male-2.jpeg') }}"
                                                             alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                                     </div>
                                                 </div>
@@ -837,7 +837,7 @@
             <section class="relative py-16 md:py-20 rounded-2xl overflow-hidden shadow-lg">
                 <img alt="Background" loading="lazy" decoding="async" class="object-cover object-center rounded-2xl"
                     style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil">
                 </div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
@@ -850,7 +850,7 @@
                     class="relative z-10 mx-auto max-w-container gap-8 px-6 sm:gap-10 md:px-12 grid lg:grid-cols-2 items-center">
                     <div class="hidden lg:flex justify-center items-center order-first">
                         <div class="relative w-full max-w-md">
-                            <img src="{{ asset('assets/_next/mascot_pointing_malee75a.jpeg') }}"
+                            <img src="{{ asset('assets/images/mascots/pointing-male-2.jpeg') }}"
                                 alt="Young Oak mascot pointing you to start your Ausbildung journey"
                                 class="relative w-full h-auto drop-shadow-xl" />
                         </div>

@@ -28,7 +28,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                src="{{ asset('assets/_next/hamburg-harbor-hero-autumn9127.jpeg') }}" />
+                src="{{ asset('assets/images/heroes/hamburg-harbor-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -143,7 +143,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            src="{{ asset('assets/_next/career-growthcf96.jpeg') }}" />
+                            src="{{ asset('assets/images/content/career-growth.jpeg') }}" />
                         <div class="absolute inset-0 bg-black/60 flex items-end">
                             <p class="text-white p-4 text-sm bg-black/80 w-full">
                                 Ausbildung graduates are in high demand across Germany,
@@ -610,7 +610,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            src="{{ asset('assets/_next/further-educationae61.jpeg') }}" />
+                            src="{{ asset('assets/images/content/further-education.jpeg') }}" />
                         <div class="absolute inset-0 bg-black/60 flex items-end">
                             <p class="text-white p-4 text-sm bg-black/80 w-full">
                                 Advanced qualifications like the Meister or Techniker
@@ -936,7 +936,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            src="{{ asset('assets/_next/salary-growthe008.jpeg') }}" />
+                            src="{{ asset('assets/images/content/salary-growth.jpeg') }}" />
                         <div class="absolute inset-0 bg-black/60 flex items-end">
                             <p class="text-white p-4 text-sm bg-black/80 w-full">
                                 Your earning potential increases significantly as you gain
@@ -1362,7 +1362,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            src="{{ asset('assets/_next/residency377a.jpeg') }}" />
+                            src="{{ asset('assets/images/content/residency.jpeg') }}" />
                         <div class="absolute inset-0 bg-black/60 flex items-end">
                             <p class="text-white p-4 text-sm bg-black/80 w-full">
                                 Completing Ausbildung and working in Germany provides
@@ -1658,7 +1658,7 @@
                       bottom: 0;
                       color: transparent;
                     "
-                            src="{{ asset('assets/_next/entrepreneurshipd865.jpeg') }}" />
+                            src="{{ asset('assets/images/content/entrepreneurship.jpeg') }}" />
                         <div class="absolute inset-0 bg-black/60 flex items-end">
                             <p class="text-white p-4 text-sm bg-black/80 w-full">
                                 Many Ausbildung graduates go on to start successful
@@ -2253,7 +2253,7 @@
                                                 <div
                                                     class="lg:col-span-3 flex justify-center lg:justify-start items-center">
                                                     <div class="relative">
-                                                        <img src="{{ asset('assets/_next/mascot_pointing_male8bc3.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/mascots/pointing-male.jpeg') }}"
                                                             alt="Azubi Mascot" class="w-56 h-auto object-contain" />
                                                     </div>
                                                 </div>
@@ -2543,7 +2543,7 @@
                   bottom: 0;
                   color: transparent;
                 "
-                    src="{{ asset('assets/_next/arbeitgeber-hero-backgroundaa3f.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/arbeitgeber-hero-background.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="

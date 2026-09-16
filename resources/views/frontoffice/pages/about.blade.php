@@ -34,7 +34,7 @@
                 bottom: 0;
                 color: transparent;
               "
-                sizes="100vw" src="{{ asset('assets/_next/heidelberg-castle-hero-autumn35bd.jpeg') }}" />
+                sizes="100vw" src="{{ asset('assets/images/heroes/heidelberg-castle-hero-autumn.jpeg') }}" />
             <div class="absolute inset-0 bg-black/30 z-0 azubi-hero-veil"></div>
             <div class="absolute inset-0 z-0"
                 style="
@@ -288,7 +288,7 @@
                         <img alt="Student navigating Ausbildung complexities" loading="lazy" width="500"
                             height="500" decoding="async" data-nimg="1" class="w-full h-auto max-w-md"
                             style="color: transparent"
-                            src="{{ asset('assets/_next/mascot_thinking_femalee589.jpeg') }}" />
+                            src="{{ asset('assets/images/mascots/thinking-female-4.jpeg') }}" />
                     </div>
                 </div>
             </div>
@@ -654,7 +654,7 @@
                   color: transparent;
                 "
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1280px"
-                    src="{{ asset('assets/_next/hero-background-germany-natural-autumne4b3.jpeg') }}" />
+                    src="{{ asset('assets/images/heroes/hero-background-germany-natural-autumn.jpeg') }}" />
                 <div class="absolute inset-0 bg-black/30 z-0 rounded-2xl azubi-hero-veil"></div>
                 <div class="absolute inset-0 z-[1] rounded-2xl"
                     style="
