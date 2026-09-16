@@ -1,3 +1,11 @@
+/*!
+ * Azubi — ROI Calculator
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 // Sector stipend data
 const sectorData = {
     'healthcare':    { stipend: '950-1200', postSalary: 2800 },

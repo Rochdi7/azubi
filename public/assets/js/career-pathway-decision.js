@@ -1,3 +1,11 @@
+/*!
+ * Azubi — Career Pathway Decision Tool
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 let currentStep = 0;
 const totalQuestions = 7;
 const answers = {

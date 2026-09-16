@@ -1,3 +1,11 @@
+/*!
+ * Azubi — Change Career Page
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 document.addEventListener('DOMContentLoaded', function() {
   // FAQ accordion
   var faqContainer = document.getElementById('changeCareerFaq');

@@ -1,3 +1,11 @@
+/*!
+ * Azubi — Form Dropdowns
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 // Convert static Radix combobox exports into native selects (global)
 (function() {
   function runWhenReady(fn) {

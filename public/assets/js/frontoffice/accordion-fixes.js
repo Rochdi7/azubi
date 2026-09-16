@@ -1,3 +1,11 @@
+/*!
+ * Azubi — Accordion Behaviour
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 // FAQ accordion toggle (global)
 (function() {
   var faqButtons = Array.prototype.filter.call(

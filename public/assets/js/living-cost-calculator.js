@@ -1,3 +1,11 @@
+/*!
+ * Azubi — Living Cost Calculator
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 // ── City cost data (from DAAD / Destatis 2026-2027) ──
 const cityData = {
     munich: {

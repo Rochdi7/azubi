@@ -1,3 +1,11 @@
+/*!
+ * Azubi — FAQ Interactive Features
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 /**
  * FAQ Interactive Features
  * - Search filtering (real-time text search across questions + answers)

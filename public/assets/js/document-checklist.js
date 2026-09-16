@@ -1,3 +1,11 @@
+/*!
+ * Azubi — Document Checklist Tool
+ *
+ * Copyright (c) 2026 Azubi. All rights reserved.
+ * Proprietary and confidential. Unauthorised copying, modification or
+ * distribution of this file, via any medium, is strictly prohibited.
+ */
+
 // Nationalities
 const nationalities = ["Morocco","Spain","Italy","Germany","France","Egypt","Algeria","Other"];
 
